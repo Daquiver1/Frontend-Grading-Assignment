@@ -24,27 +24,26 @@ export default function Hero() {
       <div className="mx-auto max-w-7xl px-6 pb-24 pt-10 sm:pb-32 lg:flex lg:px-8 lg:py-40">
         <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-xl lg:flex-shrink-0 lg:pt-8">
           <img
-            className="h-11"
-            src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
+            className="h-16"
+            src="https://logowik.com/content/uploads/images/university-of-ghana9757.jpg"
             alt="Your Company"
           />
           <div className="mt-24 sm:mt-32 lg:mt-16">
             <a href="#" className="inline-flex space-x-6">
               <span className="rounded-full bg-indigo-600/10 px-3 py-1 text-sm font-semibold leading-6 text-indigo-600 ring-1 ring-inset ring-indigo-600/10">
-                What's new
+                This's new
               </span>
               <span className="inline-flex items-center space-x-2 text-sm font-medium leading-6 text-gray-600">
-                <span>Just shipped v1.0</span>
+                <span>Update v1.0</span>
                 <ChevronRightIcon className="h-5 w-5 text-gray-400" aria-hidden="true" />
               </span>
             </a>
           </div>
           <h1 className="mt-10 text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
-            Deploy to the cloud with confidence
+             Are you sceptical about your results?
           </h1>
           <p className="mt-6 text-lg leading-8 text-gray-600">
-            Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet
-            fugiat veniam occaecat fugiat aliqua.
+            The University of Ghana often get complains from students about not being satisfied with thier grades. This platform will help you out.
           </p>
           <div className="mt-10 flex items-center gap-x-6">
             <a
@@ -62,11 +61,11 @@ export default function Hero() {
           <div className="max-w-3xl flex-none sm:max-w-5xl lg:max-w-none">
             <div className="-m-2 rounded-xl bg-gray-900/5 p-2 ring-1 ring-inset ring-gray-900/10 lg:-m-4 lg:rounded-2xl lg:p-4">
               <img
-                src="https://tailwindui.com/img/component-images/project-app-screenshot.png"
+                src="https://images.pexels.com/photos/66757/pexels-photo-66757.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                 alt="App screenshot"
                 width={2432}
-                height={1442}
-                className="w-[76rem] rounded-md shadow-2xl ring-1 ring-gray-900/10"
+                height={442}
+                className="w-[76rem] rounded-md shadow-2xl ring-1 ring-gray-900/10 h-[900px]"
               />
             </div>
           </div>
