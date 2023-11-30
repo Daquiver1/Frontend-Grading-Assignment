@@ -27,8 +27,8 @@ The application consists of 7 main pages:
 To set up the project locally, follow these steps:
 
 ```bash
-git clone https://github.com/your-repository/grade-reporting-system.git
-cd grade-reporting-system
+git clone https://github.com/your-repository/DCIT_205_ASSIGNGMENT1.git
+cd DCIT_205_ASSIGNGMENT1
 npm install
 npm start
 ```
