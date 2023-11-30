@@ -1,0 +1,19 @@
+{
+  "name": "dcit_205_assigngment1",
+  "version": "1.0.0",
+  "description": "## Project Overview",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "create-vite": "^5.0.0"
+  },
+  "devDependencies": {
+    "install": "^0.13.0",
+    "npm": "^10.2.4"
+  }
+}
