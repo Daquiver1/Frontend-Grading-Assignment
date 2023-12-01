@@ -1,6 +1,6 @@
 import React from 'react'
 import Footer from '../components/footer'
-import { Outlet } from 'react-router-dom'
+import { Link, Outlet,useLocation} from 'react-router-dom'
 
 
 import {
@@ -14,10 +14,10 @@ import {
   
   const navigation = [
     { name: 'Dashboard', href: '/dashboard', icon: HomeIcon, count: '5', current: true },
-    { name: 'Grade Report', href: '/grade-report', icon: UsersIcon, current: false },
-    { name: 'Missing grade form', href: '/missing-grade', icon: FolderIcon, current: false },
-    { name: 'Instructor Contact', href: 'instructor-contact', icon: CalendarIcon,  current: false },
-    { name: 'Help and support', href: 'help-and-support', icon: DocumentDuplicateIcon, current: false },
+    { name: 'Grade Report', href: '/grade_report', icon: UsersIcon, current: false },
+    { name: 'Missing grade form', href: '/missing_grade', icon: FolderIcon, current: false },
+    { name: 'Instructor Contact', href: '/instructor_contact', icon: CalendarIcon,  current: false },
+    { name: 'Help and support', href: '/help_and_support', icon: DocumentDuplicateIcon, current: false },
   ]
   
   function classNames(...classes) {
@@ -26,6 +26,7 @@ import {
   
     export default function MainLayout() {
 
+      const path = useLocation().pathname
   return (
     <div className='flex grow gap-4'>
       <div className="sticky h-screen top-0 flex grow flex-col gap-y-5 overflow-y-auto bg-indigo-600 px-6">
@@ -38,10 +39,10 @@ import {
               <ul role="list" className="-mx-2 space-y-1">
                 {navigation.map((item) => (
                   <li key={item.name}>
-                    <a
-                      href={item.href}
+                    <Link
+                      to={item.href}
                       className={classNames(
-                        item.current
+                        path == item.href
                           ? 'bg-indigo-700 text-white'
                           : 'text-indigo-200 hover:text-white hover:bg-indigo-700 ',
                         'group flex gap-x-3 rounded-md p-2 text-sm leading-6 font-semibold'
@@ -63,7 +64,7 @@ import {
                           {item.count}
                         </span>
                       ) : null}
-                    </a>
+                    </Link>
                   </li>
                 ))}
               </ul>

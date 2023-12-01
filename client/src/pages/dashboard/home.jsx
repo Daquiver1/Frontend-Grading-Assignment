@@ -85,7 +85,7 @@ import { ArrowDownLeftIcon, ArrowUturnLeftIcon, TrashIcon } from "@heroicons/rea
         <div className="flex flex-col gap-2">
             {notifications.map(not => {
                 return(
-                    <div className="cursor-pointer flex flex-col ring-1 ring-inset ring-gray-100 shadow-md rounded-lg p-4 my-2">
+                    <div key={not.title} className="cursor-pointer flex flex-col ring-1 ring-inset ring-gray-100 shadow-md rounded-lg p-4 my-2">
                       <div className="flex justify-between">
                          <p className="text-gray-950 font-[600]">{not.title}</p><span className="text-gray-950 font-[600]"> - {not.sender}</span>
                       </div>
