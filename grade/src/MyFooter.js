@@ -8,7 +8,7 @@ const MyFooter = () => {
     <Navbar fixed="bottom" bg="warning" variant="dark">
       <Container>
         <Navbar.Text className="text-muted">
-          © {new Date().getFullYear()} Your Company
+          © {new Date().getFullYear()} University of Ghana
         </Navbar.Text>
         <Nav className="ml-auto">
           <Nav.Link href="#" className="text-muted" style={{ marginRight: '10px' }}>

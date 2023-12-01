@@ -21,7 +21,7 @@ const MyNavbar = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">
-            <Nav.Link href="#contact">Home</Nav.Link>
+            <Nav.Link href="landing.js">Home</Nav.Link>
             <Nav.Link href="#home">Log In</Nav.Link>
             <Nav.Link href="#about">Dashboard</Nav.Link>
             <Nav.Link href="#contct">Grade Report</Nav.Link>

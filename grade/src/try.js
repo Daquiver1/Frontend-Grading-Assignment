@@ -1,21 +1,41 @@
 import React from 'react';
-import MyNavbar from './nav';
-import MyFooter from './MyFooter';
-import { Container, Navbar, Nav } from 'react-bootstrap';
+import { Container, Navbar, Nav, Jumbotron } from 'react-bootstrap';
 
 const App = () => {
   return (
     <div>
-      <MyNavbar />
-      
-      <MyFooter />
+      <Navbar bg="light" expand="lg">
+        <Container>
+          <Navbar.Brand href="#">
+            <img
+              alt="UG logo"
+              src="images/legon-logo.png"
+              width="30"
+              height="30"
+              className="d-inline-block align-top"
+            />{' '}
+            <span>Missing Grade Reporting System</span>
+          </Navbar.Brand>
+          <Navbar.Toggle aria-controls="navbarNav" />
+          <Navbar.Collapse id="navbarNav">
+            <Nav className="ml-auto">
+              <Nav.Link href="#">Login</Nav.Link>
+              <Nav.Link href="#">Dashboard</Nav.Link>
+              <Nav.Link href="#">Grade Report</Nav.Link>
+              <Nav.Link href="#">Missing Grade Form</Nav.Link>
+              <Nav.Link href="#">Instructor Contact</Nav.Link>
+              <Nav.Link href="#">Help and Support</Nav.Link>
+            </Nav>
+          </Navbar.Collapse>
+        </Container>
+      </Navbar>
 
-
+      <Jumbotron fluid>
         <Container>
           <h1>Welcome to the Missing Grade Reporting System</h1>
           <p>Empowering students to manage their grades effectively</p>
         </Container>
-     
+      </Jumbotron>
 
       <Container>
         <div className="row">
@@ -82,12 +102,22 @@ const App = () => {
         </Container>
       </section>
 
-
-
-
-
-
+      <footer className="bg-dark text-light text-center py-4">
+        <Container>
+          <div className="row">
+            <div className="col-md-6">
+              <p>&cop y; 2023 Missing Grade Reporting System. All rights reserved.</p>
+            </div>
+            <div className="col-md-6">
+              <a href="#" className="text-light me-3"><i className="bi bi-facebook"></i></a>
+              <a href="#" className="text-light me-3"><i className="bi bi-twitter"></i></a>
+              <a href="#" className="text-light me-3"><i className="bi bi-linkedin"></i></a>
+              <a href="#" className="text-light"><i className="bi bi-envelope"></i></a>
+            </div>
           </div>
+        </Container>
+      </footer>
+    </div>
   );
 };
 
