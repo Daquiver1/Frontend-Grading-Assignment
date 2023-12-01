@@ -12,7 +12,8 @@ import GradeLayout from "../pages/grade-report/gradeLayout"
 import MissingGLayout from "../pages/missing_grades/missingGLayout"
 
 //paths
-import { HOME,MAIN_LAYOUT,SIGNIN,DASHBOARD,HELP_AND_SUPPORT, GRADE_REPORT, MISSING_GRADES } from "./constants"
+import { HOME,MAIN_LAYOUT,SIGNIN,DASHBOARD,HELP_AND_SUPPORT, GRADE_REPORT, MISSING_GRADES, INSTRUCTORS } from "./constants"
+import InstructorsLayout from "../pages/instructors/instructorsLayout"
 
 const router = createBrowserRouter(
     createRoutesFromElements(
@@ -22,6 +23,7 @@ const router = createBrowserRouter(
           <Route path={DASHBOARD} element={<DashBoardLayout />}/>
           <Route path={HELP_AND_SUPPORT} element={<HelpAndSupportLayout />}/>
           <Route path={GRADE_REPORT} element={<GradeLayout />}/>
+          <Route path={INSTRUCTORS} element={<InstructorsLayout />}/>
           <Route path={MISSING_GRADES} element={<MissingGLayout/>}/>
         </Route>
 

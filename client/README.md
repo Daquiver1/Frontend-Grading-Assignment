@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project is a front-end web application for a Student Grade Reporting System. It simulates a real-world application where students can view, report, and manage their academic grades. This system addresses the issue of missing or unrecorded grades in a student's profile.
+This project is a front-end web application for a Student Grade Reporting System. It simulates a real-world application where students can view, report, and manage their academic grades. This system addresses the issue of missing or unrecorded grades in a student's profile. Students can submit complaints only a number of times in a semester
 
 ## Application Structure
 
@@ -18,8 +18,8 @@ The application consists of 7 main pages:
 
 ## Technical Details
 
-- **Framework/Technology Used:** [React]
-- **Responsive Design:** Implemented using [CSS Flexbox/Grid, Bootstrap, Tailwind CSS].
+- **Framework/Technology Used:** [React(vite)]
+- **Responsive Design:** Implemented using [CSS Flexbox/Grid, Tailwind CSS].
 - **JavaScript Functionality:** Used for form validations, dynamic content rendering, and simulating interactions.
 
 ## Setup and Installation
@@ -27,17 +27,18 @@ The application consists of 7 main pages:
 To set up the project locally, follow these steps:
 
 ```bash
-git clone https://github.com/your-github-username/DCIT_205_ASSIGNGMENT1.git
-cd repo-name
+git clone https://github.com/jewtechx/Frontend-Grading-Assignment.git
+cd Frontend-Grading-Assignment
 npm install
-npm start
+npm run dev
 ```
 
-This will start the application on `localhost` at the default port.
+This will start the application on `localhost:5173` at the default port.
 
 ## Usage
 
-Describe how to use the application, highlighting key functionalities such as logging in, viewing grades, reporting missing grades, and contacting instructors.
+The student is first suppose to login with his/her student id and pin that was given on the admission letter
+
 
 ## Contribution
 

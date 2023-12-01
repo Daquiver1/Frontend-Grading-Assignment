@@ -8,5 +8,4 @@ export const DASHBOARD = "/dashboard";
 export const HELP_AND_SUPPORT = "/help_and_support";
 export const GRADE_REPORT = "/grade_report";
 export const MISSING_GRADES = "/missing_grade";
-export const DOCUMENTS = '/documents'
-export const CONTACT = '/contact'
+export const INSTRUCTORS = '/instructors_contact'

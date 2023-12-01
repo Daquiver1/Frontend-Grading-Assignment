@@ -65,6 +65,7 @@ import { ArrowDownLeftIcon, ArrowUturnLeftIcon, TrashIcon } from "@heroicons/rea
     ]
     return (
       <div className="text-left">
+        
         <h1 className="mt-4 headline-text2">Current Grades</h1>
         <div className="flex justify-between p-4 flex-wrap items-center grow">
             <p className="body-text font-[600]">Level 200 first semester</p>

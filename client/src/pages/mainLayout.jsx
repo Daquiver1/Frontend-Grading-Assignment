@@ -16,7 +16,7 @@ import {
     { name: 'Dashboard', href: '/dashboard', icon: HomeIcon, count: '5', current: true },
     { name: 'Grade Report', href: '/grade_report', icon: UsersIcon, current: false },
     { name: 'Missing grade form', href: '/missing_grade', icon: FolderIcon, current: false },
-    { name: 'Instructor Contact', href: '/instructor_contact', icon: CalendarIcon,  current: false },
+    { name: 'Instructors\' Contact', href: '/instructors_contact', icon: CalendarIcon,  current: false },
     { name: 'Help and support', href: '/help_and_support', icon: DocumentDuplicateIcon, current: false },
   ]
   
@@ -92,6 +92,9 @@ import {
 
 
       <div className="w-3/4">
+        <center>
+          <img className="h-24 m-4 w-auto rounded-lg" src="https://logowik.com/content/uploads/images/university-of-ghana9757.jpg" alt="ug" />
+        </center>
         <Outlet />
         <Footer />
       </div>
