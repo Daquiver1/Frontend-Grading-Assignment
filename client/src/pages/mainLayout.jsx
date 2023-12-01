@@ -1,14 +1,14 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import Footer from '../components/footer'
 import { Link, Outlet,useLocation} from 'react-router-dom'
 
 
 import {
     CalendarIcon,
-    ChartPieIcon,
     DocumentDuplicateIcon,
     FolderIcon,
     HomeIcon,
+    UserMinusIcon,
     UsersIcon,
   } from '@heroicons/react/24/outline'
   
@@ -26,6 +26,7 @@ import {
   
     export default function MainLayout() {
 
+
       const path = useLocation().pathname
   return (
     <div className='flex grow gap-4'>
@@ -37,14 +38,14 @@ import {
           <ul role="list" className="flex flex-1 flex-col gap-y-7">
             <li>
               <ul role="list" className="-mx-2 space-y-1">
-                {navigation.map((item) => (
+                {navigation.map((item,index) => (
                   <li key={item.name}>
                     <Link
                       to={item.href}
                       className={classNames(
                         path == item.href
                           ? 'bg-indigo-700 text-white'
-                          : 'text-indigo-200 hover:text-white hover:bg-indigo-700 ',
+                          : `text-indigo-200 hover:text-white hover:bg-indigo-700 {index}` ,
                         'group flex gap-x-3 rounded-md p-2 text-sm leading-6 font-semibold'
                       )}
                     >
@@ -72,6 +73,10 @@ import {
             <li>
             </li>
             <li className="-mx-6 mt-auto">
+              <Link to={"/sign-in"} className='w-full py-2.5 px-1.5 text-white flex gap-3 pl-6 font-medium'>
+                <UserMinusIcon className='h-6 w-auto'/>
+                <p className='hidden sm:block'>Sign out</p>
+              </Link>
               <a
                 href="#"
                 className="flex items-center gap-x-4 px-6 py-3 text-sm font-semibold leading-6 text-white hover:bg-indigo-700"
@@ -82,7 +87,7 @@ import {
                   alt=""
                 />
                 <span className="sr-only">Your profile</span>
-                <span aria-hidden="true">Tom Cook</span>
+                <span aria-hidden="true" className='hidden sm:block'> Tom Cook</span>
               </a>
             </li>
           </ul>
