@@ -45,9 +45,8 @@ export default function Contact() {
               </svg>
             </div>
             <h2 className="text-3xl font-bold tracking-tight text-gray-900">Get in touch</h2>
-            <p className="mt-6 text-lg leading-8 text-gray-600">
-              Proin volutpat consequat porttitor cras nullam gravida at. Orci molestie a eu arcu. Sed ut tincidunt
-              integer elementum id sem. Arcu sed malesuada et magna.
+            <p className="body-text">
+              Feel free to send us a message if you are facing any issues in the contact for provided.
             </p>
             <dl className="mt-10 space-y-4 text-base leading-7 text-gray-600">
               <div className="flex gap-x-4">
@@ -56,9 +55,9 @@ export default function Contact() {
                   <BuildingOffice2Icon className="h-7 w-6 text-gray-400" aria-hidden="true" />
                 </dt>
                 <dd>
-                  545 Mavis Island
+                  Computer Science Department
                   <br />
-                  Chicago, IL 99191
+                  UG, IL 99191
                 </dd>
               </div>
               <div className="flex gap-x-4">
@@ -68,7 +67,7 @@ export default function Contact() {
                 </dt>
                 <dd>
                   <a className="hover:text-gray-900" href="tel:+1 (555) 234-5678">
-                    +1 (555) 234-5678
+                    +233 (0) 234-5678-19
                   </a>
                 </dd>
               </div>
@@ -79,7 +78,7 @@ export default function Contact() {
                 </dt>
                 <dd>
                   <a className="hover:text-gray-900" href="mailto:hello@example.com">
-                    hello@example.com
+                    cs.ug.edu.gh
                   </a>
                 </dd>
               </div>
@@ -132,15 +131,15 @@ export default function Contact() {
                 </div>
               </div>
               <div className="sm:col-span-2">
-                <label htmlFor="phone-number" className="block text-sm font-semibold leading-6 text-gray-900">
-                  Phone number
+                <label htmlFor="id" className="block text-sm font-semibold leading-6 text-gray-900">
+                  Id
                 </label>
                 <div className="mt-2.5">
                   <input
                     type="tel"
-                    name="phone-number"
+                    name="id"
                     id="phone-number"
-                    autoComplete="tel"
+                    autoComplete="id"
                     className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                   />
                 </div>
