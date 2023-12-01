@@ -32,7 +32,7 @@ const SignUp = () => {
           <p className="text-[20px] mt-2 text-[#05014a]">
             University of Ghana Academic Record System
           </p>
-          <img src={require("../assets/nice.png")} className="h-full" alt="nice"/>
+          <img src={require("../assets/nice.png")} className="h-full w-[1200px]" alt="nice"/>
         </div>
       </div>
       <div className="w-full h-screen sm:px-[200px] flex flex-col justify-center relative px-4">
@@ -45,14 +45,14 @@ const SignUp = () => {
         <form>
           <h2 className="text-[32px] mb-[38px]">Reset Pin</h2>
           <InputField
-            placeholder="New password"
+            placeholder="New pin"
             value={newPassword}
             type="password"
             onChange={(e) => setNewPassword(e.target.value)}
           />
           <div className="mb-[32px]">{""}</div>
           <InputField
-            placeholder="password"
+            placeholder="pin"
             value={password}
             type="password"
             onChange={(e) => setPassword(e.target.value)}

@@ -65,7 +65,7 @@ const LogIn = () => {
           <div className="h-[30px] flex items-center ">
             {password.length <= 5 && password.length !== 0 && (
               <p className="text-sm text-red-600">
-                Password should be at least six or more characters
+                Password should be five characters
               </p>
             )}
           </div>
