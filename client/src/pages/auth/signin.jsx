@@ -11,7 +11,7 @@ export default function SignIn() {
             src="https://logowik.com/content/uploads/images/university-of-ghana9757.jpg"
             alt="Your Company"
           />
-          <h2 className="mt-6 text-center text-2xl font-bold leading-9 tracking-tight text-gray-900">
+          <h2 className="headline-text">
             Sign in to your account
           </h2>
         </div>
@@ -72,7 +72,7 @@ export default function SignIn() {
               </div>
 
               <div>
-                <Link to={"/"}
+                <Link to={"/dashboard"}
                   className="flex w-full justify-center rounded-md bg-indigo-600 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                 >
                   Sign in
