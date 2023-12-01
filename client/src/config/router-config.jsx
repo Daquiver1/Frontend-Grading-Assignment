@@ -5,12 +5,14 @@ import {Route, createBrowserRouter,
 import SignIn from "../pages/auth/signin"
 import HomeLayout from "../pages/home/homeLayout"
 import DashBoardLayout from "../pages/dashboard/dashBoardLayout"
-
-//paths
-import { HOME,MAIN_LAYOUT,SIGNIN,DASHBOARD,HELP_AND_SUPPORT } from "./constants"
 import NotFound from "../pages/404"
 import MainLayout from "../pages/mainLayout"
 import HelpAndSupportLayout from "../pages/help&support/help&supportLayout"
+import GradeLayout from "../pages/grade-report/gradeLayout"
+import MissingGLayout from "../pages/missing_grades/missingGLayout"
+
+//paths
+import { HOME,MAIN_LAYOUT,SIGNIN,DASHBOARD,HELP_AND_SUPPORT, GRADE_REPORT, MISSING_GRADES } from "./constants"
 
 const router = createBrowserRouter(
     createRoutesFromElements(
@@ -19,6 +21,8 @@ const router = createBrowserRouter(
           <Route path={HOME} element={<HomeLayout />}/>
           <Route path={DASHBOARD} element={<DashBoardLayout />}/>
           <Route path={HELP_AND_SUPPORT} element={<HelpAndSupportLayout />}/>
+          <Route path={GRADE_REPORT} element={<GradeLayout />}/>
+          <Route path={MISSING_GRADES} element={<MissingGLayout/>}/>
         </Route>
 
           <Route path={SIGNIN} element={<SignIn />}/>
