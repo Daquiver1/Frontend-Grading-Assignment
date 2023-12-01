@@ -37,7 +37,21 @@ This will start the application on `localhost:5173` at the default port.
 
 ## Usage
 
-The student is first suppose to login with his/her student id and pin that was given on the admission letter
+. The student is first suppose to login with his/her student id and pin that was given on the admission letter. This means there is no option to create an account
+
+. Students can have access to their grades for all the time they have been in the school
+
+. Students can file a complaint for remarking if they are not satisfied with their grades for a specific course
+
+. Students can get access to the contact for all the instructors in their department
+
+## Screenshots of the project
+
+
+## Useful stuff I learnt from this project
+. I learnt how to make advanced responsive pages with tailwindcss
+. Writing tests for the components and forms
+. Captivating tailwindcss utility classes
 
 
 ## Contribution
@@ -50,3 +64,7 @@ To contribute to this project, please follow these guidelines:
 4. Submit a pull request for review.
 
 Please adhere to the project's coding standards and provide clear and detailed pull request descriptions.
+
+## This project was done by 
+**Jew Kofi Larbi Danquah**
+**11225319**
