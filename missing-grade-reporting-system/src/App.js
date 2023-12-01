@@ -1,6 +1,5 @@
 import logo from './logo.svg';
 import './App.css';
-import './NavigationBar.js';
 
 function App() {
   return (
@@ -16,7 +15,9 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Learn React <br></br>
+          I'm trying very hard to understand this sh*t!! <br></br>
+          God have mercy on my soul!!
         </a>
       </header>
     </div>
