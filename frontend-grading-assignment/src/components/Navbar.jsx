@@ -30,28 +30,28 @@ const Navbar = () => {
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
                             <li className="nav-item">
-                            <a className="nav-link active m-2 text-white" aria-current="page" href="#">Home</a>
+                                <a className="nav-link active m-2 text-white" aria-current="page" href="/">Home</a>
                             </li>
                             <li className="nav-item">
-                            <a className="nav-link m-2 text-white" href="#">Login</a>
+                               <a className="nav-link m-2 text-white" href="login">Login</a>
                             </li>
                             
                             <li className="nav-item">
-                               <a className="nav-link m-2 text-white" href="#" aria-disabled="true">Dashboard</a>
+                               <a className="nav-link m-2 text-white" href="dashboard" aria-disabled="true">Dashboard</a>
                             </li>
                             <li className="nav-item">
-                               <a className="nav-link m-2 text-white" href="#" aria-disabled="true">Report Grade</a>
+                               <a className="nav-link m-2 text-white" href="report-grade" aria-disabled="true">Report Grade</a>
                             </li>
                             <li className="nav-item">
-                              <a className="nav-link m-2 text-white" href="#" aria-disabled="true">Missing Grade</a>
-                            </li>
-
-                            <li className="nav-item">
-                               <a className="nav-link m-2 text-white" href="#" aria-disabled="true">Contact</a>
+                              <a className="nav-link m-2 text-white" href="missing-grade" aria-disabled="true">Missing Grade</a>
                             </li>
 
                             <li className="nav-item">
-                              <a className="nav-link m-2 text-white" href="#" aria-disabled="true">Help & Support</a>
+                               <a className="nav-link m-2 text-white" href="contact" aria-disabled="true">Contact</a>
+                            </li>
+
+                            <li className="nav-item">
+                              <a className="nav-link m-2 text-white" href="help&support" aria-disabled="true">Help & Support</a>
                             </li>
                         </ul>
                         {/* <form class="d-flex" role="search">

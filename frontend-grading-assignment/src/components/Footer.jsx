@@ -24,7 +24,7 @@ const Footer = () => {
                     </div>
 
                     <div className="row mt-4">
-                        <div className="col col-6 col-md-3 col-sm-g col-xs-12">
+                        <div className="12ol col-16 col-md-3 col-sm-12 col-xs-12">
                             <div className="address">
                                 <h4 className="text-primary">Get In Touch</h4>
                                 <ul className="list-unstyled">
@@ -42,7 +42,7 @@ const Footer = () => {
                                 </ul>
                             </div>
                         </div>
-                        <div className="col col-6 col-md-3 col-sm-g col-xs-12">
+                        <div className="col col-12 col-md-3 col-sm-12 col-xs-12">
                         <div className="address">
                                 <h4 className="text-primary">Useful Links</h4>
                                 <ul className="list-unstyled">
@@ -76,7 +76,7 @@ const Footer = () => {
                             </div>
                             
                         </div>
-                        <div className="col col-6 col-md-3 col-sm-g col-xs-12">
+                        <div className="col col-12 col-md-3 col-sm-12 col-xs-12">
                             <h4 className="text-primary">Our Services</h4>
                             <ul className="list-unstyled">
                                     <li>
@@ -107,7 +107,7 @@ const Footer = () => {
                                     
                                 </ul>
                         </div>
-                        <div className="col col-6 col-md-3 col-sm-g col-xs-12">
+                        <div className="col col-12 col-md-3 col-sm-12 col-xs-12">
                             <div className="newsletter">
                                 <h4 className="text-primary">Subscribe To  our Newsletter</h4>
                                 <p className="text-white">Get the latest news, updates and offers from us.</p>
