@@ -1,24 +1,46 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Landing from './components/pages/Landing_page';
+import Dashboard from './components/pages/Dashboard_page';
+import Login from './components/pages/Login_page';
+import Navbar from './components/inc/Navbar';
+import {BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          missing-grade-system
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <Router>
+
+    <div>
+
+    <Navbar/>
+      <Routes>
+    
+      <Route  path= "/Landing">
+      <Landing/>
+      </Route>
+
+      <Route path= "/Dashboard">
+      <Dashboard />
+      </Route>
+
+      <Route path= "/Login">
+      <Login />
+      </Route>
+
+      </Routes>
+
+      
+
+     
+      
+      
+      
     </div>
+    </Router>
+    
+    
+
   );
 }
 
