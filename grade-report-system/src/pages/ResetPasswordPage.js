@@ -45,14 +45,14 @@ const SignUp = () => {
         <form>
           <h2 className="text-[32px] mb-[38px]">Reset Pin</h2>
           <InputField
-            placeholder="New pin"
+            placeholder="Pin"
             value={newPassword}
             type="password"
             onChange={(e) => setNewPassword(e.target.value)}
           />
           <div className="mb-[32px]">{""}</div>
           <InputField
-            placeholder="pin"
+            placeholder="New pin"
             value={password}
             type="password"
             onChange={(e) => setPassword(e.target.value)}
