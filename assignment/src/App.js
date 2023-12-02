@@ -6,6 +6,7 @@ function App() {
    <>
    <div className="bg-slate-600 w-full h-screen">
     <Nav/>
+   
    </div>
    </>
   );
