@@ -1,7 +1,11 @@
 import React from 'react';
 import MyNavbar from './nav';
 import MyFooter from './MyFooter';
+import login from './Login';
+import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
 import { Container, Navbar, Nav } from 'react-bootstrap';
+
+
 
 const App = () => {
   return (
@@ -18,7 +22,7 @@ const App = () => {
      
 
       <Container>
-        <div className="row">
+        <div >
           <div className="col-lg-6 order-lg-1">
             <img
               src="images/confused.jpg"

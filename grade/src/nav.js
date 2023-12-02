@@ -3,6 +3,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import Container from 'react-bootstrap/Container';
 import Image from 'react-bootstrap/Image';
+import login from './Login';
 
 const MyNavbar = () => {
   return (
@@ -21,8 +22,8 @@ const MyNavbar = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">
-            <Nav.Link href="landing.js">Home</Nav.Link>
-            <Nav.Link href="#home">Log In</Nav.Link>
+            <Nav.Link href="/landing.js">Home</Nav.Link>
+            <Nav.Link href="/login.js">Log In</Nav.Link>
             <Nav.Link href="#about">Dashboard</Nav.Link>
             <Nav.Link href="#contct">Grade Report</Nav.Link>
             <Nav.Link href="#cntact">Missing Grade Form</Nav.Link>
