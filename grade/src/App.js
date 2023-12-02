@@ -2,8 +2,14 @@ import React from 'react';
 import MyNavbar from './nav';
 import MyFooter from './MyFooter';
 import login from './Login';
-import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch, Link, BrowserRouter } from 'react-router-dom';
 import { Container, Navbar, Nav } from 'react-bootstrap';
+import Login from './Login';
+<BrowserRouter>
+  <Route>
+    <Route path='/Login' element={< Login/>} />
+  </Route>
+</BrowserRouter>
 
 
 
