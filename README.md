@@ -1,5 +1,7 @@
 # Student Grade Reporting System Frontend
 
+## Muiz Ajeola Bello -- 11068463
+
 ## Project Overview
 
 This project is a front-end web application for a Student Grade Reporting System. It simulates a real-world application where students can view, report, and manage their academic grades. This system addresses the issue of missing or unrecorded grades in a student's profile.
@@ -27,8 +29,8 @@ The application consists of 7 main pages:
 To set up the project locally, follow these steps:
 
 ```bash
-git clone https://github.com/your-github-username/DCIT_205_ASSIGNGMENT1.git
-cd repo-name
+git clone https://github.com/muizbello/11068463_DCIT205_Assignment1.git
+cd 11068463_DCIT205_Assignment1
 npm install
 npm start
 ```
