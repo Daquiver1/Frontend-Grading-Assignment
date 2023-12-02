@@ -25,10 +25,23 @@ function Navbar() {
         <Link to="/Login" class="nav-link active">Login</Link>
         </li>
         <li class="nav-item">
-
-        
-          
+        <Link to="/GradeReport" class="nav-link active">GradeReport</Link>
         </li>
+
+        <li class="nav-item">
+        <Link to="/MissingGrade" class="nav-link active">MissingGrade</Link>
+        </li>
+
+        <li class="nav-item">
+        <Link to="/InstructorContact" class="nav-link active">InstructorContact</Link>
+        </li>
+
+        <li class="nav-item">
+        <Link to="/Help" class="nav-link active">Help</Link>
+        </li>
+        
+        
+
       </ul>
       
     </div>
