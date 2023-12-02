@@ -7,9 +7,9 @@ import InputField from "../components/InputField";
 
 const navigation = [
   { name: 'Home', href:"/index" },
-  { name: 'Instructor Contact Page', href: '#' },
-  { name: 'Help and Support Page', href: '#' },
-  { name: 'Company', href: '#' },
+  { name: 'Instructor Contact', href: '#' },
+  { name: 'Help and Support', href: '#' },
+  { name: 'Grade Report', href: '#' },
 ]
 
 
