@@ -49,6 +49,8 @@ function Instructor() {
                 </div>
             </div>
 
+            <form action="" id="message-form">
+            <h3>Send a Message</h3>
             <fieldset>
                 <label htmlFor="name">
                     Instructor Name
@@ -74,12 +76,13 @@ function Instructor() {
                 </label>
                 <label htmlFor="message">
                     Message
-                    <textarea name="message" id="" cols="30" rows="10" placeholder="Enter message..."></textarea>
+                    <textarea name="message" id="" cols="30" rows="10" placeholder="Enter message..." required></textarea>
                 </label>
             </fieldset>
 
-            <button id="submit">Submit</button>
-            
+            <input type="submit" name="submit" id="submit" />
+            </form>
+
         </div>
     )
 }

@@ -11,6 +11,9 @@ import Grade from './pages/grade/grade'
 import Instructor from './pages/instructor/instructor'
 import Footer from './navigations/footer'
 import { GiHamburgerMenu } from "react-icons/gi"
+import Submit from './pages/submit/submit'
+
+
 
 function App() {
 
@@ -35,6 +38,7 @@ function App() {
           <Route path='/dashboard' element={<Dashboard />}/>
           <Route path='/instructor' element={<Instructor />}/>
           <Route path='/missingGrade' element={<MissingGrade />}/>
+          <Route path='/submit' element={<Submit />}/>
         </Routes>
 
       </div>

@@ -1,6 +1,35 @@
 import React from "react";
 import "./help.css"
 
+
+/* function message(){
+    var Name = document.getElementById('name');
+    var email = document.getElementById('email');
+    var msg = document.getElementById('msg');
+    const success = document.getElementById('success');
+    const danger = document.getElementById('danger');
+
+    if(Name.value === '' || email.value === '' || msg.value === ''){
+        danger.style.display = 'block';
+    }
+    else{
+        setTimeout(() => {
+            Name.value = '';
+            email.value = '';
+            msg.value = '';
+        }, 2000);
+
+        success.style.display = 'block';
+    }
+
+
+    setTimeout(() => {
+        danger.style.display = 'none';
+        success.style.display = 'none';
+    }, 4000);
+
+} */
+
 function Help() {
     return(
         <div className="help-page">
@@ -19,25 +48,31 @@ function Help() {
 
             <div id="contact">
                 <h3>Contact Form</h3>
-                <fieldset>
-                    <label htmlFor="name">
-                        Name
-                        <input type="text" name="name" id="name" />
-                    </label>
-                    <label htmlFor="contact">
-                        Contact
-                        <input type="text" name="contact" id="contact" />
-                    </label>
-                    <label htmlFor="email">
-                        Email
-                        <input type="email" name="email" id="email" />
-                    </label>
-                    <label htmlFor="issue">
-                        Issue
-                        <textarea placeholder="Enter any issues you may have..." />
-                    </label>
-                </fieldset>
-                <button id="submit">Submit</button>
+                <form id="contact-form" action="">
+                    <fieldset>
+                        <label htmlFor="name">
+                         Name
+                            <input type="text" name="name" id="name" required/>
+                        </label>
+                        <label htmlFor="contact">
+                            Contact
+                            <input type="text" name="contact" id="contact" required/>
+                        </label>
+                        <label htmlFor="email">
+                            Email
+                            <input type="email" name="email" id="email" required/>
+                        </label>
+                        <label htmlFor="issue">
+                            Issue
+                            <textarea placeholder="Enter any issues you may have..." required/>
+                        </label>
+                    </fieldset>
+                    <input type="submit" id="submit" onSubmit={"Message Sent!"}/>
+                </form>
+                {/* <div class="message">
+                <div class="success" id="success">Your Message Successfully Sent!</div>
+                <div class="danger" id="danger">Feilds Can't be Empty!</div>
+                </div> */}
             </div>
         </div>
     )

@@ -1,0 +1,11 @@
+.message {
+    background-color: aliceblue;
+    padding: 100px;
+    margin: 200px;
+    text-align: center;
+    font-size: 30px;
+    font-family: palatino, Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    font-weight: 800;
+    border-radius: 50px;
+}
