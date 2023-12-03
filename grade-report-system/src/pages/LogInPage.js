@@ -1,6 +1,7 @@
 import React, { useState, useContext } from "react";
 import { Link } from "react-router-dom";
 import InputField from "../components/InputField";
+import { useNavigate } from 'react-router-dom';
 
 const navigation = [
   { name: 'Home', href:"/index" },
@@ -10,28 +11,119 @@ const navigation = [
 ]
 
 
+
 const LogIn = () => {
 
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
-  const { signin } = useState("");
-  console.log({
-    signin
-  })
+  const [error, setError] =useState('');
+  const [isLoggedIn, setIsLoggedIn] = useState(false)
+  const navigate = useNavigate();
+
+  const studentCredentials = [
+    {
+      email: '11288689',
+      password: '86765'
+    },
+    {
+      email:'11276276',
+      password:'53267'
+    },
+    {
+      email:'11278276',
+      password:'52567'
+    },
+    {
+      email:'11279276',
+      password:'56747'
+    },
+    {
+      email:'11276312',
+      password:'59980'
+    },
+    {
+      email:'11251276',
+      password:'53267'
+    },
+    {
+      email:'11412576',
+      password:'64167'
+    },
+    {
+      email:'11514276',
+      password:'66467'
+    },
+    {
+      email:'11112276',
+      password:'69267'
+    },
+    {
+      email:'11314176',
+      password:'63289'
+    },
+    {
+      email:'11316786',
+      password:'63281'
+    },
+    {
+      email:'11311111',
+      password:'53267'
+    },
+    {
+      email:'11312312',
+      password:'49687'
+    },
+    {
+      email:'11318967',
+      password:'31254'
+    },
+    {
+      email:'11316276',
+      password:'43467'
+    },
+    {
+      email:'11323376',
+      password:'83267'
+    },
+    {
+      email:'11381476',
+      password:'59267'
+    },
+    {
+      email:'11351276',
+      password:'49267'
+    },
+    {
+      email:'11393376',
+      password:'39267'
+    },
+    {
+      email:'11324476',
+      password:'29267'
+    }
+
+  ];
+
 
   const onSubmitHandler = async (e) => {
     e.preventDefault();
 
-    try {
-      const response = await signin(email, password);
-      // The logic for setting cookies and redirecting should be handled inside the signin function,
-      // which updates the state of the userInfo object.
-    } catch (error) {
-      console.log(error);
-      console.log(error)
-    }
+    const matchedStudent = studentCredentials.find(
+      (student) => student.email === email && student.password === password
+    );
+    
+    if (matchedStudent) {
+      // Login successful
+      setIsLoggedIn(true);
+      setError('');
+      navigate('/dashboard');
+    } else {
+      // Login failed
+      setError('Invalid student ID or PIN');
+    };
   };
 
+   
   return (
     <div className="w-full sm:h-screen flex flex-row h-auto">
       <header className="absolute inset-x-0 top-0 z-50">

@@ -17,7 +17,8 @@ const LandingPage = () => {
         <div className="bg-[#e0f2fe]">
             <header className="absolute inset-x-0 top-0 z-50 ">
                 <nav className="flex items-center justify-between p-6 lg:px-8 h-[80px] bg-[#e0f2fe] fixed w-full" aria-label="Global" >
-                    <div className="flex lg:flex-1">
+                <h1 className='text-4xl'><b>University of Ghana</b></h1> 
+                    <div className="flex lg:flex-1 pt-[15px]">
                         <a href="#" className="-m-1.5 p-1.5">
                             <img
                             className="h-[100px] w-auto"
