@@ -1,0 +1,99 @@
+/* LandingPage.css */
+
+/* Global styles */
+/* LandingPage.css */
+
+body {
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  background-image: url("/src/assets/img/images.png"); /* Set the path to your image */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Add your existing styles below */
+
+/* Navbar styles */
+.navbar {
+  background-image: url("/src/assets/img/images.jpeg");
+}
+.Logo-login {
+  text-align: center;
+  width: 100px;
+  background-color: rgb(8, 9, 9);
+  float: right;
+}
+
+.navbar-brand {
+  color: #ffffff;
+}
+
+.navbar-nav .nav-link {
+  color: #ffffff;
+}
+
+/* Landing page styles */
+.landing-page {
+  padding-top: 56px; /* Adjusted for fixed navbar height */
+}
+
+.display-3 {
+  color: #f1ecec;
+  position: center;
+  text-align: center;
+  line-height: 10vh;
+  background-color: rgb(46, 76, 76);
+}
+
+.lead {
+  color: #0d0f10;
+  position: center;
+  text-align: center;
+  line-height: 10vh;
+}
+
+.btn-primary {
+  background-color: #aabfd7;
+  border-color: rgb(21, 22, 21);
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+  cursor: pointer; /* Optional: Change cursor style on hover */
+}
+
+.btn-primary:hover {
+  background-color: rgb(41, 212, 64);
+  border-color: #aabfd7;
+}
+
+/* Image styles */
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Feature section styles */
+.bg-dark {
+  background-image: url("/src/assets/img/main.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.text-white {
+  color: rgb(247, 247, 247);
+}
+
+/* Footer styles */
+.footer {
+  background-color: #e0e6ec;
+  padding: 20px 0;
+  text-align: center;
+  line-height: 100vh;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .landing-page {
+    padding-top: 70px; /* Adjusted for collapsed navbar height */
+  }
+}
