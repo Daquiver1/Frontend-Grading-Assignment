@@ -1,0 +1,38 @@
+/* DashboardPage.css */
+
+.dashboard-container {
+  padding: 20px;
+}
+
+.dashboard-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.dashboard-content h1 {
+  font-size: 2em;
+}
+
+.dashboard-content h2 {
+  color: #333;
+}
+
+.current-courses ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.current-courses li {
+  margin-bottom: 10px;
+}
+
+.dashboard-quick-links ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.dashboard-quick-links li {
+  margin-bottom: 10px;
+}
+
+/* Add more styling based on your design preferences */

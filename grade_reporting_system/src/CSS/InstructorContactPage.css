@@ -1,0 +1,65 @@
+/* InstructorContactPage.css */
+
+.instructor-contact-container {
+  padding: 20px;
+}
+
+.instructor-contact-content {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.instructor-contact-content h1 {
+  font-size: 2em;
+}
+
+.instructors-list h2 {
+  margin-top: 20px;
+  color: #333;
+}
+
+.instructors-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.instructors-list li {
+  margin-bottom: 10px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+select,
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.confirmation-message {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #d4edda
+}
