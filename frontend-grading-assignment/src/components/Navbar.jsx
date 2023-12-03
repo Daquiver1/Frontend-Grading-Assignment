@@ -19,7 +19,7 @@ const Navbar = () => {
     return (
 
         <div>
-            <nav className={ scrollY >= 10 ? "navbar navbar-expand-lg fixed-top scrolled" : "navbar navbar-expand-lg fixed-top"}>
+            <nav className={`navbar navbar-expand-lg fixed-top ${scrollY >= 10 ? " scrolled" : ""}`}>
                 <div class="container-fluid">
                     <a className="navbar-brand" href="#">
                       <i className="bi bi-mortarboard-fill text-primary fs-1"></i>
@@ -51,7 +51,7 @@ const Navbar = () => {
                             </li>
 
                             <li className="nav-item">
-                              <a className="nav-link m-2 text-white" href="help&support" aria-disabled="true">Help & Support</a>
+                              <a className="nav-link m-2 text-white" href="help" aria-disabled="true">Help & Support</a>
                             </li>
                         </ul>
                         {/* <form class="d-flex" role="search">
