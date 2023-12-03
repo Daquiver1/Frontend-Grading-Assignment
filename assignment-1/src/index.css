@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --ugGold: #B69A64;
+  --ugBlue: #153D6F; 
+}
+
+
+body {
+  margin: 0;
+  font-family: "DM Sans", Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+section {
+  padding:30px;
+  width: 85%;
+  margin: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  padding-inline-start: 0;
+}
+
+
+h1 {
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.primary-button {
+  color: white;
+  border: 2px solid var(--ugBlue);
+  background-color: var(--ugBlue);
+  width: fit-content;
+  padding: 10px 25px;
+  border-radius: 999em;
+  font-weight: bold;
+}
+.primary-button:hover {
+  color: var(--ugBlue);
+  background-color: white;
+}
+
+.pulsing-text {
+  color: white;
+  animation: changeColor 2.5s ease-in-out;
+  animation-iteration-count: infinite;
+  background-color: var(--ugBlue);
+  padding: 5px 10px;
+  border-radius: 999em;
+  margin-right: 5px;
+}
+
+@keyframes changeColor {
+  0% {
+    background-color: var(--ugBlue);
+  }
+  50% {
+    background-color: var(--ugGold);
+  }
+  100% {
+    background-color: var(--ugBlue);
+  }
+}
+@keyframes fadeInOut {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+  
+}
+  
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+  
+}
+  
