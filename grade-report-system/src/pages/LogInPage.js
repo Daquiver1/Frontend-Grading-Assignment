@@ -3,12 +3,7 @@ import { Link } from "react-router-dom";
 import InputField from "../components/InputField";
 import { useNavigate } from 'react-router-dom';
 
-const navigation = [
-  { name: 'Home', href:"/index" },
-  { name: 'Instructor Contact', href: '#' },
-  { name: 'Help and Support', href: '#' },
-  { name: 'Grade Report', href: '#' },
-]
+
 
 
 
@@ -126,29 +121,26 @@ const LogIn = () => {
    
   return (
     <div className="w-full sm:h-screen flex flex-row h-auto">
-      <header className="absolute inset-x-0 top-0 z-50">
-        <nav className="flex items-center justify-between p-6 lg:px-8 h-[80px] bg-[#e0f2fe] fixed w-full" aria-label="Global" >
-            <div className="flex lg:flex-1">
-                <a href="#" className="-m-1.5 p-1.5">
-                    <img
-                    className="h-[100px] w-auto"
-                    src={require("../assets/uglogo.png")}
-                    alt=""
-                    />
-                </a>
-            </div>
-            <div className="hidden lg:flex lg:gap-x-12">
-                {navigation.map((item) => (
-                    <a key={item.name} href={item.href} className="text-sm font-semibold leading-6 text-gray-900">
-                    {item.name}
-                    </a>
-                ))}
-            </div>
-            <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-        
-            </div>
-        </nav>
-      </header>
+        <header className="absolute inset-x-0 top-0 z-50 ">
+            <nav className="flex items-center justify-between p-6 lg:px-8 h-[80px] bg-[#000435] fixed w-full" aria-label="Global" >
+            <h1 className='text-4xl text-[#fff]'><b>University of Ghana</b></h1> 
+              <div className="flex lg:flex-1 pt-[15px]">
+                  <a href="#" className="-m-1.5 p-1.5">
+                      <img
+                      className="h-[100px] w-auto"
+                      src={require("../assets/uglogo.png")}
+                      alt=""
+                      />
+                  </a>
+              </div>
+             
+              <div className="hidden lg:flex lg:flex-1 lg:justify-end">
+                  <Link to="/index" className="text-sm font-semibold leading-6 text-[#fff]">
+                   Home
+                  </Link>
+              </div>
+            </nav>
+        </header>
       <div className="w-[1000px] h-screen sm:px-[200px] flex flex-col justify-center px-5">
         <form>
           <h2 className="sm:text-[28px] text-[25px]">Sign into your account</h2>

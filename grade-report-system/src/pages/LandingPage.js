@@ -4,20 +4,14 @@ import niceImage from '../assets/nice.png';
 import { MdOutlineArrowForwardIos, MdCopyright } from "react-icons/md";
 
 
-const navigation = [
-    { name: 'Home', href:"/index" },
-    { name: 'Instructor Contact', href: '/contact' },
-    { name: 'Help and Support', href: '/support' },
-    { name: 'Grade Report', href: '/report' },
-  ]
 
 const LandingPage = () => {
 
     return (
         <div className="bg-[#e0f2fe]">
             <header className="absolute inset-x-0 top-0 z-50 ">
-                <nav className="flex items-center justify-between p-6 lg:px-8 h-[80px] bg-[#e0f2fe] fixed w-full" aria-label="Global" >
-                <h1 className='text-4xl'><b>University of Ghana</b></h1> 
+                <nav className="flex items-center justify-between p-6 lg:px-8 h-[80px] bg-[#000435] fixed w-full" aria-label="Global" >
+                <h1 className='text-4xl text-[#fff]'><b>University of Ghana</b></h1> 
                     <div className="flex lg:flex-1 pt-[15px]">
                         <a href="#" className="-m-1.5 p-1.5">
                             <img
@@ -27,15 +21,9 @@ const LandingPage = () => {
                             />
                         </a>
                     </div>
-                    <div className="hidden lg:flex lg:gap-x-12">
-                        {navigation.map((item) => (
-                            <a key={item.name} href={item.href} className="text-sm font-semibold leading-6 text-gray-900">
-                            {item.name}
-                            </a>
-                        ))}
-                    </div>
+                    <h1 className='text-4xl text-[#fff]'><b>ACADEMIC GRADE REPORT</b></h1> 
                     <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-                        <Link to="/login" className="text-sm font-semibold leading-6 text-gray-900">
+                        <Link to="/login" className="text-sm font-semibold leading-6 text-[#fff]">
                         Log in <span aria-hidden="true">&rarr;</span>
                         </Link>
                     </div>
@@ -92,15 +80,19 @@ const LandingPage = () => {
                     </div>
                 </div>
                 <div className="sm:h-auto sm:ml-12 sm:pt-0 pt-5">
-                    <span className="text-white sm:ml-3 mb-5 text-lg font-bold">Legal</span>
+                    <span className="text-white sm:ml-3 mb-5 text-lg font-bold">Level of Education</span>
                     <div className="sm:flex sm:flex-col sm:leading-relaxed sm:mt-3">
                     <span className="text-white flex items-center">
                         <MdOutlineArrowForwardIos className="mr-1" />
-                        Privacy Policy
+                        Undergraduate
                     </span>
                     <span className="text-white flex items-center">
                         <MdOutlineArrowForwardIos className="mr-1" />
-                        Terms & Conditions
+                        Postgraduate
+                    </span>
+                    <span className="text-white flex items-center">
+                        <MdOutlineArrowForwardIos className="mr-1" />
+                        Distance Education
                     </span>
                     </div>
                 </div>
@@ -118,9 +110,6 @@ const LandingPage = () => {
                     </div>
                 </div>
                 </div>
-                <div className="sm:display-none sm:border-none border-2 w-[80%] my-0 mx-auto mt-12 rounded">
-                </div>
-
                 <div className="flex flex-col items-center">
                 <div className="flex justify-center my-7">
                     <img
