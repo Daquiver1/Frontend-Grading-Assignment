@@ -6,18 +6,14 @@ const Navbar=()=>{
             <a className="ui real inverted segment">Grade-Tracker</a>
             <div className="ui right floated header">
                 <button className="ui button"><a href="/">Home</a></button>
-                <button className="ui button"><a href="/">GradeReport</a></button>
-                <button className="ui button"><a href="/">Login</a></button>
-                <button className="ui button"><a href="/">About</a></button>
-                <button className="ui button"><a href="/">Contact</a></button>
-                <button className="ui button"><a href="/">Dashboard</a></button>
-                <button className="ui button"><a href="/">InstructorContact</a></button>
-            
-            
+                <button className="ui button"><a href="/GradeReport">GradeReport</a></button>
+                <button className="ui button"><a href="/Login">Login</a></button>
+                <button className="ui button"><a href="/About">About</a></button>
+                <button className="ui button"><a href="/Contact">Contact</a></button>
+                <button className="ui button"><a href="/Dashboard">Dashboard</a></button>
+                <button className="ui button"><a href="/InstructorContact">InstructorContact</a></button>
             </div>
-        
         </nav>
-    )
-         
+    )  
 }
 export default Navbar; 
