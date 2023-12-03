@@ -32,13 +32,13 @@ const InputField = ({ placeholder, type, value, onChange, color }) => {
           className="w-7 h-6 mr-[13px]"
         />
       )}{" "}
-      {type === "password" && (value.length < 6 && value.length !== 0) && (
+      {type === "password" && (value.length < 5 && value.length !== 0) && (
         <img
           src={require("../assets/Unavailable.png")}
           className="w-5 relative right-[-30px]"
         />
       )}
-      {type === "password" && (value.length  >= 6 && value.length !== 0) && (
+      {type === "password" && (value.length  >= 5 && value.length !== 0) && (
         <img
           src={require("../assets/Ok.png")}
           className="w-5 relative right-[-30px]"

@@ -167,7 +167,7 @@ const LogIn = () => {
             onChange={(e) => setPassword(e.target.value)}
           />
           <div className="h-[30px] flex items-center ">
-            {password.length <= 5 && password.length !== 0 && (
+            {password.length < 5 && password.length !== 0 && (
               <p className="text-sm text-red-600">
                 Password should be five characters
               </p>
