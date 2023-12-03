@@ -1,0 +1,39 @@
+.wrapper{
+    background: linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.7)), url('./images/bg.jpg');
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.hero-btn {
+    padding: 7px 14px;
+    font-size: 0.85rem;
+    color: white;
+    font-weight: 600;
+    background: none;
+    text-transform: uppercase;
+    border: 1px solid gray;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.hero-btn:hover {
+    background: gray;
+    color:black;
+}
+
+.centered{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 350px;
+}
+
+
+.centered p{
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 600;
+    padding-bottom: 15px;
+}
