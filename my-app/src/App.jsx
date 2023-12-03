@@ -25,19 +25,24 @@ function App() {
 
       <SideBar show={showNav}/>
 
-      <Routes>
+      <div id="container">
 
-        <Route path='/home' element={<Home />}/>
-        <Route path='/login' element={<Login />}/>
-        <Route path='/help' element={<Help />}/>
-        <Route path='/grade' element={<Grade />}/>
-        <Route path='/dashboard' element={<Dashboard />}/>
-        <Route path='/instructor' element={<Instructor />}/>
-        <Route path='/missingGrade' element={<MissingGrade />}/>
+        <Routes>
+          <Route path='/home' element={<Home />}/>
+          <Route path='/login' element={<Login />}/>
+          <Route path='/help' element={<Help />}/>
+          <Route path='/grade' element={<Grade />}/>
+          <Route path='/dashboard' element={<Dashboard />}/>
+          <Route path='/instructor' element={<Instructor />}/>
+          <Route path='/missingGrade' element={<MissingGrade />}/>
+        </Routes>
 
-      </Routes>
+      </div>
 
-      <Footer />
+      <footer id='footer'>
+        <Footer />
+      </footer>
+
     </div>
     
   )

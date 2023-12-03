@@ -25,12 +25,6 @@ function SideBar({show}) {
                     </a>
                 </li>
                 <li>
-                    <a href="/help">
-                        <MdOutlineHelp className="icon"/>
-                        Help
-                    </a>
-                </li>
-                <li>
                     <a href="/dashboard">
                         <MdDashboardCustomize className="icon"/>
                         Dashboard
@@ -52,6 +46,12 @@ function SideBar({show}) {
                     <a href="/missingGrade">
                         <FaExclamation className="icon"/>
                         Missing Grade
+                    </a>
+                </li>
+                <li>
+                    <a href="/help">
+                        <MdOutlineHelp className="icon"/>
+                        Help
                     </a>
                 </li>
             </ul>

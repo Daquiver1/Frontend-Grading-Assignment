@@ -8,4 +8,14 @@
     text-align: center;
     padding-top: 0;
     margin-top: 0;
+    font-size: 50px;
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+}
+
+.home-page p {
+    padding-bottom: 40px;
+    padding-top: 20px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }

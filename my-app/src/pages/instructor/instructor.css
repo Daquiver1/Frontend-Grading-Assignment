@@ -1,3 +1,25 @@
 .instructor-page {
     background-color: aqua;
+    margin: 30px;
+    padding: 30px;
+    border-radius: 30px;
+}
+
+.course-container {
+    padding: 40px;
+    display: grid;
+    grid-template-areas: "course1 course2";
+}
+
+.course {
+    padding: 15px;
+    text-align: left;
+}
+
+.course p {
+    padding: 8px 0;
+}
+
+.instructor-page h1 {
+    color: black;
 }
