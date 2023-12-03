@@ -4,9 +4,6 @@ import InputField from "../components/InputField";
 import { useNavigate } from 'react-router-dom';
 
 
-
-
-
 const LogIn = () => {
 
   const [email, setEmail] = useState("");
@@ -14,87 +11,110 @@ const LogIn = () => {
   const [error, setError] =useState('');
   const [isLoggedIn, setIsLoggedIn] = useState(false)
   const navigate = useNavigate();
+  const [user, setUser] = useState(null);
+
+  
 
   const studentCredentials = [
     {
       email: '11288689',
-      password: '86765'
+      password: '86765',
+      name: 'Bayat',
     },
     {
       email:'11276276',
-      password:'53267'
+      password:'53267',
+      name: 'Joseph'
     },
     {
       email:'11278276',
-      password:'52567'
+      password:'52567',
+      name: 'James'
     },
     {
       email:'11279276',
-      password:'56747'
+      password:'56747',
+      name: 'Steve'
     },
     {
       email:'11276312',
-      password:'59980'
+      password:'59980',
+      name: 'Stacy'
     },
     {
       email:'11251276',
-      password:'53267'
+      password:'53267',
+      name: 'John'
     },
     {
       email:'11412576',
-      password:'64167'
+      password:'64167',
+      name: 'Joel'
     },
     {
       email:'11514276',
-      password:'66467'
+      password:'66467',
+      name: 'Thomas'
     },
     {
       email:'11112276',
-      password:'69267'
+      password:'69267',
+      name: 'Gabriel'
     },
     {
       email:'11314176',
-      password:'63289'
+      password:'63289',
+      name: 'Stanley'
     },
     {
       email:'11316786',
-      password:'63281'
+      password:'63281',
+      name: 'Travis'
     },
     {
       email:'11311111',
-      password:'53267'
+      password:'53267',
+      name: 'Scott'
     },
     {
       email:'11312312',
-      password:'49687'
+      password:'49687',
+      name: 'Jude'
     },
     {
       email:'11318967',
-      password:'31254'
+      password:'31254',
+      name: 'Benzema'
     },
     {
       email:'11316276',
-      password:'43467'
+      password:'43467',
+      name: 'Navas'
     },
     {
       email:'11323376',
-      password:'83267'
+      password:'83267',
+      name: 'Delphina'
     },
     {
       email:'11381476',
-      password:'59267'
+      password:'59267',
+      name: 'Juliet'
     },
     {
       email:'11351276',
-      password:'49267'
+      password:'49267',
+      name: 'Mohammed'
     },
     {
       email:'11393376',
-      password:'39267'
+      password:'39267',
+      name: 'Rahman'
     },
     {
       email:'11324476',
-      password:'29267'
+      password:'29267',
+      name: 'Jonathan'
     }
 
   ];
@@ -112,9 +132,10 @@ const LogIn = () => {
       setIsLoggedIn(true);
       setError('');
       navigate('/dashboard');
+      setUser(matchedStudent);
     } else {
       // Login failed
-      setError('Invalid student ID or PIN');
+      alert('Invalid student ID or PIN');
     };
   };
 
