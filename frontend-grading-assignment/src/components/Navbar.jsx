@@ -40,7 +40,7 @@ const Navbar = () => {
                                <a className="nav-link m-2 text-white" href="dashboard" aria-disabled="true">Dashboard</a>
                             </li>
                             <li className="nav-item">
-                               <a className="nav-link m-2 text-white" href="report-grade" aria-disabled="true">Report Grade</a>
+                               <a className="nav-link m-2 text-white" href="report-missing-grade" aria-disabled="true">Report Grade</a>
                             </li>
                             <li className="nav-item">
                               <a className="nav-link m-2 text-white" href="missing-grade" aria-disabled="true">Missing Grade</a>
