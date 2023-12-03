@@ -1,27 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+// App.js
+import React from 'react';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
-function App() {
+import Navbar from './components/Navbar';
+import Footer from './components/Footer';
+import LandingPage from './components/LandingPage';
+import LoginPage from './components/LoginPage';
+import DashboardPage from './components/DashboardPage';
+import GradeReportPage from './components/GradeReportPage';
+import MissingGradeFormPage from './components/MissingGradeFormPage';
+import InstructorContactPage from './components/InstructorContactPage';
+import HelpAndSupportPage from './components/HelpAndSupportPage';
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React <br></br>
-          I'm trying very hard to understand this sh*t!! <br></br>
-          God have mercy on my soul!!
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div className="App">
+        <Navbar />
+          <Switch>
+            <Route path="/" exact component={LandingPage} />
+            <Route path="/login" component={LoginPage} />
+            <Route path="/dashboard" component={DashboardPage} />
+            <Route path="/grade-report" component={GradeReportPage} />
+            <Route path="/missing-grade-form" component={MissingGradeFormPage} />
+            <Route path="/instructor-contact-page" component={InstructorContactPage} />
+            <Route path="/help-and-support-page" component={HelpAndSupportPage} />
+          </Switch>
+        <Footer />
+      </div>
+    </Router>
   );
-}
+};
 
 export default App;
