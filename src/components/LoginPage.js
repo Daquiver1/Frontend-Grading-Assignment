@@ -12,6 +12,7 @@ import Grid from '@mui/material/Grid';
 import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
 import Typography from '@mui/material/Typography';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
+import {useNavigate } from 'react-router-dom';
 
 function Copyright(props) {
   return (
@@ -30,6 +31,7 @@ function Copyright(props) {
 const defaultTheme = createTheme();
 
 export default function SignInSide() {
+  const navigate = useNavigate();
   const handleSubmit = (event) => {
     event.preventDefault();
     const data = new FormData(event.currentTarget);
@@ -37,6 +39,16 @@ export default function SignInSide() {
       studentId: data.get('studentId'),
       password: data.get('password'),
     });
+
+    const studentId = data.get('studentId');
+    const password = data.get('password');
+
+    if (studentId && password) {
+      console.log('Navigating to DashboardPage');
+      navigate('/DashboardPage');
+    } else {
+      console.log('Not navigating. ID or password is empty.');
+    }
   };
 
   return (
@@ -80,7 +92,7 @@ export default function SignInSide() {
                 fullWidth
                 id="studentId"
                 label="Student ID"
-                name="StudentId"
+                name="studentId"
                 type="string"
                 placeholder='e.g 11100000'
                 autoComplete="off"
@@ -128,3 +140,4 @@ export default function SignInSide() {
     </ThemeProvider>
   );
 }
+

@@ -26,6 +26,7 @@ function App() {
         <Route path="/instructor-contact" element={<InstructorContactPage/>} />
 
         <Route path="/help-and-support" element={<HelpAndSupportPage/>} />
+        
       </Routes>
         
     </Router>
