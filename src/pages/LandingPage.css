@@ -73,19 +73,19 @@ body {
 
 /* Feature section styles */
 .bg-dark {
-  background-image: url("/src/assets/img/main.jpg");
+  background-image: url("/src/assets/img/images.jpeg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .text-white {
-  color: rgb(247, 247, 247);
+  color: rgb(0, 0, 0);
 }
 
 /* Footer styles */
 .footer {
-  background-color: #e0e6ec;
+  background-color: #4890d7;
   padding: 20px 0;
   text-align: center;
   line-height: 100vh;
@@ -96,4 +96,10 @@ body {
   .landing-page {
     padding-top: 70px; /* Adjusted for collapsed navbar height */
   }
+}
+.text-center2 {
+  color: #0d0f10;
+  position: center;
+  text-align: center;
+  line-height: 10vh;
 }

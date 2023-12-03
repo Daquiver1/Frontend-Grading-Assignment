@@ -36,6 +36,7 @@ function LandingPage() {
             />
           </Col>
         </Row>
+
         <Row className="bg-dark text-white p-4">
           <Col md={4} className="text-center">
             <FaGraduationCap size={48} />
@@ -67,7 +68,7 @@ function LandingPage() {
           </Col>
         </Row>
         <Row className="p-4">
-          <Col md={12} className="text-center">
+          <Col md={12} className="text-center2">
             <p>
               This website is a mock-up and does not represent a real system. It
               is created for demonstration purposes only.

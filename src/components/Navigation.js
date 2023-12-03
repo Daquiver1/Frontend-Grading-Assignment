@@ -11,11 +11,25 @@ const Sidebar = () => {
           </NavLink>
         </li>
         <li>
-          <NavLink to="/about" ClassName="nav-active">
-            About us
+          <NavLink to="/LoginPage" ClassName="nav-active">
+            Login
           </NavLink>
         </li>
-        {/* Add more NavLink items for other routes */}
+        <li>
+          <NavLink to="/DashboardPage" ClassName="nav-active">
+            Dashboard
+          </NavLink>
+        </li>
+        <li>
+          <NavLink to="/GradeReportPage" ClassName="nav-active">
+            Grade Report
+          </NavLink>
+        </li>
+        <li>
+          <NavLink to="/MissingGradeFormPage" ClassName="nav-active">
+            Missing Grade
+          </NavLink>
+        </li>
       </ul>
     </div>
   );
