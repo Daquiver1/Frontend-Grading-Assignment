@@ -1,14 +1,17 @@
+// Import necessary dependencies
+import React from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import LandingPage from './components/LandingPage'; // Adjust the import path based on your project structure
 
-import React from "react";
-import LandingPage from "./components/LandingPage";
-
-
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <LandingPage />
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={LandingPage} />
+        {/* Add more routes for other pages */}
+      </Routes>
+    </BrowserRouter>
   );
-}
+};
 
 export default App;

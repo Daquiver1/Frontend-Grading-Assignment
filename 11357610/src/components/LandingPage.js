@@ -1,50 +1,50 @@
-// LandingPage.js
+// Import necessary dependencies
+import React from 'react';
+import { Link } from 'react-router-dom';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'tailwindcss/tailwind.css';
 
-import React from "react";
-
+// Landing Page component
 const LandingPage = () => {
   return (
-    <div className="landing-page">
-      {/* Header */}
-      <header className="header">
-        <h1>Missing Grade Reporting System</h1>
-      </header>
+    <div className="container mx-auto my-4">
+      {/* Hero section */}
+      <section className="text-center my-8">
+        <h1 className="text-5xl font-bold mb-4">Missing Grade Reporting System</h1>
+        <p className="text-lg mb-8">Introducing a seamless way to report missing grades.</p>
+        <button className="btn btn-primary">Get Started</button>
+      </section>
 
-      {/* Overview */}
-      <section className="overview">
-        <h2>Track and report missing grades with ease.</h2>
-        <p>
-          This system helps students quickly and easily identify and report missing grades.
-          Say goodbye to frustration and ensure your academic progress is accurately reflected.
+      {/* Overview section */}
+      <section className="my-8">
+        <h2 className="text-3xl font-bold mb-4">System Benefits and Key Features</h2>
+        <p className="text-lg mb-4">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
         </p>
+        {/* Add more content as needed */}
       </section>
 
-      {/* Features */}
-      <section className="features">
-        <h2>Key Features:</h2>
-        <ul>
-          <li>View all your grades in one place.</li>
-          <li>Receive alerts for missing grades.</li>
-          <li>Easily report missing grades with a simple form.</li>
-          <li>Contact instructors directly through the platform.</li>
-          <li>Get help and support with your questions.</li>
-        </ul>
-      </section>
-
-      {/* Get Started */}
-      <section className="get-started">
-        <h2>Get started today!</h2>
-        <p>
-          Register for a free account and start taking control of your academic progress.
-        </p>
-        <a href="/login" className="button">
-          Login
-        </a>
-      </section>
+      {/* Navigation bar */}
+      <nav className="bg-gray-800 text-white py-4">
+        <div className="container mx-auto flex justify-between">
+          <Link to="/" className="text-xl font-bold">Home</Link>
+          <div className="flex space-x-4">
+            <Link to="/login">Login</Link>
+            <Link to="/dashboard">Dashboard</Link>
+            <Link to="/grade-report">Grade Report</Link>
+            <Link to="/missing-grade-form">Missing Grade Form</Link>
+            <Link to="/instructor-contact">Instructor Contact</Link>
+            <Link to="/help-and-support">Help and Support</Link>
+          </div>
+        </div>
+      </nav>
 
       {/* Footer */}
-      <footer className="footer">
-        <p>Copyright &copy; 2023 Missing Grade Reporting System</p>
+      <footer className="bg-gray-200 py-4 mt-8">
+        <div className="container mx-auto text-center">
+          <p>&copy; 2023 Missing Grade Reporting System. All rights reserved.</p>
+          <p>Contact us at: support@example.com</p>
+        </div>
       </footer>
     </div>
   );
