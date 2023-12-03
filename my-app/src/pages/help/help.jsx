@@ -37,13 +37,13 @@ function Help() {
 
             <div id="faq">
                 <h3>FAQ</h3>
-                <p>Why is my grade not showing?</p>
-                <p>Have the grades been released by the lecturer?</p>
-                <p>How can I get a reamark of my paper?</p>
-                <p>Do I need to retake the course if my grade isn't showing?</p>
-                <p>How long does it take for grades to be released?</p>
-                <p>How do I get in contact with a the course instructor?</p>
-                <p>How do I know if the grades have been released?</p>
+                <p>* Why is my grade not showing?</p>
+                <p>* Have the grades been released by the lecturer?</p>
+                <p>* How can I get a reamark of my paper?</p>
+                <p>* Do I need to retake the course if my grade isn't showing?</p>
+                <p>* How long does it take for grades to be released?</p>
+                <p>* How do I get in contact with a the course instructor?</p>
+                <p>* How do I know if the grades have been released?</p>
             </div>
 
             <div id="contact">

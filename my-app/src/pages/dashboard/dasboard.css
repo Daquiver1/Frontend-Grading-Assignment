@@ -1,3 +1,35 @@
 .dashboard-page {
     background-color: chartreuse;
+    margin: 80px 250px 60px 250px;
+    padding: 60px 60px 90px;
+    border-radius: 30px;
+}
+
+.dashboard-page h3 {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.current-grades table{
+    width: 300px;
+}
+
+td {
+    border: 1px solid transparent;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: white;
+}
+
+#missing {
+    border: 2px solid transparent;
+    margin-top: 70px;
+    padding: 20px 0;
+    border-radius: 40px;
+    background-color: white;
+}
+
+#missing h4 {
+    padding: 10px 0;
+    text-transform: uppercase;
 }
