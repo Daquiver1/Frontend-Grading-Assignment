@@ -7,7 +7,7 @@ function Dashboard() {
             <h1>Dashboard</h1>
             <h3>Academic Year <span id="year">2023</span></h3>
             <div className="current-grades">
-                <table>
+                <table className="dash-grade">
                     <tr>
                         <td>COURSE</td>
                         <td>GRADES</td>

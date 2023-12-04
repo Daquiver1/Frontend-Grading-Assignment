@@ -5,8 +5,7 @@ import "./footer.css"
 function Footer() {
     return (
         <div className="footer-nav">
-            <p>Footer</p>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio, labore debitis dignissimos necessitatibus, quisquam impedit voluptates at iure ullam, quis laudantium obcaecati magni nulla sed inventore officiis deleniti optio. Porro?</p>
+            <img src="https://dcs.ug.edu.gh/img/comScience_logo.png" alt="" />
         </div>
     )
 }
