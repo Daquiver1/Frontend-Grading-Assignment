@@ -1,0 +1,27 @@
+
+
+.navbar{
+    background-color:burlywood;
+    height: 3000px;
+
+}
+.container-fluid{
+    background-color:burlywood;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    background-size: cover;
+}
+
+.content {
+    text-align: center;
+    color:burlywood; /* Set text color */
+    align-items: center;
+}
