@@ -1,0 +1,52 @@
+.Main {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    height: 100vh;
+    gap: 5px;
+  }
+
+  .Section1 {
+    padding: 20px;
+    border-radius: 20px;
+    background-color: aqua;
+    height: 250px;
+    width: 900px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+  }
+  .Section2 {
+    gap: 20px;
+    border-radius: 20px;
+    background-color: greenyellow;
+    height: 250px;
+    width: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+  }
+
+  .mainInfo {
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    width: 900px;
+  }
+
+  .Messages1 {
+    background-color: blue;
+    width: 400px;
+    height: 180px;
+  }
+
+  .Issue1 {
+    background-color: blue;
+    width: 400px;
+    height: 180px;
+  }

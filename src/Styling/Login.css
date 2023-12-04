@@ -1,0 +1,34 @@
+.Main {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .Form {
+    background-color: rgba(0, 0, 255, 0.24);
+    border-radius: 50px;
+    height: 400px;
+    width: 400px;
+    border-top-width: 20px;
+    border-color: blue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  #text00 {
+    margin-right: 140px;
+  }
+
+  #input {
+    border-radius: 50px;
+    padding: 2px;
+    border-color: white;
+    padding-left: 9px;
+
+  }
