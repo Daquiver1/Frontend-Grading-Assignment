@@ -4,7 +4,7 @@ function App() {
   return (
     <div className="App">
 
-
+    <Router>
       <div className="main">
        <Routes>
        <Route exact path="/" element={<Home/>}/>
