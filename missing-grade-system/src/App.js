@@ -1,4 +1,5 @@
 import React from 'react';
+import './App.css';
 import Landing from './components/pages/Landing_page';
 import Dashboard from './components/pages/Dashboard_page';
 import Login from './components/pages/Login_page';
@@ -8,7 +9,7 @@ import MissingGrade from './components/pages/Missing_Grade_page';
 import {BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import InstructorContact from './components/pages/Instructor_Contact_page';
 import Help from './components/pages/Help_page';
-
+import Footer from './components/inc/footer';
 
 function App() {
   return (
@@ -32,8 +33,12 @@ function App() {
         <Route path = "/InstructorContact" element= {<InstructorContact/>}/>
      
         <Route path = "/Help" element= {<Help/>}/>
+
+
         
       </Routes>
+
+      <Footer />
 
       
 

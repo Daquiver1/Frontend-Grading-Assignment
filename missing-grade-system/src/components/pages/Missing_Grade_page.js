@@ -7,7 +7,7 @@ function MissingGrade() {
             <div className="card mt-4">
                 <div className="card-body">
                     <h2>
-                        Missing Grade page
+                        Missing Grade form page
                     </h2>
 
                 </div>

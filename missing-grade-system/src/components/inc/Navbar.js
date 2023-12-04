@@ -5,7 +5,12 @@ function Navbar() {
 
     return (
 
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div className="navbar-dark bg-dark shadow">
+            <div className="container">
+                <div className="row">
+                    <div className="col-md-12">
+
+                    <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">
     
     <Link to="/" class="navbar-brand">Missing Grade System</Link>
@@ -18,19 +23,11 @@ function Navbar() {
           
           <Link to="/Landing" class="nav-link active">Landing</Link>
         </li>
-        <li class="nav-item">
-        <Link to="/Dashboard" class="nav-link active">Dashboard</Link>
-        </li>
+        
         <li class="nav-item">
         <Link to="/Login" class="nav-link active">Login</Link>
         </li>
-        <li class="nav-item">
-        <Link to="/GradeReport" class="nav-link active">GradeReport</Link>
-        </li>
-
-        <li class="nav-item">
-        <Link to="/MissingGrade" class="nav-link active">MissingGrade</Link>
-        </li>
+        
 
         <li class="nav-item">
         <Link to="/InstructorContact" class="nav-link active">InstructorContact</Link>
@@ -47,6 +44,15 @@ function Navbar() {
     </div>
   </div>
 </nav>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+       
     )
 }
 
