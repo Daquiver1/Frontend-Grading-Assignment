@@ -1,16 +1,17 @@
 import logo from './logo.svg'
-export const Header = () => {
+import { Link } from "react-router-dom";
+export default function Header (){
     return (
-      <header className="fixed top-0 left-0 right-0 bg-gray-100">
+      <header className="fixed top-0 left-0 right-0 bg-gray-100 z-50">
         <nav
           class=" mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8"
           aria-label="Global"
         >
           <div class="flex lg:flex-1">
-            <a href="/about" rel="noopener" class="-m-1.5 p-1.5">
+            <Link to="" class="-m-1.5 p-1.5">
               <span class="sr-only">UG | Course Complaint</span>
               <img class="h-8 w-auto" src={logo} alt="" />
-            </a>
+            </Link>
           </div>
           <div class="flex lg:hidden">
             <button
@@ -36,48 +37,43 @@ export const Header = () => {
           </div>
           <div class="hidden lg:flex lg:gap-x-12">
             <div class="relative">
-              <button
-                type="button"
+              <Link
+              to="/home"
                 class="flex items-center gap-x-1 text-sm font-semibold leading-6 text-gray-900"
                 aria-expanded="false"
               >
                 Home
-              </button>
+              </Link>
             </div>
 
-            <a
-              href="/about"
-              rel="noopener"
+            <Link
+              to="/"
               class="text-sm font-semibold leading-6 text-gray-900"
             >
               About
-            </a>
-            <a
-              href="/about"
-              rel="noopener"
+            </Link>
+            <Link
+              to="/"
               class="text-sm font-semibold leading-6 text-gray-900"
             >
               Course Check
-            </a>
-            <a
-              href="/about"
-              rel="noopener"
+            </Link>
+            <Link
+              to="/signup"
               class="text-sm font-semibold leading-6 text-gray-900"
             >
-              Contact
-            </a>
+              Sign Up
+            </Link>
           </div>
           <div class="hidden lg:flex lg:flex-1 lg:justify-end">
-            <a
-              href="/about"
-              rel="noopener"
+            <Link
+              to="/login"
               class="text-sm font-semibold leading-6 text-gray-900"
             >
               Log in <span aria-hidden="true">&rarr;</span>
-            </a>
+            </Link>
           </div>
         </nav>
       </header>
     );
-};
-export default Header;
+}
