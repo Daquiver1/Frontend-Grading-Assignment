@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .custom-color {
+    @apply text-blue-500;
+  }
+  .text-color{
+    @apply text-blue-300
+  }
+  .rounded-side {
+    @apply rounded-full bg-blue-100 border-blue-500;
+  }
+  .hover-effect {
+    @apply hover:cursor-pointer hover:shadow-lg duration-200 hover:bg-blue-200;
+  }
+  .sliding-texts{
+    @apply text-2xl italic text-blue-700 font-semibold
+  }
+  .sliding-semi-text{
+    @apply text-xl italic text-blue-600 font-normal
+  }
+}
+
+.slide-text{
+    animation: slide-text ease-in-out 5s infinite;
+}
+
+@keyframes slide-text{
+    0%{
+        transform: translateY(0%)
+    }
+    50%{
+        transform: translateY(-50%)
+    }
+
+    51%{
+        transform: translateY(60%)
+    }
+    100%{
+        transform: translateY(-100%)
+    }
+}

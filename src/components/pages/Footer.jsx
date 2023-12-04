@@ -1,0 +1,53 @@
+import React from "react";
+import { Link } from "react-router-dom";
+
+const Footer = () => {
+  const dateValue = new Date();
+  const dateYear = dateValue.getFullYear();
+
+  return (
+    <>
+      <div className="container flex place-items-center bg-blue-800 w-full justify-between fixed bottom-0">
+        <div className="left- flex place-items-center gap-5">
+          <img
+            className="rounded-full w-16 h-16"
+            src="../../../public/coat-arms.jpg"
+            alt=""
+          />
+          <Link to="/legal-section">Legal Docs</Link>
+          <Link to="/faqs">FAQS</Link>
+          <Link to="/privacy">Data Privacy</Link>
+          <Link to="/policy">Our Policies</Link>
+          <Link to="/partner">Become a Partner</Link>
+          <Link to="/guidelines">Guidelines</Link>
+        </div>
+        <div className="date-year">
+          <p>Copyright &copy; {dateYear} Pep&apos;s Grade Report System</p>
+        </div>
+        <div className="contact-section flex">
+          <button className="block w-6 h-6 text-red-400">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M10.5 1.5H8.25A2.25 2.25 0 006 3.75v16.5a2.25 2.25 0 002.25 2.25h7.5A2.25 2.25 0 0018 20.25V3.75a2.25 2.25 0 00-2.25-2.25H13.5m-3 0V3h3V1.5m-3 0h3m-3 18.75h3"
+              />
+            </svg>
+          </button>
+          <p>0551875432</p>
+          <a href="https://wa.me/+233551875432">
+            <img src="../../../public/" alt="" />
+          </a>
+        </div>
+      </div>
+    </>
+  );
+};
+
+export default Footer;

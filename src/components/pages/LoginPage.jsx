@@ -1,6 +1,7 @@
 import { useState } from "react";
 import "../../Styles/customStyles/LandPage.css";
 import { Link } from "react-router-dom";
+import Header from "./header";
 
 const LoginPage = () => {
   // const [isNext, setIsNext] = useState(false);
@@ -13,7 +14,7 @@ const LoginPage = () => {
         className="mt-5 rounded-full w-full h-14 placeholder-blue-900"
       />
     ) : (
-      <p className="text-red-900 text-2xl font-serif">
+      <p className="text-red-900 text-sm italic">
         {"Id section cannot be empty"}
       </p>
     );
@@ -23,6 +24,7 @@ const LoginPage = () => {
   };
   return (
     <>
+      <Header></Header>
       <div className="flex justify-around place-items-center mt-56">
         <div className="flex gap-5 justify-center place-items-center">
           <img
@@ -32,14 +34,14 @@ const LoginPage = () => {
           />
           <div className="flex justify-center flex-col gap-1 text-start">
             <p className="text-5xl font-serif text-blue-400">
-              PEP&apos;S GRADE REPORT SYSTEM
+              Pep&apos;S Grade Report System
             </p>
             <p className="text-3xl text-blue-300 italic">
               Your grade, your future
             </p>
           </div>
         </div>
-        <div className="form-section">
+        <div className="form-section bg-green-50 h-full rounded-md">
           <p className="text-2xl text-blue-500 font-semibold">Sign in here</p>
           <p className="text-xl text-blue-400">
             Without an Account?
@@ -60,16 +62,18 @@ const LoginPage = () => {
             <p>{showPassword()}</p>
           </form>
           <button
-            className="block bg-blue-500 w-full rounded-full text-2xl font-semi-bold mt-5"
+            className="block bg-blue-500 w-full rounded-full text-xl mt-5 hover-effect"
             type="button"
           >
             Next
           </button>
-          <p className="text-2xl mt-5 text-blue-300 italic">
+          <hr className="text-slate-900" />
+          <p className="text-xl mt-5 text-blue-900 italic">
             Forgot Password?
+            <p className="bg-blue-900 w-[2px] ml-5 h-6 inline-flex"></p>
             <Link
               to="/PasswordReset"
-              className="text-blue-500 ml-5 font-semi-bold"
+              className="text-blue-900 ml-5"
             >
               Reset Password
             </Link>
