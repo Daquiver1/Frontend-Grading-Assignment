@@ -4,6 +4,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./Home";
 import SignUp from "./pages/SignUP";
 import LogIn from "./pages/LogIn";
+import Dashboard from "./pages/Dashboard";
+import GradeReport from "./pages/GradeReport";
 import reportWebVitals from "./reportWebVitals";
 import "./index.css";
 
@@ -12,9 +14,12 @@ root.render(
   <React.StrictMode>
     <BrowserRouter>
       <Routes>
+        <Route index element={<Dashboard />} />
         <Route path="/home" element={<Home />} />
         <Route path="/signup" element={<SignUp />} />
         <Route path="/login" element={<LogIn />} />
+        <Route path="/dashboard" element={<Dashboard />} />
+        <Route path="/grade_report" element={<GradeReport />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
