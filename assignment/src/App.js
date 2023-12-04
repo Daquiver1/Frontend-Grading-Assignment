@@ -1,13 +1,12 @@
   
 import './App.css';
 import Nav from "./components/Navbar"
+import Home from './components/Home';
 function App() {
   return (
    <>
-   <div className="bg-slate-600 w-full h-screen">
     <Nav/>
-   
-   </div>
+    <Home/>
    </>
   );
 }
