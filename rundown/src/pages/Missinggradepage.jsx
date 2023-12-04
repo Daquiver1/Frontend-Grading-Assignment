@@ -5,6 +5,7 @@ import Missingform from '../components/Missingform'
 const Missinggradepage = () => {
   return (
     <div>
+      
       <Missingform />
     </div>
   )

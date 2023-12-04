@@ -5,6 +5,7 @@ const Instructorcontact = () => {
   return (
     <div>
       <InstructorContactpage />
+      
     </div>
   )
 }
