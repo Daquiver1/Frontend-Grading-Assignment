@@ -1,4 +1,4 @@
-# Student Grade Reporting System Frontend Dennis
+# Student Grade Reporting System Frontend 
 
 ## Project Overview
 
