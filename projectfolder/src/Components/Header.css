@@ -1,0 +1,25 @@
+
+.header-card{
+    background-color: white;
+    color: black;
+    height: 50px;
+}
+.header-label{
+    position: relative;
+    display: inline-block;
+    font-size: 30px;
+    margin-left: 410px;
+}
+.header-image{
+    width: 4%;
+}
+.log-in{
+    display: inline-block;
+    color: black;
+    margin: 0px;
+    font-size: 20px;
+    float: right;
+    margin-right: 120px;
+    margin-top: 10px;
+    vertical-align: bottom;
+}
