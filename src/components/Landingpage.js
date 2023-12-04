@@ -17,12 +17,12 @@ function App() {
         <Navbar />
         <Switch>
           <Route path="/" exact component={LandingPage} />
-          <Route path="/login" component={LoginPage} />
-          <Route path="/dashboard" component={DashBoard} />
-          <Route path="/grade-report" component={GradeReport} />
-          <Route path="/missing-grade-form" component={MissingGradeForm} />
-          <Route path="/instructor-contact" component={InstructorContactPage} />
-          <Route path="/help-and-support" component={HelpAndSupport} />
+          <Route path="/LogiePagw" component={LoginPage} />
+          <Route path="/DashBoard" component={DashBoard} />
+          <Route path="/GradeReport" component={GradeReport} />
+          <Route path="/MissingGradeForm" component={MissingGradeForm} />
+          <Route path="/InstructorContactPage" component={InstructorContactPage} />
+          <Route path="/HelpAndSupport" component={HelpAndSupport} />
         </Switch>
         <Footer />
       </div>
