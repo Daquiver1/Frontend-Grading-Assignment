@@ -4,7 +4,7 @@ export default function Footer() {
   const date = new Date();
   const year = date.getFullYear();
   return (
-    <footer className="left-0 z-20 w-full p-4 bg-white border-none border-white shadow md:flex md:items-center md:justify-between md:p-6 dark:bg-gray-300 dark:border-gray-600">
+    <footer className="relative bottom-0 left-0 z-20 w-full p-4 bg-white border-none border-white shadow md:flex md:items-center md:justify-between md:p-6 dark:bg-gray-300 dark:border-gray-600">
       <span className="text-sm text-gray-700 sm:text-center dark:text-gray-700">
         © {year}
         <Link to="" className="hover:underline">

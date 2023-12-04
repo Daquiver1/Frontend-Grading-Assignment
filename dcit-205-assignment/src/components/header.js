@@ -2,7 +2,7 @@ import logo from './logo.svg'
 import { Link } from "react-router-dom";
 export default function Header (){
     return (
-      <header className="fixed top-0 left-0 right-0 bg-gray-100 z-50">
+      <header className="fixed top-0 left-0 right-0 bg-white z-50">
         <nav
           class=" mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8"
           aria-label="Global"
