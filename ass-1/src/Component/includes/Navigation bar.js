@@ -1,8 +1,10 @@
-const NavBar = () => {
+import React from "react";
+import { Link } from "react-router-dom";
+function NavBar() {
   return (
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container-fluid">
-        <a class="navbar-brand">MENU</a>
+        <Link class="navbar-brand">MENU</Link>
         <button
           class="navbar-toggler"
           type="button"
@@ -26,17 +28,17 @@ const NavBar = () => {
               </button>
               <ul class="dropdown-menu dropdown-menu-dark">
                 <li>
-                  <a href="HomePage">Home</a>
+                  <Link href="/HomePage">Home</Link>
                 </li>
                 <li>
-                  <a href="LoginPage">Login</a>
+                  <Link href="/login">Login</Link>
                 </li>
                 <li>
-                  <a href="DashboardPage">Dashboard</a>
+                  <Link href="/Dashboard">Dashboard</Link>
                 </li>
                 <li>
                   {" "}
-                  <a href="GradeReportPage">Report Grade</a>
+                  <Link href="GradeReportPage">Report Grade</Link>
                 </li>
                 {/* <li>
                   {" "}
@@ -56,6 +58,6 @@ const NavBar = () => {
       </div>
     </nav>
   );
-};
+}
 
 export default NavBar;

@@ -1,4 +1,4 @@
-const HomePage = () => {
+function HomePage() {
   return (
     <div className="content">
       <h1 className="title">Welcome to the missing grade reporting system !</h1>
@@ -63,6 +63,6 @@ const HomePage = () => {
       </ul>
     </div>
   );
-};
+}
 
 export default HomePage;

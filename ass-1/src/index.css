@@ -57,8 +57,5 @@ ul li a:hover {
   display: flex;
   justify-content: center;
   gap: 30px;
-  background-color: white;
-}
-* {
-  background-color: black;
+  /* background-color: white; */
 }
