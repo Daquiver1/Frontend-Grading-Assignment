@@ -57,12 +57,19 @@ function App() {
 
       </nav>
 
-      <h1 class="text-center">Welcome to the missing grade system home page</h1>
-      <h1 class="text-center">Your Grades are our concern</h1>
+      <h1 className="text-center">Welcome to the missing grade system home page</h1>
+      <h1 className="text-center">Your Grades are our concern</h1>
 
       <h2 class="text-center">To Proceed please login into your account.</h2>
 
+      <div className="container" id="SignUp-LogIn">
       
+          <a className="btn btn-primary" id="Login-btn" href="#" role="button">login</a>
+          <a className="btn btn-primary" id="SignUp-btn" href="#" role="button">Signup</a>
+      
+      </div>
+      
+
 
 
       
