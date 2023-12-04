@@ -2,7 +2,6 @@ import { useState } from "react";
 import { Dialog } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import Header from "./components/Header";
-import Footer from "./components/Footer";
 import { Link } from "react-router-dom";
 
 // const navigation = [
@@ -18,7 +17,7 @@ export default function Home() {
   return (
     <>
       <Header />
-      <section className="bg-white pt-0 -mt-10">
+      <section className=" bg-white pt-0 -mt-10">
         <div className="relative isolate px-6 lg:px-8">
           <div
             className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
@@ -80,7 +79,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <Footer />
     </>
   );
 }
