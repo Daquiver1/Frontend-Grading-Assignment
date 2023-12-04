@@ -10,29 +10,30 @@ import{
     ListItemIcon,
     ListItemText
   }  from "@mui/material";
-  import  HomeIcon  from "@mui/icons-material"
-  import InfoIcon from "@mui/icons-material/Info"
-  import { CommentRounded} from "@mui/icons-material";
-  import PhoneRoundedIcon from "@mui/icons-material/PhoneRounded"
-  import ShoppingCartRoundedIcon from "@mui/icons-material/shoppingcartroun";
-
-
+  import  HomeIcon  from "@mui/icons-material/Home";
+  import InfoIcon from "@mui/icons-material/Info";
+  import { CommentRounded as CommentRoundedIcon} from "@mui/icons-material";
+  import PhoneRoundedIcon from "@mui/icons-material/PhoneRounded";
+  
 
 const Navbar = () => {
-    const [openMenu.setOpenMenu] = useState(false)
+    const [openMenu, setOpenMenu] = useState(false);
     const menuOptions = [
         {
             text: "Home",
             icon:<HomeIcon/>,
-
-            text: "About",
+        },
+        {
+            text: "Dashboard",
             icon:<InfoIcon/>,
-
-            text: "Testimonials",
+        },
+        {
+            text: "Help & Support",
             icon:<CommentRoundedIcon/>,
-
+        },
+        {
             text: "Contact",
-            icon:<PhoneRoundedICon/>,
+            icon:<PhoneRoundedIcon/>,
         },
     ]
 
@@ -44,11 +45,35 @@ const Navbar = () => {
     </div>
     <div className="navbar-links-container">
         <a href="#">Home</a>
-        <a href="#">About</a>
-        <a href="#">Testimonials</a>
+        <a href="#">Dashboard</a>
+        <a href="#">Help & Support</a>
         <a href="#">Contact</a>
     </div>
+    <div className="navbar-menu-container">
+        <HiOutlineBars3 onClick={() => setOpenMenu(true)} />
+    </div>
+    <Drawer open={openMenu} onClose={() => setOpenMenu(false)}
+    anchor="right" >
+        <Box
+         sx={{width:250}}
+         role="presentation"
+         onClick={() => setOpenMenu(false)}
+         onKeyDown={() => setOpenMenu(false)}
+         >
+            <list>
+                {menuOptions.map((item, index)  => (
+                    <ListItem key={item.text} diablePadding >
+                        <ListItemButton>
+                            <ListItemIcon>{item.icon}</ListItemIcon>
+                            <ListItemText primary={item.text} />
+                        </ListItemButton>
+                    </ListItem>
+                ))}
+            </list>
+        </Box>
+    </Drawer>
     </nav>
+
   );  
 };
 
