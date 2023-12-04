@@ -1,4 +1,8 @@
-# Student Grade Reporting System Frontend
+# STUDENT ID: 11352458
+# NAME: DENNIS YEBOAH
+## DCIT205_ASSIGNMENT
+
+@# Student Grade Reporting System Frontend
 
 ## Project Overview
 
