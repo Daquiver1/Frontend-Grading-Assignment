@@ -16,14 +16,22 @@ header{
     align-items: center;
     justify-content: space-between;
     height:80px;
+    width: 100%;
     padding: 0 2rem;
     background-color: var(--mainColor);
     color:var(--textColor);
 }
+.navy{
+  
+  display: flex;
+  align-items: center;
+  margin-left: 20px; 
+}
 nav a{
-    margin: 0 2rem;
+    margin: 0 1rem;
     color:var(--textColor);
     text-decoration: none;
+   
 }
 nav a:hover{
     color: var(--secondaryColor);
@@ -89,12 +97,57 @@ footer {
     display: flex;
   }
   .footer-links a {
-    margin-right: 1rem; /* Adjust as needed */
-    color: white; /* Set the color for the links */
-    text-decoration: none; /* Remove default underline */
+    margin-right: 1rem; 
+    color: white;
+    text-decoration: none; 
   }
   
   footer p {
     margin: 0;
   }
   
+  .imag {
+    max-width: 100%;
+    height: auto;
+    
+    width: auto;
+}
+  .custom-div{
+    
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: max-content;
+    
+  }
+  .custom-div img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+  
+  }
+  .log-btn{
+    float:right;
+    margin-left: auto;
+    background-color: burlywood;
+    color:black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+  
+  }
+
+  .log-btn:hover{
+    float: right;
+    background-color: #fff;
+        color: #ffffff;
+  }
+  .tt-button{
+    color: black;
+  }
