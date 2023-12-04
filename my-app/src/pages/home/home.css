@@ -1,0 +1,22 @@
+.home-page {
+    background: linear-gradient(to bottom right, rgba(172,169,115,1) 51%, rgba(2,0,36,1) 100%);;
+    margin: 50px 150px 50px 150px;
+    padding: 50px;
+    border-radius: 30px;
+}
+
+.home-page h1 {
+    text-align: center;
+    padding-top: 0;
+    margin-top: 0;
+    font-size: 50px;
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+}
+
+.home-page p {
+    padding-bottom: 40px;
+    padding-top: 20px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

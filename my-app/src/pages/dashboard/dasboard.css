@@ -1,0 +1,38 @@
+.dashboard-page {
+    background: linear-gradient(to bottom right, rgba(124,108,74,1) 31%, rgba(52,44,52,1) 48%, rgba(124,108,74,1) 69%, rgba(45,38,50,1) 94%, rgba(2,0,36,1) 100%);
+    margin: 80px 250px 60px 250px;
+    padding: 60px 60px 90px;
+    border-radius: 30px;
+}
+
+.dashboard-page h3 {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.current-grades table{
+    width: 300px;
+}
+
+td {
+    border: 1px solid transparent;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+#missing {
+    border: 2px solid transparent;
+    margin-top: 70px;
+    padding: 20px 0;
+    border-radius: 40px;
+    background-color: white;
+}
+
+#missing h4 {
+    padding: 10px 0;
+    text-transform: uppercase;
+}
+
+.dash-grade td {
+    background-color: white;
+}

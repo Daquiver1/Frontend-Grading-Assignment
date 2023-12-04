@@ -49,3 +49,7 @@ To contribute to this project, please follow these guidelines:
 4. Submit a pull request for review.
 
 Please adhere to the project's coding standards and provide clear and detailed pull request descriptions.
+
+## Name and Student ID
+Name: Senyo Dedoo
+ID: 11138713

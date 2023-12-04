@@ -1,0 +1,33 @@
+header {
+    padding: 30px;
+    background: #011627;
+    color: white;
+    height: 40px;
+}
+
+header svg {
+    font-size: 25px;
+}
+
+header svg:hover {
+    cursor: pointer;
+}
+
+
+.app {
+    min-height: 100%;
+}
+
+#container {
+    overflow: auto;
+    padding-bottom: 100px;
+}
+
+#footer {
+    background-color: #011627;
+    position: relative;
+    height: 100px;
+    margin-top: -10px;
+    clear: both;
+    z-index: -1;
+}
