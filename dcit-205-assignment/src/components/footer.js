@@ -1,3 +1,4 @@
+//footer
 import { Link } from "react-router-dom";
 import webiste from "../scripts/data";
 export default function Footer() {

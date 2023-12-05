@@ -84,7 +84,7 @@ export default function GradeReport() {
                 </svg>
               </Link>
               <a
-                href="#"
+                href="/dashborad"
                 className="inline-flex items-center justify-center py-3 hover:text-gray-400 hover:bg-gray-700 focus:text-gray-400 focus:bg-gray-700 rounded-lg"
               >
                 <span className="sr-only">Messages</span>
@@ -200,7 +200,7 @@ export default function GradeReport() {
                 <span className="h-12 w-12 ml-2 sm:ml-3 mr-2 bg-gray-100 rounded-full overflow-hidden">
                   <img
                     src={Student.image}
-                    alt="user profile photo"
+                    alt="user"
                     className="h-full w-full object-cover"
                   />
                 </span>
