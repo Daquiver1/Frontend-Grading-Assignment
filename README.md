@@ -1,6 +1,7 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+7-page website that acts as the front for a "Missing Grade Reporting System". This system is designed to help students track and report grades that are not recorded in their academic profiles. The goal is to create an interactive, user-friendly interface that enables students to view their grades, report missing grades, and communicate with their instructors or academic administration.
+
 
 ## Available Scripts
 
