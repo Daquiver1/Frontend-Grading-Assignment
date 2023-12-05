@@ -2,7 +2,7 @@ import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
     return ( 
-        <div className="w-screen absolute top-2">
+        <div className="w-full absolute top-2">
                 {/* navLinks */}
             <div className="flex gap-x-16 justify-end mx-24 py-4 ">
 

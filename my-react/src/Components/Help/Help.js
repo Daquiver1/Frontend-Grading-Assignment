@@ -1,7 +1,11 @@
+import Second from "./Second";
+import Topsection from "./Topsection";
+
 const Help = () => {
     return (  
         <div className="">
-            help page here
+            <Topsection/>
+            <Second/>
         </div>
     );
 }
