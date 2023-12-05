@@ -6,6 +6,12 @@ const GradeReportPage = () => {
   const [selectedSemester, setSelectedSemester] = useState("All");
   const [selectedYear, setSelectedYear] = useState("All");
 
+  // Function to calculate the academic year based on level and semester
+  const calculateYear = (level, semester) => {
+    // Assuming a standard academic year with two semesters per level
+    return Math.ceil(level / 2) + (semester === "Second Semester" ? 0 : 1);
+  };
+
   const gradeData = [
     // Level 100, First Semester
     { course: "Critical Thinking and Practical Reasoning", grade: "A", level: 100, semester: "First Semester" },
@@ -16,6 +22,33 @@ const GradeReportPage = () => {
     { course: "Algebra and Trigonometry", grade: "B", level: 100, semester: "First Semester", elective: true },
     { course: "Vectors and Geometry", grade: "A-", level: 100, semester: "First Semester", elective: true },
     { course: "Introduction to Economics I", grade: "B+", level: 100, semester: "First Semester", elective: true },
+
+    // Level 100, Second Semester
+    { course: "Academic Writing I", grade: "A", level: 100, semester: "Second Semester" },
+    { course: "Understanding Human Society", grade: "B", level: 100, semester: "Second Semester" },
+    { course: "Calculus I", grade: "A-", level: 100, semester: "Second Semester" },
+    { course: "Algebra and Geometry", grade: "B+", level: 100, semester: "Second Semester" },
+    { course: "Introduction to Statistics and Probability II", grade: "A", level: 100, semester: "Second Semester" },
+    { course: "Programming", grade: "B", level: 100, semester: "Second Semester" },
+    { course: "Computer Hardware Fund. and Circuits", grade: "A-", level: 100, semester: "Second Semester" },
+
+    // Level 200, First Semester
+    { course: "Academic Writing II", grade: "A", level: 200, semester: "First Semester" },
+    { course: "Programming I", grade: "B", level: 200, semester: "First Semester" },
+    { course: "Digital and Logic Systems Design", grade: "A-", level: 200, semester: "First Semester" },
+    { course: "Multi Media and Web Design", grade: "B+", level: 200, semester: "First Semester" },
+    { course: "Computer Architecture & Organisation", grade: "A", level: 200, semester: "First Semester" },
+    { course: "E-Business Architectures", grade: "B", level: 200, semester: "First Semester" },
+
+    // Level 200, Second Semester
+    { course: "Introduction to African Studies", grade: "A-", level: 200, semester: "Second Semester" },
+    { course: "Mobile Application Development", grade: "B+", level: 200, semester: "Second Semester" },
+    { course: "Data Structures & Algorithm I", grade: "A", level: 200, semester: "Second Semester" },
+    { course: "Systems Administration", grade: "B", level: 200, semester: "Second Semester" },
+    { course: "Software Engineering", grade: "A-", level: 200, semester: "Second Semester" },
+    { course: "Internship", grade: "B+", level: 200, semester: "Second Semester", elective: true },
+    { course: "Numerical and Computational Methods", grade: "A", level: 200, semester: "Second Semester", elective: true },
+    { course: "Information Modeling and Specification", grade: "B", level: 200, semester: "Second Semester", elective: true },
   ];
 
   const levels = [100, 200];
@@ -28,12 +61,6 @@ const GradeReportPage = () => {
       (selectedSemester === "All" || data.semester === selectedSemester) &&
       (selectedYear === "All" || calculateYear(data.level, data.semester) === parseInt(selectedYear))
   );
-
-  // Function to calculate the academic year based on level and semester
-  const calculateYear = (level, semester) => {
-    // Assuming a standard academic year with two semesters per level
-    return Math.ceil(level / 2) + (semester === "Second Semester" ? 0 : 1);
-  };
 
   return (
     <div className="container mt-4">
