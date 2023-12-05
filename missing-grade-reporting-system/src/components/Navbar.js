@@ -1,47 +1,68 @@
-// Navbar.js
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom'; // Import Routes and Route
 
-const Navbar = () => {
+import LandingPage from '../pages/LandingPage';
+import LoginPage from '../pages/LoginPage';
+import DashboardPage from '../pages/DashboardPage';
+import GradeReportPage from '../pages/GradeReportPage';
+import MissingGradeFormPage from '../pages/MissingGradeFormPage';
+import InstructorContactPage from '../pages/InstructorContactPage';
+import HelpAndSupportPage from '../pages/HelpAndSupportPage';
+
+function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-      <div className="container">
-        <Link className="navbar-brand" to="/">
-          Missing Grade Report System, UG, Legon
-        </Link>
-        <button
-          className="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span className="navbar-toggler-icon"></span>
-        </button>
-        <div className="collapse navbar-collapse" id="navbarNav">
-          <ul className="navbar-nav ml-auto">
-            <li className="nav-item">
-              <Link className="nav-link" to="/login">
-                Login
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link className="nav-link" to="/dashboard">
-                Dashboard
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link className="nav-link" to="/gradeReportPage">
-                Grade Report Page
-              </Link>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+    <header className="App-header bg-blue-600 p-4">
+      <nav>
+        <ul className="space-y-4">
+          <li>
+            <Link to="/" className="text-white">
+              Landing Page
+            </Link>
+          </li>
+          <li>
+            <Link to="/LoginPage" className="text-white">
+              Login
+            </Link>
+          </li>
+          <li>
+            <Link to="/DashboardPage" className="text-white">
+              Dashboard
+            </Link>
+          </li>
+          <li>
+            <Link to="/GradeReportPage" className="text-white">
+              Grade Report Page
+            </Link>
+          </li>
+          <li>
+            <Link to="/MissingGradeFormPage" className="text-white">
+              Missing Grade Form Page
+            </Link>
+          </li>
+          <li>
+            <Link to="/InstructorContactPage" className="text-white">
+              Instructor Contact Page
+            </Link>
+          </li>
+          <li>
+            <Link to="/HelpAndSupportPage" className="text-white">
+              Help and Support Page
+            </Link>
+          </li>
+        </ul>
+        <Routes>
+          <Route path="/" element={<LandingPage />} />
+          <Route path="/LoginPage" element={<LoginPage />} />
+          <Route path="/DashboardPage" element={<DashboardPage />} />
+          <Route path="/GradeReportPage" element={<GradeReportPage />} />
+          <Route path="/MissingGradeFormPage" element={<MissingGradeFormPage />} />
+          <Route path="/InstructorContactPage" element={<InstructorContactPage />} />
+          <Route path="/HelpAndSupportPage" element={<HelpAndSupportPage />} />
+        </Routes>
+      </nav>
+    </header>
   );
-};
+}
 
 export default Navbar;
