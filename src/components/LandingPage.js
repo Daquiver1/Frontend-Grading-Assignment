@@ -7,6 +7,9 @@ const LandingPage = () => {
   return (
     <div>
       <nav>
+        <div className="navbar-logo">
+          <img src="/ug.png" alt="University Logo" />
+        </div>
         <ul>
           <li>
             <Link to="/">Home</Link>

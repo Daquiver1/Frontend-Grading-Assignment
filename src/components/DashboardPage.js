@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './DashboardPage.css';
 import { useNavigate } from 'react-router-dom';
-import { Bar } from 'react-chartjs-2';
+import { Line } from 'react-chartjs-2';
 import 'chart.js/auto';
 
 
@@ -77,19 +77,17 @@ const DashboardPage = () => {
 
         <div className="dashboard-header">
           <div style={{ display: 'flex', alignItems: 'center' }}>
-            <img src="/Stephen.JPG" alt="Passport" style={{ width: '50px', height: '50px', borderRadius: '50%', marginRight: '10px' }} />
+            <img src="/Stephen.JPG" alt="Passport" style={{ width: '50px', height: '50px', borderRadius: '30%', marginRight: '10px' }} />
             <h1>Stephen</h1>
           </div>
-          <button onClick={handleLogout} style={{ marginLeft: 'auto' }}>Logout</button>
+          <button onClick={handleLogout} style={{ marginLeft: 'auto' }}>Back</button>
         </div>
 
-        <div className="alerts-section">
-          <p>No new alerts.</p>
-        </div>
+        
 
         <div className="graphical-overview">
           <h2>Graphical Overview</h2>
-          <Bar data={chartData} options={chartOptions} />
+          <Line data={chartData} options={chartOptions} />
         </div>
 
         <div className="missing-grades-section">
