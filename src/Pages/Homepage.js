@@ -17,7 +17,7 @@ function Homepage({id}) {
         <div className='middleSection'>
             <div className='middleSection0'>
               <div className='m0text'>
-              <text>Welcome</text>
+              <text>Welcome</text><br></br>
 
               <text>This is a Missing Grade Report System</text><br></br>
               <p></p>
