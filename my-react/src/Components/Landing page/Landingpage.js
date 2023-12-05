@@ -1,7 +1,13 @@
+import Herosection from "./Herosection";
+import Second from "./Second";
+
 const Landingpage = () => {
     return ( 
         <div className="">
-            landing page here
+
+            <Herosection/>
+            <Second/>
+            
         </div>
      );
 }
