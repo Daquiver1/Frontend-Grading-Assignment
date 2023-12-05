@@ -1,4 +1,5 @@
 const Herosection = () => {
+   
     return (
     <div className="">
         
@@ -15,10 +16,10 @@ const Herosection = () => {
             </div>
         </div>
 
-        </div>
-
+      </div>
     </div>
      );
+     
 }
  
 export default Herosection;
