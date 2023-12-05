@@ -1,0 +1,10 @@
+.text{
+    color: white;
+    font-size: 60px;
+}
+.center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Optional: Set the height of the container as 100% of the viewport height */
+  }
