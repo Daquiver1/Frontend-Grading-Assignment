@@ -8,7 +8,7 @@ export default function Dashboard() {
       <section className="flex bg-gray-100 min-h-screen">
         <aside className="hidden sm:flex sm:flex-col">
           <a
-            href="#"
+            href="/home"
             className="inline-flex items-center justify-center h-20 w-20 bg-white hover:bg-slate-100 focus:bg-purple-500"
           >
             <svg
@@ -84,7 +84,7 @@ export default function Dashboard() {
                 </svg>
               </Link>
               <a
-                href="#"
+                href="/dashboard"
                 className="inline-flex items-center justify-center py-3 hover:text-gray-400 hover:bg-gray-700 focus:text-gray-400 focus:bg-gray-700 rounded-lg"
               >
                 <span className="sr-only">Messages</span>
@@ -200,7 +200,7 @@ export default function Dashboard() {
                 <span className="h-12 w-12 ml-2 sm:ml-3 mr-2 bg-gray-100 rounded-full overflow-hidden">
                   <img
                     src={Student.image}
-                    alt="user profile photo"
+                    alt="user profile"
                     className="h-full w-full object-cover"
                   />
                 </span>
@@ -485,7 +485,7 @@ export default function Dashboard() {
                       <div className="h-10 w-10 mr-3 bg-gray-100 rounded-full overflow-hidden">
                         <img
                           src={Student.image}
-                          alt="Annette Watson profile picture"
+                          alt="Annette Watson"
                         />
                       </div>
                       <span className="text-gray-600">{Student.name}</span>
@@ -495,7 +495,7 @@ export default function Dashboard() {
                       <div className="h-10 w-10 mr-3 bg-gray-100 rounded-full overflow-hidden">
                         <img
                           src={Student.image}
-                          alt="Calvin Steward profile picture"
+                          alt="Calvin Steward"
                         />
                       </div>
                       <span className="text-gray-600">Joy Owusu Ansah</span>
@@ -505,7 +505,7 @@ export default function Dashboard() {
                       <div className="h-10 w-10 mr-3 bg-gray-100 rounded-full overflow-hidden">
                         <img
                           src={Student.image}
-                          alt="Ralph Richards profile picture"
+                          alt="Ralph Richards"
                         />
                       </div>
                       <span className="text-gray-600">
@@ -517,7 +517,7 @@ export default function Dashboard() {
                       <div className="h-10 w-10 mr-3 bg-gray-100 rounded-full overflow-hidden">
                         <img
                           src={Student.image}
-                          alt="Bernard Murphy profile picture"
+                          alt="Bernard Murphy"
                         />
                       </div>
                       <span className="text-gray-600">Bernard Murphy</span>
@@ -527,7 +527,7 @@ export default function Dashboard() {
                       <div className="h-10 w-10 mr-3 bg-gray-100 rounded-full overflow-hidden">
                         <img
                           src={Student.image}
-                          alt="Arlene Robertson profile picture"
+                          alt="Arlene Robertson"
                         />
                       </div>
                       <span className="text-gray-600">Ariga Hawau</span>
@@ -537,7 +537,7 @@ export default function Dashboard() {
                       <div className="h-10 w-10 mr-3 bg-gray-100 rounded-full overflow-hidden">
                         <img
                           src={Student.image}
-                          alt="Jane Lane profile picture"
+                          alt="Jane Lane"
                         />
                       </div>
                       <span className="text-gray-600">Jane Lane</span>
@@ -547,7 +547,7 @@ export default function Dashboard() {
                       <div className="h-10 w-10 mr-3 bg-gray-100 rounded-full overflow-hidden">
                         <img
                           src={Student.image}
-                          alt="Pat Mckinney profile picture"
+                          alt="Pat Mckinney"
                         />
                       </div>
                       <span className="text-gray-600">Pat Mckinney</span>
@@ -557,7 +557,7 @@ export default function Dashboard() {
                       <div className="h-10 w-10 mr-3 bg-gray-100 rounded-full overflow-hidden">
                         <img
                           src={Student.image}
-                          alt="Norman Walters profile picture"
+                          alt="Norman Walters"
                         />
                       </div>
                       <span className="text-gray-600">Norman Walters</span>
