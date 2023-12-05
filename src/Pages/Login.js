@@ -1,24 +1,27 @@
 import React from 'react'
 import "../Styling/Login.css"
 import { useState } from 'react';
-import Landing from "./Landing"
+import { Redirect } from 'react-router-dom/cjs/react-router-dom.min';
 
-function Login() {
+function Login(props) {
 
-
-  const [pin,SetPin] = useState();
-  const [sid,setSid] = useState();
-  const [authstate,SetAuth] = useState("N/A");
+   
+  var [pin,SetPin] = useState();
+  var [sid,setSid] = useState("1221");
+  var [authstate,SetAuth] = useState("N/A");
+  var sidd; 
 
 
   const Loguin = () => {
-
+    
+        sidd = sid
         if (pin==undefined || sid ==undefined) {
           SetAuth("False");
         }
         else {
           SetAuth("True");
         }
+        
 
   }
 
@@ -26,17 +29,15 @@ function Login() {
     <div className='Main'>
        {(authstate=="True")?(
 
-          <div>
-               <Landing />
-          </div>
+          <Redirect to="/Dashboard" />
        ):(
 
           <div className='Form'>
                <h1>MGRS</h1>
                <text id='text00'> SID: </text>
-               <input id='input'  onChange={(text)=>setSid(text)} />
+               <input id='input'  onChange={(event)=>setSid(event.target.value)} />
                <text id='text00'> PIN: </text>
-               <input id='input'  onChange={(text)=>SetPin(text)} />
+               <input id='input'  onChange={(text)=>{SetPin(text.target.value)}} />
                <button onClick={()=>Loguin()}>Login</button>
                {
                 (authstate=="False")?(

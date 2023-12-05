@@ -8,8 +8,9 @@
   }
   
   .Form {
-    background-color: rgba(0, 0, 255, 0.24);
-    border-radius: 50px;
+    color: white;
+    background-color: #0000ff7e;
+    border-radius: 5px;
     height: 400px;
     width: 400px;
     border-top-width: 20px;
@@ -26,7 +27,7 @@
   }
 
   #input {
-    border-radius: 50px;
+    border-radius: 5px;
     padding: 2px;
     border-color: white;
     padding-left: 9px;

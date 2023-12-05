@@ -4,45 +4,33 @@ import './index.css';
 import {
   createBrowserRouter,
   RouterProvider,
+  BrowserRouter
 } from "react-router-dom";
+import Homepage from './Pages/Homepage'
 import Login from './Pages/Login';
-import Landing from './Pages/Landing';
 import Dashboard from './Pages/Dashboard';
 import GradeReport from './Pages/GradeReport';
 import HelpandSupport from './Pages/HelpandSupport';
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
-const router = createBrowserRouter([
-  {
-    path: "/",
-    element:<Login />,
-    errorElement:<text>Oops there was an error!</text>,
-    children: [
-      {
-        path:"Landing",
-        element:<Landing />,
-        children: [
-          {
-             path:"Dashboard",
-             element:<Dashboard />
-          },
-          {
-             path:"GradeReport",
-             element:<GradeReport />
-          },
-          {
-             path:"Help",
-             element:<HelpandSupport />
-          },
-        ]
-      },
-    ]
-  },
-]);
+ 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-       <RouterProvider router={router} />
+    <Router  data-test="component-app">
+      <Switch>
+        <Route exact path="/">
+          <Homepage />
+        </Route>
+        <Route path="/Login">
+        <Login />
+        </Route>
+        <Route path="/Dashboard">
+        <Dashboard />
+        </Route>
+      </Switch>
+    </Router>
   </React.StrictMode>
 );
 
