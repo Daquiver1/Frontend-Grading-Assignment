@@ -93,7 +93,7 @@ const DashboardPage = () => {
           ))}
         </li>
       </ul>
-      <a class="btn btn-primary mt-3" href="/grade-report" role="button">Report Missing Grades</a>
+      <a class="btn btn-primary mt-3" href="/missing-grade-form" role="button">Report Missing Grades</a>
  
     </div>
   </div>
