@@ -30,8 +30,7 @@ The application consists of 7 main pages:
 To set up the project locally, follow these steps:
 
 ```bash
-git clone https://github.com/michaelperryjnr/DCIT_205_ASSIGNGMENT1
-.git
+git clone https://github.com/michaelperryjnr/DCIT_205_ASSIGNGMENT1.git
 cd DCIT_205_ASSIGNGMENT1
 
 npm install
