@@ -1,7 +1,7 @@
 import React from 'react'
 import AboutBackground from "../Assets/about-background.png";
 import {BsfillPlayCircleFill} from "react-icons/bs";
-
+ 
 const About = () => {
   return (
     <div className="about-section-container" >
