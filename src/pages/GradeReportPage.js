@@ -1,6 +1,7 @@
 // GradeReportPage.js
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
+import Navigation from "../components/Navigation";
 import {
   Container,
   Row,
@@ -81,75 +82,78 @@ function GradeReportPage() {
   };
 
   return (
-    <Container fluid className="grade-report-page">
-      <Row className="p-4">
-        <Col md={12} className="text-center">
-          <h1 className="display-3">Missing Grade Reporting System</h1>
-          <p className="lead">
-            A system designed to help students track and report grades that are
-            not recorded in their academic profiles.
-          </p>
-        </Col>
-      </Row>
-      <Row className="p-4">
-        <Col md={12}>
-          <Card className="grade-report-card">
-            <Card.Header>
-              <FaGraduationCap /> Your Grade Report
-            </Card.Header>
-            <Card.Body>
-              <Card.Title>Details</Card.Title>
-              <Form.Group controlId="filter">
-                <Form.Label>
-                  <FaFilter /> Filter by semester
-                </Form.Label>
-                <Form.Control
-                  as="select"
-                  value={filter}
-                  onChange={(e) => setFilter(e.target.value)}
-                >
-                  <option>All</option>
-                  <option>Fall 2023</option>
-                  <option>Spring 2023</option>
-                </Form.Control>
-              </Form.Group>
-              <Table striped bordered hover>
-                <thead>
-                  <tr>
-                    <th>Course</th>
-                    <th>Grade</th>
-                    <th>Instructor</th>
-                    <th>Semester</th>
-                    <th>Action</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  {filterGrades(grades, filter).map((grade, index) => (
-                    <tr key={index}>
-                      <td>{grade.course}</td>
-                      <td>{grade.grade || "N/A"}</td>
-                      <td>{grade.instructor}</td>
-                      <td>{grade.semester}</td>
-                      <td>
-                        {grade.grade ? (
-                          <Button variant="success" disabled>
-                            Completed
-                          </Button>
-                        ) : (
-                          <Link to="/missing-grade-form">
-                            <Button variant="danger">Report</Button>
-                          </Link>
-                        )}
-                      </td>
+    <div>
+      <Navigation />
+      <Container fluid className="grade-report-page">
+        <Row className="p-4">
+          <Col md={12} className="text-center">
+            <h1 className="display-3">Missing Grade Reporting System</h1>
+            <p className="lead">
+              A system designed to help students track and report grades that
+              are not recorded in their academic profiles.
+            </p>
+          </Col>
+        </Row>
+        <Row className="p-4">
+          <Col md={12}>
+            <Card className="grade-report-card">
+              <Card.Header>
+                <FaGraduationCap /> Your Grade Report
+              </Card.Header>
+              <Card.Body>
+                <Card.Title>Details</Card.Title>
+                <Form.Group controlId="filter">
+                  <Form.Label>
+                    <FaFilter /> Filter by semester
+                  </Form.Label>
+                  <Form.Control
+                    as="select"
+                    value={filter}
+                    onChange={(e) => setFilter(e.target.value)}
+                  >
+                    <option>All</option>
+                    <option>Fall 2023</option>
+                    <option>Spring 2023</option>
+                  </Form.Control>
+                </Form.Group>
+                <Table striped bordered hover>
+                  <thead>
+                    <tr>
+                      <th>Course</th>
+                      <th>Grade</th>
+                      <th>Instructor</th>
+                      <th>Semester</th>
+                      <th>Action</th>
                     </tr>
-                  ))}
-                </tbody>
-              </Table>
-            </Card.Body>
-          </Card>
-        </Col>
-      </Row>
-    </Container>
+                  </thead>
+                  <tbody>
+                    {filterGrades(grades, filter).map((grade, index) => (
+                      <tr key={index}>
+                        <td>{grade.course}</td>
+                        <td>{grade.grade || "N/A"}</td>
+                        <td>{grade.instructor}</td>
+                        <td>{grade.semester}</td>
+                        <td>
+                          {grade.grade ? (
+                            <Button variant="success" disabled>
+                              Completed
+                            </Button>
+                          ) : (
+                            <Link to="/missing-grade-form">
+                              <Button variant="danger">Report</Button>
+                            </Link>
+                          )}
+                        </td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </Table>
+              </Card.Body>
+            </Card>
+          </Col>
+        </Row>
+      </Container>
+    </div>
   );
 }
 

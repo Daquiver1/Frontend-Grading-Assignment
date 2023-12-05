@@ -3,6 +3,7 @@ import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { Container, Row, Col, Card, Button } from "react-bootstrap";
 import { FaGraduationCap, FaBell, FaExclamationCircle } from "react-icons/fa";
+import Navigation from "../components/Navigation";
 import "./DashboardPage.css";
 
 function DashboardPage() {
@@ -51,66 +52,73 @@ function DashboardPage() {
   }, []); // Empty dependency array means this effect runs once when the component mounts
 
   return (
-    <Container fluid className="dashboard-page">
-      <Row className="p-4">
-        <Col md={12} className="text-center">
-          <h1 className="display-3">Missing Grade Reporting System</h1>
-          <p className="lead">
-            A system designed to help students track and report grades that are
-            not recorded in their academic profiles.
-          </p>
-        </Col>
-      </Row>
-      <Row className="p-4">
-        <Col md={6}>
-          <Card className="dashboard-card">
-            <Card.Header>
-              <FaGraduationCap /> Your Grades
-            </Card.Header>
-            <Card.Body>
-              <Card.Title>Overview</Card.Title>
-              <Card.Text>
-                You have completed {grades.length} courses in the Fall 2023
-                semester. Your average grade is {calculateAverageGrade(grades)}.
-              </Card.Text>
-              <Link to="/grade-report">
-                <Button variant="primary">View Details</Button>
-              </Link>
-            </Card.Body>
-          </Card>
-        </Col>
-        <Col md={6}>
-          <Card className="dashboard-card">
-            <Card.Header>
-              <FaBell /> Alerts
-            </Card.Header>
-            <Card.Body>
-              <Card.Title>Notifications</Card.Title>
-              {alerts.length > 0 ? (
+    <div>
+      <div className="Navig-tion">
+        {" "}
+        <Navigation />{" "}
+      </div>
+      <Container fluid className="dashboard-page">
+        <Row className="p-4">
+          <Col md={12} className="text-center">
+            <h1 className="display-3">Missing Grade Reporting System</h1>
+            <p className="lead">
+              A system designed to help students track and report grades that
+              are not recorded in their academic profiles.
+            </p>
+          </Col>
+        </Row>
+        <Row className="p-4">
+          <Col md={6}>
+            <Card className="dashboard-card">
+              <Card.Header>
+                <FaGraduationCap /> Your Grades
+              </Card.Header>
+              <Card.Body>
+                <Card.Title>Overview</Card.Title>
                 <Card.Text>
-                  You have {alerts.length} alerts regarding your grades. Please
-                  check them and take action accordingly.
+                  You have completed {grades.length} courses in the Fall 2023
+                  semester. Your average grade is{" "}
+                  {calculateAverageGrade(grades)}.
                 </Card.Text>
-              ) : (
-                <Card.Text>
-                  You have no alerts regarding your grades. Well done!
-                </Card.Text>
-              )}
-              {alerts.map((alert, index) => (
-                <p key={index}>
-                  <FaExclamationCircle /> {alert.message}{" "}
-                  <Link to={alert.link}>
-                    <Button variant="secondary" size="sm">
-                      Report
-                    </Button>
-                  </Link>
-                </p>
-              ))}
-            </Card.Body>
-          </Card>
-        </Col>
-      </Row>
-    </Container>
+                <Link to="/grade-report">
+                  <Button variant="primary">View Details</Button>
+                </Link>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col md={6}>
+            <Card className="dashboard-card">
+              <Card.Header>
+                <FaBell /> Alerts
+              </Card.Header>
+              <Card.Body>
+                <Card.Title>Notifications</Card.Title>
+                {alerts.length > 0 ? (
+                  <Card.Text>
+                    You have {alerts.length} alerts regarding your grades.
+                    Please check them and take action accordingly.
+                  </Card.Text>
+                ) : (
+                  <Card.Text>
+                    You have no alerts regarding your grades. Well done!
+                  </Card.Text>
+                )}
+                {alerts.map((alert, index) => (
+                  <p key={index}>
+                    <FaExclamationCircle /> {alert.message}{" "}
+                    <Link to={alert.link}>
+                      <Button variant="secondary" size="sm">
+                        Report
+                      </Button>
+                    </Link>
+                  </p>
+                ))}
+              </Card.Body>
+            </Card>
+          </Col>
+        </Row>
+      </Container>
+    </div>
   );
 }
 

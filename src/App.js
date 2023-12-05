@@ -1,13 +1,14 @@
 // Import necessary components and modules
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-
 // Import your components
 import LandingPage from "./pages/LandingPage";
 import LoginPage from "./pages/LoginPage";
 import DashboardPage from "./pages/DashboardPage";
 import GradeReportPage from "./pages/GradeReportPage";
 import MissingGradeFormPage from "./pages/MissingGradeFormPage";
+import InstructorContactPage from "./pages/InstructorContactPage";
+import About from "./pages/About";
 
 // Define your App component
 function App() {
@@ -22,7 +23,11 @@ function App() {
           path="/MissingGradeFormPage"
           element={<MissingGradeFormPage />}
         />
-        <Route path="*" element={<LandingPage />} />
+        <Route
+          path="/InstructorContactPage"
+          element={<InstructorContactPage />}
+        />
+        <Route path="/About" element={<About />} />
       </Routes>
     </Router>
   );

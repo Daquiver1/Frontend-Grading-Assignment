@@ -1,0 +1,38 @@
+/* Sidebar.css */
+
+.sidebar {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #343a40;
+  padding-top: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  display: block;
+  padding: 10px;
+  transition: background-color 0.3s;
+}
+
+a:hover {
+  background-color: #495057;
+}
+
+.nav-active {
+  background-color: #007bff;
+  color: #fff;
+}

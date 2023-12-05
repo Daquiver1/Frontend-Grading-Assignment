@@ -1,13 +1,37 @@
-/* LoginPage.css */
-.login-page {
-  background-color: #f0f0f0;
-  min-height: 100vh;
+/* LandingPage.css */
+
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f8f9fa;
 }
 
-.login-page .login-form {
-  border: 1px solid #ccc;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  padding: 2rem;
-  margin: 4rem;
+.display-3 {
+  color: #007bff;
 }
+
+.lead {
+  color: #6c757d;
+}
+
+img.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.bg-dark {
+  background-color: #343a40;
+}
+
+.text-white {
+  color: #fff;
+}
+
+h3 {
+  color: #007bff;
+}
+
+.text-center2 {
+  color: #6c757d;
+}
+
+/* Add any additional styles as needed */

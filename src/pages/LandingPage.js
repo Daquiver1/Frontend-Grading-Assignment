@@ -4,15 +4,17 @@ import { Link } from "react-router-dom";
 import { Container, Row, Col, Button } from "react-bootstrap";
 import { FaGraduationCap } from "react-icons/fa";
 import Navigation from "../components/Navigation";
-import Logo from "../components/Logo";
+import "bootstrap/dist/css/bootstrap.min.css";
+
 import "./LandingPage.css";
 
 function LandingPage() {
   return (
     <div>
-      <Logo />
-      <Navigation />
-      <Container className="d-flex align-items-center justify-content-center min-vh-100">
+      <div className="Navigation">
+        <Navigation />
+      </div>
+      <Container className="d-flex-container">
         <Row className="align-items-center justify-content-center">
           <Col md={6} className="text-center">
             <h1 className="display-3">Missing Grade Reporting System</h1>
@@ -20,8 +22,8 @@ function LandingPage() {
               A system designed to help students track and report grades that
               are not recorded in their academic profiles.
             </p>
-            <p className="Logo-login">
-              <Link to="/login">
+            <p ClassName="Logo-login">
+              <Link to="./loginPage">
                 <Button variant="primary" size="lg">
                   Login
                 </Button>
