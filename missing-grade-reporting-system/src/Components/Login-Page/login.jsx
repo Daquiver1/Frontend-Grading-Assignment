@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import './login.css'
 
 import user_icon from '../Assests/user-pin_.png'
@@ -20,6 +20,10 @@ const Login = () => {
         const sanitizedValue = e.target.value.replace(/\D/g, '').slice(0, 5);
         setPin(sanitizedValue);
       };
+
+      useEffect(() => {
+        document.title = action === 'Sign Up' ? 'Sign Up' : 'Sign In';
+      }, [action]);
 
 
   return (
