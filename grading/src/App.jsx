@@ -1,4 +1,4 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
+
 import './App.css';
 import logo from './logo.jpeg'
 import back_img from './carlos-muza-hpjSkU2UYSU-unsplash.jpg'
@@ -52,9 +52,6 @@ function App() {
     <Link to='/View'>ViewGrade</Link>
     </button>
     <button  className='item'>
-    <Link to='/Help'>Help</Link>
-    </button>
-    <button  className='item'>
     <Link to='/Dashboard'>Dashboard</Link>
     </button>
    
@@ -101,7 +98,15 @@ Educators begin by defining clear and transparent grading criteria. These criter
 </p>
 </div>
 
+
+
     </div>
+    <br></br>
+    <br></br>
+    <br></br>
+    <button  className='item'>
+    <Link to='/Help'>Help</Link>
+    </button>
 
 
 
