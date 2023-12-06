@@ -10,10 +10,10 @@ const missing = () => {
             <div className="underline"></div>
             </div>
             <div className="inputs">
-        <input className="input" type="text" placeholder="Enter your Name"/>
-        <input className="input" type="email" placeholder="Enter Your Student ID"/>
-        <input className="input" type="text" placeholder="Enter your subject"/>
-        <textarea className="textarea" rows="8" placeholder="Write Your Message Here"/>
+        <input className="input" type="text" placeholder="Enter your Course Name"/>
+        <input className="input" type="email" placeholder="Enter Your Instructor's Name"/>
+        <input className="input" type="text" placeholder="Enter your Expected Grade"/>
+        <textarea className="textarea" rows="8" placeholder="Please Explain Your Predicament"/>
         <div className="submit-container">
         <div className="submit">
           Submit
