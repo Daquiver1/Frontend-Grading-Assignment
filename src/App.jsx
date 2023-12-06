@@ -1,8 +1,9 @@
-// App.jsx
+
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Header1 from './components/Header1';
 import Header2 from './components/Header2';
+import Header3 from './components/Header3';
 import Footer from './components/Footer';
 import Sidebar from './components/Sidebar';
 import LandingPage from './components/LandingPage';
@@ -31,7 +32,7 @@ const App = () => {
           path="/login"
           element={
             <>
-              <Header1 />
+              <Header3 />
               <LoginPage />
               <Footer />
             </>
