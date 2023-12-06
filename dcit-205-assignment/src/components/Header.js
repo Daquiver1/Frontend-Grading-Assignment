@@ -9,9 +9,9 @@ export default function Header (){
           aria-label="Global"
         >
           <div class="flex lg:flex-1">
-            <Link to="" class="-m-1.5 p-1.5">
+            <Link to="" class="-m-1.5 p-1.5" data-testid="logo">
               <span class="sr-only">UG | Course Complaint</span>
-              <img class="h-8 w-auto" src={logo} alt="" />
+              <img class="h-8 w-auto" src={logo} alt="logo" />
             </Link>
           </div>
           <div class="flex lg:hidden">
@@ -39,7 +39,7 @@ export default function Header (){
           <div class="hidden lg:flex lg:gap-x-12">
             <div class="relative">
               <Link
-              to="/home"
+                to="/home"
                 class="flex items-center gap-x-1 text-sm font-semibold leading-6 text-gray-900"
                 aria-expanded="false"
               >
@@ -47,16 +47,10 @@ export default function Header (){
               </Link>
             </div>
 
-            <Link
-              to="/"
-              class="text-sm font-semibold leading-6 text-gray-900"
-            >
+            <Link to="/" class="text-sm font-semibold leading-6 text-gray-900">
               About
             </Link>
-            <Link
-              to="/"
-              class="text-sm font-semibold leading-6 text-gray-900"
-            >
+            <Link to="/" class="text-sm font-semibold leading-6 text-gray-900">
               Course Check
             </Link>
             <Link
