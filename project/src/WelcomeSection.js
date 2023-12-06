@@ -1,7 +1,6 @@
 import React from 'react';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
-import { Col,Row } from 'react-bootstrap';
 import './WelcomeSection.css';
 
 const WelcomeSection = () => {
@@ -13,7 +12,7 @@ const WelcomeSection = () => {
 
             <div className='card-container'>
           
-                <Card style={{ width: '18rem', marginRight: '20px' }}>
+                <Card style={{ width: '18rem', marginRight: '20px' ,}}>
                         <img className='img' variant="top" src="Dashboard-image.png" />
                     <Card.Body>
                         <Card.Title>Dash Board</Card.Title>
