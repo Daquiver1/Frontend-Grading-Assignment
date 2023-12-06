@@ -1,0 +1,28 @@
+
+  .right-sidebar-container{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color:black;
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    top:50px;
+  }
+
+  .nav-link-container{
+    position:relative;
+    height: 150px;
+    margin-top:10px;
+    margin-bottom: 10px;
+    display:flex;
+    flex-direction: column;
+    justify-content: end;
+  }
+  .nav-link{
+    transition: transform 0.3s ease-in-out;
+  }
+  .nav-link:hover{
+    transform: scale(1.2);
+  }
+  
