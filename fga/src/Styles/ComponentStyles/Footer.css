@@ -1,0 +1,41 @@
+  .footer  {
+    position: absolute;
+    top: 777px;
+    left: 0px;
+    background-color: #fff;
+    width: 1440px;
+    height: 247px;
+  }
+
+  .footer-navlinks {
+    position: absolute;
+    top: 798px;
+    left: 69px;
+    display: inline-block;
+    width: 410px;
+    height: 144px;
+  }
+
+  
+
+  .footer-help{
+    position: absolute;
+    top: 798px;
+    left: 984px;
+    display: inline-block;
+    width: 410px;
+    height: 144px;
+  }
+  
+  .instructor {
+    margin: 0;
+  }
+  .footer-instructor {
+    position: absolute;
+    top: 798px;
+    left: 502px;
+    display: inline-block;
+    width: 415px;
+    height: 144px;
+  }
+  

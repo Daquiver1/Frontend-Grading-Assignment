@@ -1,0 +1,27 @@
+.grade-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.grade-card {
+    background-color: #FFFFFF; /* White background */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+}
+
+.grade-card h3 {
+    color: #333333; /* Dark Gray text color */
+}
+
+.grade-card p {
+    color: #4CAF50; /* Green for grade color */
+    font-weight: bold;
+    margin-top: 10px;
+}

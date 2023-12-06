@@ -1,0 +1,13 @@
+.login-box {
+    border-radius: 128px;
+    border-color: #479AEC;
+    border-style: inset ridge outset ridge;
+    background-color: #AFD7F4;
+    margin: auto;
+
+}
+
+.form {
+    margin: auto;
+    color: #333333;
+}
