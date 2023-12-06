@@ -1,101 +1,89 @@
-// Header.js
 import React from "react";
 import { Link } from "react-router-dom";
 import UgLogo from "../../src/images/comScience_logo.png"; // Adjust the path accordingly
 
-const Header = () => {
+const Sidebar = () => {
   return (
-    <nav class="bg-white border-gray-200 dark:bg-gray-900 dark:border-gray-700">
-      <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
- 
-        <button
-          data-collapse-toggle="navbar-dropdown"
-          type="button"
-          class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
-          aria-controls="navbar-dropdown"
-          aria-expanded="false"
-        >
-          <span class="sr-only">Open main menu</span>
-          <svg
-            class="w-5 h-5"
-            aria-hidden="true"
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 17 14"
-          >
-            <path
-              stroke="currentColor"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              d="M1 1h15M1 7h15M1 13h15"
-            />
-          </svg>
-        </button>
-        <div class="hidden w-full md:block md:w-auto" id="navbar-dropdown">
-          <ul class="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
-            <li>
-              <Link
-                to="/" 
-              >
-                 <img src={UgLogo} class="h-8" alt="Company Logo" />
-              </Link>
-            </li>
-
-            <li>
-              <Link
-                to="/dashboard"
-                class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
-              >
-                Dashboard
-              </Link>
-            </li>
-            <li>
-              <Link
-                to="/grade-report"
-                class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
-              >
-                Grade Report
-              </Link>
-            </li>
-            <li>
-              <Link
-                to="/missing-grade-form"
-                class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
-              >
-                Missing Grade
-              </Link>
-            </li>
-            <li>
-              <Link
-                to="/instructor-contact"
-                class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
-              >
-                Instructor Contact
-              </Link>
-            </li>
-            <li>
-              <Link
-                to="/help-and-support"
-                class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
-              >
-                Support
-              </Link>
-            </li>
-
-            <li>
-              <Link
-                to="/login"
-                class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
-              >
-                Login
-              </Link>
-            </li>
-          </ul>
+    <ul
+      className="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion"
+      id="accordionSidebar"
+    >
+      {/* Sidebar - Brand */}
+      <Link
+        className="sidebar-brand d-flex align-items-center justify-content-center"
+        to="/"
+      >
+        <div className="sidebar-brand-icon">
+          <Link to="/">
+            <div class="sidebar-brand-text mx-3">
+              <img
+                src={UgLogo}
+                className="h-8"
+                alt="Company Logo"
+                class="sidebar-brand-icon rotsate-n-15"
+                width="200px"
+                height="50px"
+              />
+            </div>
+          </Link>
         </div>
-      </div>
-    </nav>
+      </Link>
+
+      {/* Divider */}
+      <hr className="sidebar-divider my-0" />
+
+      {/* Nav Item - Dashboard */}
+      <li className="nav-item">
+        <Link className="nav-link" to="/dashboard">
+          <i className="fas fa-fw fa-tachometer-alt"></i>
+          <span>Dashboard</span>
+        </Link>
+      </li>
+
+      {/* Nav Item - Grade Report */}
+      <li className="nav-item">
+        <Link className="nav-link" to="/grade-report">
+          <i className="fas fa-fw fa-tachometer-alt"></i>
+          <span>Grade Report</span>
+        </Link>
+      </li>
+
+      {/* Nav Item - Missing Grade Form */}
+      <li className="nav-item">
+        <Link className="nav-link" to="/missing-grade-form">
+          <i className="fas fa-fw fa-tachometer-alt"></i>
+          <span>Missing Grade Form</span>
+        </Link>
+      </li>
+
+      {/* Nav Item - Instructor Contact */}
+      <li className="nav-item">
+        <Link className="nav-link" to="/instructor-contact">
+          <i className="fas fa-fw fa-tachometer-alt"></i>
+          <span>Instructor Contact</span>
+        </Link>
+      </li>
+
+      {/* Nav Item - Help and Support */}
+      <li className="nav-item">
+        <Link className="nav-link" to="/help-and-support">
+          <i className="fas fa-fw fa-tachometer-alt"></i>
+          <span>Help and Support</span>
+        </Link>
+      </li>
+      <li className="nav-item">
+        <Link className="nav-link" to="/login">
+          <i className="fas fa-fw fa-tachometer-alt"></i>
+          <span>Login</span>
+        </Link>
+      </li>
+      {/* Divider */}
+      <hr className="sidebar-divider d-none d-md-block" />
+      {/* <div class="text-center d-none d-md-inline">
+        <button class="rounded-circle border-0" id="sidebarToggle"></button>
+      </div> */}
+    </ul>
   );
 };
 
-export default Header;
+export default Sidebar;

@@ -70,7 +70,7 @@ const MissingGradeFormPage = ({ gradeData }) => {
 
   return (
     <div className="container mt-4">
-      <h2>Report Missing Grade</h2>
+      <h2 class="display-1">Report Missing Grade</h2>
 
       {/* Form to report a missing grade */}
       <form onSubmit={handleSubmit}>
@@ -167,7 +167,7 @@ const MissingGradeFormPage = ({ gradeData }) => {
           />
         </div>
 
-        <button type="submit" className="btn btn-primary">
+        <button type="submit" style={{ background: 'blue'}} className="btn btn-primary mt-3  btn-lg" role="button">
           Submit
         </button>
       </form>

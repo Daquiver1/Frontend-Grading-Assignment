@@ -64,7 +64,7 @@ const GradeReportPage = () => {
 
   return (
     <div className="container mt-4">
-      <h2>Grade Report</h2>
+      <h2 class="display-1">Grade Report</h2>
 
       {/* Level, Semester, and Year filter dropdowns */}
       <div className="mb-3">

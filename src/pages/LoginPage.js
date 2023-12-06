@@ -1,5 +1,6 @@
 // LoginPage.js
-import React from 'react';
+import React from "react";
+import { Link } from "react-router-dom";
 
 const LoginPage = () => {
   const handleSubmit = (event) => {
@@ -7,42 +8,53 @@ const LoginPage = () => {
     // Add your login logic here
   };
 
-  return (
-    <div> 
- 
-      <form className="max-w-sm mx-auto" action="/dashboard" method='get'>
-        <div className="mb-5">
-          <label htmlFor="text" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">
-          Student ID
-          </label>
-          <input
-            type="text"
-            id="text"
-            className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-            placeholder="11140508"
-            required
-          />
+  return ( 
+      <body class="bg-gradiesnt-primary">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-xl-10 col-lg-12 col-md-9">
+              <div class="card o-hidden border-0 shadow-lg my-5">
+                <div class="card-body p-0">
+                  <div class="row">
+                    <div class="col-lg-6 d-none d-lg-block bg-login-image"></div>
+                    <div class="col-lg-6">
+                      <div class="p-5">
+                        <div class="text-center">
+                          <h1 class="h4 text-gray-900 mb-4">Welcome Back!</h1>
+                        </div>
+                        <form class="user" action="/dashboard" method="get">
+                          <div class="form-group">
+                            <input
+                              type="text"
+                              class="form-control form-control-user"
+                              id="exampleInputEmail"
+                              aria-describedby="emailHelp"
+                              placeholder="Student ID eg. 11140508"
+                            ></input>
+                          </div>
+                          <div class="form-group">
+                            <input
+                              type="password"
+                              class="form-control form-control-user"
+                              id="exampleInputPassword"
+                              placeholder="Password"
+                            ></input>
+                          </div>
+                          <Link to="/dashboard">
+                            <a class="btn btn-primary btn-user btn-block">
+                              Login
+                            </a>
+                          </Link>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        <div className="mb-5">
-          <label htmlFor="password" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">
-          PIN
-          </label>
-          <input
-            type="password"
-            id="password"
-            className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-            required
-          />
-        </div>
-       
-        <button
-          type="submit"
-          className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-        >
-          Submit
-        </button>
-      </form>
-    </div>
+      </body> 
   );
 };
 

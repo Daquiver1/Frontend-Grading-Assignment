@@ -10,31 +10,43 @@ import MissingGradeFormPage from "./pages/MissingGradeFormPage";
 import InstructorContactPage from "./pages/InstructorContactPage";
 import HelpAndSupportPage from "./pages/HelpAndSupportPage";
 import Sidebar from "./components/SideBar";
- 
+
 function App() {
   return (
     <Router>
-      <div>
+      <div id="wrapper">
         <Header />
-        
-        <Routes>
-          <Route path="/" element={<LandingPage />} />
-          <Route path="/" element={<LandingPage />} />
-          <Route path="/login" element={<LoginPage />} />
-          <Route path="/dashboard" element={<DashboardPage />} />
-          <Route path="/grade-report" element={<GradeReportPage />} />
-          <Route
-            path="/missing-grade-form"
-            element={<MissingGradeFormPage />}
-          />
-          <Route
-            path="/instructor-contact"
-            element={<InstructorContactPage />}
-          />
-          <Route path="/help-and-support" element={<HelpAndSupportPage />} />
-        </Routes>
-        <Footer />
+
+        <div id="content-wrapper" class="d-flex flex-column">
+          <div id="content">
+            <div class="container-fluid">
+              <Routes>
+                <Route path="/" element={<LandingPage />} />
+                <Route path="/login" element={<LoginPage />} />
+                <Route path="/dashboard" element={<DashboardPage />} />
+                <Route path="/grade-report" element={<GradeReportPage />} />
+                <Route
+                  path="/missing-grade-form"
+                  element={<MissingGradeFormPage />}
+                />
+                <Route
+                  path="/instructor-contact"
+                  element={<InstructorContactPage />}
+                />
+                <Route
+                  path="/help-and-support"
+                  element={<HelpAndSupportPage />}
+                />
+              </Routes>
+            </div>
+          </div>
+
+          <Footer />
+        </div>
       </div>
+      <Routes>
+        <Route path="/" element={<LandingPage />} />
+      </Routes>
     </Router>
   );
 }
