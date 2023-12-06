@@ -8,14 +8,25 @@ import InstructorContact from "./components/Instructor Contact page";
 import Dashboard from "./components/Dashboard Page";
 import GradeReport from "./components/Grade report";
 import Contact from "./components/Help and Support";
+import background from "./background1.jpg";
+import "./App.css";
+import { logDOM } from "@testing-library/react";
+
+
+
+
 
 function App() {
     return(
-      
+      <div className="App-header">
+       
         <BrowserRouter>
-        <div className='App'>
-           <Navbar />
-            <Routes>
+        
+        
+          
+           <Navbar  />
+           
+            <Routes >
               <Route  path="/" Component={Home} /> 
               <Route path="/About" Component={About } /> 
               <Route path="/Login" Component={Login} /> 
@@ -23,10 +34,13 @@ function App() {
               <Route path="/Dashboard" Component={Dashboard} /> 
               <Route path="/GradeReport" Component={GradeReport} /> 
               <Route path="/Contact" Component={Contact} /> 
-              
             </Routes>
-            </div>
           </BrowserRouter>
+          
+        
+            
+      </div>
+       
     );
 }
 

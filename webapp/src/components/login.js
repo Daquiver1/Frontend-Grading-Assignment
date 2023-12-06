@@ -1,20 +1,30 @@
 import React from "react";
+import "./Login.css";
 
-const Login=()=>{
+
+
+const Login=()=> {
     return(
         <div
         className="ui raised very padded text container segment"
         style={{marginTop:'80px'}}
         >
-            <h3 className="ui header">Login</h3>
-            <p className="welcome">
-                <h2> OVERVIEW</h2>
-                Welcome to GradeTracker Your Ultimate Student Companion! 🎓 Discover a seamless way to stay on top of your academic journey.
-                Our innovative platform allows you to effortlessly check and track missing grades, ensuring you never miss a beat in your academic progress. 
-                Dive into a user-friendly experience that puts your grades at your fingertips. Let's embark on a journey of academic excellence together!"
-            </p>
+            <h3 className="ui header"></h3>
+            <form className="ui form">
+            <div className="field">
+                <div className="container">
+                    <div className="header">
+                        <div className="text">Login</div>
+                        <div className="underline"></div>
+                <input type="text" placeholder="search..."/>
+                {/* <i className="search icon"></i> */}
+                    </div>
+                </div>
+            </div>
+            </form>
         </div>
     )
+        
 }
 
 export default Login; 
