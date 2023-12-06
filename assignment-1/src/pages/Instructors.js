@@ -39,18 +39,18 @@ export default function Instructors(){
                 <section>
                     <h1 className="text-center text-ugBlue mb-4">Instructors</h1>
                     <div className="flex flex-col rounded-2xl overflow-hidden border-2 border-lightUgBlue   ">
-                        <div className="grid grid-cols-instruct font-bold bg-ugBlue p-4 text-white">
+                        <div className="grid grid-cols-instructMobile md:grid-cols-instruct font-bold bg-ugBlue p-4 text-white">
                             <span><FontAwesomeIcon icon={faImage} /></span>
                             <span>Instructor Name</span>
-                            <span className="m-auto">Instructor Course</span>
+                            <span className="m-auto hidden md:inline">Instructor Course</span>
                             <span className="m-auto"><FontAwesomeIcon icon={faContactCard}/></span>
                         </div>
                         { instructors && instructors.map((instructor, idx) => {
                             return (
-                                <div className="grid grid-cols-instruct p-4 border-b-2 items-center last:border-0 border-b-lightUgBlue" key={idx}>
+                                <div className="grid grid-cols-instructMobile  md:grid-cols-instruct p-4 border-b-2 items-center last:border-0 border-b-lightUgBlue" key={idx}>
                                     <span className="w-[25px] h-[25px] rounded-full overflow-hidden flex place-items-center"><img src="/img/ug_logo.png"/></span>
                                     <span>{instructor.name}</span>
-                                    <span className="m-auto">{instructor.courseID}</span>
+                                    <span className="m-auto hidden md:inline">{instructor.courseID}</span>
                                     <span className="m-auto"><button onClick={(e)=>{handleContactEmail(e); setEmailReciever(instructor)}} className="bg-lightUgBlue hover:bg-ugBlue rounded-full px-3 py-1 text-black hover:text-white duration-150">Contact</button></span>
                                 </div>
                             )
