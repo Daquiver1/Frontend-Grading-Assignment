@@ -5,13 +5,14 @@ import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card';
 import Table from 'react-bootstrap/Table';
 import Alert from 'react-bootstrap/Alert';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function AppDashboard() {
   // Replace with actual user data or fetch it from your backend
   const user = {
-    name: 'Christian Dwamena',
-    grade: '12',
-    average: '87',
+    name: 'Samuel Boafo',
+    grade: '10',
+    average: '96',
     courses: [
       { name: 'DCIT 201', grade: 'A' },
       { name: 'DCIT 203', grade: 'B' },

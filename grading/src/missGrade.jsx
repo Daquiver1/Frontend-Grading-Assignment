@@ -1,5 +1,5 @@
 import './miisGrade.css';
-import logo from './logo.jpeg'
+
 
 
 

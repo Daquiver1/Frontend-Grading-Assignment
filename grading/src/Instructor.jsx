@@ -1,11 +1,13 @@
 
 
 import './App.css';
-import logo from './logo.jpeg'
+
+
 import soli from './soli.jpeg'
 import mark from './mr mark.jpeg'
 import aziz from './aza.jpeg'
-import img from './stephen-phillips-hostreviews-co-uk-shr_Xn8S8QU-unsplash.jpg'
+
+
 
 
 

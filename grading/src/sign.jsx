@@ -2,7 +2,8 @@ import './sign.css';
 
 
 
-import logo from './logo.jpeg'
+
+
 
 
 function Apps() {
