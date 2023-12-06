@@ -7,7 +7,7 @@ export default function GradeReport() {
     <>
       <section className="flex bg-gray-100 min-h-screen">
         <aside className="hidden sm:flex sm:flex-col">
-          <Link 
+          <Link
             to="/home"
             className="inline-flex items-center justify-center h-20 w-20 bg-white hover:bg-slate-100 focus:bg-purple-500"
           >
@@ -237,22 +237,24 @@ export default function GradeReport() {
                     />
                   </svg>
                 </button>
-                <button className="relative p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-600 focus:bg-gray-100 focus:text-gray-600 rounded-full">
+                <button className="relative p-2 text-gray-400 hover:bg-red-100 hover:text-gray-600 focus:bg-gray-100 focus:text-gray-600 rounded-full">
                   <span className="sr-only">Log out</span>
-                  <svg
-                    aria-hidden="true"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                    className="h-6 w-6"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={2}
-                      d="M17 16l4-4m0 0l-4-4m4 4H7m6 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h4a3 3 0 013 3v1"
-                    />
-                  </svg>
+                  <Link to="/home">
+                    <svg
+                      aria-hidden="true"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                      className="h-6 w-6"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth={2}
+                        d="M17 16l4-4m0 0l-4-4m4 4H7m6 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h4a3 3 0 013 3v1"
+                      />
+                    </svg>
+                  </Link>
                 </button>
               </div>
             </div>
@@ -266,7 +268,10 @@ export default function GradeReport() {
                 <h2 className="text-gray-600 ml-0.5">{Student.major}</h2>
               </div>
               <div className="flex flex-wrap items-start justify-end -mb-3">
-                <button className="inline-flex px-5 py-3 text-purple-600 hover:text-purple-700 focus:text-purple-700 hover:bg-purple-100 focus:bg-purple-100 border border-purple-600 rounded-md mb-3">
+                <Link
+                  to="/missing-grades"
+                  className="inline-flex px-5 py-3 text-purple-600 hover:text-purple-700 focus:text-purple-700 hover:bg-purple-100 focus:bg-purple-100 border border-purple-600 rounded-md mb-3"
+                >
                   <svg
                     aria-hidden="true"
                     fill="none"
@@ -281,8 +286,8 @@ export default function GradeReport() {
                       d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z"
                     />
                   </svg>
-                  Edit Dashboard
-                </button>
+                  Report Missing Grades
+                </Link>
                 <button className="inline-flex px-5 py-3 text-white bg-purple-600 hover:bg-purple-700 focus:bg-purple-700 rounded-md ml-6 mb-3">
                   <svg
                     aria-hidden="true"
@@ -298,7 +303,7 @@ export default function GradeReport() {
                       d="M12 6v6m0 0v6m0-6h6m-6 0H6"
                     />
                   </svg>
-                  <Link to="/grade_report">Student Dashboard</Link>
+                  <Link to="/dashboard">Student Dashboard</Link>
                 </button>
               </div>
             </div>
