@@ -1,0 +1,14 @@
+
+
+.home_content_container{
+    display: grid;
+    grid-template-columns: 40% 55%;
+    grid-template-rows: 600px;
+    column-gap: 3%;
+    background-color: blueviolet;
+    text-align: center;
+}
+
+.home_content_container_item{
+    border: 1px solid black;
+}
