@@ -1,8 +1,8 @@
 const Herosection = () => {
     return (
-    <div className="">
+    <div className="w-full">
         
-        <div className="main-conatiner flex w-screen h-[31rem] bg-blue-200">
+        <div className="main-conatiner flex w-full h-[31rem] bg-blue-200">
 
         <div className="left w-2/4 h-full bg-white  ">
 
