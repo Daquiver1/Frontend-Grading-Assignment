@@ -1,20 +1,27 @@
 
-import './App.css';
-import Mybars from './Mybars';
+import Navbar from './Navbar';
 import Home from './Home';
-const title="Welcome to the Ask Me app ";
-const likes= 1500;
-const link="htttp://www.google.com";
 
 function App() {
+  
+
   return (
   <div className='App'>
-    <Mybars></Mybars>
+    <Navbar></Navbar>
     <div className='content'>
-     <Home/>
-      <p>Liked {likes} times</p>
-      <a href={link}>Google site</a>
+      <a href='/'>Home</a>
+      <a href='Login'>Login</a>
+      <a href='Dashboard'>Dashboard</a>
+      <a href='Grade report'>Grade Report</a>
+      <a href='Mising Grade form'>Missing Grade Form</a>
+      <a href='Instructor Contact Page'>Instructor Contact Page</a>
+      <a href='Help and Support Page'>Help and Support Page</a>
+      
+
+      <Home/>
+      
     </div>
+
   </div>
     
           
