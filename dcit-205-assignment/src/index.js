@@ -2,9 +2,9 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./Home";
-import SignUp from "./pages/SignUP";
 import LogIn from "./pages/LogIn";
 import Dashboard from "./pages/Dashboard";
+import MissingGrades from "./pages/MissingGradeForm";
 import GradeReport from "./pages/GradeReport";
 import reportWebVitals from "./reportWebVitals";
 import "./index.css";
@@ -16,9 +16,9 @@ root.render(
       <Routes>
         <Route index element={<Home />} />
         <Route path="/home" element={<Home />} />
-        <Route path="/signup" element={<SignUp />} />
         <Route path="/login" element={<LogIn />} />
         <Route path="/dashboard" element={<Dashboard />} />
+        <Route path="/missing-grades" element={<MissingGrades />} />
         <Route path="/grade_report" element={<GradeReport />} />
       </Routes>
     </BrowserRouter>
