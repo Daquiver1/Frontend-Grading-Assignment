@@ -1,13 +1,16 @@
 import { useState } from "react";
 import Button from "./button";
+
+
 const  Nav = () => {
     let links = [
         {name:"Home",link:"/"},
-        {name:"Dashboard",link:"/"},
-        {name:"Grade Report",link:"/"},
-        {name:"Missing Grade Form",link:"/"},
-        {name:"Instructor Contact",link:"/"},
-        {name:"Help and Support",link:"/"},
+        {name:"Dashboard",link:"/dashboard"},
+        {name:"Grade Report",link:"/grade report"},
+        {name:"Missing Grade Form",link:"/missing grade"},
+        {name:"Instructor Contact",link:"/instructor contact"},
+        {name:"Help and Support",link:"/help and support"},
+        
     ];
     let [open,setOpen]=useState(false);
     return ( 

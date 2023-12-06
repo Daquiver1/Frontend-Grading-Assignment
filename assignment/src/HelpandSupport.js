@@ -1,7 +1,10 @@
 import React from "react";
-const HelpAndSupport = () => {
+import Nav from "./components/Navbar";
+const HelpAndSupport = () =>{
     return ( 
-        <div>Help</div>
+        <div>
+            <div><Nav/></div>
+            Help</div>
      );
 }
  

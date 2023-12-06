@@ -12,7 +12,7 @@ const Home = () => {
         <ul className="  p-[85px] pl-5 pt-0 font-sans text-xl text-center">
             <li className="font-bold py-3 text-blue-700 text-center">Login:</li> Login into the page by entering your student ID as your Username and your pin as the password. 
             <li className="font-bold py-3 text-blue-700 text-center">Report/Add:</li> Go to Dashboard to check missing grades, update lost grades or report missing grades to the lecturer.
-            <li className="font-bold py-3 text-blue-700 text-center">Submit: </li>Submit updated changes to the lecturer to have the necessary changes made to  your grade. <br />For further enquiries you can visit the <a className="text-blue-700"href="\">Instructor Contact</a> page or the <a className="text-blue-700 hover:" href="\">Help and Support </a> page to have your concerns addressed.
+            <li className="font-bold py-3 text-blue-700 text-center">Submit: </li>Submit updated changes to the lecturer to have the necessary changes made to  your grade. <br />For further enquiries you can visit the <a className="text-blue-700"href="\">Instructor Contact</a> page or the <a className="text-blue-700 hover:" href="\help and support">Help and Support </a> page to have your concerns addressed.
         </ul>
         </div>
         <div>

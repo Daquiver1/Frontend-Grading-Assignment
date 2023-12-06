@@ -1,8 +1,11 @@
 import React from "react";
+import Nav from "./components/Navbar";
 
 const MissingGrade = () => {
     return ( 
-       <div>MISSING</div>
+       <div>
+        <div><Nav/></div>
+        MISSING</div>
      );
 }
  

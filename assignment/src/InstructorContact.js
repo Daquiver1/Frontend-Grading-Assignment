@@ -1,7 +1,10 @@
 import React from "react";
+import Nav from "./components/Navbar";
 const InstructorContact = () => {
     return ( 
-        <dib>Contact</dib>
+        <div>
+            <div><Nav/></div>
+            Contact</div>
      );
 }
  

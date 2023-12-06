@@ -1,8 +1,12 @@
 import React from "react";
+import Nav from "./components/Navbar";
 
 const GradeReport = () => {
     return ( 
-       <div>Report</div>
+
+       <div>
+        <div><Nav/></div>
+        Report</div>
      );
 }
  
