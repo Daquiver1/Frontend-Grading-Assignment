@@ -6,10 +6,10 @@ import Card from 'react-bootstrap/Card';
 import Table from 'react-bootstrap/Table';
 import Alert from 'react-bootstrap/Alert';
 
-function Dashboard() {
+function AppDashboard() {
   // Replace with actual user data or fetch it from your backend
   const user = {
-    name: 'John Doe',
+    name: 'Christian Dwamena',
     grade: '12',
     average: '87',
     courses: [
@@ -96,4 +96,4 @@ function Dashboard() {
   );
 }
 
-export default Dashboard;
+export default AppDashboard;

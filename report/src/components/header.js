@@ -8,9 +8,12 @@ function AppHeader() {
   return (
     <Navbar bg="light" expand="lg">
       <Container>
+        <div className="left-side">
       <Navbar.Brand >Grade Report</Navbar.Brand>
+      </div>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
+          <div className="right-side">
           <Nav className="mr-3">
             <Nav.Link as={Link} to="/Home">Home</Nav.Link>
             <Nav.Link as={Link} to="/login">Login</Nav.Link>
@@ -20,6 +23,7 @@ function AppHeader() {
             <Nav.Link as={Link} to="/instructor">Contact</Nav.Link>
             <Nav.Link as={Link} to="/help and support">FAQs</Nav.Link>
           </Nav>
+          </div>
         </Navbar.Collapse>
       </Container>
     </Navbar>
