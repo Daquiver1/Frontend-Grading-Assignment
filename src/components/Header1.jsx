@@ -1,17 +1,20 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-
+import logo from '../assets/ugLogo.png';
 
 const Header1 = () => {
   return (
     <header>
-      <Link to="/">
-        {/* Your Logo goes here */}
-        <img src="/path/to/logo.png" alt="Logo" />
-      </Link>
-      <nav>
-        <Link to="/login">LOGIN</Link>
-      </nav>
+      <div className='HeaderItems'>
+        <Link to="/">
+          <img src={logo} alt="Logo" height={55} />
+        </Link>
+        <nav>
+          <Link to="/login" className="login-button">
+            LOGIN
+          </Link>
+        </nav>
+      </div>
     </header>
   );
 };
