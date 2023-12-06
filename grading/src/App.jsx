@@ -52,8 +52,9 @@ function App() {
     <Link to='/View'>ViewGrade</Link>
     </button>
     <button  className='item'>
-    <Link to='/Dashboard'>Dashboard</Link>
+    <Link to='/Help'>Help</Link>
     </button>
+    
    
    
 
@@ -104,10 +105,10 @@ Educators begin by defining clear and transparent grading criteria. These criter
     <br></br>
     <br></br>
     <br></br>
+   
     <button  className='item'>
-    <Link to='/Help'>Help</Link>
+    <Link to='/Dashboard'>Dashboard</Link>
     </button>
-
 
 
 
