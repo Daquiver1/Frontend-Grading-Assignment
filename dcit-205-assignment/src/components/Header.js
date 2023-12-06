@@ -9,7 +9,7 @@ export default function Header (){
           aria-label="Global"
         >
           <div class="flex lg:flex-1">
-            <Link to="" class="-m-1.5 p-1.5" data-testid="logo">
+            <Link to="/home" class="-m-1.5 p-1.5" data-testid="logo">
               <span class="sr-only">UG | Course Complaint</span>
               <img class="h-8 w-auto" src={logo} alt="logo" />
             </Link>
@@ -50,8 +50,8 @@ export default function Header (){
             <Link to="/" class="text-sm font-semibold leading-6 text-gray-900">
               About
             </Link>
-            <Link to="/" class="text-sm font-semibold leading-6 text-gray-900">
-              Course Check
+            <Link to="/missing-grades" class="text-sm font-semibold leading-6 text-gray-900">
+              Report
             </Link>
             <Link
               to="/signup"

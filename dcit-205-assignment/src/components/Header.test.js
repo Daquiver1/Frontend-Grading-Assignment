@@ -5,7 +5,7 @@ import Header from "./Header";
 const links = [
   { text: "Home", location: "/home" },
   { text: "Log in", location: "/login" },
-  { text: "Course Check", location: "/" },
+  { text: "Report", location: "/missing-grades" },
 ];
 
 test.each(links)("Check if the Nav Bar Has Links.", (link) => {
@@ -25,6 +25,6 @@ test("Check if have the logo has a link to the home page", () => {
     </BrowserRouter>
   );
   const logoDom = screen.getByTestId(/logo/);
-  expect(logoDom).toHaveAttribute("href", "/");
+  expect(logoDom).toHaveAttribute("href", "/home");
   expect(screen.getByAltText(/logo/)).toBeInTheDocument();
 });
