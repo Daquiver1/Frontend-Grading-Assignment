@@ -1,0 +1,29 @@
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="logo-color.png"></a>
+            <div class="nav-links">
+                <i class="fa fa-window-close"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">COURSE</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars"></i>
+        </nav>
+        <div class="text-box">
+            <h1>World's Biggest Academy</h1>
+            <p>Welcome to the Missing Grade Reporting System. This platform is designed to assist students in tracking and reporting grades that are not recorded in their academic profiles.
+                <br>Use your student ID and password login into the page to explore different features of the system.
+            </p>
+            <a href="" class="hero-btn">Visit Us To Know More</a>
+        </div>
+    </section>
+
+     
+     
+
+</body>
+</html>
