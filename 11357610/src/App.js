@@ -1,7 +1,7 @@
 // Import necessary dependencies
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import LandingPage from './components/LandingPage';
+import LandingPage  from './components/LandingPage';
 import GradeReportPage from './components/GradeReportPage';
 import HelpPage from './components/HelpPage';
 import InstructorContactPage from './components/InstructorContactPage';
@@ -9,8 +9,8 @@ import MissingGradeFormPage from './components/MissingGradeFormPage';
 import LoginPage from './components/LoginPage';
 import DashboardPage from './components/DashboardPage';
 
-const App = () => {
-  return ( <BrowserRouter>
+const App = () => (
+    <BrowserRouter>
     <Routes>
       <Route path="/" element={<LandingPage />} />
       <Route path="/" element={<LoginPage />} />
@@ -21,7 +21,8 @@ const App = () => {
       <Route path="/" element={<HelpPage/>} />
       {/* TO Add more routes for other pages */}
     </Routes>
-  </BrowserRouter>);
-};
+  </BrowserRouter>
+ );
+
 
 export default App;
