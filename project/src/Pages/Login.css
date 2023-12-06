@@ -49,13 +49,15 @@ input{
     outline-color: rgb(87, 87, 171);
 }
 .Login-btn{
-    width: 40%;
+    width: 380%;
     height: 3em;
     background-color: rgb(8, 8, 73);
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+    left: -50px;
     transition: 0.5s;
     border-radius: 0.25em;
     cursor: pointer;
