@@ -5,7 +5,7 @@ import 'bootstrap/dist/css/booccccccctstrap.min.css';
 import 'tailwindcss/tailwind.css';
 
 
-// Landing Page component
+// Landing Page compone
 const LandingPage = () => {
   return (
     <div className="container mx-auto my-4">
