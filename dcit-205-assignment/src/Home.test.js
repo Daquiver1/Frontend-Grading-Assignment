@@ -4,7 +4,7 @@ import Home from './Home'
 
 const homeLinks = [
   { text: "Apply Here", location: "/login" },
-  { text: "Get started", location: "/login" },
+  { text: "Get started", location: "/missing-grades" },
 ];
 
 test.each(homeLinks)("Check if Home Links are working",(link) => {
