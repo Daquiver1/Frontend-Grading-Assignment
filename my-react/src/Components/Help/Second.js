@@ -1,3 +1,6 @@
+import help from '../images/helpp.jpg'
+
+
 const Second = () => {
 
     let faq=[{
@@ -15,10 +18,10 @@ const Second = () => {
     }];
 
     return (  
-        <div className="py-12">
+        <div className="py-12 ">
             <div className="w-full flex">
                 <div className="left w-2/4">
-
+                    <img className='w-full h-[30rem]' src={help} alt="" />
                 </div>
                 <div className="right w-2/4">
                     <div className="container  space-y-4 w-[70%] ml-12">

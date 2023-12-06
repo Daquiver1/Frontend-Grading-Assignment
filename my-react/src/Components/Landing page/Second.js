@@ -1,8 +1,12 @@
+import image2 from '../images/screen.jpg';
+
 const Second = () => {
     return ( 
         <div className="w-full flex">
-            <div className="w-2/4">
-
+            <div className="w-2/4 flex justify-center items-center">
+                <div className="d">
+                    <img className='w-[16rem]' src={image2} alt="" />
+                </div>
             </div>
 
             <div className="w-2/4">
