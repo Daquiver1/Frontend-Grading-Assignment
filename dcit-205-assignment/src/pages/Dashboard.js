@@ -237,22 +237,24 @@ export default function Dashboard() {
                     />
                   </svg>
                 </button>
-                <button className="relative p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-600 focus:bg-gray-100 focus:text-gray-600 rounded-full">
-                  <span className="sr-only">Log out</span>
-                  <svg
-                    aria-hidden="true"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                    className="h-6 w-6"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={2}
-                      d="M17 16l4-4m0 0l-4-4m4 4H7m6 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h4a3 3 0 013 3v1"
-                    />
-                  </svg>
+                <button className="relative p-2 text-gray-400 hover:bg-red-100 hover:text-gray-600 focus:bg-gray-100 focus:text-gray-600 rounded-full">
+                  <Link to="/home">
+                    <span className="sr-only">Log out</span>
+                    <svg
+                      aria-hidden="true"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                      className="h-6 w-6"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth={2}
+                        d="M17 16l4-4m0 0l-4-4m4 4H7m6 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h4a3 3 0 013 3v1"
+                      />
+                    </svg>
+                  </Link>
                 </button>
               </div>
             </div>
@@ -281,7 +283,7 @@ export default function Dashboard() {
                       d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z"
                     />
                   </svg>
-                  Edit Dashboard
+                  <Link to="/missing-grades">Edit Dashboard</Link>
                 </button>
                 <button className="inline-flex px-5 py-3 text-white bg-purple-600 hover:bg-purple-700 focus:bg-purple-700 rounded-md ml-6 mb-3">
                   <svg
@@ -483,30 +485,21 @@ export default function Dashboard() {
                   <ul className="p-6 space-y-6">
                     <li className="flex items-center">
                       <div className="h-10 w-10 mr-3 bg-gray-100 rounded-full overflow-hidden">
-                        <img
-                          src={Student.image}
-                          alt="Annette Watson"
-                        />
+                        <img src={Student.image} alt="Annette Watson" />
                       </div>
                       <span className="text-gray-600">{Student.name}</span>
                       <span className="ml-auto font-semibold">9.3</span>
                     </li>
                     <li className="flex items-center">
                       <div className="h-10 w-10 mr-3 bg-gray-100 rounded-full overflow-hidden">
-                        <img
-                          src={Student.image}
-                          alt="Calvin Steward"
-                        />
+                        <img src={Student.image} alt="Calvin Steward" />
                       </div>
                       <span className="text-gray-600">Joy Owusu Ansah</span>
                       <span className="ml-auto font-semibold">8.9</span>
                     </li>
                     <li className="flex items-center">
                       <div className="h-10 w-10 mr-3 bg-gray-100 rounded-full overflow-hidden">
-                        <img
-                          src={Student.image}
-                          alt="Ralph Richards"
-                        />
+                        <img src={Student.image} alt="Ralph Richards" />
                       </div>
                       <span className="text-gray-600">
                         Bernard Aseidu-Dankwah
@@ -515,50 +508,35 @@ export default function Dashboard() {
                     </li>
                     <li className="flex items-center">
                       <div className="h-10 w-10 mr-3 bg-gray-100 rounded-full overflow-hidden">
-                        <img
-                          src={Student.image}
-                          alt="Bernard Murphy"
-                        />
+                        <img src={Student.image} alt="Bernard Murphy" />
                       </div>
                       <span className="text-gray-600">Bernard Murphy</span>
                       <span className="ml-auto font-semibold">8.2</span>
                     </li>
                     <li className="flex items-center">
                       <div className="h-10 w-10 mr-3 bg-gray-100 rounded-full overflow-hidden">
-                        <img
-                          src={Student.image}
-                          alt="Arlene Robertson"
-                        />
+                        <img src={Student.image} alt="Arlene Robertson" />
                       </div>
                       <span className="text-gray-600">Ariga Hawau</span>
                       <span className="ml-auto font-semibold">8.2</span>
                     </li>
                     <li className="flex items-center">
                       <div className="h-10 w-10 mr-3 bg-gray-100 rounded-full overflow-hidden">
-                        <img
-                          src={Student.image}
-                          alt="Jane Lane"
-                        />
+                        <img src={Student.image} alt="Jane Lane" />
                       </div>
                       <span className="text-gray-600">Jane Lane</span>
                       <span className="ml-auto font-semibold">8.1</span>
                     </li>
                     <li className="flex items-center">
                       <div className="h-10 w-10 mr-3 bg-gray-100 rounded-full overflow-hidden">
-                        <img
-                          src={Student.image}
-                          alt="Pat Mckinney"
-                        />
+                        <img src={Student.image} alt="Pat Mckinney" />
                       </div>
                       <span className="text-gray-600">Pat Mckinney</span>
                       <span className="ml-auto font-semibold">7.9</span>
                     </li>
                     <li className="flex items-center">
                       <div className="h-10 w-10 mr-3 bg-gray-100 rounded-full overflow-hidden">
-                        <img
-                          src={Student.image}
-                          alt="Norman Walters"
-                        />
+                        <img src={Student.image} alt="Norman Walters" />
                       </div>
                       <span className="text-gray-600">Norman Walters</span>
                       <span className="ml-auto font-semibold">7.7</span>
