@@ -13,6 +13,8 @@ import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
 import Typography from '@mui/material/Typography';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import {useNavigate } from 'react-router-dom';
+import Footer from './FooterCode';
+
 
 function Copyright(props) {
   return (
@@ -136,6 +138,8 @@ export default function SignInSide() {
             </Box>
           </Box>
         </Grid>
+        <Footer />
+
       </Grid>
     </ThemeProvider>
   );

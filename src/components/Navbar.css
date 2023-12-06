@@ -59,6 +59,11 @@
     color: #35424a; 
   }
   
+  .navbar-links a.active {
+    color: rgb(250, 250, 250); 
+    font-weight: bold; 
+  }
+  
 
 
   

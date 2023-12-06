@@ -1,15 +1,12 @@
-/* DashboardPage.css */
 
-/* General Styles */
 .dashboard-container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 20px;
-  background-color: #f8f9fa; /* Light background color */
-  color: #343a40; /* Dark text color */
+  background-color: #f8f9fa;
+  color: #343a40; 
 }
 
-/* Dashboard Header */
 .dashboard-header {
   display: flex;
   justify-content: space-between;

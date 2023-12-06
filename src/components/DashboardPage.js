@@ -3,6 +3,8 @@ import './DashboardPage.css';
 import { useNavigate } from 'react-router-dom';
 import { Line } from 'react-chartjs-2';
 import 'chart.js/auto';
+import Footer from './FooterCode';
+
 
 
 const initialChartData = {
@@ -151,6 +153,8 @@ const DashboardPage = () => {
           <input type="text" placeholder="Enter course name" onChange={(e) => handleSearch(e.target.value)} />
         </div>
       </div>
+
+      <Footer />
     </div>
   );
 };
