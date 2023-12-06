@@ -1,0 +1,45 @@
+
+.sidebar-container {
+    position: relative;
+    background-color: #f0f0f0;
+    width: 200px;
+    height: 100vh;
+  }
+
+
+  .trigger {
+    width: 20px;
+    height: 100vh;
+    background-color: transparent;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+  }
+  
+  .sidebar-container a {
+    width: 350px;
+  }
+  
+
+  
+  nav {
+    padding: 20px;
+  }
+  
+  nav a {
+    display: block;
+    text-decoration: none;
+    color: #302c5c; /* Blue color */
+    padding: 10px 0;
+    transition: color 0.3s; /* Add a smooth transition effect for text color */
+  }
+  
+  nav a:hover {
+    color: #c09c6c; /* Green color on hover */
+  }
+  
+  nav a.active {
+    color: #c09c6c; /* Green color for the active/current page */
+  }
+  
