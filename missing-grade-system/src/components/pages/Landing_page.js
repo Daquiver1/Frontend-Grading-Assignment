@@ -1,5 +1,7 @@
 import React from "react";
+
 import Slider from "../inc/Slider";
+
 import {Link} from 'react-router-dom';
 
 function Landing() {
@@ -29,9 +31,12 @@ function Landing() {
                                 grades in their respective courses. On this, students can report problems such as missing grades in some
                                 courses or incorrect grades listed for some courses. All you need to do is to log in with your student ID and 
                                 pin to be able access grades and fill out forms to report any problem.
+
                             </p>
+
                             <Link to= "/Login" className= "btn btn-warning shadow">Login</Link>
                         </div>
+
                     </div>
 
                 </div>
@@ -43,6 +48,7 @@ function Landing() {
                 <div className="container">
 
                     <div className="row">
+
                         <div className="col-md-12 mb-4 text-center">
 
                             <h3 className="main-heading">
@@ -59,21 +65,30 @@ function Landing() {
                                 The vision of the University of Ghana is to become a World-Class research intensive University that will build
                                 up its students to become resposible citizens of society.  
                             </p>
+
                         </div>
+
                         <div className="col-md-4 text-center">
+
                             <h6>The University's Mission</h6>
+
                             <p>
                                 Our mission is to create an enabling environment that make the unoversity
                                 increasingly relevant to national and global development through cutting-edge research
                                 as well as high quality teaching and learning. 
                             </p>
+
                         </div>
+
                         <div className="col-md-4 text-center">
+
                             <h6>The University's Values</h6>
+
                             <p>
                                We at the university of Ghana uphold core Values
                                such as integrity,loyalty,respect and commitment. 
                             </p>
+                            
                         </div>
                     </div>
 

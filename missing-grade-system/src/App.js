@@ -11,6 +11,7 @@ import InstructorContact from './components/pages/Instructor_Contact_page';
 import Help from './components/pages/Help_page';
 import Footer from './components/inc/footer';
 
+
 function App() {
   return (
     <Router>
@@ -39,6 +40,8 @@ function App() {
       </Routes>
 
       <Footer />
+
+      
 
       
 
