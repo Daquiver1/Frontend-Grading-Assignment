@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <title>Instructors Contact List</title>
+    <style>
+      img {
+        height: 500px;
+        width: 500px;
+      }
+      .ug {
+          height: 65px;
+          width: 60px;
+        }
+        .footer {
+        background-color: #343a40;
+        color: #ffffff;
+        padding: 30px 0;
+      }
+      .footer a {
+        color: #ffffff;
+      }
+      .social-icons i {
+        font-size: 24px;
+        margin-right: 10px;
+    </style>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <img class="ug" src="ug logo.png" alt="" />
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="home.html"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="login.html">Login </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="dashboard.html">Dashboard</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="support.html">Help and Support</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <br />
+    <br />
+    <br />
+    <div class="container mt-5">
+      <h3>
+        Report your missing grades issue to any of the professionals below
+      </h3>
+
+      <div class="row">
+        <div class="col-md-6">
+          <div class="card">
+            <img src="Aziz.jpg" class="card-img-top" alt="Aziz" />
+            <div class="card-body">
+              <h5 class="card-title">Dwumfour Abdullai-Aziz</h5>
+              <h3>Assistant Lecturer Of the Department</h3>
+              <p class="card-text">Email: aziz@gmail.com</p>
+              <button
+                type="button"
+                class="btn btn-primary btn-sm"
+                data-toggle="modal"
+                data-target="#emailModal1"
+              >
+                Send Email
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="card">
+            <img
+              src="Mark Atta Mensah.jpg"
+              class="card-img-top"
+              alt="Mark Mensah"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Mark Atta Mensah</h5>
+              <h3>Senior Lecturer Of the Department and Software Engineer</h3>
+
+              <p class="card-text">Email: markattamensah@gmail.com</p>
+              <button
+                type="button"
+                class="btn btn-primary btn-sm"
+                data-toggle="modal"
+                data-target="#emailModal2"
+              >
+                Send Email
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card">
+            <img src="Soli.jpg" class="card-img-top" alt="Michael Soli" />
+            <div class="card-body">
+              <h5 class="card-title">Michael Soli</h5>
+              <h3>Lecturer of Multimedia and Web Design</h3>
+              <p class="card-text">Email: mikesoli@gmail.com</p>
+              <button
+                type="button"
+                class="btn btn-primary btn-sm"
+                data-toggle="modal"
+                data-target="#emailModal2"
+              >
+                Send Email
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card">
+            <img
+              src="Dr Jamal Deen Abdulai.jpg"
+              class="card-img-top"
+              alt="Jamal Deen"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Dr. Jamal Deen</h5>
+              <h3>Head Of Department</h3>
+              <p class="card-text">Email: jamaldeen@gmail.com</p>
+              <button
+                type="button"
+                class="btn btn-primary btn-sm"
+                data-toggle="modal"
+                data-target="#emailModal2"
+              >
+                Send Email
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Add more instructors as needed -->
+      </div>
+    </div>
+
+    <!-- Email Modals -->
+    <div class="modal" id="emailModal1">
+      <!-- Modal content for John Doe, similar to the previous example -->
+    </div>
+
+    <div class="modal" id="emailModal2">
+      <!-- Modal content for Jane Smith, similar to the previous example -->
+    </div>
+
+    <!-- Bootstrap JS and Popper.js -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h4>Contact Us</h4>
+            <p>Email: info@example.com</p>
+            <p>Phone: +1 (123) 456-7890</p>
+          </div>
+          <div class="col-md-6">
+            <h4>For More Enquiries</h4>
+            <a href="support.html">Help and Support</a>
+            <div class="social-icons">
+              <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+              <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+              <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+              <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
