@@ -67,7 +67,7 @@ export default function LogIn() {
             LOGIN
           </Link>
           <a
-            href="/signup"
+            href="/missing-grades"
             className="transform text-center font-semibold text-gray-500 duration-300 hover:text-gray-300"
           >
             FORGOT PASSWORD?
@@ -75,7 +75,7 @@ export default function LogIn() {
           <p className="text-center text-lg text-black">
             Don't have an account?{" "}
             <Link
-              to="/signup"
+              to="/missing-grades"
               className="font-medium text-indigo-500 underline-offset-4 hover:underline"
             >
               Create One
