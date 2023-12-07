@@ -1,8 +1,9 @@
 import React from "react";
-import Navbar from "./navbar";
+import Navbar from "./Navbar";
 import Help from "./pages/help";
 import Home from "./pages/home";
 import Login from "./pages/login";
+
 
 function App() {
   let component;
