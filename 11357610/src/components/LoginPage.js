@@ -1,11 +1,10 @@
 // LoginPage.js
 
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
-import 'bootstrap/dist/css/booccccccctstrap.min.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import 'tailwindcss/tailwind.css';
 
-const Login = () => {
+const LoginPage = () => {
   const [studentId, setStudentId] = useState('');
   const [pin, setPin] = useState('');
   const [errorMessage, setErrorMessage] = useState('');
@@ -60,11 +59,11 @@ const Login = () => {
         </form>
         {errorMessage && <p className="text-red-500 mt-4">{errorMessage}</p>}
         <p className="mt-6 text-center">
-          Forgot your password? <a href="#" className="text-blue-500">Reset it here</a>
+          Forgot your password? <a href="/not-found" className="text-blue-500">Reset it here</a>
         </p>
       </div>
     </div>
   );
 };
 
-export default Login;
+export default LoginPage;

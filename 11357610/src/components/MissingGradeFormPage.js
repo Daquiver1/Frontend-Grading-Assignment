@@ -1,8 +1,7 @@
 // MissingGradeFormPage.js
 
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
-import 'bootstrap/dist/css/booccccccctstrap.min.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import 'tailwindcss/tailwind.css';
 
 const MissingGradeFormPage = () => {
@@ -94,4 +93,4 @@ const MissingGradeFormPage = () => {
   );
 };
 
-export default MissingG
+export default MissingGradeFormPage;

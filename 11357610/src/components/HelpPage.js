@@ -1,15 +1,20 @@
 // HelpAndSupportPage.js
 
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
-import 'bootstrap/dist/css/booccccccctstrap.min.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import 'tailwindcss/tailwind.css';
 
 const HelpAndSupportPage = () => {
   // Dummy data for FAQ
   const faqData = [
-    { id: 1, question: 'How do I report a missing grade?', answer: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' },
-    { id: 2, question: 'What should I do if I encounter an error?', answer: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.' },
+    {
+      id: 1, question: 'How do I report a missing grade?',
+      answer: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+    },
+    {
+      id: 2, question: 'What should I do if I encounter an error?',
+      answer: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.'
+    },
     // Add more FAQs as needed
   ];
 
