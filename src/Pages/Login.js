@@ -2,6 +2,8 @@ import React from 'react'
 import "../Styling/Login.css"
 import { useState } from 'react';
 import { Redirect } from 'react-router-dom/cjs/react-router-dom.min';
+import comScience_logo from "../Images/comScience_logo.png"
+
 
 function Login(props) {
 
@@ -31,14 +33,15 @@ function Login(props) {
 
           <Redirect to="/Dashboard" />
        ):(
-
+          <div className='Main0'>  
           <div className='Form'>
+          <img className='logo' height="50px" width="35px" src={comScience_logo}></img>
                <h1>MGRS</h1>
                <text id='text00'> SID: </text>
                <input id='input'  onChange={(event)=>setSid(event.target.value)} />
                <text id='text00'> PIN: </text>
                <input id='input'  onChange={(text)=>{SetPin(text.target.value)}} />
-               <button onClick={()=>Loguin()}>Login</button>
+               <button id='Login' onClick={()=>Loguin()}>Login</button>
                {
                 (authstate=="False")?(
 
@@ -50,6 +53,7 @@ function Login(props) {
                                       <text>MGRS V1.0</text>
                                      )
                }
+          </div>
           </div>
 
        )}

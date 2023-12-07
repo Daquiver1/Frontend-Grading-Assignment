@@ -1,6 +1,6 @@
 import React from 'react'
 import BottomNavbar from '../Components/BottomNavbar'
-import "../Styling/Landing.css"
+import '../Styling/Landing.css'
 import comScience_logo from '../Images/comScience_logo.png'
 import { Link } from 'react-router-dom'
 
@@ -14,9 +14,9 @@ function Homepage({id}) {
             <div className='title1'><text>Homepage</text></div>
           </div>
         </div>
-        <div className='middleSection'>
-            <div className='middleSection0'>
-              <div className='m0text'>
+        <div className='middleSectionh'>
+            <div className='middleSectionh0'>
+              <div className='m0texth'>
               <text>Welcome</text><br></br>
 
               <text>This is a Missing Grade Report System</text><br></br>
@@ -32,8 +32,8 @@ function Homepage({id}) {
               <p id='dcs'>Brought to you by DCSUG</p>
               </div>
             </div>
-            <div className='middleSection1'>
-              <div className='m1text'>
+            <div className='middleSection1h'>
+              <div className='m1texth'>
 
               Responses to reports made are usually made within minutes <br></br>
               <p></p>

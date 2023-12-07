@@ -30,24 +30,25 @@
 }
 
 
-.middleSection {
+.middleSectionh {
+  font-size: 14px;
   gap:20px;
   justify-content: center;
   align-items: center;
   height: 80%;
-  width: 90%;
+  width: 80%;
   background-color: #eee;
   display: flex;
   flex-direction: row;
 }
 
-.middleSection0 {
+.middleSectionh0 {
   height: 90%;
   width: 47%;
   background-color: white;
 }
 
-.m0text {
+.m0texth {
   padding: 30px;
 }
 
@@ -57,13 +58,13 @@
   margin-top: 150px;
 }
 
-.middleSection1 {
+.middleSection1h {
   height: 90%;
   width: 47%;
   background-color: white;
 }
 
-.m1text {
+.m1texth {
   padding: 30px;
 }
 

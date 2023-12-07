@@ -6,10 +6,20 @@
     justify-content: center;
     height: 100vh;
   }
+
+  .Main0 {
+    background-color: #eee;
+    border-radius: 5px;
+    height: 440px;
+    width: 440px;
+    border-top-width: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
   
   .Form {
-    color: white;
-    background-color: #0000ff7e;
     border-radius: 5px;
     height: 400px;
     width: 400px;
@@ -32,4 +42,13 @@
     border-color: white;
     padding-left: 9px;
 
+  }
+
+  #Login {
+    background-color: #0000ff7e;
+    border-width: 0px;
+    border-radius: 50px;
+    width: 110px;
+    height: 35px;
+    color: white;
   }

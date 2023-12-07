@@ -4,7 +4,7 @@ const data = {
         "MATH207: Your Grade has been updated  --Dr Thompson"
     ],
     "Gradebook":[
-        ["DCIT104                 B+",
+        ["DCIT104                B+",
         "DCIT109                 B+",
         "MATH107                 D+",
         "MATH105                 A",
@@ -23,11 +23,14 @@ const data = {
         "MATH208                 D+",
         "MATH206                 A",
         "STAT208                 D",
-        "STAT208                 A", 
+        "STAT208                 n/a", 
     ]
     ],
     "Solved":[
         "MATH107: Grade updated"
+    ],
+    "Open":[
+        "STAT208: Missing grade"
     ]
 }
 
