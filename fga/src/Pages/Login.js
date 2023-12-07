@@ -4,13 +4,14 @@ import "../Styles/PageStyles/Login.css"
 
 
 
-const Box = () => {
+const Login = () => {
+
     return (
         <div className="body">
         <div className="login-box">
             <style>{'body { background-color: #d9d9d9; }'}</style>
             <form>
-                <Caption>Log In</Caption>
+                <h3>Log In</h3>
                 <label for="ID">ID :</label>
                 <input type="text" id="ID" name="ID" />
                 <br />
@@ -24,4 +25,6 @@ const Box = () => {
             </div>
         </div>
 );
-};
+}
+
+export default Login;

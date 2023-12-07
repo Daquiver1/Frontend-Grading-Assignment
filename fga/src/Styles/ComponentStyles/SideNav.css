@@ -3,7 +3,14 @@
     top: 160px;
     left: 0px;
     background-color: #479aec;
-    width: 348px;
-    height: 617px;
+    width: max-content;
+    float: left;
+    border-left: solid;
+    border-color: rgb(0, 112, 203);
+    border-width: 20px;  
+  }
+  
+  h2 {
+    margin: auto;
   }
   

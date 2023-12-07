@@ -10,3 +10,11 @@ const SideNav = () => {
 };
 
 export default SideNav;
+
+const Navlist = () => {
+  return(
+    <div>
+      
+    </div>
+  )
+}

@@ -6,6 +6,7 @@ import {
   useLocation,
 } from "react-router-dom";
 import LandingPage from "./Pages/LandingPage";
+import Login from "./Pages/Login";
 
 function App() {
   const action = useNavigationType();
@@ -24,13 +25,16 @@ function App() {
 
     switch (pathname) {
       case "/":
-        title = "";
-        metaDescription = "";
+        title = "Landing Page";
+        metaDescription = "Laniding Page";
         break;
-      case "/mask-group":
-        title = "";
-        metaDescription = "";
+      case "/login":
+        title = "Login";
+        metaDescription = "Login page";
         break;
+      default:
+        title = "Landing Page";
+        metaDescription = "Laniding Page";
     }
 
     if (title) {
@@ -50,7 +54,7 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<LandingPage />} />
-      {/*<Route path="/login" element={<Login />} /> */}
+      <Route path="/login" element={<Login />} /> 
     </Routes>
    );
   }

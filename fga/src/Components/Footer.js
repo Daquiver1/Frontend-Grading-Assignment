@@ -31,9 +31,11 @@ const FooterHelp = () => {
 const Footer = () => {
   return (
     <div className="footer" >
-        <FooterNav />
-        <FooterContactLinks />
-        <FooterHelp />
+      <ul className="footer_ul">
+        <li><FooterNav /></li>
+        <li><FooterContactLinks /></li>
+        <li><FooterHelp /></li>
+      </ul>
     </div>
   );
 };
