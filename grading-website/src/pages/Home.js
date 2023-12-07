@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
 import HeroSection from '../components/HeroSection';
-import RightSidebar from '../components/RightSidebar';
+import LeftSidebar from '../components/LeftSidebar';
 import Footer from '../components/Footer';
 
 function Home() {
@@ -59,7 +59,7 @@ function Home() {
     <HeroSection
     backgroundImage={backgroundImage}  pageContent={pageContent}
      />
-     <RightSidebar />
+     <LeftSidebar />
      <Footer />
     </>
     

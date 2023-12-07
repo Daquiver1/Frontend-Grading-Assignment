@@ -1,7 +1,7 @@
 import React from 'react';
-import './RightSidebar.css';
+import './LeftSidebar.css';
 
-function RightSidebar() {
+function LeftSidebar() {
   return (
     <>
     
@@ -27,4 +27,4 @@ function RightSidebar() {
   )
 }
 
-export default RightSidebar
+export default LeftSidebar
