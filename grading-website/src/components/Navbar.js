@@ -13,10 +13,10 @@ function Navbar() {
     <div className='tabs-container'>
     <ul className="nav nav-underline justify-content-end">
   <li className="nav-item">
-  <a className="nav-link --bs-body-bg-rgb" href="http://localhost:3000">Home</a>
+  <a className="nav-link --bs-body-bg-rgb" href="http://localhost:3000/home">Home</a>
   </li>
   <li className="nav-item ">
-    <a className="nav-link --bs-body-bg-rgb" href="#">Login</a>
+    <a className="nav-link --bs-body-bg-rgb" href="http://localhost:3000/login">Login</a>
   </li>
   <li className="nav-item">
     <a className="nav-link --bs-body-bg-rgb" href="#">Dashboard</a>
