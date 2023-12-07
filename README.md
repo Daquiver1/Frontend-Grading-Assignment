@@ -1,5 +1,5 @@
-# Student Details
-**Name:** Samuel Nsiah Tandoh
+# Student Name And Id
+**Name:** Samuel Tandoh Nsiah
 **ID:** 11108240
 
 
