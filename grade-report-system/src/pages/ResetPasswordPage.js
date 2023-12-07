@@ -17,7 +17,7 @@ const SignUp = () => {
   };
 
   return (
-    <div className="w-full h-screen flex flex-row">
+    <div className="w-full h-screen flex flex-row bg-[#ece3e9]">
       <header className="absolute inset-x-0 top-0 z-50 ">
           <nav className="flex items-center justify-between p-6 lg:px-8 h-[80px] bg-[#000435] fixed w-full" aria-label="Global" >
           <h1 className='text-4xl text-[#fff]'><b>University of Ghana</b></h1> 
@@ -37,7 +37,7 @@ const SignUp = () => {
               </div>
           </nav>
       </header>
-      <div className="w-[1000px] h-screen sm:px-[200px] flex flex-col justify-center relative px-4">
+      <div className="w-[1000px] h-screen sm:px-[200px] flex flex-col justify-center relative px-4 ml-[350px]">
         <Link
           to="/login"
           className=" w-[50px] h-[50px] rounded-full flex items-center justify-center absolute top-[36px] sm:left-[36px]"

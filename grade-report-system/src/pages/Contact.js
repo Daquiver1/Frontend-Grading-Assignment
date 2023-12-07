@@ -7,10 +7,10 @@ const Contact = () => {
   const [selectedPage, setSelectedPage] = useState('Home page')
   const Menus =[
     {title: "Dashboard",src: "Chart_fill", path:"/Dashboard"},
-    {title: "Help and Support", src: "Chat", path:"/Support"},
     {title: "Missing Grade Form", src: "Search", path: "/search"},
     {title: "Grade Report", src: "Chart", path:"/Report"},
     {title: "Instructor Contact", src: "Folder", gap: true, path:"/Contact"},
+    {title: "Help and Support", src: "Chat", path:"/Support"},
   ]
   const handleMenuClick = (title) => {
     setOpen(!open);
@@ -38,7 +38,7 @@ const Contact = () => {
                 </li>)}
         </ul>
         </div>
-        <div className="p-7 text-2x1 font-semibold flex-1 h-screen">
+        <div className="p-7 text-2x1 font-semibold flex-1 h-screen bg-[#ece3e9]">
          Contacts
         <div>
             <p>how are you</p>

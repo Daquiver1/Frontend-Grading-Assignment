@@ -141,7 +141,7 @@ const LogIn = () => {
 
    
   return (
-    <div className="w-full sm:h-screen flex flex-row h-auto">
+    <div className="w-full sm:h-screen flex flex-row h-auto bg-[#ece3e9]">
         <header className="absolute inset-x-0 top-0 z-50 ">
             <nav className="flex items-center justify-between p-6 lg:px-8 h-[80px] bg-[#000435] fixed w-full" aria-label="Global" >
             <h1 className='text-4xl text-[#fff]'><b>University of Ghana</b></h1> 
@@ -162,60 +162,62 @@ const LogIn = () => {
               </div>
             </nav>
         </header>
-      <div className="w-[1000px] h-screen sm:px-[200px] flex flex-col justify-center px-5">
-        <form>
-          <h2 className="sm:text-[28px] text-[25px]">Sign into your account</h2>
-          <div className="w-full flex flex-row gap-x-[20px] mt-3"></div>
-          <br />
-          <InputField
-            placeholder="Student ID"
-            value={email}
-            onChange={(e) => setEmail(e.target.value)}
-          />
-          <br />
-          <InputField
-            placeholder="PIN"
-            value={password}
-            type="password"
-            onChange={(e) => setPassword(e.target.value)}
-          />
-          <div className="h-[30px] flex items-center ">
-            {password.length < 5 && password.length !== 0 && (
-              <p className="text-sm text-red-600">
-                Password should be five characters
-              </p>
-            )}
+        <div className="flex items-center justify-center h-screen ml-[350px]">
+          <div className="w-[1000px] h-screen sm:px-[200px] flex flex-col justify-center px-5">
+          <form>
+            <h2 className="sm:text-[28px] text-[25px]">Sign into your account</h2>
+            <div className="w-full flex flex-row gap-x-[20px] mt-3"></div>
+            <br />
+            <InputField
+              placeholder="Student ID"
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+            />
+            <br />
+            <InputField
+              placeholder="PIN"
+              value={password}
+              type="password"
+              onChange={(e) => setPassword(e.target.value)}
+            />
+            <div className="h-[30px] flex items-center ">
+              {password.length < 5 && password.length !== 0 && (
+                <p className="text-sm text-red-600">
+                  Password should be five characters
+                </p>
+              )}
+            </div>
+            <br />
+            <button
+              onClick={onSubmitHandler}
+              className="bg-[#06b6d4] text-white w-full h-[40px] rounded-lg"
+            >
+              Login
+            </button>
+          </form>
+          <span className="text-sm text-right mt-[28px]">
+            <Link to="/reset" className="text-[#000000]">
+              Forgot your pin?
+            </Link>
+          </span>
+          <div className="w-full flex items-center text-sm py-4 gap-x-8">
+            <hr className="w-full" />
+            or
+            <hr className="w-full" />
           </div>
-          <br />
-          <button
-            onClick={onSubmitHandler}
-            className="bg-[#06b6d4] text-white w-full h-[40px] rounded-lg"
-          >
-            Login
-          </button>
-        </form>
-        <span className="text-sm text-right mt-[28px]">
-          <Link to="/reset" className="text-[#000000]">
-            Forgot your pin?
-          </Link>
-        </span>
-        <div className="w-full flex items-center text-sm py-4 gap-x-8">
-          <hr className="w-full" />
-          or
-          <hr className="w-full" />
+          <div className="w-full flex place-content-center gap-x-4">
+            <button className="border-[1px] border-neutral-400 rounded-lg px-5 py-2 hover:bg-[#e0f2fe]">
+              <img src={require("../assets/Google.png")} className="w-6" />
+            </button>
+            <button className="border-[1px] border-neutral-400 rounded-lg px-5 py-2 hover:bg-[#e0f2fe]">
+              <img src={require("../assets/Apple Logo.png")} className="w-6" />
+            </button>
+            <button className="border-[1px] border-neutral-400 rounded-lg px-5 py-2 hover:bg-[#e0f2fe]">
+              <img src={require("../assets/twitterblack.png")} className="w-6" />
+            </button>
+          </div>
         </div>
-        <div className="w-full flex place-content-center gap-x-4">
-          <button className="border-[1px] border-neutral-400 rounded-lg px-5 py-2 hover:bg-[#e0f2fe]">
-            <img src={require("../assets/Google.png")} className="w-6" />
-          </button>
-          <button className="border-[1px] border-neutral-400 rounded-lg px-5 py-2 hover:bg-[#e0f2fe]">
-            <img src={require("../assets/Apple Logo.png")} className="w-6" />
-          </button>
-          <button className="border-[1px] border-neutral-400 rounded-lg px-5 py-2 hover:bg-[#e0f2fe]">
-            <img src={require("../assets/twitterblack.png")} className="w-6" />
-          </button>
         </div>
-      </div>
     </div>
   );
 };
