@@ -35,7 +35,6 @@ function Navbar() {
         <li class="nav-item">
         <Link to="/Login" class="nav-link active">Login</Link>
         </li>
-        
 
         <li class="nav-item">
         <Link to="/InstructorContact" class="nav-link active">InstructorContact</Link>

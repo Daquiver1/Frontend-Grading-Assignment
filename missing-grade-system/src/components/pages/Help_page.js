@@ -9,6 +9,7 @@ const HelpContacts = () => {
       <Row>
 
         <Col md={6}>
+          
           <h1>Help</h1>
 
           <ListGroup>
