@@ -1,11 +1,19 @@
-import React from 'react'
+import React from 'react';
+import './App.css';
 
 const App = () => {
   return (
     <div>
-      <h1>Hello</h1>
-    </div>
-  )
-}
+      <button className="login-button" onClick={() => window.location.href = '/login'}>
+        Login
+      </button>
 
-export default App
+      <div className="card">
+        <p><strong>Missing Grade Reporting System</strong></p>
+        <p className="card-footer">This website is used to enable students to view their grades, report missing grades and communicate with their instructors or academic administration</p>
+      </div>
+    </div>
+  );
+};
+
+export default App;
