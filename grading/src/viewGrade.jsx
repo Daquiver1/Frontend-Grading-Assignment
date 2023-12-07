@@ -80,7 +80,7 @@ onClick={Available  }>LEVEL 100</button>
 <h5 className='first1'></h5></div>
 <div><button  onClick={Available2}>LEVEL 300</button>
 <h5 className='first2'></h5></div>
-<div><button  onClick={Available3}>LEVEL 300</button>
+<div><button  onClick={Available3}>LEVEL 400</button>
 <h5 className='first3'></h5></div>
 
 
