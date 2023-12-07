@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+
 import './DashboardPage.css';
 import { useNavigate } from 'react-router-dom';
 import { Line } from 'react-chartjs-2';

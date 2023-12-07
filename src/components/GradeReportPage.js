@@ -1,26 +1,52 @@
 import React, { useState } from 'react';
+import Footer from './FooterCode';
+import './GradeReportPage.css';
 
 const GradeReportPage = () => {
-  // Placeholder data for courses and grades
   const mockupData = [
-    { semester: 'Semester 1', courses: ['Course A', 'Course B', 'Course C'], grades: ['A', 'B', 'C'] },
-    { semester: 'Semester 2', courses: ['Course X', 'Course Y', 'Course Z'], grades: ['B', 'A', 'A'] },
-    // Add more mockup data as needed
+    { semester: 'First Semester(Level 100)', courses: ['INTRODUCTION TO COMPUTER SCIENCE(DCIT 101)', 
+    'OFFICE PRODUCTIVITY TOOLS(DCIT 103)', 
+    'INTRODUCTION TO STATISTICS AND PROBABILITY(STAT 111)',
+    'ALGEBRA AND TRIGONOMETRY(MATH 121)',
+    'GEOMETRY I(MATH 123)', 
+    'CRITICAL THINKING(UGRC 250)'], 
+    grades: ['A', 'B', 'C', 'B+', 'A', 'C'] },
+
+    
+    { semester: 'Second Semester(Level 100)', courses: ['PROGRAMMING I',
+     'DIGITAL AND LOGICAL CIRCUITS(DCIT 203)', 
+     'CALCULUS II(MATH 223)',
+     'COMPUTER DESIGN AND ARCHITECTURE(DCIT 207)',
+     'MULTIMEDIA AND WEB DESIGN(DCIT 205',
+     'ACADEMIC WRITING II(CBAS 210)'
+    ], 
+    grades: ['B', 'A', 'A', 'D', 'C+', 'A'] },
+
+
+    { semester: 'Second Semester(Level 200)', courses: ['PROGRAMMING I',
+    'DIGITAL AND LOGICAL CIRCUITS(DCIT 203)', 
+    'CALCULUS II(MATH 223)',
+    'COMPUTER DESIGN AND ARCHITECTURE(DCIT 207)',
+    'MULTIMEDIA AND WEB DESIGN(DCIT 205',
+    'ACADEMIC WRITING II(CBAS 210)'
+   ], 
+   grades: ['B', 'A', 'A', 'D', 'C+', 'A'] },
+
+
   ];
 
-  // State for selected semester (for filter option)
   const [selectedSemester, setSelectedSemester] = useState('');
 
-  // Filtered data based on selected semester
   const filteredData = selectedSemester
     ? mockupData.filter((data) => data.semester === selectedSemester)
     : mockupData;
 
   return (
-    <div className="grade-report-container">
+    <div>
+
+<div className="grade-report-container">
       <h2>Grade Report</h2>
 
-      {/* Filter option */}
       <div className="filter-section">
         <label>Semesters:</label>
         <select
@@ -28,14 +54,13 @@ const GradeReportPage = () => {
           onChange={(e) => setSelectedSemester(e.target.value)}
         >
           <option value="">All Semesters</option>
-          {/* Placeholder for dynamic semester options */}
-          <option value="Semester 1">Semester 1</option>
-          <option value="Semester 2">Semester 2</option>
-          {/* Add more semester options as needed */}
+          <option value="First Semester(Level 100)">Semester 1</option>
+          <option value="Second Semester(Level 100)">Semester 2</option>
+          <option value="Second Semester(Level 200)">Semester 3</option>
+
         </select>
       </div>
 
-      {/* Display courses and grades */}
       <div className="grade-list">
         {filteredData.map((data) => (
           <div key={data.semester} className="semester-section">
@@ -43,7 +68,7 @@ const GradeReportPage = () => {
             <ul>
               {data.courses.map((course, index) => (
                 <li key={index}>
-                  <span>{course}:</span> <span>{data.grades[index]}</span>
+                  <span className='course-name'>{course}:</span> <span className='grade'>{data.grades[index]}</span>
                 </li>
               ))}
             </ul>
@@ -51,6 +76,12 @@ const GradeReportPage = () => {
         ))}
       </div>
     </div>
+    <Footer />
+
+    </div>
+    
+    
+   
   );
 };
 

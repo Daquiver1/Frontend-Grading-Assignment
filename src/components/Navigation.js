@@ -16,7 +16,6 @@ const Navbar = () => {
         <ul className="navbar-links">
           <li><NavLink to="/" activeClassName ='active' >Home</NavLink></li>
           <li><NavLink to="/login" activeClassName ='active'>Register</NavLink></li>
-          <li><NavLink to="/about" activeClassName ='active' >About</NavLink></li>
           <li><NavLink to="/contact" activeClassName ='active' >Contact</NavLink></li>
         </ul>
         <div className="navbar-social">
@@ -26,7 +25,7 @@ const Navbar = () => {
           <a href="https://facebook.com/university" target="_blank" rel="noopener noreferrer">
             <img src="/facebook.png" alt="Facebook" />
           </a>
-          {/* Add more social media icons as needed */}
+          
         </div>
       </nav>
     );
@@ -35,7 +34,7 @@ const Navbar = () => {
 
   const isLandingPage = location.pathname === '/';
   if (isLandingPage) {
-    return null; // Do not render Navbar on the dashboard page
+    return null; 
   }
 
 

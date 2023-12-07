@@ -1,8 +1,8 @@
 
 .footer-container {
-    background-color: #f7f7f7;
+    background-color: rgb(61, 119, 169);
     padding: 20px 0;
-    color: #333;
+    color: #000000;
   }
   
   .footer-content {
@@ -21,17 +21,19 @@
   }
   
   .footer-section ul {
+    color: #000;
     list-style: none;
     padding: 0;
   }
   
   .footer-section ul li {
+    color: #000000;
     margin-bottom: 10px;
   }
   
   .footer-section a {
     text-decoration: none;
-    color: #333;
+    color: #000000;
   }
   
   .footer-social img {
@@ -41,6 +43,7 @@
   }
   
   .footer-bottom {
+    color: #000000;
     text-align: center;
     margin-top: 20px;
     padding-top: 10px;
