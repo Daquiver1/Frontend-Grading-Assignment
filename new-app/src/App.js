@@ -1,29 +1,53 @@
-// import logo from './logo.svg';
 import './App.css';
-import schlogo from './schlogo.png';
-import grade from './grade.jpg';
-import './App.css';
+// import schlogo from './schlogo.png';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+// import grade from './grade.jpg';
+import Login from './pages/Login';
+import Layout from './pages/layout';
+import Graderep from './pages/Graderep';
+import Dashboard from './pages/Dashboard'
+import Out from './pages/Out';
+import Missing from './pages/Missing';
+
+
 
 function App() {
-  return (
+    return (
+    
+    
     <div className="App">
-      <header>
+      
+      <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Login />} />
+          <Route path="Dashboard" element={<Dashboard />} />
+          <Route path="Graderep" element={<Graderep />} />
+          <Route path="Missing" element={<Missing/>} />
+          <Route path="Out" element={<Out/>} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
+      
+      
+      {/* <header>
         <div id="flexbox">
           <div id="schlogo"><img src={schlogo} className="deptlogo" alt="Ug DCS logo"   ></img></div>
           <div id="navbar">
-            <ul className="horiznav">
-               <li>Grade Report</li>
-               <li>Dashboard</li>
+            <ul className="horiznav1"> */}
+               {/* <button className="frontgate" onClick={Graderep}><li>Grade Report</li></button>
+               <button className="frontgate" onClick={Dashboard}><li>Dashboard</li></button>
                <li>Missing Grade Form</li>
                <li>Insructor</li>
-               <li>Help &amp; Support</li>
+               <li>Help &amp; Support</li> */}
+               {/* <button className="frontgate" onClick={Login}><li>Login</li></button> */}
 
-            </ul>
+            {/* </ul>
           </div>
         </div>
-      </header>
+      </header> */}
       <br></br>
-      <h1 style={{color:"#BD9C6C"}}>Welcome to GradePortal</h1>
+      {/* <h1 style={{color:"#BD9C6C"}}>Welcome to GradePortal</h1>
       <div id="bflexbox">
         <div id="flexitem">
           <p style={{width:"600px"}}>
@@ -48,10 +72,11 @@ function App() {
       </div>
       <div id="imgbox">
         <img src={grade} alt="eg of grades"></img>
-      </div>
+      </div> */}
       
     </div>
   );
+  
 }
 
 
