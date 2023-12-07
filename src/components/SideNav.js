@@ -1,10 +1,16 @@
 import { NavLink } from "react-router-dom";
 import undraw_rocket from '../assets/icons/undraw_rocket.svg';
+import { useContext } from "react";
+import { StudentContext } from "../StudentContext";
 
 const SideNar = () => {
+
+    const { student, setStudent } = useContext(StudentContext);
+
+    const isLogin = student.studentId !== "" ? true : false;
+
     return (
         <ul className="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
-
         {/* Sidebar - Brand */}
         <a className="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
             <div className="sidebar-brand-icon rotate-n-15">
@@ -36,32 +42,30 @@ const SideNar = () => {
             </a>
         </li>
 
-        <li className="nav-item">
-            <a className="nav-link" href="#">
-                <i className="fas fa-fw fa-table"></i>
-                <NavLink to="/grades">Grades Report</NavLink>
-            </a>
-        </li>
-
-        <hr className="sidebar-divider"/>
-
-        <div className="sidebar-heading">
-            Student Actions
-        </div>
-
-        <li className="nav-item">
-            <a className="nav-link" href="#">
-                <i className="fa fa-exclamation-triangle"></i>
-                <NavLink to="/report">Report Missing Grade</NavLink>
-            </a>
-        </li>
-
-        <li className="nav-item">
-            <a className="nav-link" href="#">
-                <i className="fa fa-sign-in-alt"></i>
-                <NavLink to="/login">Login</NavLink>
-            </a>
-        </li>
+        { isLogin ? (
+                <>
+                    <li className="nav-item">
+                        <a className="nav-link" href="#">
+                            <i className="fas fa-fw fa-table"></i>
+                            <NavLink to="/grades">Grades Report</NavLink>
+                        </a>
+                    </li>
+                    <li className="nav-item">
+                        <a className="nav-link" href="#">
+                            <i className="fa fa-exclamation-triangle"></i>
+                            <NavLink to="/report">Report Missing Grade</NavLink>
+                        </a>
+                    </li>
+                </>
+            ) : (
+                <li className="nav-item">
+                    <a className="nav-link" href="#">
+                        <i className="fa fa-sign-in-alt"></i>
+                        <NavLink to="/login">Login</NavLink>
+                    </a>
+                </li>
+            )
+        }
 
         {/* instructor Contact Page and Help and Support Page*/}
 
