@@ -18,8 +18,8 @@ function App() {
       {/* Conditional rendering based on the 'route' state */}
       <Routes>
         <Route path="/Dashboard" element={<Dashboard />} />
-        <Route path="/Login" element={<Login />} />
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<Login />} />
+        <Route path="/home" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/service" element={<Service />} />
         <Route path="/contact" element={<Contact />} />
