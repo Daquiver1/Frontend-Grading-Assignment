@@ -26,9 +26,7 @@ const Layout = () => {
       <div style={{backgroundColor:"#fff",display:"inline-block",marginLeft:"0px",marginRight:"100px"}}><img src={schlogo} className="deptlogo" alt="Ug DCS logo"   ></img></div>
       <div id="horiznav"style={{backgroundColor:"#ff0011",display:"inline-block"}}>
         <ul className="horiznav" style={{backgroundColor:"#fff"}}>
-          <li>
-            <Link style={{color:"#BD9C6C",textDecoration:"none"}} to="./App">Login</Link>
-          </li>
+          
           <li>
             <Link style={{color:"#BD9C6C",textDecoration:"none"}} to="./Dashboard">Dashboard</Link>
           </li>
@@ -37,6 +35,12 @@ const Layout = () => {
           </li>
           <li>
             <Link style={{color:"#BD9C6C",textDecoration:"none"}} to="./Missing">Missing Grade Form</Link>
+          </li>
+          <li>
+            <Link style={{color:"#BD9C6C",textDecoration:"none"}} to="./Instructor">Instructor contact</Link>
+          </li>
+          <li>
+            <Link style={{color:"#BD9C6C",textDecoration:"none"}} to="./Help">Help &amp; Support</Link>
           </li>
           <li>
             <Link style={{color:"#BD9C6C",textDecoration:"none"}} to="./Out">Log Out</Link>

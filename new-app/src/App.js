@@ -8,6 +8,8 @@ import Graderep from './pages/Graderep';
 import Dashboard from './pages/Dashboard'
 import Out from './pages/Out';
 import Missing from './pages/Missing';
+import Instructor from './pages/Instructor';
+import Help from './pages/Help';
 
 
 
@@ -24,6 +26,8 @@ function App() {
           <Route path="Dashboard" element={<Dashboard />} />
           <Route path="Graderep" element={<Graderep />} />
           <Route path="Missing" element={<Missing/>} />
+          <Route path="Instructor" element={<Instructor/>} />
+          <Route path="Help" element={<Help/>} />
           <Route path="Out" element={<Out/>} />
         </Route>
       </Routes>
