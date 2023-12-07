@@ -1,7 +1,8 @@
 import React,{useState} from 'react';
 import { Link } from "react-router-dom";
 import {FaEnvelope, FaRegBell, FaSearch,FaMapMarkerAlt,FaCalendarAlt, FaFacebookMessenger} from "react-icons/fa"
-import {IoSettingsSharp} from 'react-icons/io5'
+import {IoSettingsSharp} from 'react-icons/io5';
+import niceImage from '../assets/nice.png';
 
 const Dashboard = () => {
   const [open, setOpen]= useState(true);
@@ -54,8 +55,8 @@ const Dashboard = () => {
             </div>
             <div className="flex items-center gap-[15px] relative">
               <p>Bayat Osman</p>
-              <div className='h-[50px] w-[50px] rounded-full bg-full bg-[#4E73DF] cursor-pointer flex items-center justify-center relative'>
-                <img src="" alt="" />
+              <div>
+                <img className='h-[50px] w-[50px] rounded-full bg-full bg-[#4E73DF] cursor-pointer flex items-center justify-center relative' src={require("../assets/gabimaru.jpg")} alt="" />
               </div>
             </div> 
           </div>
