@@ -13,6 +13,7 @@ import GradeReportPage from './components/GradeReportPage';
 import MissingGradeFormPage from './components/MissingGradeFormPage';
 import InstructorContactPage from './components/InstructorContactPage';
 import HelpAndSupportPage from './components/HelpAndSupportPage';
+import './index.css';
 
 const App = () => {
   return (
@@ -43,8 +44,10 @@ const App = () => {
           element={
             <>
               <Header2 />
+              <div className='parent-container'>
               <Sidebar />
               <DashboardPage />
+              </div>
               <Footer />
             </>
           }
@@ -54,8 +57,10 @@ const App = () => {
           element={
             <>
               <Header2 />
+              <div className='parent-container'>
               <Sidebar />
               <GradeReportPage />
+              </div>
               <Footer />
             </>
           }
@@ -65,8 +70,10 @@ const App = () => {
           element={
             <>
               <Header2 />
+              <div className='parent-container'>
               <Sidebar />
               <MissingGradeFormPage />
+              </div>
               <Footer />
             </>
           }
@@ -76,8 +83,10 @@ const App = () => {
           element={
             <>
               <Header2 />
+              <div className='parent-container'>
               <Sidebar />
               <InstructorContactPage />
+              </div>
               <Footer />
             </>
           }
@@ -87,8 +96,10 @@ const App = () => {
           element={
             <>
               <Header2 />
+              <div className='parent-container'>
               <Sidebar />
               <HelpAndSupportPage />
+              </div>
               <Footer />
             </>
           }
