@@ -10,6 +10,7 @@
     grid-template-rows: 80px;
     column-gap: 10%;
     background-color: azure;
+    color: blue;
     
 }
 
@@ -21,7 +22,7 @@
 
 .menu{
     display: grid;
-    grid-template-columns: 70px 120px 70px 180px 200px;
+    grid-template-columns: 70px 120px 70px 160px 150px;
     column-gap: 5px;
     grid-template-rows: 30px;
     margin-top: 15px;
@@ -30,6 +31,11 @@
 
 .menu_item{
     
-    border: 2px solid black;
+  
     border-radius: 5px;
+}
+
+.menu_item:hover{
+    cursor: pointer;
+    opacity: 0.5;
 }
