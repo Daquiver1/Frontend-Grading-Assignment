@@ -1,5 +1,6 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import Header from "./pages/header";
+import Footer from "./pages/Footer";
 
 const LandPage = () => {
   const [showText, setShowText] = useState(false);
@@ -21,7 +22,7 @@ const LandPage = () => {
           </div>
         </div>
         <div className="sliding-text flex flex-col justify-center place-items-center mt-52">
-          <div className="text-1">
+          <div className="text-1 bg-white">
             <p className="sliding-texts">Have Issues With Your Grade?</p>
             <p className="sliding-semi-text">
               Report at Pep&apos;s Grade Report System to get that fixed
@@ -45,6 +46,7 @@ const LandPage = () => {
           </div>
         </div>
       </div>
+      <Footer></Footer>
     </>
   );
 };

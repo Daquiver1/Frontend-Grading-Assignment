@@ -7,8 +7,14 @@ import Footer from "./Footer";
 const LoginPage = () => {
   // const [isNext, setIsNext] = useState(false);
   const [idValue, setIdValue] = useState("");
+  const [verified, setVerified] = useState(false);
+
+  const setVerification = () => {
+    //Put logic for user verification here
+  }
+  //Set the logic for displaying the password input type when the id section !empty
   const showPassword = () =>
-    idValue ? (
+    idValue && idValue.length == 8 ? (
       <input
         type="password"
         placeholder="Enter your password here"
@@ -16,7 +22,7 @@ const LoginPage = () => {
       />
     ) : (
       <p className="text-red-900 text-sm italic">
-        {"Id section cannot be empty"}
+        {"Id section cannot be empty and must be 8 characters"}
       </p>
     );
 
@@ -30,7 +36,7 @@ const LoginPage = () => {
         <div className="flex gap-5 justify-center place-items-center">
           <img
             className="w-20 rounded-full"
-            src="../../../public/icon-1.jpg"
+            src="/icon-1.jpg"
             alt="Grade report logo"
           />
           <div className="flex justify-center flex-col gap-1 text-start">
@@ -72,16 +78,13 @@ const LoginPage = () => {
           <p className="text-xl mt-5 text-blue-900 italic">
             Forgot Password?
             <p className="bg-blue-900 w-[2px] ml-5 h-6 inline-flex"></p>
-            <Link
-              to="/PasswordReset"
-              className="text-blue-900 ml-5"
-            >
+            <Link to="/PasswordReset" className="text-blue-900 ml-5">
               Reset Password
             </Link>
           </p>
         </div>
-        <Footer></Footer>
       </div>
+      <Footer></Footer>
     </>
   );
 };

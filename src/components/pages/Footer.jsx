@@ -1,4 +1,3 @@
-import React from "react";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
@@ -7,19 +6,31 @@ const Footer = () => {
 
   return (
     <>
-      <div className="container flex place-items-center bg-blue-800 w-full justify-between fixed bottom-0">
+      <div className="container flex place-items-center bg-blue-800 w-full justify-evenly fixed bottom-0">
         <div className="left- flex place-items-center gap-5">
           <img
             className="rounded-full w-16 h-16"
-            src="../../../public/coat-arms.jpg"
+            src="/coat-arms.jpg"
             alt=""
           />
-          <Link className="text-blue-100" to="/legal-section">Legal Docs</Link>
-          <Link className="text-blue-100" to="/faqs">FAQS</Link>
-          <Link className="text-blue-100" to="/privacy">Data Privacy</Link>
-          <Link className="text-blue-100" to="/policy">Our Policies</Link>
-          <Link className="text-blue-100" to="/partner">Become a Partner</Link>
-          <Link className="text-blue-100" to="/guidelines">Guidelines</Link>
+          <Link className="text-blue-100" to="/legal-section">
+            Legal Docs
+          </Link>
+          <Link className="text-blue-100" to="/faqs">
+            FAQS
+          </Link>
+          <Link className="text-blue-100" to="/privacy">
+            Data Privacy
+          </Link>
+          <Link className="text-blue-100" to="/policy">
+            Our Policies
+          </Link>
+          <Link className="text-blue-100" to="/partner">
+            Become a Partner
+          </Link>
+          <Link className="text-blue-100" to="/guidelines">
+            Guidelines
+          </Link>
         </div>
         <div className="date-year text-red-400">
           <p>Copyright &copy; {dateYear} Pep&apos;s Grade Report System</p>
@@ -44,16 +55,36 @@ const Footer = () => {
             <p className="text-blue-100">0551875432</p>
           </div>
           <a href="https://wa.me/+233551875432">
-            <img className="h-6 w-6 rounded-full" src="../../../public/xap-icon.jpeg" alt="An image of the whatsapp icon" title="Connect on whatsapp"/>
+            <img
+              className="h-6 w-6 rounded-full"
+              src="/xap-icon.jpeg"
+              alt="An image of the whatsapp icon"
+              title="Connect on whatsapp"
+            />
           </a>
           <a href="">
-            <img className="h-6 w-6 rounded-full" src="../../../public/facebook-icon.jpeg" alt="The facebook icon" title="Connect on facebook"/>
+            <img
+              className="h-6 w-6 rounded-full"
+              src="/facebook-icon.jpeg"
+              alt="The facebook icon"
+              title="Connect on facebook"
+            />
           </a>
           <a href="">
-            <img className="h-6 w-6 rounded-full" src="../../../public/x-icon.png" alt="X icon" title="Connect on X"/>
+            <img
+              className="h-6 w-6 rounded-full"
+              src="/x-icon.png"
+              alt="X icon"
+              title="Connect on X"
+            />
           </a>
           <a href="mailto:peprahdickson187@gmail.com">
-            <img className="h-6 w-6 rounded-full" src="../../../public/email-icon.png" alt="Image of email icon" title="Click to send an email"/>
+            <img
+              className="h-6 w-6 rounded-full"
+              src="/email-icon.png"
+              alt="Image of email icon"
+              title="Click to send an email"
+            />
           </a>
         </div>
       </div>

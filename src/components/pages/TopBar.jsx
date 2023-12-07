@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { Link } from "react-router-dom";
 import "../../Styles/utils.css"
 
@@ -10,7 +10,7 @@ const TopBar = () => {
         <div className="text-image flex gap-5">
           <img
             className="w-10 h-10 rounded-full place-items-center"
-            src="../../../public/icon-1.jpg"
+            src="/icon-1.jpg"
             alt="Our logo"
           />
           <p className="our-name text-3xl text-blue-300">Pep&apos;s Grade Report System</p>
