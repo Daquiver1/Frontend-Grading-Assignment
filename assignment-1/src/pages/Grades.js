@@ -49,11 +49,27 @@ export default function Grades(){
         }
     }
     
+    function showAlert(){
+        document.getElementById('alert').style.display = 'block'
+    }
+
+    function removeAlert(){
+        document.getElementById('alert').style.display = 'none'
+    }
+
+    setTimeout(showAlert, 1500)
+    setTimeout(removeAlert, 5500)
+
     return(
         <>
             <Header />
             <main>
             <section>
+                <span className="fixed right-5 bottom-10 w-fit h-fit " id="alert">
+                    <span className="text-center px-5 py-3 text-xl rounded-full border-double border-2 text-ugBlue border-ugBlue bg-white">
+                        <FontAwesomeIcon className="mr-2" icon={faTriangleExclamation}/> {incompleteGrades.length} Grades Missing
+                    </span>
+                </span>
                 <h1 className="text-center text-ugBlue mb-4">My Grades</h1>
                 <form className="flex flex-col-reverse gap-2 md:gap-0 md:flex-row-reverse items-center mb-4">
                     <button className="text-ugBlue hover:text-white bg-slate-300 hover:bg-ugBlue duration-150 h-[42px] rounded-full px-4 mr-4" onClick={(e)=>{e.preventDefault(); handleFilterChange('year', ''); handleFilterChange('sem', ''); document.getElementById('year-select').value = '';  document.getElementById('sem-select').value = ''}}>Reset</button>
