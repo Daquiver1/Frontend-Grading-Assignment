@@ -7,6 +7,7 @@ const Sidebar = () => {
   const location = useLocation();
 
   return (
+    
     <aside className="sidebar-container">
       <div className="trigger" />
       <nav>
@@ -32,6 +33,7 @@ const Sidebar = () => {
         <br />
       </nav>
     </aside>
+    
   );
 };
 
