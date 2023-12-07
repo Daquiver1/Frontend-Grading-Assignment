@@ -2,6 +2,9 @@ import React, { useState, useContext } from "react";
 import { Link } from "react-router-dom";
 import InputField from "../components/InputField";
 import { useNavigate } from 'react-router-dom';
+import { AuthProvider, useAuth } from './AuthContext';
+
+
 
 
 const LogIn = () => {
@@ -12,6 +15,7 @@ const LogIn = () => {
   const [isLoggedIn, setIsLoggedIn] = useState(false)
   const navigate = useNavigate();
   const [user, setUser] = useState(null);
+  const { login } = useAuth();
 
   
 
@@ -20,101 +24,159 @@ const LogIn = () => {
       email: '11288689',
       password: '86765',
       name: 'Bayat',
+      grade: {Course: ['DCIT101 INTRODUCTION TO COMPUTER SCIENCE','DCIT103 OFFICE PRODUCTIVITY TOOLS','MATH121 ALGEBRA AND TRIGONOMETRY',
+      'MATH123 VECTORS AND GEOMETRY','STAT111 INTRODUCTION TO STATISTICS AND PROBABILITY I','UGRC150 CRITICAL THINKING AND PRACTICAL REASONING'],
+      credits:[3,3,3,3,3,3], grading:['A','B+','A', 'A','A','A']},
     },
     {
       email:'11276276',
       password:'53267',
-      name: 'Joseph'
+      name: 'Joseph',
+      grade: {Course: ['DCIT101 INTRODUCTION TO COMPUTER SCIENCE','DCIT103 OFFICE PRODUCTIVITY TOOLS','MATH121 ALGEBRA AND TRIGONOMETRY',
+      'MATH123 VECTORS AND GEOMETRY','STAT111 INTRODUCTION TO STATISTICS AND PROBABILITY I','UGRC150 CRITICAL THINKING AND PRACTICAL REASONING'],
+      credits:[3,3,3,3,3,3], grading:['A','B+','A', 'A','A','A']},
     },
     {
       email:'11278276',
       password:'52567',
-      name: 'James'
+      name: 'James',
+      grade: {Course: ['DCIT101 INTRODUCTION TO COMPUTER SCIENCE','DCIT103 OFFICE PRODUCTIVITY TOOLS','MATH121 ALGEBRA AND TRIGONOMETRY',
+      'MATH123 VECTORS AND GEOMETRY','STAT111 INTRODUCTION TO STATISTICS AND PROBABILITY I','UGRC150 CRITICAL THINKING AND PRACTICAL REASONING'],
+      credits:[3,3,3,3,3,3], grading:['A','B+','A', 'A','A','A']},
     },
     {
       email:'11279276',
       password:'56747',
-      name: 'Steve'
+      name: 'Steve',
+      grade: {Course: ['DCIT101 INTRODUCTION TO COMPUTER SCIENCE','DCIT103 OFFICE PRODUCTIVITY TOOLS','MATH121 ALGEBRA AND TRIGONOMETRY',
+      'MATH123 VECTORS AND GEOMETRY','STAT111 INTRODUCTION TO STATISTICS AND PROBABILITY I','UGRC150 CRITICAL THINKING AND PRACTICAL REASONING'],
+      credits:[3,3,3,3,3,3], grading:['A','B+','A', 'A','A','A']},
     },
     {
       email:'11276312',
       password:'59980',
-      name: 'Stacy'
+      name: 'Stacy',
+      grade: {Course: ['DCIT101 INTRODUCTION TO COMPUTER SCIENCE','DCIT103 OFFICE PRODUCTIVITY TOOLS','MATH121 ALGEBRA AND TRIGONOMETRY',
+      'MATH123 VECTORS AND GEOMETRY','STAT111 INTRODUCTION TO STATISTICS AND PROBABILITY I','UGRC150 CRITICAL THINKING AND PRACTICAL REASONING'],
+      credits:[3,3,3,3,3,3], grading:['A','B+','A', 'A','A','A']},
     },
     {
       email:'11251276',
       password:'53267',
-      name: 'John'
+      name: 'John',
+      grade: {Course: ['DCIT101 INTRODUCTION TO COMPUTER SCIENCE','DCIT103 OFFICE PRODUCTIVITY TOOLS','MATH121 ALGEBRA AND TRIGONOMETRY',
+      'MATH123 VECTORS AND GEOMETRY','STAT111 INTRODUCTION TO STATISTICS AND PROBABILITY I','UGRC150 CRITICAL THINKING AND PRACTICAL REASONING'],
+      credits:[3,3,3,3,3,3], grading:['A','B+','A', 'A','A','A']},
     },
     {
       email:'11412576',
       password:'64167',
-      name: 'Joel'
+      name: 'Joel',
+      grade: {Course: ['DCIT101 INTRODUCTION TO COMPUTER SCIENCE','DCIT103 OFFICE PRODUCTIVITY TOOLS','MATH121 ALGEBRA AND TRIGONOMETRY',
+      'MATH123 VECTORS AND GEOMETRY','STAT111 INTRODUCTION TO STATISTICS AND PROBABILITY I','UGRC150 CRITICAL THINKING AND PRACTICAL REASONING'],
+      credits:[3,3,3,3,3,3], grading:['A','B+','A', 'A','A','A']},
     },
     {
       email:'11514276',
       password:'66467',
-      name: 'Thomas'
+      name: 'Thomas',
+      grade: {Course: ['DCIT101 INTRODUCTION TO COMPUTER SCIENCE','DCIT103 OFFICE PRODUCTIVITY TOOLS','MATH121 ALGEBRA AND TRIGONOMETRY',
+      'MATH123 VECTORS AND GEOMETRY','STAT111 INTRODUCTION TO STATISTICS AND PROBABILITY I','UGRC150 CRITICAL THINKING AND PRACTICAL REASONING'],
+      credits:[3,3,3,3,3,3], grading:['A','B+','A', 'A','A','A']},
     },
     {
       email:'11112276',
       password:'69267',
-      name: 'Gabriel'
+      name: 'Gabriel',
+      grade: {Course: ['DCIT101 INTRODUCTION TO COMPUTER SCIENCE','DCIT103 OFFICE PRODUCTIVITY TOOLS','MATH121 ALGEBRA AND TRIGONOMETRY',
+      'MATH123 VECTORS AND GEOMETRY','STAT111 INTRODUCTION TO STATISTICS AND PROBABILITY I','UGRC150 CRITICAL THINKING AND PRACTICAL REASONING'],
+      credits:[3,3,3,3,3,3], grading:['A','B+','A', 'A','A','A']},
     },
     {
       email:'11314176',
       password:'63289',
-      name: 'Stanley'
+      name: 'Stanley',
+      grade: {Course: ['DCIT101 INTRODUCTION TO COMPUTER SCIENCE','DCIT103 OFFICE PRODUCTIVITY TOOLS','MATH121 ALGEBRA AND TRIGONOMETRY',
+      'MATH123 VECTORS AND GEOMETRY','STAT111 INTRODUCTION TO STATISTICS AND PROBABILITY I','UGRC150 CRITICAL THINKING AND PRACTICAL REASONING'],
+      credits:[3,3,3,3,3,3], grading:['A','B+','A', 'A','A','A']},
     },
     {
       email:'11316786',
       password:'63281',
-      name: 'Travis'
+      name: 'Travis',
+      grade: {Course: ['DCIT101 INTRODUCTION TO COMPUTER SCIENCE','DCIT103 OFFICE PRODUCTIVITY TOOLS','MATH121 ALGEBRA AND TRIGONOMETRY',
+      'MATH123 VECTORS AND GEOMETRY','STAT111 INTRODUCTION TO STATISTICS AND PROBABILITY I','UGRC150 CRITICAL THINKING AND PRACTICAL REASONING'],
+      credits:[3,3,3,3,3,3], grading:['A','B+','A', 'A','A','A']},
     },
     {
       email:'11311111',
       password:'53267',
-      name: 'Scott'
+      name: 'Scott',
+      grade: {Course: ['DCIT101 INTRODUCTION TO COMPUTER SCIENCE','DCIT103 OFFICE PRODUCTIVITY TOOLS','MATH121 ALGEBRA AND TRIGONOMETRY',
+      'MATH123 VECTORS AND GEOMETRY','STAT111 INTRODUCTION TO STATISTICS AND PROBABILITY I','UGRC150 CRITICAL THINKING AND PRACTICAL REASONING'],
+      credits:[3,3,3,3,3,3], grading:['A','B+','A', 'A','A','A']},
     },
     {
       email:'11312312',
       password:'49687',
-      name: 'Jude'
+      name: 'Jude',
+      grade: {Course: ['DCIT101 INTRODUCTION TO COMPUTER SCIENCE','DCIT103 OFFICE PRODUCTIVITY TOOLS','MATH121 ALGEBRA AND TRIGONOMETRY',
+      'MATH123 VECTORS AND GEOMETRY','STAT111 INTRODUCTION TO STATISTICS AND PROBABILITY I','UGRC150 CRITICAL THINKING AND PRACTICAL REASONING'],
+      credits:[3,3,3,3,3,3], grading:['A','B+','A', 'A','A','A']},
     },
     {
       email:'11318967',
       password:'31254',
-      name: 'Benzema'
+      name: 'Benzema',
+      grade: ['DCIT101 INTRODUCTION TO COMPUTER SCIENCE 3 A 12','DCIT103 OFFICE PRODUCTIVITY TOOLS 3 B+ 10.5','MATH121 ALGEBRA AND TRIGONOMETRY 3 C+ 7.5',
+    'MATH123 VECTORS AND GEOMETRY 3 A 12','STAT111 INTRODUCTION TO STATISTICS AND PROBABILITY I 3 A 12','UGRC150 CRITICAL THINKING AND PRACTICAL REASONING 3 A 12']
     },
     {
       email:'11316276',
       password:'43467',
-      name: 'Navas'
+      name: 'Navas',
+      grade: {Course: ['DCIT101 INTRODUCTION TO COMPUTER SCIENCE','DCIT103 OFFICE PRODUCTIVITY TOOLS','MATH121 ALGEBRA AND TRIGONOMETRY',
+      'MATH123 VECTORS AND GEOMETRY','STAT111 INTRODUCTION TO STATISTICS AND PROBABILITY I','UGRC150 CRITICAL THINKING AND PRACTICAL REASONING'],
+      credits:[3,3,3,3,3,3], grading:['A','B+','A', 'A','A','A']},
     },
     {
       email:'11323376',
       password:'83267',
-      name: 'Delphina'
+      name: 'Delphina',
+      grade: {Course: ['DCIT101 INTRODUCTION TO COMPUTER SCIENCE','DCIT103 OFFICE PRODUCTIVITY TOOLS','MATH121 ALGEBRA AND TRIGONOMETRY',
+      'MATH123 VECTORS AND GEOMETRY','STAT111 INTRODUCTION TO STATISTICS AND PROBABILITY I','UGRC150 CRITICAL THINKING AND PRACTICAL REASONING'],
+      credits:[3,3,3,3,3,3], grading:['A','B+','A', 'A','A','A']},
     },
     {
       email:'11381476',
       password:'59267',
-      name: 'Juliet'
+      name: 'Juliet',
+      grade: ['DCIT101 INTRODUCTION TO COMPUTER SCIENCE 3 A 12','DCIT103 OFFICE PRODUCTIVITY TOOLS 3 B+ 10.5','MATH121 ALGEBRA AND TRIGONOMETRY 3 C+ 7.5',
+    'MATH123 VECTORS AND GEOMETRY 3 A 12','STAT111 INTRODUCTION TO STATISTICS AND PROBABILITY I 3 A 12','UGRC150 CRITICAL THINKING AND PRACTICAL REASONING 3 A 12']
     },
     {
       email:'11351276',
       password:'49267',
-      name: 'Mohammed'
+      name: 'Mohammed',
+      grade: {Course: ['DCIT101 INTRODUCTION TO COMPUTER SCIENCE','DCIT103 OFFICE PRODUCTIVITY TOOLS','MATH121 ALGEBRA AND TRIGONOMETRY',
+      'MATH123 VECTORS AND GEOMETRY','STAT111 INTRODUCTION TO STATISTICS AND PROBABILITY I','UGRC150 CRITICAL THINKING AND PRACTICAL REASONING'],
+      credits:[3,3,3,3,3,3], grading:['A','B+','A', 'A','A','A']},
     },
     {
       email:'11393376',
       password:'39267',
-      name: 'Rahman'
+      name: 'Rahman',
+      grade: {Course: ['DCIT101 INTRODUCTION TO COMPUTER SCIENCE','DCIT103 OFFICE PRODUCTIVITY TOOLS','MATH121 ALGEBRA AND TRIGONOMETRY',
+      'MATH123 VECTORS AND GEOMETRY','STAT111 INTRODUCTION TO STATISTICS AND PROBABILITY I','UGRC150 CRITICAL THINKING AND PRACTICAL REASONING'],
+      credits:[3,3,3,3,3,3], grading:['A','B+','A', 'A','A','A']},
     },
     {
       email:'11324476',
       password:'29267',
-      name: 'Jonathan'
+      name: 'Jonathan',
+      grade: {Course: ['DCIT101 INTRODUCTION TO COMPUTER SCIENCE','DCIT103 OFFICE PRODUCTIVITY TOOLS','MATH121 ALGEBRA AND TRIGONOMETRY',
+      'MATH123 VECTORS AND GEOMETRY','STAT111 INTRODUCTION TO STATISTICS AND PROBABILITY I','UGRC150 CRITICAL THINKING AND PRACTICAL REASONING'],
+      credits:[3,3,3,3,3,3], grading:['A','B+','A', 'A','A','A']},
     }
 
   ];
@@ -132,7 +194,7 @@ const LogIn = () => {
       setIsLoggedIn(true);
       setError('');
       navigate('/dashboard');
-      setUser(matchedStudent);
+      login(matchedStudent);
     } else {
       // Login failed
       alert('Invalid student ID or PIN');

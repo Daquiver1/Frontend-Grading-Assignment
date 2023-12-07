@@ -3,10 +3,16 @@ import { Link } from "react-router-dom";
 import {FaEnvelope, FaRegBell, FaSearch,FaMapMarkerAlt,FaCalendarAlt, FaFacebookMessenger} from "react-icons/fa"
 import {IoSettingsSharp} from 'react-icons/io5';
 import niceImage from '../assets/nice.png';
+import { AuthProvider, useAuth } from './AuthContext';
+
+
+
 
 const Dashboard = () => {
   const [open, setOpen]= useState(true);
   const [selectedPage, setSelectedPage] = useState('Home page')
+  const { user } = useAuth();
+
   const Menus =[
     {title: "Dashboard",src: "Chart_fill", path:"/dashboard"},
     {title: "Missing Grade Form", src: "Search", path: "/search"},
@@ -17,6 +23,8 @@ const Dashboard = () => {
   const handleMenuClick = (title) => {
     setOpen(!open);
   };
+
+
   return (
     <div className="flex">
       <div className={`${open? "w-72" :"w-20"} duration-300 h-screen bg-[#000435] relative`}>
@@ -54,7 +62,7 @@ const Dashboard = () => {
               <FaEnvelope />
             </div>
             <div className="flex items-center gap-[15px] relative">
-              <p>Bayat Osman</p>
+            <h1>Welcome, {user ? user.name : 'Guest'}!</h1>
               <div>
                 <img className='h-[50px] w-[50px] rounded-full bg-full bg-[#4E73DF] cursor-pointer flex items-center justify-center relative' src={require("../assets/gabimaru.jpg")} alt="" />
               </div>
@@ -81,6 +89,34 @@ const Dashboard = () => {
             </div>
           </div>
         </div>
+        <div className='pt-[20px]'>
+         <div className='w-full bg-white py-16 px-4'>
+            <div className='max-w-[1240px] mx-auto grid md:grid-cols-2'>
+              <img className='w-[500px] mx-auto my-4' src={require('../assets/laptop.jpg')} alt='/' />
+              <div className='flex flex-col justify-center'>
+                <p className='text-[#00df9a] font-bold '>MISSING GRADE REPORT SYSTEM DASHBOARD</p>
+                <h1 className='md:text-4xl sm:text-3xl text-2xl font-bold py-2'>Manage Grades Centrally</h1>
+                <p>
+                  The Missing Grade Report System Dashboard serves as a pivotal tool in educational institutions, 
+                  streamlining the process of identifying and addressing academic gaps. This comprehensive dashboard compiles real-time data on missing grades,
+                  providing educators and administrators with a bird's-eye view of incomplete student assessments. 
+                </p>
+                <button className=' bg-sky-500 text-[#fff] w-[200px] rounded-md font-medium my-6 mx-auto md:mx-0 py-3'>Get Started</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div className="grid grid-cols-3 gap-4">
+            {user.grade.Course.map((course, index) => (
+              <div key={index} className="bg-white p-4 rounded-md border border-gray-300">
+                <p className="font-bold">{course}</p>
+                <p>Grade: {user.grade.grading[index]}</p>
+                <p>Credits: {user.grade.credits[index]}</p>
+              </div>
+            ))}
+          </div>
+       </div>
       </div>
     </div>
   )
