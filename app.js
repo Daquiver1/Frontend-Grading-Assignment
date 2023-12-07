@@ -22,7 +22,7 @@ function App() {
       <div style={appStyle}>
         <Navbar />
         <Switch>
-          {/* Routes go here */}
+          
         </Switch>
         <Footer />
       </div>
