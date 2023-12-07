@@ -12,6 +12,7 @@ import Dashboard from './Pages/Dashboard';
 import GradeReport from './Pages/GradeReport';
 import HelpandSupport from './Pages/HelpandSupport';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import MissingGradeForm from './Pages/MissingGradeForm';
 
  
 
@@ -25,6 +26,15 @@ root.render(
         </Route>
         <Route path="/Login">
         <Login />
+        </Route>
+        <Route path="/Home">
+        <Homepage />
+        </Route>
+        <Route path="/Form">
+        <MissingGradeForm />
+        </Route>
+        <Route path="/Help">
+        <HelpandSupport />
         </Route>
         <Route path="/Dashboard">
         <Dashboard />

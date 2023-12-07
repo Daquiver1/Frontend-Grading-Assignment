@@ -1,22 +1,25 @@
+const a = "         "
+
+
 const data = {
     "Notifications":[
         "STAT207: Your IA and Exam scripts could not be identified Hence your results  --Dr Oduro",
         "MATH207: Your Grade has been updated  --Dr Thompson"
     ],
     "Gradebook":[
-        ["DCIT104                B+",
+        ["DCIT104             -- B+",
         "DCIT109                 B+",
         "MATH107                 D+",
         "MATH105                 A",
         "STAT107                 B",
         "STAT107                 A",],
          [
-        "DCIT204                 B+",
-        "DCIT209                 n/a",
-        "MATH207                 D+",
-        "MATH205                 A",
-        "STAT207                 n/a",
-        "STAT207                 A",
+        `DCIT204_________________B+`,
+        "DCIT209_________________n/a",
+        "MATH207_________________D+",
+        "MATH205_________________A",
+        "STAT207_________________n/a",
+        "STAT207_________________A",
     ],[
         "DCIT205                 B+",
         "DCIT210                 B+",

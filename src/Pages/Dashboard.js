@@ -3,6 +3,7 @@ import "../Styling/Dashboard.css"
 import comScience_logo from "../Images/comScience_logo.png"
 import data from "../Data/Simulated";
 import Mapper from '../Components/Mapper';
+import BottomNavbar from '../Components/BottomNavbar';
 
 
 
@@ -26,26 +27,27 @@ function Dashboard() {
                     <p></p>
                     <h3>Notifications</h3>
                   </p>
-                    <Mapper style0={{padding:"30px"}} style={{borderRadius:'10px' ,padding:'10px', backgroundColor:'#0000ff7e',marginBottom:'20px'}} data = {data.Notifications} />
+                    <Mapper style0={{padding:"30px"}} style={{borderRadius:'10px',color:'white' ,padding:'10px', backgroundColor:'#0000ff7e',marginBottom:'20px'}} data = {data.Notifications} />
               </div>
               <div className='m2'>
                    <div className='m21'>
                    <p id='ntop'>
                     <h3>Open Issues</h3>
                   </p>
-                   <Mapper style0={{padding:"30px"}} style={{borderRadius:'10px' ,padding:'10px', backgroundColor:'#0000ff7e',marginBottom:'20px'}} data = {data.Open} />
+                   <Mapper style0={{padding:"30px"}} style={{borderRadius:'10px',color:'white' ,padding:'10px', backgroundColor:'#0000ff7e',marginBottom:'20px'}} data = {data.Open} />
                    </div>
                    <div className='m22'>
                    <p id='ntop'>
                     <h3>Resolved Issues</h3>
                   </p>
-                   <Mapper style0={{padding:"30px"}} style={{borderRadius:'10px' ,padding:'10px', backgroundColor:'#04ff0083',marginBottom:'20px'}} data = {data.Solved} />
+                   <Mapper style0={{padding:"30px"}} style={{borderRadius:'10px' ,padding:'10px',color:'white', backgroundColor:'#148d12f3',marginBottom:'20px'}} data = {data.Solved} />
                    </div>
               </div>
               </div>
               <div className='middleSection1'>
                    <div className='middleSection10'>
-                   <div >
+                   <h3>Year 2 SEM1</h3>
+                   <div  style={{flexDirection:"column",display:"flex",gap:"20px"}}>
           {data.Gradebook[1].map((message, index) => {
            
   
@@ -59,6 +61,7 @@ function Dashboard() {
                    </div>
               </div>
         </div>
+        <BottomNavbar />
         <div className='bottom'>
            <text>University of Ghana @2023</text>
         </div>

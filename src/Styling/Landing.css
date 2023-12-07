@@ -31,13 +31,14 @@
 
 
 .middleSectionh {
+  border-radius: 20px;
   font-size: 14px;
   gap:20px;
   justify-content: center;
   align-items: center;
   height: 80%;
   width: 80%;
-  background-color: #eee;
+  background-color: #0000ff80;
   display: flex;
   flex-direction: row;
 }

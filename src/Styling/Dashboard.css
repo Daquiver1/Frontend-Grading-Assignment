@@ -30,6 +30,7 @@
 }
 
 .middleSection {
+
     display: flex;
     flex-direction: row;
     gap: 30px;
@@ -39,6 +40,7 @@
 
 
 .middleSection0 {
+  
   border-radius: 20px;
   gap:10px;
   justify-content: center;
