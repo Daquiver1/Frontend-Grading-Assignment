@@ -16,7 +16,7 @@ html {
   
   body {
     color: #333;
-    background: #e7e2e2;
+    background: linear-gradient(to bottom, #ee7724, #d8363a, #dd3675, #b44593);
     font: 16px/1.6 "Muli", sans-serif;
     min-width: 320px;
     -webkit-font-smoothing: antialiased;
@@ -39,7 +39,7 @@ html {
     font-family: "Muli", sans-serif;
     font-weight: 400;
     margin: 0 0 20px;
-    color: inherit;
+    color: white;
   }
   
   h1 {
@@ -135,7 +135,7 @@ html {
   }
   
   .btn.btn-primary {
-    background: #f64b4b;
+    background: linear-gradient(to right, #674bf6, #5d66d7, #4e8ce5, #41b0f4, #34d4ff);
     border-color: #f64b4b;
     padding: 13px 35px;
     font-size: 14px;
@@ -148,9 +148,9 @@ html {
   
   .btn.btn-primary:focus,
   .btn.btn-primary:hover {
-    background: #fff;
-    border-color: #f64b4b;
-    color: #f64b4b;
+    background: #825ef7;
+    border-color: #4e3aae;
+    color: #ffffff;
   }
   
   .btn.btn-primary .fas {
