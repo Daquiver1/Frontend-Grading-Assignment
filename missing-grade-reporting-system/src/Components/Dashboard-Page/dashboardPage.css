@@ -1,0 +1,25 @@
+.dashboard-container {
+  padding-top: 10px;
+  width: 1300px;
+  margin: auto;
+  text-align: center;
+  align-items: center;
+}
+
+.level100-div,
+.level200-div {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding-left: 180px;
+}
+
+.blinking-red {
+  animation: blinking-red-animation 1s infinite;
+}
+
+@keyframes blinking-red-animation {
+  50% {
+    opacity: 0;
+  }
+}
