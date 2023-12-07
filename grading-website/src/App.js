@@ -6,11 +6,11 @@ import Home from './pages/Home';
 function App() {
   return (
     
+    
     <Router>
-      
-      
+      <Home/>
       <Routes>
-        <Route path='/home' element={<Home />} />
+        < Route path='/home' element={<Home />} />
       
       </Routes>
     </Router>
