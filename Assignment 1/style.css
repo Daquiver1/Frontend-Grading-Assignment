@@ -2,7 +2,7 @@
 
 .navbar{
     background-color:burlywood;
-    height: 3000px;
+    height: 1000px;
 
 }
 .container-fluid{
@@ -20,8 +20,3 @@ body {
     background-size: cover;
 }
 
-.content {
-    text-align: center;
-    color:burlywood; /* Set text color */
-    align-items: center;
-}
