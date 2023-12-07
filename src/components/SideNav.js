@@ -12,21 +12,22 @@ const SideNar = () => {
     return (
         <ul className="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
         {/* Sidebar - Brand */}
-        <a className="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
+        <div className="sidebar-brand d-flex align-items-center justify-content-center">
             <div className="sidebar-brand-icon rotate-n-15">
                 <i className="fas fa-laugh-wink"></i>
             </div>
             <div className="sidebar-brand-text mx-3">UG STUDENT REPORT SYS</div>
-        </a>
+        </div>
 
         {/* Divider */}
         <hr className="sidebar-divider my-0"/>
 
         {/* Nav Item - Dashboard */}
-        <li className="nav-item active">
-            <a className="nav-link" href="index.html">
-                <i className="fas fa-fw fa-tachometer-alt"></i>
-                <span>Dashboard</span></a>
+        <li className="nav-item">
+            <div className="nav-link" >
+                <i className="fa fa-home"></i>
+                <NavLink to="/">Home</NavLink>
+            </div>
         </li>
 
         <hr className="sidebar-divider"/>
@@ -35,34 +36,33 @@ const SideNar = () => {
             Student Info
         </div>
 
-        <li className="nav-item">
-            <a className="nav-link collapsed" href="#">
-                <i className="fa fa-home"></i>
-                <NavLink to="/">Home</NavLink>
-            </a>
-        </li>
-
         { isLogin ? (
                 <>
-                    <li className="nav-item">
-                        <a className="nav-link" href="#">
-                            <i className="fas fa-fw fa-table"></i>
-                            <NavLink to="/grades">Grades Report</NavLink>
-                        </a>
+                    <li className="nav-item active">
+                        <div className="nav-link">
+                            <i className="fas fa-fw fa-tachometer-alt"></i>
+                            <NavLink to="/dashboard">Dashboard</NavLink>
+                        </div>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#">
+                        <div className="nav-link">
+                            <i className="fas fa-fw fa-table"></i>
+                            <NavLink to="/grades">Grades Report</NavLink>
+                        </div>
+                    </li>
+                    <li className="nav-item">
+                        <div className="nav-link">
                             <i className="fa fa-exclamation-triangle"></i>
                             <NavLink to="/report">Report Missing Grade</NavLink>
-                        </a>
+                        </div>
                     </li>
                 </>
             ) : (
                 <li className="nav-item">
-                    <a className="nav-link" href="#">
+                    <div className="nav-link">
                         <i className="fa fa-sign-in-alt"></i>
                         <NavLink to="/login">Login</NavLink>
-                    </a>
+                    </div>
                 </li>
             )
         }
@@ -76,15 +76,15 @@ const SideNar = () => {
         </div>
 
         <li className="nav-item">
-            <a className="nav-link" href="#">
+            <div className="nav-link">
                 <i className="fa fa-phone"></i>
                 <NavLink to="/contact">Contact Instructor</NavLink>
-            </a>
+            </div>
 
-            <a className="nav-link" href="#">
+            <div className="nav-link">
                 <i className="fa fa-question-circle"></i>
                 <NavLink to="/help">Help and Support</NavLink>
-            </a>
+            </div>
         </li>
 
         <hr className="sidebar-divider d-none d-md-block"/>

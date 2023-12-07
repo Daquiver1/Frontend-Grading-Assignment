@@ -144,8 +144,8 @@ const TopNav = () => {
                                         <h6 className="dropdown-header">
                                             Alerts Center
                                         </h6>
-                                        {alertsData.map((alert) => (
-                                            <a className="dropdown-item d-flex align-items-center" href="#">
+                                        {alertsData.map((alert, index) => (
+                                            <a className="dropdown-item d-flex align-items-center" href="#" key={index}>
                                                 <div className="mr-3">
                                                     <div className={`icon-circle ${alert.color}`}>
                                                         <i className={alert.icon}></i>
@@ -174,8 +174,8 @@ const TopNav = () => {
                                         <h6 className="dropdown-header">
                                             Message Center
                                         </h6>
-                                        {messagesData.map((message) => (
-                                            <a className="dropdown-item d-flex align-items-center" href="#">
+                                        {messagesData.map((message, index) => (
+                                            <a className="dropdown-item d-flex align-items-center" href="#" key={index}>
                                                 <div className="dropdown-list-image mr-3">
                                                     <img 
                                                         className="rounded-circle" 

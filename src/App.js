@@ -1,4 +1,5 @@
-import React, { useState, useContext} from 'react';
+import React from 'react';
+
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Home from './pages/Home';
 import Login from './pages/Login';
@@ -18,12 +19,12 @@ function App() {
           {/* Sidebar */}
           <SideNar />
           {/* Content Wrapper */}
-          <div id="content-wrapper" class="d-flex flex-column">
+          <div id="content-wrapper" className="d-flex flex-column">
               {/* Main Content */}
               <div id="content">
                   <TopNav />
                   {/* Begin Page Content */}
-                  <div class="container-fluid">
+                  <div className="container-fluid">
                       <Routes>
                         <Route path="/" Component={Home} />
                         <Route path="/login" Component={Login} />
