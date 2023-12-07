@@ -8,6 +8,7 @@ import './css/sb-admin-2.min.css';
 import './App.css';
 import Footer from './components/Footer';
 import { StudentProvider } from './StudentContext';
+import Grades from './pages/Grades';
 
 function App() {
   return (
@@ -26,8 +27,8 @@ function App() {
                       <Routes>
                         <Route path="/" Component={Home} />
                         <Route path="/login" Component={Login} />
+                        <Route path="/grades" Component={Grades} />
                       </Routes>
-                
                   </div>
                 </div>
               <Footer />
