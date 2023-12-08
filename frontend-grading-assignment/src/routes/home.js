@@ -1,7 +1,7 @@
 import Footer from "../components/Footer/Footer";
 import Hero from "../components/Hero/Hero";
 import Navbar from "../components/Navigation/Navbar";
-import Trip from "../components/Trip";
+import SchoolInfo from "../components/SchoolInfo";
 import Destination from "../components/destination";
 
 function Home() {
