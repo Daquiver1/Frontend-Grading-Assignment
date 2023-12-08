@@ -3,6 +3,7 @@ import './login.css'
 
 import user_icon from '../Assests/user-pin_.png'
 import pin_icon from '../Assests/lock-password-unlocked-linear_.png'
+import ug_logo from '../Assests/ugLogo.jpeg'
 
 const Login = () => {
     const [action, setAction] = useState('Sign In');
@@ -28,7 +29,12 @@ const Login = () => {
 
   return (
 
-    <div className='container'>
+    <div className='main-container'>
+
+      <div className='img-container'>
+        <img src={ug_logo} alt="University of Ghana logo" className='ug-logo' />
+      </div>
+      <div className='login-container'>
 
       <div className='header'>
             <div className='text'><h2>{action}</h2></div>
@@ -70,6 +76,9 @@ const Login = () => {
         </div>
     </div>
     </div>
+    </div>
+
+    
 
   );
 };
