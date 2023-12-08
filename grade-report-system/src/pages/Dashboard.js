@@ -102,7 +102,7 @@ const Dashboard = () => {
                   streamlining the process of identifying and addressing academic gaps. This comprehensive dashboard compiles real-time data on missing grades,
                   providing educators and administrators with a bird's-eye view of incomplete student assessments. 
                 </p>
-                <button className=' bg-sky-500 text-[#fff] w-[200px] rounded-md font-medium my-6 mx-auto md:mx-0 py-3'>Get Started</button>
+                <button className=' bg-sky-500 text-[#fff] w-[200px] rounded-md font-medium my-6 mx-auto md:mx-0 py-3'>Current Grades Overview</button>
               </div>
             </div>
           </div>

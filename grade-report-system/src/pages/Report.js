@@ -6,7 +6,7 @@ import { AuthProvider, useAuth } from './AuthContext';
 const Report = () => {
   const { user } = useAuth();
   const [open, setOpen]= useState(true);
-  
+  const [selectedSemester, setSelectedSemester] = useState('grade'); 
    
 
     const Menus =[
@@ -20,7 +20,26 @@ const Report = () => {
       setOpen(!open);
     };
 
+    const renderGrades = (semester) => {
+      if (!user || !user[selectedSemester]) {
+        return null;
+      }
   
+      return (
+        <div className='pt-[10px]'>
+          <div className='grid grid-cols-3 gap-4'>
+            {user[semester].Course.map((course, index) => (
+              <div key={index} className='bg-white p-4 rounded-md border border-gray-300'>
+                <p className='font-bold'>{course}</p>
+                <p>Grade: {user[semester].grading[index]}</p>
+                <p>Credits: {user[semester].credits[index]}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      );
+    };
+   
    
     
   return (
@@ -47,10 +66,26 @@ const Report = () => {
         </ul>
         </div>
         <div className="p-7 text-2x1 font-semibold flex-1 h-screen bg-[#ece3e9]">
-          
+          <div>
+          <div>
+            <label htmlFor='semester'>Select Semester:</label>
+            <select
+              id='semester'
+              onChange={(e) => setSelectedSemester(e.target.value)}
+              value={selectedSemester}
+              className='ml-2'
+            >
+              <option value='grade'>Semester 1</option>
+              <option value='grade2'>Semester 2</option>
+              <option value='grade3'>Semester 3</option>
+            </select>
+          </div>
+          {renderGrades(selectedSemester)}
+        </div>
       </div>
     </div>
   )
 }
 
 export default Report
+
