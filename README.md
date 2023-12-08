@@ -34,7 +34,7 @@ To set up the project locally, follow these steps:
 
 ```bash
 git clone https://github.com/michaelperryjnr/DCIT_205_ASSIGNGMENT1.git
-cd DCIT_205_ASSIGNGMENT1
+cd dcit-205-assignment
 
 npm install
 npm start
