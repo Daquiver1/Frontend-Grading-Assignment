@@ -1,9 +1,11 @@
 import React from 'react'
+
+
 import Header from './Header'
 import './Home.css'
 import './footer'
 import Footer from './footer'
-
+import { Link } from 'react-router-dom'
 
 export default function Home(){
     return(
@@ -19,7 +21,7 @@ export default function Home(){
         <p>We've got the numbers</p>
         <br />
         <br />
-        <button className='login_btn'>Login</button>
+        <Link to="/Login_page"><button className='login_btn'>Login</button></Link>
     </div>
 </div>
 

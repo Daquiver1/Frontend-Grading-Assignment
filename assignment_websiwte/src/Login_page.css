@@ -1,0 +1,59 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+body{
+    background-color: #5b5a5a;
+    position: relative;
+}
+
+.form_container{
+    height: auto;
+    width: 600px;
+    position: absolute;
+    top: 270px;
+    left: 30%;
+    box-shadow: #202020;
+}
+
+input{
+    width: 90%;
+    background-color: #202020;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    height: 80px;
+    margin-bottom: 30px;
+   
+}
+
+.sign_in{
+    width: 97%;
+    background-color: #9f9999;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    height: 80px;
+    margin-bottom: 30px;
+}
+
+::placeholder{
+    margin-left: 10px;
+}
+
+
+
+.input-group{
+    display: flex;
+    flex-direction: row;
+}
+
+.input-group-text{
+    border-radius: 30px;
+    height: 80px;
+    background-color: #5b5a5a;
+    color: #9f9999;
+}
+
+
