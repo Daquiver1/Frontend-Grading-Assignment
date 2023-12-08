@@ -1,0 +1,94 @@
+.main{
+  margin-top: 85px;
+  background-color: rgb(7, 7, 80);
+  width: 100%;
+}
+
+
+.dash{
+   
+  transform: translate(-50%, -50);
+  top: 20%;
+  left: 10%;
+  color: #fff;
+}
+
+.dash p {
+  color: #fff;
+  margin-right: 70px;
+  background-color: rgb(151, 120, 93);
+  display: inline-block;
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+}
+.chead{
+  margin-left: 50px;
+  font-size: 24px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+.codep{
+  display: flex;
+}
+.dash .code1{
+  color: black;
+  margin-right: 70px;
+  margin-left: 70px;
+  font-size: 1rem;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: start;
+ 
+}
+.dash .code2{
+  color: black;
+  margin-right: 70px;
+  margin-left: 140px;
+  font-size: 1rem;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: start;
+  
+}
+.dash .code3{
+  color: black;
+  margin-right: 70px;
+  margin-left: 160px;
+  font-size: 1rem;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: start;
+  
+}
+.dash .code4{
+  color: black;
+  margin-right: 70px;
+  margin-left: 130px;
+  font-size: 1rem;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: start;
+  
+}
+.codex{
+  color: red;
+  margin-right: 70px;
+  margin-left: 150px;
+  font-size: 1rem;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: start;
+  
+}
+
+.tips-grade{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background-color: rgb(8, 1, 14);
+  color:#fff;
+  gap: 15px
+  
+}
+.tips-grade{
+  padding: 20px;
+  padding-bottom: 20px;
+}
+.dot{
+  margin-bottom: 2px;
+}
