@@ -67,3 +67,13 @@ To contribute to this project, please follow these guidelines:
 ![Login page](screenshots/Login.jpeg)
 ![Missing Grade Form page](screenshots/Mform.jpeg)
 ![GradeReportpage](screenshots/Grades.jpeg)
+# Challenges I faced 
+I faced a lot of difficulties while doing the work, I was not able to run my codes on the local host server at a point but did not give up checked out some remedies for thaat problem online and fixed it. I was also facing difficulties on how to use the react router but was able to get resources online from w3 schools and other websites to helpm me understand how it works. 
+I was finding it very difficult to filter the grade report page by semester and level.
+# Lessons learned 
+I have learnt a lot of things through out this project some include;
+1. How to use react to create a collapbsible set
+2. How to use CSS in react 
+3. How to use inline styling in react 
+4. How to add functionality to events like clicking 
+5. How to make a component be rendered on all the pages of the website  
