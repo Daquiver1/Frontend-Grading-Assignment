@@ -6,6 +6,7 @@ import "datatables.net-bs4/css/dataTables.bootstrap4.min.css";
 
 import { NavLink } from "react-router-dom";
 import { StudentContext } from "../StudentContext";
+import reportData from "../data/ReportData";
 
 const Grades = () => {
 
@@ -21,113 +22,6 @@ const Grades = () => {
     const { student } = useContext(StudentContext);
 
     const isLogin = student.studentId !== "" ? true : false;
-
-    const reportData = [
-        {
-            courseName: "Introduction to Computer Science",
-            courseCode: "CS 101",
-            grade: "A",
-            gpa: "4.0",
-            creditHours: 3,
-            instructorName: "Dr. Amanda Johnson"
-        },
-        {
-            courseName: "Calculus I",
-            courseCode: "MATH 110",
-            grade: "B+",
-            gpa: "3.3",
-            creditHours: 4,
-            instructorName: "Prof. Robert Williams"
-        },
-        {
-            courseName: "Literature and Composition",
-            courseCode: "ENG 201",
-            grade: "A-",
-            gpa: "3.7",
-            creditHours: 3,
-            instructorName: "Dr. Sarah Thompson"
-        },
-        {
-            courseName: "History of Art",
-            courseCode: "ART 150",
-            grade: "B",
-            gpa: "3.0",
-            creditHours: 3,
-            instructorName: "Prof. Michael Davis"
-        },
-        {
-            courseName: "Introduction to Psychology",
-            courseCode: "PSY 101",
-            grade: "A+",
-            gpa: "4.0",
-            creditHours: 3,
-            instructorName: "Dr. Amanda Johnson"
-        },
-        {
-            courseName: "Introduction to Computer Science",
-            courseCode: "CS 101",
-            grade: "A",
-            gpa: "4.0",
-            creditHours: 3,
-            instructorName: "Dr. Amanda Johnson"
-        },
-        {
-            courseName: "Calculus II",
-            courseCode: "MATH 227",
-            grade: "B+",
-            gpa: "3.3",
-            creditHours: 4,
-            instructorName: "Prof. Robert Williams"
-        },
-        {
-            courseName: "Literature and Composition",
-            courseCode: "ENG 201",
-            grade: "A-",
-            gpa: "3.7",
-            creditHours: 3,
-            instructorName: "Dr. Sarah Thompson"
-        },
-        {
-            courseName: "History of Art",
-            courseCode: "ART 150",
-            grade: "B",
-            gpa: "3.0",
-            creditHours: 3,
-            instructorName: "Prof. Michael Davis"
-        },
-        {
-            courseName: "Introduction to Psychology",
-            courseCode: "PSY 101",
-            grade: "A+",
-            gpa: "4.0",
-            creditHours: 3,
-            instructorName: "Dr. Amanda Johnson"
-        },
-        {
-            courseName: "Introduction to Computer Science",
-            courseCode: "CS 101",
-            grade: "A",
-            gpa: "4.0",
-            creditHours: 3,
-            instructorName: "Dr. Amanda Johnson"
-        },
-        {
-            courseName: "Calculus I",
-            courseCode: "MATH 110",
-            grade: "B+",
-            gpa: "3.3",
-            creditHours: 4,
-            instructorName: "Prof. Robert Williams"
-        },
-        {
-            courseName: "Literature and Composition",
-            courseCode: "ENG 201",
-            grade: "A-",
-            gpa: "3.7",
-            creditHours: 3,
-            instructorName: "Dr. Sarah Thompson"
-        },
-    ];
 
     if (!isLogin) {
         return (
