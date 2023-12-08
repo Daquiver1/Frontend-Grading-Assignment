@@ -8,10 +8,11 @@ const Login = () => {
   const [pin, setPin] = useState('');
   const [error, setError] = useState('');
 
+  
   const handleLogin = (e) => {
     e.preventDefault();
     // Simulated authentication logic (replace with actual authentication logic)
-    if (studentId === 'exampleID' && pin === '1234') {
+    if (studentId === '11302223' && pin === '1234') {
       // Redirect to Dashboard or perform other actions on successful login
       console.log('Login successful');
     } else {

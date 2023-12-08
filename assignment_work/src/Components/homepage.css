@@ -1,0 +1,33 @@
+/* App.css */
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+ .headtitle{
+    margin: 200px;
+    padding: 0px;
+    font-family: Arial, sans-serif;
+    font-size: 50px;
+    color: rgb(18, 131, 175);
+
+ }
+ 
+  
+ .pgraph {
+    margin: 20px;
+    padding: 0px;
+    font-size: 30px;
+ }
+  footer {
+    text-align: center;
+    margin-top: 200px;
+  }
