@@ -18,7 +18,7 @@ export default function Home(){
         <h1>Welecome</h1>
         <br />
     
-        <p>We've got the numbers</p>
+        
         <br />
         <br />
         <Link to="/Login_page"><button className='login_btn'>Login</button></Link>
