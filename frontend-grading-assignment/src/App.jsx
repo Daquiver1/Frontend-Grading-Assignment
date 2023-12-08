@@ -4,6 +4,7 @@ import Home from "./routes/Home";
 import Login from "./routes/Login";
 import Help from "./routes/Help";
 import ReportMissingGrade from "./routes/ReportMissingGrade";
+import Contact from "./routes/Contact";
 
 function App() {
 
@@ -14,7 +15,7 @@ function App() {
         <Route path="login"  element={ <Login />}/>
         <Route path="help"  element={ <Help />}/>
         <Route path="report-missing-grade"  element={ <ReportMissingGrade />}/>
-
+        <Route path="contact" element={ <Contact />}/>
       </Routes>
     </BrowserRouter>
   )
