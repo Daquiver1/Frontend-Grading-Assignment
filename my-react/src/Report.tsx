@@ -41,8 +41,8 @@ function Report() {
     {
         id: 2,
         Subject: "DCIT105 Mathematics For IT Professionals ",
-        Grade: "C+",
-        Cumlative: "7.5"
+        Grade: "N/A",
+        Cumlative: "N/A"
     },
     {
         id: 3,
@@ -53,8 +53,8 @@ function Report() {
     {
         id: 4,
         Subject: "DCIT 103 Office Productivity Tools",
-        Grade: "B",
-        Cumlative: "9"
+        Grade: "N/A",
+        Cumlative: "N/A"
     },
     {
         id: 5,
@@ -89,8 +89,8 @@ function Report() {
     {
         id: 9,
         Subject: "ECON102 Introduction to Economics II",
-        Grade: "B+", 
-        Cumlative: "10.5"
+        Grade: "N/A", 
+        Cumlative: "N/A"
     },
     {
         id: 10,
@@ -130,7 +130,7 @@ function Report() {
       id: 3,
       Subject: "Digital and Logic System Design",
       Grade: "B+",
-      Cumlative: "10.5",
+      Cumlative: "N/A",
     },
     {
       id: 2,
@@ -187,7 +187,7 @@ function Report() {
 
   return (
     <><>
-      <div>
+      <div className='antwi'>
         <h1 className="fw-bold">ANTWIWAA'S GRADE REPORT</h1>
       </div>
       

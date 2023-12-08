@@ -1,4 +1,4 @@
-div h1 {
+div .antwi {
     color: black;
     margin-top: 100px;
     margin-bottom: 50px;
@@ -31,4 +31,12 @@ h2{
 .top{
     display: block;
     margin-top: 50px;
+}
+.fw-bold{
+    background-color: #1151a5;
+    color: #fff;
+    margin-top: 0px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-bottom: 30px;
 }

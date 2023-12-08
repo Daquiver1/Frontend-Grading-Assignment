@@ -8,11 +8,13 @@ function Header(){
         <nav className='navbar'>
              
         
-     <Link className='' to="my-react/src/Home.tsx" >Help and Supprt</Link>
+     <Link className='' to="my-react/src/Help.tsx" >Help and Supprt</Link>
+     <Link to=" ">Contact us</Link>
        <Link to=" ">Dashboard </Link>
-       <Link to=" ">Contact us</Link>
+       
+      
+       <Link to='my-react/src/Missinggrade.tsx '>Missing grade form</Link>
        <Link to="my-react/src/Report.tsx ">Grade report</Link>
-       <Link to=' '>Missing grade form</Link>
        <Link to="my-react/src/Login.tsx">Login  </Link>
        <Link to="my-react/src/Home.tsx">Home </Link>
       
