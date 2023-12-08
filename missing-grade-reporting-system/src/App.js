@@ -10,8 +10,7 @@ import Footer from './Components/Footer/footer.jsx';
 function App() {
   return (
     <div>
-      <NavBar />
-      <Dashboard />
+      <Login />
     </div>
   );
 }
