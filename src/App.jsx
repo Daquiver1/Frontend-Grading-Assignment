@@ -1,5 +1,5 @@
 import "./App.css";
-import Home from "./pages/Home";
+import Home from "./pages/Home1";
 import Register from "./pages/Register";
 import Login from "./pages/Login";
 import Navbar from "./components/Navbar";
@@ -11,19 +11,18 @@ import {
   Route,
   Link,
 } from "react-router-dom";
-import Posters from "./pages/Posters";
 import Footer from "./components/Footer";
 import ErrorPage from "./pages/ErrorPage";
 import Poster from "./pages/Home1";
 import About from "./pages/About"
 import GradeReport from "./pages/GradeReport";
-import InstructorContact from "./pages/InstructorContact";
+import DashBoard from "./pages/DashBoard";
 import MissingGrade from "./pages/MissingGrade";
 import Help from "./pages/Help";
 
 
 
-const DashBoard = () => {
+const NavBox = () => {
   return (
     <div>
       <Navbar />
@@ -36,15 +35,11 @@ const DashBoard = () => {
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <DashBoard />,
+    element: <NavBox />,
     children: [
       {
-        path: "/",
+        path: "/home1",
         element: <Home />,
-      },
-      {
-        path: "/posters",
-        element: <Posters />,
       },
       {
         path: "/gradeReport",
@@ -55,8 +50,8 @@ const router = createBrowserRouter([
         element: <About />,
       },
       {
-        path: "/instructorContact",
-        element: <InstructorContact />,
+        path: "/dashBoard",
+        element: <DashBoard />,
       },
       {
         path: "/missingGrade",

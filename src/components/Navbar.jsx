@@ -8,9 +8,9 @@ function Navbar() {
   return (
     <div className="border-bottom shadow-sm">
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
-        <Link className="navbar-brand" to="/">
-          RESULT CHECK
-        </Link>
+        <div className="navbar-brand" >
+        <h1>Missing Grade Reporting System</h1>
+        </div>
 
         <button
           className="navbar-toggler"
@@ -26,14 +26,13 @@ function Navbar() {
 
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav mr-auto">
-            {/* Additional Pages */}
+            
             <li className="nav-item">
-              <Link className="nav-link" to="/posters">
+              <Link className="nav-link" to="/home1">
                 Home
               </Link>
             </li>
-            {/* Add more similar <li> elements for additional pages */}
-            {/* Example: */}
+            
             <li className="nav-item">
               <Link className="nav-link" to="/about">
                 About
@@ -45,8 +44,8 @@ function Navbar() {
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/instructorContact">
-                InstructorContact
+              <Link className="nav-link" to="/dashBoard">
+                DashBoard
               </Link>
             </li>
             <li className="nav-item">

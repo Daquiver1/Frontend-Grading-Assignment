@@ -1,0 +1,56 @@
+/* DashBoard.css */
+.Dashpage-container {
+  max-width: 95%;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f7f7f7;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.Dashpage-container h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.results-summary {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.results-box {
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.total-results {
+  background-color: #0970b5; /* Change color as needed */
+  color: #fff;
+  
+}
+
+.total-missing-results {
+  background-color: #ea1f08; /* Change color as needed */
+  color: #fff;
+}
+
+.grade-card {
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #fff;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.missing-grades {
+  margin-top: 30px;
+}
+
+@media screen and (max-width: 768px) {
+  .grades-list {
+    grid-template-columns: 1fr;
+  }
+}
