@@ -9,15 +9,7 @@ export default function LogIn() {
       <main className="mx-auto flex min-h-screen w-full items-center justify-center  text-white bg-white pt-10">
         {/* component */}
         <section className="flex w-[30rem] flex-col space-y-10">
-          <div className="flex flex-col justify-center items-center">
-            <div className="w-1/6">
-              <img className="w-full" src={logo} alt="" />
-            </div>
-            <div className="text-4xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-              Log In
-            </div>
-          </div>
-
+          
           <div>
             <label
               htmlFor="username"
