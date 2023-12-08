@@ -1,0 +1,158 @@
+
+  
+  .instructor h1 {
+    font-size: 24px;
+    color: #3c8dbc;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  .instructors{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    gap: 30px;
+    justify-content: center;
+    
+  }
+  
+  .Underline {
+    content: "";
+    display: flex;
+    position: relative;
+    height: 3px;
+    border-radius: 50px;
+    width: 150px;
+    background: tomato;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  
+  
+  
+  .instructor-card {
+   
+    display: flex;
+    margin: 10px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #e44d26;
+    
+    box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    min-height:500px; 
+  }
+  
+  .instructor-card img {
+    width: 100%;
+  }
+  
+   .instructor-details {
+    padding: 10px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .instructor-card .instructor-details h3 {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 800;
+  }
+  
+  .instructor-card .instructor-details p {
+    font: 1em sans-serif;
+  }
+  
+  .instructor-card .instructor-details span {
+    font-size: small;
+  }
+  
+  .contact-instructor {
+    display: flex;
+    margin: 10px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #e44d26;
+    
+    box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    min-height:500px; 
+  }
+  
+  .contact-instructor h2 {
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+  .submit-btn{
+    display: flex;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
+    color: #fff;
+    font: 1em sans-serif;
+    background: #3c8dbc;
+  }
+  .submit-btn:hover{
+    background: #135b80;
+  }
+  .instructor-btn .active-btn{
+    background-color: gray;
+  }
+  .instructor-btn .active-btn:hover{
+    background-color:rgb(116, 112, 112);
+  }
+  .Inputs .input{
+    
+    height: 50px;
+    width: 70%;
+    padding: 10px;
+    margin: 10px auto;
+  }
+  .instructor-btn{
+    display: flex;
+    margin: 10px auto;
+    gap: 10px;
+    padding: 10px;
+    
+
+    
+  }
+  .img{
+    margin: 10px;
+    height: 50%;
+    width: 50%;
+    border-radius: 50%;
+  }
+  .instructor-btn p {
+    background: rgb(104, 179, 35);
+    padding: 15px;
+    
+    color: #fff;
+    border-radius: 50px;
+    cursor: pointer;
+    text-align: center;
+  }
+  .instructor-btn p:hover{
+    background-color: rgb(73, 125, 25);
+  }
+  
+  @media screen and (max-width: 800px) {
+    .instructor-card,
+    .contact-instructor {
+      width: 90%;
+    }
+  
+    .instructor,
+    .instructor-container {
+      display: grid;
+      place-items: center;
+    }
+   
+  }
+  

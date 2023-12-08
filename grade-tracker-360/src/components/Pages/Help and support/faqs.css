@@ -1,0 +1,116 @@
+
+.help-support-container {
+    
+    
+    margin: 0 auto;
+    padding: 20px;
+    background: #bedfe8;
+  }
+  
+  .page-title {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+ .accordion{
+    max-width: 800px;
+    
+    margin: auto ;
+ }
+  
+ .accordion .contentBx{
+    position: relative;
+    margin: 10px 20px;
+ }
+ .accordion .contentBx .label{
+    position: relative;
+    padding: 10px;
+    background: #2694af;
+    color: #fff;
+    cursor: pointer;
+ }
+ .accordion .contentBx .label::before{
+    content: "+";
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    font-size: 1.5rem;
+ }
+ .accordion .contentBx.active .label::before{
+    content: "-";
+ }
+ .accordion .contentBx .content{
+    position: relative;
+    background: #fff;
+    height: 0;
+    overflow: hidden;
+    transition: 0.5s;
+    overflow-y: auto;
+ }
+ .accordion .contentBx.active .content{
+    height: 150px;
+    padding: 10px;
+ }
+  /* Contact form section styles */
+  .contact-form-section {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    max-width: 800px;
+    margin: auto;
+    margin-top: 60px;
+
+  }
+  .contact-form-section h2{
+    color:#4d516b;
+    text-align: center;
+    font-weight: 900;
+    margin-bottom: 10px;
+  }
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input[type='text'],
+  input[type='email'],
+  textarea {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-top: 5px;
+  }
+  
+  textarea {
+    resize: vertical;
+  }
+  
+  .submit-button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-button:hover {
+    background-color: #0056b3;
+  }
+  
