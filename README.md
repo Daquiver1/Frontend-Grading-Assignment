@@ -1,51 +1,45 @@
-# Student Grade Reporting System Frontend
+### STUDENT NAME: ENOCK QUEEENSON EDUAFO
+### STUDENT ID: 11014444
 
-## Project Overview
+## Description
+This React project is designed to provide a seamless user experience for various functionalities within an educational context. The application includes the following pages:
 
-This project is a front-end web application for a Student Grade Reporting System. It simulates a real-world application where students can view, report, and manage their academic grades. This system addresses the issue of missing or unrecorded grades in a student's profile.
+### 1. Login Page
+The Login Page serves as the entry point to the application, allowing users to securely access their accounts. Users can log in with their credentials to access personalized content and features.
 
-## Application Structure
+### 2. Dashboard Page
+The Dashboard Page provides users with an overview of essential information and key metrics related to their educational journey. It serves as a centralized hub for quick access to relevant data and functionalities.
 
-The application consists of 7 main pages:
+### 3. Grade Report Page
+The Grade Report Page enables users to view detailed information about their academic performance. Users can explore their grades, track progress, and gain insights into their achievements across different courses.
 
-- **Homepage:** Introduction to the system and its purpose.
-- **Login Page:** Mock login interface for student authentication.
-- **Dashboard:** Displays an overview of the student’s current grades and alerts for missing grades.
-- **Grade Report:** Shows a detailed view of the student's grades filtered by semester or academic year.
-- **Missing Grade Form:** Enables students to report missing grades.
-- **Instructor Contact Page:** Lists instructors' contact information with a simulated email feature.
-- **Help and Support:** Provides FAQs and a mock support contact form.
+### 4. Missing Grade Page
+The Missing Grade Page alerts users about any incomplete or missing grades. It provides a comprehensive view of outstanding assignments or assessments, helping users stay on top of their academic responsibilities.
 
-## Technical Details
+### 5. Instructor Contact Page
+The Instructor Contact Page facilitates communication between students and instructors. Users can find contact information for their instructors, making it easy to reach out for clarification, guidance, or additional support.
 
-- **Framework/Technology Used:** [React]
-- **Responsive Design:** Implemented using [CSS Flexbox/Grid, Bootstrap, Tailwind CSS].
-- **JavaScript Functionality:** Used for form validations, dynamic content rendering, and simulating interactions.
+### 6. FAQ Page
+The FAQ Page is a valuable resource for users seeking answers to common questions. It serves as a self-help guide, providing information on various topics related to the application, academic policies, and other relevant subjects.
 
-## Setup and Installation
+## Getting Started
+1. Clone the repository.
+2. Install dependencies using npm install.
+3. Run the application with npm start.
 
-To set up the project locally, follow these steps:
+## How to Navigate the Website
+- Firstly, in the login page click on Login.
+- Lastly, in the dashboard try clicking all links one by one to understand how the wedsite works.
 
-```bash
-git clone https://github.com/your-github-username/DCIT_205_ASSIGNGMENT1.git
-cd repo-name
-npm install
-npm start
-```
 
-This will start the application on `localhost` at the default port.
+## Technologies
+- React.js
+- Google font(Roboto)
+- Fontawesome(Icons)
 
-## Usage
-
-Describe how to use the application, highlighting key functionalities such as logging in, viewing grades, reporting missing grades, and contacting instructors.
-
-## Contribution
-
-To contribute to this project, please follow these guidelines:
-
-1. Fork the repository.
-2. Create a new branch for your feature.
-3. Commit your changes and push them to your branch.
-4. Submit a pull request for review.
-
-Please adhere to the project's coding standards and provide clear and detailed pull request descriptions.
+<img src="./Login.png" />
+<img src="./Dashboard.png" />
+<img src="./GradeReport.png" />
+<img src="./MissingGrade.png" />
+<img src="./IntructorContact.png" />
+<img src="./Faq.png" />
