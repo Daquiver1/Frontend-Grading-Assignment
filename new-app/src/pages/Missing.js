@@ -9,7 +9,8 @@ const Missing = () =>{
             <br></br>
             <div>
                <form style={{border:"solid",borderColor:"#BD9C6C",width:"550px", alignSelf:"center",verticalAlign:"Top",textAlign:"center",}}>
-                     <h2>Missing Report Form</h2>
+                     <h2>Missing Grade Form</h2>
+                     <img src={grade} alt="examples of grades"style={{width:100}}></img>
                 
                      <label>Course code:&nbsp;&nbsp;<input type="text" placeholder="Course code" ></input></label><br></br>
                      <br></br>

@@ -1,7 +1,7 @@
-import Layout from './layout';
-import schlogo from './schlogo.png';
+
 import grade from './grade.jpg';
-import Missing from './Missing';
+
+
 
 
 
@@ -13,11 +13,12 @@ const Out = () => {
       <br></br>
       <h3 style={{color:"#BD9C6C"}}>Log In</h3>
       <div id="flexbox">
-        <form style={{alignContent:"center",alignSelf:"center",justifyContent:"center",marginLeft:"300px"}}>
+        <form style={{border:"solid",borderColor:"#BD9C6C",width:"550px", alignSelf:"center",verticalAlign:"Top",textAlign:"center",}}>
             <label>Student ID: <input type="text" placeholder="StudentID" maxLength={8}></input>  </label><br></br>
-            <label>PIN: <input type="password" placeholder="PIN" maxLength={5}></input></label><br></br>
+            <label>PIN &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;: <input type="password" placeholder="PIN" maxLength={5}></input></label><br></br>
             
-            <button Onclick={Missing}>Login</button>
+
+            <button style={{backgroundColor:"#BD9C6C",color:"#fff"}}>Login</button>
                            
         </form>
       </div>

@@ -1,42 +1,10 @@
-// import Out from "./Login"
-
-// import schlogo from './schlogo.png';
-// import { BrowserRouter, Routes, Route } from "react-router-dom";
-
-// import Login from './pages/Login';
-// import Layout from './pages/layout';
-// import Graderep from './pages/Graderep';
+import grade from './grade.jpg'
 
 
 const Dashboard = () => {
     return(
         <>
-        {/* <header>
-        <div id="flexbox">
-          <div id="schlogo"><img src={schlogo} className="deptlogo" alt="Ug DCS logo"   ></img></div> */}
-          {/* <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Layout />}>
-          <Route index element={<Login />} />
-          <Route path="Dashboard" element={<Dashboard />} />
-          <Route path="Graderep" element={<Graderep />} />
-          <Route path="Out" element={Out} />
-        </Route>
-      </Routes>
-    </BrowserRouter> */}
-          {/* <div id="navbar">
-            <ul className="horiznav">
-               <li>Grade Report</li>
-               <li>Dashboard</li>
-               <li>Missing Grade Form</li>
-               <li>Insructor</li>
-               <li>Help &amp; Support</li>
-               <button className="frontgate" onClick={Out}><li>Log Out</li></button>
-
-            </ul>
-          </div>
-        </div>
-      </header> */}
+        
       <br></br>
       <br></br>
       <h1 style={{color:"#BD9C6C"}}>Dashboard</h1>
@@ -55,6 +23,10 @@ const Dashboard = () => {
        average or below average performance, respectively. Finally, letter grades are converted to 
        numerical grades using a predetermined scale and the overall performance of the student is determined by the C.G.P.A.
        </p>
+       <br></br>
+       <br></br>
+       <br></br>
+       
       
         </>
     )

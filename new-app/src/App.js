@@ -1,8 +1,9 @@
 import './App.css';
+import grade from './grade.jpg'
 // import schlogo from './schlogo.png';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 // import grade from './grade.jpg';
-import Login from './pages/Login';
+// import Login from './pages/Login';
 import Layout from './pages/layout';
 import Graderep from './pages/Graderep';
 import Dashboard from './pages/Dashboard'
@@ -14,15 +15,16 @@ import Help from './pages/Help';
 
 
 function App() {
+  
     return (
     
     
     <div className="App">
       
-      <BrowserRouter>
+    <BrowserRouter>
       <Routes>
         <Route path="/" element={<Layout />}>
-          <Route index element={<Login />} />
+          <Route index element={<Out />} />
           <Route path="Dashboard" element={<Dashboard />} />
           <Route path="Graderep" element={<Graderep />} />
           <Route path="Missing" element={<Missing/>} />
@@ -32,8 +34,51 @@ function App() {
         </Route>
       </Routes>
     </BrowserRouter>
-      
-      
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>  
+    <footer>
+        <div className="flexbox">
+          <div className="flexitem">
+            <img src={grade} alt="examples of grades" style={{height:"40px"}} ></img>
+            <ol>
+              <li>Students Grade reports</li>
+              <li>Students Complains Forms</li>
+              <li>Students Dashboard</li>
+              <li>Students Noticifications</li>
+            </ol>
+          </div>
+          <div className="flexitem">
+            <img src={grade} alt="examples of grades" style={{height:"40px"}} ></img>
+            <ol>
+              <li>For Help Go to Help &amp; Support</li>
+              <li>To send email go to instructor Contact page</li>
+              <li>Check notification always</li>
+              <li>Check Dashboard for Grade Overview</li>
+            </ol>
+          </div>
+          <div className="flexitem">
+            <img src={grade} alt="examples of grades" style={{height:"40px"}} ></img>
+            
+              <p>Students Grade reports</p>
+              <p>Students Complains Forms</p>
+              <p>Students Dashboard</p>
+              <p>Students Noticifications</p>
+            
+          </div>
+          <div className="flexitem">
+            <img src={grade} alt="examples of grades" style={{height:"40px"}} ></img>
+            
+               <p>Contact us @</p>
+              <p>+233 5492-02070</p>
+              <p>Locate Us @</p>
+              <p>Opposite UGCS</p>
+            
+          </div>
+        </div>
+       </footer>
       {/* <header>
         <div id="flexbox">
           <div id="schlogo"><img src={schlogo} className="deptlogo" alt="Ug DCS logo"   ></img></div>

@@ -18,6 +18,19 @@
   .content {
     padding: 0 18px;
     display: none;
-    overflow: hidden;
+    overflow: auto;
     background-color: #f1f1f1;
+  }
+  .flexbox{
+    display:flex;
+    flex-wrap: wrap;
+    justify-items: flex-start;
+    justify-content: space-around;
+    flex:50%;
+    background-color: #BD9C6C;
+
+  }
+  .flexitem{
+    color:#f1f1f1
+
   }

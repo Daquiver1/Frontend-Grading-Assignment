@@ -1,42 +1,7 @@
-
-import Out from "./Login"
-import schlogo from './schlogo.png';
-// import { BrowserRouter, Routes, Route } from "react-router-dom";
-
-// import Login from './pages/Login';
-// import Layout from './pages/layout';
-
-// import Dashboard from './pages/Dashboard'
-
 const  Graderep = () => {
     return(
         <>
-        {/* <header>
-        <div id="flexbox">
-          <div id="schlogo"><img src={schlogo} className="deptlogo" alt="Ug DCS logo"   ></img></div>
-          <div id="navbar"> */}
-          {/* <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Layout />}>
-          <Route index element={<Login />} />
-          <Route path="Dashboard" element={<Dashboard />} />
-          <Route path="Graderep" element={<Graderep />} />
-          <Route path="Out" element={Out} />
-        </Route>
-      </Routes>
-    </BrowserRouter> */}
-            {/* <ul className="horiznav">
-               <li>Grade Report</li>
-               <li>Dashboard</li>
-               <li>Missing Grade Form</li>
-               <li>Insructor</li>
-               <li>Help &amp; Support</li>
-               <button className="frontgate" onClick={Out}><li>Log Out</li></button>
-
-            </ul>
-          </div>
-        </div>
-      </header> */}
+        
       <br></br>
       <br></br>
       <br></br>
