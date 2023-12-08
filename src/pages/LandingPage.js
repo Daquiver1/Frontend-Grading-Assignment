@@ -4,9 +4,12 @@ import { Link } from "react-router-dom";
 import { Container, Row, Col, Button } from "react-bootstrap";
 import { FaGraduationCap } from "react-icons/fa";
 import Navigation from "../components/Navigation";
+import Footer from "../components/Footer";
+
 import "bootstrap/dist/css/bootstrap.min.css";
 
 import "./LandingPage.css";
+import VideoBackground from "../components/VideoBackground";
 
 function LandingPage() {
   return (
@@ -14,33 +17,27 @@ function LandingPage() {
       <div className="Navigation">
         <Navigation />
       </div>
+
       <Container className="d-flex-container">
-        <Row className="align-items-center justify-content-center">
-          <Col md={6} className="text-center">
+        <Row className="align-items-center justify-content-center text-center">
+          <Col md={6}>
             <h1 className="display-3">Missing Grade Reporting System</h1>
             <p className="lead">
               A system designed to help students track and report grades that
               are not recorded in their academic profiles.
             </p>
-            <p ClassName="Logo-login">
-              <Link to="./loginPage">
+            <p className="Logo-login">
+              <Link to="./LoginPage">
                 <Button variant="primary" size="lg">
                   Login
                 </Button>
               </Link>
             </p>
           </Col>
-          <Col md={6}>
-            <img
-              src="/src/assets/img/close.png"
-              alt="Grade report"
-              className="img-fluid"
-            />
-          </Col>
         </Row>
 
-        <Row className="bg-dark text-white p-4">
-          <Col md={4} className="text-center">
+        <Row className="bg-dark text-white p-4 text-center">
+          <Col md={4}>
             <FaGraduationCap size={48} />
             <h3>View your grades</h3>
             <p>
@@ -49,7 +46,7 @@ function LandingPage() {
               need to be reported.
             </p>
           </Col>
-          <Col md={4} className="text-center">
+          <Col md={4}>
             <FaGraduationCap size={48} />
             <h3>Report missing grades</h3>
             <p>
@@ -58,7 +55,7 @@ function LandingPage() {
               and an explanation for the missing grade.
             </p>
           </Col>
-          <Col md={4} className="text-center">
+          <Col md={4}>
             <FaGraduationCap size={48} />
             <h3>Contact your instructors</h3>
             <p>
@@ -69,8 +66,8 @@ function LandingPage() {
             </p>
           </Col>
         </Row>
-        <Row className="p-4">
-          <Col md={12} className="text-center2">
+        <Row className="p-4 text-center">
+          <Col md={12}>
             <p>
               This website is a mock-up and does not represent a real system. It
               is created for demonstration purposes only.
@@ -78,6 +75,11 @@ function LandingPage() {
           </Col>
         </Row>
       </Container>
+      <div>
+        {" "}
+        <VideoBackground />{" "}
+      </div>
+      <Footer />
     </div>
   );
 }

@@ -17,6 +17,7 @@ import {
 import { FaGraduationCap, FaEnvelope } from "react-icons/fa";
 import Navigation from "../components/Navigation";
 import "./InstructorContactPage.css";
+import VideoDash from "../components/VideoDash";
 function InstructorContactPage() {
   const [instructors, setInstructors] = useState([]);
   const [selectedInstructor, setSelectedInstructor] = useState(null);
@@ -84,10 +85,17 @@ function InstructorContactPage() {
 
   return (
     <div>
-      <Navigation />
-      <Container fluid className="instructor-contact-page">
-        <Row className="p-4">
-          <Col md={12} className="text-center">
+      <div className="Navig-tion">
+        {" "}
+        <Navigation />{" "}
+      </div>
+      <div>
+        {" "}
+        <VideoDash />
+      </div>
+      <Container className="d-flex-container">
+        <Row className="align-items-center justify-content-center text-center">
+          <Col md={6}>
             <h1 className="display-3">Missing Grade Reporting System</h1>
             <p className="lead">
               A system designed to help students track and report grades that

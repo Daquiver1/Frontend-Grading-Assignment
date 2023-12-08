@@ -2,22 +2,27 @@
 
 body {
   font-family: "Arial", sans-serif;
-  background-color: #f8f9fa;
   margin: 0;
 }
 
 .container {
-  padding: 20px;
+  padding: 30px;
+  background-color: transparent; /* Set the background color to transparent */
 }
 
 .display-3 {
   color: #007bff;
-  margin-bottom: 20px;
+  margin-bottom: 100px;
+  text-align: center;
+  height: auto;
+  background-color: transparent; /* Set the background color to transparent */
 }
 
 .lead {
-  color: #6c757d;
+  color: #0d83eb;
   margin-bottom: 30px;
+  text-align: center;
+  background-color: transparent; /* Set the background color to transparent */
 }
 
 .img-fluid {
@@ -26,14 +31,14 @@ body {
 }
 
 .bg-dark {
-  background-color: #343a40;
+  background-color: transparent;
   color: #fff;
-  padding: 20px;
-  margin-top: 30px;
+  padding: 100px;
+  margin-top: 10px;
 }
 
 h3 {
-  color: #007bff;
+  color: #0b75e7;
   margin-top: 20px;
 }
 
@@ -41,13 +46,12 @@ h3 {
   color: #6c757d;
   margin-top: 20px;
 }
-/* LandingPage.css */
 
 /* Styles for Navigation */
 .Navigation {
   background-color: #333; /* Customize the background color */
   color: #fff; /* Customize the text color */
-  padding: 10px; /* Customize the padding */
+  padding: 20px; /* Customize the padding */
 }
 
 /* Styles for the main content */
@@ -55,7 +59,7 @@ h3 {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background-color: #f8f9fa; /* Customize the background color */
+  background-color: transparent; /* Set the background color to transparent */
 }
 
 /* Additional styles for the main content if needed */

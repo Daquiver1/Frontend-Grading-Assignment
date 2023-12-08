@@ -5,6 +5,8 @@ import { Container, Row, Col, Card, Button } from "react-bootstrap";
 import { FaGraduationCap, FaBell, FaExclamationCircle } from "react-icons/fa";
 import Navigation from "../components/Navigation";
 import "./DashboardPage.css";
+import Footer from "../components/Footer";
+import VideoDash from "../components/VideoDash";
 
 function DashboardPage() {
   const [grades, setGrades] = useState([]);
@@ -14,25 +16,25 @@ function DashboardPage() {
     // Simulate fetching grades from an API
     const fetchedGrades = [
       {
-        course: "Math 101",
+        course: "DCIT 205",
         grade: "A",
-        instructor: "John Smith",
+        instructor: "Michael Soli",
         semester: "Fall 2023",
       },
       {
-        course: "English 201",
+        course: "DCIT 201",
         grade: "B+",
-        instructor: "Jane Doe",
+        instructor: "Paul AMMAH",
         semester: "Fall 2023",
       },
       {
-        course: "History 301",
+        course: "DCIT 207",
         grade: "C",
         instructor: "Bob Lee",
         semester: "Fall 2023",
       },
       {
-        course: "Science 401",
+        course: "CBAS 210",
         grade: null, // Missing grade
         instructor: "Alice Wong",
         semester: "Fall 2023",
@@ -57,9 +59,13 @@ function DashboardPage() {
         {" "}
         <Navigation />{" "}
       </div>
-      <Container fluid className="dashboard-page">
-        <Row className="p-4">
-          <Col md={12} className="text-center">
+      <div>
+        {" "}
+        <VideoDash />
+      </div>
+      <Container className="d-flex-container">
+        <Row className="align-items-center justify-content-center text-center">
+          <Col md={6}>
             <h1 className="display-3">Missing Grade Reporting System</h1>
             <p className="lead">
               A system designed to help students track and report grades that
@@ -80,7 +86,7 @@ function DashboardPage() {
                   semester. Your average grade is{" "}
                   {calculateAverageGrade(grades)}.
                 </Card.Text>
-                <Link to="/grade-report">
+                <Link to="/GradeReportPage">
                   <Button variant="primary">View Details</Button>
                 </Link>
               </Card.Body>
@@ -106,7 +112,7 @@ function DashboardPage() {
                 {alerts.map((alert, index) => (
                   <p key={index}>
                     <FaExclamationCircle /> {alert.message}{" "}
-                    <Link to={alert.link}>
+                    <Link to="/MissingGradeFormPage">
                       <Button variant="secondary" size="sm">
                         Report
                       </Button>
@@ -118,6 +124,7 @@ function DashboardPage() {
           </Col>
         </Row>
       </Container>
+      <Footer />
     </div>
   );
 }
@@ -158,7 +165,7 @@ function calculateAverageGrade(grades) {
   );
 
   // Return the letter grade or N/A if no valid grades
-  return letterGrade || "N/A";
+  return letterGrade || "3.4";
 }
 
 export default DashboardPage;

@@ -6,6 +6,7 @@ import { FaUser, FaLock } from "react-icons/fa";
 import "./LoginPage.css";
 
 import Navigation from "../components/Navigation";
+import Videologin from "../components/Videologin";
 
 function LoginPage() {
   const [studentId, setStudentId] = useState("");
@@ -27,10 +28,15 @@ function LoginPage() {
 
   return (
     <div>
-      <Navigation />
-      <Container fluid className="login-page">
-        <Row className="align-items-center justify-content-center">
-          <Col md={6} className="text-center">
+      <div className="Navigation">
+        <Navigation />
+      </div>
+      <div>
+        <Videologin />
+      </div>
+      <Container className="d-flex-container">
+        <Row className="align-items-center justify-content-center text-center">
+          <Col md={6}>
             <h1 className="display-3">Missing Grade Reporting System</h1>
             <p className="lead">
               A system designed to help students track and report grades that
@@ -72,7 +78,7 @@ function LoginPage() {
                 />
               </Form.Group>
               <Button variant="primary" type="submit" className="w-100">
-                Login
+                Connexion
               </Button>
               {error && (
                 <Alert variant="danger" className="mt-3">

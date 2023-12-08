@@ -5,7 +5,7 @@ import { useNavigate } from "react-router-dom";
 import { Container, Row, Col, Form, Button, Alert } from "react-bootstrap";
 import { FaPaperPlane, FaGraduationCap } from "react-icons/fa";
 import Navigation from "../components/Navigation";
-
+import VideoDash from "../components/VideoDash";
 import "./MissingGradeFormPage.css";
 
 function MissingGradeFormPage() {
@@ -15,7 +15,7 @@ function MissingGradeFormPage() {
   const [explanation, setExplanation] = useState("");
   const [success, setSuccess] = useState(false);
   const [error, setError] = useState("");
-  const history = useNavigate();
+  const navigator = useNavigate();
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -26,8 +26,8 @@ function MissingGradeFormPage() {
       setError("");
       // Redirect to dashboard after 3 seconds
       setTimeout(() => {
-        history.push("/dashboard");
-      }, 3000);
+        navigator.push("/DashboardPage");
+      }, 10000);
     } else {
       // Report failed
       setSuccess(false);
@@ -37,10 +37,17 @@ function MissingGradeFormPage() {
 
   return (
     <div>
-      <Navigation />
-      <Container fluid className="missing-grade-form-page">
-        <Row className="p-4">
-          <Col md={12} className="text-center">
+      <div className="Navig-tion">
+        {" "}
+        <Navigation />{" "}
+      </div>
+      <div>
+        {" "}
+        <VideoDash />
+      </div>
+      <Container className="d-flex-container">
+        <Row className="align-items-center justify-content-center text-center">
+          <Col md={6}>
             <h1 className="display-3">Missing Grade Reporting System</h1>
             <p className="lead">
               A system designed to help students track and report grades that
