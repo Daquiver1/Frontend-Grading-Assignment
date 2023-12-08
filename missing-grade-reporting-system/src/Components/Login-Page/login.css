@@ -1,4 +1,17 @@
-.container {
+.main-container {
+  display: flex;
+}
+
+.img-container {
+  
+}
+
+.ug-logo {
+  height: 700px;
+  width: 700px;
+}
+
+.login-container {
     display: flex;
     flex-direction: column;
     width: 800px;
