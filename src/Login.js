@@ -1,6 +1,7 @@
-// Login.js
+
 import React from 'react';
 import './Login.css';
+import './Notification.js';
 
 const Login = () => {
   return (
@@ -9,8 +10,8 @@ const Login = () => {
         <div className="row full-height justify-content-center">
           <div className="col-12 text-center align-self-center py-5">
             <div className="section pb-5 pt-5 pt-sm-2 text-center">
-              <h6 className="mb-0 pb-3"><span>Log In </span><span>Sign Up</span></h6>
-              <p style={{ textAlign: 'center' }}>Use the bar below to navigate between log in and sign up</p>
+              <h6 style={ {color: 'black'}} className="mb-0 pb-3"><span>Log In </span><span>Sign Up</span></h6>
+              <p style={{ textAlign: 'center' , color: 'blue' , fontSize: '0.9em' }}>Use the bar below to navigate between log in and sign up</p>
               <input className="checkbox" type="checkbox" id="reg-log" name="reg-log" />
               <label htmlFor="reg-log"></label>
               <div className="card-3d-wrap mx-auto">
@@ -41,7 +42,7 @@ const Login = () => {
                           />
                           <i className="input-icon uil uil-lock-alt"></i>
                         </div>
-                        <a href="#" className="btn mt-4">submit</a>
+                        <a href="Notification.js" className="btn mt-4">submit</a>
                         <p className="mb-0 mt-4 text-center"><a href="#0" className="link">Forgot your password?</a></p>
                       </div>
                       <a href="App.js" className="goback">Back</a>
@@ -84,9 +85,9 @@ const Login = () => {
                           />
                           <i className="input-icon uil uil-lock-alt"></i>
                         </div>
-                        <a href="#" className="btn mt-4">Submit</a>
+                        <a href="Notification.js" className="btn mt-4">Submit</a>
                       </div>
-                      <a href="home.html" className="goback">Back</a>
+                      <a href="App.js" className="goback">Back</a>
                     </div>
                   </div>
                 </div>

@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
 
+
 * {
   padding: 0;
   margin: 0;
@@ -13,8 +14,7 @@ body {
   justify-content: center;
   min-height: 100vh;
   padding: 30px;
-  color: #224;
-  background: url('./background.jpg') center / cover no-repeat fixed;
+  background: url('./background.jpg') center / cover no-repeat fixed;  
 }
 
 h1 {
@@ -34,6 +34,7 @@ h1 {
 
 p {
   margin: 0;
+  font-size: 0.95em;
 }
 
 p:not(:last-child) {
@@ -55,7 +56,7 @@ p:not(:last-child) {
 }
 
 .card-footer {
-  font-size: 0.65em;
+  font-size: 0.95em;
   color: #446;
 }
 
@@ -64,19 +65,41 @@ p:not(:last-child) {
 /* Existing styles... */
 
 .login-button {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    padding: 10px 15px;
-    font-size: 16px;
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  .login-button:hover {
-    background-color: #0056b3;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 10px 15px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login-button:hover {
+  background-color: #0056b3;
+}
+
+.dashboard-button {
+  position: absolute;
+  top: 10px;
+  right: 80px; /* Adjust the right value to create space between the buttons */
+  padding: 10px 15px;
+  font-size: 16px;
+  background-color: #28a745; /* Example background color for the dashboard button */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.dashboard-button:hover {
+  background-color: #218838; /* Example hover color for the dashboard button */
+}
+
+  .gytr {
+    color: green;
+    font-size: 0.98em;
   }
   
