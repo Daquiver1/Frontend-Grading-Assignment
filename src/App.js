@@ -14,6 +14,8 @@ import Dashboard from './pages/Dashboard';
 import Login from './pages/Login'
 import Home from './pages/Home';
 import MissingGradeReport from './pages/MissingGradeReport';
+import InstructorContact from './pages/InstructorContact';
+import HelpSupport from './pages/HelpSupport';
 
 function App() {
   return (
@@ -25,7 +27,7 @@ function App() {
           {/* Content Wrapper */}
           <div id="content-wrapper" className="d-flex flex-column">
               {/* Main Content */}
-              <div id="content">
+              <main id="content">
                   <TopNav />
                   {/* Begin Page Content */}
                   <div className="container-fluid">
@@ -35,9 +37,11 @@ function App() {
                         <Route path="/grades" Component={Grades} />
                         <Route path="/dashboard" Component={Dashboard} />
                         <Route path="/missing-grade-report" Component={MissingGradeReport} />
+                        <Route path="/instructor-contact" Component={InstructorContact} />
+                        <Route path="/help" Component={HelpSupport} />
                       </Routes>
                   </div>
-                </div>
+                </main>
               <Footer />
           </div>
         </div>

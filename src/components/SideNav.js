@@ -78,7 +78,7 @@ const SideNar = () => {
         <li className="nav-item">
             <div className="nav-link">
                 <i className="fa fa-phone"></i>
-                <NavLink to="/contact">Contact Instructor</NavLink>
+                <NavLink to="/instructor-contact">Contact Instructor</NavLink>
             </div>
 
             <div className="nav-link">
