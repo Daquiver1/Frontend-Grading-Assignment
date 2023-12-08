@@ -1,107 +1,96 @@
+import React, { useContext } from "react";
 import { NavLink } from "react-router-dom";
-import undraw_rocket from '../assets/icons/undraw_rocket.svg';
-import { useContext } from "react";
+import undraw_rocket from "../assets/icons/undraw_rocket.svg";
 import { StudentContext } from "../StudentContext";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faHome, faTachometerAlt, faTable, faExclamationTriangle, faSignInAlt, faPhone, faQuestionCircle } from "@fortawesome/free-solid-svg-icons";
 
 const SideNar = () => {
+  const { student } = useContext(StudentContext);
+  const isLogin = student.studentId !== "" ? true : false;
 
-    const { student } = useContext(StudentContext);
+  return (
+    <ul className="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+      <div className="sidebar-brand d-flex align-items-center justify-content-center">
+        <div className="sidebar-brand-text mx-3">UG STUDENT REPORT SYS</div>
+      </div>
 
-    const isLogin = student.studentId !== "" ? true : false;
+      <hr className="sidebar-divider my-0" />
 
-    return (
-        <ul className="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
-        {/* Sidebar - Brand */}
-        <div className="sidebar-brand d-flex align-items-center justify-content-center">
-            <div className="sidebar-brand-icon rotate-n-15">
-                <i className="fas fa-laugh-wink"></i>
-            </div>
-            <div className="sidebar-brand-text mx-3">UG STUDENT REPORT SYS</div>
+      <li className="nav-item">
+        <div className="nav-link">
+          <FontAwesomeIcon icon={faHome} />
+          <NavLink to="/">Home</NavLink>
         </div>
+      </li>
 
-        {/* Divider */}
-        <hr className="sidebar-divider my-0"/>
+      <hr className="sidebar-divider" />
 
-        {/* Nav Item - Dashboard */}
-        <li className="nav-item">
-            <div className="nav-link" >
-                <i className="fa fa-home"></i>
-                <NavLink to="/">Home</NavLink>
-            </div>
-        </li>
+      <div className="sidebar-heading">Student Info</div>
 
-        <hr className="sidebar-divider"/>
-
-        <div className="sidebar-heading">
-            Student Info
-        </div>
-
-        { isLogin ? (
-                <>
-                    <li className="nav-item active">
-                        <div className="nav-link">
-                            <i className="fas fa-fw fa-tachometer-alt"></i>
-                            <NavLink to="/dashboard">Dashboard</NavLink>
-                        </div>
-                    </li>
-                    <li className="nav-item">
-                        <div className="nav-link">
-                            <i className="fas fa-fw fa-table"></i>
-                            <NavLink to="/grades">Grades Report</NavLink>
-                        </div>
-                    </li>
-                    <li className="nav-item">
-                        <div className="nav-link">
-                            <i className="fa fa-exclamation-triangle"></i>
-                            <NavLink to="/missing-grade-report">Report Missing Grade</NavLink>
-                        </div>
-                    </li>
-                </>
-            ) : (
-                <li className="nav-item">
-                    <div className="nav-link">
-                        <i className="fa fa-sign-in-alt"></i>
-                        <NavLink to="/login">Login</NavLink>
-                    </div>
-                </li>
-            )
-        }
-
-        {/* instructor Contact Page and Help and Support Page*/}
-
-        <hr className="sidebar-divider"/>
-
-        <div className="sidebar-heading">
-            Contact and Support
-        </div>
-
-        <li className="nav-item">
+      {isLogin ? (
+        <>
+          <li className="nav-item active">
             <div className="nav-link">
-                <i className="fa fa-phone"></i>
-                <NavLink to="/instructor-contact">Contact Instructor</NavLink>
+              <FontAwesomeIcon icon={faTachometerAlt} />
+              <NavLink to="/dashboard">Dashboard</NavLink>
             </div>
-
+          </li>
+          <li className="nav-item">
             <div className="nav-link">
-                <i className="fa fa-question-circle"></i>
-                <NavLink to="/help">Help and Support</NavLink>
+              <FontAwesomeIcon icon={faTable} />
+              <NavLink to="/grades">Grades Report</NavLink>
             </div>
+          </li>
+          <li className="nav-item">
+            <div className="nav-link">
+              <FontAwesomeIcon icon={faExclamationTriangle} />
+              <NavLink to="/missing-grade-report">Report Missing Grade</NavLink>
+            </div>
+          </li>
+        </>
+      ) : (
+        <li className="nav-item">
+          <div className="nav-link">
+            <FontAwesomeIcon icon={faSignInAlt} />
+            <NavLink to="/login">Login</NavLink>
+          </div>
         </li>
+      )}
 
-        <hr className="sidebar-divider d-none d-md-block"/>
+      <hr className="sidebar-divider" />
 
-        {/* Sidebar Toggler (Sidebar) */}
-        <div className="text-center d-none d-md-inline">
-            <button className="rounded-circle border-0" id="sidebarToggle"></button>
+      <div className="sidebar-heading">Contact and Support</div>
+
+      <li className="nav-item">
+        <div className="nav-link">
+          <FontAwesomeIcon icon={faPhone} />
+          <NavLink to="/instructor-contact">Contact Instructor</NavLink>
         </div>
 
-        {/* Sidebar Message */}
-        <div className="sidebar-card d-none d-lg-flex">
-            <img className="sidebar-card-illustration mb-2" src={undraw_rocket} alt="..."/>
-            <p className="text-center mb-2"><strong>UG STUDENT REPORT Pro</strong> is packed with premium features, components, and more!</p>
-            <a className="btn btn-success btn-sm" href="https://startbootstrap.com/theme/sb-admin-pro">Upgrade to Pro!</a>
+        <div className="nav-link">
+          <FontAwesomeIcon icon={faQuestionCircle} />
+          <NavLink to="/help">Help and Support</NavLink>
         </div>
+      </li>
+
+      <hr className="sidebar-divider d-none d-md-block" />
+
+      <div className="text-center d-none d-md-inline">
+        <button className="rounded-circle border-0" id="sidebarToggle"></button>
+      </div>
+
+      <div className="sidebar-card d-none d-lg-flex">
+        <img className="sidebar-card-illustration mb-2" src={undraw_rocket} alt="..." />
+        <p className="text-center mb-2">
+          <strong>UG STUDENT REPORT Pro</strong> is packed with premium features, components, and more!
+        </p>
+        <a className="btn btn-success btn-sm" href="https://startbootstrap.com/theme/sb-admin-pro">
+          Upgrade to Pro!
+        </a>
+      </div>
     </ul>
-    );
-    }
+  );
+};
 
 export default SideNar;
