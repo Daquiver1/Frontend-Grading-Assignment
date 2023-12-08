@@ -9,7 +9,7 @@ const LandingPage = () => {
       <div className="landing-container">
         <div className="landing-content">
           <h1>Welcome to Our Platform</h1>
-          <p>Discover a new way to manage your academic journey.</p>
+          <p>Introducing Grade Guru – Your Academic Ally for Tracking, Reporting, and Excelling!</p>
           <div className="cta-buttons">
             <Link to="/login" className="login-button">Login</Link>
             <Link to="/signup" className="signup-button">Sign Up</Link>

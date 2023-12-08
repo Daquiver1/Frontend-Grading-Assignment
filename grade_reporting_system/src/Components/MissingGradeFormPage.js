@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import '../CSS/MissingGradeFormPage.css'; // Import the corresponding CSS styles
 import UniversalComponent from './UniversalComponent';
+import { Link } from 'react-router-dom';
 
 const MissingGradeFormPage = () => {
   const [selectedCourse, setSelectedCourse] = useState('');
@@ -73,7 +74,7 @@ const MissingGradeFormPage = () => {
           )}
           <p className="contact-support-link">
             If the issue persists,{' '}
-            <a href="/instructor-contact">contact support</a>.
+            <Link to="/instructor-contact">contact support</Link>.
           </p>
         </div>
       </div>

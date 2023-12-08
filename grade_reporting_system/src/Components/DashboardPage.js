@@ -47,6 +47,12 @@ const DashboardPage = () => {
             <h2>Notifications</h2>
             <div className="missing-grades-alert">
               {/* Add components or content for missing grades alert */}
+              <h4>Subject: Important Notice-Missing Grade Alert!</h4>
+              <p>
+                This is to inform you that a grade for {`Biology`} is currently missing from your academic records.
+                 Please log in to your student portal to review and address this matter promptly.
+                 For any assistance, reach out to your instructor or use the provided 'Missing Grade Form' on our website.
+              </p>
             </div>
             <div className="new-grades-messages">
               {/* Add components or content for new grades or messages */}

@@ -40,3 +40,7 @@ footer {
   text-align: center;
   margin-top: auto; /* Push the footer to the bottom of the container */
 }
+
+h1, h2, h3, h4{
+  color: rgb(90, 38, 38);
+}

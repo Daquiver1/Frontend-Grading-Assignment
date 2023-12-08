@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import '../CSS/Header.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBell, faBars, faUserCircle } from '@fortawesome/free-solid-svg-icons';
+import Search from '../Images/search.png'
 
 const Header = () => {
     const [darkMode, setDarkMode] = useState(false);
@@ -15,6 +16,9 @@ const Header = () => {
         <header className={`header ${darkMode ? 'dark' : ''}`}>
             <div className="search-bar">
                 <input type="text" placeholder="Search..." />
+                <button className="search-button">
+                  <img src={Search} alt="search" className="search-icon" />
+                </button>
             </div>
             <div className="header-buttons">
                 <button className="menu-button">
