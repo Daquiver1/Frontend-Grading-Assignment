@@ -1,7 +1,7 @@
 export const MenuItems = [
   {
     title: "Home",
-    url: "/",
+    url: "/home",
     cName: "nav-links",
     icon: "fa-solid fa-house-user",
   },
@@ -24,8 +24,8 @@ export const MenuItems = [
     icon: "fa-solid fa-address-book",
   },
   {
-    title: "Sign Up",
-    url: "/signup",
+    title: "Log Out",
+    url: "/",
     cName: "nav-links-mobile",
   },
 ];
