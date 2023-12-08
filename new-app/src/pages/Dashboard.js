@@ -1,4 +1,5 @@
-import grade from './grade.jpg'
+import messages from './messages';
+import notify from './noteicon.png'
 
 
 const Dashboard = () => {
@@ -7,7 +8,10 @@ const Dashboard = () => {
         
       <br></br>
       <br></br>
-      <h1 style={{color:"#BD9C6C"}}>Dashboard</h1>
+      <h1 style={{color:"#BD9C6C",display:"inline-block"}}>Dashboard</h1>
+      <div onClick={messages} className='tooltip'  style={{display:"inline-block"}}><img src={notify} alt='notification icon'  style ={{width:"30px",cursor:"pointer"}}></img>
+       <span className='tooltiptext'>3</span>
+      </div>
       
       <p>The performance this academic period was very impressive as you improved on 
         your C.G.P.A. This led you to second class upper from the third class.You had 5 As and 3 B+s in the last two semesters.

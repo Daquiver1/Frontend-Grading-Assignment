@@ -77,6 +77,15 @@ function App() {
               <p>Opposite UGCS</p>
             
           </div>
+          <div className="flexitem">
+            <img src={grade} alt="examples of grades" style={{height:"40px"}} ></img>
+              <p>Students Dashboard</p>
+              <p> Noticifications:</p>
+              <p>Hover on notification icon to see number of noticifications</p>
+              <p>Click on the notification icon to see noticifications</p>
+              
+            
+          </div>
         </div>
        </footer>
       {/* <header>

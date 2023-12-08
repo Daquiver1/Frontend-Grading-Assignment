@@ -9,7 +9,7 @@ const Layout = () => {
     <header style={{position:"fixed",backgroundColor:"#fff",width:"100%"}}>
      
       <div style={{backgroundColor:"#fff",display:"inline-block",marginLeft:"0px",marginRight:"100px"}}><img src={schlogo} className="deptlogo" alt="Ug DCS logo"   ></img></div>
-      <div id="horiznav">
+      <div id="horiznav"style={{display:"inline-block"}}>
         <ul className="horiznav" style={{backgroundColor:"#fff"}}>
           
           <li>

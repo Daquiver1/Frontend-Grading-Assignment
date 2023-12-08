@@ -1,4 +1,5 @@
 import grade from './grade.jpg';
+import show from './show';
 const Missing = () =>{
     return(
         <>
@@ -14,13 +15,13 @@ const Missing = () =>{
                 
                      <label>Course code:&nbsp;&nbsp;<input type="text" placeholder="Course code" ></input></label><br></br>
                      <br></br>
-                     <label>Instructor name:<input type="text" placeholder="Instructor" ></input></label><br></br>
+                     <label>Instructor name: <input type="text" placeholder="Instructor" ></input></label><br></br>
                      <br></br>
                      <label>Expextected Grade:<input type="text" placeholder="A,B+,B,.." maxLength={2}></input></label><br></br>
                      <br></br>
                      <label>Explanation&nbsp;&nbsp;&nbsp;&nbsp;:<input type="textbox" placeholder="Explain "></input></label><br></br>
                      <br></br>
-                     <button style={{backgroundColor:"#BD9C6C",color:"#fff",borderColor:"#BD9C6C"}}>Submit</button>
+                     <button onClick={show} style={{backgroundColor:"#BD9C6C",color:"#fff",borderColor:"#BD9C6C"}}>Submit</button>
                </form>
             </div>
         </div>
