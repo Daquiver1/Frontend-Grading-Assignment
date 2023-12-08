@@ -30,7 +30,7 @@ class Navbar extends Component {
               </li>
             );
           })}
-          <Link className="" to="/Login">
+          <Link className="" to="/">
             <button>Log Out</button>
           </Link>
         </ul>
