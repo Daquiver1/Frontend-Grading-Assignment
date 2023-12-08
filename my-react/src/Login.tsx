@@ -1,6 +1,7 @@
 import  {useState} from "react"
 import './App.css'
 
+
 function Login() {
   
     const [name, setName]=useState(' ');
@@ -29,7 +30,7 @@ function Login() {
     <input  value={email} onChange={(e) => setEmail(e.target.value)} id='email'type='email' placeholder='nanaantwiwaa624@st.edu.ug.gh' name='email'></input>
     <label className='part' >Password</label>
     <input  value={pass} onChange={(e) => setPass(e.target.value)}  id='password'type='email' placeholder='*********' name='password'></input><br></br>
-      <button type="submit">Login</button>
+    <button type="submit">Login </button>
     
   </form>
   </div>

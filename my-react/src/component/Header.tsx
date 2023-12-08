@@ -1,4 +1,5 @@
 import {Link} from 'react-router-dom';
+import './images/Header.css'
 
 
 function Header(){
@@ -7,10 +8,10 @@ function Header(){
         <nav className='navbar'>
              
         
-     <Link to="my-react/src/Home.tsx" >Help and Supprt</Link>
+     <Link className='' to="my-react/src/Home.tsx" >Help and Supprt</Link>
        <Link to=" ">Dashboard </Link>
        <Link to=" ">Contact us</Link>
-       <Link to=" ">Grade report</Link>
+       <Link to="my-react/src/Report.tsx ">Grade report</Link>
        <Link to=' '>Missing grade form</Link>
        <Link to="my-react/src/Login.tsx">Login  </Link>
        <Link to="my-react/src/Home.tsx">Home </Link>

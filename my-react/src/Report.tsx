@@ -2,6 +2,7 @@ import  { useState } from 'react';
 import './Report.css';
 import DataTable from 'react-data-table-component';
 import 'bootstrap/dist/css/bootstrap.css';
+import Footer from './component/Footer';
 
 
 
@@ -231,6 +232,7 @@ function Report() {
    
 
     </>
+    <Footer/>
       </>  
   )}
 
