@@ -1,0 +1,61 @@
+/* Navbar.css */
+.navbar-wrapper {
+    background-color: #3498db;
+    padding: 10px 5px; /* Increased padding for better width */
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar {
+    padding: 0;
+  }
+  
+  .navbar-brand h1 {
+    margin: 0;
+    font-size: 1.8em;
+    color: #000; /* Black color for the text */
+  }
+  
+  .navbar-toggler {
+    border: none;
+  }
+  
+  .nav-link {
+    color: #fff;
+    font-size: 1.2em;
+    transition: color 0.3s ease; /* Hover transition */
+  }
+  .nav-item {
+    margin-bottom: 5px; 
+  }
+  
+  .nav-link:hover {
+    color: #f9f9f9;
+    text-decoration: none; /* Removing underline on hover */
+  }
+  
+  .ml-auto {
+    color: #fff;
+    font-size: 1.1em;
+    margin-right: 10px;
+  }
+  
+  .ml-auto:hover {
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  .login-btn {
+    padding: 8px 15px; /* Button-like padding */
+    border-radius: 5px; /* Rounded corners */
+    background-color: #3498db; /* Background color */
+    transition: background-color 0.3s ease; /* Smooth transition */
+    color: #fff; /* Text color */
+    text-decoration: none; /* Remove default link underline */
+    margin-left: 15px; /* Move the button slightly to the left */
+  }
+  
+  .login-btn:hover {
+    background-color: #2980b9; /* Hover background color */
+    text-decoration: none; /* Hover effect: no underline */
+    cursor: pointer; /* Cursor style */
+  }

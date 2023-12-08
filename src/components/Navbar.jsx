@@ -1,15 +1,17 @@
 import React, { useContext } from "react";
 import { AuthContext } from "../context/authContext";
 import { Link } from "react-router-dom";
+import './Navbar.css'; // Import the CSS file
 
 function Navbar() {
   const { currentUser, logout } = useContext(AuthContext);
 
   return (
-    <div className="border-bottom shadow-sm">
+    <div className="navbar-wrapper"> {/* This div wraps the entire navbar */}
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
-        <div className="navbar-brand" >
-        <h1>Missing Grade Reporting System</h1>
+        <div className="navbar-brand">
+        <h1 style={{ display: 'inline-block', color: '#000' }}>Grade</h1>
+  <h1 style={{ display: 'inline-block', color: '#3498db' }}>Sentry</h1>
         </div>
 
         <button
@@ -26,30 +28,30 @@ function Navbar() {
 
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav mr-auto">
-            
+            {/* Links */}
             <li className="nav-item">
               <Link className="nav-link" to="/home1">
                 Home
               </Link>
-            </li> 
+            </li>
             <li className="nav-item">
               <Link className="nav-link" to="/dashBoard">
-                DashBoard
+                Dashboard
               </Link>
-            </li>           
+            </li>
             <li className="nav-item">
               <Link className="nav-link" to="/gradeReport">
-                GradeReport
+                Grade Report
               </Link>
-            </li>        
+            </li>
             <li className="nav-item">
               <Link className="nav-link" to="/missingGrade">
-              MissingGrade
+                Missing Grade
               </Link>
             </li>
             <li className="nav-item">
               <Link className="nav-link" to="/instructor">
-              Instructor Contact
+                Instructor Contact
               </Link>
             </li>
             <li className="nav-item">
@@ -57,16 +59,19 @@ function Navbar() {
                 Help
               </Link>
             </li>
-            {/* Adjust as per your additional page routes */}
+            {/* Add more navigation links as needed */}
           </ul>
-          <span className="ml-auto">{currentUser?.username}</span>
-          {currentUser ? (
-            <span className="ml-2" onClick={logout}>
-              logout
+
+           {/* User Authentication and Logout */}
+           {currentUser ? (
+            <span className="ml-auto">
+              <span className="ml-2 login-btn" onClick={logout}>
+                Logout
+              </span>
             </span>
           ) : (
-            <span>
-              <Link to="/login">Login</Link>
+            <span className="ml-auto">
+              <Link to="/login" className="login-btn">Login</Link>
             </span>
           )}
         </div>
@@ -74,5 +79,4 @@ function Navbar() {
     </div>
   );
 }
-
 export default Navbar;

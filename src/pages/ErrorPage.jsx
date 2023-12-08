@@ -6,7 +6,7 @@ function ErrorPage() {
     <div>
       <h2>Error, the page is not found...</h2>
       <p>
-        <Link to="/">return home</Link>
+        <Link to="/Home1">return home</Link>
       </p>
     </div>
   );

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './GradeReport.css';
 
-const GradeReportPage = () => {
+const GradeReport = () => {
   // Sample data for courses and grades
   const [courses, setCourses] = useState([
     { name: 'Introduction to Computer Science A', grade: 'A', semester: 'Fall 2023' },
@@ -58,4 +58,4 @@ const GradeReportPage = () => {
   );
 };
 
-export default GradeReportPage;
+export default GradeReport;

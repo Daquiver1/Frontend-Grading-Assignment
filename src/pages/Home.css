@@ -1,0 +1,59 @@
+/* LandingPage.css */
+.Landing-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .Landing-container h1 {
+    margin-bottom: 20px;
+    font-size: 2.8em;
+    color: #333;
+  }
+  
+  .Landing-container p {
+    margin-bottom: 15px;
+    font-size: 1.2em;
+    color: #555;
+  }
+  
+  ul {
+    text-align: left;
+    margin-left: 30px;
+    margin-bottom: 20px;
+  }
+  
+  ul li {
+    margin-bottom: 10px;
+    font-size: 1.1em;
+    color: #444;
+  }
+  
+  .section {
+    margin-top: 40px;
+  }
+  
+  .section h2 {
+    margin-bottom: 15px;
+    font-size: 2em;
+    color: #333;
+  }
+  
+  .section p {
+    margin-bottom: 20px;
+    font-size: 1.2em;
+    color: #555;
+  }
+  
+  .section img {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    display: block;
+    margin: 20px auto;
+  }
+  

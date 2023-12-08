@@ -1,57 +1,42 @@
-import React from "react";
-import { useContext } from "react";
-import { AuthContext } from "../context/authContext";
+import React from 'react';
+import './Home.css';
+import systemOverviewImage from '../assets/overview.jpg';
+import studentsImage from '../assets/students_image.jpg';
+import gradesImage from '../assets/confuse.jpg';
 
-function Home() {
-  const { currentUser } = useContext(AuthContext);
-
+const LandingPage = () => {
   return (
-    <div className="container mt-4">
-      <div className="row">
-        <div className="col-lg-6 mx-auto">
-          <div className="card mb-4">
-            <div className="card-body text-center">
-              <img
-                className="mb-3"
-                style={{ height: 100, width: 100, borderRadius: "50%" }}
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRITnCyIM9mlmOGgw2oDCaIz44LuTafEceOdg&usqp=CAU"
-                alt=""
-              />
-              <h5 className="card-title">
-                Welcome, {currentUser?.username}!
-              </h5>
-              <p className="card-text">
-                This is the Missing Grade Reporting System, designed to help
-                track and report missing grades.
-              </p>
-            </div>
-          </div>
-        </div>
+    <div className="Landing-container">
+      <h1>Welcome to the Missing Grade Reporting System</h1>
+      <p>Empowering students to manage their academic progress effortlessly.</p>
+      <p>Key features:</p>
+      <ul>
+        <li>View and track current grades</li>
+        <li>Report missing grades and discrepancies</li>
+        <li>Communicate efficiently with instructors</li>
+        <li>Filter grades by semester or academic year</li>
+        <li>Access helpful FAQs and technical support</li>
+      </ul>
+
+      <div className="section">
+        <h2>System Overview</h2>
+        <p>Get a comprehensive view of your academic performance at a glance.</p>
+        <img src={systemOverviewImage} alt="System Overview" />
       </div>
 
-      <div className="row">
-        <div className="col-lg-8 mx-auto">
-          <div className="card">
-            <img
-              src="https://wallpapers.com/images/featured/2f5fbl2k3wwi31aq.jpg"
-              className="card-img-top"
-              alt=""
-            />
-            <div className="card-body">
-              <h5 className="card-title">About the System</h5>
-              <p className="card-text">
-                Containers provide a means to center and horizontally pad your
-                site’s contents. Use .container for a responsive pixel width or
-                .container-fluid for width: 100% across all viewport and device
-                sizes.
-              </p>
-              {/* Add more content here as needed */}
-            </div>
-          </div>
-        </div>
+      <div className="section">
+        <h2>Connect with Instructors</h2>
+        <p>Effortlessly communicate with your instructors regarding missing grades or any queries.</p>
+        <img src={studentsImage} alt="Connect with Instructors" />
+      </div>
+
+      <div className="section">
+        <h2>Track Your Progress</h2>
+        <p>Visualize your progress and identify areas that need attention.</p>
+        <img src={gradesImage} alt="Track Your Progress" />
       </div>
     </div>
   );
-}
+};
 
-export default Home;
+export default LandingPage;
