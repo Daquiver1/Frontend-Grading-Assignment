@@ -4,20 +4,11 @@ const Layout = () => {
   return (
     <>
   <nav>
-        <ul>
-          <li>
-            <Link to="/">Home</Link>
-          </li>
-          <li>
-            <Link to="/LogIn.js">Log In</Link>
-          </li>
-          <li>
-            <Link to="./InstructorContact">InstructorContact</Link>
-          </li>
-          <li>
-            <link to = "/Dashboard">Dashboard</link>
-          </li>
-        </ul>
+           <Link to="/">Home</Link>
+           <Link to="/LogIn">Log In</Link>
+           <Link to="/InstructorContact">Instructor Contact</Link>
+           <Link to="/HelpAndSupport">Help</Link>
+           <Link to="/FAQSection">FAQ</Link>
   </nav>
 
       <Outlet />

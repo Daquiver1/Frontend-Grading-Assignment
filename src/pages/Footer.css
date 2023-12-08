@@ -1,0 +1,15 @@
+.footer-container {
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    background-color: #0c354c;
+  }
+  
+  .absolute {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #0c354c;
+    color: #fff;
+  }
+  
