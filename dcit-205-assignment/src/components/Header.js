@@ -50,14 +50,23 @@ export default function Header (){
             <Link to="/" class="text-sm font-semibold leading-6 text-gray-900">
               About
             </Link>
-            <Link to="/missing-grades" class="text-sm font-semibold leading-6 text-gray-900">
+            <Link
+              to="/missing-grades"
+              class="text-sm font-semibold leading-6 text-gray-900"
+            >
               Report
             </Link>
             <Link
-              to="/signup"
+              to="/instructor_contacts"
               class="text-sm font-semibold leading-6 text-gray-900"
             >
-              Sign Up
+              Instructors
+            </Link>
+            <Link
+              to="/help"
+              class="text-sm font-semibold leading-6 text-gray-900"
+            >
+              FAQs
             </Link>
           </div>
           <div class="hidden lg:flex lg:flex-1 lg:justify-end">
