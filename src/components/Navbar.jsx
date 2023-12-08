@@ -31,26 +31,25 @@ function Navbar() {
               <Link className="nav-link" to="/home1">
                 Home
               </Link>
-            </li>
-            
-            <li className="nav-item">
-              <Link className="nav-link" to="/about">
-                About
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link className="nav-link" to="/gradeReport">
-                GradeReport
-              </Link>
-            </li>
+            </li> 
             <li className="nav-item">
               <Link className="nav-link" to="/dashBoard">
                 DashBoard
               </Link>
-            </li>
+            </li>           
+            <li className="nav-item">
+              <Link className="nav-link" to="/gradeReport">
+                GradeReport
+              </Link>
+            </li>        
             <li className="nav-item">
               <Link className="nav-link" to="/missingGrade">
               MissingGrade
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/instructor">
+              Instructor Contact
               </Link>
             </li>
             <li className="nav-item">

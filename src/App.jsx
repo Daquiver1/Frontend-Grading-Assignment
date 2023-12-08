@@ -14,7 +14,7 @@ import {
 import Footer from "./components/Footer";
 import ErrorPage from "./pages/ErrorPage";
 import Poster from "./pages/Home1";
-import About from "./pages/About"
+import Instructor from "./pages/Instructor"
 import GradeReport from "./pages/GradeReport";
 import DashBoard from "./pages/DashBoard";
 import MissingGrade from "./pages/MissingGrade";
@@ -46,8 +46,8 @@ const router = createBrowserRouter([
         element: <GradeReport />,
       },
       {
-        path: "/about",
-        element: <About />,
+        path: "/instructor",
+        element: <Instructor />,
       },
       {
         path: "/dashBoard",
