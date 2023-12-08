@@ -38,8 +38,18 @@ npm start
 This will start the application on `localhost` at the default port.
 
 ## Usage
+4. Open your web browser and navigate to http://localhost:3000 to access the application.
 
-Describe how to use the application, highlighting key functionalities such as logging in, viewing grades, reporting missing grades, and contacting instructors.
+5. Login using your Student ID and PIN on the Login page.
+
+6. Once logged in, you will be redirected to the Dashboard page where you can view an overview of your current grades and any missing grade alerts.
+
+7. To view detailed information about your grades, navigate to the Grade Report page. You can filter the grades by semester or academic year.
+
+8. To report a missing grade, go to the Missing Grade Form page and fill in the required fields: course name, instructor name, expected grade, and an explanation for the missing grade. Submit the form to receive a confirmation message.
+9. For contacting instructors, visit the Instructor Contact page to find a list of instructors along with their contact details. You can also send a simulated email to the instructor.
+10. The grade report page renders that of a level 200 student who just completed first semester so all other levels are unavailable.
+
 
 ## Contribution
 
@@ -50,4 +60,10 @@ To contribute to this project, please follow these guidelines:
 3. Commit your changes and push them to your branch.
 4. Submit a pull request for review.
 
-Please adhere to the project's coding standards and provide clear and detailed pull request descriptions.
+## Screenshot of pages
+![Dashboardpage](screenshots/Dashboard.jpeg)
+![Help & Support page](screenshots/boa.jpeg)
+![Instructor contact page](screenshots/Instructor.jpeg)
+![Login page](screenshots/Login.jpeg)
+![Missing Grade Form page](screenshots/Mform.jpeg)
+![GradeReportpage](screenshots/Grades.jpeg)

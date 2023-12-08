@@ -1,4 +1,5 @@
 // import React, { useEffect, useRef } from 'react';
+import grade from './grade.jpg';
 import './pages.css'
 import helper from './helper.jpg'
 import confused from './confused.jpg'
@@ -74,19 +75,19 @@ const Help = () =>{
             <h4 style={{color:"grey"}}>Questions From Students on Grade system user's experience </h4>
            
             <button type="button" className="collapsible">Can I send an anonymous message to an instructor?</button>
-            <div className="content">
+            <div>
               <p>Please no, you can't do that.This is to make sure that students are ready to be responsible for their actions when they make a complain about the grades 
                 they had. This can't be done without knowing who has the problem and needs the solution.
               </p>
             </div>
             <button type="button" className="collapsible">Can I sign In if I forget my PIN</button>
-            <div className="content">
+            <div >
              <p>No, you can not access this grade system without your PIN. If you forget your PIN please do well to go to UGCS and file that comlain to get yourself
                 back into the system corncerning accessing the grade system portal.
              </p>
             </div>
             <button type="button" className="collapsible">How long will it take for my concerns to be addressed?</button>
-            <div className="content">
+            <div >
               <p>Problems relating to your grade not showing for a particular course is likely to take a weeek, since there will have to be confirmation that you really
                 wrote the exam for that course then the instructor is made responsible to make sure that you get your grade in no time..</p>
             </div>
@@ -104,22 +105,53 @@ const Help = () =>{
             <h4 style={{color:"grey"}}>Questions From Instructors on Grade system user's experience  </h4>
             
             <button type="button" className="collapsible">Can I change the grade for a student multiple times?</button>
-            <div className="content">
+            <div>
               <p>Yes, you can change the grade of a student multiple times with no difficulties but not anymore after 2 years.</p>
+              <br></br>
+              
             </div>
             <button type="button" className="collapsible">How can I accesss the number of my students that don't have a grade yet?</button>
-            <div className="content">
-             <p>The notification icon on your dashboard has information on the number of students complaining of missing grades..</p>
+            <div>
+             <p>The notification icon on your dashboard has information on the number of students complaining of missing grades</p>
+             <br></br>
+             
             </div>
             <button type="button" className="collapsible">How can I get the complains the students filled in the form?</button>
-            <div className="content">
+            <div>
               <p>The system will send them to the complains page of your system .</p>
+              <br></br>
+              
             </div>
+            
 
                    
         </div>
 
-        </div>   
+        </div>  
+        <br></br>
+            <br></br>
+            <div style={{display:"flex",marginLeft:"500px",flex:"100%",justifyItems:"center",alignContent:"center",alignItems:"center"}}>
+            <br></br>
+            <br></br>
+            <div>
+               <form style={{border:"solid",borderColor:"#BD9C6C",width:"550px", alignSelf:"center",verticalAlign:"Top",textAlign:"center",}}>
+                     <h2 style={{color:"#BD9C6C"}}>Contact  Us</h2>
+                     <h3 style={{color:"grey",fontSize:"12px"}}>Got  a question? we would love to hear from you, send us a message and we will respond as soon as possible</h3>
+                     <img src={grade} alt="examples of grades"style={{width:100}}></img>
+                
+                     <label>&nbsp;&nbsp;&nbsp;What can we do for you?</label><br></br>
+                     <label><input type="text" placeholder="type here " ></input></label><br></br>
+                     <br></br>
+                     <label> Name: <input type="text" placeholder="Name" ></input></label><br></br>
+                      <br></br>
+                     <label>Message:<textarea>                                   </textarea> </label>
+                     <br></br>
+                     <br></br>
+                     <br></br>
+                     <button  style={{backgroundColor:"#BD9C6C",color:"#fff",borderColor:"#BD9C6C"}}>Submit</button>
+               </form>
+            </div>
+        </div> 
 
         </>
     )
