@@ -1,12 +1,16 @@
 import React,{useState} from 'react';
 import { Link } from "react-router-dom";
+import { AuthProvider, useAuth } from './AuthContext';
 
 
 const Report = () => {
-    const [open, setOpen]= useState(true);
+  const { user } = useAuth();
+  const [open, setOpen]= useState(true);
   
+   
+
     const Menus =[
-      {title: "Dashboard",src: "Chart_fill", path:"/Dashboard"},
+      {title: "Dashboard",src: "Chart_fill", path:"/dashboard"},
       {title: "Missing Grade Form", src: "Search", path: "/search"},
       {title: "Grade Report", src: "Chart", path:"/Report"},
       {title: "Instructor Contact", src: "Folder", gap: true, path:"/Contact"},
@@ -15,6 +19,10 @@ const Report = () => {
     const handleMenuClick = (title) => {
       setOpen(!open);
     };
+
+  
+   
+    
   return (
     <div className="flex">
         <div className={`${open? "w-72" :"w-20"} duration-300 h-screen bg-[#000435] relative`}>
@@ -28,22 +36,19 @@ const Report = () => {
         </div>
         <ul>
             {Menus.map((menu,index)=>
-                <li key={index} className={`text-gray-300 text-sm flex items-center gap-x-4 cursor-pointer p-2 hover:bg-light-white rounded-md ${menu.gap? "mt-9" : "mt-2"}`}>
+              <li key={index} className={`text-gray-300 text-sm flex items-center gap-x-4 cursor-pointer p-2 hover:bg-light-white rounded-md ${menu.gap? "mt-18" : "mt-12"}`}>
                 <Link to={menu.path} onClick={() => handleMenuClick(menu.title)}>
-                    <img src={require(`../assets/${menu.src}.png`)} onClick={() => handleMenuClick(menu.title)}/>
+                  <img src={require(`../assets/${menu.src}.png`)} onClick={() => handleMenuClick(menu.title)}/>
                 </Link>
                 <Link to={menu.path} onClick={() => handleMenuClick(menu.title)}>
-                    <span className={`${!open && 'hidden'} origin-left duration-200`} onClick={() => handleMenuClick(menu.title)} >{menu.title}</span>
+                  <span className={`${!open && 'hidden'} origin-left duration-200 text-2xl`} onClick={() => handleMenuClick(menu.title)} >{menu.title}</span>
                 </Link>
-                </li>)}
+              </li>)}
         </ul>
         </div>
         <div className="p-7 text-2x1 font-semibold flex-1 h-screen bg-[#ece3e9]">
-             Report
-            <div>
-                <p>how are you</p>
-            </div>
-        </div>
+          
+      </div>
     </div>
   )
 }

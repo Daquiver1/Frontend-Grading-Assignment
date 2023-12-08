@@ -1,7 +1,7 @@
 import React,{useState} from 'react';
 import { Link } from "react-router-dom";
 import {FaEnvelope, FaRegBell, FaSearch,FaMapMarkerAlt,FaCalendarAlt, FaFacebookMessenger} from "react-icons/fa"
-import {IoSettingsSharp} from 'react-icons/io5';
+import {IoSettingsSharp,IoLogOut} from 'react-icons/io5';
 import niceImage from '../assets/nice.png';
 import { AuthProvider, useAuth } from './AuthContext';
 
@@ -26,7 +26,7 @@ const Dashboard = () => {
 
 
   return (
-    <div className="flex">
+    <div className="flex overflow-hidden">
       <div className={`${open? "w-72" :"w-20"} duration-300 h-screen bg-[#000435] relative`}>
         <img src={require("../assets/control.png")} 
         className={`absolute cursor-pointer rounded-full -right-3 top-9 w-7 border-2 border-[#000435] ${!open && "rotate-180"}`}
@@ -38,12 +38,12 @@ const Dashboard = () => {
         </div>
         <ul>
             {Menus.map((menu,index)=>
-              <li key={index} className={`text-gray-300 text-sm flex items-center gap-x-4 cursor-pointer p-2 hover:bg-light-white rounded-md ${menu.gap? "mt-9" : "mt-2"}`}>
+              <li key={index} className={`text-gray-300 text-sm flex items-center gap-x-4 cursor-pointer p-2 hover:bg-light-white rounded-md ${menu.gap? "mt-18" : "mt-12"}`}>
                 <Link to={menu.path} onClick={() => handleMenuClick(menu.title)}>
                   <img src={require(`../assets/${menu.src}.png`)} onClick={() => handleMenuClick(menu.title)}/>
                 </Link>
                 <Link to={menu.path} onClick={() => handleMenuClick(menu.title)}>
-                  <span className={`${!open && 'hidden'} origin-left duration-200`} onClick={() => handleMenuClick(menu.title)} >{menu.title}</span>
+                  <span className={`${!open && 'hidden'} origin-left duration-200 text-2xl`} onClick={() => handleMenuClick(menu.title)} >{menu.title}</span>
                 </Link>
               </li>)}
         </ul>
@@ -58,9 +58,10 @@ const Dashboard = () => {
           </div>
           <div className='flex items-center gap-[25px] relative'>
             <div className='flex items-center gap-[25px] border-r-[1px] pr-[25px]'>
-              <FaRegBell />
+              <FaRegBell onClick={() => alert('You have no missing grade yet')} />
               <FaEnvelope />
-            </div>
+              <Link  to="/login" ><IoLogOut className='text-3xl'/></Link>
+            </div> 
             <div className="flex items-center gap-[15px] relative">
             <h1>Welcome, {user ? user.name : 'Guest'}!</h1>
               <div>
@@ -106,9 +107,9 @@ const Dashboard = () => {
             </div>
           </div>
         </div>
-        <div>
+        <div className='pt-[10px]'>
           <div className="grid grid-cols-3 gap-4">
-            {user.grade.Course.map((course, index) => (
+            {user && user.grade && user.grade.Course.map((course, index) => (
               <div key={index} className="bg-white p-4 rounded-md border border-gray-300">
                 <p className="font-bold">{course}</p>
                 <p>Grade: {user.grade.grading[index]}</p>

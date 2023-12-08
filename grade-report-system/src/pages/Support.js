@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const Support = () => {
   const [open, setOpen]= useState(true);
   const Menus =[
-    {title: "Dashboard",src: "Chart_fill", path:"/Dashboard"},
+    {title: "Dashboard",src: "Chart_fill", path:"/dashboard"},
     {title: "Missing Grade Form", src: "Search", path: "/search"},
     {title: "Grade Report", src: "Chart", path:"/Report"},
     {title: "Instructor Contact", src: "Folder", gap: true, path:"/Contact"},
@@ -26,15 +26,15 @@ const Support = () => {
           <h1 className={`text-white mt-[-50px] ml-[85px] font-medium text-xl duration-300 ${!open && 'hidden'}`}>UG|Ghana</h1>
       </div>
       <ul>
-          {Menus.map((menu,index)=>
-            <li key={index} className={`text-gray-300 text-sm flex items-center gap-x-4 cursor-pointer p-2 hover:bg-light-white rounded-md ${menu.gap? "mt-9" : "mt-2"}`}>
-              <Link to={menu.path} onClick={() => handleMenuClick(menu.title)}>
-                <img src={require(`../assets/${menu.src}.png`)} onClick={() => handleMenuClick(menu.title)}/>
-              </Link>
-              <Link to={menu.path} onClick={() => handleMenuClick(menu.title)}>
-                <span className={`${!open && 'hidden'} origin-left duration-200`} onClick={() => handleMenuClick(menu.title)} >{menu.title}</span>
-              </Link>
-            </li>)}
+        {Menus.map((menu,index)=>
+          <li key={index} className={`text-gray-300 text-sm flex items-center gap-x-4 cursor-pointer p-2 hover:bg-light-white rounded-md ${menu.gap? "mt-18" : "mt-12"}`}>
+            <Link to={menu.path} onClick={() => handleMenuClick(menu.title)}>
+              <img src={require(`../assets/${menu.src}.png`)} onClick={() => handleMenuClick(menu.title)}/>
+            </Link>
+            <Link to={menu.path} onClick={() => handleMenuClick(menu.title)}>
+              <span className={`${!open && 'hidden'} origin-left duration-200 text-2xl`} onClick={() => handleMenuClick(menu.title)} >{menu.title}</span>
+            </Link>
+          </li>)}
       </ul>
     </div>
     <div className="p-7 text-2x1 font-semibold flex-1 h-screen bg-[#ece3e9]">
