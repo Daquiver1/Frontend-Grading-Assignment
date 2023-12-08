@@ -1,0 +1,22 @@
+
+    
+    
+  .footer{
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+    background-color: rgb(149, 225, 248) ;
+    margin-top: 100px;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: solid black;
+    
+    }
+    .foot{
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(146, 219, 241) ;
+    align-items: center;
+    justify-content: space-between;
+    }
