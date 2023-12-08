@@ -4,20 +4,22 @@ import HeroSection from '../components/HeroSection';
 import LeftSidebar from '../components/LeftSidebar';
 
 function Login() {
+ 
   const backgroundImage=(
     <>
     <img src={process.env.PUBLIC_URL + './images/login-image.jpg'} />
     </>
   )
+ 
   const pageContent=(
     <>
     <div className='student-login-details'>
 <div className='student-id-container'>
-    <input type='text' placeholder={'Student ID '} required='required' />
+    <input type='text' placeholder='Student ID ' required='required' />
     <div>Please fill out this field</div>
    </div>
    <div className='student-pin-container'>
-    <input type='text'placeholder='Pin' required='required' />
+    <input type='text'placeholder='Pin' required='required'  />
     <div>Please fill out this field</div>
    </div>
     </div>
