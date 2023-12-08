@@ -56,7 +56,7 @@ export default function InstuctorContact() {
                   <span className="block font-semibold text-xl">
                     {lectures[0].course}
                   </span>
-                  <span className="block bg-white rounded-full text-purple-500 text-xs font-bold px-3 py-2 leading-none flex items-center">
+                  <span className="block bg-white rounded-full text-purple-500 text-xs font-bold px-3 py-2 leading-none items-center">
                     Email
                   </span>
                 </div>
@@ -111,7 +111,7 @@ export default function InstuctorContact() {
                   <span className="block font-semibold text-xl">
                     {lectures[1].course}
                   </span>
-                  <span className="block bg-white rounded-full text-purple-500 text-xs font-bold px-3 py-2 leading-none flex items-center">
+                  <span className="block bg-white rounded-full text-purple-500 text-xs font-bold px-3 py-2 leading-none items-center">
                     Email
                   </span>
                 </div>
@@ -166,7 +166,7 @@ export default function InstuctorContact() {
                   <span className="block font-semibold text-xl">
                     {lectures[2].course}
                   </span>
-                  <span className="block bg-white rounded-full text-purple-500 text-xs font-bold px-3 py-2 leading-none flex items-center">
+                  <span className="block bg-white rounded-full text-purple-500 text-xs font-bold px-3 py-2 leading-none items-center">
                     Email
                   </span>
                 </div>
@@ -221,7 +221,7 @@ export default function InstuctorContact() {
                   <span className="block font-semibold text-xl">
                     {lectures[3].course}
                   </span>
-                  <span className="block bg-white rounded-full text-purple-500 text-xs font-bold px-3 py-2 leading-none flex items-center">
+                  <span className="block bg-white rounded-full text-purple-500 text-xs font-bold px-3 py-2 leading-none items-center">
                     Email
                   </span>
                 </div>
@@ -276,7 +276,7 @@ export default function InstuctorContact() {
                   <span className="block font-semibold text-xl">
                     {lectures[4].course}
                   </span>
-                  <span className="block bg-white rounded-full text-purple-500 text-xs font-bold px-3 py-2 leading-none flex items-center">
+                  <span className="block bg-white rounded-full text-purple-500 text-xs font-bold px-3 py-2 leading-none items-center">
                     Email
                   </span>
                 </div>
@@ -331,7 +331,7 @@ export default function InstuctorContact() {
                   <span className="block font-semibold text-xl">
                     {lectures[5].course}
                   </span>
-                  <span className="block bg-white rounded-full text-purple-500 text-xs font-bold px-3 py-2 leading-none flex items-center">
+                  <span className="block bg-white rounded-full text-purple-500 text-xs font-bold px-3 py-2 leading-none items-center">
                     Email
                   </span>
                 </div>
