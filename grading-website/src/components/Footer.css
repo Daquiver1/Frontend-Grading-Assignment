@@ -6,8 +6,8 @@
  height: 450px;
  margin-left: 160px;
  background-color:rgb(33, 33, 33);
- margin-top: 1500px;
- margin-bottom: 50px;
+ top:1500px;
+ bottom:0px;
  right:0px;
  border:1px solid;
  border-color:white;
