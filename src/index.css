@@ -1,3 +1,7 @@
+div {
+  font-family: Verdana, Geneva, Tahoma, sans-serif; 
+}
+
 .HeaderItems {
     display: flex;
     justify-content: space-between;
@@ -6,7 +10,7 @@
   }
   
   .login-button {
-    text-decoration: none; /* Remove text decoration */
+    text-decoration: none; 
     padding: 10px 20px;
     border: 2px solid #302c5c;
     background-color: #302c5c;
@@ -30,8 +34,8 @@
   
 
 nav {
-  margin-left: auto; /* Pushes the nav to the right */
-  margin-right: 60px;   /* Ensures the left margin is 0 */
+  margin-left: auto;
+  margin-right: 60px;  
   margin-top: 3px;
 }
 
@@ -59,7 +63,7 @@ nav a {
 }
 
 .BannerImage:hover {
-  transform: scale(1.01); /* Adjust the scale factor based on your preference */
+  transform: scale(1.01); 
   box-shadow: 0px 16px 40px grey;
 }
 
@@ -84,7 +88,7 @@ nav a {
 
 }
 
-. pdf-iframe {
+.pdf-iframe {
   zoom: 100%;
 }
 

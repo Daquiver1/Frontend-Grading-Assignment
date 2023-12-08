@@ -104,8 +104,7 @@ const App = () => {
             </>
           }
         />
-        {/* Add a 404 page if needed */}
-        {/* <Route path="*" element={<NoPage />} /> */}
+      
       </Routes>
     </Router>
   );
