@@ -2,8 +2,9 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
-import React from 'react'
+/*import NavDropdown from 'react-bootstrap/NavDropdown';*/
+import React from 'react';
+import Trinity from './icons/trinity.PNG';
 
 
 function Navigation() {
@@ -11,23 +12,22 @@ function Navigation() {
 <div>
     <Navbar expand="lg" bg="dark" variant="dark" sticky="top" >
     <Container>
-      <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+    /<img
+              alt=""
+              src={Trinity}
+              width="70"
+              height="70"
+              className="d-inline-block align-top"
+            />{' '}
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="me-auto">
-          <Nav.Link href="/dashboard.js">Dashboard</Nav.Link>
+          <Nav.Link href="/dashboard">Dashboard</Nav.Link>
           <Nav.Link href="/gradereport">Grade Report</Nav.Link>
-          <NavDropdown title="Dropdown" bg="dark" variant="dark">
-            <NavDropdown.Item href="#action/3.1">Missing Grade Form</NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.2">
-            Instructor Contact
-            </NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.3">Help and Support</NavDropdown.Item>
-            <NavDropdown.Divider />
-            <NavDropdown.Item href="#action/3.4">
-              Log Out
-            </NavDropdown.Item>
-          </NavDropdown>
+          <Nav.Link href="/landingpage">Landing Page</Nav.Link>
+          <Nav.Link href="/gradereportform">Missing Grade Form</Nav.Link>
+          <Nav.Link href="/landingpage">Help and Support</Nav.Link>
+          <Nav.Link href="/landingpage">Log Out</Nav.Link>
         </Nav>
       </Navbar.Collapse>
     </Container>

@@ -6,6 +6,7 @@ import GradeReportPage from './gradereport';
 import DashboardPage from './dashboard';
 import LoginPage from './login';
 import LandingPage from './landingpage';
+import  './gradereportform';
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
 
 
@@ -23,7 +24,7 @@ function App() {
     </div>
     </BrowserRouter>
 
-    
+
   );
 }
 
