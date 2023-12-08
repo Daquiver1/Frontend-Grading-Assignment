@@ -1,4 +1,4 @@
-import React, { useContext, useEffect, useState } from 'react';
+import React, { useContext } from 'react';
 import { NavLink } from 'react-router-dom';
 import { StudentContext } from '../StudentContext';
 import CourseCard from '../components/CourseCard';
@@ -7,16 +7,19 @@ import { Chart } from 'chart.js/auto';
 import { CategoryScale } from "chart.js";
 import { Line } from 'react-chartjs-2';
 
+// pie chart import
+import { Pie } from 'react-chartjs-2';
+
 Chart.register(CategoryScale);
 
 const Dashboard = () => {
 
-    const [chartData, setChartData] = useState({
-        labels: courses.map((data) => data.courseCode),
+    const chartData = {
+        labels: courses.map((course) => course.courseCode),
         datasets: [
           {
             label: "Academic Performance",
-            data: courses.map((data) => data.grade),
+            data: courses.map((course) => course.gpa),
             backgroundColor: [
               "rgba(75,192,192,1)",
               "#ecf0f1",
@@ -25,10 +28,10 @@ const Dashboard = () => {
               "#2a71d0"
             ],
             borderColor: "#2a71d0",
-            borderWidth: 3
+            borderWidth: 3,
           }
         ]
-      });
+      };
    
     const { student } = useContext(StudentContext);
   
@@ -71,13 +74,62 @@ const Dashboard = () => {
                                             display: true,
                                             text: "Academic Performance from 2019 to 2021"
                                           },
-                                          legend: {
-                                            display: false
-                                          }
+                                        },
+                                        scales: {
+                                          y: {
+                                            title: {
+                                              display: true,
+                                              text: "Grade"
+                                            }
+                                            },
+                                            x: {
+                                                title: {
+                                                    display: true,
+                                                    text: "Course Code"
+                                                }
+                                            }
                                         }
                                       }}
                                 />
                               </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-5">
+                    {/* Illustrations */}
+                    <div class="card shadow mb-4">
+                        <div class="card-header py-3">
+                            <h4 class="m-0 font-weight-bold text-success">Academic Performance</h4>
+                        </div>
+                        <div class="card-body">
+                            <div class="chart-pie pt-4 pb-2">
+                                <Pie
+                                    data={chartData} 
+                                    options={{
+                                        responsive: true,
+                                        plugins: {
+                                          title: {
+                                            display: true,
+                                            text: "Academic Performance from 2019 to 2021"
+                                          },
+                                        },
+                                        scales: {
+                                          y: {
+                                            title: {
+                                              display: true,
+                                              text: "Grade"
+                                            }
+                                            },
+                                            x: {
+                                                title: {
+                                                    display: true,
+                                                    text: "Course Code"
+                                                }
+                                            }
+                                        }
+                                      }}
+                                />
+                            </div>
                         </div>
                     </div>
                 </div>

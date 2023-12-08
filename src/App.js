@@ -13,7 +13,7 @@ import Grades from './pages/Grades';
 import Dashboard from './pages/Dashboard';
 import Login from './pages/Login'
 import Home from './pages/Home';
-;
+import MissingGradeReport from './pages/MissingGradeReport';
 
 function App() {
   return (
@@ -34,6 +34,7 @@ function App() {
                         <Route path="/login" Component={Login} />
                         <Route path="/grades" Component={Grades} />
                         <Route path="/dashboard" Component={Dashboard} />
+                        <Route path="/missing-grade-report" Component={MissingGradeReport} />
                       </Routes>
                   </div>
                 </div>

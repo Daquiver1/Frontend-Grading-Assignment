@@ -5,7 +5,7 @@ import { StudentContext } from "../StudentContext";
 
 const SideNar = () => {
 
-    const { student, setStudent } = useContext(StudentContext);
+    const { student } = useContext(StudentContext);
 
     const isLogin = student.studentId !== "" ? true : false;
 
@@ -53,7 +53,7 @@ const SideNar = () => {
                     <li className="nav-item">
                         <div className="nav-link">
                             <i className="fa fa-exclamation-triangle"></i>
-                            <NavLink to="/report">Report Missing Grade</NavLink>
+                            <NavLink to="/missing-grade-report">Report Missing Grade</NavLink>
                         </div>
                     </li>
                 </>
