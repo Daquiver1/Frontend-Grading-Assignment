@@ -6,9 +6,33 @@ import { MinusSmallIcon, PlusSmallIcon } from '@heroicons/react/24/outline'
 
 const faqs = [
   {
-    question: "What's the best thing about Switzerland?",
+    question: "What is the purpose of the grade reporting website?",
     answer:
-      "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+      "The system operates as a user-friendly website where students can track and report grades not recorded in their academic profiles. It provides an interactive interface for viewing grades, reporting missing ones, and communicating with instructors or academic administration.",
+  },
+
+  {
+    question: "What steps do I need to follow to report a missing grade?",
+    answer:
+      "To report a missing grade, log in to the system, navigate to the relevant section, and follow the prompts to submit details about the missing grade, including course information and any supporting documentation.",
+  },
+
+  {
+    question: "How secure is the system in terms of protecting my academic information?",
+    answer:
+      "The system prioritizes security to safeguard academic information. Robust encryption and authentication measures are in place to protect user data.",
+  },
+
+  {
+    question: "Will the system notify me once my missing grade has been addressed?",
+    answer:
+      " Yes, the system will send notifications to users once their reported missing grades have been reviewed and addressed by instructors or academic administration.",
+  },
+
+  {
+    question: "Is there a time limit for reporting missing grades?",
+    answer:
+      "While there may not be a strict time limit, it is recommended to report missing grades promptly to ensure timely resolution.",
   },
   // More questions...
 ]
