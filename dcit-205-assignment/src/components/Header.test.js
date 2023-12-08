@@ -6,6 +6,8 @@ const links = [
   { text: "Home", location: "/home" },
   { text: "Log in", location: "/login" },
   { text: "Report", location: "/missing-grades" },
+  { text: "Instructors", location: "/instructor_contacts" },
+  {text: "FAQs", location: "/help"},
 ];
 
 test.each(links)("Check if the Nav Bar Has Links.", (link) => {
