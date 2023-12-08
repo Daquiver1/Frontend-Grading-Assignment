@@ -5,6 +5,7 @@ import Header from "./Header";
 const links = [
   { text: "Home", location: "/home" },
   { text: "Log in", location: "/login" },
+  {text: "About", location: "/help"},
   { text: "Report", location: "/missing-grades" },
   { text: "Instructors", location: "/instructor_contacts" },
   {text: "FAQs", location: "/help"},

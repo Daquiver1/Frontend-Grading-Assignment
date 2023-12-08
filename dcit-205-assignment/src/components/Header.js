@@ -47,7 +47,7 @@ export default function Header (){
               </Link>
             </div>
 
-            <Link to="/" class="text-sm font-semibold leading-6 text-gray-900">
+            <Link to="/help" class="text-sm font-semibold leading-6 text-gray-900">
               About
             </Link>
             <Link
