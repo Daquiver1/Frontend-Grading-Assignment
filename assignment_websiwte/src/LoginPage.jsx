@@ -4,9 +4,10 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faUser, faUserCircle } from '@fortawesome/free-solid-svg-icons'
 import { Link } from 'react-router-dom'
 
-export default function Login_page(){
+export default function LoginPage(){
     return(
         <>
+        <div className='form_background'>
            <div className='form_container'>
                 <form action="/">
                     <div className='input-group'>
@@ -25,8 +26,9 @@ export default function Login_page(){
                     <input type="pin" placeholder='PIN:'/>
                     </div>
                     
-                   <Link to= "/"><button className='sign_in'>Log in</button></Link> 
+                   <Link to= "/Login_page/dashboard"><button className='sign_in'>Log in</button></Link> 
                 </form>
+           </div>
            </div>
         </>
     )

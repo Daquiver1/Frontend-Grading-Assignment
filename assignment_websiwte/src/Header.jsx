@@ -1,5 +1,6 @@
 import React from 'react'
 import './Header.css'
+import { Link } from 'react-router-dom'
 
 
 export default function Header(){
@@ -8,11 +9,11 @@ export default function Header(){
         <div className='header_container'>
             <div className='logo'> LOGO</div>
             <div className='menu'>
-            <div className='menu_item'>HOME</div>
-            <div className='menu_item'>DASHBOARD</div>
-            <div className='menu_item'>ABOUT</div>
-            <div className='menu_item'>INSTRUCTORS</div>
-            <div className='menu_item'>HELP & SUPPORT</div>
+           <Link style={{textDecoration: 'none'}} to="/"><div className='menu_item'>HOME</div></Link> 
+            <Link style={{textDecoration: 'none'}} to="/dashboard"><div className='menu_item'>DASHBOARD</div></Link>
+            <Link style={{textDecoration: 'none'}} to="/grade_report"><div className='menu_item'>GRADE REPORT</div></Link>
+            <Link style={{textDecoration: 'none'}} to="/instructor_page"><div className='menu_item'>INSTRUCTORS</div></Link>
+            <Link style={{textDecoration: 'none'}} to="/help"><div className='menu_item'>HELP & SUPPORT</div></Link>
             </div>
         </div>
         </>

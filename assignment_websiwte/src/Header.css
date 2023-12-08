@@ -22,7 +22,7 @@
 
 .menu{
     display: grid;
-    grid-template-columns: 70px 120px 70px 160px 150px;
+    grid-template-columns: 70px 120px 120px 160px 150px;
     column-gap: 5px;
     grid-template-rows: 30px;
     margin-top: 15px;
@@ -30,7 +30,7 @@
 }
 
 .menu_item{
-    
+    text-decoration: none;
   
     border-radius: 5px;
 }
@@ -39,3 +39,4 @@
     cursor: pointer;
     opacity: 0.5;
 }
+

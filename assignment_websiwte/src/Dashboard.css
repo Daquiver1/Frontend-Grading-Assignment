@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main_container{
+    display: flex;
+    margin-top: 50px;
+  
+}
+
+.dashboard_profile{
+    background-color: lightgray;
+   width: 300px;
+   text-align: center;
+   height: 400px;
+   color: rgb(86, 64, 8)
+    
+}
+
+
+.profile_pic{
+    width: 60%;
+    border-radius: 50%;
+  
+    margin-top: 10px;
+    
+   
+
+}
+
+.sign_out{
+    border: none;
+    background-color: antiquewhite;
+    width: 100px;
+    border-radius: 20px;
+    margin-top: 20px;
+    color: (86, 64, 8);
+    height: 40px;
+}
+
+.sign_out:hover{
+    opacity: 0.7;
+}
+
+.dashboard_card_container{
+    background-color: rgb(236, 240, 243);
+    width: 900px;
+    margin-left: 80px;
+    height: 600px;
+    display:grid ;
+    grid-template-columns: 430px 430px;
+    grid-template-rows: 280px 280px;
+    gap: 40px;
+    
+
+}
+
+.dashboard_card{
+    border: 2px solid black;
+}

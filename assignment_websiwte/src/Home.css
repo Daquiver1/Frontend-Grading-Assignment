@@ -3,7 +3,9 @@
 
 
 
-
+body{
+  background-color: white;
+}
 #hero_image{
     width: 100%;
     height: 600px;
@@ -39,6 +41,12 @@
     background-color: rgb(82, 82, 237);
     color: white;
     font-size: 22px;
+  }
+  .login_btn:hover{
+    opacity: 0.8;
+    width: 173px;
+    height: 63px;
+
   }
 
   h4{
