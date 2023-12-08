@@ -1,20 +1,32 @@
+// App.js
 import React from 'react';
-import { BrowserRouter as Router } from 'react-router-dom';
-import Navbar from './components/Navbar';
-import Footer from './components/Footer';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 
-function App() {
+import MissingGradeForm from './pages/MissingGradeFormPage';
+import Dashboard from './pages/DashboardPage';
+import Landing from './pages/LandingPage';
+import Login from './pages/LoginPage';
+import GradeReport from './pages/GradeReportPage';
+import InstructorContact from './pages/InstructorContactPage';
+import HelpAndSupport from './pages/HelpAndSupportPage';
+
+const App = () => {
   return (
     <Router>
-      <div className="App min-h-screen bg-gray-100 flex flex-col">
-      <Navbar />
-        
-        
-      <Footer />
+      <div className="App">
+          <Routes>
+            <Route path="/" exact element={<Landing/>} />
+            <Route path="/Login" exact element={<Login/>} />
+            <Route path="/Dashboard" exact element={<Dashboard/>} />
+            <Route path="/GradeReport" exact element={<GradeReport/>} />
+            <Route path="/MissingGradeForm" exact element={<MissingGradeForm/>} />
+            <Route path="/InstructorContact" exact element={<InstructorContact/>} />
+            <Route path="/HelpAndSupport" exact element={<HelpAndSupport/>} />
+          </Routes>
       </div>
     </Router>
   );
-}
+};
 
 export default App;
