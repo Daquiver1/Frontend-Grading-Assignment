@@ -1,0 +1,59 @@
+.pics{
+    width: 200px;
+    margin-inline: auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    cursor: pointer;
+    animation-name: mymove;
+    animation-duration: 2s;
+    border-radius: 5px;
+}
+.pics:hover{
+   opacity: 0.8;
+   transition: 0.2s;
+
+}
+@keyframes mymove {
+    0%   {top: 0px;}
+    25%  {top: 200px;}
+    75%  {top: 50px}
+    100% {top: 100px;}
+}
+
+.form-search{
+    background-color: white;
+    color:black;
+    width: 1000px;
+    margin-inline: auto;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+.title{
+    text-align: center;
+    font-size: 33px;
+    color:#00357a;
+    
+
+
+}
+.help-input{
+    display: block;
+    margin-inline: auto;
+    width: 500px;
+    height: 50px;
+    margin-top: 100px;
+}
+div .help-pics{
+    margin-inline: auto;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    align-content: center;
+}
+.d-flex-align-items-end{
+    width: 100px;
+
+}
