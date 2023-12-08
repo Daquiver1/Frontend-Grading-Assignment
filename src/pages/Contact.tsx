@@ -5,45 +5,55 @@ const lecturers = [
 		name: "Mark Attah",
 		email: "mark.atta@example.com",
     tel: "233-2302324444",
-    course: "DCIT 203",
+    course: "DCIT 207",
 		imageUrl:
-			"https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+			"https://media.licdn.com/dms/image/D4D03AQFM2tsz2Reprg/profile-displayphoto-shrink_800_800/0/1696783518621?e=2147483647&v=beta&t=_ZiCa7WXCRMhO3XJu32J3SUYkeDwRgxKDQzdPau8GTQ",
 		offcieHours: "Monday - Friday 8:00am - 5:00pm",
 	},
   {
-		name: "Mark Attah",
-		email: "mark.atta@example.com",
-    tel: "233-2302324444",
+		name: " Dwumfour Abdullai Abdul-Aziz",
+		email: "adwumfour@ug.edu.gh",
+    tel: "233-260541219",
     course: "DCIT 203",
 		imageUrl:
-			"https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+			"https://i1.rgstatic.net/ii/profile.image/909208878866433-1593783697363_Q512/Abdullai-Dwumfour.jpg",
 		offcieHours: "Monday - Friday 8:00am - 5:00pm",
 	},
   {
-		name: "Mark Attah",
+		name: "Michael Abgo Tetteh Soli",
 		email: "mark.atta@example.com",
-    tel: "233-2302324444",
-    course: "DCIT 203",
+    tel: "233-260541219   ",
+    course: "DCIT 205",
 		imageUrl:
-			"https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+			"https://media.licdn.com/dms/image/C4E03AQGTpx5t09-ADA/profile-displayphoto-shrink_800_800/0/1595237435787?e=2147483647&v=beta&t=l9mEi35Ku6NFp69mEDr1Vr0J0Qd-1Kka83SV7XwrODo",
 		offcieHours: "Monday - Friday 8:00am - 5:00pm",
 	},
   {
-		name: "Mark Attah",
+		name: " Paul Nti Nii Ammah",
 		email: "mark.atta@example.com",
     tel: "233-2302324444",
-    course: "DCIT 203",
+    course: "DCIT 201",
 		imageUrl:
-			"https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+			"https://www.polymorphlabs.io/static/media/paul.830a8db989ed5598c07d.jpg",
 		offcieHours: "Monday - Friday 8:00am - 5:00pm",
 	},
   {
-		name: "Mark Attah",
+		name: "Mark Attah Mensah",
 		email: "mark.atta@example.com",
     tel: "233-2302324444",
-    course: "DCIT 203",
+    course: "DCIT 209",
 		imageUrl:
-			"https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+			"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTj5bvAlw87Xu5bvsulw01mrSRJKxRDZUSR7xi9X2TJdc7-DezcTL7RiIreaNkvjxTrl1w&usqp=CAU",
+		offcieHours: "Monday - Friday 8:00am - 5:00pm",
+	},
+
+	{
+		name: "Dr. Nancy Miles",
+		email: "nancy.atta@example.com",
+    tel: "233-2302324444",
+    course: "CBAS 210",
+		imageUrl:
+			"https://coh.ug.edu.gh/sites/default/files/Faculty%20Spotlight/Nancy-Myles-Baffour.jpg",
 		offcieHours: "Monday - Friday 8:00am - 5:00pm",
 	},
 	
