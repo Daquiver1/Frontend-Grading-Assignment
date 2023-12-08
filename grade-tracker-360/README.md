@@ -1,70 +1,82 @@
-# Getting Started with Create React App
+# Student Grade Reporting System Frontend
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Project Overview
 
-## Available Scripts
+This project is a front-end web application for a Student Grade Reporting System. It simulates a real-world application where students can view, report, and manage their academic grades. This system addresses the issue of missing or unrecorded grades in a student's profile.
 
-In the project directory, you can run:
+## Application Structure
 
-### `npm start`
+The application consists of 7 main pages:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Homepage:** Introduction to the system and its purpose.
+- **Login Page:** Mock login interface for student authentication.
+- **Dashboard:** Displays an overview of the student’s current grades and alerts for missing grades.
+- **Grade Report:** Shows a detailed view of the student's grades filtered by semester or academic year.
+- **Missing Grade Form:** Enables students to report missing grades.
+- **Instructor Contact Page:** Lists instructors' contact information with a simulated email feature.
+- **Help and Support:** Provides FAQs and a mock support contact form.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Technical Details
 
-### `npm test`
+- **Framework/Technology Used:** [React]
+- **Responsive Design:** Implemented using [CSS Flexbox/Grid, Bootstrap, Tailwind CSS].
+- **JavaScript Functionality:** Used for form validations, dynamic content rendering, and simulating interactions.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Setup and Installation
 
-### `npm run build`
+To set up the project locally, follow these steps:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+git clone https://github.com/your-github-username/DCIT_205_ASSIGNGMENT1.git
+cd repo-name
+npm install
+npm start
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+This will start the application on `localhost` at the default port.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Usage
 
-### `npm run eject`
+### This guide provides an overview of how users can interact with the Student Grade Reporting System, covering essential functionalities such as logging in, checking grades, reporting missing grades, and contacting instructors for assistance or clarification
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### 1. Logging In
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Access the Login Page: Open the application and navigate to the Login Page.
+Provide Credentials: Enter the required username and password in the provided fields.
+Authentication: Click on the login button to authenticate. (Mock credentials might be available for testing purposes.)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### 2. Dashboard
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+After Successful Login: Upon successful authentication, users are redirected to the Dashboard.
+Overview of Current Grades: The Dashboard provides an overview of the student’s current grades. This includes GPA, individual course grades, and alerts for any missing grades.
+Alerts for Missing Grades: Any missing or unrecorded grades are highlighted in the dashboard for quick identification.
 
-## Learn More
+### 3. Grade Report
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Access Grade Report: Navigate to the Grade Report page.
+Detailed Grade Breakdown: View a detailed breakdown of grades based on filters such as semester or academic year.
+Course-Specific Grades: Check grades for specific courses and monitor academic progress over time.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### 4. Missing Grade Form
 
-### Code Splitting
+Reporting Missing Grades: If a student notices any missing grades in their profile:
+Access the Missing Grade Form.
+Fill in required details such as course information, assignment/exam details, and any supporting information related to the missing grade.
+Submit the form to report the missing grades for administrative action.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### 5. Instructor Contact Page
 
-### Analyzing the Bundle Size
+Access Instructor Contact Information: Navigate to the Instructor Contact Page.
+View Instructor Details: Find a list of instructors' contact information.
+Simulated Email Feature: Utilize the provided simulated email feature to contact instructors directly from the application. This could involve composing and sending emails to instructors regarding course-related queries or issues.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### 6. Help and Support
 
-### Making a Progressive Web App
+Access FAQs: Find answers to frequently asked questions related to using the application or common issues.
+Mock Support Contact Form: Use the provided support contact form to submit queries or technical issues. This can be used for seeking further assistance beyond the FAQs.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### Additional Tips
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Navigation: Use the navigation menu or links available on each page to easily move between different sections of the application.
+Regular Checks: Periodically check the Dashboard and Grade Report pages to stay updated with current grades and identify any missing grades promptly.
+Contacting Instructors: Utilize the Instructor Contact Page or the simulated email feature for any course-related queries or concerns.
