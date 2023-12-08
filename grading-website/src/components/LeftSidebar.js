@@ -16,7 +16,7 @@ function LeftSidebar() {
       </div>
       <div className='nav-link-container'>
       <img src={process.env.PUBLIC_URL +'./images/tech_support-removebg-preview.png'} />
-      <a class="nav-link " href="#">Help and Support</a>
+      <a class="nav-link " href="http://localhost:3000/help">Help and Support</a>
       </div>
  
 </nav>
