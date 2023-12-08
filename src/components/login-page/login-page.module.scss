@@ -1,0 +1,117 @@
+.root {
+    background-repeat: no-repeat;
+    background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20190223/ourmid/pngtree-simple-dark-blue-buckle-light-effect-advertising-background-dreamstar-radiationstage-lighting-image_72758.jpg');
+    background-position: 50%;
+    background-size: cover;
+    background-attachment: scroll;
+    background-origin: padding-box;
+    background-clip: border-box;
+    background-color: transparent;
+    height: 100vh;
+    width: 100%;
+}
+
+.wel {
+    margin-left: 30px;
+    margin-right: 350px;
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+    width: 50%;
+}
+
+.h3 {
+    margin-left: 200px;
+    font-size: 30px;
+    margin-right: 250px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.lis {
+    margin: 2px 200px;
+    padding-right: 10px;
+    padding-left: 200px;
+    height: 71vh;
+    font-size: 30px;
+}
+
+.brox {
+    border-bottom: 3px solid black;
+}
+
+.rox {
+    border-radius: 30px;
+    width: 50%;
+    height: 10vh;
+}
+
+.fgm {
+    background-repeat: repeat;
+    background-image: linear-gradient(180deg, #000000 1%, #000000 1%, rgba(255, 255, 255, 0) 100%);
+    background-position: 0%;
+    background-size: auto;
+    background-attachment: scroll;
+    background-origin: padding-box;
+    background-clip: border-box;
+    background-color: transparent;
+    opacity: 1;
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.from {
+    display: flex;
+    flex-direction: column;
+    margin-left: 400px;
+    margin-right: 200px;
+    padding: 15px;
+}
+
+.put {
+    height: 7vh;
+    text-align: center;
+    border: 1px solid black;
+    width: 50%;
+    background-color: #C8C8C8;
+}
+
+.nam {
+    height: 7vh;
+    width: 40%;
+    font-size: 25px;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+}
+
+.vh {
+    margin-left: 350px;
+    margin-right: 250px;
+    font-size: 25px;
+    font-weight: 300;
+    color: white;
+}
+
+.butto {
+    background-color: #B1AEAE;
+}
+
+.viv {
+    height: 20vh;
+    width: 15%;
+    background-repeat: no-repeat;
+    background-image: url('https://pbs.twimg.com/media/FbgSb81WYAIjMpV.png');
+    background-position: 50%;
+    background-size: cover;
+    background-attachment: scroll;
+    background-origin: padding-box;
+    background-clip: border-box;
+    background-color: transparent;
+    margin: 10px;
+}
+
+.log {
+    display: flex;
+    flex-direction: row;
+}
