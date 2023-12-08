@@ -16,6 +16,7 @@ The application consists of 7 main pages:
 - ![Dashboard](/screenshots/dashboard.png)
 - **Grade Report:** Shows a detailed view of the student's grades filtered by semester or academic year.
 - **Missing Grade Form:** Enables students to report missing grades.
+ - ![Missing Grades Form](/screenshots/missinggrades.png)
 - **Instructor Contact Page:** Lists instructors' contact information with a simulated email feature.
 - **Help and Support:** Provides FAQs and a mock support contact form.
 
