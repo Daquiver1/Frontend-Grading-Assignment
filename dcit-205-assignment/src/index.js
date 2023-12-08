@@ -6,7 +6,7 @@ import LogIn from "./pages/LogIn";
 import Dashboard from "./pages/Dashboard";
 import MissingGrades from "./pages/MissingGradeForm";
 import GradeReport from "./pages/GradeReport";
-import InstuctorContact from "./pages/InstructorConctact.Js";
+import InstuctorContact from "./pages/InstructorConctact";
 import HelpAndSupport from "./pages/HelpAndSupport";
 import reportWebVitals from "./reportWebVitals";
 import "./index.css";
