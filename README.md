@@ -1,33 +1,51 @@
-<div align="center">  
-    <img height="50" src="./src/assets/codux.svg">  
-    <h1><img height="30" src="./src/assets/vite.svg"> Vite template for Codux</h1>
-</div>
+# Student Grade Reporting System Frontend
 
-### A Visual IDE for React Projects
+## Project Overview
 
-Codux is an all-in-one visual development environment. Whether you’re starting a new app, creating components, or editing an existing project, every visual change you make reflects instantly in the code and vice versa. To learn more about Codux, visit our website - [https://www.codux.com/](https://www.codux.com/)
+This project is a front-end web application for a Student Grade Reporting System. It simulates a real-world application where students can view, report, and manage their academic grades. This system addresses the issue of missing or unrecorded grades in a student's profile.
 
-This project was bootstrapped with [`Vite`](https://vitejs.dev).
+## Application Structure
 
-It includes a single React component to start your project with, a sample [`codux.config.json`](codux.config.json) with preconfigured keys, a `package.json` file to describe the project's packages and dependencies, and a folder and component structure to put everything neatly in its place.
+The application consists of 7 main pages:
 
-- Edit, render and compose apps that make use of **`React`**-based components.
-- Create components with **`TypeScript`**, **`SCSS`** and **`CSS Modules`** support.
-- Visually edit in real-time and in an isolated environment.
+- **Homepage:** Introduction to the system and its purpose.
+- **Login Page:** Mock login interface for student authentication.
+- **Dashboard:** Displays an overview of the student’s current grades and alerts for missing grades.
+- **Grade Report:** Shows a detailed view of the student's grades filtered by semester or academic year.
+- **Missing Grade Form:** Enables students to report missing grades.
+- **Instructor Contact Page:** Lists instructors' contact information with a simulated email feature.
+- **Help and Support:** Provides FAQs and a mock support contact form.
 
-### Available Scripts
+## Technical Details
 
-In the project directory, you can run:
+- **Framework/Technology Used:** [React]
+- **Responsive Design:** Implemented using [CSS Flexbox/Grid, Bootstrap, Tailwind CSS].
+- **JavaScript Functionality:** Used for form validations, dynamic content rendering, and simulating interactions.
 
-### `npm run build`
+## Setup and Installation
 
-Build the application in production mode into a folder named `dist`. This folder can be served using any HTTP server.
+To set up the project locally, follow these steps:
 
-### `npm run dev`
+```bash
+git clone https://github.com/your-github-username/DCIT_205_ASSIGNGMENT1.git
+cd repo-name
+npm install
+npm start
+```
 
-Start dev server, aliases: `vite dev`, `vite serve`.\
-Open [http://127.0.0.1:5173/](http://127.0.0.1:5173/) to view it in the browser.
+This will start the application on `localhost` at the default port.
 
-### `npm run preview`
+## Usage
 
-Boots up a local static web server that serves the files from dist at [`http://localhost:4173`](http://localhost:4173) . It's an easy way to check if the production build looks OK in your local environment.
+Describe how to use the application, highlighting key functionalities such as logging in, viewing grades, reporting missing grades, and contacting instructors.
+
+## Contribution
+
+To contribute to this project, please follow these guidelines:
+
+1. Fork the repository.
+2. Create a new branch for your feature.
+3. Commit your changes and push them to your branch.
+4. Submit a pull request for review.
+
+Please adhere to the project's coding standards and provide clear and detailed pull request descriptions.
