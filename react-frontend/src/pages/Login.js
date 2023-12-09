@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/Login.css";
-
+import { Link } from "react-router-dom";
 import PersonIcon from "@mui/icons-material/Person";
 import FiberPinIcon from "@mui/icons-material/FiberPin";
 
@@ -25,8 +25,9 @@ function Login() {
             Remember me
           </label>
         </div>
-
-        <button type="submit">Login</button>
+        <Link to="/Dashboard">
+          <button type="submit">Login</button>
+        </Link>
       </div>
     </div>
   );
