@@ -8,6 +8,8 @@ import Home from './Home';
 import InstructedContact from './InstructedContact';
 import Login from './Login';
 import Missinggrade from './Missinggrade';
+import { Link } from 'react-router-dom' 
+import './App.css'
 
 function App() {
   return (
@@ -20,8 +22,28 @@ function App() {
         <Route path='/Instructed Contact' element={<InstructedContact/>} />
         <Route path='/login' element={<Login/>} />
         <Route path='/Missing grade' element={<Missinggrade/>} />
+      </Routes>  
+        <header>
+          
+            <nav className='navigation'>
+            
+                <Link className='dash' to='/Home'>Home</Link>
+            
+                <Link className='dash' to='/dashboard'>Dashboard</Link>
+              
+                <Link className='dash' to='/Gradereport'>Grade report</Link>
 
-      </Routes>
+                <Link className='dash' to='/Missinggrade'>Missing Grade</Link>
+
+                <Link className='dash' to='/InstructedContact'>Instructed Contact</Link>
+
+                <Link className='dash' to='/HelpandSupport'>Help and Support</Link>
+
+                <Link className='dash' to='/Login'>Login</Link>
+              
+              </nav>
+          
+        </header>
     </div>
   );
 }
