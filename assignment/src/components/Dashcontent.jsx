@@ -15,12 +15,23 @@ const Dash = () => {
         
         <>
         <div className="pt-[85px]">
-        <h1 className="text-3xl font-sans font-bold px-9 pb-2 "> Current Courses</h1>
+        <h1 className="text-3xl font-sans font-bold px-9 pb-2 "> Current Courses and Grades</h1>
        <div className="grid grid-cols-1 sm:grid-cols-3">
         {list.map((item,key)=>
         (<Accordion key={key} datas={item}/>)
         )}
        </div>
+        </div>
+        <div >
+          <p className="font-sans text-red-600">Updates:</p>
+          <p>Total Courses: Six(6) <br />
+             Available Grades: Four(4)
+          </p>
+          <p>Missing Grade(s): Two(2)</p>
+        </div>
+        <div>
+          Alert!!!
+          <p>You have two missing grades this semester.</p>
         </div>
        
         </>

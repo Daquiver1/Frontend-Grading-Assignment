@@ -9,7 +9,7 @@ const Accordion = (props) => {
 
     return (  
     
-    <div  className={ ` bg-gray-300 gap-x-4 gap-y-10 p-10 pt-10 grid-flow-row-dense group ${items.active===0? 'is-active':""}`}>
+    <div  className={ ` bg-gray-300 gap-x-4 gap-y-10 p-10 pt-10  grid-flow-row-dense group ${items.active===0? 'is-active':""}`}>
     
       <div onClick={handleToggleActive} className="  bg-blue-700 rounded-lg shadow-xl min-h-[40px] text-center py-2 font-bold text-white hover:bg-white hover:text-blue-700 cursor-pointer duration-100 group-[.is-active]:font-bold ">
       {items.course}
