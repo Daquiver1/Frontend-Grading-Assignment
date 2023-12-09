@@ -37,7 +37,7 @@ const SignUp = () => {
               </div>
           </nav>
       </header>
-      <div className="w-[1000px] h-screen sm:px-[200px] flex flex-col justify-center relative px-4 ml-[650px]">
+      <div className="w-[1000px] h-screen sm:px-[200px] flex flex-col justify-center relative px-4 ml-[550px]">
         <Link
           to="/login"
           className=" w-[50px] h-[50px] rounded-full flex items-center justify-center absolute top-[36px] sm:left-[36px]"

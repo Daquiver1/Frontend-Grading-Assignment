@@ -66,7 +66,7 @@ const Contact = () => {
             </li>)}
         </ul>
       </div>
-      <div className="p-7 text-2x1 font-semibold flex-1 h-screen bg-[#ece3e9]">
+      <div className="p-0 text-2x1 font-semibold flex-1 h-screen bg-[#ece3e9]">
       <div className="antialiased">
           <div className="flex w-full min-h-screen justify-center items-center">
             <div className="flex flex-col space-y-6 bg-cyan-700 w-full max-w-4xl p-14 rounded-xl shadow-lg text-white">
