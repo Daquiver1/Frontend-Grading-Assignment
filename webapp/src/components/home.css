@@ -1,23 +1,65 @@
-.App-background{
+
+
+ .App-background{
     height: 50vh;
     width: 100%;
-    margin-top: -40px;
+    margin-top: -40px; 
    
     
 
-}
+} 
 
 .positioning{
     text-align: center;
     position: relative;
     top: 40%;
+    display: flex;
    
 }
 .welcome{
- font-size: 18px;
+ font-size: 16px;
  font-family: 'Poppins', sans-serif;
  text-align: left;
+ color: rgb(34, 34, 132);
 }
 .h1-style{
     text-align: center;
+    color: rgb(34, 34, 132);
+}
+.welcome-text {
+    color: rgb(34, 34, 132);
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+
+}
+.welcome-text1{
+    color: rgb(34, 34, 132);
+}
+
+.cover1{
+    background-color: white;
+    width: 13cm;
+    height: 10cm;
+    position: 50%;
+    border-radius: 1cm;
+    box-shadow: 0 0.188cm 1.550cm rgb(152, 148, 148);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    
+
+}
+/* .cover1:focus{
+    outline-color: rgb(68, 30, 30);
+  
+} */
+.cover1:hover{
+    transform:scale(1.1);
+}
+.arrangement{
+    display: flex;
+    justify-content: space-around;
+
 }

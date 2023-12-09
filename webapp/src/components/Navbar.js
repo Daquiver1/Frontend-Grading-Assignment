@@ -2,6 +2,7 @@ import React from "react";
 
 const Navbar=()=>{
     return(
+        <div className="coloring">
         <nav className="ui raised very padded segment">
             <a className="ui real inverted segment">Grade-Tracker</a>
             <div className="ui right floated header">
@@ -14,6 +15,7 @@ const Navbar=()=>{
                 <button className="ui button"><a href="/InstructorContact">InstructorContact</a></button>
             </div>
         </nav>
+        </div>
     )  
 }
 export default Navbar; 

@@ -8,9 +8,9 @@ import InstructorContact from "./components/Instructor Contact page";
 import Dashboard from "./components/Dashboard Page";
 import GradeReport from "./components/Grade report";
 import Contact from "./components/Help and Support";
-import background from "./background1.jpg";
 import "./App.css";
-import { logDOM } from "@testing-library/react";
+import footer from "./components/footer/footer";
+
 
 
 
@@ -19,7 +19,7 @@ import { logDOM } from "@testing-library/react";
 function App() {
     return(
       <div className="App-header">
-       
+        
         <BrowserRouter>
         
         
@@ -37,8 +37,9 @@ function App() {
             </Routes>
           </BrowserRouter>
           
+          
         
-            
+          <footer/>  
       </div>
        
     );
