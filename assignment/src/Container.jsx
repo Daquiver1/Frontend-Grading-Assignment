@@ -1,7 +1,7 @@
 import Items from "./components/Items";
 const Container = () => {
     return ( 
-        <div>
+        <div className="md:justify-between">
             <Items/>
         </div>
      );

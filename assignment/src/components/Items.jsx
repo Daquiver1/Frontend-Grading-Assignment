@@ -22,7 +22,7 @@ const Items = () => {
             Twitter</li>
             
         </ul>
-        <div className="p-1">
+        <div className="p-1 ">
             <ul>
                 <li>Address: LG 25 ,Legon,Accra</li>
                 <li className="hover: text-blue-700 cursor-pointer">Privacy Policy| Terms of Service | Accessibility </li>
