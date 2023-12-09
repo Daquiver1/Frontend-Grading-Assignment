@@ -1,0 +1,37 @@
+
+
+.help_container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 250px;
+}
+
+.help_container_item_1{
+    background-color: bisque;
+    text-align: center;
+    color: blue;
+    font-size: 24px;
+    padding: 50px;
+}
+
+.help_container_item_2{
+    background-color: blue;
+    color: white;
+    padding: 30px;
+    
+}
+
+.fqa_container{
+    padding: 50px;
+    display: grid;
+    grid-template-columns: 250px;
+    grid-template-rows: 30px 70px 70px 70px;
+    font-family: sans-serif;
+    color: rgb(115, 84, 6);
+
+}
+
+.flex_container{
+    background-color: rgb(245, 240, 240);
+    display: flex;
+}

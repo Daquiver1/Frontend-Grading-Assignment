@@ -7,14 +7,15 @@ import { Link } from 'react-router-dom'
 export default function LoginPage(){
     return(
         <>
-        <div className='form_background'>
+        <div >
+            <img src="/loginback.jpeg" alt=""  className='form_background'/>
            <div className='form_container'>
                 <form action="/">
                     <div className='input-group'>
                     <span className='input-group-text'>
                         <FontAwesomeIcon icon={faUser} />
                     </span>
-                    <input type="text"  placeholder='ID: '/>
+                    <input type="text"  placeholder='ID: ' className='input'/>
                     </div>
                     
                     <br />
@@ -23,7 +24,7 @@ export default function LoginPage(){
                         <FontAwesomeIcon icon={faUserCircle} />
                     </span>
                     
-                    <input type="pin" placeholder='PIN:'/>
+                    <input type="pin" placeholder='PIN:' className='input'/>
                     </div>
                     
                    <Link to= "/Login_page/dashboard"><button className='sign_in'>Log in</button></Link> 

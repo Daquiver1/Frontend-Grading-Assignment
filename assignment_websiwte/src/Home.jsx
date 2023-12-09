@@ -11,8 +11,9 @@ export default function Home(){
     return(
         <>
         <Header/>
+        
         <div className="hero-image">
-            <img src="/hero_2.jpg" alt="hero" id='hero_image'/>
+            <img src="/hero_6.jpg" alt="hero" id='hero_image'/>
             
     <div className="hero-text">
         <h1>Welecome</h1>

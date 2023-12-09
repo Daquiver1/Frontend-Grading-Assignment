@@ -8,6 +8,7 @@ import LoginPage from './LoginPage';
 import Dashboard from './Dashboard';
 import GradeReport from './GradeReport';
 import InstructorPage from './InstructorPage';
+import HelpSupport from './HelpSupport';
 
 
 
@@ -23,6 +24,7 @@ function App() {
         <Route path = "/dashboard" element={<Dashboard/>}/>
         <Route path = "/login_page" element={<LoginPage/>}/>
         <Route path = "/instructor_page" element={<InstructorPage/>}/>
+        <Route path="/help" element={<HelpSupport/>}/>
         </Routes>
       </header>
     </div>
