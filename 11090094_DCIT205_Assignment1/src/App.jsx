@@ -37,11 +37,22 @@ function App() {
           <Route path="help_and_support" element={Help_and_Support}></Route>
         </Routes>
       </BrowserRouter>
+
+      {/* <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Layout />}>
+            <Route index element={<Landing />} />
+            <Route path="login" element={<Login />} />
+            <Route path="dashboard" element={<Dashboard />} />
+            <Route path="*" element={<Missing_Grade_Form />} />
+          </Route>
+        </Routes>
+      </BrowserRouter> */}
     </>
   );
 }
 
-// const root = ReactDOM.createRoot(document.getElementById('root'));
+// const root = ReactDOM.createRoot(document.getElementById("root"));
 // root.render(<App />);
 
 export default App;

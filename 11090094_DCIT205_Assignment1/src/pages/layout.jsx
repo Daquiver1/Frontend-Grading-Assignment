@@ -1,11 +1,12 @@
 import React from "react";
 import { Outlet, Link } from "react-router-dom";
+import { Navbar } from "@material-tailwind/react";
 
 const Layout = () => {
   return (
     <>
-      <nav>
-        <ul>
+      <Navbar>
+        <ul className="flex flex-row justify-center space-x-7 ">
           <li>
             <Link to="/login">Login</Link>
           </li>
@@ -25,7 +26,7 @@ const Layout = () => {
             <Link to="/help_and_support">Help/Support</Link>
           </li>
         </ul>
-      </nav>
+      </Navbar>
 
       <Outlet />
     </>
