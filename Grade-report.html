@@ -15,7 +15,7 @@
 }
 
 body {
-    background: dodgerblue;
+    background: rgb(53, 142, 231);
 }
 header {
     background: #fff;
@@ -87,21 +87,25 @@ header nav ul li a.active {
 }
 
 
-body {
-            font-family: Arial, sans-serif;
-        }
         table {
-            width: 100%;
+            width: 50%;
             border-collapse: collapse;
         }
         th, td {
             border: 1px solid #ddd;
             padding: 8px;
             text-align: left;
+            text-align: center;
+            color: whitesmoke;
         }
         th {
             background-color: #4CAF50;
             color: white;
+        }
+
+        h1, p{
+            color: white;
+            text-align: center;
         }
     </style>
 </head>
@@ -115,7 +119,7 @@ body {
                     <a href="Home.jsx" class="active">Dashboard</a>
                 </li>
                 <li>
-                    <a href="Login.html" > Sign-in </a>
+                    <a href="Login.html">Sign-in </a>
                 </li>
                 <li>
                     <a href="Missing-Grade-Form-Page.html">Grade Form</a>
@@ -132,7 +136,7 @@ body {
                 </li>
 
                 <li>
-                    <a href="About.html" >About</a>
+                    <a href="About.html">About</a>
                 </li>
             </ul>
         </nav>
@@ -151,92 +155,92 @@ body {
         <option value="Semester 1">Semester 1</option>
         <option value="Semester 2">Semester 2</option>
     </select>
-    <table id="grades">
-        <tr>
-            <th>Course</th>
-            <th>Grade</th>
-            <th>Semester</th>
-        </tr>
-        <tr>
-            <td>DCIT101 INTRODUCTION TO COMPUTER SCIENCE</td>
-            <td>A</td>
-            <td>Semester 1</td>
-        </tr>
-        <tr>
-            <td>DCIT103 OFFICE PRODUCTIVITY TOOLS</td>
-            <td>A</td>
-            <td>Semester 1</td>
-        </tr>
 
-        <tr>
-            <td>MATH121 ALGEBRA AND TRIGONOMETRY</td>
-            <td>A</td>
-            <td>Semester 1</td>
-        </tr>
+    <div class="grade-table">
+        <table id="grades">
+            <tr>
+                <th>Courses</th>
+                <th>Grade</th>
+                <th>Semester</th>
+            </tr>
+            <tr>
+                <td>DCIT101| INTRODUCTION TO COMPUTER SCIENCE</td>
+                <td>A</td>
+                <td>Semester 1</td>
+            </tr>
+            <tr>
+                <td>DCIT103 OFFICE PRODUCTIVITY TOOLS</td>
+                <td>A</td>
+                <td>Semester 1</td>
+            </tr>
+    
+            <tr>
+                <td>MATH121 ALGEBRA AND TRIGONOMETRY</td>
+                <td>A</td>
+                <td>Semester 1</td>
+            </tr>
+    
+            <tr>
+                <td>MATH123 VECTORS AND GEOMETRY</td>
+                <td>A</td>
+                <td>Semester 1</td>
+            </tr>
+    
+            <tr>
+                <td>STAT111 INTRODUCTION TO STATISTICS AND PROBABILITY I</td>
+                <td>A</td>
+                <td>Semester 1</td>
+            </tr>
+    
+            <tr>
+                <td>UGRC150 CRITICAL THINKING AND PRACTICAL REASONING</td>
+                <td>A</td>
+                <td>Semester 1</td>
+            </tr> <br>
+    
+            <tr>
+                <th>Courses</th>
+                <th>Grade</th>
+                <th>Semester</th>
+            </tr>
+            <tr>
+                <td>DCIT102 COMPUTER HARDWARE FUNDAMENTALS AND CIRCUITS</td>
+                <td>A</td>
+                <td>Semester 2</td>
+            </tr>
+            <tr>
+                <td>DCIT104 PROGRAMMING FUNDAMENTALS</td>
+                <td>A</td>
+                <td>Semester 2</td>
+            </tr>
+    
+            <tr>
+                <td>MATH122 CALCULUS I</td>
+                <td>A</td>
+                <td>Semester 2</td>
+            </tr>
+    
+            <tr>
+                <td>MATH126 ALGEBRA AND GEOMETRY</td>
+                <td>A</td>
+                <td>Semester 2</td>
+            </tr>
+    
+            <tr>
+                <td>STAT112 INTRODUCTION TO STATISTICS AND PROBABILITY II</td>
+                <td>A</td>
+                <td>Semester 2</td>
+            </tr>
+    
+            <tr>
+                <td>UGRC110 ACADEMIC WRITING I</td>
+                <td>A</td>
+                <td>Semester 2</td>
+            </tr> 
+        </table>
+    </div>
+    
 
-        <tr>
-            <td>MATH123 VECTORS AND GEOMETRY</td>
-            <td>A</td>
-            <td>Semester 1</td>
-        </tr>
-
-        <tr>
-            <td>STAT111 INTRODUCTION TO STATISTICS AND PROBABILITY I</td>
-            <td>A</td>
-            <td>Semester 1</td>
-        </tr>
-
-        <tr>
-            <td>UGRC150 CRITICAL THINKING AND PRACTICAL REASONING</td>
-            <td>A</td>
-            <td>Semester 1</td>
-        </tr> <br>
-
-        
-    </table>
-
-    <table id="grades">
-        <tr>
-            <th>Course</th>
-            <th>Grade</th>
-            <th>Semester</th>
-        </tr>
-        <tr>
-            <td>DCIT102 COMPUTER HARDWARE FUNDAMENTALS AND CIRCUITS</td>
-            <td>A</td>
-            <td>Semester 2</td>
-        </tr>
-        <tr>
-            <td>DCIT104 PROGRAMMING FUNDAMENTALS</td>
-            <td>A</td>
-            <td>Semester 2</td>
-        </tr>
-
-        <tr>
-            <td>MATH122 CALCULUS I</td>
-            <td>A</td>
-            <td>Semester 2</td>
-        </tr>
-
-        <tr>
-            <td>MATH126 ALGEBRA AND GEOMETRY</td>
-            <td>A</td>
-            <td>Semester 2</td>
-        </tr>
-
-        <tr>
-            <td>STAT112 INTRODUCTION TO STATISTICS AND PROBABILITY II</td>
-            <td>A</td>
-            <td>Semester 2</td>
-        </tr>
-
-        <tr>
-            <td>UGRC110 ACADEMIC WRITING I</td>
-            <td>A</td>
-            <td>Semester 2</td>
-        </tr> <br> 
-
-    </table>
 
 
 
