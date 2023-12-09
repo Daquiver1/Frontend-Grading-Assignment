@@ -1,0 +1,45 @@
+
+
+.missing_input_text{
+   
+}
+h6{
+    color: rgb(85, 64, 9);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#explanation{
+    width: 300px;
+    height: 200px;
+}
+
+.missing_grade_form_container{
+    width: 600px;
+    height: 700px;
+    background-color: rgb(248, 244, 244);
+    margin-left: 350px;
+    margin-top: 100px;
+    
+}
+
+#hed{
+    background-color: blueviolet;
+    text-align: center;
+    height: 60px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+form{
+    margin-left: 40px;
+}
+
+.submit{
+    border: none;
+    width: 100px;
+    height: 40px;
+    background-color: blue;
+    color: white;
+    margin-left: 20px ;
+}
+

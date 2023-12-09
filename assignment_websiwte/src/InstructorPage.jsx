@@ -15,7 +15,7 @@ export default function IntructorPage(){
                     <h4 id="h4">Evelyn Cobbinah</h4>
                     <h6>Professor, Computer Science Department</h6>
                     <p id="para">College Of Basic Applied SCience</p>
-                    <br />
+                   
                     <input type="email"  placeholder="Email" id="msg_instructor"/>
                     <br />
                     <br />
@@ -70,7 +70,7 @@ export default function IntructorPage(){
                     <h4 id="h4">Evelyn Cobbinah</h4>
                     <h6>Professor, Computer Science Department</h6>
                     <p id="para">College Of Basic Applied SCience</p>
-                    <br />
+                    
                     <input type="email"  placeholder="Email" id="msg_instructor"/>
                     <br />
                     <br />
