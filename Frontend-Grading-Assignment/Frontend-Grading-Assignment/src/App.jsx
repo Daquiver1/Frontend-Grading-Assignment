@@ -1,33 +1,43 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { useState } from 'react';
+import Logo from './assets/logo.jpeg';
+
 
 function App() {
-  const [count, setCount] = useState(0)
-
+  const [email,setEmail] = useState("");
+  const [password,setPassword] = useState("");
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    alert(email,password);
+  }
   return (
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+     <div className='container'>
+     <img src={Logo} alt='University of Ghana' />
+     <h1>Grading System</h1>
+     <form onSubmit={(e) => handleSubmit(e)}>
+      <div className="inputContainer">
+        <p>Student ID</p>
+        <input value= {email} 
+        onChange={(e) => setEmail(e.target.value)}
+        type = 'text'
+        />
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
+      <div className='inputContainer'>
+        <p>PIN</p>
+        <input value= {password} 
+        onChange={(e) => setPassword(e.target.value)} type='password'/>
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <div className='bottomForm'>
+        <button type='submit'>Login</button>
+        </div>
+        <div className='links'>
+          <p>New User?</p>
+          <p>Forgot PIN?</p>
+        </div>
+     </form>
+     <small className='copyright'>&copy; 2023 Derrick Edusei</small>
+
+     </div>
     </>
   )
 }
