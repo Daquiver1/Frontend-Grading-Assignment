@@ -1,4 +1,6 @@
 import React from "react";
+import PersonImage from '../Assets/person.png'
+import PasswordImage from '../Assets/password.png'
 import './login.css';
 const login = () => {
   return (
@@ -8,12 +10,11 @@ const login = () => {
         <div className="underline"></div>
       </div>
       <div className="inputs">
-        <div className="input">
-          <input type="text" placeholder="Name" />        
-        </div>
+        <img src={PersonImage} alt="Person" />
         <div className="input">
           <input type="text" placeholder="Student ID" />
         </div>
+        <img src={PasswordImage} alt="Password" />
         <div className="input">
           <input type="password" placeholder="Password" />
         </div>

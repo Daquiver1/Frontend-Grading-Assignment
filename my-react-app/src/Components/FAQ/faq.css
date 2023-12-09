@@ -1,0 +1,53 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .accordian {
+    width: 100%;
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  
+  .item {
+    margin-bottom: 5px;
+    padding: 10px 20px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .title {
+    display: flex;
+    color: black;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    background-color:white;
+    padding: 5px;
+  }
+  .title p{
+    font-size:15px;
+  }
+  
+  .content {
+    display: none;
+    color: white;
+    padding: 10px;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.5s cubic-bezier(0, 1, 0, 1);
+  }
+  
+  .show {
+    display: block;
+    max-height: 9999px;
+  }
+  span{
+    font-size:10px;
+  }

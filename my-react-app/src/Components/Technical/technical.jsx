@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import './missing.css'
+import './technical.css'
 
-const Missing = () => {
+const Technical = () => {
   // State to manage form fields
   const [formData, setFormData] = useState({
     name: "",    email: "",    studentID: "",    courseName: "",    instructorName: "",    description: "", });
@@ -23,7 +23,7 @@ const Missing = () => {
 
   return (
     <div>
-      <h2>Missing Report</h2>
+      <h2>Contact Technical Support</h2>
       <form onSubmit={handleSubmit}>
         <label htmlFor="name">Your Name:</label>
         <input type="text" id="name" name="name"  value={formData.name} onChange={handleChange} required />
@@ -37,6 +37,9 @@ const Missing = () => {
         <label htmlFor="courseName">Course Name:</label>
         <input type="text" id="courseName" name="courseName" value={formData.courseName}onChange={handleChange}required/>
 
+        <label htmlFor="courseID">course ID:</label>
+        <input type="text"id="courseID"name="courseID"value={formData.studentID}onChange={handleChange}required/>
+
         <label htmlFor="instructorName">Instructor Name:</label>
         <input type="text" id="instructorName" name="instructorName" value={formData.instructorName} onChange={handleChange} required />
 
@@ -49,4 +52,4 @@ const Missing = () => {
   );
 };
 
-export default Missing;
+export default Technical;
