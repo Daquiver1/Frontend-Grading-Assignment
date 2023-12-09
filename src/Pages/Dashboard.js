@@ -2,11 +2,23 @@ import React, { useEffect } from "react";
 import "../Styles/Dashboard.css";
 
 export const Dashboard = () => {
- useEffect(()=>{
-  alert("There is no grade for Academic Writind II")
- });
+  useEffect(() => {
+    alert("There is no grade for Academic Writind II");
+  });
   return (
     <div className="d-container">
+      <div className="student-info">
+        <h1>Student Details</h1>
+        <p>
+          <span>Student ID:</span> 11348753
+        </p>
+        <p>
+          <span>Student name:</span> Phandoh Eyiah Kwabena
+        </p>
+        <p>
+          <span> Program of Study:</span> Bsc. Computer Science
+        </p>
+      </div>
       <div className="d-grades">
         <h2 className="sem">Level 100 - 2nd Semester</h2>
         <table>
