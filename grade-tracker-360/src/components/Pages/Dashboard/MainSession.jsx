@@ -72,7 +72,7 @@ export const MainSession = () => {
     <>
     <div className='MainSession'>
       <div className='main-top'>
-        <h1>Remainders</h1>
+        <h1>Reminders</h1>
         <div className='notification-icon' onClick={toggleNotifications}>
           <i className='fas fa-bell'></i>
           <span className='notification-number'>3</span>
