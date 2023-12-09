@@ -32,7 +32,7 @@ export const Navbar = () => {
           </li>
           <li>
             <Link className="link" to="/missing-grade">
-              Missing-grade
+              Missing-Grade
             </Link>
           </li>
           <li>
