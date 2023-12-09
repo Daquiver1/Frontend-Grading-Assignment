@@ -6,7 +6,7 @@ export const Home = () => {
   return (
     <div className="h-container">
       <div className="info">
-        <h1 id="acronymn">G R P S</h1>
+        <h1 id="acronymn">G R S</h1>
         <div className="about">
           <p className="info-paragraph">
             Is a grade reporting sytem that allows University of Ghana students
