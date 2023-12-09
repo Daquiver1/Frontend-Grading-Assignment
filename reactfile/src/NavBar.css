@@ -1,0 +1,48 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.logo{
+  width: 70%;
+  margin-right: 220px;
+  height: 38px;
+  
+}
+
+.Container{
+  display: flex;
+  margin-top: 4px;
+  margin-bottom: 1px;
+  background-color: aliceblue;
+  height: 30px;
+  padding-top: 8px;
+  padding-bottom: 5px;
+  text-align: center;
+
+  
+}
+
+
+.Nav-links{
+  display: grid;
+  grid-template-columns: 80px 80px 150px 150px 150px 150px  100px;
+  cursor: pointer;
+  justify-content: space-between;
+  color: cornflowerblue;
+  
+  
+
+}
+
+  .nav-item:hover {
+    background-color: rgb(168, 137, 142);
+    color: #333;
+    transition: 1.2s;
+    
+  }
+  
+  
+  
+
+
