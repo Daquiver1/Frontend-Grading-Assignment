@@ -2,6 +2,9 @@ import { useContext } from 'react';
 import user_icon from '../assets/icons/user_icon.png'
 import { useNavigate } from "react-router-dom";
 import { StudentContext } from "../StudentContext";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBars, faSearch, faBell, faEnvelope, faUser, faSignOutAlt } from '@fortawesome/free-solid-svg-icons';
+import { faFileAlt } from '@fortawesome/free-regular-svg-icons';
 
 
 const TopNav = () => {
@@ -77,7 +80,7 @@ const TopNav = () => {
         <nav className="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
                     {/* Sidebar Toggle (Topbar)*/}
                     <button id="sidebarToggleTop" className="btn btn-link d-md-none rounded-circle mr-3">
-                        <i className="fa fa-bars"></i>
+                        <FontAwesomeIcon icon={faBars} />
                     </button>
 
                     {/* Topbar Search*/}
@@ -94,7 +97,7 @@ const TopNav = () => {
                             />
                             <div className="input-group-append">
                                 <button className="btn btn-primary" type="button">
-                                    <i className="fas fa-search fa-sm"></i>
+                                    <FontAwesomeIcon icon={faSearch} />
                                 </button>
                             </div>
                         </div>
@@ -106,7 +109,7 @@ const TopNav = () => {
                                 <li className="nav-item dropdown no-arrow d-sm-none">
                                     <a className="nav-link dropdown-toggle" href="#" id="searchDropdown" role="button"
                                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        <i className="fas fa-search fa-fw"></i>
+                                        <FontAwesomeIcon icon={faSearch} />
                                     </a>
                                     {/* Dropdown - Messages*/}
                                     <div className="dropdown-menu dropdown-menu-right p-3 shadow animated--grow-in"
@@ -122,7 +125,7 @@ const TopNav = () => {
                                                 />
                                                 <div className="input-group-append">
                                                     <button className="btn btn-primary" type="button">
-                                                        <i className="fas fa-search fa-sm"></i>
+                                                        <FontAwesomeIcon icon={faSearch} />
                                                     </button>
                                                 </div>
                                             </div>
@@ -209,20 +212,20 @@ const TopNav = () => {
                                     <div className="dropdown-menu dropdown-menu-right shadow animated--grow-in"
                                         aria-labelledby="userDropdown">
                                         <a className="dropdown-item" href="#">
-                                            <i className="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
+                                            <FontAwesomeIcon icon={faUser} />
                                             Profile
                                         </a>
                                         <a className="dropdown-item" href="#">
-                                            <i className="fas fa-cogs fa-sm fa-fw mr-2 text-gray-400"></i>
+                                            <FontAwesomeIcon icon={faEnvelope} />
                                             Settings
                                         </a>
                                         <a className="dropdown-item" href="#">
-                                            <i className="fas fa-list fa-sm fa-fw mr-2 text-gray-400"></i>
+                                            <FontAwesomeIcon icon={faBell} />
                                             Activity Log
                                         </a>
                                         <div className="dropdown-divider"></div>
                                         <button className="dropdown-item" onClick={handleLogout}>
-                                            <i className="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
+                                            <FontAwesomeIcon icon={faSignOutAlt} />
                                             Logout
                                         </button>
                                     </div>
