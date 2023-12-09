@@ -1,48 +1,46 @@
-// Login.js
 
-import React, { useState } from 'react';
-import './login.css';
+import React, { useState } from "react";
+import './login.css'
+import user_icon from '../Assets/person.png'
+import email_icon from '../Assets/email.png'
+import password_icon from '../Assets/password.png'
+
 
 const Login = () => {
-  const [studentId, setStudentId] = useState('');
-  const [pin, setPin] = useState('');
-  const [showPin, setShowPin] = useState(false);
-
-  const handlePinVisibility = () => {
-    setShowPin(!showPin);
-  };
+  const [action,setAction] = useState("Sign Up");
 
   return (
-    <div className="login-container">
-      <h2>Login</h2>
-      <form>
-        <div className="input-group">
-          <label htmlFor="studentId">Student ID:</label>
-          <input
-            type="text"
-            id="studentId"
-            value={studentId}
-            onChange={(e) => setStudentId(e.target.value)}
-          />
+    <div className='container'>
+
+      <div className='header'>
+        <div className="text">
+          {action}
         </div>
-        <div className="input-group">
-          <label htmlFor="pin">PIN:</label>
-          <div className="password-input">
-            <input
-              type={showPin ? 'text' : 'password'}
-              id="pin"
-              value={pin}
-              onChange={(e) => setPin(e.target.value)}
-            />
-            <div className="eye-icon" onClick={handlePinVisibility}>
-              {showPin ? <i className="fas fa-eye-slash"></i> : <i className="fas fa-eye"></i>}
-            </div>
+        <div className="underline"></div>
+        <div className="inputs">
+          {action==="Login"?<div></div>: <div className="input">
+            <img src={user_icon} alt="" />
+            <input type="text" placeholder="Name" />
+          </div>}
+         
+          <div className="input">
+            <img src={email_icon} alt="" />
+            <input type="email" placeholder="Student Id" />
+          </div>
+          <div className="input">
+            <img src={password_icon} alt="" />
+            <input type="pin" placeholder="Pin"/>
           </div>
         </div>
-        <button type="submit">Login</button>
-      </form>
+        {action==="Sign Up"?<div></div>: <div className="forgot-password">Lost Password? <span>Click Here!</span></div>}
+        <div className="submit-container">
+          <div className={action==="Login"?"submit gray":"submit"} onClick={()=>{setAction("Sign Up")}}>Sign Up</div>
+          <div className={action==="Sign Up"?"submit gray":"sumbit"}onClick={()=>{setAction("Login")}}>Login</div>
+      </div>
+      </div>
+
     </div>
-  );
-};
+  )
+}
 
 export default Login;
