@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Button from "./button";
+import { Link } from "react-router-dom";
 
 
 const  Nav = () => {
@@ -34,7 +35,7 @@ const  Nav = () => {
                         </li>
                     ) )
                   }
-                  <Button>Login</Button>
+                  <Button >Login</Button>
                     </ul>  
             </div>
         </div>
