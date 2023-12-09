@@ -346,7 +346,7 @@ const LogIn = () => {
               </div>
             </nav>
         </header>
-        <div className="flex items-center justify-center h-screen ml-[350px]">
+        <div className="flex items-center justify-center h-screen ml-[650px]">
           <div className="w-[1000px] h-screen sm:px-[200px] flex flex-col justify-center px-5">
           <form>
             <h2 className="sm:text-[28px] text-[25px]">Sign into your account</h2>
