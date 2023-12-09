@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './HelpAndSupportPage.css';
+import '../Styles/PageStyles/HelpAndSupportPage.css';
 import Header from "../Components/Header";
 import SideNav from "../Components/SideNav";
 import Footer from "../Components/Footer";

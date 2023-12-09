@@ -1,6 +1,6 @@
   .footer  {
     position: absolute;
-    top: 777px;
+    top: 1050px;
     left: 0px;
     background-color: #439df8c7;
     width: 100%;
@@ -10,7 +10,7 @@
   .footer li {
     margin-left: auto;
     display: inline-block;
-    
+    flex-direction: row;
     width: 33%;    
   }
 

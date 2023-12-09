@@ -7,6 +7,13 @@ import {
 } from "react-router-dom";
 import LandingPage from "./Pages/LandingPage";
 import Login from "./Pages/Login";
+import Dashboard from "./Pages/DashBoard";
+import Grades from "./Pages/Grades";
+import GradeReportForm from "./Pages/MissingGradeReport";
+import HelpAndSupportPage from "./Pages/HelpAndSupportPage";
+import InstructorContactPage from "./Pages/InstructorContactPage";
+
+
 
 function App() {
   const action = useNavigationType();
@@ -53,9 +60,17 @@ function App() {
 
   return (
     <Routes>
+
       <Route path="/" element={<LandingPage />} />
-      <Route path="/login" element={<Login />} /> 
-    </Routes>
+      <Route path="/Pages/Login" element={<Login />} /> 
+      <Route path="/Pages/DashBoard" element={<Dashboard />}/>
+      <Route path="/Pages/Grades" element={<Grades />} />
+      <Route path="/Pages/InstructorContactPage" element={<InstructorContactPage />} />
+      <Route path="/Pages/HelpAndSupportPage"  element={<HelpAndSupportPage />} /> 
+      <Route path="/Pages/MissingGradeReport" element={<GradeReportForm />}/>
+      <Route path="/Pages/GradeReportForm" element={<GradeReportForm/>} /> 
+
+    </Routes>  
    );
   }
 export default App;

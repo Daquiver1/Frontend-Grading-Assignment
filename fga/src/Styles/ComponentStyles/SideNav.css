@@ -8,9 +8,25 @@
     border-left: solid;
     border-color: rgb(0, 112, 203);
     border-width: 20px;  
+    height:75vh;
   }
   
-  h2 {
-    margin: auto;
+  h2{
+    margin-right: 10px;
+  }
+
+
+
+  .navlistul{
+    list-style: none;
+    font-size: larger;
+  }
+
+  .navlistul li{
+    height: 35px;
+  }
+
+  .navlistul a {
+    text-decoration: none;
   }
   

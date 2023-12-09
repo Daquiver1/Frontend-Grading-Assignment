@@ -1,12 +1,17 @@
 .overview {
     position: absolute;
     top: 160px;
-    left: 348px;
     background-color: #fff;
+    margin-left: 40px;
     
-    float: right;
   }
 
   h2 {
     margin-left: 20px;
   }
+
+  
+  button {
+    float: right;    
+  }
+   

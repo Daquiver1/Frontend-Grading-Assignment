@@ -1,13 +1,26 @@
-import React from "react";
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import "../Styles/PageStyles/MissingGradeReport.css";
+import "../Pages/InstructorContactPage";
 import Header from "../Components/Header";
 import SideNav from "../Components/SideNav";
 import Footer from "../Components/Footer";
 
 
 
+const Content = () => {
 
+    return (
+        <>
+            <div>
+                <p>Use the form below to report any missing grade</p>
+                <p>You can also reach your instructors by clicking this link 
+                <Link to = "/Pages/InstructorContactPage" > here</Link>
+                </p>
+            </div>
+        </>
+    )
+}
 
 const GradeReportForm = () => {
     const [formData, setFormData] = useState({
@@ -27,13 +40,18 @@ const GradeReportForm = () => {
     const handleSubmit = (e) => {
         e.preventDefault();
         setSubmitted(true);
+         
     };
+
+    
+
 
     return (
         <>
         <Header />
         <SideNav />
         <div className="container">
+        <Content />
             <h2>Report Missing Grade</h2>
             <form id="missingGradeForm" onSubmit={handleSubmit}>
                 <label htmlFor="courseName">Course Name:</label>
@@ -79,15 +97,18 @@ const GradeReportForm = () => {
                 <input type="submit" value="Submit" />
             </form>
 
-            {submitted && (
-                <div className="confirmation-message">
+            if (submitted) {
+            <div className="confirmation-message">
                     <p>Grade reported successfully!</p>
                 </div>
-            )}
+            }
+
+
+            
         </div>
         <Footer />
         </>
-    );
-};
+    )
+}
 
 export default GradeReportForm;

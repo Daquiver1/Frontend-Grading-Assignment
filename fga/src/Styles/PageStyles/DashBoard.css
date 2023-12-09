@@ -1,19 +1,31 @@
 .grade-section {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-    padding: 20px;
+    float: right;
+    width: 65%;
+    margin-top: 100px;  
+    right: 0px;  
 }
 
 .grade-card {
     background-color: #FFFFFF; /* White background */
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 5px 5px 4px 8px rgba(0, 0, 0, 0.1);
     padding: 20px;
     margin: 10px;
     width: 200px;
     text-align: center;
+
+}
+
+.grade-section h2 {
+    font-size: xx-large;
+}
+
+.grade-section .right {
+    float: right;
+}
+
+.grade-section .left {
+    float: left;
 }
 
 .grade-card h3 {
@@ -25,3 +37,4 @@
     font-weight: bold;
     margin-top: 10px;
 }
+ 

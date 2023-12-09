@@ -1,5 +1,5 @@
 .container {
-    max-width: 400px;
+    max-width: fit-content;
     margin: 0 auto;
 }
 
@@ -28,7 +28,7 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-    background-color: #1565C0;
+    background-color: #085ab8;
 }
 
 .confirmation-message {

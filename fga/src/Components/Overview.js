@@ -1,10 +1,24 @@
+import { Link } from "react-router-dom";
 import "../Styles/ComponentStyles/Overview.css";
+import "../Pages/Login.js"
+
+
+
+
 
 const Overview = () => {
+
+            
+
     return (
         
         <div className="overview">
-            <h2>OVERVIEW</h2>
+            
+                <h2>OVERVIEW</h2>
+                <button className="login" >
+                    <Link to="/Pages/Login">Login</Link>
+                </button>
+            
             <h3>Welcome to the Student Grade Reporting System</h3>
             <div className="features">
                 <h3>Key Features</h3>
@@ -29,8 +43,7 @@ const Overview = () => {
                 
             </div>
         </div>
-        
-    );
+    )
 };
   
   export default Overview;
