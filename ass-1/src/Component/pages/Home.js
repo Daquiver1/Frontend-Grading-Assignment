@@ -1,6 +1,12 @@
-function HomePage() {
+import NavBar from "../includes/Navigation bar";
+import Footer from "../includes/footer";
+
+const Home = () => {
   return (
     <div className="content">
+      <div>
+        <NavBar />
+      </div>
       <h1 className="title">Welcome to the missing grade reporting system !</h1>
       <p className="p1">
         Are you struggling to keep tract of all your grades ? <br />
@@ -61,8 +67,11 @@ function HomePage() {
           Accessible on various devices to provide a consistent experience.
         </li>
       </ul>
+      <div>
+        <Footer></Footer>
+      </div>
     </div>
   );
-}
+};
 
-export default HomePage;
+export default Home;

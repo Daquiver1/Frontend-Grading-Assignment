@@ -4,11 +4,38 @@ import "./index.css";
 import App from "./App";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
+import Contact from "./Component/pages/Contact Us";
+import Help from "./Component/pages/Help";
+import Login from "./Component/pages/Login";
+import Dashboard from "./Component/pages/Dashboard";
+import { createBrowserRouter, RouterProvider, Route } from "react-router-dom";
 
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <App />,
+  },
+  {
+    path: "/Dashboard",
+    element: <Dashboard />,
+  },
+  {
+    path: "/Help",
+    element: <Help />,
+  },
+  {
+    path: "/Login",
+    element: <Login />,
+  },
+  {
+    path: "/Contact",
+    element: <Contact />,
+  },
+]);
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <App />
+    <RouterProvider router={router} />
   </React.StrictMode>
 );
 

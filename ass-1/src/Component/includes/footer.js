@@ -8,7 +8,7 @@ const Footer = () => {
           <div className="row">
             <div className="col-md-6 col-lg-5 col-12 ft-1">
               <h3>
-                <span>WALEED</span>CODES
+                <span>Edward</span>Hanson
               </h3>
               <p></p>
               <div className="footer-icons">

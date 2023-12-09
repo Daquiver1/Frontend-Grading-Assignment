@@ -1,13 +1,15 @@
 import NavBar from "../includes/Navigation bar";
 import Footer from "../includes/footer";
 
-const Login = () => {
+const Help = () => {
   return (
     <div>
       <div>
         <NavBar />
       </div>
-      <div>Hola</div>
+      <div>
+        <h1>Frequentlu Asked questions</h1>
+      </div>
       <div>
         <Footer />
       </div>
@@ -15,4 +17,4 @@ const Login = () => {
   );
 };
 
-export default Login;
+export default Help;

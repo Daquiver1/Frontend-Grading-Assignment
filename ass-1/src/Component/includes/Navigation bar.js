@@ -28,28 +28,20 @@ function NavBar() {
               </button>
               <ul class="dropdown-menu dropdown-menu-dark">
                 <li>
-                  <Link href="/HomePage">Home</Link>
+                  <Link to="/ ">Home</Link>
                 </li>
                 <li>
-                  <Link href="/login">Login</Link>
+                  <Link to="/login">Login</Link>
                 </li>
                 <li>
-                  <Link href="/Dashboard">Dashboard</Link>
+                  <Link to="/Dashboard">Dashboard</Link>
                 </li>
                 <li>
-                  {" "}
-                  <Link href="GradeReportPage">Report Grade</Link>
+                  <Link to="/Contact">Contact</Link>
                 </li>
-                {/* <li>
-                  {" "}
-                  <a href="MissingGradeFormPage">Missing Grade Form Page</a>
-                </li>
+
                 <li>
-                  {" "}
-                  <a href="MissingGradeFormPage">Missing Grade Form Page</a>
-                </li> */}
-                <li>
-                  <a href="Help and Support Page">Help </a>
+                  <Link to="/Help">Help</Link>
                 </li>
               </ul>
             </li>

@@ -59,3 +59,12 @@ ul li a:hover {
   gap: 30px;
   /* background-color: white; */
 }
+.Footer {
+  background-color: rgb(167, 167, 199);
+  margin-bottom: -17px;
+}
+.Last-footer {
+  height: 65px;
+  background-color: black;
+  margin-top: 0;
+}
