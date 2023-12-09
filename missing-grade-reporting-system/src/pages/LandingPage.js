@@ -25,7 +25,7 @@ const Landing = () => {
             className={`bg-orange-500 text-6xl rounded cursor-pointer block float-left mr-2 duration-500 ${open && "rotate=[360deg]"} `}/>
           <h1
             style={{ fontSize: "1.5rem" }}
-            className={`text-black origin-left font-medium duration-300 ${!open && "scale-0"}`}>
+            className={`text-black origin-left font-bold text-5xl duration-300 ${!open && "scale-0"}`}>
             UG GRADE REPORT SYSTEM
           </h1>
         </div>
@@ -176,9 +176,11 @@ const Landing = () => {
                 UG Grade System
               </h1>
               <p className="text-white text-2xl mb-8">Explore academic excellence with the UG Grade System – your one-stop platform for tracking grades, managing coursework, and gaining valuable insights. Elevate your educational journey effortlessly!</p>
+              <Link to="/Login">
               <button className="bg-gradient-to-r from-cyan-400 to-light-blue-500 hover:from-cyan-500 hover:to-light-blue-600 text-white px-6 py-3 rounded-full transition-all duration-300 hover:shadow-lg focus:outline-none">
                 Get Started
               </button>
+              </Link>
             </div>
           </div>
         </div>

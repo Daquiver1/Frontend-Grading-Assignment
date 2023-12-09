@@ -22,7 +22,7 @@ const HelpAndSupport = () => {
       
       <div className="inline-flex"> 
       <AiFillBook className={`bg-orange-500 text-6xl rounded cursor-pointer block float-left mr-2 duration-500 ${open && "rotate=[360deg]"} `}/>
-      <h1 style={{ fontSize: '1.5rem' }} className={`text-black origin-left font-medium duration-300 ${!open && "scale-0"}`}>UG GRADE REPORT SYSTEM</h1>
+      <h1 style={{ fontSize: '1.5rem' }} className={`text-black origin-left font-bold text-5xl duration-300 ${!open && "scale-0"}`}>UG GRADE REPORT SYSTEM</h1>
 
       </div>
 
