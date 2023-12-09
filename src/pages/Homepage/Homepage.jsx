@@ -5,14 +5,13 @@ import "./css/index.css"
 
 const Homepage = () => {
 
-  
   return (
     
     <div>
         <Hearder />
         <Herosection />
+       
     </div>
   )
 }
-
 export default Homepage
