@@ -8,7 +8,11 @@ const Login = () => {
             <Navbar />
             <div className="container login-container px-1 px-md-5 px-lg-1 px-xl-5 py-5 mx-auto">
                 <div className="card card0 border-0">
+                    <div className="bg-blue py-5">
+                        
+                    </div>
                     <div className="row d-flex">
+                        
                         <div className="col-lg-6">
                             <div className="card1 pb-5">
                                 
@@ -46,16 +50,8 @@ const Login = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="bg-blue py-4">
-                        <div className="row px-3">
-                            <small className="ml-4 ml-sm-5 mb-2">Copyright &copy; 2023. All rights reserved.</small>
-                            <div className="social-contact ml-4 ml-sm-auto">
-                                <span className="fa fa-facebook mr-4 text-sm"></span>
-                                <span className="fa fa-google-plus mr-4 text-sm"></span>
-                                <span className="fa fa-linkedin mr-4 text-sm"></span>
-                                <span className="fa fa-twitter mr-4 mr-sm-5 text-sm"></span>
-                            </div>
-                        </div>
+                    <div className="bg-blue py-5">
+                       
                     </div>
                 </div>
             </div>

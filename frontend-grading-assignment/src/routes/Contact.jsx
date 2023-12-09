@@ -22,25 +22,25 @@ const Contact = () => {
                                     <div className="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
                                     <div className="modal-dialog modal-dialog-scrollable">
                                         <div className="modal-content">
-                                        <div className="modal-header">
+                                        <div className="modal-header bg-blue">
                                             <h1 className="modal-title fs-5" id="staticBackdropLabel">Instructors</h1>
-                                            <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            <button type="button" className="btn-close text-white" data-bs-dismiss="modal" aria-label="Close"></button>
                                         </div>
-                                        <div className="modal-body">
+                                        <div className="modal-body text-dark">
                                             <div className="instructor">
                                                 <strong>John Smith</strong>
                                                 <p>Email: john.smith@example.com</p>
                                                 <p>Phone: (555) 123-4567</p>
                                                 <p>Office Hours: Mondays and Wednesdays, 10:00 AM - 12:00 PM</p>
                                             </div>
-
+                                            <hr />
                                             <div className="instructor">
                                                 <strong>Dr. Emily Johnson</strong>
                                                 <p>Email: emily.johnson@example.com</p>
                                                 <p>Phone: (555) 987-6543</p>
                                                 <p>Office Hours: Tuesdays and Thursdays, 1:00 PM - 3:00 PM</p>
                                             </div>
-
+                                            <hr />
                                             <div className="instructor">
                                                 <strong>Professor Alex Davis</strong>
                                                 <p>Email: alex.davis@example.com</p>
@@ -49,25 +49,27 @@ const Contact = () => {
                                             </div>
                                         </div>
                                         <div class="modal-footer">
-                                            <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                            <button type="button" className="btn btn-primary">Understood</button>
+                                            <button type="button" className="btn btn-danger" data-bs-dismiss="modal">Close</button>
                                         </div>
                                         </div>
                                     </div>
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-md-6">
+                            {/* <div className="col-md-6">
                                 <div className="container text-center">
                                     <h3>Send A Mail</h3>
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
-                    <div className="col col-md-6 email">
+                    <div className="col col-md-6 email m-auto">
                         <img src="https://freepngimg.com/save/64936-text-messaging-email-emoji-png-image-high-quality/512x512" alt="" />
                     </div>
                     <div className="col-12 col-md-6">
+                        <div className="container text-center mt-4">
+                            <h3>Send A Mail</h3>
+                        </div>
                         <form className="email-form">
                            <div className="container">
                             <label for="recipient" className='my-3 ps-2'>Recipient:</label>
