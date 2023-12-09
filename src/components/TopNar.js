@@ -56,19 +56,19 @@ const TopNav = () => {
     // Define alerts data
     const alertsData = [
         {
-            icon: 'fas fa-file-alt',
+            icon: faFileAlt,
             color: 'bg-primary',
             date: 'December 12, 2019',
             content: 'You grade for the course CS 101 has been posted.',
         },
         {
-            icon: 'fas fa-file-alt',
+            icon: faFileAlt,
             color: 'bg-success',
             date: 'December 7, 2019',
             content: 'You grade for the intent assignment for CS 103 has been posted.',
         },
         {
-            icon: 'fas fa-file-alt',
+            icon: faFileAlt,
             color: 'bg-warning',
             date: 'December 2, 2019',
             content: 'You grade for the course CS 103 has been posted.',
@@ -137,7 +137,7 @@ const TopNav = () => {
                                 <li className="nav-item dropdown no-arrow mx-1">
                                     <a className="nav-link dropdown-toggle" href="#" id="alertsDropdown" role="button"
                                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        <i className="fas fa-bell fa-fw"></i>
+                                        <FontAwesomeIcon icon={faBell} />
                                         {/* Counter - Alerts*/}
                                         <span className="badge badge-danger badge-counter">3+</span>
                                     </a>
@@ -167,7 +167,7 @@ const TopNav = () => {
                                 <li className="nav-item dropdown no-arrow mx-1">
                                     <a className="nav-link dropdown-toggle" href="#" id="messagesDropdown" role="button"
                                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        <i className="fas fa-envelope fa-fw"></i>
+                                        <FontAwesomeIcon icon={faEnvelope} />
                                         {/* Counter - Messages*/}
                                         <span className="badge badge-danger badge-counter">7</span>
                                     </a>
