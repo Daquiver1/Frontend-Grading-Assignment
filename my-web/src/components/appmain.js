@@ -1,11 +1,13 @@
 import React from 'react';
+
 import '../styles/main.css';
 import myImage from './images/400.png';
+
  
 function Main(){
     return( 
     <><div className="custom-div">
-        <img className="biss" src={myImage} alt="Landing Image" />
+        <img className="biss" src={myImage} alt="Landing " />
       </div>
       <h1 style={{ color: '#123456' }}>Welcome to Gradesk</h1>
       <main class="cards">

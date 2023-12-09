@@ -1,7 +1,6 @@
-
-
 import React, { useRef } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
+
 
 import '../styles/main.css';
 
@@ -17,7 +16,7 @@ function Navbar() {
       <header>
         <h3>Gradesk</h3>
         <nav className="navy" ref={navRef}>
-          <a to="./login" className="log-btn" >
+          <a href="/"className="log-btn" >
            <span className="tt-button"> Login</span>
           </a>
           <button className="nav-btn nav-close-btn" onClick={showNavbar}>
