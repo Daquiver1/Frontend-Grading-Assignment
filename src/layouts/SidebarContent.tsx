@@ -7,6 +7,8 @@ import { ReactComponent as Info } from "../assets/info.svg"
 import { ReactComponent as Library } from "../assets/library.svg"
 import { ReactComponent as Refresh } from "../assets/refresh.svg"
 import { ReactComponent as Resume } from "../assets/resume.svg"
+import { useNavigate } from 'react-router-dom'
+
 
 import { classNames } from "../utils/classNames"
 import { Cog6ToothIcon } from "@heroicons/react/24/outline"
@@ -21,6 +23,7 @@ const navigation = [
 ]
 
 const SidebarContent = () => {
+	const navigate = useNavigate()
   return (
     <div className='flex grow flex-col gap-y-5 overflow-y-auto bg-blue-500 px-6 pt-8 pb-4'>
 						<div className='flex h-16 shrink-0 items-center'>
@@ -91,6 +94,7 @@ const SidebarContent = () => {
 									</a>
                                     <a
 										href='#'
+										onClick={()=>navigate("/signin")}
 										className='group -mx-2 flex items-center gap-x-3 rounded-md p-2 text-lg font-medium leading-6 text-indigo-200 hover:bg-indigo-700 hover:text-white'
 									>
 										<Exit
