@@ -14,14 +14,6 @@ const Hero = () => {
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
               <button className='hero-btn'>Contact</button>
             </div >
-            {/* <div>
-              <button>Login</button>
-              <button>Dashboard</button>
-              <button>Report</button>
-              <button>Form</button>
-              <button>Contact</button>
-              <button>Support</button>
-            </div> */}
           </div>
         </div>
       </section>
