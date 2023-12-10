@@ -1,51 +1,44 @@
-# Student Grade Reporting System Frontend
+BAYOR DENIS BAGRESOLZU, 11252482_DCIT205_ASSIGNMENT_1 
 
-## Project Overview
+<b>Missing Grade Reporting System</b></br>
+This project is a responsive 7-page website designed to serve as a front-end for a "Missing Grade Reporting System," aimed at aiding students in tracking and reporting grades not recorded in their academic profiles. Developed using React, CSS, Bootstrap, or Tailwind, the system includes the following key features:
 
-This project is a front-end web application for a Student Grade Reporting System. It simulates a real-world application where students can view, report, and manage their academic grades. This system addresses the issue of missing or unrecorded grades in a student's profile.
+<b>Landing Page:</b> Provides an overview of the system with navigation links to other pages.
 
-## Application Structure
+<b>Login Page:</b> Offers a secure login form for students, simulating authentication without a real backend.
 
-The application consists of 7 main pages:
+<b>Dashboard Page:</b> Displays an overview of the student's current grades and alerts for any missing grades.
 
-- **Homepage:** Introduction to the system and its purpose.
-- **Login Page:** Mock login interface for student authentication.
-- **Dashboard:** Displays an overview of the student’s current grades and alerts for missing grades.
-- **Grade Report:** Shows a detailed view of the student's grades filtered by semester or academic year.
-- **Missing Grade Form:** Enables students to report missing grades.
-- **Instructor Contact Page:** Lists instructors' contact information with a simulated email feature.
-- **Help and Support:** Provides FAQs and a mock support contact form.
+<b>Grade Report Page:<b> Allows a detailed view of all courses and grades, with filtering options by semester or academic year.
 
-## Technical Details
+<b>Missing Grade Form Page:</b> Features a form to report a missing grade, including course details and an explanation field. A simulated confirmation message is displayed upon submission.
 
-- **Framework/Technology Used:** [React]
-- **Responsive Design:** Implemented using [CSS Flexbox/Grid, Bootstrap, Tailwind CSS].
-- **JavaScript Functionality:** Used for form validations, dynamic content rendering, and simulating interactions.
+<b>Instructor Contact Page:</b> Lists instructors with contact details and provides an option for simulated email communication.
 
-## Setup and Installation
+<b>Help and Support Page:</b> Includes a FAQ section on grade reporting and a mock-up contact form for technical support.
 
-To set up the project locally, follow these steps:
+The website incorporates a responsive navbar/sidebar and a footer for seamless navigation. Developers can choose between CSS, Bootstrap, or Tailwind for styling.
 
-```bash
-git clone https://github.com/your-github-username/DCIT_205_ASSIGNGMENT1.git
-cd repo-name
-npm install
-npm start
-```
+# Screenshots of the website
 
-This will start the application on `localhost` at the default port.
+## Landing Page
+![Alt text](screenshots/landingPage.png)
 
-## Usage
+## Dashboard
+![Alt text](screenshots/dashboard.png)
 
-Describe how to use the application, highlighting key functionalities such as logging in, viewing grades, reporting missing grades, and contacting instructors.
+## Grade Report
+![Alt text](screenshots/grade_report.png)
 
-## Contribution
+## Missing Grade Form
+![Alt text](screenshots/missing_grade_form.png)
 
-To contribute to this project, please follow these guidelines:
+## Instructor Contact
+![Alt text](screenshots/instructor_contact.png)
 
-1. Fork the repository.
-2. Create a new branch for your feature.
-3. Commit your changes and push them to your branch.
-4. Submit a pull request for review.
+## Help and Support
+![Alt text](screenshots/help_and_support.png)
 
-Please adhere to the project's coding standards and provide clear and detailed pull request descriptions.
+## Log In
+![Alt text](screenshots/login.png)
+
