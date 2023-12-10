@@ -5,8 +5,8 @@ import { useNavigate } from "react-router-dom";
 import { Container, Row, Col, Form, Button, Alert } from "react-bootstrap";
 import { FaPaperPlane, FaGraduationCap } from "react-icons/fa";
 import Navigation from "../components/Navigation";
-import VideoDash from "../components/VideoDash";
 import "./MissingGradeFormPage.css";
+import VideoMissing from "../components/VideoMissing";
 
 function MissingGradeFormPage() {
   const [course, setCourse] = useState("");
@@ -43,7 +43,7 @@ function MissingGradeFormPage() {
       </div>
       <div>
         {" "}
-        <VideoDash />
+        <VideoMissing />
       </div>
       <Container className="d-flex-container">
         <Row className="align-items-center justify-content-center text-center">

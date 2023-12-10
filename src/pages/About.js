@@ -15,7 +15,7 @@ const About = () => {
   };
 
   const sectionHeadingStyle = {
-    color: "#007bff",
+    color: "#01FFFF",
   };
 
   const formStyle = {
@@ -25,6 +25,7 @@ const About = () => {
 
   const labelStyle = {
     fontWeight: "bold",
+    color: "#01FFFF",
   };
 
   const buttonStyle = {
@@ -33,6 +34,9 @@ const About = () => {
     padding: "10px 20px",
     border: "none",
     cursor: "pointer",
+  };
+  const textHello = {
+    color: "#fff",
   };
 
   return (
@@ -64,7 +68,7 @@ const About = () => {
 
         <section>
           <h2 style={sectionHeadingStyle}>Contact Technical Support</h2>
-          <p>
+          <p style={textHello}>
             If you need further assistance, please fill out the form below, and
             our technical support team will get back to you.
           </p>

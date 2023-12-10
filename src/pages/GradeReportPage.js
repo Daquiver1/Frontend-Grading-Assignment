@@ -23,49 +23,49 @@ function GradeReportPage() {
     // Simulate fetching grades from an API
     setGrades([
       {
-        course: "Math 101",
+        course: "DCIT 205",
         grade: "A",
-        instructor: "John Smith",
+        instructor: "Micheal Soli",
         semester: "Fall 2023",
       },
       {
-        course: "English 201",
+        course: "DCIT 201",
         grade: "B+",
-        instructor: "Jane Doe",
+        instructor: "Paul AMMAH",
         semester: "Fall 2023",
       },
       {
-        course: "History 301",
+        course: "DCIT 207",
         grade: "C",
-        instructor: "Bob Lee",
+        instructor: "Fabrice Ihon",
         semester: "Fall 2023",
       },
       {
-        course: "Science 401",
+        course: "CBAS 210",
         grade: null, // Missing grade
         instructor: "Alice Wong",
         semester: "Fall 2023",
       },
       {
-        course: "Math 102",
+        course: "DCIT 209",
         grade: "A-",
-        instructor: "John Smith",
+        instructor: "John Sokkoto",
         semester: "Spring 2023",
       },
       {
-        course: "English 202",
+        course: "DCIT 203",
         grade: "B",
-        instructor: "Jane Doe",
+        instructor: "Jane Tomobah",
         semester: "Spring 2023",
       },
       {
-        course: "History 302",
+        course: "History 202",
         grade: "C+",
-        instructor: "Bob Lee",
+        instructor: "Yong Lee",
         semester: "Spring 2023",
       },
       {
-        course: "Science 402",
+        course: "Science 202",
         grade: "B-",
         instructor: "Alice Wong",
         semester: "Spring 2023",

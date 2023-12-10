@@ -17,7 +17,8 @@ import {
 import { FaGraduationCap, FaEnvelope } from "react-icons/fa";
 import Navigation from "../components/Navigation";
 import "./InstructorContactPage.css";
-import VideoDash from "../components/VideoDash";
+
+import VideoContact from "../components/VideoContact";
 function InstructorContactPage() {
   const [instructors, setInstructors] = useState([]);
   const [selectedInstructor, setSelectedInstructor] = useState(null);
@@ -91,7 +92,7 @@ function InstructorContactPage() {
       </div>
       <div>
         {" "}
-        <VideoDash />
+        <VideoContact />
       </div>
       <Container className="d-flex-container">
         <Row className="align-items-center justify-content-center text-center">
