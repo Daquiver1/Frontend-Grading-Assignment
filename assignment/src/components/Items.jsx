@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 const Items = () => {
     return ( 
      <div className="flex justify-between p-5">
@@ -5,7 +6,7 @@ const Items = () => {
             <li>{'\u00a9'} 2023 Missing Grade Report System | All Rights Reserved</li>
             <li>For technical support please contact:</li>
 
-            <li><span className="text-blue-700 hover:cursor-pointer hover:text-yellow-500 duration-75">support@missinggradesystem.com </span>| (+233)549-467-625</li>
+            <li><span className="text-blue-700 hover:cursor-pointer hover:text-yellow-500 duration-75"><Link to="/">support@missinggradesystem.com</Link> </span>| (+233)549-467-625</li>
             <li>Follow us on social media:</li>
 
             <li className="text-blue-700 py-1 align-middle"> <span className="mr-1 align-middle ">
