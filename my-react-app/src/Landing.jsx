@@ -4,11 +4,15 @@ import './Landing.css';
 
 function Landing() {
     return (
-        <div>
+        <div className="landing-container">
             <header>
-                <img className="Ug image" src={UgImageLogo} alt="Ug logo" />
+                <img className="logo" src={UgImageLogo} alt="Ug logo" />
             </header>
-            <button className="custom-button">Login</button>
+            <main className="main-content">
+                <h1>Welcome to the Missing Grade Report System</h1>
+                <p>Report missing grades effortlessly and efficiently.</p>
+                <button className="custom-button">Login</button>
+            </main>
         </div>
     );
 }
