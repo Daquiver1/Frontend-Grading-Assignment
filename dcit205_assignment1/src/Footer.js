@@ -10,8 +10,8 @@ const Footer = () => {
             
             <div className="footer-links">
 
-            <a  class="previous round" onClick={()=>navigate(-1)}>&#8249;</a>
-            <a  class="next round" onClick={()=> navigate(1)}>&#8250;</a>
+            <a  class="previous round" onClick={()=>navigate(-1)}> &#8249; Previous</a>
+            <a  class="next round" onClick={()=> navigate(1)}>Next &#8250;</a>
             </div>
         <footer>
                 <p >© 2023 University of Ghana. All rights reserved.</p>
