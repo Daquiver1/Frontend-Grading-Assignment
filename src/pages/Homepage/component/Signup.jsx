@@ -1,32 +1,69 @@
 import "../css/index.css";
-import { useNavigate } from "react-router-dom"
+// import {  useState } from "react-router-dom"
+// import  { useState } from 'react';
 
-const Signup = () => {
-    const navigate = useNavigate ();
+const signup = () => {
+//   const [userId, setUserId] = useState('');
+//   const [password, setPassword] = useState('');
+//   const [confirmPassword ,setconfirmPassword] = useState('');
+
+//   const handleSignup = (e) => {
+//     e.preventDefault();
+   
+  //};
   return (
-    <div>
-         <form className="form" method="post">
-           <label htmlFor="userId"className="user">Student Name:</label>
-           <input type="id" name="" value="" required/>
 
-           <label htmlFor="userId"className="user">Student ID:</label>
-           <input type="id" name="" value="" required/>
 
-           <label className="user" htmlFor="userPassword">Password:</label>
-           <input type="password" name="" value="" required/>
 
-           <button className="submit" type="submit">Login</button>
-           </form>
+    <div className="log">
+     <div className="password-pic">
+    <img src="src/images/sys.jpg" alt=""/>
+    </div> 
+    <div className="login-container">
+      <form className="login-form" >
+        <h2>Signup</h2>
+        <label htmlFor="username">Student ID:</label>
+        <input
+          type="text"
+          id="username"
+          // placeholder="Enter your ID"
+          // value={userId}
+          // onChange={(e) => setUserId(e.target.value)}
+          required
+        />
 
-             {/* <Routes>
-                      <Route index element={<Homepage/>}/>
-                      <Route path='/Login' element={<Login/>}/>
-                      <Route path="/Signup" element={<Signup/>}/>
-                 </Routes>  */}
+        <label htmlFor="password">Password:</label>
+        <input
+          type="password"
+          // placeholder="Enter your password"
+          id="password"
+          // value={confirmPassword}
+          // onChange={(e) => setconfirmPassword(e.target.value)}
+          required
+        />
+       
 
-                 <button type="" onClick={()=> navigate("/Login")}>qqwerty</button>
+
+        <label htmlFor="password">Confirm Password:</label>
+        <input
+          type="password"
+          // placeholder="Confirm your password"
+          id="password"
+          // value={password}
+          // onChange={(e) => setPassword(e.target.value)}
+          required
+        />
+
+        
+
+
+        <button type="submit">Signup</button>
+
+        <p>Already have an account? <a href="/Login">Log in.</a></p>
+      </form>
+    </div>
     </div>
   )
 }
 
-export default Signup
+export default signup

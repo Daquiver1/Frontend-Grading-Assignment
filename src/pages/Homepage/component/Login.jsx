@@ -1,31 +1,31 @@
 
 import "../css/index.css";
-import  { useState } from 'react';
+// import  { useState } from 'react';
 
 
-const login = () => {
-    const [username, setUserId] = useState('');
-    const [password, setPassword] = useState('');
+ const login = () => {
+//     const [username, setUserId] = useState('');
+//     const [password, setPassword] = useState('');
   
-    const handleLogin = (e) => {
-      e.preventDefault();
+//     const handleLogin = (e) => {
+//       e.preventDefault();
      
-    };
-  return (
+//     };
+   return (
     <div className="log">
      <div className="password-pic">
     <img src="src/images/system2.jpg" alt=""/>
     </div> 
     <div className="login-container">
-      <form className="login-form" onSubmit={handleLogin}>
+      <form className="login-form" >
         <h2>Login</h2>
         <label htmlFor="username">Student ID:</label>
         <input
           type="text"
           id="username"
           placeholder="Enter your ID"
-          value={username}
-          onChange={(e) => setUserId(e.target.value)}
+          // value={username}
+          // onChange={(e) => setUserId(e.target.value)}
           required
         />
 
@@ -34,16 +34,17 @@ const login = () => {
           type="password"
           placeholder="Enter your password"
           id="password"
-          value={password}
-          onChange={(e) => setPassword(e.target.value)}
+          // value={password}
+          // onChange={(e) => setPassword(e.target.value)}
           required
         />
 
         <button type="submit">Login</button>
+        <p>Dont have an account? <a href="/Signup">Sign up</a></p>
       </form>
     </div>
     </div>
-  )
-}
+   )
+ }
 
 export default login
