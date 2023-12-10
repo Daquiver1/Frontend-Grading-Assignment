@@ -18,28 +18,30 @@ import footer from "./components/footer/footer";
 
 function App() {
     return(
-      <div className="App-header">
-        
-        <BrowserRouter>
+         <div className="App-header">
+      
+    
+         
+         <BrowserRouter>
         
         
           
-           <Navbar  />
+            <Navbar  />
            
             <Routes >
-              <Route  path="/" Component={Home} /> 
+              <Route  path="/Home" Component={Home} /> 
               <Route path="/About" Component={About } /> 
               <Route path="/Login" Component={Login} /> 
               <Route path="/InstructorContact" Component={InstructorContact} /> 
               <Route path="/Dashboard" Component={Dashboard} /> 
               <Route path="/GradeReport" Component={GradeReport} /> 
               <Route path="/Contact" Component={Contact} /> 
-            </Routes>
-          </BrowserRouter>
+              </Routes>
+           </BrowserRouter>
           
           
         
-          <footer/>  
+           <footer/>   
       </div>
        
     );

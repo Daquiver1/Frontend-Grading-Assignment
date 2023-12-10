@@ -1,21 +1,61 @@
-import React from "react";
+import React ,{useState} from "react";
+import { Link, NavLink } from "react-router-dom";
+import "../Navbar.css"
+
+
 
 const Navbar=()=>{
+    const [menuOpen,setMenuOpen] =useState(false)
+       
     return(
-        <div className="coloring">
-        <nav className="ui raised very padded segment">
-            <a className="ui real inverted segment">Grade-Tracker</a>
-            <div className="ui right floated header">
-                <button className="ui button"><a href="/">Home</a></button>
-                <button className="ui button"><a href="/GradeReport">GradeReport</a></button>
-                <button className="ui button"><a href="/Login">Login</a></button>
-                <button className="ui button"><a href="/About">About</a></button>
-                <button className="ui button"><a href="/Contact">Contact</a></button>
-                <button className="ui button"><a href="/Dashboard">Dashboard</a></button>
-                <button className="ui button"><a href="/InstructorContact">InstructorContact</a></button>
+     
+        
+        <nav >
+      
+      
+            <li>
+            <Link to ="/Home" className="title">GradeTracker</Link>
+            </li>
+            <div className="menu" onClick={()=>{
+                setMenuOpen(!menuOpen);
+            }}>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
             </div>
-        </nav>
-        </div>
+        <ul className={menuOpen ? "open": ""}>
+            <li>
+            <NavLink to ="/Home">Home</NavLink>
+            </li>
+            <li>
+            <NavLink to="/Login">Login</NavLink>
+            </li>
+            <li>
+            <NavLink to="/About">About</NavLink>
+            </li>
+            <li>
+            <NavLink to="/InstructorContact">InstructorContact</NavLink>
+            </li>
+            <li>
+            <NavLink to="/Dashboard">Dashboard</NavLink>
+            </li>
+            <li>
+            <NavLink to="/GradeReport">GradeReport</NavLink>
+            </li>
+            <li>
+            <NavLink to="/Contact">Contact</NavLink>
+            </li>
+            
+        
+        </ul>
+      </nav>
+      
+           
+        
     )  
 }
 export default Navbar; 
