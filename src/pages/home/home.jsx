@@ -11,15 +11,15 @@ import {
   Checkbox,
 } from "@material-tailwind/react";
 import { FingerPrintIcon, UsersIcon } from "@heroicons/react/24/solid";
-import { FeatureCard } from "@/widgets/cards";
-import { featuresData } from "@/data";
+import { FeatureCard } from "../../widgets/cards/index";
+import { FeatureData } from "../../data/index";
 import { Link } from "react-router-dom";
 
 export function Home() {
   return (
     <>
       <div className="relative flex h-screen content-center items-center justify-center pt-16 pb-32">
-        <div className="absolute top-0 h-full w-full bg-[url('https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=3271&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] bg-cover bg-center" />
+        <div className="absolute top-0 h-full w-full bg-[url('https://img.freepik.com/free-photo/young-student-working-assignment_23-2149257188.jpg?w=1060&t=st=1702228400~exp=1702229000~hmac=c4ae266d941d29b0659fefed41a2390accc7f6dcfc8a4435fe76d8336899fcca')] bg-cover bg-center" />
         <div className="absolute top-0 h-full w-full bg-black/60 bg-cover bg-center" />
         <div className="max-w-8xl container relative mx-auto">
           <div className="flex flex-wrap items-center">
@@ -42,7 +42,7 @@ export function Home() {
       <section className="-mt-32 bg-white px-4 pb-20 pt-4">
         <div className="container mx-auto">
           <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
-            {featuresData.map(({ color, title, icon, screen, description }) => (
+            {FeatureData.map(({ color, title, icon, screen, description }) => (
               <Link key={title} to={`${screen}`}>
                 <FeatureCard
                   color={color}
@@ -57,9 +57,6 @@ export function Home() {
           </div>
         </div>
       </section>
-      <div className="bg-white">
-        <Footer />
-      </div>
     </>
   );
 }

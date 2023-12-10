@@ -10,21 +10,6 @@ import {
 
 export const routes = [
   {
-    name: "login",
-    path: "/login",
-    element: <Login />,
-  },
-  {
-    name: "dashboard",
-    path: "/dashboard",
-    element: <Dashboard />,
-  },
-  {
-    name: "gradereport",
-    path: "/gradereport",
-    element: <GradeReport />,
-  },
-  {
     name: "home",
     path: "/home",
     element: <Home />,
@@ -38,6 +23,21 @@ export const routes = [
     name: "support",
     path: "/support",
     element: <Support />,
+  },
+  {
+    name: "login",
+    path: "/login",
+    element: <Login />,
+  },
+  {
+    name: "dashboard",
+    path: "/dashboard",
+    element: <Dashboard />,
+  },
+  {
+    name: "gradereport",
+    path: "/gradereport",
+    element: <GradeReport />,
   },
   {
     name: "missinggradereport",
