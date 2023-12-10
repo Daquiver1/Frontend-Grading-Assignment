@@ -24,9 +24,7 @@ function App() {
         <Route path='/Missing grade' element={<Missinggrade/>} />
       </Routes>  
         <header>
-          
             <nav className='navigation'>
-            
                 <Link className='dash' to='/Home'>Home</Link>
             
                 <Link className='dash' to='/dashboard'>Dashboard</Link>
@@ -40,9 +38,7 @@ function App() {
                 <Link className='dash' to='/HelpandSupport'>Help and Support</Link>
 
                 <Link className='dash' to='/Login'>Login</Link>
-              
               </nav>
-          
         </header>
     </div>
   );
