@@ -1,9 +1,10 @@
-import { Routes, Route} from "react-router-dom"
-import "./components/pages/pages.js"
+import { Routes, Route } from "react-router-dom";
+import "./components/pages/pages.js";
 import { LoginPage } from "./components/pages/pages.js";
 import LandPage from "./components/LandPage.jsx";
 import Dashboard from "./components/pages/Dashboard.jsx";
 import Gradereport from "./components/pages/Gradereport.jsx";
+import MissingGrade from "./components/pages/MissingGrade.jsx";
 
 function App() {
   return (
@@ -12,7 +13,8 @@ function App() {
         <Route path="/login" element={<LoginPage></LoginPage>}></Route>
         <Route path="/" element={<LandPage></LandPage>}></Route>
         <Route path="/dashboard" element={<Dashboard></Dashboard>}></Route>
-        <Route path="/grades" element={<Gradereport></Gradereport>}></Route>
+        <Route path="/report" element={<Gradereport></Gradereport>}></Route>
+        <Route path="/missing" element={<MissingGrade></MissingGrade>}></Route>
       </Routes>
     </>
   );

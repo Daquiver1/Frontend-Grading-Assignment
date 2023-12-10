@@ -6,8 +6,8 @@
   .custom-color {
     @apply text-blue-500;
   }
-  .text-color{
-    @apply text-blue-300
+  .text-color {
+    @apply text-blue-300;
   }
   .rounded-side {
     @apply rounded-full bg-blue-100 border-blue-500;
@@ -15,39 +15,54 @@
   .hover-effect {
     @apply hover:cursor-pointer hover:shadow-lg duration-200 hover:bg-blue-200;
   }
-  .sliding-texts{
-    @apply text-7xl italic text-blue-500 font-semibold
+  .sliding-texts {
+    @apply text-7xl italic text-blue-500 font-semibold;
   }
-  .sliding-semi-text{
-    @apply text-3xl italic text-blue-50 font-normal
+  .sliding-semi-text {
+    @apply text-3xl italic text-blue-50 font-normal;
   }
-  .hover-apply{
-    @apply text-blue-500 text-xl
+  .hover-apply {
+    @apply text-blue-500 text-xl;
+  }
+  .label {
+    @apply text-blue-800 text-2xl italic font-semibold;
+  }
+  .form-style {
+    @apply flex flex-col bg-black bg-opacity-30 justify-center w-screen gap-10 mt-10 text-2xl italic place-items-center;
+  }
+  .placeholder {
+    @apply placeholder:text-green-700 placeholder:italic;
+  }
+  .button {
+    @apply bg-green-200 rounded-lg text-blue-500 hover:bg-blue-300 hover:text-green-300 hover:cursor-pointer duration-[0.3s] font-semibold text-xl;
+  }
+  .button-reset {
+    @apply bg-blue-300 rounded-lg text-red-500 hover:bg-red-300 hover:text-blue-500 hover:cursor-pointer duration-[0.3s] font-semibold text-xl;
   }
 }
 
-.slide-text{
-    animation: slide-text ease-in-out 5s infinite;
+.slide-text {
+  animation: slide-text ease-in-out 5s infinite;
 }
 
-.grid-view{
+.grid-view {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(390px, 1fr));
   gap: 2rem;
 }
 
-@keyframes slide-text{
-    0%{
-        transform: translateY(0%)
-    }
-    50%{
-        transform: translateY(-50%)
-    }
+@keyframes slide-text {
+  0% {
+    transform: translateX(0%);
+  }
+  50% {
+    transform: translateX(-10%);
+  }
 
-    51%{
-        transform: translateY(60%)
-    }
-    100%{
-        transform: translateY(-100%)
-    }
+  51% {
+    transform: translateX(20%);
+  }
+  100% {
+    transform: translateX(30%);
+  }
 }

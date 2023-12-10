@@ -109,8 +109,8 @@ const Dashboard = () => {
         {getCourseOverview()}
         {getCourseOverview()}
         {getCourseOverview()}
-        <Footer className = "hidden md:block"></Footer>
       </div>
+      <Footer className="hidden md:block"></Footer>
     </>
   );
 };

@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Header from "./pages/header";
-import Footer from "./pages/Footer";
+import LoginFooter from "./pages/LoginFooter";
 
 const LandPage = () => {
   const [showText, setShowText] = useState(false);
@@ -46,7 +46,7 @@ const LandPage = () => {
           </div>
         </div>
       </div>
-      <Footer></Footer>
+      <LoginFooter></LoginFooter>
     </>
   );
 };

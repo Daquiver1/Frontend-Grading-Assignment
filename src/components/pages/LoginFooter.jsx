@@ -1,18 +1,16 @@
 import { Link } from "react-router-dom";
 
-const Footer = () => {
+const LoginFooter = () => {
   const dateValue = new Date();
   const dateYear = dateValue.getFullYear();
 
   return (
     <>
-      <div className="container flex place-items-center bg-blue-800 w-full justify-center relative bottom-0"> {/*Specify position when using directions like right, left etc*/}
+      <div className="container flex place-items-center bg-blue-800 w-full justify-center fixed bottom-0">
+        {" "}
+        {/*Specify position when using directions like right, left etc*/}
         <div className="left- flex place-items-center gap-5">
-          <img
-            className="rounded-full w-16 h-16"
-            src="/coat-arms.jpg"
-            alt=""
-          />
+          <img className="rounded-full w-16 h-16" src="/coat-arms.jpg" alt="" />
           <Link className="text-blue-100" to="/legal-section">
             Legal Docs
           </Link>
@@ -92,4 +90,4 @@ const Footer = () => {
   );
 };
 
-export default Footer;
+export default LoginFooter;

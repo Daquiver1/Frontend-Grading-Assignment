@@ -54,12 +54,20 @@ const Header = () => {
               CREATE ACCOUNT
             </button>
           </Link>
-          <Link to="/grade-report">
+          <Link to="/report">
             <button
               className="rounded-side w-full hover-effect custom-color"
               title="Click here for help"
             >
               GRADE REPORT
+            </button>
+          </Link>
+          <Link to="/missing">
+            <button
+              className="rounded-side w-full hover-effect custom-color"
+              title="Click here for help"
+            >
+              MISSING GRADE
             </button>
           </Link>
           <Link to="/instructor">

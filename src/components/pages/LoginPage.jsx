@@ -2,7 +2,7 @@ import { useState } from "react";
 import "../../Styles/customStyles/LandPage.css";
 import { Link } from "react-router-dom";
 import Header from "./header";
-import Footer from "./Footer";
+import LoginFooter from "./LoginFooter";
 
 const LoginPage = () => {
   // const [isNext, setIsNext] = useState(false);
@@ -84,7 +84,7 @@ const LoginPage = () => {
           </p>
         </div>
       </div>
-      <Footer></Footer>
+      <LoginFooter></LoginFooter>
     </>
   );
 };
