@@ -15,7 +15,7 @@ function AppHeader() {
         <Navbar.Collapse id="basic-navbar-nav">
           <div className="right-side">
           <Nav className="mr-3">
-            <Nav.Link as={Link} to="/Home">Home</Nav.Link>
+            <Nav.Link as={Link} to="/">Home</Nav.Link>
             <Nav.Link as={Link} to="/login">Login</Nav.Link>
             <Nav.Link as={Link} to="/dashboard">Dashboard</Nav.Link>
             <Nav.Link as={Link} to="/grade report">Grade Report</Nav.Link>
@@ -31,4 +31,3 @@ function AppHeader() {
 }
 
 export default AppHeader;
-

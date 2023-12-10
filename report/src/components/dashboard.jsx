@@ -5,7 +5,7 @@ import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 
-function AppDashboard() {
+ function AppDashboard() {
   // Replace with actual user data or fetch it from your backend
   const user = {
     name: 'Christian Dwamena',

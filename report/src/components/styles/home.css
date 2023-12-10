@@ -1,0 +1,17 @@
+
+.feature-card {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    height: 100%;
+  }
+
+.feature-icon {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    color: #007bff; /* Change the color as needed */
+  }
+
+.backgorund{  
+background-color: black;
+}

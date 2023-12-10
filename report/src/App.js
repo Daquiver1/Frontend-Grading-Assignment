@@ -19,7 +19,7 @@ function App() {
     <>
     <AppHeader />
     <Routes>
-      <Route path ='Home' element={<Home />} />
+      <Route path ='/' element={<Home />} />
       <Route path="dashboard" element={<AppDashboard />} />
       <Route path="grade report" element={<AppReport />} />
       <Route path="instructor" element={<AppInstructor />} />
