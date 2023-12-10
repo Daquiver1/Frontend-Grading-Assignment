@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import './style.css'
 
 const LoginPage = () => {
   const [studentId, setStudentId] = useState('');
@@ -25,34 +26,38 @@ const LoginPage = () => {
   };
 
   return (
-    <div>
-      <h2>Login Page</h2>
+    <div className='login-container'> 
+     <div className="login-header"> <h2 className='login-text' >Login Page</h2></div> 
       <form>
-        <div>
+        <div className='box'>
           <label htmlFor="studentId">Student ID:</label>
-          <input
+          <input className='login-input1'
             type="text"
             id="studentId"
             value={studentId}
             onChange={handleStudentIdChange}
           />
         </div>
-        <div>
+        <div className='box'>
           <label htmlFor="pin">PIN:</label>
-          <input
+          <input className='login-input2'
             type="password"
             id="pin"
             value={pin}
             onChange={handlePinChange}
           />
         </div>
-        {loginError && <p style={{ color: 'red' }}>Invalid Student ID or PIN</p>}
-        <button type="button" onClick={handleLogin}>
+        {loginError && <p style={{ color: 'green' }}>Welcome Stephen!</p>}
+        <button className='loginbutton' type="button" onClick={handleLogin}>
           Login
         </button>
+        <div className="forgot-password">Forgot Password? <span>Click Here!</span></div>
       </form>
     </div>
   );
 };
 
 export default LoginPage;
+
+
+
