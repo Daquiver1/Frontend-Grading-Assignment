@@ -1,18 +1,18 @@
-import Footer from "../components/Footer";
-import Navbar from "../components/Navbar";
+// import Footer from "../components/Footer";
+// import Navbar from "../components/Navbar";
 
 const ReportMissingGrade = () => {
 
     const boxShadow = {
         "box-shadow": "0px 4px 8px 0px #757575",
         // "padding": "20px",
-        "margin-top": "13rem",
+        "margin-top": "4rem",
         "background": "#fff"
 
     }
     return (
         <div>
-            <Navbar />
+            {/* <Navbar /> */}
             <div class="container" style={ boxShadow }>
                
                 <div class="row">
@@ -49,7 +49,7 @@ const ReportMissingGrade = () => {
                 
             </div>
 
-            <Footer />
+            {/* <Footer /> */}
         </div>
     )
                        

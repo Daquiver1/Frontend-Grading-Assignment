@@ -1,11 +1,11 @@
 import "./CustomHelp.css"
-import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
+// import Navbar from "../components/Navbar";
+// import Footer from "../components/Footer";
 
 const Help  = () => {
     return (
         <div>
-            <Navbar />
+            {/* <Navbar /> */}
             <div className="container faqs p-5">
                <h4 className="text-center my-5">FAQ Section Regarding Grade Reporting</h4>
 
@@ -148,7 +148,7 @@ const Help  = () => {
                 </div>
             </div>
             
-            <div className="container mt-5 contact-container">
+            <div className="container contact-container">
                 <div className="row">
                     <div className="col-md-6 bg-primary">
                         {/* <img src="https://support.content.office.net/en-us/media/ff5288dc-d481-40cd-8eba-5b8b9652aeb9.png" alt="" className="img-fluid" /> */}
@@ -183,7 +183,7 @@ const Help  = () => {
                 </div>
             </div>
 
-            <Footer />
+            {/* <Footer /> */}
         </div>
     )
 }

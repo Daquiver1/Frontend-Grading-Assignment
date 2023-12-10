@@ -1,12 +1,10 @@
-import Footer from "../components/Footer";
-import Navbar from "../components/Navbar";
+
 import "./CustomLogin.css";
 
 const Login = () => {
     return (
         <div>
-            <Navbar />
-            <div className="container login-container px-1 px-md-5 px-lg-1 px-xl-5 py-5 mx-auto">
+            <div className="container-fluid login-container px-1 px-md-5 px-lg-1 px-xl-5 py-5 mx-auto">
                 <div className="card card0 border-0">
                     <div className="bg-blue py-5">
                         
@@ -32,19 +30,18 @@ const Login = () => {
 
                                     <div className="form-floating mb-3 mt-3">
                                         <input type="text" className="form-control mt-2" id="floatingInputText" placeholder="1211282" />
-                                        <label for="floatingInputEmail">Student Id</label>
+                                        <label htmlFor="floatingInputEmail">Student Id</label>
                                     </div>
 
                                     <div className="form-floating mb-3 mt-3">
                                         <input type="password" className="form-control" id="floatingPassword" placeholder="Password" />
-                                        <label for="floatingPassword">Student Pin</label>
+                                        <label htmlFor="floatingPassword">Student Pin</label>
                                     </div>
 
                                     <div className="d-grid mb-2 mt-3">
                                       <button className="btn btn-lg btn-primary btn-login" type="submit">Login</button>
                                     </div>
 
-                                    {/* <a class="d-block text-center mt-2 small" href="#">Have an account? Sign In</a> */}
 
                                 </form>
                             </div>
@@ -56,7 +53,6 @@ const Login = () => {
                 </div>
             </div>
 
-            <Footer />
         </div>
     )
 }
