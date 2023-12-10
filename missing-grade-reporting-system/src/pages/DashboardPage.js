@@ -14,7 +14,10 @@ import { BiSolidMessageDetail } from "react-icons/bi";
 import { IoSettings } from "react-icons/io5";
 import golden_boy from '../images/golden_boy.jpg';
 import Calendar from './calendar.js';
-import DashboardPagebg from '../images/bg-dashboard.jpeg'
+import { MdOutlinePayments } from "react-icons/md";
+import { GrSchedules } from "react-icons/gr";
+import { SiFormstack } from "react-icons/si";
+import bgdashboard1 from '../images/bg-dashboard1.jpeg';
 
 
 
@@ -24,7 +27,7 @@ const Dashboard = () => {
   return (
     <div className="flex">
       <div
-        className={`bg-dark-purple h-screen p-5 pt-8 ${
+        className={`bg-dark-purple min-h-screen p-5 pt-8 ${
           open ? "w-72" : "w-20"
         } relative`}
       >
@@ -211,7 +214,7 @@ const Dashboard = () => {
           </input>
         </div>
           </div>
-          <div className="bg-Thistle rounded-lg p-4">
+          <div className="bg-Thistle rounded-lg p-4 bg-cover bg-no-repeat  relative" style={{ backgroundImage: `url(${bgdashboard1})` }}>
             <div className="flex items-center space-x-4">
               <div className="w-16 h-16 bg-gray-300 rounded-full bg-cover bg-no-repeat  relative" style={{ backgroundImage: `url(${golden_boy})` }}></div>
               <div className="flex justify-between">
@@ -230,6 +233,9 @@ const Dashboard = () => {
             </div>
           </div>
           <div className="bg-white p-4">
+            <br/>
+          <h1 className=" text-xl font-bold">Access vital academic insights and effortlessly navigate your educational path. <br/></h1>
+          <br/>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
               <div className="bg-blue-200 p-4 rounded-lg">
                 <h3 className="text-lg font-bold">Account Balance</h3>
@@ -243,12 +249,23 @@ const Dashboard = () => {
                 <h3 className="text-lg font-bold">Position held</h3>
                 <p className="text-gray-700">Common Floor Member</p>
               </div>
+              <div className="bg-lavenderGrey p-4 rounded-lg">
+                <h3 className="text-lg font-bold">Payment History</h3>
+                <MdOutlinePayments className="rounded-full text-2xl cursor-pointer mr-12" />
+              </div>
+              <div className="bg-Tiger-Eye p-4 rounded-lg">
+                <h3 className="text-lg font-bold">Timetable</h3>
+                <GrSchedules className="rounded-full text-2xl cursor-pointer mr-12"/>
+              </div>
+              <div className="bg-Charcoal p-4 rounded-lg">
+                <h3 className="text-lg font-bold">Student Services</h3>
+                <SiFormstack className="rounded-full text-2xl cursor-pointer mr-12"/>
+              </div>
             </div>
           </div>
           <div className="bg-white p-4">
   <h2 className="text-xl font-bold">Activity</h2>
     <Calendar/>
-  {/* Add your activity component here */}
 </div>
 
         </div>

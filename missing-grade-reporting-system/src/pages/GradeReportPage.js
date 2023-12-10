@@ -9,6 +9,9 @@ import { AiFillFund } from "react-icons/ai";
 import { FaWpforms } from "react-icons/fa";
 import { MdPermContactCalendar } from "react-icons/md";
 import { MdLiveHelp } from "react-icons/md";
+import GradeSummary from './grades.js';
+import books from '../images/books.jpg';
+
 
 
 
@@ -18,7 +21,7 @@ const GradeReport = () => {
   return (
     <div className="flex">
 
-      <div className={`bg-dark-purple h-screen p-5 pt-8 ${open ? "w-72" : "w-20"} relative`}>
+      <div className={`bg-dark-purple min-h-screen p-5 pt-8 ${open ? "w-72" : "w-20"} relative`}>
       
       <div className="inline-flex"> 
       <AiFillBook className={`bg-orange-500 text-6xl rounded cursor-pointer block float-left mr-2 duration-500 ${open && "rotate=[360deg]"} `}/>
@@ -84,15 +87,17 @@ const GradeReport = () => {
       </Link>
 
 
-      <BsChevronLeft className={`bg-gray-300 text-black text-3xl rounded-full absolute -right-3.5 top-9 cursor-pointer ${!open ? "rotate-180" : ""}`} onClick={()=>setOpen(!open)}/>
+      <BsChevronLeft className={`bg-gray-300 text-black text-3xl rounded-full absolute -right-3.5 top-9 cursor-pointer z-10 ${!open ? "rotate-180" : ""}`} onClick={()=>setOpen(!open)}/>
       </div>
 
       
 
       
 
-      <div className="p-7">
-        <h1 className = "text-2xl font-semibold"> Welcome to the GRADE REPORT PAGE </h1>
+      <div className=" flex-1 bg-cover bg-no-repeat  relative" style={{ backgroundImage: `url(${books})` }}>
+      <div className="absolute inset-0 bg-black opacity-30"></div>
+        <GradeSummary/>
+        
       </div>
 
 
