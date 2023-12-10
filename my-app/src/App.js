@@ -1,17 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+// App.js
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
-function App() {
+
+import MissingGradeForm from './pages/MissingGradeFormPage';
+import Dashboard from './pages/DashboardPage';
+import Landing from './pages/LandingPage';
+import Login from './pages/LoginPage';
+import GradeReport from './pages/GradeReportPage';
+import InstructorContact from './pages/InstructorContactPage';
+import HelpAndSupport from './pages/HelpAndSupportPage';
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-      </header>
-    </div>
+    <Router>
+      <div className="App">
+          <Routes>
+            <Route path="/" exact element={<Landing/>} />
+            <Route path="/Login" exact element={<Login/>} />
+            <Route path="/Dashboard" exact element={<Dashboard/>} />
+            <Route path="/GradeReport" exact element={<GradeReport/>} />
+            <Route path="/MissingGradeForm" exact element={<MissingGradeForm/>} />
+            <Route path="/InstructorContact" exact element={<InstructorContact/>} />
+            <Route path="/HelpAndSupport" exact element={<HelpAndSupport/>} />
+          </Routes>
+      </div>
+    </Router>
   );
-}
+};
 
 export default App;
