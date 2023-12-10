@@ -1,0 +1,9 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.cover{
+position: relative;
+top: 100px;
+}

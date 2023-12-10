@@ -2,17 +2,16 @@ header{
   position: fixed;
   top: 0;
   right: 10x;
+  height: 100px;
   width: 100%;
   padding: px 10px;
   display: flex;
   justify-content: space-around;
   align-items: center;
+  background-color: aqua;
   z-index: 99;
   }
 
-  .logo {
-      color: black;
-  }
 
   .navigation .dash {
       position: relative;
@@ -40,3 +39,8 @@ header{
       transform-origin: left;
       transform: scaleX(1);
   }
+
+.text{
+    position: relative;
+    top: 110px
+}

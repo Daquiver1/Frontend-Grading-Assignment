@@ -10,6 +10,7 @@ import Login from './Login';
 import Missinggrade from './Missinggrade';
 import { Link } from 'react-router-dom' 
 import './App.css'
+import Loginform from './Login';
 
 function App() {
   return (
@@ -40,7 +41,10 @@ function App() {
                 <Link className='dash' to='/Login'>Login</Link>
               </nav>
         </header>
+        <div className='page'>
+        </div>
     </div>
+    
   );
 }
 
