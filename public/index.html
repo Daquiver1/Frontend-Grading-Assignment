@@ -24,9 +24,27 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
+
+     <!-- Font Family-->
+     <link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,400,500,600,700,800" rel="stylesheet">
+ 
+     <!--bootstrap css-->
+     <link href="landing/css/bootstrap.css" rel="stylesheet" type="text/css">
+ 
+     <!-- color css -->
+     <link href="landing/css/color-3.css" rel="stylesheet" type="text/css">
+ 
+     <!-- Icons -->
+     <!-- <link href="landing/css/fontawesome.css" rel="stylesheet" type="text/css"> -->
+     <link href="landing/css/themify.css" rel="stylesheet" type="text/css">
+ 
+     <!-- flat Icons -->
+     <link href="landing/css/flaticon.css" rel="stylesheet" type="text/css">
+
     <title>React App</title>
   </head>
-  <body>
+  <body className="event" data-offset="50" data-spy="scroll" data-bs-target=".navbar">
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
     <!--
@@ -39,5 +57,21 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+
+     <!-- Tap on Top-->
+    <div class="tap-top">
+      <div><i class="fa fa-angle-double-up"></i></div>
+    </div>
+    <!-- Tap on Ends-->
+
+    <!-- latest jquery-->
+    <script src="landing/js/jquery-3.3.1.min.js"></script>
+
+    <!-- Bootstrap js-->
+    <script src="%PUBLIC_URL%/landing/js/bootstrap.js"></script>
+
+    <!-- script js-->
+    <script src="%PUBLIC_URL%/landing/js/main.js"></script>
+    <script src="%PUBLIC_URL%/landing/js/layout-fix.js"></script>
   </body>
 </html>
