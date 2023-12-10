@@ -3,7 +3,7 @@ import "./App.css";
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Login } from "./pages/login";
-import Landing from "./pages/landing";
+
 import Layout from "./pages/layout";
 import { Dashboard } from "./pages/dashboard";
 import { GradeReport } from "./pages/grade report";
@@ -16,25 +16,17 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
-          <Route
-            path="/"
-            element={
-              <>
-                <Layout />
-                <Routes>
-                  <Route index element={<Landing />} />
-                </Routes>
-              </>
-            }
-          />
+          <Route path="/" element={<Layout />} />
           <Route path="login" element={<Login />} />
           <Route path="dashboard" element={<Dashboard />} />
-          <Route path="grade-report" element={GradeReport}></Route>
+          <Route path="grade-report" element={<GradeReport />}></Route>
           <Route
             path="missing_grade_report"
-            element={Missing_Grade_Form}></Route>
-          <Route path="instructor_contact" element={Instructor_Contact}></Route>
-          <Route path="help_and_support" element={Help_and_Support}></Route>
+            element={<Missing_Grade_Form />}></Route>
+          <Route
+            path="instructor_contact"
+            element={<Instructor_Contact />}></Route>
+          <Route path="help_and_support" element={<Help_and_Support />}></Route>
         </Routes>
       </BrowserRouter>
 
