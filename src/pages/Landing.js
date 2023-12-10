@@ -1,12 +1,10 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { Fragment } from 'react';
-import logo from '../assets/images/logo/main-logo-1.png';
 import imageDown from '../assets/images/image-down.png';
 import pic1 from '../assets/images/1.jpg';
 import CaptivatingSpeakers from '../assets/images/CaptivatingSpeakers.png';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFacebookF,faInstagram, faXTwitter, faGoogle } from '@fortawesome/free-brands-svg-icons';
-
+import LandingHeader from "../layout/header/LandingHeader";
+import LandingFooter from '../layout/footer/LandingFooter';
 
 
 function Landing(){
@@ -27,52 +25,7 @@ function Landing(){
                 </div>
             </div>
 
-            <header className="event loding-header nav-abs custom-scroll nav-lg">
-                <div className="container">
-                    <div className="row">
-                        <div className="col">
-                            <nav>
-                                <a className="d-inline-block m-r-auto" href="events_layout.html">
-                                    <img alt="" className="img-fluid" src={logo}/>
-                                </a>
-                                <div className="responsive-btn">
-                                    <a className="toggle-nav" href="#">
-                                        <i className="fa fa-bars text-white"></i>
-                                    </a>
-                                </div>
-                                <div className="navbar m-l-auto" id="togglebtn">
-                                    <div className="responsive-btn">
-                                        <a className="btn-back" href="#">
-                                            <h5>back</h5>
-                                        </a>
-                                    </div>
-                                    <ul className="main-menu">
-                                        <li>
-                                            <a href="#">home</a>
-                                        </li>
-                                        <li>
-                                            <a class="dropdown" href="#">Help and Support</a>
-                                            <ul>
-                                                <li><a href="faq.html">FAQ</a></li>
-                                                <li><a href="collection.html">Contact</a></li>
-                                            </ul>
-                                        </li>
-                                        <li></li>
-                                        <li></li>
-                                        <li></li>
-                                        <li className="mega-menu">
-                                            <div className="text-center link-horizontal">
-                                                <a className=" btn btn-default back-white text-uppercase border-not"
-                                                    href="#">Login</a>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </nav>
-                        </div>
-                    </div>
-                </div>
-            </header>
+            <LandingHeader showLogin={true}/>
 
 
             {/* <!-- header Start--> */}
@@ -179,7 +132,7 @@ function Landing(){
 
 
                                             <div class="text-center link-horizontal">
-                                                <a class=" btn btn-default back-white text-uppercase border-not" href="#">Login
+                                                <a class=" btn btn-default back-white text-uppercase border-not" href="/login">Login
                                                     Here</a>
                                             </div>
                                         </div>
@@ -298,47 +251,7 @@ function Landing(){
             {/* <!-- about section end--> */}
 
 
-            {/* <!--copyright section start--> */}
-            <div className="event copyright flex">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="link-horizontal d-flex align-content-lg-center h-100">
-                                <ul>
-                                    <li>
-                                        <a class="center-content" href="#">
-                                            {/* <i class="fa fa-facebook"></i> */}
-                                            <FontAwesomeIcon icon={faFacebookF} />
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a class="center-content" href="#">
-                                            {/* <i class="fa fa-twitter"></i> */}
-                                            <FontAwesomeIcon icon={faInstagram} />
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a class="center-content" href="#">
-                                            {/* <i class="fa fa-instagram"></i> */}
-                                            <FontAwesomeIcon icon={faXTwitter} />
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a class="center-content" href="#">
-                                            {/* <i class="fa fa-google"></i> */}
-                                            <FontAwesomeIcon icon={faGoogle} />
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <p class="copyright-text text-end text-white">© 2023 Royalty. All Rights Reserved </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            {/* <!--copyright section end--> */}
+           <LandingFooter/>
 
 
         </Fragment>

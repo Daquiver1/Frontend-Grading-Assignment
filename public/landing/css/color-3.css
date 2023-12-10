@@ -8,6 +8,10 @@
     color: #fff
 }
 
+.login-rounded{
+    border-radius: 30px;
+}
+
 body {
     font-family: 'Poppins', sans-serif;
     position: relative;
