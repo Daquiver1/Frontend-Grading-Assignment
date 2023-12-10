@@ -4,25 +4,24 @@ const DashboardPage = () => {
   const [grades, setGrades] = useState([]);
   const [missingGrades, setMissingGrades] = useState([]);
 
-  // Simulated API call to fetch grades data
+  
   useEffect(() => {
-    // Replace this with your actual API call to fetch grades
-    // For demonstration, using setTimeout to mimic API call m
+    
     const fetchGrades = () => {
       setTimeout(() => {
-        // Simulated fetched grades data
+        
         const fetchedGrades = [
           { subject: 'Math', grade: 85 },
           { subject: 'Science', grade: 92 },
-          { subject: 'History', grade: null }, // Simulating a missing grade
+          { subject: 'History', grade: null },
           { subject: 'English', grade: 78 },
         ];
         setGrades(fetchedGrades);
 
-        // Find missing grades
+       
         const missing = fetchedGrades.filter(grade => grade.grade === null);
         setMissingGrades(missing);
-      }, 1000); // Simulated delay of 1 second
+      }, 1000); 
     };
 
     fetchGrades();
