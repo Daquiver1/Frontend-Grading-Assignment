@@ -1,0 +1,21 @@
+.instructorpagemain{
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+margin-top: 50px;
+}
+.instructorname43{
+margin-right: 150px;
+}
+.instructorcoursecode{
+  margin-right: 150px;
+}
+.instructoremail{
+
+}
+.instructorheader{
+  font-size: 3em;
+  color: gold;
+  text-decoration: underline;
+}

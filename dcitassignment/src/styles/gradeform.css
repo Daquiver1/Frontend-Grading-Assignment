@@ -1,0 +1,62 @@
+.gradeformheader{
+  justify-content: space-between;
+}
+.formHeader{
+color: gold;
+font-size: 3em;
+margin-bottom: 60px;
+}
+.coursename23{
+font-size: 30px;
+margin-right: 39px;
+}
+.coursenameform{
+  height: 20px;
+  width: 400px;
+  border-color: darkslateblue;
+}
+.instructorname{
+  font-size: 30px;
+  margin-right: 58px;
+}
+.instructornameform{
+  height: 20px;
+  width: 400px;
+  border-color: darkslateblue;
+}
+.expectedgrade{
+  font-size: 30px;
+  margin-right: 60px;
+}
+.expectedgradeform{
+  height: 20px;
+  width: 400px;
+  border-color: darkslateblue;
+}
+.explanationfield{
+  font-size: 30px;
+  margin-right: 40px; 
+}
+.explanationform{
+  width: 400px;
+  border-color: darkslateblue;
+}
+.coursediv{
+margin-bottom: 20px;
+}
+.instructordiv{
+  margin-bottom: 20px;
+}
+.expectednamediv{
+  margin-bottom: 20px;
+}
+.explanationdiv{
+  margin-bottom: 20px;
+}
+.submitbuttonforgradeform{
+  height: 30px;
+  width: 80px;
+  font-size: 18px;
+  border-color: gold;
+  background-color: white;
+}
