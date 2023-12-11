@@ -105,7 +105,7 @@ export function Login() {
       <div className="w-2/5 h-full hidden lg:block">
         <img
           src="https://img.freepik.com/free-photo/portrait-young-african-woman-with-books-white_176420-4626.jpg?w=360&t=st=1702228603~exp=1702229203~hmac=8acd1c12e9eb1dce89a1ec6fce5b068c77bf650a054e0a6589a90ae4f2111a9b"
-          className="h-full w-full object-cover rounded-3xl"
+          className="h-auto w-full object-cover rounded-3xl"
         />
       </div>
     </section>
