@@ -1,7 +1,7 @@
 import React from 'react';
 import {Route, Routes} from 'react-router-dom';
 import LoginPage from './Components/LoginPage/LoginPage';
-import Homepage from './Components/homepage';
+import Homepage from './Components/homepage/homepage';
 function App() {
   return (
     <Routes>
