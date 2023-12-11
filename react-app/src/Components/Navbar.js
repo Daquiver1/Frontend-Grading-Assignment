@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Logo from "../Assets/Logo.svg";
 import {HiOutlineBars3} from "react-icons/hi2";
+
 import{
     Box,
     Drawer,
@@ -44,9 +45,9 @@ const Navbar = () => {
     </div>
     <div className="navbar-links-container">
         <a href="/Home">Home</a>
-        <a href="/Dashboard">Dashboard</a>
+        <a href="/GradeReport">Grade Report</a>
         <a href="">Help & Support</a>
-        <a href="/Contact">Contact</a>
+        <a href="/Contactx">Contact</a>
     </div>
     <div className="navbar-menu-container">
         <HiOutlineBars3 onClick={() => setOpenMenu(true)} />
