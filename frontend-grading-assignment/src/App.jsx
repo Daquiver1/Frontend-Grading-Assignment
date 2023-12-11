@@ -1,5 +1,7 @@
 
 import "./App.css"
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import React, { useEffect } from 'react';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./routes/Home";
@@ -33,7 +35,7 @@ const App = () => {
           <div className="h-100">
             <div className="sidebar-logo">
               <a href="/">
-                <i className="bi bi-mortarboard-fill"></i>
+                <i className="bi bi-mortarboard-fill ms-4 fs-1"></i>
               </a>
             </div>
             {/* Sidebar Navigation */}
