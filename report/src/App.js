@@ -10,6 +10,7 @@ import AppInstructor from './components/instructor';
 import AppHelpandSupport from './components/help and support';
 import AppLogin from './components/login';
 import AppMissingGradeForm from './components/missing grade form';
+import Footer from './components/footer';
 
 
 
@@ -27,7 +28,7 @@ function App() {
       <Route path="help and support" element={<AppHelpandSupport />} />
       <Route path="missing grade form" element={<AppMissingGradeForm />} />
     </Routes>
-    
+    <Footer />
     </>
   );
 }

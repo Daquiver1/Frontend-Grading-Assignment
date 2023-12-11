@@ -1,48 +1,86 @@
-import React, { useState, useEffect } from "react";
-import Container from 'react-bootstrap/Container';
-import { Link } from 'react-router-dom';
+import React from 'react';
+import { Container, Row, Col, Button } from 'react-bootstrap';
+import { FaFacebookF, FaTwitter, FaGoogle, FaInstagram, FaLinkedin, FaGithub } from 'react-icons/fa';
 
-function AppFooter() {
-  const [showTopBtn, setShowTopBtn] = useState(false);
-
-  useEffect(() => {
-    const handleScroll = () => {
-      if (window.scrollY > 400) {
-        setShowTopBtn(true);
-      } else {
-        setShowTopBtn(false);
-      }
-    };
-
-    window.addEventListener("scroll", handleScroll);
-
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, []);
-
-  function goTop() {
-    window.scrollTo({
-      top: 0,
-      behavior: "smooth",
-    });
-  }
-
+const Footer = () => {
   return (
-    <Container fluid>
-      <div className="copyright">&copy; 2022 Corporate. All Right Reserved.</div>
-      <div className="socials">
-        <ul>
-          <li><Link to="https://www.facebook.com"><i className="fab fa-facebook-f"></i></Link></li>
-          <li><Link to="https://www.twitter.com"><i className="fab fa-twitter"></i></Link></li>
-          <li><Link to="https://www.linkedin.com"><i className="fab fa-linkedin-in"></i></Link></li>
-        </ul>
-      </div>
-      {showTopBtn && (
-        <div className="go-top" onClick={goTop}></div>
-      )}
-    </Container>
-  );
-}
+    
+      <footer className="text-center text-white" style={{ backgroundColor: '#3f51b5' }}>
+        <Container>
+          <section className="mt-1">
+            <Row className="text-center d-flex justify-content-center pt-5">
+              <Col md={2}>
+                <h6 className="text-uppercase font-weight-bold">
+                  <Button variant="link" className="text-white" onClick={() => console.log('About us clicked')}>
+                    About us
+                  </Button>
+                </h6>
+              </Col>
+              <Col md={2}>
+                <h6 className="text-uppercase font-weight-bold">
+                  <Button variant="link" className="text-white" onClick={() => console.log('Products clicked')}>
+                    Products
+                  </Button>
+                </h6>
+              </Col>
+              <Col md={2}>
+                <h6 className="text-uppercase font-weight-bold">
+                  <Button variant="link" className="text-white" onClick={() => console.log('Awards clicked')}>
+                    Awards
+                  </Button>
+                </h6>
+              </Col>
+              <Col md={2}>
+                <h6 className="text-uppercase font-weight-bold">
+                  <Button variant="link" className="text-white" onClick={() => console.log('Help clicked')}>
+                    Help
+                  </Button>
+                </h6>
+              </Col>
+              <Col md={2}>
+                <h6 className="text-uppercase font-weight-bold">
+                  <Button variant="link" className="text-white" onClick={() => console.log('Contact clicked')}>
+                    Contact
+                  </Button>
+                </h6>
+              </Col>
+            </Row>
+          </section>
 
-export default AppFooter;
+          <hr className="my-1" />
+
+          <section className="mb-5">
+            <Row className="d-flex justify-content-center">
+              <Col lg={8}>
+                <p>
+                Welcome to the Grade Report System, where academic excellence meets simplicity. Our platform is dedicated to providing accurate and insightful grade reports to students, instructors, and administrators. Feel free to explore our features and reach out for any assistance or information. Connect with us on social media for updates and announcements.
+
+© 2023 Grade Report System
+
+                </p>
+              </Col>
+            </Row>
+          </section>
+
+          <section className="text-center mb-5">
+            <FaFacebookF className="text-white me-4" />
+            <FaTwitter className="text-white me-4" />
+            <FaGoogle className="text-white me-4" />
+            <FaInstagram className="text-white me-4" />
+            <FaLinkedin className="text-white me-4" />
+            <FaGithub className="text-white me-4" />
+          </section>
+        </Container>
+
+        <div className="text-center p-3" style={{ backgroundColor: 'radial-gradient(circle, red, yellow)' }}>
+          © 2023 Academic Navigator
+          <Button variant="link" className="text-white" href="https://mdbootstrap.com/" target="_blank" rel="noopener noreferrer">
+          AcademicNavigator.com
+          </Button>
+        </div>
+      </footer>
+    
+  );
+};
+
+export default Footer;

@@ -12,6 +12,23 @@
     color: #007bff; /* Change the color as needed */
   }
 
-.backgorund{  
-background-color: black;
+.background{  
+background-color: rgb(0, 0, 0);
+}
+
+
+.decorated-login-btn {
+  background: linear-gradient(to right, #4facfe, #00f2fe); /* Add your preferred gradient colors */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  text-decoration: none;
+  text-align: left;
+}
+
+.decorated-login-btn:hover {
+  background: linear-gradient(to right, #43e97b, #38f9d7); /* Change gradient on hover */
 }
