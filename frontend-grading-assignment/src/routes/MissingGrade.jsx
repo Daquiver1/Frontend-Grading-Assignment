@@ -1,10 +1,17 @@
-import './CustomDashboard.css'
+import { useEffect } from "react"
+import "https://cdn.datatables.net/1.13.7/css/dataTables.bootstrap.min.css";
+import "https://code.jquery.com/jquery-3.7.0.js"
+import "https://cdn.datatables.net/1.13.7/js/jquery.dataTables.min.js"
+import "https://cdn.datatables.net/1.13.7/js/dataTables.bootstrap.min.js"
 
-const Dashboard = () => {
-      
-    return (
+const MissingGrade = () => {
+    useEffect(() => {
+        $('#example').DataTable();
+    },[])
+    
+    return(
         <div>
-           <table id="example" className="table table-striped table-bordered" style={{width:"100%", marginTop: "5rem", boxShadow: "0px 4px 8px 0px #757575"}}>
+            <table id="example" className="table table-striped table-bordered" style={{width:"100%", marginTop: "5rem", boxShadow: "0px 4px 8px 0px #757575"}}>
                 <thead>
                     <tr>
                         <th>Name</th>
@@ -57,10 +64,9 @@ const Dashboard = () => {
                         <td>$162,700</td>
                     </tr>
                 </tbody>
-            </table>
-
+           </table>
         </div>
     )
 }
 
-export default Dashboard;
+export default MissingGrade;

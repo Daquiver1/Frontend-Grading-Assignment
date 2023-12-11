@@ -1,4 +1,6 @@
+
 import "./App.css"
+import React, { useEffect } from 'react';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./routes/Home";
 import Login from "./routes/Login";
@@ -6,90 +8,111 @@ import Help from "./routes/Help";
 import ReportMissingGrade from "./routes/ReportMissingGrade";
 import Contact from "./routes/Contact";
 import Dashboard from "./routes/Dashboard";
+// import MissingGrade from "./routes/MissingGrade";
 
-import { useEffect } from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import 'bootstrap/dist/js/bootstrap.min.js';
-import 'jquery/dist/jquery.min.js';
-import 'popper.js/dist/umd/popper.min.js';
-import $ from 'jquery';
-import Sidebar from "./components/Sidebar";
-
-function App() {
-
+const App = () => {
   useEffect(() => {
-    // Sidebar Toggle Menu Click
-    $("#menu-toggle").click(function (e) {
-      e.preventDefault();
-      $("#wrapper").toggleClass("toggled");
+    const toggler = document.querySelector(".btn");
+    toggler.addEventListener("click", function () {
+      document.querySelector("#sidebar").classList.toggle("collapsed");
     });
+
+    // Cleanup event listener when component unmounts
+    return () => {
+      toggler.removeEventListener("click", function () {
+        document.querySelector("#sidebar").classList.toggle("collapsed");
+      });
+    };
   }, []);
 
   return (
     <BrowserRouter>
-      <div className="MainDiv">
-          <div className="row" id="wrapper">
-            <div className="col-md-2">
-                <Sidebar />
+      <div className="wrapper">
+      {/* Sidebar */}
+        <aside id="sidebar" className="bg-blue">
+          <div className="h-100">
+            <div className="sidebar-logo">
+              <a href="/">
+                <i className="bi bi-mortarboard-fill"></i>
+              </a>
             </div>
-         
-            <div className="col-md-10 resize">
-              <div className="page-content-wrapper">
-                <nav className="navbar navbar-expand-lg navbar-light bg-blue border-bottom fixed-top py-3">
-                    <button className="btn btn-primary" id="menu-toggle">
-                    <i className="bi bi-list"></i>            
-                    </button>
-                    <button
-                    className="navbar-toggler"
-                    type="button"
-                    data-toggle="collapse"
-                    data-target="#navbarSupportedContent"
-                    aria-controls="navbarSupportedContent"
-                    aria-expanded="false"
-                    aria-label="Toggle navigation"
-                    >
-                    <span className="navbar-toggler-icon"></span>
-                    </button>
-                    <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                      <div className="form">
-                        <i className="bi bi-search"></i>
-                        <input type="text" className="form-control form-input" placeholder="Search anything..." />
-                        <span className="left-pan"><i className="bi bi-mic-fill"></i></span>
-                      </div>
-                      <ul className="navbar-nav ms-auto ml-auto mt-2 mt-lg-0">
-                        
-                          <li className="nav-item active">
-                          <a className="nav-link" href="#">
-                              Home <span className="sr-only">(current)</span>
-                          </a>
-                          </li>
-                          <li className="nav-item">
-                          <a className="nav-link" href="#">
-                              Link
-                          </a>
-                          </li>
-                          
-                      </ul>
-                    </div>
-                </nav>
-
-                <div className="container-fluid" style={{marginInline: "5px"}}>
-                  <Routes>
-                    <Route path="/"  element={ <Home />}/>
-                    <Route path="login"  element={ <Login />}/>
-                    <Route path="help"  element={ <Help />}/>
-                    <Route path="report-missing-grade"  element={ <ReportMissingGrade />}/>
-                    <Route path="contact" element={ <Contact />}/>
-                    <Route path="dashboard" element={ <Dashboard />}/>
-                  </Routes>
-                </div>
+            {/* Sidebar Navigation */}
+            <ul className="sidebar-nav">
+              {/* Sidebar content goes here */}
+                  <li>
+                    <a href="/" className="list-group-item list-group-item-action my-3 py-3 ms-5">Home</a>
+                  </li>
+                  <li>
+                    <a href="login" className="list-group-item list-group-item-action my-3 py-3 ms-5">Login</a>
+                  </li>
+                  <li>
+                    <a href="dashboard" className="list-group-item list-group-item-action my-3 py-3 ms-5">Dashboard</a>
+                  </li>
+                  <li>
+                    <a href="report-missing-grade" className="list-group-item list-group-item-action my-3 py-3 ms-5">Report Grade</a>
+                  </li>
+                  <li>
+                    <a href="missing-grade" className="list-group-item list-group-item-action my-3 py-3 ms-5">Missing Grade</a>
+                  </li>
+                  <li>
+                    <a href="contact" className="list-group-item list-group-item-action my-3 py-3 ms-5">Contact</a>
+                  </li>
+                  <li>
+                    <a href="help" className="list-group-item list-group-item-action my-3 py-3 ms-5">Help & Support</a>
+                  </li>
+            </ul>
+          </div>
+        {/* Main Component */}
+        </aside>
+        <div className="main">
+          <nav className="navbar navbar-expand px-3 border-bottom bg-blue">
+            {/* Button for sidebar toggle */}
+            <button className="btn" type="button" data-bs-theme="dark">
+              <span className="navbar-toggler-icon"></span>
+            </button>
+            <div className="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+                <li className="nav-item">
+                  <a className="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li className="nav-item">
+                  <a className="nav-link" href="#">Link</a>
+                </li>
+              </ul>
+              <form className="d-flex" role="search">
+                <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                <button className="btn btn-outline-success" type="submit">Search</button>
+              </form>
+            </div>
+          </nav>
+          <main className="content px-3 py-2">
+            <div className="container-fluid">
+              <div className="mb-3">
+                <Routes>
+                  <Route path="/" element={ <Home />}/>
+                  <Route path="login" element={ <Login />}/>
+                  <Route path="dashboard" element={ <Dashboard />}/>
+                  <Route path="report-missing-grade" element={ <ReportMissingGrade />}/>
+                  <Route path="contact" element={ <Contact />}/>
+                  <Route path="help" element={ <Help />}/>
+                  {/* <Route path="missing-grade" element={ <MissingGrade />}/> */}
+                </Routes>
               </div>
             </div>
-          </div>
-      </div>
-      
-    </BrowserRouter>
-  )
-}
+          </main>
 
-export default App
+          <section>
+            <footer>
+              <div className="container-fluid py-5 bg-blue">
+
+              </div>
+            </footer>
+          </section>
+        </div>
+      </div>
+    </BrowserRouter>
+  );
+};
+export default App;
+
+

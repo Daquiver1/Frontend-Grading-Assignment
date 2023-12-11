@@ -30,7 +30,7 @@ const Login = () => {
 
                                     <div className="form-floating mb-3 mt-3">
                                         <input type="text" className="form-control mt-2" id="floatingInputText" placeholder="1211282" />
-                                        <label htmlFor="floatingInputEmail">Student Id</label>
+                                        <label htmlFor="floatingInputText">Student Id</label>
                                     </div>
 
                                     <div className="form-floating mb-3 mt-3">

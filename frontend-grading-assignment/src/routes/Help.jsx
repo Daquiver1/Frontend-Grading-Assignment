@@ -16,7 +16,7 @@ const Help  = () => {
                            <strong>How do I view my grades on the platform?</strong>
                         </button>
                         </h2>
-                        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+                        <div id="panelsStayOpen-collapseOne" className="accordion-collapse collapse show">
                         <div className="accordion-body">
                             <p>
                                 To view your grades, log in to your account and navigate 

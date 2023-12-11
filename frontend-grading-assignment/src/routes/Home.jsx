@@ -5,7 +5,7 @@ const Home = () => {
         <div>
 
                 <div className="container-fluid pt-5 hero-session">
-                    <div className="container hero-content text-white">
+                    <div className="hero-content text-white">
                         <h1>
                             Student Grading System
                         </h1>
