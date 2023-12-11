@@ -1,3 +1,11 @@
 export const Help_and_Support = () => {
-  return <p>Accordion</p>;
+  return (
+    <>
+      <html className="">
+        <body className>
+          <div>here</div>
+        </body>
+      </html>
+    </>
+  );
 };
