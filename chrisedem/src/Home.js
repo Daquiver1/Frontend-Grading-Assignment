@@ -1,5 +1,8 @@
 import React from 'react';
-import Footer from './Footer';
+import Footer from './Footer'
+import './index.css';
+
+
 
 const Home = () => {
   return (
@@ -45,6 +48,7 @@ We are thrilled to welcome you to Scholar Grade Support,where excellence meets s
         We're here to support you on your academic journey!</p>
       </ul>
        <Footer/>
+       
     </div>
   );
     
