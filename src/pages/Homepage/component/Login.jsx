@@ -40,7 +40,7 @@ import "../css/index.css";
         />
 
         <button type="submit">Login</button>
-        <p>Dont have an account? <a href="/Signup">Sign up</a></p>
+        <p>Don&apos;t have an account? <a href="/Signup">Sign up</a></p>
       </form>
     </div>
     </div>

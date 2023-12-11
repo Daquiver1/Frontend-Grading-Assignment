@@ -184,6 +184,12 @@
     width: 100%;
   }
   
+
+  /*Missing grade*/
+
+  .missing{
+    background-color: #846ff7;
+  }
  
 
 
