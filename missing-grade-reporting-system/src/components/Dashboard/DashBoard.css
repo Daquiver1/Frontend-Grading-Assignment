@@ -1,0 +1,26 @@
+/* components/Dashboard.css */
+
+.dashboard {
+    padding: 10px;
+  }
+  
+  .dashboard-content {
+    margin-top: 100px;
+    /* Add styles for the main content of the Dashboard */
+  }
+  
+  .dashboard-content h1 {
+    position: relative;
+  }
+  
+  .dashboard-content h1::after {
+    content: '';
+    position: absolute;
+    left: 50%; /* Position the line in the middle */
+    bottom: 0;
+    width: 10%; /* Adjust the width of the line as needed */
+    height: 5px; /* Adjust the thickness of the line as needed */
+    background-color: #000; /* Set the color of the line */
+    transform: translateX(-50%); /* Center the line horizontally */
+    border-radius: 8px;
+  }
