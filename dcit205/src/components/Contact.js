@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from './Navbar';
 import './contact.css';
-//import aziz from '../Assests/aziz.jpeg';
+import aziz from '../Assets/aziz.jpeg';
 import eben from '../Assets/eben.jpeg';
 import edward from '../Assets/edward.jpeg';
 import ludu from '../Assets/ludu.jpeg';
@@ -48,9 +48,9 @@ const Contact = () => {
             </div>
             <div class="column">
                 <div class="card">
-                    {/* <div class="img-container">
+                    <div class="img-container">
                         <img src={aziz} alt='' />
-                    </div> */}
+                    </div>
                     <h3>MR. DWUMFOUR ABDULAI AZIZ</h3>
                     <p>Lecturer</p>
                     <p>Email: adwumfour@ug.edu.gh</p>
