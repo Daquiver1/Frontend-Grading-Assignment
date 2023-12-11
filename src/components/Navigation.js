@@ -18,15 +18,7 @@ const Navbar = () => {
           <li><NavLink to="/login" activeClassName ='active'>Register</NavLink></li>
           <li><NavLink to="/contact" activeClassName ='active' >Contact</NavLink></li>
         </ul>
-        <div className="navbar-social">
-          <a href="https://twitter.com/university" target="_blank" rel="noopener noreferrer">
-            <img src="/twitter.png" alt="Twitter" />
-          </a>
-          <a href="https://facebook.com/university" target="_blank" rel="noopener noreferrer">
-            <img src="/facebook.png" alt="Facebook" />
-          </a>
-          
-        </div>
+       
       </nav>
     );
   }
@@ -50,15 +42,11 @@ const Navbar = () => {
         <li><NavLink to="/missing-grade-form" activeClassName ='active' >Missing Grade Form</NavLink></li>
         <li><NavLink to="/instructor-contact" activeClassName ='active' >Instructor Contact</NavLink></li>
         <li><NavLink to="/help-page" activeClassName ='active' >HelpAndSupport</NavLink></li>
+        
+
+
       </ul>
-      <div className="navbar-social">
-        <a href="https://twitter.com/university" target="_blank" rel="noopener noreferrer">
-          <img src="/twitter.png" alt="Twitter" />
-        </a>
-        <a href="https://facebook.com/university" target="_blank" rel="noopener noreferrer">
-          <img src="/facebook.png" alt="Facebook" />
-        </a>
-      </div>
+      
       <div className="navbar-logout">
         <NavLink to="/login">Logout</NavLink>
       </div>

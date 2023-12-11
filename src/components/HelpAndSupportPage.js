@@ -31,41 +31,27 @@ const HelpAndSupportPage = () => {
       <section className="user-guides-section">
         <h3>User Guides and Tutorials</h3>
         <iframe width="900" height="315" src="https://www.youtube.com/embed/_PS819PLCLw?si=gvAXVsmzPUOwHXvU&amp;clip=UgkxdQ1mOhso8vs9mCMj-L47SjFjCVfX44oT&amp;clipt=EJ3DBhiq-Ac" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        {/* Placeholder for user guides */}
         <p>Explore our user guides and tutorials to get started.</p>
-        {/* Add links or content for user guides */}
       </section>
 
-      {/* Troubleshooting Section */}
       <section className="troubleshooting-section">
         <h3>Troubleshooting</h3>
-        {/* Placeholder for troubleshooting content */}
         <p>Encountering issues? Follow our troubleshooting guide.</p>
-        {/* Add troubleshooting steps or content */}
       </section>
 
-      {/* Feedback Forms Section */}
       <section className="feedback-section">
         <h3>Feedback</h3>
-        {/* Placeholder for feedback forms */}
         <p>We value your feedback. Share your thoughts with us.</p>
-        {/* Add feedback forms or links */}
       </section>
 
-      {/* Live Chat Section */}
       <section className="live-chat-section">
         <h3>Live Chat Support</h3>
-        {/* Placeholder for live chat */}
         <p>Chat with our support team in real-time.</p>
-        {/* Add live chat component or link */}
       </section>
 
-      {/* System Status Section */}
       <section className="system-status-section">
         <h3>System Status</h3>
-        {/* Placeholder for system status */}
         <p>Check the current status of our system.</p>
-        {/* Add system status information */}
       </section>
 
       {/* Additional Resources Section */}

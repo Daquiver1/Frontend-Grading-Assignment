@@ -1,6 +1,6 @@
 
 .footer-container {
-    background-color: rgb(61, 119, 169);
+    background-color: rgb(79, 161, 189);
     padding: 20px 0;
     color: #000000;
   }
@@ -18,12 +18,14 @@
   
   .footer-section h3 {
     color: #d9534f;
+    display: block;
   }
   
   .footer-section ul {
     color: #000;
     list-style: none;
     padding: 0;
+    display: block;
   }
   
   .footer-section ul li {
