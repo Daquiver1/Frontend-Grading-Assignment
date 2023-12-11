@@ -1,0 +1,37 @@
+.dashboard-page {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 100px;
+  box-sizing: border-box;
+  background-color: #00357a;
+
+ }
+ .dashboard-page h1{
+  font-weight: 200px;
+  color: #ffff;
+  margin-left: 20px;
+ }
+ 
+ .grade-overview,
+ .missing-grade-alerts {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+ }
+
+.grade-overview td,
+.missing-grade-alerts td {
+ padding: 20px 30px;
+}
+.missing-grade-alerts h2{
+  font-weight: 200px;
+  margin-left: 20px;
+  color: red;
+}
+.table-list{
+  color:  #b6975d;
+  font-style: italic;
+  font-size: 20px;
+}
