@@ -6,10 +6,10 @@ import { useNavigate } from 'react-router-dom'
 
 
 const navigation = [
-  { name: 'Product', href: '#' },
-  { name: 'Features', href: '#' },
-  { name: 'Marketplace', href: '#' },
-  { name: 'Company', href: '#' },
+  { name: 'Dashboard', href: '#' },
+  { name: 'Grade Form', href: '#' },
+  { name: 'Help & Support', href: '#' },
+  { name: 'Contacts', href: '#' },
 ]
 
 
@@ -18,17 +18,17 @@ const footerNavigation = {
   solutions: [
     { name: 'Login', href: '#' },
     { name: 'Dashboard', href: '#' },
-    { name: 'Commerce', href: '#' },
+    { name: 'Grades', href: '#' },
   ],
   support: [
-    { name: 'Pricing', href: '#' },
-    { name: 'Documentation', href: '#' },
-    { name: 'Guides', href: '#' },
+    { name: 'Contacts', href: '#' },
+    { name: 'Instructors', href: '#' },
+    { name: 'FAQ', href: '#' },
   ],
   company: [
     { name: 'About', href: '#' },
-    { name: 'Blog', href: '#' },
-    { name: 'Jobs', href: '#' },
+    { name: 'Grade report', href: '#' },
+    { name: 'Complain form', href: '#' },
   ],
   legal: [
     { name: 'Claim', href: '#' },
@@ -52,11 +52,11 @@ export default function Example() {
         <nav className="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
           <div className="flex lg:flex-1">
             <a href="#" className="-m-1.5 p-1.5">
-              <span className="sr-only">Your Company</span>
+              <span className="sr-only">School Reporting System</span>
               <img
-                className="h-8 w-auto"
-                src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500"
-                alt=""
+                className="h-20 w-auto"
+                src="https://docenhance.eu/wordpress/wp-content/uploads/2020/03/ghana-logo.png"
+                alt="University of Ghana Logo"
               />
             </a>
           </div>
@@ -66,7 +66,6 @@ export default function Example() {
               className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-400"
               onClick={() => setMobileMenuOpen(true)}
             >
-              <span className="sr-only">Open main menu</span>
               <Bars3Icon className="h-6 w-6" aria-hidden="true" />
             </button>
           </div>
@@ -89,14 +88,7 @@ export default function Example() {
           <div className="fixed inset-0 z-50" />
           <Dialog.Panel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
             <div className="flex items-center justify-between">
-              <a href="#" className="-m-1.5 p-1.5">
-                <span className="sr-only">Your Company</span>
-                <img
-                  className="h-8 w-auto"
-                  src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
-                  alt=""
-                />
-              </a>
+             
               <button
                 type="button"
                 className="-m-2.5 rounded-md p-2.5 text-gray-700"
