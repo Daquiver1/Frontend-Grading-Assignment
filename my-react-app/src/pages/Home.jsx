@@ -1,9 +1,10 @@
 import React from 'react';
 
+
 function Home() {
   return (
     <div>
-      <header className='header-part'>
+      <header className='headerContainer'>
         <h1> Grading System</h1>
         <p>Efficiently Manage and Track Grades</p>
       </header>
