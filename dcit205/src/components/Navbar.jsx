@@ -26,7 +26,7 @@ function Navbar() {
         <a href="#" className="nav__brand">UG</a>
         <ul className={active}>
           <li className="nav__item"><a href="./Home.js" className="nav__link">Home</a></li>
-          <li className="nav__item"><a href="#" className="nav__link">Login</a></li>
+          <li className="nav__item"><a href="./loginform.js" className="nav__link">Login</a></li>
           <li className="nav__item"><a href="#" className="nav__link">Dashboard</a></li>
           <li className="nav__item"><a href="#" className="nav__link">Forms</a></li>
           <li className="nav__item"><a href="#" className="nav__link">Contact</a></li>
