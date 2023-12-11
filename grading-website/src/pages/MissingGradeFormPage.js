@@ -1,7 +1,6 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import HeroSection from "../components/HeroSection";
-import LeftSidebar from "../components/LeftSidebar";
 
 function MissingGradeFormPage() {
   const handleClick = () => {
@@ -93,7 +92,6 @@ function MissingGradeFormPage() {
         backgroundImage={backgroundImage}
         pageContent={pageContent}
       />
-      <LeftSidebar />
     </>
   );
 }
