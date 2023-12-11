@@ -5,11 +5,9 @@ import NavbarComponent from "../components/NavbarComponent";
 
 const Layout = () => {
   return (
-    <div
-      className="h-full w-full flex flex-col justify 
-    ">
+    <div className="h-screen w-full flex flex-col bg-indigo-500 bg-gradient-to-r from-teal-500 text-white">
       <NavbarComponent />
-      <div className=" justify-center items-center flex flex-col  min-h-[450px]">
+      <div className=" justify-center items-center flex flex-col  min-h-[450px] ">
         <h1 className="font-bold text-3xl">Welcome</h1>
         <p>
           Track your grades, effortlessly keep tabs on your academic performance
@@ -31,10 +29,14 @@ const Layout = () => {
         </p>
       </div>
 
-      <div>
+      <div className="mt-20">
         <h2 className="font-bold">Ready to get started?</h2>
         <button>
-          <Link to="/login">Login</Link>
+          <Link to="/login">
+            <button className="w-full my-5 py-2 bg-indigo-800 shadow-lg shadow-teal-500/50 hover:shadow-teal-500/40 text-white font-semibold rounded-lg p-10">
+              Login
+            </button>
+          </Link>
         </button>
       </div>
     </div>
