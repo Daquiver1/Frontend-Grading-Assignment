@@ -1,0 +1,22 @@
+.dashboardmaindiv{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 100px;
+  border-color: black;
+}
+.coursetopic{
+  text-decoration: solid;
+  font-size: 20px;
+}
+.totalcredits{
+  margin-top: 30px;
+  font-size: 20px;
+}
+.dashheader{
+  align-items: center;
+  justify-content: center;
+  margin-bottom: -15px;
+  font-size: 4em;
+  
+}

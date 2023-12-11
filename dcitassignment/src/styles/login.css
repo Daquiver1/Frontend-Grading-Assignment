@@ -1,0 +1,36 @@
+.loginclass{
+  font-size: 4em;
+  color: gold;
+  margin-bottom: 50px;
+}
+.studentid{
+margin-right: 30px;
+font-size: 30px;
+}
+.password{
+margin-right: 38px;
+font-size: 30px;
+}
+.submitbutton{
+height:30px;
+width: 100px;
+border-color: gold;
+color:rgb(11, 11, 120);
+background-color: white;
+}
+.studentdiv{
+margin-bottom: 50px;
+}
+.passworddiv{
+margin-bottom: 50px;
+}
+.submitdiv{
+
+}
+.boxes{
+  height: 30px;
+  width: 300px;
+  margin-top: -10px;
+  border-color: darkblue;
+  background-color: white;
+}
