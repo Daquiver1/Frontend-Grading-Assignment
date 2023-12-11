@@ -33,7 +33,7 @@ input{
   position: relative;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url('../components-images/background.png');
+  background-image: url('../components-images/dribbble.png');
 }
 nav{
 display: flex;
@@ -251,7 +251,7 @@ width: 600px;
   position: relative;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url(../components-images/presentation.png);
+  background-image: url(../components-images/yu.png);
   text-align: center;
 }
 #presentation h1{

@@ -5,6 +5,7 @@ import Header from "./components/components-pages/Header";
 import Feature from "./components/components-pages/Feature";
 import Presentation from "./components/components-pages/Presentation";
 import InstructorContact from "./components/components-pages/InstructorContact";
+import Footer from "./components/components-pages/Footer";
 function App() {
   return (
     
@@ -15,6 +16,7 @@ function App() {
  <Feature/>
  <Presentation/>
  <InstructorContact/>
+ <Footer/>
  
 
     </div>

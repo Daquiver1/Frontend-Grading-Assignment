@@ -1,0 +1,27 @@
+.foot{
+  max-width: 1240px;
+  /* mx-auto py-16 px-4 grid lg ;grid-cols-3 gap-8 text-gray-300*/
+}
+
+.ft{
+  font: bold;
+  /* w-full text 3xl text-{00df9a} */
+}
+.grade{
+  /* py-4 */
+  color: aliceblue;
+}
+.icons{
+  display: flex;
+  /* flex justify between md:w-[75%] my-6*/
+}
+.footer-col{
+ /* lg :col-span-2 flex justify-between*/
+ font: italic;
+ margin-top: 6;
+}
+.list{
+  font: medium;
+  color: gray;
+  /* text-gray-400 */
+}
