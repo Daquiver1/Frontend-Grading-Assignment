@@ -14,7 +14,7 @@ function Head(){
         <div className='welcome-message'>
            <div className="welcome-text"> 
                 <h1>WELCOME</h1>
-                <p>Welcome to our website for finding missing grades! We understand the importance of keeping track of academic progress, and we're here to assist you in locating any missing grades in a quick and convenient manner. Whether you're a student or an educator, our platform aims to simplify the process of identifying and rectifying any missing or incomplete grades. With our user-friendly interface, you can easily search for missing grades, ensuring that all necessary information is accounted for and no progress is overlooked. Begin today and experience the ease and efficiency of our grade-finding tool. Happy searching! <br /> <br /> <Link to="you"><button type="button" class="btn btn-dark">Get Started</button></Link></p>
+                <p>Welcome to our website for finding missing grades! We understand the importance of keeping track of academic progress, and we're here to assist you in locating any missing grades in a quick and convenient manner. Whether you're a student or an educator, our platform aims to simplify the process of identifying and rectifying any missing or incomplete grades. With our user-friendly interface, you can easily search for missing grades, ensuring that all necessary information is accounted for and no progress is overlooked. Begin today and experience the ease and efficiency of our grade-finding tool. Happy searching! <br /> <br /> <Link to="/you"><button type="button" class="btn btn-dark">Get Started</button></Link></p>
             </div> 
         
             <div className='welcome-images'>
