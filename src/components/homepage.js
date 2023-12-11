@@ -20,6 +20,7 @@ const HomePage = () => {
             <strong>Features:</strong>
           </p>
           <ul>
+          <li>Log in to the system with your STUDENT ID and PIN.</li>
             <li>View your current grades and academic performance on the Dashboard.</li>
             <li>Report missing grades easily using the Missing Grade Form.</li>
             <li>Contact your instructors for grade-related queries through the Instructor Contact page.</li>
