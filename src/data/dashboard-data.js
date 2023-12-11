@@ -6,24 +6,22 @@ import {
 
 const DashboardData = [
   {
-    color: "",
-    title: "Grade",
-    icon: "",
-  },
-  {
-    color: "",
-    title: "Messages",
-    icon: "",
-  },
-  {
-    color: "",
-    title: "Inbox",
-    icon: "",
-  },
-  {
-    color: "",
+    color: "gray",
     title: "Courses",
-    icon: "",
+    icon: AcademicCapIcon,
+    description: "8+ Courses",
+  },
+  {
+    color: "blue",
+    title: "CGPA",
+    icon: TrophyIcon,
+    description: "3.00",
+  },
+  {
+    color: "gray",
+    title: "InBox",
+    icon: ScaleIcon,
+    description: "30+ messages",
   },
 ];
 
