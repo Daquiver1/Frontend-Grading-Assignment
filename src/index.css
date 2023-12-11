@@ -60,13 +60,13 @@
 .col-mg1 {
   background-color: #0e49ac;
   width: 250px;
-  height: 280px;
+  height: 290px;
   display: inline-block;
   margin: 0 23px;
   margin-top: 50px;
-  margin-left: 100px;
+  margin-left: 80px;
   vertical-align: middle;
-  gap: 4rem;
+  gap: 2rem;
   transition: 0.6s, ease;
 }
 .col-mg1:hover {

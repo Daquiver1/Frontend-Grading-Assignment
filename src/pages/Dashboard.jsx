@@ -10,6 +10,8 @@ function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
 }
 
+
+
 const Dashboard = () => {
   const stats = [
     {
@@ -17,6 +19,7 @@ const Dashboard = () => {
       name: "Total Courses Taken",
       stat: 8,
       icon: UsersIcon,
+      changeType: "increase",
     },
     {
       id: 2,
@@ -30,7 +33,7 @@ const Dashboard = () => {
       id: 3,
       name: "Total Courses failed",
       stat: 5,
-      icon: CursorArrowRaysIcon,
+      icon: EnvelopeOpenIcon,
       change: "3.2%",
       changeType: "decrease",
     },
@@ -38,7 +41,7 @@ const Dashboard = () => {
       id: 3,
       name: "Total Courses Passed",
       stat: 1,
-      icon: CursorArrowRaysIcon,
+      icon: EnvelopeOpenIcon,
       change: "3.2%",
       changeType: "increase",
     },

@@ -2,6 +2,7 @@ import stacks_pp from "../assets/images/stacks_pp.jpg";
 import dash from "../assets/images/dash.jpg";
 import report_grade from "../assets/images/report_grade.jpg";
 import track_grade from "../assets/images/track_grade.jpg";
+import { NavLink } from "react-router-dom";
 
 function LandingPage() {
   return (
@@ -15,7 +16,7 @@ function LandingPage() {
               Guaranteed to ensure that you are able to track and report grades
               that are not recorded in your academic Profile.
             </p>
-            <button type="button">Get Started</button>
+            <button type="button"><NavLink to="/instructors">Get Started</NavLink></button>
           </div>
           <div className="stacked">
             <img src={stacks_pp} alt={stacks_pp} width="250px" />
@@ -32,14 +33,13 @@ function LandingPage() {
             />
             <div>
               <p>
-                Report Grade that are not recorded in your academic profile.
+                Report untracked Grade .
               </p>
               <button
                 type="button"
                 className="btn-btn"
                 style={{ marginTop: 20 }}
-              >
-                Get Started
+              ><NavLink to="/instructors">Get Started</NavLink>
               </button>
             </div>
           </div>
@@ -51,8 +51,7 @@ function LandingPage() {
                 type="button"
                 className="btn-btn"
                 style={{ marginTop: 20 }}
-              >
-                Get Started
+              ><NavLink to="/dashboard">Get Started</NavLink>
               </button>
             </div>
           </div>
@@ -68,9 +67,9 @@ function LandingPage() {
               <button
                 type="button"
                 className="btn-btn"
-                style={{ marginTop: 20 }}
+                style={{ marginTop: 20}}
               >
-                Get Started
+                <NavLink to="/grade-report">Get Started</NavLink>
               </button>
             </div>
           </div>

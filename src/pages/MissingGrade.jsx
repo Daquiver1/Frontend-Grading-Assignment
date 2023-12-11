@@ -18,7 +18,12 @@ const MissingGrade = () => {
                 <select className="block w-full rounded-md border-0 p-3 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 outline-none sm:text-sm sm:leading-6">
                   <option>DCIT 205 - Multimedia and web design</option>
                   <option>DCIT 203 - Digital and logic system designs</option>
-                  <option>DCIT 201 - Programming One</option>
+                  <option>DCIT 201 - Programming 1</option>
+                  <option>DCIT 207 - Computer Organization and Architecture</option>
+                  <option>DCIT 209 - E-Business</option>
+                  <option>CBAS 210 - Academic Writing II</option>
+                  <option>DCIT 104 - Programming Fundamentals</option>
+                  <option>DCIT 101 - Introduction to computer Science</option>
                 </select>
               </div>
             </div>
@@ -29,9 +34,9 @@ const MissingGrade = () => {
               </label>
               <div className="mt-2">
                 <select className="block w-full rounded-md border-0 p-3 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 outline-none sm:text-sm sm:leading-6">
-                  <option>Aziz Movno</option>
-                  <option>Paul Ama</option>
-                  <option>Mikaela Mensah</option>
+                  <option>Aziz Abdullai Dwumfour</option>
+                  <option>Paul Amah Nii </option>
+                  <option>Micheal Soli</option>
                 </select>
               </div>
             </div>
@@ -43,8 +48,11 @@ const MissingGrade = () => {
               <div className="mt-2">
                 <select className="block w-full rounded-md border-0 p-3 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 outline-none sm:text-sm sm:leading-6">
                   <option>A</option>
+                  <option>B+</option>
                   <option>B</option>
+                  <option>C+</option>
                   <option>C</option>
+                  <option>D+</option>
                   <option>D</option>
                   <option>E</option>
                   <option>F</option>
@@ -55,18 +63,20 @@ const MissingGrade = () => {
             <div>
               <div className="flex items-center justify-between">
                 <label
-                  htmlFor="password"
+                  htmlFor="password" 
                   className="block text-sm font-medium leading-6 text-gray-900"
                 >
-                  Explaination
+                  Explanation
                 </label>
+                
               </div>
               <div className="mt-2">
                 <textarea
-                  maxLength={5}
+                  maxLength={100}
                   rows={6}
                   required
                   className="block w-full rounded-md border-0 p-3 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 outline-none sm:text-sm sm:leading-6"
+                  placeholder="Enter text here"
                 />
               </div>
             </div>

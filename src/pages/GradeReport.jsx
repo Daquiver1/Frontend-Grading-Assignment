@@ -1,6 +1,8 @@
 import { Fragment } from "react";
 import { ArrowUpCircleIcon } from "@heroicons/react/20/solid";
 
+
+
 const days = [
   {
     date: "First Semester",
@@ -8,28 +10,61 @@ const days = [
     transactions: [
       {
         id: 1,
-        courseName: "Web Design Development",
-        courseCode: "DCIT 205",
+        courseName: " Programming Fundamentals",
+        courseCode: "DCIT 104 ",
         icon: ArrowUpCircleIcon,
-        grade: "F",
-      },
-      {
-        id: 2,
-        courseName: "Web Design Development",
-        courseCode: "DCIT 205",
-        icon: ArrowUpCircleIcon,
-        grade: "F",
+        grade: "D",
       },
       {
         id: 3,
+        courseName: "Introduction to computer Science",
+        courseCode: "DCIT 101",
+        icon: ArrowUpCircleIcon,
+        grade: "N/A",
+      },
+      {
+        id: 4,
         courseName: "Web Design Development",
         courseCode: "DCIT 205",
         icon: ArrowUpCircleIcon,
-        grade: "F",
+        grade: "C",
       },
+      {
+        id: 5,
+        courseName: " Academic Writing II",
+        courseCode: "CBAS 210",
+        icon: ArrowUpCircleIcon,
+        grade: "D+",
+      },
+      {
+        id: 6,
+        courseName: "Digital and logic system designs",
+        courseCode: "DCIT 203",
+        icon: ArrowUpCircleIcon,
+        grade: "B+",
+      },
+      {
+        id: 7,
+        courseName: "Computer Organization and Architecture",
+        courseCode: "DCIT 207",
+        icon: ArrowUpCircleIcon,
+        grade: "N/A",
+      },
+      {
+        id: 8,
+        courseName: " Programming 1",
+        courseCode: "DCIT 201",
+        icon: ArrowUpCircleIcon,
+        grade: "C+",
+      },
+      
     ],
+    
+    
   },
 ];
+
+
 
 export default function GradeReport() {
   return (
