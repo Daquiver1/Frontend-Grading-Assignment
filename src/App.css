@@ -54,9 +54,6 @@
   margin-bottom: 10px;
 }
 
-
-
-
 .sidenav {
   height: 100%;
   width: 0;
@@ -98,3 +95,5 @@
   transition: margin-left 0.5s;
   padding: 16px;
 }
+
+

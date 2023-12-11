@@ -4,7 +4,7 @@ import Sidebar from "../Components/sidebar"
 export default function Dashboard() {
     return(
         <>
-        <Sidebar/>
+        <Sidebar></Sidebar>
         <Footer/>
         </>
     )    
