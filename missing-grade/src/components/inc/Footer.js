@@ -7,7 +7,6 @@ function Footer() {
         <div className='d-flex'>
             <div className='flex-fill'><span>About</span></div>
             <div className='flex-fill'><span>Terms and conditions</span></div>
-            <div className='flex-fill'><span>Disclaimer</span></div>
             <div className='flex-fill'><span>Contact</span></div>
             <div className='flex-fill'><span>Privacy Policy</span></div>
         </div>
