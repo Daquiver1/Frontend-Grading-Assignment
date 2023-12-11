@@ -34,7 +34,9 @@ const Forms = () => {
             <textarea name="message" id="" cols="30" rows="10" onChange={handleChange} value={data.message} placeholder='Type here...' required />
             <button type='submit'> Send </button>
         </form>
-
+        <footer>
+            <p>&copy; 2023 Our Website. All rights reserved.</p>
+        </footer>
     </div>
   )
 }

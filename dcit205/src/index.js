@@ -6,6 +6,7 @@ import Home from "./components/Home";
 import Login from "./components/loginform";
 import Form from './components/Forms';
 import Contact from './components/Contact';
+import Help from './components/Help';
 
 import {
   createBrowserRouter,
@@ -33,6 +34,10 @@ const router = createBrowserRouter([
   {
     path: "/Contact.js",
     element: <Contact />
+  },
+  {
+    path: "/Help.js",
+    element: <Help />
   },
 ]);
 
