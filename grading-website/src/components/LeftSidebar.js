@@ -8,7 +8,8 @@ function LeftSidebar() {
     <div className='right-sidebar-container'>
     <nav class="nav flex-column">
       <div className='nav-link-container'>
-        <img src={process.env.PUBLIC_URL + './images/missing_grade_form-removebg-preview.png'}/>      <a class="nav-link nav-underline" href="#">Grade Form</a>
+        <img src={process.env.PUBLIC_URL + './images/missing_grade_form-removebg-preview.png'}/>     
+         <a class="nav-link nav-underline" href="http://localhost:3000/missing">Grade Form</a>
       </div>
       <div className='nav-link-container'>
         <img src={process.env.PUBLIC_URL +'./images/instructors-contact-removebg-preview.png'} />
