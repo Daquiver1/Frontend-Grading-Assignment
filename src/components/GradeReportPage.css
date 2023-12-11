@@ -1,0 +1,55 @@
+/* GradeReportPage.css */
+
+.grade-report-container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    margin-top: 50px;
+    text-align: center;
+  }
+  
+  h2, h3 {
+    color: #333;
+  }
+  
+  .filter-section, .grade-list {
+    margin-top: 20px;
+  }
+  
+  button {
+    margin: 5px;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #162d80;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #f0f0f0;
+  }
+  
+  table {
+    width: 60%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  th {
+    background-color: #0c3bb0;
+    color: #fff;
+  }
+  
+  tbody tr:hover {
+    background-color: #f0f0f0;
+  }
+  
