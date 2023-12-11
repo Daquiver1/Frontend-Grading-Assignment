@@ -46,6 +46,7 @@ nav a {
 
 /* Content section styles */
 div {
+  display: center;
   margin: 10px;
 }
 
@@ -87,4 +88,39 @@ nav a {
 nav a:hover {
   color: #004466; /* Change this color to your preferred hover color */
 }
+.home{
+  display: flex;
+  height: 80%;
+  align-items: center;
+}
+body {
+  display: flex;
+  background-color: rgb(114, 135, 135);
+}
 
+.card {
+  width: 200px;
+  height: 220px;
+  display: inline-block;
+  margin: 10px 15px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
+}
+
+.card1 {
+background-image: url(Assets/img\ 4.png);/* Corrected image path and added quotes */
+}
+
+.card2 {
+ background-image: url(Assets/Pic3.jpg);
+}
+
+.card3 {
+  background-image: url(Assets/pic2.jpg)
+}
+
+.card4 {
+  background-image: url(Assets/Pic1.jpg)
+}
