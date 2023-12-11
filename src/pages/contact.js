@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Footer from './Footer';
 
 const instructorsData = [
   { id: 1, name: 'Dr. endurance Offeibea', email: 'Dr. enduranceoffeibea@gmail.com' },
@@ -25,7 +26,7 @@ const Contact= () => {
   };
 
   return (
-    <div className="container mx-auto mt-8">
+    <div className="container mx-auto mt-8 contact">
       <h2 className="text-2xl font-semibold mb-4">Instructor Contact Page</h2>
 
       <div className="flex item-center justify-between">
@@ -81,6 +82,7 @@ const Contact= () => {
           )}
         </div>
       </div>
+      <Footer className= ""></Footer>
     </div>
   );
 };

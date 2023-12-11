@@ -4,7 +4,7 @@ import LOGO from '../uglogo.png';
 
 const Navbar = () => {
   return (
-    <div className="w-screen h-[84px] flex flex-col sm:flex-row items-center justify-between relative bg-slate-50 p-4">
+    <div className="w-screen h-[84px] flex flex-col sm:flex-row items-center justify-between relative bg-blue-100 text-xl p-4">
       <div className="flex items-center">
         <img src={LOGO} alt="logo" className="w-24" />
       </div>
@@ -20,7 +20,7 @@ const Navbar = () => {
           <Link to="/report">
             <div className="text-zinc-900 text-base font-normal font-['Inter'] leading-normal">Grade Report</div>
           </Link>
-          <Link to="/missin-grade">
+          <Link to="/missing-grade">
             <div className="text-zinc-900 text-base font-normal font-['Inter'] leading-normal">Missing Grade</div>
           </Link>
           <Link to="/contact">

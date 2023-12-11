@@ -1,4 +1,5 @@
 import  { useState } from 'react';
+import Footer from './Footer';
 
 const Login = () => {
   const [studentID, setStudentID] = useState('');
@@ -52,6 +53,7 @@ const Login = () => {
         </form>
       </div>
     </div>
+    <Footer></Footer>
     </div>
 
   );
