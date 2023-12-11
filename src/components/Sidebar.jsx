@@ -11,7 +11,7 @@ const Sidebar = () => {
     <aside className="sidebar-container">
       <div className="trigger" />
       <nav>
-        <Link to="/dashboard" className={location.pathname === '/dashboard' ? 'active' : ''}>
+        <Link to="/dashboard" className={location.pathname === '/dashboard' ? 'active' : ''} id='sidebar-link'>
           Dashboard
         </Link>
         <br />
@@ -31,6 +31,7 @@ const Sidebar = () => {
           Help & Support
         </Link>
         <br />
+  
       </nav>
     </aside>
     
