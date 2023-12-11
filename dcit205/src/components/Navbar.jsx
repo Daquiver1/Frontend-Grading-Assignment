@@ -29,7 +29,7 @@ function Navbar() {
           <li className="nav__item"><a href="./loginform.js" className="nav__link">Login</a></li>
           <li className="nav__item"><a href="#" className="nav__link">Dashboard</a></li>
           <li className="nav__item"><a href="./Forms.js" className="nav__link">Forms</a></li>
-          <li className="nav__item"><a href="#" className="nav__link">Contact</a></li>
+          <li className="nav__item"><a href="./Contact.js" className="nav__link">Contact</a></li>
           <li className="nav__item"><a href="#" className="nav__link">Grade Report</a></li>
           <li className="nav__item"><a href="#" className="nav__link">Help</a></li>
         </ul>

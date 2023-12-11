@@ -58,7 +58,7 @@ const Home = () => {
                     As you navigate through the Missing Grade Reporting System, our user-friendly interface ensures a seamless and efficient experience when filling out forms. Whether reporting a missing grade or reaching out for support, our forms are intuitively designed to capture the necessary details while minimizing complexity. The Missing Grade Form page provides a structured layout, prompting you to input essential information such as the course name, instructor details, expected grade, and an explanation field. Your input is vital to initiate the process of addressing any missing grades promptly. Likewise, on the Help and Support Page, our contact form simplifies the process of reaching out for technical assistance. We value your feedback and inquiries, and our forms are crafted to ensure a streamlined and secure interaction, facilitating effective communication between you and our support team. Your participation in completing these forms contributes to the continuous improvement of our system and enhances the overall user experience. <br></br><br></br>
                     Click Below To Fill Form            
                 </p>
-                <button>Forms</button>
+                <a href='./Forms.js'><button>Forms</button></a>
             </div>
             <div>
                 <img className="forms-image" src={ bg } alt=""  />

@@ -5,11 +5,13 @@ import App from './App';
 import Home from "./components/Home";
 import Login from "./components/loginform";
 import Form from './components/Forms';
+import Contact from './components/Contact';
 
 import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
+
 
 const router = createBrowserRouter([
   {
@@ -27,6 +29,10 @@ const router = createBrowserRouter([
   {
     path: "/Forms.js",
     element: <Form />
+  },
+  {
+    path: "/Contact.js",
+    element: <Contact />
   },
 ]);
 
