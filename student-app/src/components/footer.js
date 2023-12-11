@@ -1,5 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
+import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin, FaGithub  } from 'react-icons/fa';
 
 function MyFooter() {
   return (
@@ -36,20 +37,23 @@ function MyFooter() {
           <ul className="list-inline">
             <li className="list-inline-item">
               <a href="#">
-                <i className="far fa-facebook"></i>
+              <FaFacebook size={32} style={{ marginRight: '10px' }} />
               </a>
             </li>
             <li className="list-inline-item">
               <a href="#">
-                <i className="bi bi-twitter"></i>
+              <FaTwitter size={32} style={{ marginRight: '10px' }} />
               </a>
             </li>
             <li className="list-inline-item">
               <a href="#">
-                <i className="bi bi-instagram"></i>
+              <FaInstagram size={32} style={{ marginRight: '10px' }} />
               </a>
             </li>
           </ul>
+          <div>
+            <p>Give us a FOLLOW</p>
+          </div>
         </Col>
       </Row>
       <Row className="text-center mt-2">

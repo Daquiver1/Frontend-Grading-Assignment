@@ -14,7 +14,7 @@ function MyNavbar() {
           <Nav.Link as={Link} to="/report">Report</Nav.Link>
           <Nav.Link as={Link} to="/support">Support</Nav.Link>
           <Nav.Link as={Link} to="/contact">Contact</Nav.Link>
-          <Nav.Link as={Link} to="/login">Login</Nav.Link>
+          <Nav.Link as={Link} to="./src/components/login.js">Login</Nav.Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>

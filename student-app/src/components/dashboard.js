@@ -73,6 +73,58 @@ function Dashboard() {
           </Card>
         </Col>
       </Row>
+      
+      <Row>
+        <Col md={12} class="mt-5">
+          <Card>
+            <Card.Body>
+             
+              <hr />
+              <Row>
+                <Col md={8}>
+                  <h3>Courses</h3>
+                  {courses.length > 0 ? (
+                    <Table striped bordered hover>
+                      <thead>
+                        <tr>
+                          <th>Course Name</th>
+                          <th>Semester</th>
+                          <th>Grade</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        {courses.map((course) => (
+                          <tr key={course.id}>
+                            <td>{course.name}</td>
+                            <td>{course.semester}</td>
+                            <td>{course.grade}</td>
+                          </tr>
+                        ))}
+                      </tbody>
+                    </Table>
+                  ) : (
+                    <p>No courses found.</p>
+                  )}
+                </Col>
+                <Col md={4}>
+                  <h3>Notifications</h3>
+                  <ToastContainer position="bottom">
+                    {notifications.map((notification) => (
+                      <Toast key={notification.id} className={`bg-${notification.type}`}>
+                        <Toast.Header closeButton={false}>
+                          <strong className="me-auto">{notification.title}</strong>
+                        </Toast.Header>
+                        <Toast.Body>{notification.message}</Toast.Body>
+                      </Toast>
+                    ))}
+                  </ToastContainer>
+                </Col>
+              </Row>
+            </Card.Body>
+          </Card>
+        </Col>
+      </Row>
+
       <MyFooter />
     </Container>
   );
