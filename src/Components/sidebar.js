@@ -1,49 +1,51 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap-icons/font/bootstrap-icons.css'
-import 'bootstrap/js/dist/dropdown'
+
 export default function 
 () {
   return (
+    <>
     <div className='container' id="sidebarDiv">
         <div className='row'>
-            <div className='bg-dark col-auto col-md-2 min-vh-100 d-flex justify-content-between flex-column'>
+            <div className='bg-dark col-auto col-md-2.5 min-vh-100 d-flex justify-content-between flex-column'>
                 <div>
-                    <a className='text-decoration-none text-white d-flex align-itemcenter ms-3 mt-2'>
-                        <span className='ms-1 fs-4'> Brand </span>
+                    <a className='text-decoration-none text-white d-none d-sm-inline d-flex align-itemcenter ms-3 mt-3'>
+                        <span className='ms-1 fs-4 d-none d-sm-inline'><h1> Missing Grades </h1> </span>
                     </a>
-                    <hr className='text-secondary'/>
-                    <ul class="nav nav-tabs flex-column ">
-                        <li class="nav-item text-white fs-4 my-1">
+                    <hr className='text-secondary d-none d-sm-block'/>
+                    <ul class="nav nav-pills nav-tabs flex-column ">
+                        <li class="nav-item text-white fs-4 my-1" >
                             <a href="#" class="nav-link text-white fs-5" aria-current="page">
                                 <i className='bi bi-speedometer2'></i>
-                                <span className='ms-3'>Dashboard</span>
+                                <span className='ms-3 d-none d-sm-inline'>Dashboard</span>
                             </a>
                         </li>
                         <li class="nav-item text-white fs-4 my-1">
-                            <a href="#" class="nav-link text-white fs-5" aria-current="page">
+                            <a href="/Home" class="nav-link text-white fs-5" aria-current="page">
                                 <i className='bi bi-house'></i>
-                                <span className='ms-3'>Home</span>
+                                <span className='ms-3 d-none d-sm-inline'>Home</span>
                             </a>
                         </li>
                         <li class="nav-item text-white fs-4 my-1">
-                            <a href="#" class="nav-link text-white fs-5" aria-current="page">
+                            <a href="/GradeReport" class="nav-link text-white fs-5" aria-current="page">
                                 <i className='bi bi-table'></i>
-                                <span className='ms-3'>Orders</span>
+                                <span className='ms-3 d-none d-sm-inline'>Grade Report</span>
                             </a>
                         </li>
                         <li class="nav-item text-white fs-4 my-1">
-                            <a href="#" class="nav-link text-white fs-5" aria-current="page">
-                                <i className='bi bi-grid'></i>
-                                <span className='ms-3'>Product</span>
+                            <a href="/ContactUs" class="nav-link text-white fs-5" aria-current="page">
+                                <i className='bi bi-bi bi-person-lines-fill'></i>
+                                <span className='ms-3 d-none d-sm-inline'>Contact</span>
                             </a>
                         </li>
                         <li class="nav-item text-white fs-4 my-1">
-                            <a href="#" class="nav-link text-white fs-5" aria-current="page">
+                            <a href="/HelpAndSupport" class="nav-link text-white fs-5" aria-current="page">
                                 <i className='bi bi-people'></i>
-                                <span className='ms-3'>customers</span>
+                                <span className='ms-3 d-none d-sm-inline'>Help and Support</span>
                             </a>
                         </li>
+                            
                     </ul>
                 </div>
                 <div class="dropdown open">
@@ -55,18 +57,23 @@ export default function
                         aria-haspopup="true"
                         aria-expanded="false"
                     >
-                        <i className='bi bi-person-circle'></i><span className='ms-2'>Mandem</span>
+                        <h4><i className='bi bi-person-circle'></i><span className='ms-3 d-none d-sm-inline'>Mandem</span></h4>
                     </a>
                     <div class="dropdown-menu" aria-labelledby="triggerId">
-                        <a class="dropdown-item" href="#">Settings</a>
-                        <a class="dropdown-item" href="#">Profile</a>
+                        <a class="dropdown-item" href="#"><span className='d-sm-inline'>1</span>
+                        <span className='d-none d-sm-block'> Profile </span></a>
+                        <a class="dropdown-item" href="#"><span className='d-sm-inline'>2</span>
+                        <span className='d-none d-sm-block'> Setting </span></a>
                     </div>
                 </div>
                 
             </div>
 
         </div>
-        
     </div>
+    
+        
+    </>
+    
   )
 }

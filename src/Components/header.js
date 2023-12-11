@@ -2,7 +2,7 @@ export default function Header() {
     return(
         <>
   
-        <nav className="navbar navbar-expand-sm fixed-top navbar-dark bg-dark  "> 
+        <nav className="navbar navbar-expand-sm fixed-top navbar-dark bg-dark"> 
     
             <button 
             type = "button"
