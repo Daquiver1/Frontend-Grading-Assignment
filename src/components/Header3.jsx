@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import logo from '../assets/ugLogo.png'; // Adjust the path based on your project structure
+import logo from '../assets/ugLogo.png'; 
 
 const Header3 = () => {
   return (
