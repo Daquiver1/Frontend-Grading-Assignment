@@ -46,7 +46,7 @@ const Home = () => {
                         Welcome to the gateway of your academic journey! The login page is your secure entry point into the Missing Grade Reporting System, designed to ensure the confidentiality and integrity of your academic information. Here, students can confidently input their unique credentials - their Student ID and PIN - to gain access to a personalized and protected space. Our authentication process, while a simulation for security purposes, mirrors the importance we place on safeguarding your academic records. Behind this digital door lies a comprehensive dashboard where you can view your current grades, receive alerts for any missing grades, and engage with the robust features designed to enhance your academic experience. Step into the realm of your educational progress by logging in and unlocking the tools that empower you on your academic journey
                         <br></br><br></br>Click The Link Below To Login
                     </p>
-                    <button>Login</button>
+                    <a href="./loginform.js"><button>Login</button></a>
                 </div>
           
              </section>

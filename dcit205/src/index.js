@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import Home from "./components/Home";
 import Login from "./components/loginform";
+import Form from './components/Forms';
 
 import {
   createBrowserRouter,
@@ -20,8 +21,12 @@ const router = createBrowserRouter([
     element: <Home/>
   },
   {
-    path: "/Loginform.js",
+    path: "/loginform.js",
     element: <Login />
+  },
+  {
+    path: "/Forms.js",
+    element: <Form />
   },
 ]);
 
