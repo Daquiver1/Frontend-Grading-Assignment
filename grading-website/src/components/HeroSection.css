@@ -225,3 +225,106 @@
     margin-top:10px;
     background-color: rgb(181, 214, 242);
   }
+  .grade-form-background-image-container{
+    opacity: 0.9;
+    background-color: aliceblue;
+  }
+  .page-note-container {
+    margin-top: 30px;
+    margin-left: 500px;
+    position: fixed;
+  }
+  .page-note-container{
+    color:white;
+  }
+  .missing-grade-form{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    margin-left: 550px;
+    margin-top:80px;
+    width:600px;
+    height:600px;
+    background-color: white;
+    border:2px solid black;
+  }
+  .course-name-container,
+  .instructor-name-container,
+  .expected-grade-container,
+  .explanation-container{
+    margin-left:30px;
+    padding-left:20px;
+    margin-bottom:20px;
+    margin-top: 10px;
+  }
+  .course-name-container p,
+  .instructor-name-container p,
+  .expected-grade-container p,
+  .explanation-container p{
+    color:rgb(24, 24, 24);
+    font-size: 18px;
+    margin-bottom:0px;
+  }
+  .course-name-container input,
+  .expected-grade-container input,
+  .instructor-name-container input{
+    width: 500px;
+    background-color: #eee;
+    padding-left: 20px;
+    border:none;
+    outline:none;
+    border-radius: 125px;
+  }
+  .course-name-container input::placeholder,
+  .instructor-name-container  input::placeholder{
+    color:#bbb;
+  }
+  .explanation-container textarea{
+    width:500px;
+    height:200px;
+    background-color: #eee;
+    border:none;
+    outline:none;
+    border-radius: 10px;
+  }
+
+  .submit1-button-container{
+    margin-left:30px;
+    display:flex;
+    justify-content: center;
+  }
+.submit1-button-container button{
+  padding:5px 20px 5px 20px;
+}
+
+.message{
+  width:100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.message .success{
+  color:green;
+  position: absolute;
+  animation: buttons .3s linear;
+  display: none;
+}
+.message .empty{
+  color:red;
+  position:absolute;
+  animation:buttons .3s linear;
+  transition: .3s;
+  display: none;
+}
+
+@keyframes buttons{
+  0%{
+    transform: scale(0.1);
+  }
+  50%{
+    transform: scale(0.5);
+  }
+  100%{
+    transform: scale(1);
+  }
+}
