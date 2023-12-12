@@ -16,7 +16,11 @@ The application includes a navbar/sidebar for easy navigation, ensuring a smooth
 
 ## Technologies Used
 React: The project is built using React, a popular JavaScript library for building user interfaces.
+
 CSS: Styling and layout are implemented using a combination of CSS for a modern and visually appealing design.
 
 ## Getting Started
-1. 
+1. Clone the repository: git clone 
+2. Navigate to the project directory: cd [project-directory]
+3. Install dependencies: npm install
+4. Start the development server: npm start
