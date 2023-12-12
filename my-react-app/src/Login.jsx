@@ -1,6 +1,6 @@
-// Login.jsx
+
 import React, { useState } from 'react';
-import './Login.css'; // Import your CSS file for styling
+import './Login.css'; 
 
 function Login() {
   const [studentId, setStudentId] = useState('');
@@ -10,9 +10,9 @@ function Login() {
   const handleLogin = (e) => {
     e.preventDefault();
     // Here you can perform login validation with studentId and password
-    if (studentId === 'exampleID' && password === 'examplePassword') {
+    if (studentId === '11014162' && password === '30546') {
       // Successful login, you can redirect or perform further actions
-      console.log('Login successful');
+      console.log('/dashboard');
     } else {
       // Login failed
       setLoginError(true);
