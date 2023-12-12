@@ -1,15 +1,30 @@
-import React from 'react';
-import Logo from '../assets/ug logo.png';
+import React, { useState } from "react"
+import './navbar.css'
+import Logo from '../assets/ug logo.png'
 
-function Navbar() {
+import { Link } from "react-router-dom"
+
+const Navbar = () => {
+  const [Mobile, setMobile] = useState(false)
   return (
-    <div className='navbar'>
-        <div className='leftSide'>
-            <img src={Logo} />
-        </div>
-        <div className='rightSide'></div>
-    </div>
+    <>
+      <nav className='navbar'>
+        <h3 className='logo'>Logo</h3>
+        {/*
+      
+        */}
+        <ul className={Mobile ? "nav-links-mobile" : "nav-links"} onClick={() => setMobile(false)}>
+          <Link to='/' className='home'>
+            <li>Home</li>
+          </Link>
+          <Link to='/about' className='about'>
+            <li>About</li>
+          </Link>
+        </ul>
+        {/* 
+        */}
+      </nav>
+    </>
   )
 }
-
 export default Navbar
