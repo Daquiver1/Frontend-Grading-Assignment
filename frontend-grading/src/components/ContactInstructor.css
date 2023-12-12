@@ -1,0 +1,95 @@
+/* ContactInstructor.css */
+
+.contact-instructor-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    background-color: rgba(0, 0, 0, 0.7); /* Dark and transparent color */
+    color: #fff; /* Text color */
+  }
+  
+  table, th, td {
+    border: 1px solid #444; /* Dark border color */
+  }
+  
+  th, td {
+    padding: 12px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #333; /* Dark background color */
+  }
+  
+  tbody tr:hover {
+    background-color: rgba(255, 255, 255, 0.1); /* Slightly transparent white on hover */
+    cursor: pointer;
+  }
+  
+  .message-form {
+    display: none;
+    margin-top: 20px;
+  }
+  
+  .message-form h2 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+  textarea {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+
+  .contact-instructor-container h1 {
+    text-align: center;
+  }
+
+  /* Add this to ContactInstructor.css */
+
+.contact-instructor-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .instructors-table-container table {
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .instructors-table-container th,
+  .instructors-table-container td {
+    padding: 10px;
+    color: white;
+    border: 1px solid white;
+  }
+  
+  .message-form {
+    margin-top: 20px;
+  }
+  
+  .additional-content {
+    margin-top: 20px;
+  }
+  
