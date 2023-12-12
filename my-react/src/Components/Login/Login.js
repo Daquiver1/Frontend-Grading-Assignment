@@ -6,7 +6,9 @@ const Login = () => {
 
         <div>
             <div className="loginmain w-screen h-screen">
-
+                <form action="">
+                    
+                </form>
             </div>
         </div>
      );
