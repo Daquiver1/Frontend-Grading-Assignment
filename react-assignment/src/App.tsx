@@ -5,11 +5,10 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Logins from "./Logins";
 import Home from "./Home";
 import Dashboard from "./Dashboard";
-import Grades from "./Grades"
-//import Report from "./Report";
-//import Dashboard from "./Dashboard";
-//import Contact from "./Contact";
-//import Help from "./Help";
+import Gradereport from "./Gradereport"
+import Missinggrade from "./Missinggrade";
+import Contact from "./Contact";
+import Help from "./Help";
 
 function App() {
   return (
@@ -17,7 +16,7 @@ function App() {
       <Router>
         <div>
           <Header />
-          
+
           <Routes>
             <Route
               path="react-assignment/src/Logins.tsx"
@@ -32,14 +31,24 @@ function App() {
               element={<Dashboard />}
             ></Route>
             <Route
-            path="react-assignment/src/Grades.tsx"
-            element={<Grades />}
+              path="react-assignment/src/Missinggrade.tsx"
+              element={<Missinggrade />}
+            ></Route>
+            <Route
+              path="react-assignment/src/Gradereport.tsx"
+              element={<Gradereport />}
+            ></Route>
+            <Route
+              path="react-assignment/src/Contact.tsx"
+              element={<Contact />}
+            ></Route>
+            <Route
+              path="react-assignment/src/Help.tsx"
+              element={<Help />}
             ></Route>
           </Routes>
         </div>
       </Router>
-
-      
     </>
   );
 }

@@ -1,0 +1,70 @@
+.missing-grade{
+  text-align: center;
+  font-weight: bold;
+  font-size: 33px;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.stu-details{
+  display: block;
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.b{
+  padding: 50px 50px 50px 50px ;
+  padding-top: 100px;
+}
+
+.form{
+  width: 800px;
+  margin-inline: auto;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  background-color: rgba(0, 8, 121, 0.705);
+  padding: 50px 50px 50px 50px ;
+  border-radius: 20px;
+}
+
+.box{
+  width: 300px;
+  height: 40px;
+  font-family: 'Times New Roman', Times, serif;
+
+}
+
+.box .box-name:hover{
+  border-color: #00357a;
+}
+
+.box-name{
+  width: 300px;
+  margin-right: 50px;
+  height: 40px;
+  font-family: 'Times New Roman', Times, serif;
+
+}
+
+textarea{
+  width: 450px;
+  height: 300px;
+  font-family: 'Times New Roman', Times, serif;
+
+}
+
+.Submit{
+  display: block;
+  background-color:  #00357a;
+  color: white;
+  border-radius: 12px;
+  text-align: center;
+  margin-inline: auto;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin-top: 50px;
+  font-family: 'Times New Roman', Times, serif;
+
+}

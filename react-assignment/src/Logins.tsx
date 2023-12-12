@@ -1,4 +1,5 @@
 import "./Logins.css";
+import { Link } from "react-router-dom";
 
 function Logins() {
   return (
@@ -18,7 +19,9 @@ function Logins() {
           <input className="email" placeholder="akbresaa@st.ug.edu.gh" />
         </div>
         <div style={{ display: "flex", justifyContent: "center" }}>
-          <button className="submitbutton"> Login </button>
+          <Link to="/react-assignment/src/Gradereport.tsx">
+            <button className="submitbutton"> Login </button>
+          </Link>
         </div>
       </div>
     </div>

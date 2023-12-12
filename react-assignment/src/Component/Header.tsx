@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import  { useState } from "react";
 import { Link } from "react-router-dom";
 import "./Header.css";
 import { NavLink } from "react-router-dom";
@@ -22,32 +22,38 @@ export const Header = () => {
 
         <ul className={menuOpen ? "open" : ""}>
           <li>
-            <NavLink to="react-assignment/src/home.tsx"> Home </NavLink>
+            <NavLink to="react-assignment/src/Home.tsx"> Home </NavLink>
           </li>
           <li>
             {" "}
             <NavLink to="react-assignment/src/Logins.tsx">Logins</NavLink>
           </li>
           <li>
-            <NavLink to="react-assignment/src/grades.tsx"> Grades</NavLink>
+            <NavLink to="react-assignment/src/Gradereport.tsx">
+              {" "}
+              Grade Report{" "}
+            </NavLink>
           </li>
           <li>
             {" "}
-            <NavLink to="react-assignment/src/report.tsx"> Report</NavLink>
+            <NavLink to="react-assignment/src/Missinggrade.tsx">
+              {" "}
+              Missing Grade Form
+            </NavLink>
           </li>
           <li>
             {" "}
-            <NavLink to="react-assignment/src/dashboard.tsx">
+            <NavLink to="react-assignment/src/Dashboard.tsx">
               {" "}
               Dashboard
             </NavLink>
           </li>
           <li>
-            <NavLink to="react-assignment/src/contact.tsx"> Contact </NavLink>
+            <NavLink to="react-assignment/src/Contact.tsx"> Contact </NavLink>
           </li>
           <li>
             {" "}
-            <NavLink to="react-assignment/src/help.tsx"> Help </NavLink>
+            <NavLink to="react-assignment/src/Help.tsx"> Help </NavLink>
           </li>
         </ul>
       </nav>
