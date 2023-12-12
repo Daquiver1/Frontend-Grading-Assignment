@@ -1,23 +1,24 @@
-import React from 'react';
-import Login from './components/Login';
-import LandingPage from './components/landing_page';
-
-// App.js
 import { Routes, Route } from 'react-router-dom';
-import Home from './Pages/Home';
-import About from './Pages/About';
-import Products from './Pages/Products';
+import LandingPage from './pages/home';
+import Dashboard from './pages/dashboard/index.';
+import NotFound from './pages/404';
+import Login from './pages/login';
+import Grades from './pages/grade_report';
 
-const App = () => {
- return (
-    <>
-       <Routes>
-          <Route path="/" element={<Layout />} />
-          <Route path="/products" element={<Products />} />
-          <Route path="/about" element={<About />} />
-       </Routes>
-    </>
- );
-};
+
+function App() {
+   return (
+      <>
+         <Routes>
+            <Route path="/" element={<LandingPage />} />
+            <Route path="/dashboard" element={<Dashboard />} />
+            <Route path="/login" element={<Login />} />
+            <Route path="/*" element={<NotFound />} />
+            <Route path="/Grades" element={<Grades />} />
+         </Routes>
+      </>
+
+   )
+}
 
 export default App;
