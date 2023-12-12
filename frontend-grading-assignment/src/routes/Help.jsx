@@ -149,8 +149,8 @@ const Help  = () => {
             
             <div className="container contact-container">
                 <div className="row">
-                    <div className="col-md-6 bg-primary">
-                        {/* <img src="https://support.content.office.net/en-us/media/ff5288dc-d481-40cd-8eba-5b8b9652aeb9.png" alt="" className="img-fluid" /> */}
+                    <div className="col-md-6 m-auto">
+                        <img style={{height: "100%", width: "100%"}} src="https://t4.ftcdn.net/jpg/02/69/47/11/360_F_269471110_mdi7Gs2Hrq0igFIKpAEVVdqNohlLRxO3.jpg" alt="" className="img-fluid" />
                     </div>
                     <div className="col-md-6 p-5">
                         <div className="p-2">

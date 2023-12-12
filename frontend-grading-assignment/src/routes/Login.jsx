@@ -1,7 +1,25 @@
 
 import "./CustomLogin.css";
+import { useState } from "react"
 
 const Login = () => {
+
+    const [studentId, setStudentId ] = useState('')
+    const [pin, setPin ] = useState('')
+    // const [errorMessage, setErrorMessage] = useState('')
+
+    const mockupId = "11254394"
+    const mockupPin = "1234"
+
+    const handleLogin = (e) => {
+        e.preventDefault();
+        if(studentId === mockupId && pin === mockupPin){
+            alert("Login successful")
+        }
+        else {
+            alert('Invalid Student Id or Pin')
+        }
+    }
     return (
         <div>
             <div className="container-fluid login-container px-1 px-md-5 px-lg-1 px-xl-5 py-5 mx-auto">
@@ -29,17 +47,17 @@ const Login = () => {
                                 <form>
 
                                     <div className="form-floating mb-3 mt-3">
-                                        <input type="text" className="form-control mt-2" id="floatingInputText" placeholder="1211282" />
+                                        <input type="text" value={studentId} onChange={e => setStudentId(e.target.value)} className="form-control mt-2" name="studentId" id="floatingInputText" placeholder="1211282" />
                                         <label htmlFor="floatingInputText">Student Id</label>
                                     </div>
 
                                     <div className="form-floating mb-3 mt-3">
-                                        <input type="password" className="form-control" id="floatingPassword" placeholder="Password" />
+                                        <input type="password" value={pin} onChange={e => setPin(e.target.value)} className="form-control" name="pin" id="floatingPassword" placeholder="Password" />
                                         <label htmlFor="floatingPassword">Student Pin</label>
                                     </div>
 
                                     <div className="d-grid mb-2 mt-3">
-                                      <button className="btn btn-lg btn-primary btn-login" type="submit">Login</button>
+                                      <button className="btn btn-lg btn-primary btn-login" onSubmit={handleLogin} type="submit">Login</button>
                                     </div>
 
 

@@ -11,6 +11,27 @@ const GradeReport = () => {
     
     return(
         <div>
+            <div className="container my-5 py-4 px-4 bg-white" style={{boxShadow: "0px 4px 8px 0px #757575"}}>
+                <div className="row">
+                    <div className="col-md-6">
+                        <p>Welcome <span>Richmond Manu Andoh</span></p>
+                        <p>Student Number: <span>11254304</span></p>
+                    </div>
+                    <div className="col-md-6">
+                        <form action="">
+                            <div className="container">
+                                <label htmlFor="year">Select Academic Year: </label>
+                                <select name="" id="" className="form-control w-25 bg-blue">
+                                    <option value="">2020-2021</option>
+                                    <option value="">2021-2022</option>
+                                    <option value="">2022-2023</option>
+                                    <option value="">2023-2024</option>
+                                </select>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
             <table id="example" className="table table-striped table-bordered" style={{width:"100%", marginTop: "5rem", boxShadow: "0px 4px 8px 0px #757575"}}>
                 <thead>
                     <tr>
