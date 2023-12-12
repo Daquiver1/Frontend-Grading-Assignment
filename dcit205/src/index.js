@@ -7,6 +7,7 @@ import Login from "./components/loginform";
 import Form from './components/Forms';
 import Contact from './components/Contact';
 import Help from './components/Help';
+import GradeReportPage from './components/GradeReportPage';
 
 import {
   createBrowserRouter,
@@ -38,6 +39,10 @@ const router = createBrowserRouter([
   {
     path: "/Help.js",
     element: <Help />
+  },
+  {
+    path: "/GradeReportPage.js",
+    element: <GradeReportPage />
   },
 ]);
 

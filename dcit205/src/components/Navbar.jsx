@@ -30,7 +30,7 @@ function Navbar() {
           <li className="nav__item"><a href="#" className="nav__link">Dashboard</a></li>
           <li className="nav__item"><a href="./Forms.js" className="nav__link">Forms</a></li>
           <li className="nav__item"><a href="./Contact.js" className="nav__link">Contact</a></li>
-          <li className="nav__item"><a href="#" className="nav__link">Grade Report</a></li>
+          <li className="nav__item"><a href="./GradeReportPage.js" className="nav__link">Grade Report</a></li>
           <li className="nav__item"><a href="./Help.js" className="nav__link">Help and Support</a></li>
         </ul>
         <div onClick={navToggle}  className={toggleIcon}>
