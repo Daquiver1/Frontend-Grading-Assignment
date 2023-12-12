@@ -11,7 +11,7 @@ export default function FAQ({ question, answer }) {
       <div className="border border-gray-400   rounded-lg bg-white ">
         <article className="flex items-center justify-between p-4 lg:p-6">
           <h2
-            className="cursor-pointer"
+            className="cursor-pointer "
             onClick={() => setShowAnswer(!showAnswer)}
           >
             {question}
