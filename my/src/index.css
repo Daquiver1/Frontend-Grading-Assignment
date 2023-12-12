@@ -124,3 +124,6 @@ background-image: url(Assets/img\ 4.png);/* Corrected image path and added quote
 .card4 {
   background-image: url(Assets/Pic1.jpg)
 }
+.red-text {
+  color: red;
+}
