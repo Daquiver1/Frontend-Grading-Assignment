@@ -2,12 +2,14 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './LandingPage.css'; // Import the CSS file for styling
+import UGLogo from '../assets/ug logo.png'; // 
 
 const LandingPage = () => {
   return (
     <div className="landing-page">
       <header>
-        <div className="logo">
+      <div className="logo-container">
+          <img src={UGLogo} alt="UG Logo" className="ug-logo" />
           <h1>Missing Grade Reporting System</h1>
         </div>
       </header>
@@ -15,8 +17,8 @@ const LandingPage = () => {
         <section className="hero-section">
           <h2>Welcome to the Missing Grade Reporting System</h2>
           <p>Track and report missing grades effortlessly.</p>
-          <Link to="/dashboard" className="cta-button">
-            Get Started
+          <Link to="/Login" className="cta-button">
+            Student Login
           </Link>
         </section>
         <section className="features-section">

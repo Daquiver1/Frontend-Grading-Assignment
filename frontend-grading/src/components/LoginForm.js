@@ -12,9 +12,9 @@ const LoginForm = () => {
   };
 
   return (
-    <div>
-      <h2>Login</h2>
-      <form onSubmit={handleLogin}>
+    <div className="login-form-container">
+      
+      <form onSubmit={handleLogin} className="form">
         <label>
           Student ID:
           <input
