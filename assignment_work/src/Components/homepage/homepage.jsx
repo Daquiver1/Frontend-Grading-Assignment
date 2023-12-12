@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 const Home = () => {
   return (
     
-    <div className="container">
+    <div className="container-home">
         <div className="nav-login">
             <Link to= '/loginpage'><button>Login</button></Link>
         </div>
