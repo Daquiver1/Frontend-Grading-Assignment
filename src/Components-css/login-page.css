@@ -1,0 +1,40 @@
+.LoginPage{
+    width: 100%;
+    height: 100dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1em;
+
+}
+.Login-form{
+    width: fit-content;
+    height: fit-content;
+    border: 1px solid rgb(223, 218, 210);
+    border-radius: 20px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.Login-title{
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+.Login-input{
+    display: flex;
+    flex-direction: column;
+    
+}
+.Login-input input{
+    width: 250px;
+    height: 40px;
+    color: rgb(162, 162, 138);
+    outline: none;
+    padding-left: 5px;
+    margin-bottom: 20px;
+
+    
+}
