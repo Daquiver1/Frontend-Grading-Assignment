@@ -1,11 +1,13 @@
 import login_icon from '../images/blacklogin.jpg'
-
+import '../../App.css'
 
 const Login = () => {
     return (
 
         <div>
-            login here
+            <div className="loginmain w-screen h-screen">
+
+            </div>
         </div>
      );
 }
