@@ -6,16 +6,20 @@
     <title>Document</title>
 
     <style>
-        * {
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+    * {
     margin: 0;
     padding: 0;
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
+    
 }
 
 body {
     background: dodgerblue;
+    font-family: 'Montserrat', sans-serif;
 }
 header {
     background: #fff;
@@ -85,9 +89,63 @@ header nav ul li a.active {
         margin: 5px 0;
     }
 }
+
+h1, h2, h3 {
+            color: #333;
+            align-items: center;
+            justify-content: center;
+        }
+
+        h1{
+            text-align: center;
+            color: white;
+            padding-top: 15px;
+            text-decoration: overline;
+        }
+
+        h2{
+            text-align: center;
+            font-size: 40px;
+            text-decoration:underline;
+        }
+
+        h3{
+            text-align: center;
+            font-size: 25px;
+        }
+
+        p{
+            font-size: 22px;
+            text-align: center;
+        }
+        .faq, .contact-form {
+            margin: 20px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            justify-content: center;
+            align-items: center;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .contact-form input[type="submit"] {
+            background-color: dodgerblue;
+            color: #fff;
+            cursor: pointer;
+        }
+        .contact-form input[type="submit"]:hover {
+            background-color: rgb(99, 22, 22);
+        }
     </style>
 </head>
 <body>
+    
     <header>
         <div class="logo">Missing Report.</div>
         <input type="checkbox" id="nav_check" hidden>
@@ -122,5 +180,37 @@ header nav ul li a.active {
             <div></div>
         </label>
     </header>
+
+    <h1>HELP AND SUPPORT PAGE</h1>
+    <div class="faq">
+        <h2>FAQs</h2> <br>
+        <h3>How are grades reported?</h3>
+        <p>Grades are reported on a semester basis and can be accessed through the student portal.</p> <br>
+        <h3>What is the grading scale?</h3>
+        <p>The grading scale ranges from A (excellent) to F (fail).</p> <br>
+        <h3>How can I appeal a grade?</h3>
+        <p>You can appeal a grade by contacting your professor or the academic affairs office.</p> <br>
+        <h3>How can I reset my password?</h3>
+        <p>You can reset your password by clicking on the "Forgot Password" link on the login page.</p> <br>
+        <h3>Who can I contact for academic advising?</h3>
+        <p>You can contact the academic advising office for academic advising.</p> <br>
+        <h3>What resources are available for tutoring?</h3>
+        <p>There are various tutoring resources available, including peer tutoring and online tutoring services.</p> <br>
+        <h3>How can I access my course materials online?</h3>
+        <p>You can access your course materials online through the student portal.</p> <br>
+        <h3>What do I do if I'm having technical issues with the online portal?</h3>
+        <p>If you're having technical issues with the online portal, please contact our technical support team.</p>
+    </div>
+
+
+    <div class="contact-form">
+        <h2>Contact Us for Technical Support</h2>
+        <form>
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <input type="submit" value="SUBMIT">
+        </form>
+    </div>
 </body>
 </html>

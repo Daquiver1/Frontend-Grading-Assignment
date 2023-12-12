@@ -15,12 +15,15 @@
 	<title>Contact Section</title>
 
     <style>
-            * {
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+    * {
     margin: 0;
     padding: 0;
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
 }
 
 
@@ -117,9 +120,12 @@ header nav ul li a.active {
             height: 250px;
         }
 
-        h1, h2{
+
+
+        h1 {
             padding-top: 20px;
             text-align: center;
+            text-decoration: underline;
         }
 
         .contact-section{
@@ -135,6 +141,37 @@ header nav ul li a.active {
             justify-content: center;
             align-items: center;
             display: inline-block;
+        }
+
+        .instructor, .email-form {
+            margin: 20px;
+        }
+        .email-form input, .email-form textarea {
+            text-align: center;
+            width: 20%;
+            margin-bottom: 10px;
+        }
+
+        textarea{
+            height: 150px;
+        }
+        .instructor img {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 50%;
+        }
+
+        .instructor{
+            text-align: center;
+        }
+
+        button{
+            background-color: blue;
+            padding: 15px 25px 15px 25px;
+            border-radius: 10px;
+            border: none;
+            color: #fff;
         }
     </style>
 
@@ -176,38 +213,40 @@ header nav ul li a.active {
         </label>
     </header>
 
+    <h1>Instructor Contact Page</h1> 
 
-    <h1>Instructor Contact Page</h1>
+    <div class="instructor">
+        <h2>Instructors</h2> <br> <br> 
+        <h3>Aziz Abudualli</h3>
+        <img src="pictures/aziz.jpg">
+        <p>Email: azizabu@gmail.com</p> <br> <br> <br>
 
-    <div class="contact-section">
-        <div class="instructor">
-            <h2>Abdullai Dwumfour Aziz</h2>
-            <img src="pictures/aziz.jpg">
-            <p>Contact: contact1@example.com</p>
-            <button class="email-button" onclick="alert('Simulated email to Instructor Name 1 sent!')">Send Email</button>
-        </div>
-    
-        <div class="instructor">
-            <h2>Michael Agbo Tettey Soli</h2>
-            <img src="pictures/sorli.jpg">
-            <p>Contact: contact2@example.com</p>
-            <button class="email-button" onclick="alert('Simulated email to Instructor Name 2 sent!')">Send Email</button>
-        </div>
-    
-        <div class="instructor">
-            <h2>Mark Atta Mensah</h2>
-            <img src="pictures/mam.jpg">
-            <p>Contact: contact2@example.com</p>
-            <button class="email-button" onclick="alert('Simulated email to Instructor Name 2 sent!')">Send Email</button>
-        </div> 
+        <h3>Mr.Sorli</h3>
+        <img src="pictures/sorli.jpg">
+        <p>Email: mrsorli@gmail.com</p> <br> <br> <br>
+        
+        <h3>Mark Attah Mensah</h3>
+        <img src="pictures/mam.jpg">
+        <p>Email: markattah@gmail.com</p> <br> <br> <br>
     </div>
 
-    <div class="Field">
-        <label>Write down your concern</label> <br>
-        <textarea name="" id="" cols="100" rows="20"></textarea>
+    <div class="email-form">
+        <h2>Send a Simulated Email</h2>
+        <form>
+            <select name="instructor" required>
+                <option value="">Select an Instructor</option>
+                <option value="azizabu@gmail.com">Aziz Abudualli</option>
+                <option value="mrsorli@gmail.com">Mr.Sorli</option>
+                <option value="markattah@gmail.com">Mark Attah Mensah</option>
+            </select>
+            <div>
+            <input type="text" name="subject" placeholder="Subject" required> <br>
+            <textarea name="message" placeholder="Your Message" required></textarea> <br>
+            <button>SEND</button>
+            </div>
+            
+        </form>
     </div>
-    
 
 </body>
 </html>
-
