@@ -19,7 +19,7 @@ The application consists of 7 main pages:
 ## Technical Details
 
 - **Framework/Technology Used:** [React]
-- **Responsive Design:** Implemented using [CSS Flexbox/Grid, Bootstrap, Tailwind CSS].
+- **Responsive Design:** Implemented using [CSS Flexbox/Grid, Vite + React, HTML, CSS].
 - **JavaScript Functionality:** Used for form validations, dynamic content rendering, and simulating interactions.
 
 ## Setup and Installation
@@ -27,10 +27,13 @@ The application consists of 7 main pages:
 To set up the project locally, follow these steps:
 
 ```bash
-git clone https://github.com/your-github-username/DCIT_205_ASSIGNGMENT1.git
-cd repo-name
+git clone https://github.com/mighty808/DCIT_205_ASSIGNGMENT1.git
+npm create vite@latset myreport
+Choose REACT
+Seclect Javascript
+cd myreport
 npm install
-npm start
+npm run dev
 ```
 
 This will start the application on `localhost` at the default port.
@@ -49,3 +52,6 @@ To contribute to this project, please follow these guidelines:
 4. Submit a pull request for review.
 
 Please adhere to the project's coding standards and provide clear and detailed pull request descriptions.
+
+## Screenshot
+(pictures/aziz.png)
