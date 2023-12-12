@@ -15,12 +15,11 @@ const Hearder =()=>{
 <h1>myLogo</h1>
 </div>
             <ul className="navigation">
-               <a onClick={()=>navigate("")}><li>Home</li></a>
-               <a onClick={()=>navigate("")}><li>About</li></a>
+               <a onClick={()=>navigate("Homepage")}><li>Home</li></a>
             <a onClick={()=>navigate("Missinggrade")}><li >Missing grade</li></a> 
-               <a onClick={()=>navigate("Missinggrade")}><li>Dashboard</li></a>
+               <a onClick={()=>navigate("Dashboard")}><li>Dashboard</li></a>
                <a onClick={()=>navigate("Missinggrade")}><li>Contact</li></a>
-               <a onClick={()=>navigate("Missinggrade")}><li>FAQs</li></a>
+               <a onClick={()=>navigate("Faqs")}><li>FAQs</li></a>
              </ul>
       </div>
     </nav>

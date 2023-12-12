@@ -5,7 +5,9 @@ import Homepage from './pages/Homepage/Homepage'
 import Login from "./pages/Homepage/component/login"
 import Signup from "./pages/Homepage/component/Signup"
 import Missinggrade from "./pages/Homepage/component/Missinggrade"
-
+import Hearder from "./pages/Homepage/component/Hearder"
+import Fqas from "./pages/Homepage/component/Fqas"
+import Dashboard from "./pages/Homepage/component/Dashboard"
 
 
 
@@ -17,7 +19,9 @@ const App = () => {
 <Route path='/Login' element={<Login/>}/>
 <Route path="/Signup" element={<Signup/>}/>
 <Route path="/Missinggrade" element={<Missinggrade/>}/>
-
+<Route path="/Header" element={<Hearder/>}/>
+<Route path="/Faqs" element={<Fqas/>}/>
+<Route path="/Dashboard" element={<Dashboard/>}/>
 
    </Routes>
   )
