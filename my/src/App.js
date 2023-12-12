@@ -7,6 +7,9 @@ import Login from "./pages/login";
 
 
 
+
+
+
 function App() {
   let component;
 
@@ -26,7 +29,9 @@ function App() {
 
   return (
     <>
+    
       <Navbar />
+     
       {component}
     </>
   );

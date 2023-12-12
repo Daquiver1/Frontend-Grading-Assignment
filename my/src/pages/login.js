@@ -5,41 +5,38 @@ const fakeUserData = {
   password: 'macbeth123',
 };
 
-const fakeGradesData = [
-  // ... (your existing fakeGradesData)
-  { course: 'INTRODUCTION TO COMPUTER SCIENCE', grade: 'A', semester: 'FIRST SEMESTER', academicYear: '2022' },
-  { course: 'OFFICE PRODUCTIVITY TOOLS', grade: 'F', semester: 'FIRST SEMESTER', academicYear: '2022' },
-  { course: 'INTRODUCTION TO ECONOMICS I', grade: 'F', semester: 'Spring', academicYear: '2023' },
-  { course: 'STATISTICS AND PROBABILITY I', grade: 'F', semester: 'Spring', academicYear: '2023' },
-  { course: 'CRITICAL THINKING AND PRACTICAL REASONING', grade: 'F', semester: 'FIRST SEMESTER', academicYear: '2023' },
-  // Add more courses as needed with semester and academicYear properties
-];
-
 const initialGradesData = [
-  // ... (your existing gradesData)
-  { course: 'Science', grade: 'B', semester: 'Fall', academicYear: '2023' },
-  { course: 'Art History', grade: 'A', semester: 'Spring', academicYear: '2022' },
-  { course: 'Literature and Writing', grade: 'B', semester: 'Spring', academicYear: '2022' },
-  { course: 'Environmental Science', grade: 'A-', semester: 'Fall', academicYear: '2022' },
-  { course: 'Music Theory', grade: 'B+', semester: 'Fall', academicYear: '2022' },
-  { course: 'Psychology', grade: 'A', semester: 'Spring', academicYear: '2023' },
+  { course: 'INTRODUCTION TO COMPUTER SCIENCE', semester: 'FIRST SEMESTER 2021', academicYear: '2021' },
+  { course: 'OFFICE PRODUCTIVITY TOOLS', semester: 'FIRST SEMESTER 2021', academicYear: '2021' },
+  { course: 'MATHEMATICS FOR IT PROFESSIONALS', semester:'FIRST SEMESTER 2021', academicYear: '2021' },
+  { course: 'INTRODUCTION TO ECONOMICS I', semester: 'FIRST SEMESTER 2021', academicYear: '2021' },
+  { course: 'INTRODUTION TO STATISTICS AND PROBABILITY', semester: 'FIRST SEMESTER 2021', academicYear: '2021' },
+  { course: 'CRITICAL THINKING AND PRACTICAL REASONING ', semester: 'FIRST SEMESTER 2021', academicYear: '2021' },
   // Add more courses of your choice
-  { course: 'Chemistry', grade: 'B', semester: 'Spring', academicYear: '2023' },
-  { course: 'Political Science', grade: 'A-', semester: 'Fall', academicYear: '2022' },
-  { course: 'History of Art and Architecture', grade: 'A', semester: 'Fall', academicYear: '2022' },
-  { course: 'Digital Marketing', grade: 'B+', semester: 'Spring', academicYear: '2023' },
-  { course: 'Human Anatomy', grade: 'A+', semester: 'Spring', academicYear: '2023' },
+  { course: 'COMPUTER HARDWARE FUNDAMENTALS AND CIRCUIT', semester: 'SECOND SEMESTER 2021', academicYear: '2021' },
+  { course: 'PROGRAMMING FUNDAMENTALS', semester: 'SECOND SEMESTER 2021', academicYear: '2021' },
+  { course: 'INTRODUCTION TO ECONOMICS II', semester: 'SECOND SEMESTER 2021', academicYear: '2021' },
+  { course: 'INTRODUCTION TO STATISTICS AND PROBABILITY II', semester: 'SECOND SEMESTER 2021', academicYear: '2021' },
+  { course: 'ACADEMIC WRITING I', semester: 'SECOND SEMESTER 2021', academicYear: '2021' },
+  // Add more courses of your choice 
+  { course: 'INTRODUCTION TO AFRICAN STUDIES', semester: 'FIRST SEMESTER 2022', academicYear: '2022' },
+  { course: 'MOBILE APPLICATION DEVELOPMENT', semester: 'FIRST SEMESTER 2022', academicYear: '2022' },
+  { course: 'DATA STRUCTURE AND ALGORITHM', semester:'FIRST SEMESTER 2022', academicYear: '2022' },
+  { course: 'SYSTEMS OF ADMINISTRATION', semester: 'FIRST SEMESTER 2022', academicYear: '2022' },
+  { course: 'SOFTWARE ENGINEERING', semester: 'FIRST SEMESTER 2022', academicYear: '2022' },
+  { course: 'INTERNSHIP' , semester: 'FIRST SEMESTER 2022', academicYear: '2022' },
+  // Add More courses of your choice
+  { course: 'GRAND RESEARCH CHALLENGES IN COMPUTER SCIENCE', semester: ' SECOND SEMESTER 2022', academicYear: '2022' },
+  { course: 'EMERGING DATABASE MODELS', semester: 'SECOND SEMESTER 2022', academicYear: '2022' },
+  { course: 'RESEARCH IN BIOINFORMATICS AND COMPUTER BIOLOGY', semester:'SECOND SEMESTER 2022', academicYear: '2022' },
+  { course: 'UBIQUITOS COMPUTING', semester: 'SECOND SEMESTER 2022', academicYear: '2022' },
+  { course: 'DEVELOPMENT IN CYBERSECRITY AND NETWORKS', semester: 'SECOND SEMESTER 2022', academicYear: '2022' },
+  { course: 'NEW DIRECTION IN ARTIFICIAL INTELLIGENCE' , semester: 'SECOND SEMESTER 2022', academicYear: '2022' },
 ];
 
 const GradeReport = ({ grades, filter, setFilter }) => {
-  // Get unique semesters and academic years from grades
   const semesters = Array.from(new Set(grades.map((grade) => grade.semester)));
   const academicYears = Array.from(new Set(grades.map((grade) => grade.academicYear)));
-
-  // Filter grades based on selected semester or academic year
-  const filteredGrades = grades.filter(
-    (grade) => filter === 'All' || grade.semester === filter || grade.academicYear === filter
-  );
 
   return (
     <div>
@@ -63,9 +60,9 @@ const GradeReport = ({ grades, filter, setFilter }) => {
         </label>
       </div>
       <ul>
-        {filteredGrades.map((grade, index) => (
+        {grades.map((grade, index) => (
           <li key={index}>
-            {`${grade.course}: ${grade.grade} - ${grade.semester}, ${grade.academicYear}`}
+            {`${grade.course} - ${grade.semester}, ${grade.academicYear}`}
           </li>
         ))}
       </ul>
@@ -77,11 +74,8 @@ const MissingGradeForm = ({ onClose }) => {
   const [missingCourse, setMissingCourse] = useState('');
 
   const handleSubmit = () => {
-    // Add logic to handle missing grade submission
     console.log(`Missing grade reported for ${missingCourse}`);
-    // Reset form field
     setMissingCourse('');
-    // Close the form
     onClose();
   };
 
@@ -115,10 +109,9 @@ const App = () => {
   const [filter, setFilter] = useState('All');
 
   const handleLogin = () => {
-    // Simulate authentication
     if (username === fakeUserData.username && password === fakeUserData.password) {
       setLoggedIn(true);
-      setGrades(initialGradesData);
+      setGrades([...initialGradesData]);
     } else {
       alert('Invalid credentials');
     }
@@ -131,10 +124,6 @@ const App = () => {
     setPassword('');
     setShowMissingGradeForm(false);
     setShowGradeReport(false);
-  };
-
-  const checkMissingGrades = () => {
-    return grades.some((grade) => grade.grade === 'Missing');
   };
 
   const handleMissingGradeClick = () => {
@@ -152,7 +141,6 @@ const App = () => {
     setShowGradeReport(false);
   };
 
-  // New list for filtered courses based on semester or academic year
   const filteredCourses = grades.filter(
     (course) => showGradeReport && (course.semester === filter || course.academicYear === filter)
   );
@@ -177,33 +165,28 @@ const App = () => {
       ) : (
         <div>
           <h2>WELCOME TO YOUR DASHBOARD, {username}!</h2>
-          {checkMissingGrades() && (
-            <div style={{ color: 'red' }}>
-              <p>Alert: You have missing grades. Please check your grades!</p>
-            </div>
-          )}
-
-          <h3>Current Grades</h3>
+          <h3>CURRENT GRADES</h3>
           <ul>
-            {grades.map((grade, index) => (
-              <li key={index}>
-                {`${grade.course}: ${grade.grade}`}
-              </li>
-            ))}
+            <li>ACADEMIC WRITING II    <b>   A</b></li>
+            <li>PROGRAMMING I      <b>   A</b></li>
+            <li>DIGITAL AND LOGIC DESIGN  <b>  A+</b></li>
+            <li>MULTIMEDIA AND WEB DESIGN  <b>  A+</b></li>
+            <li> COMPUTER ORGANIZATION AND ARCHITECTURE    <b>    D+</b></li>
+            <li>E-BUSINESS ARCHITECTURE     <b> C+</b></li>
+          
           </ul>
 
           <h3>Filtered Courses</h3>
           <ul>
             {filteredCourses.map((course, index) => (
               <li key={index}>
-                {`${course.course}: ${course.grade} - ${course.semester}, ${course.academicYear}`}
+                {`${course.course} - ${course.semester}, ${course.academicYear}`}
               </li>
             ))}
           </ul>
 
           <button onClick={handleLogout}>Logout</button>
 
-          {/* Navigation links */}
           <nav>
             <ul>
               <li>
@@ -222,7 +205,6 @@ const App = () => {
             </ul>
           </nav>
 
-          {/* Content based on navigation */}
           {showGradeReport && <GradeReport grades={grades} filter={filter} setFilter={setFilter} />}
           {showMissingGradeForm && <MissingGradeForm onClose={handleCloseForm} />}
         </div>
