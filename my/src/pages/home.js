@@ -5,7 +5,7 @@ export default function Home() {
       <h1 className="left-align">
         Stay informed about your academic progress with real-time updates on your
         grades. Our system ensures that you have instant access to your latest
-        scores and gives youu feedback.
+        scores and gives you feedback.
       </h1>
       <h2 className="left-align-small">
         For Instructors:
