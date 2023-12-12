@@ -6,7 +6,7 @@ function LandingFooter() {
     return(
         <Fragment>
              {/* <!--copyright section start--> */}
-             <div className="event copyright flex">
+             <div className="event copyright flex mt-03">
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col-md-6">

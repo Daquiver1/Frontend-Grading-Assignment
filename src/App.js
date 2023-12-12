@@ -7,7 +7,7 @@ import Error404Page from './pages/Error404Page';
 // import GradeReport from './pages/GradeReport';
 // import MissingGradeForm from './pages/MissingGradeForm';
 // import InstructorContact from './pages/InstructorContact';
-// import HelpAndSupport from './pages/HelpAndSupport';
+import HelpAndSupport from './pages/HelpAndSupport';
 
 const App = () => {
   return (
@@ -18,8 +18,8 @@ const App = () => {
           <Route exact path="/dashboard" component={Dashboard} />
           {/* <Route path="/grade-report" component={GradeReport} />
           <Route path="/missing-grade-form" component={MissingGradeForm} />
-          <Route path="/instructor-contact" component={InstructorContact} />
-          <Route path="/help-and-support" component={HelpAndSupport} /> */}
+          <Route path="/instructor-contact" component={InstructorContact} />*/}
+          <Route path="/help-and-support" component={HelpAndSupport} /> 
           <Route exact path="/" component={Landing} />
           <Route exact path="*" component={Error404Page}/>
 

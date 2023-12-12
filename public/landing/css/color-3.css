@@ -2325,10 +2325,10 @@ body.menu-on:before {
 }
 
 .copyright.event {
-    background: rgba(0, 0, 0, 0.05);
+    /* background: rgba(0, 0, 0, 0.05); */
     position: absolute;
     width: 100%;
-    bottom: 0;
+    /* bottom: 0; */
     z-index: 5;
     padding: 15px
 }
@@ -2497,6 +2497,15 @@ body.menu-on:before {
     background-repeat: no-repeat;
     background-position: bottom;
     height: 100vh
+}
+
+
+
+.header .bgForm {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height: 200vh
 }
 
 .header .bg.app1-header {
@@ -28181,6 +28190,15 @@ body.dark .icon-collection .about-icon a img {
     .collection-banner .contain-banner.banner-4 h2 {
         font-size: 15px
     }
+}
+
+.btn-collapsible {
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    background-color: #fff;
+    border: 2px solid #154ce3;
+    color: #154ce3 !important;
+    border-radius: 25px;
 }
 
 /*# sourceMappingURL=color-3.css.map */

@@ -14,7 +14,7 @@ const Dashboard = () => {
             <h1>Missing Grade Reporting System</h1>
             <p>Overview of the system.</p>
             <nav>
-                <Link to="/login">Login</Link>
+                <Link to="/login">Login</Link> 
             </nav>
         </div>
     </React.Fragment>

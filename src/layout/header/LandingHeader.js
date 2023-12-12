@@ -29,7 +29,7 @@ function LandingHeader({showLogin}) {
                                             <a href="/">home</a>
                                         </li>
                                         <li>
-                                            <a class="dropdown" href="#">Help and Support</a>
+                                            <a class="dropdown" href="/help-and-support">Help and Support</a>
                                             <ul>
                                                 <li><a href="faq.html">FAQ</a></li>
                                                 <li><a href="collection.html">Contact</a></li>

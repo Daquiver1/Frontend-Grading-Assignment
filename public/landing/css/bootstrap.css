@@ -7696,6 +7696,10 @@ fieldset:disabled .btn {
   margin-top: 3rem !important;
 }
 
+.mt-03 {
+  margin-top: auto !important;
+}
+
 .mt-auto {
   margin-top: auto !important;
 }
