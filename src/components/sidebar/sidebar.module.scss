@@ -12,7 +12,7 @@
     border-radius: 0px;
     border: 3px double #121111;
     height: 107vh;
-    width: 30%;
+    width: 270px;
 }
 
 .di {
@@ -21,6 +21,9 @@
     text-align: center;
     border: 4px dotted black;
     height: 105.3vh;
+    width: 260px;
+    padding-left: 10px;
+    padding-right: -2px;
 }
 
 .vi {
@@ -60,4 +63,18 @@
 
 .button {
     color: white;
+}
+
+.did {
+    display: flex;
+    flex-direction: row;
+}
+
+.vi {}
+
+.ki {}
+
+.tivo {
+    display: flex;
+    flex-direction: row;
 }

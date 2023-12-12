@@ -16,7 +16,7 @@ export const LoginPage = ({ className }: LoginPageProps) => {
             <h1 className={styles.wel}>Hello !</h1>
         </div>
         <div className={styles.fgm}>
-            <h2 className={styles.vh}>Report Missing Grades Here</h2>
+            <h2 className={styles.vh}>Login Here</h2>
             <form className={styles.from}><label className={styles.nam}>Student ID</label><input type="text" className={styles.put} />
                 <label className={styles.nam}>PIN</label>
                 <input type="text" className={styles.put} />

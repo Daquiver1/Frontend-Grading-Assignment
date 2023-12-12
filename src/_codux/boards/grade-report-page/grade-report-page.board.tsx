@@ -5,4 +5,8 @@ export default createBoard({
     name: 'GradeReportPage',
     Board: () => <GradeReportPage />,
     isSnippet: true,
+    environmentProps: {
+        canvasHeight: 740,
+        canvasWidth: 1167
+    }
 });

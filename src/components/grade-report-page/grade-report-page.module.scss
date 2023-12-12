@@ -1,2 +1,135 @@
 .root {
+    max-width: 1280px;
+    margin: 0;
+
+    h2 {
+        margin-bottom: 16px;
+        font-size: 45px;
+        text-align: start;
+        padding-left: 20px;
+        color: #F2C30B;
+    }
+
+    .semester-filter {
+        margin-bottom: 16px;
+
+        label {
+            font-size: 16px;
+            margin-right: 8px;
+        }
+
+        select {
+            padding: 8px;
+            font-size: 16px;
+        }
+    }
+
+    .grade-report-page {
+        display: flex;
+        flex-direction: column;
+        width: 800px;
+        border: 2px solid #8E8E8E;
+        border-radius: 7px;
+        border-left: 0px solid #8E8E8E;
+        border-right: 0px solid #8E8E8E;
+    }
+
+    .course-list {
+        display: grid;
+        gap: 16px;
+
+        .course {
+            border: 1px solid #ccc;
+            padding: 16px;
+            border-radius: 8px;
+
+            h3 {
+                font-size: 20px;
+                margin-bottom: 8px;
+            }
+
+            p {
+                font-size: 16px;
+                margin: 8px 0;
+            }
+        }
+    }
+
+    height:200vh;
+    width:100%;
+    background-color:#242424;
+    background-repeat:no-repeat;
+    background-image: url('https://cdn.vectorstock.com/i/1000x1000/96/92/dark-blue-gradient-background-vector-9199692.webp');
+    background-position: 50%;
+    background-size:cover;
+    background-attachment: scroll;
+    background-origin: padding-box;
+    background-clip: border-box;
+
+
+}
+
+
+.GR {
+    height: 190vh;
+    width: 94%;
+    margin-left: 60px;
+    background-color: rgb(36, 36, 36);
+    background-repeat: no-repeat;
+    background-image: url('https://cdn.vectorstock.com/i/1000x1000/96/92/dark-blue-gradient-background-vector-9199692.webp');
+    background-position: 50%;
+    background-size: cover;
+    background-attachment: scroll;
+    background-origin: padding-box;
+    background-clip: border-box;
+    opacity: 1;
+    box-shadow: 1.94px 3.5px 2px black;
+    padding-left: 60px;
+}
+
+.H3 {
+    font-size: 35px;
+    padding-left: 20px;
+    color: #FFFFFF;
+}
+
+.UL {
+    flex-direction: column;
+    align-items: start;
+    font-size: 25px;
+    color: #FFFFFF;
+}
+
+.LI {
+    font-size: 25px;
+    margin-left: 20px;
+    font-weight: 500;
+    color: #FAFAFA;
+}
+
+.SF {
+    padding-left: 20px;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.SL {
+    font-size: 20px;
+    margin-left: 10px;
+    color: #FFFFFF;
+    background-color: #000000;
+    background-image: none;
+    background-position: 0%;
+    background-size: auto;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-origin: padding-box;
+    background-clip: border-box;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 2px;
+}
+
+.NV {
+    height: 180%;
 }

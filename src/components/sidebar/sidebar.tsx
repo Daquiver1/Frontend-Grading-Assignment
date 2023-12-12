@@ -11,28 +11,32 @@ export interface SidebarProps {
  */
 export const Sidebar = ({ className }: SidebarProps) => {
     return <div className={classNames(styles.root, className)} title="">
-        <div className={styles.di}>
-            <div className={styles.vi} />
-            <div className={styles.iv}>
-                <h2 className={styles.button}>Home</h2>
+        <div className={styles.did}>
+            <div className={styles.di}>
+                <div className={styles.vi} />
+                <div className={styles.iv}>
+                    <h2 className={styles.button}>Home</h2>
+                </div>
+                <div className={styles.iv}>
+                    <h2 className={styles.button}>Contact Us</h2>
+                </div>
+                <div className={styles.iv}>
+                    <h2 className={styles.button}>Help </h2>
+                </div>
+                <div className={styles.iv}>
+                    <h2 className={styles.button}>Grade Report</h2>
+                </div>
+                <div className={styles.iv}>
+                    <h2 className={styles.button}> Form</h2>
+                </div>
+                <div className={styles.iv}>
+                    <h2 className={styles.button}>Login</h2>
+                </div>
+                <div className={styles.iv}>
+                    <h2 className={styles.button}>Overview</h2>
+                </div>
             </div>
-            <div className={styles.iv}>
-                <h2 className={styles.button}>Contact Us</h2>
-            </div>
-            <div className={styles.iv}>
-                <h2 className={styles.button}>Help and Support</h2>
-            </div>
-            <div className={styles.iv}>
-                <h2 className={styles.button}>Grade Report</h2>
-            </div>
-            <div className={styles.iv}>
-                <h2 className={styles.button}> Form</h2>
-            </div>
-            <div className={styles.iv}>
-                <h2 className={styles.button}>Login</h2>
-            </div>
-            <div className={styles.iv}>
-                <h2 className={styles.button}>Overview</h2>
-            </div>
-        </div></div>;
+            <div className={styles.ki} />
+        </div>
+    </div>;
 };
