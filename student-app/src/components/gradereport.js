@@ -28,7 +28,9 @@ function GradeReport() {
         { courseName: "Introduction to Programming", grade: "A", creditHours: 3 },
         { courseName: "Calculus I", grade: "D+", creditHours: 4 },
         { courseName: "English Literature", grade: "C-", creditHours: 3 },
-        { courseName: "DataBase Management", grade: "F", creditHours: 3 },
+        { courseName: "DataBase Management", grade: "C", creditHours: 3 },
+        { courseName: "SOftware Development", grade: "A", creditHours: 3 },
+        { courseName: "Web Design", grade: "B", creditHours: 3 },
       ]);
       setIsLoading(false);
     }, 2000);
@@ -116,11 +118,11 @@ function GradeReport() {
                       ))}
                       <tr>
                         <td><strong>GPA for semester</strong></td>
-                        <td><strong>{gpa.toFixed(2)}</strong></td>
+                        <td><strong>{gpa.toFixed(3)}</strong></td>
                         <td>
                           <ProgressBar
                             variant={gpa >= 3.5 ? "success" : "warning"}
-                            now={gpa * 100 / 4.0}
+                            now={gpa * 100 / 100}
                           />
                         </td>
                       </tr>

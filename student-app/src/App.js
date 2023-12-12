@@ -1,7 +1,5 @@
 //import { Alert, Button, Navbar } from 'react-bootstrap';
 import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css'
-import {  BrowserRouter } from 'react-router-dom';
 import HomePage from './components/homepage.js';
 import LoginPage from './components/login.js';
 import MyNavbar from './components/MyNavbar.js';
@@ -17,11 +15,15 @@ import GradeReport from './components/gradereport.js';
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
-      <GradeReport />
-      </BrowserRouter>
-      
-      
+     <MyNavbar></MyNavbar>
+     <Routes>
+      <Route path="/homepage" element={<HomePage />} />
+      <Route path="/login" element={<LoginPage />} />
+      <Route path="/dashboard" element={<Dashboard />} />
+      <Route path="/gradeform" element={<GradeIssueForm />} />
+      <Route path="/contact" element={<ContactInstructors/>} />
+      <Route path="/gradereport" element={<GradeReport/>} />
+     </Routes>
       </div>
 
    

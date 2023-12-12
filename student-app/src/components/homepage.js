@@ -14,7 +14,7 @@ const HomePage = () => {
 
       <Container>
     <Row>
-      <Col class="mt-5">
+      <Col class="mt-4">
         <h1 >Easily Report Your Concerns about Your Grades!</h1>
         <p class="lead font-weight-bolder">
           Tired of juggling multiple platforms to report your concerns? Look no further! Our user-friendly platform allows you to submit all your concerns directly to your grades, streamlining the process and ensuring your voice is heard.
