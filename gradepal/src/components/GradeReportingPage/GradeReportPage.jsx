@@ -1,20 +1,14 @@
-// src/components/gradeReportPage/GradeReportPage.js
 import React from "react";
-import "./GradeReportPage.css"; // Create this file for styling
+import "./GradeReportPage.css"; // Css file
 
 const GradeReportPage = () => {
   const gradeReportData = [
-    { course: "Mathematics", grade: "A", semester: "1st Semester" },
-    { course: "History", grade: "B", semester: "3rd Semester" },
-    { course: "Science", grade: "A-", semester: "2st Semester" },
-    { course: "English", grade: "C-", semester: "1st Semester" },
-    { course: "Economics", grade: "A+", semester: "2st Semester" },
-    { course: "Physics", grade: "A-", semester: "3rd Semester" },
-    { course: "Chemistry", grade: "B+", semester: "2st Semester" },
-    { course: "Biology", grade: "A-", semester: "3rd Semester" },
-    { course: "Music", grade: "A-", semester: "1st Semester" },
-    { course: "French", grade: "C-", semester: "2st Semester" },
-    { course: "Spanish", grade: "D+", semester: "3rd Semester" },
+    { course: "DCIT201 PROGRAMMING I", grade: "A", semester: "1st Semester" },
+    { course: "DCIT203 DIGITAL AND LOGIC SYSTEM DESIGN ", grade: "A", semester: "1st Semester" },
+    { course: "DCIT201 PROGRAMMING I", grade: "C+", semester: "1st Semester" },
+    { course: "DCIT205 MULTI MEDIA AND WEB DESIGN MAIN CAMPUS", grade: "A", semester: "1st Semester" },
+    { course: "DCIT207 COMPUTER ORGANIZATION & ARCHITECTURE ", grade: "B+", semester: "1st Semester" },
+    { course: "MATH223 CALCULUS II", grade: "A", semester: "1st Semester" },
   ];
 
   return (

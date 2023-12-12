@@ -1,4 +1,3 @@
-/* src/components/instructorContactPage/InstructorContactPage.css */
 .mega-container {
   display: grid;
 }
@@ -33,6 +32,12 @@
   padding: 20px;
   margin-bottom: 15px;
   text-align: left;
+
+}
+
+.instructors-list li:hover {
+  box-shadow: 10px 5px 5px #b5975d;
+  transition: box-shadow 0.3s ease-in-out;
 }
 
 .instructors-list strong {
@@ -52,7 +57,12 @@
 }
 
 .instructors-list button:hover {
-  background-color: #2980b9;
+  background-color: #b5975d;
+}
+
+.landing-img {
+  height: 200px;
+  width: 223px;
 }
 
 /* Media query for small screens */

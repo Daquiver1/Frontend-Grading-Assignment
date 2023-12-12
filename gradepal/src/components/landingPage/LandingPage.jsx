@@ -6,7 +6,7 @@ function LandingPage() {
     <>
       <div className="container">
         <h1 className="heading">
-          Welcome GradePal
+          Welcome To GradePal
         </h1>
         <img
           src={imageSrc}
@@ -14,9 +14,9 @@ function LandingPage() {
           className="landing-image"
         />
         <p className="description">
-          "Unlock the power to reclaim missing grades! Explore our intuitive
+          Unlock the power to reclaim missing grades! <br /> Explore our intuitive
           navigation to track and report grades absent from your academic
-          profile."
+          profile.
         </p>
 
         <div className="features">

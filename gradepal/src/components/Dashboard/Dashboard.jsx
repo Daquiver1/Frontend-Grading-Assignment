@@ -1,33 +1,26 @@
-// src/components/dashboard/Dashboard.js
 import React from "react";
 import "./dashboard.css"; // Import the CSS file
 
 const Dashboard = () => {
-  // Sample data (replace with actual data from your application)
-  // const gradesData = [
-  //   { course: "Mathematics", grade: "A" },
-  //   { course: "History", grade: "B" },
-  //   { course: "Science", grade: "A-" },
-  // ];
   const gradeData = [
-    { course: "Mathematics", grade: "A" },
-    { course: "Science", grade: "A-" },
-    { course: "English", grade: "C-" },
-    { course: "Physics", grade: "A-" },
-    { course: "Chemistry", grade: "B+" },
-    { course: "Biology", grade: "A-" },
+    { course: "DCIT201 PROGRAMMING I", grade: "A" },
+    { course: "DCIT203 DIGITAL AND LOGIC SYSTEM DESIGN ", grade: "A"  },
+    { course: "DCIT201 PROGRAMMING I", grade: "C+"  },
+    { course: "DCIT205 MULTI MEDIA AND WEB DESIGN MAIN CAMPUS", grade: "A"  },
+    { course: "DCIT207 COMPUTER ORGANIZATION & ARCHITECTURE ", grade: "B+" },
+    { course: "MATH223 CALCULUS II", grade: "A" },
   ];
 
   const alertsData = [
     {
       type: "Missing Grade",
-      course: "English",
+      course: "DCIT207 COMPUTER ORGANIZATION & ARCHITECTURE",
       message: "Reported 3 days ago",
     },
     { 
       type: "Low Grade", 
-      course: "Physics", 
-      message: "Current grade is C" 
+      course: "DCIT201 PROGRAMMING I", 
+      message: "Current grade is C+" 
     },
   ];
 
@@ -39,13 +32,6 @@ const Dashboard = () => {
       {/* Grades Section */}
       <div className="grades-section">
         <h3>Your Current Grades</h3>
-        {/* <ul>
-          {gradesData.map((grade, index) => (
-            <li key={index}>
-              <strong>{grade.course}:</strong> {grade.grade}
-            </li>
-          ))}
-        </ul> */}
         <div className="grade-section">
         <table>
           <thead>

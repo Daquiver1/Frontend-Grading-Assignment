@@ -1,15 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./navbar.css";
-import logo from "../../logo.svg";
 function NavBar() {
   return (
     <>
       <header className="header">
         <nav>
           <div className="logo">
-            {/* <img src={logo} alt="logo" /> */}
-            <h1><strong>GradePal</strong></h1>
+            <h1 className="logo"><strong>GradePal</strong></h1>
           </div>
           <ul>
             <li>
