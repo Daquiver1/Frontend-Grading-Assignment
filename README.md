@@ -51,7 +51,7 @@ This will start the application on `localhost` at the default port.
 
 ## Dashboard
 
-![Dashboard](screenshots/dashboard.PNG.PNG)
+![Dashboard](screenshots/dashboard.PNG)
 
 ## Grades Overview Page
 
