@@ -16,8 +16,10 @@ function App() {
  return(
   <>
   <Header/>
-  
-  <Navbar/>
+<div className="containerstyle" style={{  display: 'flex',
+  // justifyContent: 'space-between',
+  padding: '20px',}}>
+<Navbar/>
   <div className="container">
     <Routes>
       <Route path='/' element = {<Home/>} /> 
@@ -29,12 +31,11 @@ function App() {
       <Route path='/Help' element = {<Help/>} />
       <Route path='/missinggrade' element = {<MissingGrade/>} />
       <Route path='/contact' element = {<Contact/>} />
-      
-
-
 
     </Routes>
     </div>
+</div>
+  
   
   </>
 
