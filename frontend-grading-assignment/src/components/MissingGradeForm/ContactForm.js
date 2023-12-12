@@ -15,7 +15,7 @@ function ContactForm() {
   };
 
   return (
-    <div className="form-container">
+    <div className="form-container ">
       <h1>Report Your Missing Grade</h1>
       <form onSubmit={handleSubmit}>
         <input placeholder="Course Name" />
