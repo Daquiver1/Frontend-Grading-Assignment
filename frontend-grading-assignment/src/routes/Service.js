@@ -11,7 +11,7 @@ function Service() {
       <Hero
         cName="hero-abt"
         heroImg={AboutImg}
-        title="Reports"
+        title="Reports "
         url="/"
         btnClass="hide"
       />
