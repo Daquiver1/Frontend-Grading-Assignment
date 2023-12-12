@@ -152,7 +152,7 @@ function Dashboard() {
                   </li>
                   <li>
                     <a
-                      href="javascript:void(0)"
+                      href="javascript:void(0) "
                       className="flex bg-white hover:bg-yellow-50 rounded-xl font-bold text-sm text-gray-900 py-3 px-4"
                     >
                       <svg
