@@ -1,13 +1,9 @@
-
-import './Components/Homepage'
-import { Homepage } from './Components/Homepage.jsx'
-
+import { Login } from "./Components/Login"
 function App() {
  
   return (
-    
-     <Homepage />
-     
+
+   <Login />
   )
 }
 

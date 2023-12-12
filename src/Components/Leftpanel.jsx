@@ -4,7 +4,7 @@ import {
 } from 'react-icons/fa';
      
 export const Leftpanel = () =>{
-    const[showlist, setshowList] = useState(false);
+    const[showlist, setshowList] = useState(true);
     const Toggle = () =>{
         return(
             <div className='leftlinks'>

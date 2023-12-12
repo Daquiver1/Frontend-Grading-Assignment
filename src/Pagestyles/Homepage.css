@@ -43,6 +43,9 @@ li{
 .main{
     width:100%;
 }
+.container{
+    width: 100%;
+}
 .firstBar{
     width: 100%;
     background-color: #8c1515;
@@ -134,23 +137,22 @@ font-weight: 600;
 .purpose{
     display: flex;
     flex-direction: row;
-    width: 90%;
+    width: 100%;
     margin: auto;
     padding: 30px 0px;
     gap: 2rem;
-    margin-top: 25vh;
+    margin-top: 23vh;
 }
 .leftpanel{
-    height: 100vh;
-    width: 60%;
-    
+    width: 70%;
     display: flex;
     gap: 3rem;
     align-items: center;
     flex-direction: column;
-    padding: 20px 0px;
+    padding: 20px 10px;
     border-color: #969595;
     border-radius: 5px;
+    background-color:  #f4f4f4;
 }
 .leftform{
     border: none;
@@ -166,18 +168,21 @@ font-weight: 600;
 }
 .leftlinks{
     width: 100%;
-    border: 1px solid #969595;
     padding: 50px 0px;
     background-color: #f4f4f4;
     border-radius: 10px;
+    
 }
 .leftlinks>ul{
     line-height: 5vh;
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 3rem;
     width: 80%;
     margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
 }
 .leftlinks>ul>li>a{
     color: #969595;
@@ -213,17 +218,18 @@ font-weight: 600;
     justify-content: space-between;
     transition:.1s ease;
     border-color: #e82d2d;
-    background-color: #8c1515;
+    background-color: #ea1119;
 }
 .navbtn:hover{
     cursor: pointer;
     width:82%;
 }
 
+
 .directives{
     display: flex;
     flex-direction: column;
-    padding: 30px 10px;
+    padding:50px 10px;
 }
 .directives>h3{
     color: #8c1515;

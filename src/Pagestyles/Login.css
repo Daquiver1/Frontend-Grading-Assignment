@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=poppins:wght@400;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+  font-family: "poppins",sans-serif;;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+p{
+  font-size: 1rem;
+}
+h2{
+  font-size: 2rem;
+  font-weight: 700;
+}
+h1{
+  font-size: 2rem;
+  font-weight: 900;
+  color: white;
+}
+a{
+    text-decoration: none;
+    font-size: 0.8rem;
+}
+li{
+    list-style: none;
+}
+.flexColumn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+  }
+.mainn{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+
+}
+.firstBar{
+    width: 100%;
+    background-color: #8c1515;
+    border-bottom: 1px solid #f4f4f4;
+}
+.bars{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    scroll-behavior: smooth;
+    
+}
+.uglogo{
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.btn>.btn1, .btn>.btn2{
+    padding: 10px;
+    border: none;
+}
+.btn1{
+    color: #969595;
+}
+.btn2{
+    color: white;
+    background-color:#f52a21 ;
+}
+.btn{
+    display: flex;
+    gap: 0.5rem;
+}
+.uglogo>img{
+    border-radius: 5px;
+}
+.uglogo>p{
+    float: right;
+    color: white;
+}
+.secondBar{
+    width: 100%;
+    background-color:  #8c1515;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.secondBar>input{
+    padding: 0px 10px;
+    width: 20%;
+    border-radius: 25px;
+    font-style: italic;
+    font-weight: 600;
+    color: rgb(169, 167, 167);
+    border: none;
+}
+.user{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8rem;
+}
+.user:hover{
+    cursor: pointer;
+}
+.formm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+    margin-top: 10px;
+    padding: 30px;
+    color: rgb(131, 127, 127);
+}
+.fform>section{
+    color: silver;
+    padding: 5px;
+    margin-bottom: 10px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+.fform>section>h1{
+    color: #8c1515;
+}
+.fform{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding: 10px 20px;
+    width: 27%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+
+}
+.fform>input{
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid silver;
+    /* box-shadow: 0 0 10px rgba(0,0,0,0.5); */
+}
+#input1{
+    width: 90%;
+}
+.fform>input::placeholder{
+    color: rgb(129, 128, 128);
+}
+.fform>a{
+    font-size: 0.8rem;
+    text-align: right;
+}
+
+.check{
+    display: flex;
+    padding: 20px;
+}
+.check>p{
+    display: flex;
+    padding-top: 20px;
+    font-size: .8rem;
+    color: #8c1515;
+    font-weight: 500;
+}
+.login{
+padding: 10px;
+border: none;
+width: 90%;
+color: white;
+background-color: #8c1515;
+}
+.logtext{
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+.logtext>p{
+    color: #8c1515;
+    line-height: 4vh;
+}
+.logtext>h3{
+    font-style: italic;
+    color: #403f3f;
+    font-weight: 700;
+}
