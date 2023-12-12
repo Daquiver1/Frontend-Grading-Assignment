@@ -1,0 +1,88 @@
+/* src/components/helpAndSupportPage/HelpAndSupportPage.css */
+
+.help-and-support-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.heading {
+  font-size: 24px;
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+/* .faq-section, */
+.contact-form-section {
+  margin-top: 40px;
+  width: 95%;
+}
+
+/* .faq-section h3,
+.contact-form-section h3 {
+  font-size: 20px;
+  color: #3498db;
+  margin-bottom: 10px;
+} */
+
+.faq-section table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.faq-section th,
+.faq-section td {
+  border: 1px solid #bdc3c7;
+  padding: 10px;
+  text-align: left;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 15px;
+  font-size: 16px;
+  color: #34495e;
+}
+
+.form-group {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+label {
+  font-size: 16px;
+  color: #34495e;
+  margin-bottom: 8px;
+  display: block;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #bdc3c7;
+  border-radius: 5px;
+  outline: none;
+  font-size: 16px;
+}
+
+.submit-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.submit-button:hover {
+  background-color: #2980b9;
+}

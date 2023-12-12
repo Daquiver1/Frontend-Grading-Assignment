@@ -1,0 +1,168 @@
+/* src/components/instructorContactPage/InstructorContactPage.css */
+.mega-container {
+  display: grid;
+}
+
+.instructor-contact-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.heading {
+  font-size: 24px;
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+.overview {
+  font-size: 18px;
+  color: #7f8c8d;
+  margin-bottom: 20px;
+}
+
+.instructors-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.instructors-list li {
+  border: 1px solid #bdc3c7;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.instructors-list strong {
+  font-size: 18px;
+  color: #3498db;
+}
+
+.instructors-list button {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.instructors-list button:hover {
+  background-color: #2980b9;
+}
+
+/* Media query for small screens */
+/* @media only screen and (max-width: 600px) {
+  .instructor-contact-container {
+    padding: 10px;
+  }
+
+  .heading {
+    font-size: 20px;
+  }
+
+  .overview {
+    font-size: 16px;
+  }
+
+  .instructors-list li {
+    padding: 15px;
+  }
+
+  .instructors-list strong {
+    font-size: 16px;
+  }
+
+  .instructors-list button {
+    padding: 8px;
+    font-size: 14px;
+  }
+} */
+
+/* Media query for medium screens */
+/* @media only screen and (min-width: 601px) and (max-width: 1024px) {
+  .instructor-contact-container {
+    max-width: 600px;
+  }
+
+  .heading {
+    font-size: 22px;
+  }
+
+  .overview {
+    font-size: 17px;
+  }
+
+  .instructors-list li {
+    padding: 18px;
+  }
+
+  .instructors-list strong {
+    font-size: 17px;
+  }
+
+  .instructors-list button {
+    padding: 9px;
+    font-size: 15px;
+  }
+} */
+
+@media only screen and (min-width: 200px) and (max-width: 500px) {
+  .instructor-contact-container {
+    padding: 10px;
+  }
+
+  .heading {
+    font-size: 20px;
+  }
+
+  .overview {
+    font-size: 16px;
+  }
+
+  .instructors-list li {
+    padding: 15px;
+    font-size: 14px;
+  }
+
+  .instructors-list strong {
+    font-size: 16px;
+  }
+
+  .instructors-list button {
+    padding: 8px;
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .instructor-contact-container {
+    padding: 10px;
+  }
+
+  .heading {
+    font-size: 20px;
+  }
+
+  .overview {
+    font-size: 16px;
+  }
+
+  .instructors-list li {
+    padding: 15px;
+    font-size: 14px;
+  }
+
+  .instructors-list strong {
+    font-size: 16px;
+  }
+
+  .instructors-list button {
+    padding: 8px;
+    font-size: 14px;
+  }
+}
