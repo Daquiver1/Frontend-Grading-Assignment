@@ -9,7 +9,7 @@ function NavBar() {
         <nav>
           <div className="logo">
             {/* <img src={logo} alt="logo" /> */}
-            <h1><strong><d className="a">M</d><b className="b">G</b><c className="c">S</c></strong></h1>
+            <h1><strong>GradePal</strong></h1>
           </div>
           <ul>
             <li>

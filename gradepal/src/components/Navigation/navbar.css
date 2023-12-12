@@ -13,10 +13,11 @@
   height: 50px;
   border-radius: 50%;
   object-fit: cover;
+  color: #b5975d;
 }
 
 nav {
-  background-color: #3498db;
+  background-color: #153d6f;
   padding: 15px;
   display: flex;
   justify-content: space-between;
