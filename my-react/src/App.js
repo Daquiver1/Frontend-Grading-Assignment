@@ -8,17 +8,17 @@ import LoginPage from "./components/Login Page/LoginPage";
 import MissingGradeForm from "./components/Missing Grade Form/MissingGradesForm";
 import Contact from "./components/Contact/Contact";
 import Report from "./components/Report/Report";
-import Footer from "./components/Footer";
-import Navbar from "./components/Navbar";
+
 
 function App() {
   return (
-    <div className="App">
+    <div className="App relative">
       <Router>
-        <header>
-          <Navbar />
-        </header>
+       
+        
 
+        
+  
         <div className="main">
           <Routes>
             <Route exact path="/" element={<Homepage />} />
@@ -30,9 +30,7 @@ function App() {
             <Route path="/contact" element={<Contact />} />
           </Routes>
         </div>
-        <footer>
-          <Footer />
-        </footer>
+       
       </Router>
     </div>
   );

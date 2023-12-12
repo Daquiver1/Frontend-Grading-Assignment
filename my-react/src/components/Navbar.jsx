@@ -2,7 +2,7 @@ import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <div className="w-full absolute tpo-2">
+    <div className="w-full relative">
       {/*Navlinks*/}
       <div className="flex justify-between items-center h-24 max-w-[1240px] mx-auto text-white">
         <div>
@@ -26,8 +26,9 @@ const Navbar = () => {
         <div className="  px-4 ">
           <NavLink to="/">Contact</NavLink>
         </div>
-        <div className="mr-4 bg-[#00df9a] px-4 rounded-full items-center justify-center">
-          <NavLink to="/">Login In</NavLink>
+        <div>
+         <button className='bg-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-white'>
+          <NavLink to="/">Login</NavLink></button>
         </div>
       </div>
     </div>
