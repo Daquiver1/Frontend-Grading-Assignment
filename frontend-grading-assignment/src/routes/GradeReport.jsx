@@ -1,10 +1,10 @@
 import { useEffect } from "react"
-import "https://cdn.datatables.net/1.13.7/css/dataTables.bootstrap.min.css";
+// import "https://cdn.datatables.net/1.13.7/css/dataTables.bootstrap.min.css";
 import "https://code.jquery.com/jquery-3.7.0.js"
 import "https://cdn.datatables.net/1.13.7/js/jquery.dataTables.min.js"
 import "https://cdn.datatables.net/1.13.7/js/dataTables.bootstrap.min.js"
 
-const MissingGrade = () => {
+const GradeReport = () => {
     useEffect(() => {
         $('#example').DataTable();
     },[])
@@ -14,22 +14,20 @@ const MissingGrade = () => {
             <table id="example" className="table table-striped table-bordered" style={{width:"100%", marginTop: "5rem", boxShadow: "0px 4px 8px 0px #757575"}}>
                 <thead>
                     <tr>
-                        <th>Name</th>
-                        <th>Position</th>
-                        <th>Office</th>
-                        <th>Age</th>
-                        <th>Start date</th>
-                        <th>Salary</th>
+                        <th>COURSE TITLE</th>
+                        <th>COURSE CODE</th>
+                        <th>CREDIT</th>
+                        <th>GRADE</th>
+                        <th>GPT</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <td>Tiger Nixon</td>
-                        <td>System Architect</td>
-                        <td>Edinburgh</td>
-                        <td>61</td>
-                        <td>2011-04-25</td>
-                        <td>$320,800</td>
+                        <td>INTRODUCTION TO COMPUTER SCIENCE</td>
+                        <td>DCIT101</td>
+                        <td>3</td>
+                        <td>B+</td>
+                        <td>10.5</td>
                     </tr>
                     <tr>
                         <td>Garrett Winters</td>
@@ -37,7 +35,6 @@ const MissingGrade = () => {
                         <td>Tokyo</td>
                         <td>63</td>
                         <td>2011-07-25</td>
-                        <td>$170,750</td>
                     </tr>
                     <tr>
                         <td>Ashton Cox</td>
@@ -45,7 +42,7 @@ const MissingGrade = () => {
                         <td>San Francisco</td>
                         <td>66</td>
                         <td>2009-01-12</td>
-                        <td>$86,000</td>
+                    
                     </tr>
                     <tr>
                         <td>Cedric Kelly</td>
@@ -53,7 +50,7 @@ const MissingGrade = () => {
                         <td>Edinburgh</td>
                         <td>22</td>
                         <td>2012-03-29</td>
-                        <td>$433,060</td>
+                        
                     </tr>
                     <tr>
                         <td>Airi Satou</td>
@@ -61,7 +58,7 @@ const MissingGrade = () => {
                         <td>Tokyo</td>
                         <td>33</td>
                         <td>2008-11-28</td>
-                        <td>$162,700</td>
+                        
                     </tr>
                 </tbody>
            </table>
@@ -69,4 +66,4 @@ const MissingGrade = () => {
     )
 }
 
-export default MissingGrade;
+export default GradeReport;

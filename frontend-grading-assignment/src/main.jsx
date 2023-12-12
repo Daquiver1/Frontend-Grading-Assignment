@@ -9,3 +9,5 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <App />
   </React.StrictMode>,
 )
+
+// "react-table": "^7.8.0"

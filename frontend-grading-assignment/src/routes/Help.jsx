@@ -5,7 +5,6 @@ import "./CustomHelp.css"
 const Help  = () => {
     return (
         <div>
-            {/* <Navbar /> */}
             <div className="container faqs p-5">
                <h4 className="text-center my-5">FAQ Section Regarding Grade Reporting</h4>
 
@@ -59,7 +58,7 @@ const Help  = () => {
                         </div>
                     </div>
 
-                    {/* <div className="accordion-item">
+                    <div className="accordion-item">
                         <h2 className="accordion-header">
                         <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
                            <strong>Is there a specific deadline for reporting missing grades?</strong>
@@ -76,7 +75,7 @@ const Help  = () => {
                         </div>
                     </div>
 
-                    <div className="accordion-item">
+                   {/* <div className="accordion-item">
                         <h2 className="accordion-header">
                         <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
                            <strong>How often are grades updated on the platform?</strong>

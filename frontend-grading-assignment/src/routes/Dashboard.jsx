@@ -57,7 +57,7 @@ const Dashboard = () => {
                         <td>$162,700</td>
                     </tr>
                 </tbody>
-            </table>
+           </table>
 
         </div>
     )
