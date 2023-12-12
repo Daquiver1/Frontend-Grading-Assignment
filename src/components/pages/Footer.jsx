@@ -32,7 +32,7 @@ const Footer = () => {
             Guidelines
           </Link>
         </div>
-        <div className="date-year text-red-400">
+        <div className="date-year text-red-400 ml-5 mr-5">
           <p>Copyright &copy; {dateYear} Pep&apos;s Grade Report System</p>
         </div>
         <div className="contact-section flex gap-5">

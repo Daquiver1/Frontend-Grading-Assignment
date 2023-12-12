@@ -16,7 +16,7 @@
     @apply hover:cursor-pointer hover:shadow-lg duration-200 hover:bg-blue-200;
   }
   .sliding-texts {
-    @apply text-7xl italic text-blue-500 font-semibold;
+    @apply text-5xl italic text-blue-500 font-semibold;
   }
   .sliding-semi-text {
     @apply text-3xl italic text-blue-50 font-normal;
@@ -38,6 +38,9 @@
   }
   .button-reset {
     @apply bg-blue-300 rounded-lg text-red-500 hover:bg-red-300 hover:text-blue-500 hover:cursor-pointer duration-[0.3s] font-semibold text-xl;
+  }
+  .custom-link{
+    @apply text-blue-500 italic
   }
 }
 

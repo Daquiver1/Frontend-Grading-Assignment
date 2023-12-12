@@ -10,9 +10,7 @@ const Gradereport = () => {
     program: "",
     date: "",
     courseCode: "",
-    gpa: "",
-    score: "",
-    gpt: "",
+    currentGrade: "",
   });
   const [tableData, setTableData] = useState([]);
   const handleInputChange = (e) => {
@@ -30,9 +28,7 @@ const Gradereport = () => {
       program: "",
       date: "",
       courseCode: "",
-      grade: "",
-      score: "",
-      gpt: "",
+      currentGrade: "",
     });
   };
   useEffect(() => {
@@ -100,6 +96,21 @@ const Gradereport = () => {
             autoSave
             autoCapitalize="on"
           />
+          <label className="mr-5 label" htmlFor="currentGrade">
+            What is your Current Grade in the selected Course? :
+          </label>
+          <input
+            className="mr-5"
+            id="currentGrade"
+            name="currentGrade"
+            type="text"
+            value={inputData.currentGrade}
+            onChange={handleInputChange}
+            autoComplete
+            autoCorrect
+            autoSave
+            autoCapitalize="on"
+          />
           <label className="mr-5 label" htmlFor="date">
             Select date here:
           </label>
@@ -114,6 +125,7 @@ const Gradereport = () => {
           />
           <button
             type="button"
+            title="Click to update the table with the entered data"
             onClick={updateTable}
             className="font-bold bg-blue-300 rounded-md text-blue-700 text-xl hover:bg-blue-700 hover:text-blue-300 duration-[0.5s]"
           >
@@ -122,7 +134,7 @@ const Gradereport = () => {
           <button
             type="button"
             onClick={resetTable}
-            title="Click to reset the table"
+            title="Click to reset the table: Cannot be undone"
             className="font-bold bg-red-400 rounded-md text-blue-700 text-xl hover:bg-blue-700 hover:text-red-500 duration-[0.5s]"
           >
             Reset Table
@@ -136,6 +148,7 @@ const Gradereport = () => {
                 <th className="gap-3">Program of Study</th>
                 <th className="gap-3">Date</th>
                 <th className="gap-3">Course Code</th>
+                <th className="gap-3">Current Grade</th>
               </tr>
             </thead>
             <tbody>
@@ -148,6 +161,7 @@ const Gradereport = () => {
                   <td className="">{data.program}</td>
                   <td className="">{data.date}</td>
                   <td className="">{data.courseCode}</td>
+                  <td className="">{data.currentGrade}</td>
                 </tr>
               ))}
             </tbody>

@@ -22,7 +22,7 @@ const LandPage = () => {
           </div>
         </div>
         <div className="sliding-text flex flex-col justify-center place-items-center mt-52">
-          <div className="text-1 bg-white">
+          <div className="text-1">
             <p className="sliding-texts">Have Issues With Your Grade?</p>
             <p className="sliding-semi-text">
               Report at Pep&apos;s Grade Report System to get that fixed

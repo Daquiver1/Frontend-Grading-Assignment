@@ -62,7 +62,7 @@ const Dashboard = () => {
         </div>
         <p className="bg-green-500 w-36 h-[3px] mt-5 ml-14"></p>
         <p className="text-2xl text-blue-700 mt-5 ml-5 italic">
-          <Link to="/grades" className="hover:opacity-75">
+          <Link to="/report" className="hover:opacity-75">
             Click to see course overview
           </Link>
         </p>

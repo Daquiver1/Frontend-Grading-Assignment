@@ -14,14 +14,14 @@ const LoginPage = () => {
   }
   //Set the logic for displaying the password input type when the id section !empty
   const showPassword = () =>
-    idValue && idValue.length == 8 ? (
+    idValue && idValue.length >= 8 ? (
       <input
         type="password"
         placeholder="Enter your password here"
         className="mt-5 rounded-full w-full h-14 placeholder-blue-900"
       />
     ) : (
-      <p className="text-red-900 text-sm italic">
+      <p className="text-slate-900 text-lg italic">
         {"Id section cannot be empty and must be 8 characters"}
       </p>
     );
@@ -48,7 +48,7 @@ const LoginPage = () => {
             </p>
           </div>
         </div>
-        <div className="form-section bg-green-50 h-full rounded-md">
+        <div className="form-section bg-white bg-opacity-30 h-full rounded-md">
           <p className="text-2xl text-blue-500 font-semibold">Sign in here</p>
           <p className="text-xl text-blue-400">
             Without an Account?

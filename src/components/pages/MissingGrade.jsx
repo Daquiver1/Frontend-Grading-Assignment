@@ -31,7 +31,7 @@ const MissingGrade = () => {
     });
   };
   const resetTable = () => {
-      setUserHistory([]);
+    setUserHistory([]);
   };
 
   const fetchData = async (e) => {
@@ -137,12 +137,20 @@ const MissingGrade = () => {
             onChange={trackInput}
           ></textarea>
           <div className="flex gap-7">
-              <button onClick={setHistory} className="button">
-                Submit
-              </button>
-              <button onClick={resetTable} className="button-reset">
-                Reset
-              </button>
+            <button
+              onClick={setHistory}
+              className="button"
+              onKeyDown={(e) => {
+                if (e.key == "enter") {
+                  setHistory();
+                }
+              }}
+            >
+              Submit
+            </button>
+            <button onClick={resetTable} className="button-reset">
+              Reset
+            </button>
           </div>
         </form>
         {/*Iterator function for the history of reports made */}
