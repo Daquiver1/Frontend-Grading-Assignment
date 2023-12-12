@@ -1,4 +1,4 @@
-/* Add your styles here */
+
 
 .homepage-container {
   max-width: 800px;
@@ -18,7 +18,7 @@ main {
 }
 
 .landing-page {
-  background-color: #f0f8ff; /* Light blue */
+  background-color: #f0f8ff; 
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 102, 204, 0.1);
