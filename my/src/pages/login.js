@@ -8,7 +8,7 @@ const fakeUserData = {
 const initialGradesData = [
   { course: 'INTRODUCTION TO COMPUTER SCIENCE', semester: 'FIRST SEMESTER 2021', academicYear: '2021' },
   { course: 'OFFICE PRODUCTIVITY TOOLS', semester: 'FIRST SEMESTER 2021', academicYear: '2021' },
-  { course: 'MATHEMATICS FOR IT PROFESSIONALS', semester:'FIRST SEMESTER 2021', academicYear: '2021' },
+  { course: 'MATHEMATICS FOR IT PROFESSIONALS', semester: 'FIRST SEMESTER 2021', academicYear: '2021' },
   { course: 'INTRODUCTION TO ECONOMICS I', semester: 'FIRST SEMESTER 2021', academicYear: '2021' },
   { course: 'INTRODUTION TO STATISTICS AND PROBABILITY', semester: 'FIRST SEMESTER 2021', academicYear: '2021' },
   { course: 'CRITICAL THINKING AND PRACTICAL REASONING ', semester: 'FIRST SEMESTER 2021', academicYear: '2021' },
@@ -21,14 +21,14 @@ const initialGradesData = [
   // Add more courses of your choice 
   { course: 'INTRODUCTION TO AFRICAN STUDIES', semester: 'FIRST SEMESTER 2022', academicYear: '2022' },
   { course: 'MOBILE APPLICATION DEVELOPMENT', semester: 'FIRST SEMESTER 2022', academicYear: '2022' },
-  { course: 'DATA STRUCTURE AND ALGORITHM', semester:'FIRST SEMESTER 2022', academicYear: '2022' },
+  { course: 'DATA STRUCTURE AND ALGORITHM', semester: 'FIRST SEMESTER 2022', academicYear: '2022' },
   { course: 'SYSTEMS OF ADMINISTRATION', semester: 'FIRST SEMESTER 2022', academicYear: '2022' },
   { course: 'SOFTWARE ENGINEERING', semester: 'FIRST SEMESTER 2022', academicYear: '2022' },
   { course: 'INTERNSHIP' , semester: 'FIRST SEMESTER 2022', academicYear: '2022' },
   // Add More courses of your choice
   { course: 'GRAND RESEARCH CHALLENGES IN COMPUTER SCIENCE', semester: ' SECOND SEMESTER 2022', academicYear: '2022' },
   { course: 'EMERGING DATABASE MODELS', semester: 'SECOND SEMESTER 2022', academicYear: '2022' },
-  { course: 'RESEARCH IN BIOINFORMATICS AND COMPUTER BIOLOGY', semester:'SECOND SEMESTER 2022', academicYear: '2022' },
+  { course: 'RESEARCH IN BIOINFORMATICS AND COMPUTER BIOLOGY', semester: 'SECOND SEMESTER 2022', academicYear: '2022' },
   { course: 'UBIQUITOS COMPUTING', semester: 'SECOND SEMESTER 2022', academicYear: '2022' },
   { course: 'DEVELOPMENT IN CYBERSECRITY AND NETWORKS', semester: 'SECOND SEMESTER 2022', academicYear: '2022' },
   { course: 'NEW DIRECTION IN ARTIFICIAL INTELLIGENCE' , semester: 'SECOND SEMESTER 2022', academicYear: '2022' },
@@ -121,13 +121,74 @@ const MissingGradeForm = ({ onClose }) => {
   );
 };
 
+const instructors = [
+  {
+    id: 1,
+    name: 'Instructor 1',
+    email: 'instructor1@example.com',
+  },
+  {
+    id: 2,
+    name: 'Instructor 2',
+    email: 'instructor2@example.com',
+  },
+  // Add more instructors as needed
+];
 
-const InstructorContact = () => (
-  <div>
-    <h2>Instructor Contact</h2>
-    {/* Add your contact information or form elements here */}
-  </div>
-);
+const InstructorContact = () => {
+  const [selectedInstructor, setSelectedInstructor] = useState(null);
+  const [emailContent, setEmailContent] = useState('');
+
+  const handleInstructorClick = (instructor) => {
+    setSelectedInstructor(instructor);
+    setEmailContent('');
+  };
+
+  const handleSendEmail = () => {
+    // Simulate sending an email with the selected instructor and email content
+    if (selectedInstructor && emailContent.trim() !== '') {
+      alert(`Email sent to ${selectedInstructor.name} (${selectedInstructor.email}):\n${emailContent}`);
+    } else {
+      alert('Please select an instructor and provide email content.');
+    }
+  };
+
+  return (
+    <div>
+      <h2>Instructor Contact</h2>
+      <div>
+        <h3>Instructors</h3>
+        <ul>
+          {instructors.map((instructor) => (
+            <li key={instructor.id} onClick={() => handleInstructorClick(instructor)}>
+              {instructor.name} - {instructor.email}
+            </li>
+          ))}
+        </ul>
+      </div>
+
+      {selectedInstructor && (
+        <div>
+          <h3>Contact Details</h3>
+          <p>Name: {selectedInstructor.name}</p>
+          <p>Email: {selectedInstructor.email}</p>
+        </div>
+      )}
+
+      {selectedInstructor && (
+        <div>
+          <h3>Send Email</h3>
+          <textarea
+            value={emailContent}
+            onChange={(e) => setEmailContent(e.target.value)}
+            placeholder="Enter your email content here..."
+          ></textarea>
+          <button onClick={handleSendEmail}>Send Email</button>
+        </div>
+      )}
+    </div>
+  );
+};
 
 const App = () => {
   const [isLoggedIn, setLoggedIn] = useState(false);
@@ -136,6 +197,7 @@ const App = () => {
   const [grades, setGrades] = useState([]);
   const [showMissingGradeForm, setShowMissingGradeForm] = useState(false);
   const [showGradeReport, setShowGradeReport] = useState(false);
+  const [showInstructorContact, setShowInstructorContact] = useState(false);
   const [filter, setFilter] = useState('All');
 
   const handleLogin = () => {
@@ -154,21 +216,31 @@ const App = () => {
     setPassword('');
     setShowMissingGradeForm(false);
     setShowGradeReport(false);
+    setShowInstructorContact(false);
   };
 
   const handleMissingGradeClick = () => {
     setShowMissingGradeForm(true);
     setShowGradeReport(false);
+    setShowInstructorContact(false);
   };
 
   const handleGradeReportClick = () => {
     setShowGradeReport(true);
+    setShowMissingGradeForm(false);
+    setShowInstructorContact(false);
+  };
+
+  const handleInstructorContactClick = () => {
+    setShowInstructorContact(true);
+    setShowGradeReport(false);
     setShowMissingGradeForm(false);
   };
 
   const handleCloseForm = () => {
     setShowMissingGradeForm(false);
     setShowGradeReport(false);
+    setShowInstructorContact(false);
   };
 
   const filteredCourses = grades.filter(
@@ -203,10 +275,8 @@ const App = () => {
             <li>MULTIMEDIA AND WEB DESIGN  <b>  A+</b></li>
             <li> COMPUTER ORGANIZATION AND ARCHITECTURE    <b>    D+</b></li>
             <li>E-BUSINESS ARCHITECTURE     <b> C+</b></li>
-          
           </ul>
           <p className="red-text">THERE IS NO MISSING GRADES</p>
-
 
           <h3>Filtered Courses</h3>
           <ul>
@@ -232,13 +302,16 @@ const App = () => {
                 </a>
               </li>
               <li>
-                <a href="#">Instructor Contact</a>
+                <a href="#" onClick={handleInstructorContactClick}>
+                  Instructor Contact
+                </a>
               </li>
             </ul>
           </nav>
 
           {showGradeReport && <GradeReport grades={grades} filter={filter} setFilter={setFilter} />}
           {showMissingGradeForm && <MissingGradeForm onClose={handleCloseForm} />}
+          {showInstructorContact && <InstructorContact />}
         </div>
       )}
     </div>
@@ -246,3 +319,4 @@ const App = () => {
 };
 
 export default App;
+
