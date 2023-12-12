@@ -15,7 +15,7 @@ function Home() {
         text=" Dive into Your Dashboard Now"
         btnText="Dashboard"
         url="/Dashboard"
-        btnClass="show"
+        btnClass="show "
       />
       <Destination />
 
