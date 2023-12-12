@@ -1,4 +1,4 @@
-<img width="1440" alt="home5" src="https://github.com/seanadeti/11015523_DCIT205_Assignment1/assets/143741295/684d5340-a57b-4d6e-8b83-d67c950af9e3"># 11015523_DCIT205_Assignment1
+# 11015523_DCIT205_Assignment1
 ## Missing Grade Reporting System
 
 ## Features
@@ -46,11 +46,20 @@ CSS: Styling and layout are implemented using a combination of CSS for a modern 
 <img width="1440" alt="forms1" src="https://github.com/seanadeti/11015523_DCIT205_Assignment1/assets/143741295/dba04406-1bf0-4096-9996-88a7b0ae45d2">
 <img width="1440" alt="forms2" src="https://github.com/seanadeti/11015523_DCIT205_Assignment1/assets/143741295/5441520b-4b0d-46d8-a51e-04d9c0be2913">
 
+## Contact Page 
+<img width="1440" alt="contact1" src="https://github.com/seanadeti/11015523_DCIT205_Assignment1/assets/143741295/e471a20f-c009-4cf5-af00-cf7f02ce5ca1">
+<img width="1440" alt="contact2" src="https://github.com/seanadeti/11015523_DCIT205_Assignment1/assets/143741295/f54c0419-3420-4667-89a2-83d1c4f1a724">
+<img width="1440" alt="contact3" src="https://github.com/seanadeti/11015523_DCIT205_Assignment1/assets/143741295/830060e4-7351-4096-8d9a-b1225ccac9a9">
 
+## Grade Report Page
+<img width="1440" alt="gradereport1" src="https://github.com/seanadeti/11015523_DCIT205_Assignment1/assets/143741295/ee4e8e71-7702-43dd-9795-036f2905009c">
+<img width="1440" alt="gradereport2" src="https://github.com/seanadeti/11015523_DCIT205_Assignment1/assets/143741295/64beb386-4345-431e-983e-1782d1dc285b">
+<img width="1440" alt="gradereport3" src="https://github.com/seanadeti/11015523_DCIT205_Assignment1/assets/143741295/03e3de6c-1659-46c0-9f7b-0ca4962df030">
 
-
-
-
+## Help And Support Page 
+<img width="1440" alt="help1" src="https://github.com/seanadeti/11015523_DCIT205_Assignment1/assets/143741295/14705a64-b413-4528-b2bd-e611b75b8b30">
+<img width="1440" alt="help2" src="https://github.com/seanadeti/11015523_DCIT205_Assignment1/assets/143741295/9c609977-aa8c-43aa-ba76-87d1ebe33ad9">
+<img width="1440" alt="help3" src="https://github.com/seanadeti/11015523_DCIT205_Assignment1/assets/143741295/74ea55be-4945-451b-a5f1-1d03c2a9b6a6">
 
 
 
