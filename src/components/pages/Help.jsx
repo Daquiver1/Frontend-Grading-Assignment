@@ -1,14 +1,17 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import LoginFooter from "./LoginFooter";
+import Header from "./header";
 //This is the help and support page to assist users of the site on how to surf the site
 
 const Help = () => {
   return (
     <>
-      <div className="container">
-        <div className="">
-          <p>ABOUT PEP&apos;S GRADE REPORT SYSTEM</p>
-          <p>
+      <Header></Header>
+      <div className="container relative left-44 bg-white bg-opacity-10">
+        <div className="place-items-center flex flex-col justify-center relative">
+          <p className="custom-header font-black">ABOUT PEP&apos;S GRADE REPORT SYSTEM</p>
+          <p className="text-size">
             Pep&apos;s Grade Report System is a system designed to connect
             students to lecturers. This site helps to make complaints to
             lecturers concerning their grades. This helps to easily reach
@@ -18,11 +21,11 @@ const Help = () => {
               About us.
             </Link>
           </p>
-          <p>GETTING STARTED</p>
+          <p className="custom-header">GETTING STARTED</p>
           <div className="main-details">
-            <p>CREATING AN ACCOUNT</p>
+            <p className="custom-header">CREATING AN ACCOUNT</p>
             <ul className="list">
-              <li className="lists">
+              <li className="text-size">
                 Creating an account is a required and a necessity to get started
                 on this app. This helps to collect data of the user for easy
                 identification and to also log the user in easily whenever the
@@ -37,9 +40,9 @@ const Help = () => {
                 </Link>
               </li>
             </ul>
-            <p>OGGING IN</p>
+            <p className="custom-header">LOGGING IN</p>
             <ul>
-              <li>
+              <li className="text-size">
                 After successfully creating an account, users can login with
                 their credentials into the app to easily and freely access the
                 app and it&apos;s amazing features. Users can request for a
@@ -53,9 +56,9 @@ const Help = () => {
                 </Link>
               </li>
             </ul>
-            <p>ADDING COURSES</p>
+            <p className="custom-header">ADDING COURSES</p>
             <ul>
-              <li>
+              <li className="text-size">
                 On the grade report page, there is an option for students to add
                 their courses, students Id, grades, as well as program of study.
                 This will help keep track of the academics of the student
@@ -67,9 +70,9 @@ const Help = () => {
                 to add their academic details on the grade report page.
               </li>
             </ul>
-            <p>MAKING COMPLAINTS/ REPORTS TO LECTURERS</p>
+            <p className="custom-header">MAKING COMPLAINTS/ REPORTS TO LECTURERS</p>
             <ul>
-              <li>
+              <li className="text-size">
                 As the core purpose of this site, there is a page for users to
                 make official complaints to lectureres about missiing grades.
                 This will help inform lecturers about the plight of students and
@@ -87,9 +90,9 @@ const Help = () => {
                 </Link>
               </li>
             </ul>
-            <p>REVIEW DETAILS</p>
+            <p className="custom-header">REVIEW DETAILS</p>
             <ul>
-              <li>
+              <li className="text-size">
                 Once academic details have been added and complaints made to
                 lecturers, students can review these details in the dashboard of
                 the site located here{" "}
@@ -102,8 +105,23 @@ const Help = () => {
                 requested can be found.
               </li>
             </ul>
+            <ul>
+              <p className="custom-header">MAKING CONTACTS</p>
+              <li className="text-size">
+                Whenever the need be that user contacts a lecturer, there is a
+                very comfortable way of doing this through the contacts page of
+                the site and this, as said is very easy and quick to do. Lodge
+                all your complaints and whatever you want to make known to your
+                lecturer through this page. You can click{" "}
+                <Link to="/instructor" className="custom-link">
+                  Contact Instructor
+                </Link>
+                to make your official complaints.
+              </li>
+            </ul>
           </div>
         </div>
+        <LoginFooter></LoginFooter>
       </div>
     </>
   );

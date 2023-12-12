@@ -42,6 +42,12 @@
   .custom-link{
     @apply text-blue-500 italic
   }
+  .custom-header{
+    @apply text-xl text-emerald-950 italic
+  }
+  .text-size{
+    @apply text-lg
+  }
 }
 
 .slide-text {
