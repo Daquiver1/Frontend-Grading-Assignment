@@ -1,0 +1,81 @@
+/* InstructorContactPage.css */
+
+.instructor-contact-page {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .instructor-contact-container {
+    width: 800px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+  }
+  
+  .instructor-list {
+    margin-bottom: 30px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  ul li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  button {
+    background-color: #003366;
+    color: white;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #001a33;
+  }
+  
+  .email-simulation-message {
+    background-color: #dff0d8;
+    color: #3c763d;
+    border: 1px solid #d6e9c6;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 20px;
+  }
+  
+  .navigation-links {
+    margin-top: 20px;
+  }
+  
+  .navigation-links a {
+    display: block;
+    margin-bottom: 10px;
+    padding: 8px;
+    text-decoration: none;
+    background-color: #003366;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .navigation-links a:hover {
+    background-color: #001a33;
+  }
+  
