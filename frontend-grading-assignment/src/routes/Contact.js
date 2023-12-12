@@ -13,7 +13,7 @@ function Contact() {
         heroImg={AboutImg}
         title="Instructors"
         url="/"
-        btnClass="hide"
+        btnClass="hide "
       />
       <Team />
       <Footer />
