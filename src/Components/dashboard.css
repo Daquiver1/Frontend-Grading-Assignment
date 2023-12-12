@@ -100,6 +100,98 @@
     border-radius: 10px;
 }
 
+ table {
+    margin-bottom: 20px;
+    width: 100%;
+    border: 1px solid rgb(97, 97, 97);
+}
+
+ th {
+    padding: 5px;
+    text-align: center;
+    border: 1px solid rgb(110, 110, 110);
+}
+
+ td {
+    padding: 5px;
+    border: 1px solid rgb(110, 110, 110);
+}
+
+ tr:nth-child(1) {
+    background-color: black;
+    color:#FFF;
+}
+
+.footer {
+    width: 100%;
+    text-align: center;
+    color: white;
+    background: #414141;
+    padding: 6px;
+}
+
+.greet-user {
+    padding: 10px 0 20px 10px;
+}
+
+.welcome {
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+.programme {
+    font-size: 1.1em;
+    color: rgb(122, 47, 47);
+}
+
+.grade-report {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.grade-info {
+    display: flex;
+    width: 100%;
+    justify-content: left;
+    padding: 20px 0 20px 0;
+} 
+
+.grade-info div {
+    margin-right: 20px;
+    border-radius: 6px;
+    padding: 10px;
+    background: rgb(51, 51, 51);
+    color: #FFF;
+}
+
+.MissingGrade {
+    height: 80dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.missing-grade-list span {
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+.missing div {
+    width: 320px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(77, 77, 77);
+    margin: 10px 0 10px 0;
+}
+
+.missing-grade-form span{
+    font-weight: 600;
+    font-size: 1.2em;
+}
+
 @keyframes animation {
     0%{transform: translateX(200px);}
     20%{transform: translateX(-20px);}

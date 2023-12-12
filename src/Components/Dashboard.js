@@ -40,6 +40,10 @@ const Dashboard = () => {
                 {
                 page === "dashboard" ? 
                 <div className="Dashboard">
+                    <div className="greet-user">
+                        <span className="welcome">Welcome back Afia</span><br/>
+                        <span className="programme">Bsc. Bachelor in Computer Science</span>
+                    </div>
                     <div className="first-line-content">
                         <div className="notification">You have 2 missing grades</div>
                         <div className="card gpa-card">
@@ -60,7 +64,103 @@ const Dashboard = () => {
                         </div>
                     </div>
                     <div className="second-line-content">
-                        
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <th colSpan={4}>2023 Academic Records [Level 100]</th>
+                                </tr>
+                                <tr>
+                                    <th colSpan={4}>First Semister</th>
+                                </tr>
+                                <tr>
+                                    <th>Course Name</th>
+                                    <th>Credit</th>
+                                    <th>Grade</th>
+                                    <th>GPT</th>
+                                </tr>
+                                <tr>
+                                    <td>Introduction to Computer Science [DCIT101]</td>
+                                    <td>3</td>
+                                    <td>A</td>
+                                    <td>12</td>
+                                </tr>                            
+                                <tr>
+                                    <td>Vectors and Geometry [MATH123]</td>
+                                    <td>3</td>
+                                    <td>B+</td>
+                                    <td>11</td>
+                                </tr>                            
+                                <tr>
+                                    <td>Office Productivity tools [DCIT103]</td>
+                                    <td>3</td>
+                                    <td>A</td>
+                                    <td>12</td>
+                                </tr>                            
+                                <tr>
+                                    <td>Algebra and Trigonometry [MATH121]</td>
+                                    <td>3</td>
+                                    <td>B</td>
+                                    <td>9</td>
+                                </tr>                            
+                                <tr>
+                                    <td>Statistics [STAT111]</td>
+                                    <td>3</td>
+                                    <td>B+</td>
+                                    <td>11</td>
+                                </tr>                            
+                                <tr>
+                                    <td>Critical Thinking [UGRC150]</td>
+                                    <td>3</td>
+                                    <td>A</td>
+                                    <td>12</td>
+                                </tr>
+                                <tr>
+                                    <th colSpan={4}>Second Semister</th>
+                                </tr>
+                                <tr>
+                                    <th>Course Name</th>
+                                    <th>Credit</th>
+                                    <th>Grade</th>
+                                    <th>GPT</th>
+                                </tr>
+                                <tr>
+                                    <td>Introduction to Programming I</td>
+                                    <td>3</td>
+                                    <td>A</td>
+                                    <td>12</td>
+                                </tr>                            
+                                <tr>
+                                    <td>Vectors and Geometry</td>
+                                    <td>3</td>
+                                    <td>B+</td>
+                                    <td>11</td>
+                                </tr>                            
+                                <tr>
+                                    <td>Office Productivity tools</td>
+                                    <td>3</td>
+                                    <td>A</td>
+                                    <td>12</td>
+                                </tr>                            
+                                <tr>
+                                    <td>Algebra and Trigonometry</td>
+                                    <td>3</td>
+                                    <td>B</td>
+                                    <td>9</td>
+                                </tr>                            
+                                <tr>
+                                    <td>Statistics</td>
+                                    <td>3</td>
+                                    <td>B+</td>
+                                    <td>11</td>
+                                </tr>                            
+                                <tr>
+                                    <td>Critical Thinking</td>
+                                    <td>3</td>
+                                    <td>A</td>
+                                    <td>12</td>
+                                </tr>
+                            </tbody>                            
+                        </table>
                     </div>
                 </div> : (
                     page === "grade-report" ? <GradeReport/> : (
@@ -72,6 +172,9 @@ const Dashboard = () => {
                     )
                 )
                 }
+            </div>
+            <div className="footer">
+                Copyright &copy; Afia. All rights reserved.
             </div>
         </div>
      );
