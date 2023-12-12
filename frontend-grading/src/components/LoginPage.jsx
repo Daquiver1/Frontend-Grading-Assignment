@@ -9,7 +9,7 @@ const LoginPage = () => {
        <header>
         <div className="logo-container">
           <img src={UGLogo} alt="UG Logo" className="ug-logo" />
-          <h1>Missing Grade Reporting System</h1>
+          <h1>Student Login Page</h1>
         </div>
       </header>
       <main>

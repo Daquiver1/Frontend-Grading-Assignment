@@ -1,5 +1,6 @@
 // LoginForm.js
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 const LoginForm = () => {
   const [studentId, setStudentId] = useState('');
@@ -35,7 +36,11 @@ const LoginForm = () => {
           />
         </label>
         <br />
-        <button type="submit">Login</button>
+        <button type="submit">
+          <Link to="/dashboard" style={{ color: 'inherit', textDecoration: 'inherit' }}>
+            Login
+          </Link>
+        </button>
       </form>
     </div>
   );

@@ -16,7 +16,7 @@ const LandingPage = () => {
       <main>
         <section className="hero-section">
           <h2>Welcome to the Missing Grade Reporting System</h2>
-          <p>Track and report missing grades effortlessly.</p>
+          <h3>Track and report missing grades effortlessly.</h3>
           <Link to="/Login" className="cta-button">
             Student Login
           </Link>
