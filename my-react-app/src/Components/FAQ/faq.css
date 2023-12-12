@@ -1,4 +1,4 @@
-.container {
+.container_faq {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -7,7 +7,7 @@
     margin: 0 auto;
   }
   
-  .accordian {
+  .accordian_faq {
     width: 100%;
     text-align: center;
     font-size: 24px;
@@ -15,14 +15,14 @@
     cursor: pointer;
   }
   
-  .item {
+  .item_faq {
     margin-bottom: 5px;
     padding: 10px 20px;
     width: 100%;
     box-sizing: border-box;
   }
   
-  .title {
+  .title_faq {
     display: flex;
     color: black;
     justify-content: space-between;
@@ -31,11 +31,11 @@
     background-color:white;
     padding: 5px;
   }
-  .title p{
+  .title_faq p{
     font-size:15px;
   }
   
-  .content {
+  .content_faq {
     display: none;
     color: white;
     padding: 10px;

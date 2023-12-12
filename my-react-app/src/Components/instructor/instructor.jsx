@@ -7,32 +7,32 @@ import PersonImage from '../Assets/person.png'
 import './instructors.css';
 const instructor = () => {
     return(
-<div className="container">
- <div className="text">Academic Affairs Directorate Team</div>    
-  <div className="underline"></div>            
-   <div className="text_2">Administrative Officers</div>
-    <div className="row">        
-     <div className="content">
+<div className="container_instruct">
+ <div className="text_instruct">Academic Affairs Directorate Team</div>    
+  <div className="underline_instruct"></div>            
+   <div className="text_2_instruct">Administrative Officers</div>
+    <div className="row_instruct">        
+     <div className="content_instruct">
       <img src={InyakoImage} alt="Inyako"/>             
             <p>DIRECTOR, ACADEMIC AFFAIRS</p>
             <span>Lydia Anowa Nyako-Danquah</span>
             <p>BSc (Ghana), M.Sc. (KNUST)</p>
             <span>aad@ug.edu.gh</span>      
-            <textarea className="textarea" rows="8" placeholder="Please Explain Your Predicament"/>
-            <div className="submit-container">
-            <div className="submit">Submit</div>            
+            <textarea className="textarea_instruct" rows="8" placeholder="Please Explain Your Predicament"/>
+            <div className="submit-container_instruct">
+            <div className="submit_instruct">Submit</div>            
            </div> 
     </div>
-      <div className="content">                
+      <div className="content_instruct">                
       <img src={frederickImage} alt="Fredrick"/>
                 <p>HEAD, TEACHING AND EXAMINATIONS UNIT</p>
                 <span>Fredrick Yuorkuu (Mr.)</span>
                 <p>Senior Assistant Registrar</p>
                 <p>B.A (Ghana), MBA (Ghana)</p>
                 <span>teu-academic@ug.edu.gh</span>
-                <textarea className="textarea" rows="8" placeholder="Please Explain Your Predicament"/>
-        <div className="submit-container">
-        <div className="submit">Submit</div>
+                <textarea className="textarea_instruct" rows="8" placeholder="Please Explain Your Predicament"/>
+        <div className="submit-container_instruct">
+        <div className="submit_instruct">Submit</div>
       </div>
       </div>
 <div className="content">

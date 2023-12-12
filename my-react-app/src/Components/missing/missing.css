@@ -68,15 +68,12 @@ margin: 60px auto;
 display: flex;
 justify-content: center;
 align-items: center;
-width: 150px;
-height: 59px;
+width: 100px;
+height: 20px;
 color: white;
 background: blueviolet;
 border-radius: 50px;
 font-size: 19px;
 font-weight: 700;
 cursor: pointer;
-}
-.submit:hover{
-background-color: goldenrod;
 }

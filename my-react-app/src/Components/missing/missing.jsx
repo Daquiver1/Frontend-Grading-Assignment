@@ -2,20 +2,13 @@ import React, { useState } from "react";
 import './missing.css'
 
 const Missing = () => {
-  // State to manage form fields
   const [formData, setFormData] = useState({
     name: "",    email: "",    studentID: "",    courseName: "",    instructorName: "",    description: "", });
-
-  // Function to handle form submission
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Handle form submission logic (e.g., send data to server)
     console.log("Form submitted:", formData);
-    // Clear form fields after submission
     setFormData({  name: "",  email: "", studentID: "", courseName: "", instructorName: "",  description: "", });
   };
-
-  // Function to handle changes in form fields
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData({ ...formData, [name]: value });

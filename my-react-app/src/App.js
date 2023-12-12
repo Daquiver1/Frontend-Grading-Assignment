@@ -8,9 +8,9 @@ import Technical from './Components/Technical/technical'
 
 function App() {
   return (
-    <div> 
-  <Missing/>
-    </div>
+<>
+    <Login/>
+    </>
   );
 }
 
