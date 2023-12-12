@@ -1,0 +1,73 @@
+.App {
+  text-align: center;
+  color: white;
+}
+
+
+.increased-size {
+  width: 100%; /* Adjust this value to increase or decrease the width of the image */
+  height: auto; /* Maintains the aspect ratio */
+  padding: 100px;
+}
+
+
+.main{
+  color: white;
+}
+
+/* Add this style to your CSS file or in a style tag within your component */
+.fill-screen-image {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover; /* This ensures the image maintains its aspect ratio while covering the entire space */
+}
+
+
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.app-container {
+  transition: background-color 0.5s ease;
+
+}
+
+.dark-mode {
+  background-color: #1a1a1a; 
+}
+
+
