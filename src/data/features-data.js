@@ -9,7 +9,7 @@ const featuresData = [
     color: "gray",
     title: "Missing Grade Report",
     icon: AcademicCapIcon,
-    screen: "/gradeReportForm",
+    screen: "/missinggradereport",
     description:
       "Divide details about your product or agency work into parts. A paragraph describing a feature will be enough.",
   },
