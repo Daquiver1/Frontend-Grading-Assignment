@@ -1,7 +1,9 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 import Landing from './pages/Landing';
+import Login from './pages/Login';
 import Dashboard from './pages/Dashboard';
 import GradeReport from './pages/GradeReport';
 import MissingGradeReport from './pages/MissingGradeReport';
@@ -14,13 +16,15 @@ function App() {
       <div className="App">
         <Navbar />
         <Switch>
-        <Route path="/" exact element={<Landing />} />  {/* Update the import path */}
-          <Route path="/dashboard" element={<Dashboard />} />
-          <Route path="/grade-report" element={<GradeReport />} />
-          <Route path="/missing-grade" element={<MissingGradeReport />} />
-          <Route path="/instructor-contact" element={<InstructorContact />} />
-          <Route path="/help" element={<HelpandSupport />} />
+        <Route path="/" exact render={() => <Landing />} />
+          <Route path="/dashboard" render={() => <Dashboard />} />
+          <Route path="/login" render={() => <Login />} />
+          <Route path="/grade-report" render={() => <GradeReport />} />
+          <Route path="/missing-grade" render={() => <MissingGradeReport />} />
+          <Route path="/instructor-contact" render={() => <InstructorContact />} />
+          <Route path="/help" render={() => <HelpandSupport />} />
         </Switch>
+        <Footer />
       </div>
     </Router>
   );

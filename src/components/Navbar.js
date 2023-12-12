@@ -1,18 +1,18 @@
 import React from 'react';
 import './NavbarStyles.css';
 import { Link } from 'react-router-dom';
-import csLogo from '../CS LOGO.png';
+import csLogo from '../CS LOGO.jpeg';
 
 function Navbar() {
   return (
     <>
       <nav>
         <Link to="/">
-          <img src={csLogo} alt="CS Logo" style={{ width: '50px', height: 'auto' }} />
+          <img src={csLogo} alt="CS Logo" style={{ width: '65px', height: 'auto' }} />
         </Link>
         <div>
           <ul id="navbar">
-            <li><Link to="/">Landing</Link></li>
+            <li><Link to="/">Home</Link></li>
             <li><Link to="/dashboard">Dashboard</Link></li>
             <li><Link to="/grade-report">GradeReport</Link></li>
             <li><Link to="/missing-grade">MissingGradeReport</Link></li>
