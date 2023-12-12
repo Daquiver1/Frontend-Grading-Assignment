@@ -23,7 +23,6 @@ export default function Signin() {
                   name="email"
                   type="email"
                   autoComplete="email"
-                  required
                   className="relative block w-full rounded-t-md border-0 py-1.5 text-gray-900 ring-1 ring-inset ring-gray-100 placeholder:text-gray-400 focus:z-10 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                   placeholder="Email address"
                 />
@@ -37,7 +36,6 @@ export default function Signin() {
                   name="password"
                   type="password"
                   autoComplete="current-password"
-                  required
                   className="relative block w-full rounded-b-md border-0 py-1.5 text-gray-900 ring-1 ring-inset ring-gray-100 placeholder:text-gray-400 focus:z-10 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                   placeholder="Password"
                 />
@@ -47,13 +45,11 @@ export default function Signin() {
 
 
             <div>
-              <button
-                type="submit"
+              <Link to="/dashboard"
                 className="flex w-full justify-center rounded-md bg-yellow-600 px-3 py-1.5 text-sm font-semibold leading-6 text-white hover:bg-yellow-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
               >
-                <Link to="/dashboard">Sign in
+                  Sign in
                   </Link>
-              </button>
             </div>
           </form>
 

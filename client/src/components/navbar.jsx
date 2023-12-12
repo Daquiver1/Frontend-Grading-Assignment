@@ -44,40 +44,40 @@ export default function Navbar() {
                     Home
                   </Link>
                   <Link
-                    to={"dashboard"}
+                    to={"/dashboard"}
                     className="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700"
                   >
                     Dashboard
                   </Link>
                   <Link
-                    to={"grade-report"}
+                    to={"/grade"}
                     className="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700"
                   >
                     Grade Report
                   </Link>
                   <Link
-                    to={"mgf"}
+                    to={"/missing"}
                     className="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700"
                   >
                     Missing Grade Form
                   </Link>
                   <Link
-                    to={"instructors"}
+                    to={"/instructors"}
                     className="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700"
                   >
                     Instructors' Contact
                   </Link>
                   <Link
-                    to={"help"}
+                    to={"/help"}
                     className="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700"
                   >
                     Help
                   </Link>
                   <Link
-                    to={"sign-in"}
+                    to={"/sign-in"}
                     className="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700"
                   >
-                    Sign up
+                    Sign in
                   </Link>
                   
                 </div>
