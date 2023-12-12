@@ -7,6 +7,7 @@ import Home from './Components/Home';
 import Contactx from './Components/Contactx';
 import GradeReport from './Components/GradeReport';
 import Dashboard from './Components/Dashboard';
+import MissingGradeForm from './Components/MissingGradeForm';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -20,7 +21,7 @@ root.render(
       <Route path="/GradeReport" element={<GradeReport />} />
       <Route path="/Contactx" element={<Contactx />} />
       <Route path="/dashboard" element={<Dashboard />} />
-      <Route path="/dashboard" element={<Dashboard />} />
+      <Route path="/MissingGradeForm" element={<MissingGradeForm />} />
       
     </Routes>
     </BrowserRouter>
