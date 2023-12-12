@@ -1,7 +1,7 @@
-import Footer from "../Footer"
-import Navbar from "../Navbar"
-import Herosection from "./Herosection"
-import Second from "./Second"
+import Footer from "../Footer";
+import Navbar from "../Navbar";
+import Herosection from "./Herosection";
+import Second from "./Second";
 
 
 

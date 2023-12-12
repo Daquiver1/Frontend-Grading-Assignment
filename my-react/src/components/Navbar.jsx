@@ -9,7 +9,7 @@ const Navbar = () => {
           <h1 className="w-full text-3xl font-bold text-[#00df9a]">UGGT</h1>
         </div>
         <div className="  px-4 ">
-          <NavLink to="/">Home</NavLink>
+          <NavLink to="/Home Page">Home</NavLink>
         </div>
         <div className=" px-4">
           <NavLink to="/">Dashboard</NavLink>
@@ -21,14 +21,14 @@ const Navbar = () => {
           <NavLink to="/">Missing Grade Form</NavLink>
         </div>
         <div className="  px-4 ">
-          <NavLink to="/">Help</NavLink>
+          <NavLink to="/Help">Help</NavLink>
         </div>
         <div className="  px-4 ">
-          <NavLink to="/">Contact</NavLink>
+          <NavLink to="/Contact">Contact</NavLink>
         </div>
         <div>
          <button className='bg-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-white'>
-          <NavLink to="/">Login</NavLink></button>
+          <NavLink to="/LoginPage">Login</NavLink></button>
         </div>
       </div>
     </div>
