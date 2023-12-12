@@ -1,97 +1,53 @@
-import React, { useState } from 'react';
-import { Container, Row, Col, Form, Button } from 'react-bootstrap';
+import React from 'react';
+import { Accordion } from 'react-bootstrap';
 
-function HelpandSupport() {
-  const [formData, setFormData] = useState({
-    studentName: '',
-    course: '',
-    reason: '',
-  });
-
-  const handleInputChange = (e) => {
-    const { name, value } = e.target;
-    setFormData((prevData) => ({
-      ...prevData,
-      [name]: value,
-    }));
-  };
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    // I will add a form submission logic here right
-    console.log('Form submitted:', formData);
-    // I  will use a data to submit the form to my backend
-  };
+function FAQs() {
+  const faqData = [
+    {
+      question: 'How can I view my grade report?',
+      answer: 'You can view your grade report by logging into your account and navigating to the "Grade Report" section.',
+    },
+    {
+      question: 'Can I see my grades for a specific semester?',
+      answer: 'Yes, you can filter your grades by selecting a specific semester in the "Grade Report" section.',
+    },
+    {
+      question: 'What do I do if I have missing grades?',
+      answer: 'If you have missing grades, please contact your instructor or academic advisor for assistance.',
+    },
+    {
+      question: 'How often are grade reports updated?',
+      answer: 'Grade reports are typically updated at the end of each semester. However, specific update schedules may vary, so check regularly for the latest information.',
+    },
+    {
+      question: 'Is there a way to track my overall academic progress?',
+      answer: 'Yes, you can track your overall academic progress by checking the "Dashboard" section, which provides an overview of your grades and overall progress.',
+    },
+    {
+      question: 'Can I print or download my grade report?',
+      answer: 'Yes, you can print or download your grade report by accessing the "Print" or "Download" option in the "Grade Report" section.',
+    },
+    {
+      question: 'How can I change my password?',
+      answer: 'You can change your password by navigating to the "Account Settings" section and selecting the "Change Password" option.',
+    },
+    {
+      question: 'What should I do if I encounter technical issues?',
+      answer: 'If you encounter technical issues, please reach out to our technical support team through the "Contact Us" page for assistance.',
+    },
+    // Add more FAQ items as needed
+  ];
 
   return (
-    <Container className="mt-5">
-      <h1 className="text-center mb-4">Missing Grade Report Form</h1>
-      <Form onSubmit={handleSubmit}>
-        <Row className="mb-3">
-          <Col>
-            <Form.Group controlId="studentName">
-              <Form.Label>Student Name:</Form.Label>
-              <Form.Control
-                type="text"
-                placeholder="Enter your full name"
-                name="studentName"
-                value={formData.studentName}
-                onChange={handleInputChange}
-                required
-              />
-            </Form.Group>
-          </Col>
-        </Row>
-
-        <Row className="mb-3">
-          <Col>
-            <Form.Group controlId="course">
-              <Form.Label>Course:</Form.Label>
-              <Form.Control
-                as="select"
-                name="course"
-                value={formData.course}
-                onChange={handleInputChange}
-                required
-              >
-                <option value="" disabled>Select Course</option>
-                <option value="math">DCIT 201</option>
-                <option value="history">DCIT 203</option>
-                <option value="science">DCIT 205</option>
-                <option value="science">DCIT 207</option>
-                <option value="science">MATH 223</option>
-                <option value="science">CBAS 210</option>
-                
-              </Form.Control>
-            </Form.Group>
-          </Col>
-        </Row>
-
-        <Row className="mb-3">
-          <Col>
-            <Form.Group controlId="reason">
-              <Form.Label>Reason for Missing Grade:</Form.Label>
-              <Form.Control
-                as="textarea"
-                rows={3}
-                placeholder="Enter the reason"
-                name="reason"
-                value={formData.reason}
-                onChange={handleInputChange}
-                required
-              />
-            </Form.Group>
-          </Col>
-        </Row>
-
-        <Row className="justify-content-center">
-          <Button variant="primary" type="submit">
-            Submit
-          </Button>
-        </Row>
-      </Form>
-    </Container>
+    <Accordion defaultActiveKey="0">
+      {faqData.map((faq, index) => (
+        <Accordion.Item key={index} eventKey={index.toString()}>
+          <Accordion.Header>{faq.question}</Accordion.Header>
+          <Accordion.Body>{faq.answer}</Accordion.Body>
+        </Accordion.Item>
+      ))}
+    </Accordion>
   );
-};
+}
 
-export default HelpandSupport;
+export default FAQs;
