@@ -24,10 +24,9 @@ function Navigation() {
         <Nav className="me-auto">
           <Nav.Link href="/dashboard">Dashboard</Nav.Link>
           <Nav.Link href="/gradereport">Grade Report</Nav.Link>
-          <Nav.Link href="/landingpage">Landing Page</Nav.Link>
           <Nav.Link href="/gradereportform">Missing Grade Form</Nav.Link>
           <Nav.Link href="/landingpage">Help and Support</Nav.Link>
-          <Nav.Link href="/landingpage">Log Out</Nav.Link>
+          <Nav.Link href="/login">Log Out</Nav.Link>
         </Nav>
       </Navbar.Collapse>
     </Container>

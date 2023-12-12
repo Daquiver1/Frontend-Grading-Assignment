@@ -48,9 +48,11 @@ const LoginPage = () => {
           />
         </div>
         {loginError && <p style={{ color: 'green' }}>Welcome Stephen!</p>}
-        <button className='loginbutton' type="button" onClick={handleLogin}>
+        <a href="/landingpage"><button className='loginbutton' type="button" onClick={handleLogin}>
           Login
         </button>
+        </a>
+          
         <div className="forgot-password">Forgot Password? <span>Click Here!</span></div>
       </form>
     </div>
