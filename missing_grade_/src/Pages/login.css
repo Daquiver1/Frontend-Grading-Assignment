@@ -1,0 +1,80 @@
+.login-page{
+    width: 100%;
+    /*background-image: url('Images/student-image.jpg');*/
+    background-attachment: local;
+    background-size: cover;
+}
+
+.login-tab{
+    height: 130vh;
+    width: 600px;
+    float: right;
+    background-color: rgb(133, 94, 107);
+}
+
+.title{
+    margin-top: 100px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.sub-text{
+    font-family: cursive;
+    color: white;
+    text-align: center;
+}
+
+.form{
+    height: 350px;
+    width: 350px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: rgb(160, 115, 130);
+}
+
+.input{
+    height: 45px;
+    width: 80%;
+    margin: 10px auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(94, 112, 133);
+    color: white;
+}
+
+.input::placeholder{
+    color: white;
+    font-family: cursive;
+
+}
+
+.submit{
+    height: 45px;
+    width: 70%;
+    margin: 40px auto;
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    color: rgb(94, 112, 133);
+
+}
+
+.submit:hover{
+    width: 75%;
+    cursor: pointer;
+    transition: .7s;
+    text-decoration: underline;
+}
+
+.forgot{
+    color: white;
+    font-family: cursive;
+}
