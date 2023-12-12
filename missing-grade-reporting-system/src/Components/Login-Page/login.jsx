@@ -32,7 +32,12 @@ const Login = () => {
     <div className='main-container'>
 
       <div className='img-container'>
-        <img src={ug_logo} alt="University of Ghana logo" className='ug-logo' />
+        <div className='ug-logo'>
+          <img src={ug_logo} alt="University of Ghana logo" className='ug-logo' />
+        <div className='logo-text'>
+          <h3>Welcome To The Missing Grades Reporting System.</h3>
+        </div>  
+        </div>
       </div>
       <div className='login-container'>
 
@@ -71,7 +76,7 @@ const Login = () => {
 
         <div className='submit-container'>
             <div className={action==="Sign Up"?"submit gray":"login-button"} onClick={() => {setAction("Sign In")}}>
-                Sign In
+                <a href="/dashboard">Sign In</a>
             </div>
         </div>
     </div>
