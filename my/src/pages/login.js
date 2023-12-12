@@ -72,25 +72,55 @@ const GradeReport = ({ grades, filter, setFilter }) => {
 
 const MissingGradeForm = ({ onClose }) => {
   const [missingCourse, setMissingCourse] = useState('');
+  const [instructorName, setInstructorName] = useState('');
+  const [expectedGrade, setExpectedGrade] = useState('');
+  const [explanation, setExplanation] = useState('');
+  const [confirmationMessage, setConfirmationMessage] = useState('');
 
   const handleSubmit = () => {
-    console.log(`Missing grade reported for ${missingCourse}`);
+    // Perform any necessary validation and submission logic
+    // For demonstration purposes, just set a confirmation message
+    setConfirmationMessage('Missing grade reported successfully!');
+    // Clear form fields
     setMissingCourse('');
-    onClose();
+    setInstructorName('');
+    setExpectedGrade('');
+    setExplanation('');
   };
 
   return (
     <div>
       <h2>Missing Grade Form</h2>
-      <label>
-        Course:
-        <input type="text" value={missingCourse} onChange={(e) => setMissingCourse(e.target.value)} />
-      </label>
-      <br />
-      <button onClick={handleSubmit}>Submit</button>
+      <form>
+        <label>
+          Course Name:
+          <input type="text" value={missingCourse} onChange={(e) => setMissingCourse(e.target.value)} />
+        </label>
+        <br />
+        <label>
+          Instructor Name:
+          <input type="text" value={instructorName} onChange={(e) => setInstructorName(e.target.value)} />
+        </label>
+        <br />
+        <label>
+          Expected Grade:
+          <input type="text" value={expectedGrade} onChange={(e) => setExpectedGrade(e.target.value)} />
+        </label>
+        <br />
+        <label>
+          Explanation:
+          <textarea value={explanation} onChange={(e) => setExplanation(e.target.value)} />
+        </label>
+        <br />
+        <button type="button" onClick={handleSubmit}>
+          Submit
+        </button>
+      </form>
+      {confirmationMessage && <p>{confirmationMessage}</p>}
     </div>
   );
 };
+
 
 const InstructorContact = () => (
   <div>
@@ -175,6 +205,8 @@ const App = () => {
             <li>E-BUSINESS ARCHITECTURE     <b> C+</b></li>
           
           </ul>
+          <p className="red-text">THERE IS NO MISSING GRADES</p>
+
 
           <h3>Filtered Courses</h3>
           <ul>
