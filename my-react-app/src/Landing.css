@@ -43,7 +43,7 @@ p {
 
 .custom-button {
     padding: 12px 24px;
-    background-color: #007bff;
+    background-color: rgba(8, 8, 87, 0.774);
     color: #fff;
     border: none;
     cursor: pointer;
@@ -68,7 +68,7 @@ p {
 
 .dropdown-button {
     padding: 12px 24px;
-    background-color: #007bff;
+    background-color: rgba(8, 8, 87, 0.774);
     color: #fff;
     border: none;
     cursor: pointer;
@@ -101,3 +101,12 @@ p {
 .dropdown:hover .dropdown-content {
     display: block;
 }
+.footer {
+    background-color: #272270;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }

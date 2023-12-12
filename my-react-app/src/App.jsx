@@ -4,16 +4,19 @@ import './index.css';
 import Landing from './Landing.jsx';
 import Login from './Login.jsx'; // Assuming Login.jsx exists
 import Dashboard from './Dashboard';
+import HelpAndSupport from './HelpAndSupport.jsx'
 
 function App() {
     return (
+        
         <Router>
             <Routes>
-                <Route path="/" element={<Landing />} />
+            <Route path="/" element={<Landing />} />
                 <Route path="/login" element={<Login />} />
+                <Route path="/Dashboard" element={<Dashboard/>} />
+                <Route path="/HelpAndSupport" element={<HelpAndSupport/>} />
             </Routes>
         </Router>
-        
     );
 }
 

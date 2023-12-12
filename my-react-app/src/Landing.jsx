@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom'; // Assuming you're using React Router for navigation
+import { Link } from 'react-router-dom'; 
 import UgImageLogo from './assets/Ugimagelogo.png';
 import './Landing.css';
 
@@ -21,11 +21,17 @@ function Landing() {
                         <Link to="/grade-report" className="dropdown-item">Grade Report</Link>
                         <Link to="/missing-grade-form" className="dropdown-item">Missing Grade Form</Link>
                         <Link to="/instructor-contact" className="dropdown-item">Instructor Contact</Link>
-                        <Link to="/help-support" className="dropdown-item">Help and Support</Link>
+                        <Link to="/HelpAndSupport" className="dropdown-item">Help and Support</Link>
                     </div>
                 </div>
+                
             </main>
+            <footer className="footer">
+                <p>© 2023 University Of Gana</p>
+            </footer>
         </div>
+        
+      
     );
 }
 
