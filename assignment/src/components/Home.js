@@ -19,7 +19,7 @@ const Home = () => {
         <div>
         <h2 className="font-sans  text-4xl pl-5 text-center font-bold py-4">Login and Setup Your Account Today</h2> 
         <p className="font-sans text-xl pl-10 pb-20" >
-            Don't let missing grades be a source of stress. Login to MGRS today and experience a seamless,empowered,and informed academic journey.Your success is our top priority.
+            Don't let missing grades be a source of stress. <Link to="/login" className="text-blue-700 hover:text-yellow-500" >Login</Link> to MGRS today and experience a seamless,empowered,and informed academic journey.Your success is our top priority.
         </p>
         </div>
         </>
