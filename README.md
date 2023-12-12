@@ -54,4 +54,3 @@ To contribute to this project, please follow these guidelines:
 Please adhere to the project's coding standards and provide clear and detailed pull request descriptions.
 
 ## Screenshot
-(pictures/aziz.png)
