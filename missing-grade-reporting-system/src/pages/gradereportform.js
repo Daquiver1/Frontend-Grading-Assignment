@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 
+
 const GradeReportPage = () => {
   // State for form inputs
   const [course, setCourse] = useState('');
