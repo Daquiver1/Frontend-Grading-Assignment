@@ -1,97 +1,88 @@
 import React, { useState } from 'react';
-import { Container, Row, Col, Form, Button } from 'react-bootstrap';
+import { Form, Button, Container, Row, Col } from 'react-bootstrap';
 
-const MissingGradeForm = () => {
+const MissingGradesForm = () => {
   const [formData, setFormData] = useState({
     studentName: '',
-    course: '',
-    reason: '',
+    courseName: '',
+    missingGrade: '',
+    additionalDetails: '',
   });
 
-  const handleInputChange = (e) => {
+  const handleChange = (e) => {
     const { name, value } = e.target;
-    setFormData((prevData) => ({
-      ...prevData,
+    setFormData({
+      ...formData,
       [name]: value,
-    }));
+    });
   };
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // I will add a form submission logic here right
-    console.log('Form submitted:', formData);
-    // I  will use a data to submit the form to my backend
+    // Add your form submission logic here
+    console.log('Form Data Submitted:', formData);
+    // You can send the data to your server or perform any other necessary actions
   };
 
   return (
-    <Container className="mt-5">
-      <h1 className="text-center mb-4">Missing Grade Report Form</h1>
-      <Form onSubmit={handleSubmit}>
-        <Row className="mb-3">
-          <Col>
+    <Container>
+      <Row className="justify-content-center">
+        <Col xs={12} md={8} lg={6}>
+          <Form onSubmit={handleSubmit}>
+            <h2 className="text-center mb-4">Missing Grade Form</h2>
+
             <Form.Group controlId="studentName">
-              <Form.Label>Student Name:</Form.Label>
+              <Form.Label>Student Name</Form.Label>
               <Form.Control
                 type="text"
-                placeholder="Enter your full name"
                 name="studentName"
                 value={formData.studentName}
-                onChange={handleInputChange}
+                onChange={handleChange}
                 required
               />
             </Form.Group>
-          </Col>
-        </Row>
 
-        <Row className="mb-3">
-          <Col>
-            <Form.Group controlId="course">
-              <Form.Label>Course:</Form.Label>
+            <Form.Group controlId="courseName">
+              <Form.Label>Course Name</Form.Label>
               <Form.Control
-                as="select"
-                name="course"
-                value={formData.course}
-                onChange={handleInputChange}
+                type="text"
+                name="courseName"
+                value={formData.courseName}
+                onChange={handleChange}
                 required
-              >
-                <option value="" disabled>Select Course</option>
-                <option value="math">DCIT 201</option>
-                <option value="history">DCIT 203</option>
-                <option value="science">DCIT 205</option>
-                <option value="science">DCIT 207</option>
-                <option value="science">MATH 223</option>
-                <option value="science">CBAS 210</option>
-                
-              </Form.Control>
+              />
             </Form.Group>
-          </Col>
-        </Row>
 
-        <Row className="mb-3">
-          <Col>
-            <Form.Group controlId="reason">
-              <Form.Label>Reason for Missing Grade:</Form.Label>
+            <Form.Group controlId="missingGrade">
+              <Form.Label>Missing Grade</Form.Label>
+              <Form.Control
+                type="text"
+                name="missingGrade"
+                value={formData.missingGrade}
+                onChange={handleChange}
+                required
+              />
+            </Form.Group>
+
+            <Form.Group controlId="additionalDetails">
+              <Form.Label>Additional Details</Form.Label>
               <Form.Control
                 as="textarea"
                 rows={3}
-                placeholder="Enter the reason"
-                name="reason"
-                value={formData.reason}
-                onChange={handleInputChange}
-                required
+                name="additionalDetails"
+                value={formData.additionalDetails}
+                onChange={handleChange}
               />
             </Form.Group>
-          </Col>
-        </Row>
 
-        <Row className="justify-content-center">
-          <Button variant="primary" type="submit">
-            Submit
-          </Button>
-        </Row>
-      </Form>
+            <Button variant="primary" type="submit" block>
+              Submit Report
+            </Button>
+          </Form>
+        </Col>
+      </Row>
     </Container>
   );
 };
 
-export default MissingGradeForm;
+export default MissingGradesForm;
