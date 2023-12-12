@@ -6,7 +6,7 @@ function Sidebar() {
         <aside id="default-sidebar" className="fixed top-0 left-0 z-40 w-64 h-screen transition-transform -translate-x-full sm:translate-x-0" aria-label="Sidebar">
             <div className="h-full px-3 py-4 overflow-y-auto bg-gray-50 dark:bg-gray-800">
             <a className="flex items-center pb-4 space-x-3 rtl:space-x-reverse">
-                <img src="/images/logo.png" className="h-8 rounded-md" alt="" />
+                <img src="/images/download.jpg" className="h-12 rounded-md" alt="" />
             </a>
                 <ul className="space-y-2 font-medium">
                     <li>

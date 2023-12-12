@@ -23,7 +23,7 @@ function Dashboard() {
                                       Level
                                   </th>
                                   <th scope="col" className="px-6 pr-24 py-3">
-                                      Total Credit Hour
+                                      Total Credit Hours
                                   </th>
                                   <th scope="col" className="px-6 pr-24 py-3">
                                       Total Score
