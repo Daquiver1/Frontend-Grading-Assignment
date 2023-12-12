@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Student Grade Report</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    /* Custom CSS styles */
+    body {
+        background-color: rgb(196, 212, 255);
+    }
+    .container {
+      max-width: 800px;
+      margin: 50px auto;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    h1 {
+      text-align: center;
+    }
+    .grade-table {
+      width: 100%;
+      margin-top: 30px;
+    }
+    .grade-table th, .grade-table td {
+      text-align: center;
+      padding: 10px;
+    }
+    .grade-table th {
+      background-color: #f5f5f5;
+    }
+    .form-group {
+      margin-bottom: 20px;
+    }
+    .alert {
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="navbar">
+    <img class= "logo" src="comScience_logo.png" alt="logo.png">
+     <ul>
+         <li><a href="overview.htm">Home</a></li>
+         <li><a href="contact page1.html">Contact</a></li>
+         <li><a href="help&.htm">Support</a></li>
+         <li><a href="login.html"> Login</a></li>
+         <li><a href="grade report.html"> Report</a></li>
+
+         
+     </ul>
+</div><br>
+  <div class="container">
+    <h1 style="font-family: cursive;color: rgb(125, 125, 192);">Student Grade Report</h1>
+    <table class="table grade-table">
+      <thead>
+        <tr>
+          <th>Subject</th>
+          <th>Grade</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Mathematics</td>
+          <td>A</td>
+        </tr>
+        <tr>
+          <td>English</td>
+          <td>B+</td>
+        </tr>
+        <tr>
+          <td>Science</td>
+          <td>_</td>
+        </tr>
+        <tr>
+          <td>History</td>
+          <td>B</td>
+        </tr>
+        <tr>
+          <td>Geography</td>
+          <td>C+</td>
+        </tr>
+      </tbody>
+    </table>
+    <form id="gradeReportForm">
+      <div class="form-group">
+        <label for="name">Name:</label>
+        <input type="text" class="form-control" id="name" required>
+      </div>
+      <div class="form-group">
+        <label for="missingGrade">Course:</label>
+        <input type="text" class="form-control" id="missingGrade">
+      </div>
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" class="form-control" id="email" required>
+      </div>
+      <div class="form-group">
+        <label for="missingGrade">Missing Grade:</label>
+        <input type="text" class="form-control" id="missingGrade">
+      </div>
+      <div class="form-group">
+        <label for="missingGrade">Expected Grade:</label>
+        <input type="text" class="form-control" id="missingGrade">
+      </div>
+      <div class="form-group">
+        <label for="missingGrade">Explanation:</label>
+        <input type="text" class="form-control" id="missingGrade">
+      </div>
+      
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+    <div id="successMessage" class="alert alert-success" style="display: none;">Submitted successfully!</div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script>
+    // Handle form submission
+    $(document).ready(function() {
+      $('#gradeReportForm').submit(function(event) {
+        event.preventDefault();
+        $('#successMessage').show();
+        // You can add your own code here to handle form submission
+      });
+    });
+  </script>
+</body>
+</html>
