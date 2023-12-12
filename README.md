@@ -25,10 +25,15 @@ The application consists of 7 main pages:
 ## Setup and Installation
 
 To set up the project locally, follow these steps:
+Make sure you have Node js (version 11 or higher) and Node Package Manager(npm) running on your device. If not download the Node js from the official website https://nodejs.org/en/download and dwld npm from your terminal using this command
+```bash
+   npm install -g npm 
+```
 
 ```bash
 git clone https://github.com/RgDivine/11342871_DCIT205_Assignment-1.git
 cd repo-name11342871_DCIT205_Assignment-1
+cd rg
 npm i react-routter-dom
 npm install react-boostrap boostrap
 npm start
