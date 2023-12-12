@@ -5,18 +5,18 @@ const DashBoard = () => {
   // Sample grades and missing grade alert
   const grades = [
     { course: 'Introduction to Computer Science A', grade: 'A' },
-    { course: 'Mathematics', grade: 'B' },
-    { course: 'History', grade: 'A-' },
-    { course: 'Literature', grade: 'B+' },
-    { course: 'Literature', grade: 'B+' },
-    { course: 'Literature', grade: 'B+' },
+    { course: 'Programming 1', grade: 'B' },
+    { course: 'Calculus 2', grade: 'A-' },
+    { course: 'CBAS 210', grade: 'B+' },
+    { course: 'COMPUTER ORGANIZATION & ARCHITECTURE ', grade: 'B+' },
+    { course: 'Digital and Logic System Design', grade: 'B+' },
     // Add more grade data as needed
   ];
 
   const missingGrades = [
-    { course: 'Physics', instructor: 'Dr. Johnson' },
-    { course: 'Chemistry', instructor: 'Prof. Williams' },
-    { course: 'Chemistry', instructor: 'Prof. Williams' },
+    { course: 'CALCULUS 1', instructor: 'Dr. Johnson' },
+    { course: 'ACADEMIC WRITING', instructor: 'Prof. Williams' },
+    { course: 'COMPUTER HARDWARE FUNDAMENTALS', instructor: 'Prof. Williams' },
     // Add more missing grade data as needed
   ];
 

@@ -1,14 +1,14 @@
 import React, { useContext, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { AuthContext } from "../context/authContext";
-//import Navbar from "../components/Navbar";
+import Navbar from "../components/Navbar";
 function Login() {
   const navigate = useNavigate();
 
   const { login } = useContext(AuthContext);
 
   const [inputs, setInputs] = useState({
-    username: "",
+    studentID: "",
     password: "",
   });
 
@@ -32,15 +32,17 @@ function Login() {
   };
 
   return (
+    
   
     <div className="text-center">
+      <Navbar/>
       <h3>LOGIN FORM</h3>
       <form className="d-flex flex-column col-lg-6 col-md-10 col-sm-11 mx-auto border rounded pt-5 shadow-lg">
         <input
           type="text"
-          name="username"
+          name="studentsID"
           className="mb-3 p-1"
-          placeholder="username..."
+          placeholder="studentsID..."
           onChange={handleChange}
         />
 
@@ -48,7 +50,7 @@ function Login() {
           type="password"
           name="password"
           className="mb-3 p-1"
-          placeholder="password..."
+          placeholder="pin..."
           onChange={handleChange}
         />
         <button

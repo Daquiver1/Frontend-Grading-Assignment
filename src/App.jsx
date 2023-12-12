@@ -38,6 +38,10 @@ const router = createBrowserRouter([
     element: <NavBox />,
     children: [
       {
+        path: "/",
+        element: <Home />,
+      },
+      {
         path: "/home1",
         element: <Home />,
       },
