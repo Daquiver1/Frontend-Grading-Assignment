@@ -10,6 +10,7 @@ import FAQs from './components/help and support';
 import MissingGradeForm from './components/missing grade form';
 import Navbar from './components/NavBar';
 import Home from './components/home';
+import Footer from './components/footer';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         <Route path="help and support" element={<FAQs />} />
         <Route path="missing grade form" element={<MissingGradeForm />} />
       </Routes>
+        <Footer />
     </>
   );
 }
