@@ -13,7 +13,7 @@ class Grades extends Component {
           <div>
             <h2 className="text-2xl font-bold mb-4">Core Courses Grades</h2>
             <div className="space-y-4">
-              <div className="p-4 bg-white border rounded-xl text-gray-800 space-y-2">
+              <div className="p-4 bg-white  border rounded-xl text-gray-800 space-y-2">
                 <div className="flex justify-between">
                   <div className="text-gray-400 text-xs">
                     {GradesData[0].instructor}
