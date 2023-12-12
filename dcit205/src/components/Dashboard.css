@@ -1,0 +1,49 @@
+/* DashboardPage.css */
+
+.dashboard-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .missing-grades-alert {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #ffcccc;
+  }
+  
+  .dash-btn {
+    margin-left: 10px;
+    padding: 5px 10px;
+    background-color: #ff6666;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #ff4747;
+  }
+  
+  .current-grades {
+    margin-top: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  th, td {
+    border: 1px solid #aaa3a3;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: rgb(129, 143, 164);;
+  }
+  
+  /* Add more styles as needed */
+  
