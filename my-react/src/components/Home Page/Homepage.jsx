@@ -1,6 +1,7 @@
 import Footer from "../Footer"
 import Navbar from "../Navbar"
 import Herosection from "./Herosection"
+import Second from "./Second"
 
 
 
@@ -14,6 +15,8 @@ const Homepage = () => {
                 <Navbar/>
             </header>
          <Herosection/>
+         <Second/>
+        
 
          {/*footer*/}
          <footer>
