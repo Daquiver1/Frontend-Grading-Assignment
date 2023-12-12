@@ -1,7 +1,9 @@
+import Submission from "./Submission";
+
 const Report = () => {
     return ( 
         <div className="">
-            report here
+            <Submission/>
         </div>
      );
 }

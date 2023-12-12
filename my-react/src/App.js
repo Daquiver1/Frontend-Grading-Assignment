@@ -17,9 +17,7 @@ function App() {
     <div className="App relative">
 
     <Router>
-      <header>
-        <Navbar/>
-      </header>
+    
 
 
       <div className="main">
@@ -34,9 +32,7 @@ function App() {
        </Routes>
        </div>
 
-        <footer>
-          <Footer/>
-        </footer>
+        
       </Router>
     </div>
   );
