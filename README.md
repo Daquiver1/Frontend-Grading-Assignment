@@ -54,4 +54,4 @@ To contribute to this project, please follow these guidelines:
 Please adhere to the project's coding standards and provide clear and detailed pull request descriptions.
 
 ## Screenshot
-(pictures/aziz.png)
+![Screenshot (36)](https://github.com/mighty808/11353372_DCIT205_Assignment1/assets/142548335/fec533ff-2aab-4a93-8314-32b3cd47efcb)
