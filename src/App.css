@@ -36,3 +36,21 @@
     transform: rotate(360deg);
   }
 }
+
+.carousel-child {
+  height: 550px;
+}
+
+@media screen and (max-width: 1250px) {
+  .carousel-child {
+    height: 450px;
+  }
+}
+
+
+@media screen and (max-width: 1450.98px){
+    .nav-brand{
+        float: right;
+        order: -1;
+    }
+}
