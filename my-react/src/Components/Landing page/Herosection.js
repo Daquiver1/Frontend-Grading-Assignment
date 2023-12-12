@@ -4,9 +4,9 @@ import image1 from '../images/test.jpg';
 const Herosection = () => {
    
     return (
-    <div className="w-full">
+    <div className="w-full ">
         
-        <div className="main-conatiner flex w-full h-[31rem] bg-blue-200">
+        <div className="main-conatiner flex w-full h-[31rem] bg-blue-200 ">
 
         <div className="left w-2/4 h-full bg-white  ">
             <img className='w-full h-full' src={image1} alt="" />

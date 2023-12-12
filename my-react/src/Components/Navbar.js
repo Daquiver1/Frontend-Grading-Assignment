@@ -19,7 +19,7 @@ const Navbar = () => {
                 </div>
 
                 <div className=" bg-[#56c1ad]  px-4 rounded-full flex items-center justify-center">
-                <NavLink  to='/gradeform'>GradeForm</NavLink>
+                <NavLink  to='/gradeform'>Transcript</NavLink>
                 </div>
 
                <div className=" bg-[#56c1ad]  px-4 rounded-full flex items-center justify-center">
