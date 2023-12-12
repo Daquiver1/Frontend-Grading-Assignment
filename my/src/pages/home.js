@@ -23,9 +23,10 @@ export default function Home() {
         <div className="card card3"></div>
         <div className="card card4"></div>
         </div>
+        < footer />
     </div>
+        
   );
 }
-
 
 
