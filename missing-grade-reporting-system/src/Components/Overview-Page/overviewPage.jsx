@@ -16,7 +16,7 @@ const Overview = () => {
         <p className='biggger-font'>Welcome to the University of Ghana students' enquiry page. <br />Here, you can check and report your missing grades, view your GPA progress <br />and also your local academic report.</p>
       <div className="center-content">
         <p>Click here to login and check your dashboard</p>
-        <a href="">Login</a>
+        <a href="/login">Login</a>
       </div>  
 
       <div id='flex-div'>
