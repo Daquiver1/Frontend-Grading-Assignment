@@ -16,7 +16,7 @@ The application consists of 7 main pages:
 - **Instructor Contact Page:** Lists instructors' contact information with a simulated email feature.
 - **Help and Support:** Provides FAQs and a mock support contact form.
 
-## Technical Details
+## Technical Details.
 
 - **Framework/Technology Used:** [React]
 - **Responsive Design:** Implemented using [CSS Flexbox/Grid, Bootstrap, Tailwind CSS].
@@ -35,6 +35,45 @@ npm start
 
 This will start the application on `localhost` at the default port.
 
+# Website Preview
+
+## Login Page
+
+![Login ](screenshots/loginpage.PNG)
+
+## Landing Page
+
+![Landing Page](screenshots/landingpage.PNG)
+
+## Home Page
+
+![Home](screenshots/homepage.PNG)
+
+## Dashboard
+
+![Dashboard](screenshots/dashboard.PNG)
+
+## Grades Overview Page
+
+![Grades Overview](screenshots/gradespage.PNG)
+
+## Report Missing Grades Page
+
+![Reports](screenshots/MisssingGradesPage.PNG)
+
+## Instructors Page
+
+![Events](screenshots/Instructors.PNG)
+
+## FAQ and Help Page
+
+![FAQ](screenshots/FAQPage.PNG)
+
+## Mobile Version
+
+![Home](screenshots/responsive2.PNG)
+![Reports](screenshots/responsive.PNG)
+
 ## Usage
 
 Describe how to use the application, highlighting key functionalities such as logging in, viewing grades, reporting missing grades, and contacting instructors.
@@ -46,6 +85,12 @@ To contribute to this project, please follow these guidelines:
 1. Fork the repository.
 2. Create a new branch for your feature.
 3. Commit your changes and push them to your branch.
-4. Submit a pull request for review.
+4. Submit a pull request for review
 
 Please adhere to the project's coding standards and provide clear and detailed pull request descriptions.
+
+## Creator 🧑‍💻
+
+- **Name:** Bernard Asiedu Owusu-Dankwah
+- **Student ID:** 11024002
+- **GitHub:** https://github.com/bennydan7

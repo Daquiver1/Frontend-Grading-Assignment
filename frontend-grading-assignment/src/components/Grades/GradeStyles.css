@@ -1,0 +1,13 @@
+.grade-container {
+  padding: 30px 30px 30px 30px;
+  margin: 30px 30px 30px 30px;
+  /* background: linear-gradient(#452a9c, #4f2868); */
+  background: linear-gradient(to top, #e6b980 0%, #eacda3 100%);
+  border-radius: 20px;
+}
+
+.text-xs {
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: #444444;
+}
