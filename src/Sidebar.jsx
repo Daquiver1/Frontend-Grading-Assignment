@@ -39,11 +39,7 @@ function Sidebar({openSidebarToggle, OpenSidebar}) {
                     <BsListCheck className='icon'/> Help and Support
                 </a>
             </li>
-            <li className='sidebar-list-item'>
-                <a href="About.html">
-                    <BsMenuButtonWideFill className='icon'/> About
-                </a>
-            </li>
+
             <li className='sidebar-list-item'>
                 <a href="Contact.html">
                     <BsFillGearFill className='icon'/> Contact
