@@ -25,6 +25,10 @@ CSS: Styling and layout are implemented using a combination of CSS for a modern 
 3. Install dependencies: npm install
 4. Start the development server: npm start
 
+## Created By
+BLESS ADETI
+11015523
+
 ## Screenshot of each page 
 ## Home Page 
 <img width="1440" alt="home1" src="https://github.com/seanadeti/11015523_DCIT205_Assignment1/assets/143741295/da106dec-a9ab-49f9-8e4e-82f5adf263e5">
