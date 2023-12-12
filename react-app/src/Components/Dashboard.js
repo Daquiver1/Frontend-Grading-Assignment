@@ -51,9 +51,11 @@ const Dashboard = () => {
   const missingGradeSubjects = subjects.filter((subject) => !grades.some((grade) => grade.courseCode === subject.courseCode));
 
   return (
+    <>
+    <Navbar />
     
     <div className="dashboard-container">
-      <Navbar />
+      
       <h2>Dashboard</h2>
       <section>
         <h3>Subjects and Grades</h3>
@@ -106,8 +108,9 @@ const Dashboard = () => {
        <Link to="/MissingGradeForm">
         <button>Find Missing Grades</button>
       </Link>
-      <Footer />
     </div>
+    <Footer />
+  </>
   );
 };
 
