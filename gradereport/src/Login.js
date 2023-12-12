@@ -7,6 +7,9 @@ const Loginform = () => {
         <h1>Login</h1>
         <input type="text" placeholder="ID" />
         <input type="password" placeholder="Pin" />
+        
+    <div className="login-btn">login</div>
+
         </div>
     )
 }

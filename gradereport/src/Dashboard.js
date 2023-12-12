@@ -1,9 +1,29 @@
+import{ useNavigate } from 'react-router-dom'
+import React from "react";
+import "./loginform.css"
+import { Route } from "react-router-dom";
+
+const handeleClick = () => {
+    
+}
+
+
 const Dashboard = () => {
+const navigate = useNavigate();
+const handlebuttonClick = () => {
+    navigate('/dashboardaftlogin')
+};
+
     return ( 
         <div>
-            <h1 className="text"> Welcome to the Dashboard</h1>
-            <p className="text">This is where you see Everything</p>
+            <div className="cover">
+        <h1>Login</h1>
+        <input type="text" placeholder="ID" />
+        <input type="password" placeholder="Pin" />
+        
+    <button onClick={handeleClick()}>Login</button>
 
+        </div>
         </div>
      );
 }

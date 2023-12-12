@@ -23,6 +23,7 @@ function App() {
         <Route path='/Instructed Contact' element={<InstructedContact/>} />
         <Route path='/login' element={<Login/>} />
         <Route path='/Missing grade' element={<Missinggrade/>} />
+        <Route path='/dashboardaftlogin' element={<dashboardatflogin/>} />
       </Routes>  
         <header>
             <nav className='navigation'>
@@ -30,9 +31,9 @@ function App() {
             
                 <Link className='dash' to='/dashboard'>Dashboard</Link>
               
-                <Link className='dash' to='/Gradereport'>Grade report</Link>
+                <Link className='dash' to='/Grade report'>Grade report</Link>
 
-                <Link className='dash' to='/Missinggrade'>Missing Grade</Link>
+                <Link className='dash' to='/Missing grade'>Missing Grade</Link>
 
                 <Link className='dash' to='/InstructedContact'>Instructed Contact</Link>
 
@@ -42,6 +43,7 @@ function App() {
               </nav>
         </header>
         <div className='page'>
+          
         </div>
     </div>
     
