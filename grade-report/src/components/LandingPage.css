@@ -1,0 +1,15 @@
+/* LandingPage.css */
+
+.home-container {
+  background-image: url('../images/image2.jpeg'); /* Adjust the path to your background image */
+  background-size: cover;
+  background-position: center;
+  color: white; /* Adjust text color based on your background */
+  padding: 50px; /* Adjust padding as needed */
+}
+
+.btn-center {
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+}

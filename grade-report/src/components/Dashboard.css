@@ -1,0 +1,31 @@
+/* Dashboard.css */
+
+/* Other styles... */
+
+/* Style for the Missing Grades section */
+.missing-grades {
+    padding: 1rem;
+    background-color: #f8d7da; /* Example background color for missing grades section */
+    border-radius: 5px;
+    border: 1px solid #f5c6cb; /* Border color for a red alert */
+    color: #721c24; /* Text color for a red alert */
+  }
+  
+  /* Style for the Welcome message */
+  .welcome-message {
+    font-size: 1.5rem;
+  }
+  
+ 
+  /* Other styles... */
+  .background-image {
+    background-image: url('../images/home.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 40px; /* Adjusted height */
+    width: 100%; /* Fixed the width property */
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
