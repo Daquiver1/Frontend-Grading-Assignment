@@ -8,6 +8,7 @@ import Form from './components/Forms';
 import Contact from './components/Contact';
 import Help from './components/Help';
 import GradeReportPage from './components/GradeReportPage';
+import Dashboard from './components/Dashboard';
 
 import {
   createBrowserRouter,
@@ -43,6 +44,10 @@ const router = createBrowserRouter([
   {
     path: "/GradeReportPage.js",
     element: <GradeReportPage />
+  },
+  {
+    path: "/Dashboard.js",
+    element: <Dashboard />
   },
 ]);
 
