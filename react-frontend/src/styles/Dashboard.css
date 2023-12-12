@@ -1,6 +1,8 @@
 header {
   max-width: 1200px;
   margin: 40px auto;
+  align-items: center;
+  justify-content: center;
   border-bottom: 1px solid;
 }
 
