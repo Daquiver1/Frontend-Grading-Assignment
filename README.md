@@ -19,7 +19,7 @@ The application consists of 7 main pages:
 ## Technical Details
 
 - **Framework/Technology Used:** [React]
-- **Responsive Design:** Implemented using [CSS Flexbox/Grid, Bootstrap, Tailwind CSS].
+- **Responsive Design:** Implemented using [CSS Flexbox/Grid, Bootstrap].
 - **JavaScript Functionality:** Used for form validations, dynamic content rendering, and simulating interactions.
 
 ## Setup and Installation
@@ -48,4 +48,28 @@ To contribute to this project, please follow these guidelines:
 3. Commit your changes and push them to your branch.
 4. Submit a pull request for review.
 
-Please adhere to the project's coding standards and provide clear and detailed pull request descriptions.
+## Insights, Improvements, and Learnings
+Developing this project was a valuable learning experience as it was my first experience with the REACT framework.
+
+# Improvements:
+
+1. React and Bootstrap integration: Utilizing React and Bootstrap proved effective in creating a responsive and user-friendly interface. These libraries facilitated building modular and reusable components, simplifying code maintenance and enhancing the overall user experience.
+Data fetching and manipulation: Implementing logic for fetching and manipulating data from an API or backend source is crucial for displaying dynamic and accurate grade reports. This project provided practical experience in working with data in React applications.
+
+2. User-centered design: Prioritizing clear information presentation and intuitive navigation helped create a user-friendly interface. Features like the semester selection and grade distribution breakdown enhance user interaction and understanding.
+
+# Challenges:
+
+1. Chart integration: Initially, integrating a JavaScript library for charts encountered some minor challenges. However, troubleshooting and exploring alternative data presentation methods like lists led to a successful solution.
+
+2. Dynamic data handling: Implementing logic for handling data changes based on user interaction, such as selecting a semester, required careful planning and attention to detail. This process provided valuable practice in state management and component lifecycle methods in React.
+
+3. Maintaining a clean and maintainable codebase: As the project progressed, ensuring code clarity and maintainability became crucial. Implementing proper commenting, structuring components effectively, and utilizing appropriate design patterns helped achieve this goal.
+
+# Learnings:
+
+It was an interesting experience overall since I had a lot of bugs to fix.
+
+These taught me about working better with npm and setting up my react app with create-react-app and Vite(even though I later went without it)
+
+The challenges encountered and the lessons learned will be valuable assets for future projects and contribute to my continuous growth as a developer.
