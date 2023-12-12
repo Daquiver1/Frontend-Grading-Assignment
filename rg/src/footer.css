@@ -1,0 +1,16 @@
+/* Apply styles to the entire footer */
+.navi {
+    background-color: #081018; /* Navbar background color */
+  }
+  
+  /* Style the text in the footer */
+  .text-muted {
+    color: #ffffff28; /* Text color */
+  }
+  
+  /* Style the social media icons */
+  .text-muted .fab {
+    font-size: 20px; /* Adjust the font size of the icons */
+    margin-right: 10px; /* Add spacing between icons */
+  }
+  

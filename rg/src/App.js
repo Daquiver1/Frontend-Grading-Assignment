@@ -21,23 +21,7 @@ function App() {
               </p>
             </Col>
           </Row>
-          <Row className="mt-4">
-            <Col md={4} className="text-center">
-              <Button variant="primary" size="lg" href="/view-grades">
-                View Grades
-              </Button>
-            </Col>
-            <Col md={4} className="text-center">
-              <Button variant="success" size="lg" href="/report-missing-grades">
-                Report Missing Grades
-              </Button>
-            </Col>
-            <Col md={4} className="text-center">
-              <Button variant="info" size="lg" href="/contact-us">
-                Contact Us
-              </Button>
-            </Col>
-          </Row>
+          
         </Container>
       </header>
     </div>

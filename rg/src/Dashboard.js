@@ -10,9 +10,9 @@ const Dashboard = () => {
     { course: 'MATH 122', grade: 'A', semester: 'Second 2022', creditHours: 3 },
     { course: 'MATH 126', grade: 'A', semester: 'Second 2022', creditHours: 3 },
     { course: 'STAT 112', grade: 'A', semester: 'Second 2022', creditHours: 3 },
-    { course: 'UGRC 110', grade: 'N/A', semester: 'Second 2022', creditHours: 3 },
+    { course: 'UGRC 110', grade: 'B+', semester: 'Second 2022', creditHours: 3 },
     { course: 'DCIT 201', grade: 'A', semester: 'First 2023' , creditHours: 3},
-    { course: 'DCIT 203', grade: 'N/A', semester: 'First 2023', creditHours: 3 },
+    { course: 'DCIT 203', grade: 'A', semester: 'First 2023', creditHours: 3 },
     { course: 'DCIT 205', grade: 'A', semester: 'First 2023' , creditHours: 3},
     { course: 'DCIT 207', grade: 'B', semester: 'First 2023', creditHours: 3 },
     { course: 'MATH 223', grade: 'A', semester: 'First 2023', creditHours: 3 },
@@ -64,7 +64,7 @@ const Dashboard = () => {
         <h2>Alerts</h2>
         {missingGrades.length > 0 ? (
           <div className="alert alert-warning" role="alert">
-            <p>You have missing grades for the following courses:</p>
+            <p>Check your grades and mske sure everythin is intact:</p>
             <ul>
               {missingGrades.map((missingGrade, index) => (
                 <li key={index}>{missingGrade.course}</li>
@@ -73,7 +73,7 @@ const Dashboard = () => {
           </div>
         ) : (
           <div  className="alert alert-success" role="alert">
-            <p>No missing grades. Good job!</p>
+            <p>Congratulations No missing Grade</p>
           </div>
         )}
       </div>
