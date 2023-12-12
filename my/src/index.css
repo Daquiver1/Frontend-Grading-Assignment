@@ -1,0 +1,129 @@
+/* App.css */
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Login form styles */
+input {
+  margin-bottom: 10px;
+  padding: 8px;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Welcome message and alert styles */
+h2 {
+  color: #333;
+}
+
+/* Navigation styles */
+nav {
+  margin-top: 20px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+/* Content section styles */
+div {
+  display: center;
+  margin: 10px;
+}
+
+/* Grade report styles */
+ul {
+  list-style: none;
+  padding: 0;
+  
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+/* Missing grade alert styles */
+div[style="color: red;"] {
+  margin-bottom: 20px;
+}
+/* styles.css */
+
+/* Style for navigation links */
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #0077cc; /* Change this color to your preferred color */
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #004466; /* Change this color to your preferred hover color */
+}
+.home{
+  display: flex;
+  height: 80%;
+  align-items: center;
+}
+body {
+  display: flex;
+  background-color: rgb(114, 135, 135);
+}
+
+.card {
+  width: 200px;
+  height: 220px;
+  display: inline-block;
+  margin: 10px 15px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
+}
+
+.card1 {
+background-image: url(Assets/img\ 4.png);/* Corrected image path and added quotes */
+}
+
+.card2 {
+ background-image: url(Assets/Pic3.jpg);
+}
+
+.card3 {
+  background-image: url(Assets/pic2.jpg)
+}
+
+.card4 {
+  background-image: url(Assets/Pic1.jpg)
+}
+.red-text {
+  color: red;
+}
