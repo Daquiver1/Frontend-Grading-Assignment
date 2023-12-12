@@ -1,5 +1,7 @@
 import React from "react";
-import AboutBackground from "../Assets/pic.jpg";
+import AboutBackground from "../Assets/pic.jpg";  
+import { Link } from 'react-router-dom';
+
 
 
 const About = () => {
@@ -18,9 +20,9 @@ Missing Grade Report System        </h1>
             Use the button below to log into your Student Account 
         </p>
         <div className="about-buttons-container">
-        <a href="./">
-          <button className="secondary-button">Log In</button>
-          </a>
+      <Link to="/login">
+      <button className="secondary-button">Log In</button>
+      </ Link>
         </div>
       </div>
     </div>
