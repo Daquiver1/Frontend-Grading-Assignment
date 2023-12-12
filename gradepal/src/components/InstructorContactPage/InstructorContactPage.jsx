@@ -5,26 +5,26 @@ import "./InstructorContactPage.css"; // Css file
 const InstructorContactPage = () => {
   const instructorsData = [
     {
-      name: "Dr. John Doe",
-      email: "john.doe@example.com",
+      name: "Dr. Grace Anang",
+      email: "Graceanang@outlook.com",
       avatar: "female_lecturer2.jpeg",
     },
     {
-      name: "Prof. Jane Smith",
-      email: "jane.smith@example.com",
+      name: "Prof. Jane Quaye",
+      email: "QuayeJJJ@gmail.com",
       avatar: "lecturer_female10.jpeg",
     },
   ];
 
   const instructorsData1 = [
     {
-      name: "Prof. Rejina Daniels",
-      email: "Reji.Daniels@gmail.com",
+      name: "Prof. Dzifa Matrevi",
+      email: "DziDziMad@gmail.com",
       avatar: "female_lecturer2.jpeg",
     },
     {
-      name: "Prof. Ernest Barns",
-      email: "Ernest.Barns@outlook.com",
+      name: "Prof. Ernest Kwakye",
+      email: "Ernest3232@outlook.com",
       avatar: "lecturer9.jpeg",
     },
   ];

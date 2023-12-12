@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./loginpage.css"; // Local style import
+import "./loginpage.css"; // Css file
 
 const LoginPage = ({ setAuthenticated }) => {
   // State variables

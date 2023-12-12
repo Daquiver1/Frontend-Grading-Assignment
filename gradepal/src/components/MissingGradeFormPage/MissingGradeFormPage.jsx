@@ -1,6 +1,5 @@
-// src/components/missingGradeFormPage/MissingGradeFormPage.js
 import React, { useState } from "react";
-import "./MissingGradeFormPage.css"; // Create this file for styling
+import "./MissingGradeFormPage.css"; // Css file
 
 const MissingGradeFormPage = () => {
   const [courseName, setCourseName] = useState("");
@@ -11,12 +10,11 @@ const MissingGradeFormPage = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    // Simulate form submission (Replace with actual submission logic)
+    // Simulate form submission
     const formData = { courseName, instructorName, expectedGrade, explanation };
     console.log("Form submitted:", formData);
     alert("Missing Grade reported successfully!"); // Display confirmation alert
 
-    // Optionally, you can add logic to clear the form fields after submission
     setCourseName("");
     setInstructorName("");
     setExpectedGrade("");
