@@ -7,6 +7,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import * as ReactBootStrap from "react-bootstrap";
 import { BrowserRouter as Router, Routes, Route , Switch, Link , Redirect  } from 'react-router-dom';
 import Login from './Pages/Login';
+import Support from './Pages/Support';
 import Dashboard from './Pages/Dashboard';
 
 
@@ -25,6 +26,7 @@ root.render(
   <Route path='/Pages/Login' element={<Login />}>
     
   </Route>
+  <Route path='/Pages/Support' element={<Support />}></Route>
   <Route path='/Pages/Dashboard' element={<Dashboard />}></Route>
  </Routes>
  </Router>

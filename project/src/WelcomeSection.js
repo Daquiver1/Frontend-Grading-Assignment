@@ -1,6 +1,7 @@
 import React from 'react';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
+import * as ReactBootStrap from "react-bootstrap";
 import './WelcomeSection.css';
 
 const WelcomeSection = () => {
@@ -41,7 +42,7 @@ const WelcomeSection = () => {
                         <Card.Text>
                         Check out our FAQs or contact our support team for personalized assistance
                         </Card.Text>
-                        <Button variant="primary">Contact us</Button>
+                        <ReactBootStrap.Nav.Link href="/Pages/Support">  <Button variant="primary">Contact us</Button></ReactBootStrap.Nav.Link>
                     </Card.Body>
                 </Card>
            

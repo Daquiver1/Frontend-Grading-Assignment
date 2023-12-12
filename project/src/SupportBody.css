@@ -1,0 +1,43 @@
+.page-banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    height: 180px;
+    background-image: url('D:\L2S1\DCIT205_Assignment1\11340703_DCIT205_Assignment1\project\public\support-page-banner.jpeg');
+}
+.banner-text{
+    text-align: center;
+    font-size: 70px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: bold;
+
+}
+.cards-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.help-desk{
+    position: relative;
+    top: 50px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.icon{
+    font-size: 90px;
+    text-align: center;
+}
+.accordion-container{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    width: 1000px;
+}
+.accord-holder{
+    text-align: center;
+    width: 700px;
+}

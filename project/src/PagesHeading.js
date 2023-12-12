@@ -32,7 +32,7 @@ const PagesHeading = () => {
           </ReactBootStrap.Nav>
           <ReactBootStrap.Nav>
             <ReactBootStrap.Nav.Link href="/Pages/Login">Login</ReactBootStrap.Nav.Link>
-            <ReactBootStrap.Nav.Link eventKey={2} href="#memes">
+            <ReactBootStrap.Nav.Link eventKey={2} href="/Pages/Support">
               Support
             </ReactBootStrap.Nav.Link>
           </ReactBootStrap.Nav>

@@ -1,20 +1,22 @@
-import React from "react";
+import React from 'react'
 import * as ReactBootStrap from "react-bootstrap";
-import './DashNav.css';
+import './PagesHeader.css'
 
-const DashNav = () =>{
-    return(
-        <div className="NavContainer">
-            <div className="DashNavContainer">
-            <ReactBootStrap.Navbar collapseOnSelect expand="xl" className="bg-body-tertiary">
+
+
+const PagesHeader = () => {
+    return(  
+            <div className='parent-container-pages'>
+            <div className='content-wrap'> 
+                <ReactBootStrap.Navbar collapseOnSelect expand="xl" className="bg-body-tertiary">
                 <ReactBootStrap.Container>
                 <ReactBootStrap.Navbar.Brand href="#home">Student Self Service</ReactBootStrap.Navbar.Brand>
                 <ReactBootStrap.Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <ReactBootStrap.Navbar.Collapse id="responsive-navbar-nav">
                     <ReactBootStrap.Nav className="me-auto">
-                    <ReactBootStrap.Nav.Link href="#features">Home</ReactBootStrap.Nav.Link>
-                    <ReactBootStrap.Nav.Link href="#pricing">Pricing</ReactBootStrap.Nav.Link> 
-                  {/*  <ReactBootStrap.NavDropdown title="Dashboard" id="collasible-nav-dropdown">
+                   {/*} <ReactBootStrap.Nav.Link href="#features">Features</ReactBootStrap.Nav.Link>
+                    <ReactBootStrap.Nav.Link href="#pricing">Pricing</ReactBootStrap.Nav.Link> */}
+                    <ReactBootStrap.NavDropdown title="Dashboard" id="collasible-nav-dropdown">
                         <ReactBootStrap.NavDropdown.Item href="#action/3.1">Grade report</ReactBootStrap.NavDropdown.Item>
                         <ReactBootStrap.NavDropdown.Item href="#action/3.2">
                         Missing grade form
@@ -24,10 +26,10 @@ const DashNav = () =>{
                         <ReactBootStrap.NavDropdown.Item href="#action/3.4">
                         Separated link
                         </ReactBootStrap.NavDropdown.Item>
-    </ReactBootStrap.NavDropdown> */}
+                    </ReactBootStrap.NavDropdown>
                     </ReactBootStrap.Nav>
                     <ReactBootStrap.Nav>
-                    <ReactBootStrap.Nav.Link href="">Logout</ReactBootStrap.Nav.Link>
+                    <ReactBootStrap.Nav.Link href="/Pages/Login">Login</ReactBootStrap.Nav.Link>
                     <ReactBootStrap.Nav.Link eventKey={2} href="/Pages/Support">
                         Support
                     </ReactBootStrap.Nav.Link>
@@ -36,9 +38,10 @@ const DashNav = () =>{
                 </ReactBootStrap.Container>
             </ReactBootStrap.Navbar>
         
-    </div>
-    </div>
+                    </div>
+                    </div>
     )
 }
 
-export default DashNav;
+
+export default PagesHeader;

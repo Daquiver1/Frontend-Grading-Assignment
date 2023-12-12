@@ -5,5 +5,8 @@
     min-height: 100vh;
 }
 .DashNavContainer{
-    flex: 0 0 auto;
+    flex: 1;
 }
+
+  
+  

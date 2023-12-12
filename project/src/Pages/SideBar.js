@@ -1,7 +1,7 @@
 import React from 'react'
 import './Sidebar.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
-//import 'bootstrap-icons/font/bootstrap-icons.css';
+import 'bootstrap-icons/font/bootstrap-icons.css'
 
 
 
@@ -15,7 +15,7 @@ const SideBar = () => {
             <hr className='text-dark' />
             <div className='list-group list-group-flush'>
                 <a className='list-group-item py-2'>
-                    <i className='bi bi-speedometer2 fs-5 me-3'></i>
+                <i className='bi bi-speedometer2 fs-5 me-3'></i>
                     <span className='fs-5'>Dashboard</span>
                 </a>
                 <a className='list-group-item py-2'>
@@ -24,15 +24,15 @@ const SideBar = () => {
                 </a>
                 <a className='list-group-item py-2'>
                     <i className='bi bi-table fs-5 me-3'></i>
-                    <span className='fs-5'>Products</span>
+                    <span className='fs-5'>Grade Records</span>
                 </a>
                 <a className='list-group-item py-2'>
                     <i className='bi bi-clipboard-data fs-5 me-3'></i>
-                    <span className='fs-5' >Report</span>
+                    <span className='fs-5' >Report Missing Grade</span>
                 </a>
                 <a className='list-group-item py-2'>
                     <i className='bi bi-people fs-5 me-3'></i>
-                    <span className='fs-5'>Customers</span>
+                    <span className='fs-5'>Contact your Instructor</span>
                 </a>
                 <a className='list-group-item py-2'>
                     <i className='bi bi-power fs-5 me-3'></i>
