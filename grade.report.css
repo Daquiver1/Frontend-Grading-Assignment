@@ -1,0 +1,22 @@
+.grade-report-page {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.filter-container {
+  margin-bottom: 20px;
+}
+
+.courses-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.course {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  width: 200px;
+}

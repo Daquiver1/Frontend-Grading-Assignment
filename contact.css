@@ -1,0 +1,57 @@
+.instructor-contact-page {
+  display: flex;
+}
+
+.instructor-list {
+  flex: 1;
+  padding: 20px;
+}
+
+.instructor-list h2 {
+  font-size: 1.5rem;
+}
+
+.instructor-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.instructor-list li {
+  cursor: pointer;
+  padding: 10px;
+  margin: 5px;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+}
+
+.email-form {
+  flex: 1;
+  padding: 20px;
+}
+
+.email-form h2 {
+  font-size: 1.5rem;
+}
+
+.email-form p {
+  margin-bottom: 10px;
+}
+
+.email-form textarea {
+  width: 100%;
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+.email-form button {
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.email-form button:hover {
+  background-color: #0056b3;
+}
