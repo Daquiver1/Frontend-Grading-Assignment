@@ -11,7 +11,7 @@ function About() {
       <Hero
         cName="hero-abt"
         heroImg={AboutImg}
-        title="Grades"
+        title="Grades "
         url="/"
         btnClass="hide"
       />
