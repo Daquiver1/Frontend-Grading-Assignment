@@ -125,12 +125,12 @@ const instructors = [
   {
     id: 1,
     name: 'Instructor 1',
-    email: 'instructor1@example.com',
+    email: 'rascotty@gmail.com',
   },
   {
     id: 2,
     name: 'Instructor 2',
-    email: 'instructor2@example.com',
+    email: 'danquiver@gmail.com.com',
   },
   // Add more instructors as needed
 ];
@@ -308,6 +308,7 @@ const App = () => {
               </li>
             </ul>
           </nav>
+          <p>Choose instructor you want to Contact</p>
 
           {showGradeReport && <GradeReport grades={grades} filter={filter} setFilter={setFilter} />}
           {showMissingGradeForm && <MissingGradeForm onClose={handleCloseForm} />}
