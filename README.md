@@ -1,51 +1,78 @@
-# Student Grade Reporting System Frontend
+Name: Akowuah Stephen 
+Student ID: 11343024
 
-## Project Overview
+Missing Grade Reporting System Documentation
+Table of Contents
+Introduction
+Getting Started
+Installation
+Dependencies
+User Guide
+Login
+Dashboard
+Grade Report
+Report Missing Grade
+Instructor Contact
+Help & Support
+About the System
+Technical Details
+Technologies Used
+Folder Structure
+Contact Information
 
-This project is a front-end web application for a Student Grade Reporting System. It simulates a real-world application where students can view, report, and manage their academic grades. This system addresses the issue of missing or unrecorded grades in a student's profile.
+1. Introduction
+Welcome to the Missing Grade Reporting System! This platform is designed to facilitate the reporting of missing grades by students, fostering a transparent and efficient communication channel between students and instructors. The system aims to streamline the process of reporting and resolving missing grades, ensuring a smooth academic experience for all users.
 
-## Application Structure
+2. Getting Started
+Installation
+To use the Missing Grade Reporting System, follow these steps:
 
-The application consists of 7 main pages:
+Clone the repository: git clone [https://github.com/Collin-98/11343024_DCIT205_Assignment1.git]
+Install dependencies: npm install
+Start the application: npm start
+Dependencies
+React
+React Router
 
-- **Homepage:** Introduction to the system and its purpose.
-- **Login Page:** Mock login interface for student authentication.
-- **Dashboard:** Displays an overview of the student’s current grades and alerts for missing grades.
-- **Grade Report:** Shows a detailed view of the student's grades filtered by semester or academic year.
-- **Missing Grade Form:** Enables students to report missing grades.
-- **Instructor Contact Page:** Lists instructors' contact information with a simulated email feature.
-- **Help and Support:** Provides FAQs and a mock support contact form.
 
-## Technical Details
+3. User Guide
+Login
+Navigate to the login page and enter your credentials to access the system.
 
-- **Framework/Technology Used:** [React]
-- **Responsive Design:** Implemented using [CSS Flexbox/Grid, Bootstrap, Tailwind CSS].
-- **JavaScript Functionality:** Used for form validations, dynamic content rendering, and simulating interactions.
+Dashboard
+View an overview of your academic performance, including grades and missing grade reports.
 
-## Setup and Installation
+Grade Report
+Access a detailed report of your grades for each course.
 
-To set up the project locally, follow these steps:
+Report Missing Grade
+Submit a missing grade report by providing relevant details and documentation.
 
-```bash
-git clone https://github.com/your-github-username/DCIT_205_ASSIGNGMENT1.git
-cd repo-name
-npm install
-npm start
-```
+Instructor Contact
+Find contact information for your instructors in case of further queries.
 
-This will start the application on `localhost` at the default port.
+Help & Support
+Access resources for assistance and support in using the system.
 
-## Usage
+4. About the System
+The Missing Grade Reporting System aims to enhance communication and accountability within academic settings. Features include real-time status updates, a user-friendly dashboard, and secure login.
 
-Describe how to use the application, highlighting key functionalities such as logging in, viewing grades, reporting missing grades, and contacting instructors.
+5. Technical Details
+Technologies Used
+React.js
+React Router
+[List other technologies]
+Folder Structure
+src/
+components/ - React components
+images/ - Image assets
+styles/ - CSS modules
+App.js - Main application component
+index.js - Entry point
 
-## Contribution
+6. Contact Information
+For any inquiries or support, please reach out to:
 
-To contribute to this project, please follow these guidelines:
-
-1. Fork the repository.
-2. Create a new branch for your feature.
-3. Commit your changes and push them to your branch.
-4. Submit a pull request for review.
-
-Please adhere to the project's coding standards and provide clear and detailed pull request descriptions.
+Email: ugcomp@ug.com
+Phone: +233 (0) 305-789-540
+Address: Legon, Accra, 0233
