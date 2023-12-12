@@ -1,7 +1,10 @@
 import React, { useState, useEffect } from 'react';
-import UserInfo from '../User-Info/userInfo'; 
 import './dashboardPage.css';
-import NavBar from '../Nav-Bar/navBar';
+
+import UserInfo from '../User-Info/userInfo'; 
+import DashboardNavBar from './dashboardNavBar.jsx';
+import Footer from '../Footer/footer';
+
 
 const Dashboard = () => {
   const [grades, setGrades] = useState([]); 
@@ -39,7 +42,7 @@ const Dashboard = () => {
 
   return (
     <div>
-      <NavBar />
+      <DashboardNavBar />
       <UserInfo
         studentName={userData.studentName}
         programOffering={userData.programOffering}
@@ -51,6 +54,7 @@ const Dashboard = () => {
       <div className="dashboard-container">
       <h1><u>Grades Dashboard</u></h1>
 
+    <section id='level100-section'>
       <div>
         <h3>Academic Year: 2022/2023</h3>
       </div>
@@ -58,7 +62,7 @@ const Dashboard = () => {
       <div className='level100-div'>
         <div>
         <h4>Semester 1</h4>
-        <table cellSpacing={20}>
+        <table className="semester-table" cellSpacing={20}>
           <tr>
             <th>Course Code</th>
             <th>Course Name</th>
@@ -68,7 +72,7 @@ const Dashboard = () => {
             <tr key={index} className={grade.grade === 'N/A' ? 'blinking-red' : ''}>
             <td>{grade.course}</td>
             <td>{grade.courseName}</td>
-            <td>{grade.grade}</td>
+            <td>{grade.grade === 'N/A' ? <span className="missing-grade">N/A</span> : grade.grade}</td>
           </tr>
           ))}
           <tr>
@@ -106,7 +110,7 @@ const Dashboard = () => {
       <div>
       <div>
         <h4>Semester 2</h4>
-        <table cellSpacing={20}>
+        <table className="semester-table" cellSpacing={20}>
           <tr>
             <th>Course Code</th>
             <th>Course Name</th>
@@ -146,8 +150,10 @@ const Dashboard = () => {
       </div>
       </div>
       </div>
-
-      <div>
+    </section>
+      
+    <section id='level200-section'>
+      <div className='level200-maindiv'>
         <h3>Academic Year: 2023/2024</h3>
       </div>
 
@@ -205,38 +211,48 @@ const Dashboard = () => {
           <tr>
             <td>DCIT 202</td>
             <td>Mobile Application Development</td>
-            <td>Exam N/A</td>
+            <td>___</td>
           </tr>
           <tr>
             <td>DCIT 204 </td>
             <td>Data Structures & Algorithms</td>
-            <td>Exam N/A</td>
+            <td>___</td>
           </tr>
           <tr>
             <td>DCIT 206</td>
             <td>Systems Administration</td>
-            <td>Exam N/A</td>
+            <td>___</td>
           </tr>
           <tr>
             <td>DCIT 208</td>
             <td>Software Engineering</td>
-            <td>Exam N/A</td>
+            <td>___</td>
           </tr>
           <tr>
             <td>DCIT 214</td>
             <td>Information Modelling & Specification</td>
-            <td>Exam N/A</td>
+            <td>___</td>
           </tr>
           <tr>
             <td>UGRC 220</td>
             <td>Introduction to African Studies</td>
-            <td>Exam N/A</td>
+            <td>___</td>
           </tr>
         </table>
       </div>
       </div>
       </div>
+    </section>
+
+    <hr />
+    <section>
+      <div>
+
       </div>
+    </section>
+      
+      </div>
+      <Footer />
     </div>
       
 
