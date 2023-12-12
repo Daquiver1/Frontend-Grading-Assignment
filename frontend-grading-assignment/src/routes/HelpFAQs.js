@@ -17,7 +17,7 @@ function HelpFAQs() {
         heroImg={FAQImg}
         title="Help and FAQs"
         url="/"
-        btnClass="hide"
+        btnClass="hide "
       />
       <section className=" max-w-xl mx-auto  py-20 px-4 ">
         <h1 className="text-center uppercase tracking-widest font-bold mb-8">
