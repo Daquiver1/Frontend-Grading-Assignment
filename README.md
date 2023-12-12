@@ -39,7 +39,7 @@ This will start the application on `localhost` at the default port.
 
 ## Login Page
 
-![Login ](screenshots/loginpage.PNG.PNG)
+![Login ](screenshots/loginpage.PNG)
 
 ## Landing Page
 
@@ -51,8 +51,7 @@ This will start the application on `localhost` at the default port.
 
 ## Dashboard
 
-![Dashboard](screenshots/about.PNG)
-![Get to Know Us](screenshots/gettoknowus.PNG)
+![Dashboard](screenshots/dashboard.PNG.PNG)
 
 ## Grades Overview Page
 
