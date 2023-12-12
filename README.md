@@ -35,6 +35,46 @@ npm start
 
 This will start the application on `localhost` at the default port.
 
+# Website Preview
+
+## Login Page
+
+![Login ](screenshots/loginpage.PNG.PNG)
+
+## Landing Page
+
+![Landing Page](screenshots/landingpage.PNG)
+
+## Home Page
+
+![Home](screenshots/homepage.PNG)
+
+## Dashboard
+
+![Dashboard](screenshots/about.PNG)
+![Get to Know Us](screenshots/gettoknowus.PNG)
+
+## Grades Overview Page
+
+![Grades Overview](screenshots/gradespage.PNG)
+
+## Report Missing Grades Page
+
+![Reports](screenshots/MisssingGradesPage.PNG)
+
+## Instructors Page
+
+![Events](screenshots/Instructors.PNG)
+
+## FAQ and Help Page
+
+![FAQ](screenshots/FAQPage.PNG)
+
+## Mobile Version
+
+![Home](screenshots/responsive2.PNG)
+![Reports](screenshots/responsive.PNG)
+
 ## Usage
 
 Describe how to use the application, highlighting key functionalities such as logging in, viewing grades, reporting missing grades, and contacting instructors.
@@ -49,3 +89,9 @@ To contribute to this project, please follow these guidelines:
 4. Submit a pull request for review
 
 Please adhere to the project's coding standards and provide clear and detailed pull request descriptions.
+
+## Creator 🧑‍💻
+
+- **Name:** Bernard Asiedu Owusu-Dankwah
+- **Student ID:** 11024002
+- **GitHub:** https://github.com/bennydan7
