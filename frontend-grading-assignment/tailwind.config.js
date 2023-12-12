@@ -5,5 +5,7 @@ module.exports = {
     "./src/routes/HelpFAQs.js",
     "./src/components/FAQ/FAQ.js",
     "./src/components/Grades/Grades.js",
+    "./src/components/Instructors/Tutors.js",
+    "./src/routes/Login.js",
   ],
 };
