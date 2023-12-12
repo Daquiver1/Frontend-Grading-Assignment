@@ -5,6 +5,7 @@ export const GradesData = [
     instructor: "Mr. Sobe Senyo",
     instructorEmail: "ssenyou@academiawave.edu.com",
     grade: "B+",
+    timeUploaded: "6d",
   },
   {
     courseTitle: "",
@@ -12,6 +13,7 @@ export const GradesData = [
     instructor: "Mr. Kweku Mensah",
     instructorEmail: "kmensah@academiawave.edu.com",
     grade: "B",
+    timeUploaded: "1w",
   },
   {
     courseTitle: "",
@@ -19,6 +21,7 @@ export const GradesData = [
     instructor: "Dr. Mensah Sarbah",
     instructorEmail: "msarbah@academiawave.edu.com",
     grade: "N/A",
+    timeUploaded: "4d",
   },
   {
     courseTitle: "",
@@ -26,6 +29,7 @@ export const GradesData = [
     instructor: "Dr. Michael Soli",
     instructorEmail: "msoli@academiawave.edu.com",
     grade: "N/A",
+    timeUploaded: "2d",
   },
   {
     courseTitle: "",
@@ -33,6 +37,7 @@ export const GradesData = [
     instructor: "Dr. John Ansah",
     instructorEmail: "jansah@academiawave.edu.com",
     grade: "A",
+    timeUploaded: "3d",
   },
   {
     courseTitle: "",
@@ -40,6 +45,7 @@ export const GradesData = [
     instructor: "Dr. Eugene Adjei",
     instructorEmail: "eadjei@academiawave.edu.com",
     grade: "N/A",
+    timeUploaded: "3h",
   },
   {
     courseTitle: "",
@@ -47,6 +53,7 @@ export const GradesData = [
     instructor: "Mr. Kasim Smith",
     instructorEmail: "ksmith@academiawave.edu.com",
     grade: "A",
+    timeUploaded: "1h",
   },
   {
     courseTitle: "",
@@ -54,6 +61,7 @@ export const GradesData = [
     instructor: "Dr. Erwin Schrowdinger",
     instructorEmail: "eschrowdinger@academiawave.edu.com",
     grade: "B+",
+    timeUploaded: "4h",
   },
   {
     courseTitle: "",
@@ -61,5 +69,6 @@ export const GradesData = [
     instructor: "Mr. Samuel Minge",
     instructorEmail: "smingeu@academiawave.edu.com",
     grade: "B",
+    timeUploaded: "3w",
   },
 ];

@@ -1,7 +1,7 @@
-import Image1 from "../assets/1.jpg";
-import Image2 from "../assets/2.jpg";
-import Image3 from "../assets/3.jpg";
-import Image4 from "../assets/4.jpg";
+import Image1 from "../../assets/1.jpg";
+import Image2 from "../../assets/15.jpg";
+import Image3 from "../../assets/8.jpg";
+import Image4 from "../../assets/4.jpg";
 import DestinationData from "./SchoolInfo";
 import "./SchoolInfo.css";
 
@@ -9,7 +9,7 @@ const Destination = () => {
   return (
     <div className="destination">
       <h1>
-        Academia Wave: <br /> Your Gateway to Academic Success
+        Academia Wave: <br /> Your Wave to Academic Success
       </h1>
       <p>
         Welcome to Academia Wave, a cutting-edge platform dedicated to
@@ -28,8 +28,8 @@ const Destination = () => {
       />
       <DestinationData
         className="first-des-reverse"
-        heading="Paris  Babbbbyy🥰🥰🥰!!"
-        text="One of thee most Iconic Lorem Ipsum Dor"
+        heading="Ride the Wave!!🌊🌊"
+        text="Join Academia Wave Now!! "
         img1={Image3}
         img2={Image4}
       />

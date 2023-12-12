@@ -1,8 +1,8 @@
 import Footer from "../components/Footer/Footer";
 import Hero from "../components/Hero/Hero";
 import Navbar from "../components/Navigation/Navbar";
-import SchoolInfo from "../components/SchoolInfo";
-import Destination from "../components/destination";
+import SchoolInfo from "../components/SchoolInfo/SchoolInfo";
+import Destination from "../components/SchoolInfo/destination";
 
 function Home() {
   return (

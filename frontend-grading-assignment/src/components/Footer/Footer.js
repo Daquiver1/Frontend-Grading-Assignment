@@ -17,10 +17,10 @@ const Footer = () => {
             <i className="fa-brands fa-instagram-square"></i>
           </a>
           <a href="/">
-            <i className="fa-brands fa-behance-square"></i>
+            <i className="fa-brands fa-whatsapp-square"></i>
           </a>
           <a href="/">
-            <i className="fa-brands fa-linkeldn-square"></i>
+            <i className="fa-brands fa-linkedin"></i>
           </a>
         </div>
       </div>
@@ -31,7 +31,7 @@ const Footer = () => {
           <Link to="/about">Grades</Link>
           <Link to="/service">Reports</Link>
           <Link to="/contact">Instructors</Link>
-          <Link to="">FAQ</Link>
+          <Link to="/help">FAQ</Link>
         </div>
         <div>
           <h4>Community </h4>
@@ -41,7 +41,9 @@ const Footer = () => {
           <a href="/">All Version</a>
         </div>
         <div>
-          <h4> Help and FAQ </h4>
+          <Link to="/help">
+            <h4> Help and FAQ </h4>
+          </Link>
           <a href="/">Change Log</a>
           <a href="/">Status</a>
           <a href="/">License</a>

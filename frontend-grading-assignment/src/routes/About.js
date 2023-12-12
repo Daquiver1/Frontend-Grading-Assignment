@@ -1,6 +1,6 @@
 import Hero from "../components/Hero/Hero";
 import Navbar from "../components/Navigation/Navbar";
-import AboutImg from "../assets/3.jpg";
+import AboutImg from "../assets/6.jpg";
 import Footer from "../components/Footer/Footer";
 import Grades from "../components/Grades/Grades";
 

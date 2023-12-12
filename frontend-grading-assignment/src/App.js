@@ -8,6 +8,7 @@ import Contact from "./routes/Contact";
 import Login from "./routes/Login";
 import { Component, useState } from "react";
 import Dashboard from "./components/Dashboard/Dashboard";
+import HelpFAQs from "./routes/HelpFAQs";
 
 function App() {
   // Using the useState hook to manage the route state
@@ -17,12 +18,13 @@ function App() {
     <div className="App">
       {/* Conditional rendering based on the 'route' state */}
       <Routes>
-        <Route path="/Dashboard" element={<Dashboard />} />
         <Route path="/" element={<Login />} />
+        <Route path="/Dashboard" element={<Dashboard />} />
         <Route path="/home" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/service" element={<Service />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/help" element={<HelpFAQs />} />
       </Routes>
     </div>
   );
