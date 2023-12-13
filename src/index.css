@@ -9,3 +9,6 @@ body{
   box-shadow: 1000px;
 }
 
+#route{
+  display: none;
+}
