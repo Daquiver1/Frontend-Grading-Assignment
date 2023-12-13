@@ -1,0 +1,116 @@
+.dashboard-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.heading {
+  font-size: 24px;
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+.overview {
+  font-size: 18px;
+  color: #7f8c8d;
+  margin-bottom: 30px;
+}
+
+.grades-section,
+.alerts-section {
+  margin-top: 40px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.grades-section h3,
+.alerts-section h3 {
+  font-size: 20px;
+  color: #153d6f ;
+  margin-bottom: 31px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 15px;
+  font-size: 16px;
+  color: #34495e;
+}
+
+.grade-section table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.grade-section th,
+.grade-section td {
+  border: 1px solid #bdc3c7;
+  padding: 10px;
+  text-align: left;
+}
+
+/* Media query for small screens */
+@media only screen and (max-width: 600px) {
+  .dashboard-container {
+    padding: 10px;
+  }
+
+  .heading {
+    font-size: 20px;
+  }
+
+  .overview {
+    font-size: 16px;
+  }
+
+  .grades-section,
+  .alerts-section {
+    margin-top: 20px;
+    margin-bottom: 25px;
+  }
+
+  .grades-section h3,
+  .alerts-section h3 {
+    font-size: 18px;
+  }
+
+  ul li {
+    font-size: 14px;
+  }
+}
+
+/* Media query for medium screens */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  .dashboard-container {
+    max-width: 600px;
+  }
+
+  .heading {
+    font-size: 22px;
+  }
+
+  .overview {
+    font-size: 17px;
+  }
+
+  .grades-section,
+  .alerts-section {
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+
+  .grades-section h3,
+  .alerts-section h3 {
+    font-size: 19px;
+  }
+
+  ul li {
+    font-size: 15px;
+  }
+}
