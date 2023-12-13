@@ -1,20 +1,7 @@
 import React from "react";
-import SelectPageSize from "./SelectPageSize";
+import SelectPageSize from "../src/layouts/SelectPageSize";
 
-interface Props {
-  pageSize: number;
-  pageIndex: number;
-  pageOptions: any;
-  canNextPage: boolean;
-  canPreviousPage: boolean;
-  pageCount: number;
-  setPageSize: Function;
-  gotoPage: (page: number) => void;
-  previousPage: Function;
-  nextPage: Function;
-}
-
-const PaginationBar: React.FC<Props> = (props) => {
+const PaginationBar = (props) => {
   const {
     pageSize,
     setPageSize,
@@ -29,7 +16,7 @@ const PaginationBar: React.FC<Props> = (props) => {
   } = props;
 
   return (
-    <div className="hidden sm:flex sm:space-x-10   sm:items-center">
+    <div className="hidden sm:flex sm:space-x-10 sm:items-center">
       <SelectPageSize pageSize={pageSize} setPageSize={setPageSize} />
 
       <p className="text-sm text-gray-700 my-0">

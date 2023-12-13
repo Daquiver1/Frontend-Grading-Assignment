@@ -4,14 +4,14 @@ import aziz from "../assets/images/aziz.jpeg";
 
 const people = [
   {
-    name: "Mr. M Soli",
+    name: "Mr. Micheal Soli",
     role: "Lecturer",
     imageUrl: soli,
     twitterUrl: "#",
     linkedinUrl: "#",
   },
   {
-    name: "Aziz Movno",
+    name: "Mr. Aziz Abdullai Dwumfour",
     role: "Lecturer",
     imageUrl: aziz,
     twitterUrl: "#",
@@ -35,8 +35,7 @@ export default function Example() {
             Meet our Instructors
           </h2>
           <p className="mt-4 text-lg leading-8 text-gray-600">
-            We’re a dynamic group of individuals who are passionate about what
-            we do.
+            We’re a your instructor role, here to assist you and to ensure you recieve the right guidance to excess.
           </p>
         </div>
         <ul

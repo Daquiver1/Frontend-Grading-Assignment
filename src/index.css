@@ -355,3 +355,9 @@ input {
   transform: scale(1);
   transition: 1.5s;
 }
+
+.main-heading{
+  font-size: 30px;
+  text-align: center;
+  color: #333;
+}

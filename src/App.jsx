@@ -6,6 +6,7 @@ import Instructors from "./pages/Instructor";
 import GradeReport from "./pages/GradeReport";
 import Dashboard from "./pages/Dashboard";
 import MissingGrade from "./pages/MissingGrade";
+import HelpSupport from "./pages/HelpSupport";
 
 const App = () => {
   return (
@@ -16,8 +17,9 @@ const App = () => {
           <Route path="/login" element={<LoginForm />} />
           <Route path="/instructors" element={<Instructors />} />
           <Route path="/grade-report" element={<GradeReport />} />
-          <Route path="/dashboard" element={<Dashboard />} />Z
-          <Route path="/missing-grade" element={<MissingGrade />} />Z
+          <Route path="/dashboard" element={<Dashboard />} />
+          <Route path="/missing-grade" element={<MissingGrade />} />
+          <Route path="/help" element={<HelpSupport />} />
         </Route>
       </Routes>
     </Router>

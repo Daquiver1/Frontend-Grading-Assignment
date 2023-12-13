@@ -47,6 +47,8 @@ const Dashboard = () => {
     },
   ];
 
+  
+
   return (
     <div>
       <div>
@@ -117,7 +119,7 @@ const Dashboard = () => {
         </dl>
       </div>
       <GradeReport />
-    </div>
+    </div> 
   );
 };
 

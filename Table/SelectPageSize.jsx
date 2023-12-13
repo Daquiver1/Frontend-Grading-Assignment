@@ -1,11 +1,6 @@
 import React from "react";
 
-interface Props {
-  pageSize: number;
-  setPageSize: Function;
-}
-
-const SelectPageSize: React.FC<Props> = ({ pageSize, setPageSize }) => {
+const SelectPageSize = ({ pageSize, setPageSize }) => {
   return (
     <div className="">
       <select
