@@ -1,5 +1,5 @@
 import "./Navbar.css"
-import logo from "../images/University_of_Ghana.png"
+
 
 
 const Navbar = () =>{
@@ -8,7 +8,7 @@ const Navbar = () =>{
             <div className="nav">
                 <nav className="navbar">
                     <div class="logoo">
-                        <img id="logo" src = {logo}  alt="a logo pic" />
+                        
                     </div>    
                         <ul class="nav-link">
                             <li class="nav-linkss"><a href="/"> Home</a></li>

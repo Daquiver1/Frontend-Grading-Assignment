@@ -1,5 +1,6 @@
-import Navbar from "../components/Navbar";
+
 import "./Home.css";
+
 
 
 
@@ -8,9 +9,11 @@ const Home = () => {
     return (
         
        <div>
-        <Navbar/>
-            <div  class="container">
+
+            <div  class="containers">
+
                 <div class="texbox">
+                    
                     
                 </div>
             </div>
