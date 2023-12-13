@@ -1,8 +1,12 @@
-import { render, screen } from '@testing-library/react';
-import App from './App';
 
-test('renders learn react link', () => {
-  render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
-});
+import { describe, it, expect } from 'vitest'
+import { render, screen } from '@testing-library/react'
+import Hero from "./src/pages/home/hero";
+
+describe('<App/>', () => {
+  it('greets the user', () => {
+    render(<Hero/>)
+    const button = screen.getByText("Learn more")
+    expect(button).toBeVisible()
+  })
+})
