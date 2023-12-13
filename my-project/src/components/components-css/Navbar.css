@@ -33,7 +33,7 @@ input{
   position: relative;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url('../components-images/dribbble.png');
+  background-image: url('../components-images/iconzz.png');
 }
 nav{
 display: flex;
@@ -97,7 +97,8 @@ transform: translate(-22%,-50%);
   color: #00b7ff;
 }
 .name .details{
-  color: #969696;
+  color: #000;
+  font-size: medium;
 }
 .name h1{
 font-family:'Montserrat';

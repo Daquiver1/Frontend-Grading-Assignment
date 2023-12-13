@@ -1,27 +1,74 @@
-.foot{
+.foot {
   max-width: 1240px;
   /* mx-auto py-16 px-4 grid lg ;grid-cols-3 gap-8 text-gray-300*/
 }
 
-.ft{
+.ft {
   font: bold;
-  /* w-full text 3xl text-{00df9a} */
+  width: 100%;
+  font-size: 1.875rem;
+  color: #00df9a;
+
 }
-.grade{
-  /* py-4 */
-  color: aliceblue;
+
+.grade {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  color: #000;
 }
-.icons{
+
+.icons {
   display: flex;
-  /* flex justify between md:w-[75%] my-6*/
+  display: flex;
+  justify-content: space-between;
+
+  @media only screen and (min-width: 768px) {
+    width: 75%;
+  }
+
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+
 }
-.footer-col{
- /* lg :col-span-2 flex justify-between*/
- font: italic;
- margin-top: 6;
+
+.footer-col {
+  /* lg :col-span-2 flex justify-between*/
+  grid-column: 2;
+  display: flex; 
+  justify-content: space-between;
+  font: italic;
+  margin-top: 6;
 }
-.list{
+
+.list {
   font: medium;
-  color: gray;
-  /* text-gray-400 */
+  color: #000;
+
+}
+.footer-col {
+  display: flex;
+  justify-content: space-between; /* Only applicable on large screens (>=1200px) */
+  @media only screen and (min-width: 1200px) {
+    grid-column: span 2 / span 2; /* Spans two columns in a grid system */
+  }
+}
+
+.footer-col .list {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-col .list h6 {
+  margin-bottom: 0.5rem; /* Equivalent to py-2 */
+  font-size: 0.875rem; /* Equivalent to text-sm */
+}
+
+.footer-col .list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-col .list li {
+  margin-bottom: 0.5rem;
+  font-size: 0.875rem; /* Equivalent to text-sm */
 }

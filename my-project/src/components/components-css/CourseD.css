@@ -1,0 +1,17 @@
+/* Course Detail styles */
+.course-detail {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.course-detail h2 {
+  margin-bottom: 10px;
+}
+
+.course-detail div {
+  margin-top: 10px;
+}

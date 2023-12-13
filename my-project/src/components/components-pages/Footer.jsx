@@ -1,13 +1,14 @@
 import React from "react";
+import "../components-css/Footer.css"
 import {
-       FaDribbleSquare,
+      //  FaDribbleSquare,
        FaFacebookSquare,
        FaGithubSquare,
        FaInstagramSquare,
        FaTwitterSquare,
 } from "react-icons/fa"
 
-const Footer = () => {
+function Footer ()  {
   return(
     <div className="foot">
          <div>
@@ -17,7 +18,7 @@ const Footer = () => {
          <div className="icons">
           <FaFacebookSquare size={30}/>
           <FaTwitterSquare size={30}/>
-          <FaDribbleSquare size={30}/>
+          {/* <FaDribbleSquare size={30}/> */}
           <FaGithubSquare size={30}/>
           <FaInstagramSquare size={30}/>
          </div>
@@ -50,7 +51,7 @@ const Footer = () => {
             <li>FAQ</li>
           </ul>
          </div>
-</div>
+            </div>
     </div>
   )
 }

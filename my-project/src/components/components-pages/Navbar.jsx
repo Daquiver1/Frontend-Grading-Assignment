@@ -28,7 +28,7 @@ function Navbar() {
             <li><a href="/" className="active">Home</a></li>
             <li><a href="/">Dashboard</a></li>
             <li><a href="/">Grade Report</a></li>
-            <li><a href="../components-pages/Login">Login</a></li>
+            <li><a href=".">Login</a></li>
             <li><a href="/">Missing Grade Form</a></li>
             <li><a href="/">Help and Support</a></li>
            </ul>

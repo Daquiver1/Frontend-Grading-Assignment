@@ -1,64 +1,71 @@
+import React, { useState } from "react";
 
-import React, { useState } from 'react';
-import "../components-css/MissingGrade.css"
-
-
-const MissingGradeForm = () => {
-  const [courseName, setCourseName] = useState('');
-  const [instructorName, setInstructorName] = useState('');
-  const [expectedGrade, setExpectedGrade] = useState('');
-  const [explanation, setExplanation] = useState('');
+function MissingGradeForm() {
+  const [courseName, setCourseName] = useState("");
+  const [instructorName, setInstructorName] = useState("");
+  const [expectedGrade, setExpectedGrade] = useState("");
+  const [explanation, setExplanation] = useState("");
 
   const handleSubmit = (event) => {
     event.preventDefault();
 
-    // Simulate submission and display confirmation message
-    alert('Your missing grade report has been submitted.');
+    // Implement logic for submitting the form data
+    // For now, just show a confirmation message
+    alert(
+      "Missing grade report submitted. You will be contacted soon."
+    );
+
+    // Clear form fields
+    setCourseName("");
+    setInstructorName("");
+    setExpectedGrade("");
+    setExplanation("");
   };
 
   return (
-    <div className="mis">
     <div className="missing-grade-form">
-      <h2>Missing Grade Form</h2>
+      <h2>Missing Grade Report</h2>
       <form onSubmit={handleSubmit}>
-        <label>Course Name:</label>
+        <label htmlFor="courseName">Course Name:</label>
         <input
           type="text"
-          name="courseName"
+          id="courseName"
           value={courseName}
           onChange={(event) => setCourseName(event.target.value)}
+          required
         />
-
-        <label>Instructor Name:</label>
+        <br />
+        <label htmlFor="instructorName">Instructor Name:</label>
         <input
           type="text"
-          name="instructorName"
+          id="instructorName"
           value={instructorName}
           onChange={(event) => setInstructorName(event.target.value)}
+          required
         />
-
-        <label>Expected Grade:</label>
+        <br />
+        <label htmlFor="expectedGrade">Expected Grade:</label>
         <input
           type="text"
-          name="expectedGrade"
+          id="expectedGrade"
           value={expectedGrade}
           onChange={(event) => setExpectedGrade(event.target.value)}
+          required
         />
-
-        <label>Explanation:</label>
+        <br />
+        <label htmlFor="explanation">Explanation:</label>
         <textarea
-          name="explanation"
-          rows={5}
+          id="explanation"
           value={explanation}
           onChange={(event) => setExplanation(event.target.value)}
+          required
         />
-
-        <button type="submit">Report Missing Grade</button>
+        <br />
+        <button type="submit">Submit</button>
       </form>
     </div>
-    </div>
   );
-};
+}
 
 export default MissingGradeForm;
 
