@@ -49,7 +49,7 @@ To contribute to this project, please follow these guidelines:
 ![Login](./loginpage.jpg)
 ![Dashboard](./dashboard.jpg)
 ![Dashboard](./dashboard2.jpg)
-![GradeReport](./gradereport)
+![GradeReport](./gradereport.jpg)
 ![MissingGrade](./missinggrade.jpg)
 ![Help](./help.jpg)
 
