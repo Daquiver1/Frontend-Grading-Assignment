@@ -15,7 +15,7 @@ const AppHome = () => {
             our system empowers teachers and administrators to enhance the educational experience.
           </p>
           <p>
-            <Button variant="primary" href="#learn-more" className="btn-center">
+            <Button variant="primary" href="login" className="btn-center">
               Learn more
             </Button>
           </p>
@@ -39,7 +39,7 @@ const AppHome = () => {
         <Col>
           <h2>Contact Us</h2>
           <p>
-            Have questions or need support? Contact our team at <a href="mailto:info@eduguard.com">amamontford1@eduguard.com</a>.
+            Have questions or need support? Contact our team at <a href="mailto:info@eduguard.com">eduguard@gmail.com</a>.
           </p>
         </Col>
       </Row>

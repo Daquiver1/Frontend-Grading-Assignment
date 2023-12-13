@@ -6,8 +6,8 @@ import './HelpAndSupportPage.css';
 const AppHelpAndSupportPage = () => {
   return (
     <>
-     <div style={{ backgroundColor: 'rgba(52, 72, 68, 0.78)', padding: '20px' }}>
-    <h3>Frequently Asked Questions</h3>
+     <div style={{ padding: '20px' }}>
+    <h3 className='heading'>Frequently Asked Questions</h3>
       <div className="list-group w-100">
         <a
           href="#faq1collapse"
