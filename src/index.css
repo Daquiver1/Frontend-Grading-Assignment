@@ -32,7 +32,21 @@
 .content_ {
   height: 100%;
   width: 100%;
-  background-color: red;
+}
+
+.navlink .link {
+  color: rgb(107, 101, 101);
+  background-color: transparent;
+}
+
+.navlink:hover .link {
+  color: rgb(107, 101, 101);
+  background-color: #2325591f;
+}
+
+.navlink.active .link {
+  color: var(--primary-color);
+  background-color: #23255941;
 }
 
 form-group {
@@ -66,5 +80,4 @@ form-group {
   .side_bar {
     width: 100%;
   }
-
 }
