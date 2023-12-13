@@ -1,6 +1,6 @@
 import "./component.css";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
-import React, { Component } from "react";
+import DashboardPage from "./components/DashboardPage";
 
 function HomePage() {
   return (
@@ -29,7 +29,7 @@ function HomePage() {
             <Link to="/DashboardPage">Dashboard</Link>
           </div>
           <div className="nav">
-            <Link to="/GradeReport">Grade Report</Link>
+            <Link to="/GradeReportPage">Grade Report</Link>
           </div>
           <div className="nav">
             <Link to="/MissingGradeForm">Missing Grade Form</Link>Missing Grade
