@@ -30,7 +30,7 @@ const Landing_footer = () => {
             <div>
             <div className="ml-[150px] mt-0">
                 <p className="font-bold text-[14pt]">
-                    Follow US:
+                    Follow Us:
                 </p>
                 <div className="flex">
                     <a href="https://www.facebook.com/dcsug/"><img className="h-[50px] ml-[5px] mr-[10px] mt-[11px] rounded-[50%]"src="/Media_Files/facebook-logo.png" alt="Facebook"/></a><br/>
@@ -45,4 +45,4 @@ const Landing_footer = () => {
     )
 }
 
-export default Landing_footer
+export default Landing_footer;
