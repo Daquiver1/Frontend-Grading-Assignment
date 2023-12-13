@@ -8,6 +8,7 @@ import Contact from "./Component/pages/Contact Us";
 import Help from "./Component/pages/Help";
 import Login from "./Component/pages/Login";
 import Dashboard from "./Component/pages/Dashboard";
+import Register from "./Component/pages/Register";
 import { createBrowserRouter, RouterProvider, Route } from "react-router-dom";
 
 const router = createBrowserRouter([
@@ -30,6 +31,10 @@ const router = createBrowserRouter([
   {
     path: "/Contact",
     element: <Contact />,
+  },
+  {
+    path: "Register",
+    element: <Register />,
   },
 ]);
 const root = ReactDOM.createRoot(document.getElementById("root"));
