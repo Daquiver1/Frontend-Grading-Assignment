@@ -23,33 +23,34 @@ const Footer = () => {
               <ul>
                 <li className="nav-item">
                   <a className="" href="/">
-                    Services
+                    Home
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="" href="/">
-                    Portfolio
+                  <a className="" href="/Login">
+                    login
+                  </a>
+                </li>
+
+                <li className="nav-item">
+                  <a className="" href="/Dashboard">
+                    Dashboard
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="" href="/">
+                  <a className="" href="/Contact">
                     Contact Us
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="" href="/">
-                    Services
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a className="" href="/">
-                    Portfolio
+                  <a className="" href="/Help">
+                    Help
                   </a>
                 </li>
               </ul>
             </div>
             <div className="col-md-6 col-lg-4 col-12 ft-3">
-              <h5>Quick Links</h5>
+              <h5>Reach Out To Us</h5>
               <p>
                 <i class="fa-solid fa-phone-volume"></i> 0576652815
               </p>
