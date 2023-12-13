@@ -1,3 +1,5 @@
+# 11328068 Zenatu Ibrahim
+
 # Student Grade Reporting System Frontend
 
 ## Project Overview
@@ -42,10 +44,14 @@ Describe how to use the application, highlighting key functionalities such as lo
 ## Contribution
 
 To contribute to this project, please follow these guidelines:
-
 1. Fork the repository.
 2. Create a new branch for your feature.
 3. Commit your changes and push them to your branch.
 4. Submit a pull request for review.
+
+ ## Screenshot of pages
+ 
+![Screenshot (18)](https://github.com/hayat717/Frontend-Grading-Assignment-11328068_DCIT205/assets/143534124/6362468b-2b8e-4970-8835-9d0f451ce1ae)
+
 
 Please adhere to the project's coding standards and provide clear and detailed pull request descriptions.
