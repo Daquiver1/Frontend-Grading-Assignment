@@ -1,4 +1,8 @@
-# Student Grade Reporting System Frontend
+# STUDENT ID: 11352458
+# NAME: DENNIS YEBOAH
+## DCIT205_ASSIGNMENT
+
+@# Student Grade Reporting System Frontend
 
 ## Project Overview
 
@@ -8,13 +12,137 @@ This project is a front-end web application for a Student Grade Reporting System
 
 The application consists of 7 main pages:
 
-- **Homepage:** Introduction to the system and its purpose.
-- **Login Page:** Mock login interface for student authentication.
-- **Dashboard:** Displays an overview of the student’s current grades and alerts for missing grades.
-- **Grade Report:** Shows a detailed view of the student's grades filtered by semester or academic year.
-- **Missing Grade Form:** Enables students to report missing grades.
-- **Instructor Contact Page:** Lists instructors' contact information with a simulated email feature.
-- **Help and Support:** Provides FAQs and a mock support contact form.
+- **Homepage:** The Landing Page serves as the entry point for the Missing Grade Reporting System. It provides a brief overview of the system's functionality and serves as the starting point for users to navigate to other pages.
+
+Features
+Navigation links to other pages.
+
+- **Login Page:** 
+Certainly! Below are example Readme sections for each of the pages in your Missing Grade Reporting System:
+
+1. Landing Page Readme
+Overview
+The Landing Page serves as the entry point for the Missing Grade Reporting System. It provides a brief overview of the system's functionality and serves as the starting point for users to navigate to other pages.
+
+Features
+Navigation links to other pages.
+
+
+2. Login Page Readme
+Secure Login
+The Login Page is designed to securely authenticate students into the system using their Student ID and PIN. It simulates authentication without a real backend for testing purposes.
+
+Features
+Secure login form for students.
+Authentication simulation (no real backend).
+
+
+- **Dashboard:** The Dashboard Page provides an overview of the student’s current grades, including alerts or notifications for any missing grades. It serves as a centralized hub for monitoring academic progress.
+
+Features
+Overview of current grades.
+Alerts for missing grades.
+
+- **Grade Report:** 
+Certainly! Below are example Readme sections for each of the pages in your Missing Grade Reporting System:
+
+1. Landing Page Readme
+Overview
+The Landing Page serves as the entry point for the Missing Grade Reporting System. It provides a brief overview of the system's functionality and serves as the starting point for users to navigate to other pages.
+
+Features
+Overview of the Missing Grade Reporting System.
+Navigation links to other pages.
+2. Login Page Readme
+Secure Login
+The Login Page is designed to securely authenticate students into the system using their Student ID and PIN. It simulates authentication without a real backend for testing purposes.
+
+Features
+Secure login form for students.
+Authentication simulation (no real backend).
+3. Dashboard Page Readme
+Overview of Grades
+The Dashboard Page provides an overview of the student’s current grades, including alerts or notifications for any missing grades. It serves as a centralized hub for monitoring academic progress.
+
+Features
+Overview of current grades.
+Alerts for missing grades.
+
+
+4. Grade Report Page Readme
+Detailed Grade View
+The Grade Report Page offers a detailed view of all courses and respective grades. It includes an option to filter grades by semester or academic year for better analysis.
+
+Features
+Detailed view of courses and grades.
+Filtering by semester/academic year.
+
+
+- **Missing Grade Form:** Report Missing Grades
+The Missing Grade Form Page allows students to report missing grades by providing essential information such as course name, instructor name, expected grade, and an explanation.
+
+Features
+Form to report missing grades.
+Submission confirmation (no real submission).
+
+
+- **Instructor Contact Page:** 
+Certainly! Below are example Readme sections for each of the pages in your Missing Grade Reporting System:
+
+1. Landing Page Readme
+Overview
+The Landing Page serves as the entry point for the Missing Grade Reporting System. It provides a brief overview of the system's functionality and serves as the starting point for users to navigate to other pages.
+
+Features
+Overview of the Missing Grade Reporting System.
+Navigation links to other pages.
+
+2. Login Page Readme
+Secure Login
+The Login Page is designed to securely authenticate students into the system using their Student ID and PIN. It simulates authentication without a real backend for testing purposes.
+
+Features
+Secure login form for students.
+Authentication simulation (no real backend).
+3. Dashboard Page Readme
+Overview of Grades
+The Dashboard Page provides an overview of the student’s current grades, including alerts or notifications for any missing grades. It serves as a centralized hub for monitoring academic progress.
+
+Features
+Overview of current grades.
+Alerts for missing grades.
+4. Grade Report Page Readme
+Detailed Grade View
+The Grade Report Page offers a detailed view of all courses and respective grades. It includes an option to filter grades by semester or academic year for better analysis.
+
+Features
+Detailed view of courses and grades.
+Filtering by semester/academic year.
+5. Missing Grade Form Page Readme
+Report Missing Grades
+The Missing Grade Form Page allows students to report missing grades by providing essential information such as course name, instructor name, expected grade, and an explanation.
+
+Features
+Form to report missing grades.
+Submission confirmation (no real submission).
+
+
+6. Instructor Contact Page Readme
+Contact Instructors
+The Instructor Contact Page provides a list of instructors with contact details. Students can use a simulated email feature to communicate with instructors without sending real emails.
+
+Features
+List of instructors with contact details.
+Simulated email communication.
+
+7. Heop AND Support Page Readme
+Assistance and FAQs
+The Help and Support Page offers a FAQ section regarding grade reporting to address common user queries. It also includes a mock-up contact form for technical support.
+
+Features
+FAQ section.
+Contact form for technical support (mock-up).
+
 
 ## Technical Details
 
@@ -49,3 +177,34 @@ To contribute to this project, please follow these guidelines:
 4. Submit a pull request for review.
 
 Please adhere to the project's coding standards and provide clear and detailed pull request descriptions.
+
+# SCREENSHOT OF EACH PAGE
+
+## Home Page
+![Home page](rundown/Screenshots/home1.png)
+![Home page](rundown/Screenshots/home2.png)
+
+## Dashboard Layout
+![Dashboard layout](rundown/Screenshots/dashboard1.png)
+![Dashboard layout](rundown/Screenshots/dashboard2.png)
+
+## Grade Report Layout Screenshot
+![Grade layout](rundown/Screenshots/gradereport1.png)
+![Grade layout](rundown/Screenshots/gradereport2.png)
+
+## Missing Grade Layout screenshot
+![Missing grade layout](rundown/Screenshots/missing1.png)
+![Missing grade layout](rundown/Screenshots/missing2.png)
+
+## Help page layout screenshot
+![Help page layout](rundown/Screenshots/help1.png)
+![Help page layout](rundown/Screenshots/help2.png)
+
+## Instructor Contact page layout screenshot
+![Instructor contact page layout](rundown/Screenshots/instructor1.png)
+![Instructor contact page layout](rundown/Screenshots/instructor2.png)
+
+## Login page layout screenshot
+![Login page layout](rundown/Screenshots/login.png)    
+![Login page layout](rundown/Screenshots/login2.png)
+
