@@ -53,3 +53,11 @@
   height: 100%;
   width: 100%;
 }
+
+.report{
+  background-image: url("/public/download.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}

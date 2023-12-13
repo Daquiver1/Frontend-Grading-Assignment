@@ -8,6 +8,7 @@ import Footer from "./pages/Footer.jsx";
 import Dashboard from "./pages/dashboard.js";
 import HelpAndSupportPage from "./pages/help.js";
 import MissingGradeFormPage from "./pages/missingGrade.js";
+import GradeReportPage from "./pages/gradeReport.js";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
             <Route path="/dashboard" element={<Dashboard></Dashboard>}></Route>
             <Route path="/help" element={<HelpAndSupportPage></HelpAndSupportPage>}></Route>
             <Route path="/missing-grade" element={<MissingGradeFormPage></MissingGradeFormPage>}></Route>
+            <Route path="/report" element={<GradeReportPage></GradeReportPage>}></Route>
         </Routes>
       </div>
     </>

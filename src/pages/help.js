@@ -1,4 +1,5 @@
 import React from 'react';
+import Footer from './Footer';
 
 const HelpAndSupportPage = () => {
   const faqData = [
@@ -33,9 +34,9 @@ const HelpAndSupportPage = () => {
   };
 
   return (
-    <div className="container mx-auto text-white bg-blue-500 help flex flex-col justify-center place-items-center h-full text-">
+    <div className="container text-white bg-blue-500 help flex flex-col justify-center place-items-center h-full">
       <h2 className="text-2xl font-bold mb-4">Help and Support</h2>
-      <div className="mb-8">
+      <div>
         <h3 className="text-xl font-bold mb-4">Frequently Asked Questions</h3>
         <ul className="list-disc pl-4">
           {faqData.map((faqItem, index) => (
@@ -94,6 +95,7 @@ const HelpAndSupportPage = () => {
           </div>
         </form>
       </div>
+      <Footer></Footer>
     </div>
   );
 };

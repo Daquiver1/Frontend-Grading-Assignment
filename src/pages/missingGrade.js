@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Footer from './Footer';
 
 const MissingGradeFormPage = () => {
   const [formData, setFormData] = useState({
@@ -92,6 +93,7 @@ const MissingGradeFormPage = () => {
         </button>
         </div>
       </form>
+      <Footer></Footer>
     </div>
   );
 };

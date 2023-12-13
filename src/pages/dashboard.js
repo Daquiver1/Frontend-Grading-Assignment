@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import Footer from './Footer';
 
 const DashboardPage = () => {
   
@@ -77,6 +78,7 @@ const DashboardPage = () => {
         <h3 className="text-xl font-semibold mb-4">Missing Grades Alerts</h3>
         <button>See Missing Grades</button>
       </div>
+      <Footer></Footer>
     </div>
   );
 };
