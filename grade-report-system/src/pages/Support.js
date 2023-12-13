@@ -1,9 +1,18 @@
 import React,{useState} from 'react';
 import { Link } from "react-router-dom";
+import { AiOutlineCaretUp, AiOutlineCaretDown} from "react-icons/ai"
 
 
 const Support = () => {
   const [open, setOpen]= useState(true);
+  const [isOpen1, setIsOpen1]= useState(false);
+  const [isOpen2, setIsOpen2]= useState(false);
+  const [isOpen3, setIsOpen3]= useState(false);
+  const [isOpen4, setIsOpen4]= useState(false);
+  const [isOpen5, setIsOpen5]= useState(false);
+  const [isOpen6, setIsOpen6]= useState(false);
+  const [isOpen7, setIsOpen7]= useState(false)
+
   const Menus =[
     {title: "Dashboard",src: "Chart_fill", path:"/dashboard"},
     {title: "Missing Grade Form", src: "Search", path: "/search"},
@@ -31,7 +40,17 @@ const Support = () => {
     const { name, value } = e.target;
     setFormData((prevData) => ({ ...prevData, [name]: value }));
   };
-
+  
+  const list =[{
+    first: "Download Procedure file here!",
+    second: "Click here to make secure online payment!",
+    third: "Download UG mobile and click link to get the procedure!",
+    fourth: "Click here to see procedure on how to connect wifi!",
+    fifth: "Download pdf on how to reset MIS Web password",
+    sixth: "Click link here to get access to how to defer your course of study",
+    seventh: "Yes! Click here to check how."
+  }]
+  
 
   return (
     <div className="flex overflow-hidden">
@@ -65,34 +84,76 @@ const Support = () => {
       </div>
       </div>
     <div>
-    <section className="bg-gray-200 p-15 mb-15 rounded-md shadow-md mb-[30px] text-2xl">
-        <p>How do I Register and Pay for my Re-sit</p>
+      <section className="bg-gray-200 p-15 mb-15 rounded-md shadow-md mb-[30px] text-1xl" onClick={()=>setIsOpen1((prev) => !prev)}>
+        <p class="bg-gray-200 p-15 mb-15 rounded-md shadow-md mb-[30px] text-1xl">
+          How do I Register and Pay for my Re-sit
+          {!isOpen1?(<AiOutlineCaretUp className='h-8'/>):(<AiOutlineCaretDown className='h-8'/>)}
+        </p>
+        {isOpen1 &&(<div className="bg-gray-200 p-15 mb-15 rounded-md shadow-md mb-[30px] text-1xl">
+          {list.map((item)=>(<div>
+            <h3>{item.first}</h3>
+          </div>))}</div>)}
+        </section>
+
+      <section className="bg-gray-200 p-15 mb-15 rounded-md shadow-md mb-[30px] text-1xl" onClick={()=>setIsOpen2((prev) => !prev)}>
+        <p>Can I pay for School Fees Online
+        {!isOpen2?(<AiOutlineCaretUp className='h-8'/>):(<AiOutlineCaretDown className='h-8'/>)}
+        </p>
+        {isOpen2 &&(<div className="bg-gray-200 p-15 mb-15 rounded-md shadow-md mb-[30px] text-1xl">
+          {list.map((item)=>(<div>
+            <h3>{item.second}</h3>
+          </div>))}</div>)}
+      </section>
+      <section className="bg-gray-200 p-15 mb-15 rounded-md shadow-md mb-[30px] text-1xl" onClick={()=>setIsOpen3((prev) => !prev)}>
+        <p>Can I view my Registered Courses and Exams Results on UGMobile
+        {!isOpen3?(<AiOutlineCaretUp className='h-8'/>):(<AiOutlineCaretDown className='h-8'/>)}
+        </p>
+        {isOpen3 &&(<div className="bg-gray-200 p-15 mb-15 rounded-md shadow-md mb-[30px] text-1xl">
+          {list.map((item)=>(<div>
+            <h3>{item.third}</h3>
+          </div>))}</div>)}
       </section>
 
-      <section className="bg-gray-200 p-15 mb-15 rounded-md shadow-md mb-[30px] text-2xl">
-        <p>Can I pay for School Fees Online</p>
+      <section className="bg-gray-200 p-15 mb-15 rounded-md shadow-md mb-[30px] text-1xl" onClick={()=>setIsOpen4((prev) => !prev)}>
+        <p>How Can I connect my device to the University WIFI
+        {!isOpen4?(<AiOutlineCaretUp className='h-8'/>):(<AiOutlineCaretDown className='h-8'/>)}
+        </p>
+        {isOpen4 &&(<div className="bg-gray-200 p-15 mb-15 rounded-md shadow-md mb-[30px] text-1xl">
+          {list.map((item)=>(<div>
+            <h3>{item.fourth}</h3>
+          </div>))}</div>)}
       </section>
-      <section className="bg-gray-200 p-15 mb-15 rounded-md shadow-md mb-[30px] text-2xl">
-        <p>Can I view my Registered Courses and Exams Results on UGMobile</p>
+      <section className="bg-gray-200 p-15 mb-15 rounded-md shadow-md mb-[30px] text-1xl" onClick={()=>setIsOpen5((prev) => !prev)}>
+        <p>How do I reset MIS Web Password
+        {!isOpen5?(<AiOutlineCaretUp className='h-8'/>):(<AiOutlineCaretDown className='h-8'/>)}
+        </p>
+        {isOpen5 &&(<div className="bg-gray-200 p-15 mb-15 rounded-md shadow-md mb-[30px] text-1xl">
+          {list.map((item)=>(<div>
+            <h3>{item.fifth}</h3>
+          </div>))}</div>)}
       </section>
 
-      <section className="bg-gray-200 p-15 mb-15 rounded-md shadow-md mb-[30px] text-2xl">
-        <p>How Can I connect my device to the University WIFI</p>
-     
+      <section className="bg-gray-200 p-15 mb-15 rounded-md shadow-md mb-[30px] text-1xl" onClick={()=>setIsOpen6((prev) => !prev)}>
+        <p>How do I defer my course of study or programme
+        {!isOpen6?(<AiOutlineCaretUp className='h-8'/>):(<AiOutlineCaretDown className='h-8'/>)}
+        </p>
+        {isOpen6 &&(<div className="bg-gray-200 p-15 mb-15 rounded-md shadow-md mb-[30px] text-1xl">
+          {list.map((item)=>(<div>
+            <h3>{item.sixth}</h3>
+          </div>))}</div>)}
       </section>
-      <section className="bg-gray-200 p-15 mb-15 rounded-md shadow-md mb-[30px] text-2xl">
-        <p>How do I reset MIS Web Password</p>
-      </section>
-
-      <section className="bg-gray-200 p-15 mb-15 rounded-md shadow-md mb-[30px] text-2xl">
-        <p>How do I defer my course of study or programme</p>
-      </section>
-      <section className="bg-gray-200 p-15 mb-15 rounded-md shadow-md mb-[30px] text-2xl">
-        <p>Can I change my programme in the course of my study</p>
+      <section className="bg-gray-200 p-15 mb-15 rounded-md shadow-md mb-[30px] text-1xl" onClick={()=>setIsOpen7((prev) => !prev)}>
+        <p>Can I change my programme in the course of my study
+        {!isOpen7?(<AiOutlineCaretUp className='h-8'/>):(<AiOutlineCaretDown className='h-8'/>)}
+        </p>
+        {isOpen7 &&(<div className="bg-gray-200 p-15 mb-15 rounded-md shadow-md mb-[30px] text-1xl">
+          {list.map((item)=>(<div>
+            <h3>{item.seventh}</h3>
+          </div>))}</div>)}
       </section>
 
       <div className="antialiased">
-        <div className="flex w-full min-h-screen justify-center items-center pb-[500px]">
+        <div className="flex w-full min-h-screen justify-center items-center pb-[900px]">
           <div className="flex flex-col space-y-6 bg-cyan-700 w-full max-w-4xl p-14 rounded-xl shadow-lg text-white">
             <div className="flex flex-col justify-between"> 
               <div>
