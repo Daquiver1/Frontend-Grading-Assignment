@@ -4,39 +4,29 @@ import './landing.css';
 
 const Landing = () => {
   return (
-    <div className="container">
-      <body>
-        <section className="header">
-          <nav>
-            <img src={DeparmentImage} alt="Department Logo" className="logo" />
-            <div className="nav-links" id="navLinks">
-              <ul>
-                <li><a href="Home.html">Home</a></li>
-                <li><a href="About.html">About</a></li>
-                <li><a href="Catalog.html">Catalog</a></li>
-                <li><a href="Events.html">Events</a></li>
-                <li><a href="Contact.html">Contacts</a></li>
-                <li><a href="Research.html">Research</a></li>
-              </ul>
-            </div>
-          </nav>
-        </section>
+    <div className="container_land">
+      <img src={DeparmentImage} alt="Department Logo" className="logo_land" />
+      <div className="content_land">
+        <table>
+          <th></th>
+        </table>
+      </div>
 
-        <section className="footer">
-          <div className="container">
-            <div className="row">
-              <div className="footer-column">
+        <div className="footer_land">
+          <div className="container_land">
+            <div className="row_land">
+              <div className="footer-column_land">
                 <h4>Admission</h4>
                 <ul>
                   <li>
-                    <a href="#">Undergraduate</a>
-                    <a href="#">Graduate</a>
-                    <a href="#">International Students</a>
-                    <a href="#">Entry Requirements</a>
+                    <p>Undergraduate</p>
+                    <p>Graduate</p>
+                    <p>International Students</p>
+                    <p>Entry Requirements</p>
                   </li>
                 </ul>
               </div>
-              <div className="footer-column">
+              <div className="footer-column_land">
                 <h4>Contact Us</h4>
                 <ul>
                   <li>
@@ -48,7 +38,7 @@ const Landing = () => {
                   </li>
                 </ul>
               </div>
-              <div className="footer-column">
+              <div className="footer-column_land">
                 <h4>Location</h4>
                 <ul>
                   <li>
@@ -60,21 +50,20 @@ const Landing = () => {
                 </ul>
               </div>
             </div>
-            <div className="form">
+            <div className="form_land">
               <h4>Newsletter</h4>
-              <p className="news">Stay updated with our latest</p>
-              <input className="form-control" type="email" name="EMAIL" placeholder="Enter Email Address" required="" validate="" />
+              <p className="news_land">Stay updated with our latest</p>
+              <input className="form-control_land" type="email" name="EMAIL" placeholder="Enter Email Address" required="" validate="" />
               <button type="submit">Submit</button>
             </div>
           </div>
-          <div className="icons">
+          <div className="icons_land">
             <i className="fa fa-facebook"></i>
           </div>
-          <div className="copyright">
+          <div className="copyright_land">
             <p>Copyright &copy;{new Date().getFullYear()} All rights reserved</p>
           </div>
-        </section>
-      </body>
+        </div>
     </div>
   );
 };

@@ -9,7 +9,7 @@ import Technical from './Components/Technical/technical'
 function App() {
   return (
 <>
-    <Login/>
+    <Instructor/>
     </>
   );
 }

@@ -4,26 +4,25 @@ import PasswordImage from '../Assets/password.png'
 import './login.css';
 const login = () => {
   return (
-    <div className="container">
-      <div className="header">
-        <div className="text">Login</div>
-        <div className="underline"></div>
+    <div className="container_login">
+      <div className="header_login">
+        <div className="text_login">Login</div>
       </div>
-      <div className="inputs">
+      <div className="inputs_login">
         <img src={PersonImage} alt="Person" />
-        <div className="input">
-          <input type="text" placeholder="Student ID" />
+        <div className="input_login">
+          <input type="text_login" placeholder="Student ID" />
         </div>
         <img src={PasswordImage} alt="Password" />
-        <div className="input">
+        <div className="input_login">
           <input type="password" placeholder="Password" />
         </div>
       </div>
-      <div className="forgot">
+      <div className="forgot_login">
         Forgot password? <span>Click here!</span>
       </div>
-      <div className="submit-container">
-        <div className="submit">
+      <div className="submit-container_login">
+        <div className="submit_login">
           Login
         </div>
       </div>
