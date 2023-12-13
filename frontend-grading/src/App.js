@@ -7,6 +7,7 @@ import DashboardPage from './components/Dashboard';
 import GradeReportPage from './components/GradeReport';
 import ContactInstructor from './components/ContactInstructor';
 import MissingGradeForm from './components/MissingGradeForm';
+import HelpAndSupport from './components/HelpAndSupport';
 
 const App = () => {
   return (
@@ -18,7 +19,7 @@ const App = () => {
         <Route path="/grade-report" component={GradeReportPage} />
         <Route path="/contact-instructor" component={ContactInstructor} />
         <Route path="/missing-grade-form" component={MissingGradeForm} />
-        {/* Add routes for other pages */}
+        <Route path="/help-support" component={HelpAndSupport} />
       </Switch>
     </Router>
   );

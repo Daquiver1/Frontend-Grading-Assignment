@@ -367,7 +367,7 @@
 
 /* Style for the sections in Grade Report */
 .grade-report-container section {
-  background-color: #ecf0f1; /* Background color similar to Dashboard */
+  background-color: rgba(0, 0, 0, 0.7); 
   border: 1px solid #ddd;
   border-radius: 5px;
   padding: 20px;

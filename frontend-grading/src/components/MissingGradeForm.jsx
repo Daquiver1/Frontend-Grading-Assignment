@@ -1,6 +1,6 @@
 // MissingGradeForm.jsx
 import React, { useState } from 'react';
-
+import './MissingGradeForm.css';
 
 const MissingGradeForm = () => {
   const [formData, setFormData] = useState({
@@ -46,6 +46,7 @@ const MissingGradeForm = () => {
             required
           />
         </label>
+        
         <label>
           Student ID:
           <input
