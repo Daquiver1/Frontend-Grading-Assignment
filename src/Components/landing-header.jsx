@@ -1,14 +1,17 @@
 import React from "react";
+import LNavbar from "./LNavbar";
+import { Link } from "react-router-dom";
 
 const Landing_header = () => {
     return (
         <div className="flex mr-0 shadow-md">
-            <img src="/Media_Files/unilogo.png" alt="University Logo" className=" w-52 h-auto mr-96 "></img>
-            <div className="float-left ml-96">
+            <img src="/Media_Files/unilogo.png" alt="University Logo" className=" w-52 h-auto mr-[10px] "></img>
+            <LNavbar/>
+            <div className="float-left ml-[30px]">
             <nav className="mt-2 mr-0 ml-28">
                 <ul className="flex justify-between">
-                    <a href="login.js"><button className="p-2 w-[100 px] font-bold text-green-50 bg-purple-500 px-5 hover:shadow-lg mr-2 rounded-[50px]">Log Out</button></a>
-                    <a href="help.js"><button className="p-2 font-bold bg-purple-500 text-green-50 px-5 rounded-[50px] hover:shadow-lg">Help</button></a>
+                    <Link to ="/Login"><button className="p-2 w-[100 px] font-bold text-green-50 bg-[#4c4c4e] px-5 hover:shadow-lg mr-2 rounded-[50px]">Log In</button></Link>
+                    <Link to ="/Help"><button className="p-2 font-bold bg-[#4c4c4e] text-green-50 px-5 rounded-[50px] hover:shadow-lg">Help</button></Link>
                 </ul>
             </nav>
             </div>
@@ -22,4 +25,4 @@ const Landing_header = () => {
     
 }
 
-export default Landing_header
+export default Landing_header;
