@@ -55,13 +55,7 @@ button {
 }
 
 button:hover {
-    background-color: #3Fdoc9;
-    /* Adjust color on hover */
-}
+    background-color: #43cd98;
+    }
 
-/* Footer styles */
-.navbar {
-    margin-top: auto;
-}
 
-/* Adjust these styles based on your specific design preferences */

@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react';
 import MyNav from './nav';
-import Footer from './Footer';
+import Footer from './Footer_02';
 import './login.css';
 
 const Login = () => {

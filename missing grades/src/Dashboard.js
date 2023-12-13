@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import MyNavbar from './nav';
 import MyFooter from './Footer';
+import './dashboard.css';
 
 const Dashboard = () => {
   const [gradeReport, setGradeReport] = useState([
@@ -37,7 +38,7 @@ const Dashboard = () => {
       <h1 className="mb-4">Dashboard</h1>
 
       <div className="mb-4">
-        <h2>Current Grades Overview</h2>
+        <h2 className="header_02">Current Grades Overview</h2>
         <table className="table">
           <thead>
             <tr>
@@ -75,10 +76,11 @@ const Dashboard = () => {
           <div  className="alert alert-success" role="alert">
             <p>No missing grades. Good job!</p>
           </div>
-        )}
+          )}
+          <MyFooter />
       </div>
     </div>
-    <MyFooter />
+    
     </div>
   );
 };

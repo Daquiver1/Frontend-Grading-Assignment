@@ -15,12 +15,13 @@ function MyNav() {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mr-reed">
-              <Nav.Link href="/gradeReport" className='header-text'>View Grades</Nav.Link>
-              <Nav.Link href="/report-missing-grades" className='header-text'>Report Missing Grades</Nav.Link>
-              <Nav.Link href="/dashboard" className='header-text'>Dashboard</Nav.Link>
-              <Nav.Link href="/contact-us" className='header-text'>Contact Instructor</Nav.Link>
+              <Nav.Link href="/"className='header-text'>Home</Nav.Link>
+              <Nav.Link href="/gradeReport" className='header-text'>Grade Report</Nav.Link>
+              <Nav.Link href="/missingGradeForm" className='header-text'>Report Missing Grades</Nav.Link>
+              <Nav.Link href="/Dashboard" className='header-text'>Dashboard</Nav.Link>
+              <Nav.Link href="/instructorContact" className='header-text'>Contact Instructor</Nav.Link>
               <Nav.Link href="/faq" className='header-text'>FAQs</Nav.Link>
-               <Nav.Link href="/login" className="login">Log In</Nav.Link>
+              <Nav.Link href="/login" className="login">Log In</Nav.Link>
 
             </Nav>
           </Navbar.Collapse>

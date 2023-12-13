@@ -7,7 +7,7 @@ import './footer.css';
 const MyFooter = () => {
   const newLocal = "text-muted";
   return (
-    <Navbar className="navi" bg="warning" variant="dark">
+    <Navbar className="navi" fixed="bottom" bg="warning" variant="dark">
       <Container>
         <Navbar.Text className="text-muted">
           © {new Date().getFullYear()} Iddrisu Muhammed Fareed / University of Ghana

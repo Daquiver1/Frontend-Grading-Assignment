@@ -1,0 +1,36 @@
+/* Create a new CSS file (e.g., dashboard.css) and add the following styles */
+
+.container.main {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.mb-4 {
+    margin-bottom: 0px;
+    margin-top: 10px;
+    color: black;
+    text-align: center;
+}
+
+.table {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.table th,
+.table td {
+    padding: 12px;
+    text-align: left;
+}
+
+.alert {
+    margin-top: 20px;
+    margin-bottom: 120px;
+}
+
+.header_02{
+    color: black;
+    margin-bottom: 5px;
+}
