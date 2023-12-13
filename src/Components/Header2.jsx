@@ -41,7 +41,7 @@ const NavBar = () => {
           <div className="collapse navbar-collapse" id="navbarTogglerDemo03">
             <ul className="navbar-nav m-auto mb-2 mb-lg-0">
               <li className="nav-item pe-5 fw-5 fs-5">
-                <a className="nav-link active" aria-current="page" href="#">
+                <a className="nav-link active" aria-current="page" href="/">
                   Home
                 </a>
               </li>
@@ -86,7 +86,7 @@ const NavBar = () => {
             />
             <form className="d-flex">
               <a
-                href=""
+                href="/Login"
                 className="btn btn-outline-success me-5 shadow"
                 data-bs-toggle="modal"
                 data-bs-target="#modal"
@@ -122,8 +122,8 @@ const NavBar = () => {
               >
                 Close
               </button>
-              <a href="" type="button" className="btn btn-outline-success">
-                OK
+              <a href="/Help" type="button" className="btn btn-outline-success">
+                Report
               </a>
             </div>
           </div>
@@ -154,7 +154,7 @@ const NavBar = () => {
                 Close
               </button>
               <a
-                href="login.html"
+                href="/Login"
                 type="button"
                 className="btn btn-outline-success"
               >

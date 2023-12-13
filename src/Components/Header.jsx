@@ -4,7 +4,7 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 function Header() {
   return (
     <div className="App">
-      <nav className="navbar navbar-expand-lg navbar-dark bg-info">
+      <nav className="navbar navbar-expand-lg navbar-dark bg-info position-sticky-top">
         <div className="container-fluid">
           <button
             className="navbar-toggler"
@@ -38,7 +38,7 @@ function Header() {
           <div className="collapse navbar-collapse" id="navbarTogglerDemo03">
             <ul className="navbar-nav m-auto mb-2 mb-lg-0">
               <li className="nav-item pe-5 fw-5 fs-5">
-                <a className="nav-link active" aria-current="page" href="#">
+                <a className="nav-link active" aria-current="page" href="/">
                   Home
                 </a>
               </li>
@@ -55,7 +55,7 @@ function Header() {
             </ul>
             <form className="d-flex">
               <a
-                href="login.html"
+                href="/Login"
                 className="btn btn-outline-success me-5 shadow"
                 type="submit"
               >

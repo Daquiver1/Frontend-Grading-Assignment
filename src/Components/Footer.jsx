@@ -53,6 +53,13 @@ const Footer = () => {
             >
               <span className="bi bi-google me-4 fs-1"></span>
             </a>
+            <a
+              href="https://github.com/example"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span className="bi bi-github me-4 fs-1"></span>
+            </a>
           </div>
         </div>
         <hr className="my-4" />
