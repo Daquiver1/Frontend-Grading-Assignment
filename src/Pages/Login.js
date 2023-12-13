@@ -7,24 +7,24 @@ import comScience_logo from "../Images/comScience_logo.png"
 
 function Login(props) {
 
-   
-  var [pin,SetPin] = useState();
-  var [sid,setSid] = useState("1221");
-  var [authstate,SetAuth] = useState("N/A");
-  var sidd; 
+  
 
+  
+  var [pin,SetPin] = useState();
+  var [sid,setSid] = useState();
+  var [authstate,SetAuth] = useState("N/A");
+ 
+  
 
   const Loguin = () => {
     
-        sidd = sid
         if (pin==undefined || sid ==undefined) {
           SetAuth("False");
         }
         else {
           SetAuth("True");
         }
-        
-
+      
   }
 
   return (

@@ -3,6 +3,7 @@ import BottomNavbar from '../Components/BottomNavbar'
 import '../Styling/Landing.css'
 import comScience_logo from '../Images/comScience_logo.png'
 import { Link } from 'react-router-dom'
+import Footer from '../Components/footer'
 
 function Homepage({id}) {
   return (
@@ -44,9 +45,7 @@ function Homepage({id}) {
               </div>
             </div>
         </div>
-        <div className='bottom'>
-           <text>University of Ghana @2023</text>
-        </div>
+           <Footer />
     </div>
   )
 }

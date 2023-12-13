@@ -7,7 +7,7 @@ import "../Styling/Missing.css"
 
 function MissingGradeForm() {
   return (
-    <div className='Main'>
+    <div className='Mainn'>
     <div className='topSection'>
           <img className='logo' height="50px" width="35px" src={comScience_logo}></img> 
       <div className='title'>
@@ -35,7 +35,7 @@ function MissingGradeForm() {
                  <label>More info (Optional):<br></br>
                      <textarea id='textArea'></textarea>
                  </label><br></br>
-
+                 <button id='submit'>Submit</button>
           </form>
          </div>
          <div>
