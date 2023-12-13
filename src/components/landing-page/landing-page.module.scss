@@ -21,10 +21,23 @@
 }
 
 .vive {
-    background-color: #605F5F;
+    background-color: transparent;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+    background-image: linear-gradient(180deg, #000000 56%, rgba(255, 255, 255, 0) 100%);
+    background-position: 0%;
+    background-size: auto;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-origin: padding-box;
+    background-clip: border-box;
+    background-position: 0%;
+    background-size: auto;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-origin: padding-box;
+    background-clip: border-box;
 }
 
 .vit {

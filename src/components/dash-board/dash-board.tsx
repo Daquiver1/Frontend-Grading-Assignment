@@ -11,7 +11,7 @@ export interface DashBoardProps {
 export const DashBoard = ({ className }: DashBoardProps) => {
     return (
         <div className={classNames(styles.root, className)}>
-            <Navigation />
+            <Navigation className={styles.hip} />
             <div className={styles.cut}>
                 <Sidebar />
                 <div className={styles.ut}>

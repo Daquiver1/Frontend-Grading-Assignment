@@ -7,6 +7,7 @@ import {LoginPage} from './components/login-page/login-page';
 import {LandingPage} from './components/landing-page/landing-page';
 import {InstructorContactPage} from './components/instructor-contact-page/instructor-contact-page';
 import {HelpAndSupportPage} from './components/help-and-support-page/help-and-support-page';
+import { DashBoard } from './components/dash-board/dash-board';
 
 
 
@@ -22,6 +23,7 @@ function App() {
                 <Routes>
                     <Route index element={<LoginPage />} />
                     <Route path='/home' element={<LandingPage />} />
+                    <Route path='/dashboard' element={<DashBoard />} />
                     <Route path='/login' element={<LoginPage />} />
                     <Route path='/helpAndSupport' element={<HelpAndSupportPage />} />
                     <Route path='/missingGradeForm' element={<MissingGradeForm />} />
