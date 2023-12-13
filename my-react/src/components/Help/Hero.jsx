@@ -32,7 +32,9 @@ const Hero = () => {
         title="Are there any tutorial resources available?"
         answer="Certainly! Explore our tutorial section, where you can find step-by-step guides and video tutorials to maximize your experience with UGGT. Learn tips and tricks to make the most out of our grade tracking features."
       />
+      
     </div>
+ 
   );
 };
 

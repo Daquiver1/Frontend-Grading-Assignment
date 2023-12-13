@@ -9,16 +9,16 @@ const Navbar = () => {
           <h1 className="w-full text-3xl font-bold text-[#00df9a]">UGGT</h1>
         </div>
         <div className="  px-4 ">
-          <NavLink to="/Home Page">Home</NavLink>
+          <NavLink to="/">Home</NavLink>
         </div>
         <div className=" px-4">
-          <NavLink to="/">Dashboard</NavLink>
+          <NavLink to="/dashboard">Dashboard</NavLink>
         </div>
         <div className=" px-4 ">
-          <NavLink to="/">Report</NavLink>
+          <NavLink to="/report">Report</NavLink>
         </div>
         <div className="  px-4 ">
-          <NavLink to="/">Missing Grade Form</NavLink>
+          <NavLink to="/missinggradesform">Missing Grade Form</NavLink>
         </div>
         <div className="  px-4 ">
           <NavLink to="/Help">Help</NavLink>
@@ -32,6 +32,8 @@ const Navbar = () => {
         </div>
       </div>
     </div>
+
+    
   );
 };
 
