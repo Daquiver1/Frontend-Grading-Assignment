@@ -1,12 +1,17 @@
 import React from "react";
 import Nav from "./components/Navbar";
-import Button from "./components/button";
+import Access from "./components/Log"
 const Login = () => {
     return (  
-        <div>
-            <div><Nav/></div>
-            <div><Button/></div>
-            Login</div>
+        <>
+        <Nav/>
+
+        <div className="pt-[85px]"></div>
+        <Access/>
+
+            
+           </>
+            
     );
 }
  
