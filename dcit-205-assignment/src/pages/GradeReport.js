@@ -2,6 +2,8 @@ import Footer from "../components/Footer";
 import Student from "../scripts/student-data";
 import webiste from "../scripts/data";
 import { Link } from "react-router-dom";
+import { GradesData } from "../scripts/courses_data";
+import "./grades.css";
 export default function GradeReport() {
   return (
     <>
@@ -195,7 +197,7 @@ export default function GradeReport() {
                 <span className="sr-only">User Menu</span>
                 <div className="hidden md:flex md:flex-col md:items-end md:leading-tight">
                   <span className="font-semibold">{Student.name}</span>
-                  <span className="text-sm text-gray-600">{Student.role}</span>
+                  <span className="text-xl text-gray-600 text-center">{Student.role}</span>
                 </div>
                 <span className="h-12 w-12 ml-2 sm:ml-3 mr-2 bg-gray-100 rounded-full overflow-hidden">
                   <img
@@ -259,8 +261,8 @@ export default function GradeReport() {
               </div>
             </div>
           </section>
-          <section className="p-6 sm:p-10 space-y-6">
-            <div className="flex flex-col space-y-6 md:space-y-0 md:flex-row justify-between">
+          <section className="px-6 pt-6 pb-0 sm:p-6">
+            <div className="flex flex-col  md:flex-row justify-between">
               <div className="mr-6">
                 <h1 className="text-4xl font-semibold mb-2">
                   Hello {Student.name}
@@ -268,10 +270,7 @@ export default function GradeReport() {
                 <h2 className="text-gray-600 ml-0.5">{Student.major}</h2>
               </div>
               <div className="flex flex-wrap items-start justify-end -mb-3">
-                <Link
-                  to="/missing-grades"
-                  className="inline-flex px-5 py-3 text-purple-600 hover:text-purple-700 focus:text-purple-700 hover:bg-purple-100 focus:bg-purple-100 border border-purple-600 rounded-md mb-3"
-                >
+                <button className="inline-flex px-5 py-3 text-purple-600 hover:text-purple-700 focus:text-purple-700 hover:bg-purple-100 focus:bg-purple-100 border border-purple-600 rounded-md mb-3">
                   <svg
                     aria-hidden="true"
                     fill="none"
@@ -286,8 +285,8 @@ export default function GradeReport() {
                       d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z"
                     />
                   </svg>
-                  Report Missing Grades
-                </Link>
+                  <Link to="/missing-grades">Report Missing Grades</Link>
+                </button>
                 <button className="inline-flex px-5 py-3 text-white bg-purple-600 hover:bg-purple-700 focus:bg-purple-700 rounded-md ml-6 mb-3">
                   <svg
                     aria-hidden="true"
@@ -303,165 +302,289 @@ export default function GradeReport() {
                       d="M12 6v6m0 0v6m0-6h6m-6 0H6"
                     />
                   </svg>
-                  <Link to="/dashboard">Student Dashboard</Link>
+                  <Link to="/dashboard">Dashboard</Link>
                 </button>
               </div>
             </div>
-            <section className="grid md:grid-cols-2 xl:grid-cols-4 gap-6">
-              <div className="flex items-center p-8 bg-white shadow rounded-lg">
-                <div className="inline-flex flex-shrink-0 items-center justify-center h-16 w-16 text-purple-600 bg-purple-100 rounded-full mr-6">
-                  <svg
-                    aria-hidden="true"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                    className="h-6 w-6"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={2}
-                      d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"
-                    />
-                  </svg>
-                </div>
-                <div>
-                  <span className="block text-2xl font-bold">62</span>
-                  <span className="block text-gray-500">
-                    Students including {Student.name}, take these courses
-                  </span>
-                </div>
-              </div>
-              <div className="flex items-center p-8 bg-white shadow rounded-lg">
-                <div className="inline-flex flex-shrink-0 items-center justify-center h-16 w-16 text-green-600 bg-green-100 rounded-full mr-6">
-                  <svg
-                    aria-hidden="true"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                    className="h-6 w-6"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={2}
-                      d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"
-                    />
-                  </svg>
-                </div>
-                <div>
-                  <span className="block text-2xl font-bold">6.8</span>
-                  <span className="block text-gray-500">Average mark</span>
-                </div>
-              </div>
-              <div className="flex items-center p-8 bg-white shadow rounded-lg">
-                <div className="inline-flex flex-shrink-0 items-center justify-center h-16 w-16 text-red-600 bg-red-100 rounded-full mr-6">
-                  <svg
-                    aria-hidden="true"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                    className="h-6 w-6"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={2}
-                      d="M13 17h8m0 0V9m0 8l-8-8-4 4-6-6"
-                    />
-                  </svg>
-                </div>
-                <div>
-                  <span className="inline-block text-2xl font-bold">9</span>
-                  <span className="inline-block text-xl text-gray-500 font-semibold">
-                    (14%)
-                  </span>
-                  <span className="block text-gray-500">
-                    Underperforming students
-                  </span>
-                </div>
-              </div>
-              <div className="flex items-center p-8 bg-white shadow rounded-lg">
-                <div className="inline-flex flex-shrink-0 items-center justify-center h-16 w-16 text-blue-600 bg-blue-100 rounded-full mr-6">
-                  <svg
-                    aria-hidden="true"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                    className="h-6 w-6"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={2}
-                      d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"
-                    />
-                  </svg>
-                </div>
-                <div>
-                  <span className="block text-2xl font-bold">83%</span>
-                  <span className="block text-gray-500">
-                    Finished homeworks
-                  </span>
-                </div>
-              </div>
-            </section>
-            <section className="grid md:grid-cols-2 xl:grid-cols-4 xl:grid-rows-3 xl:grid-flow-col gap-6">
-              <div className="flex items-center p-8 bg-white shadow rounded-lg">
-                <div className="inline-flex flex-shrink-0 items-center justify-center h-16 w-16 text-yellow-600 bg-yellow-100 rounded-full mr-6">
-                  <svg
-                    aria-hidden="true"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                    className="h-6 w-6"
-                  >
-                    <path fill="#fff" d="M12 14l9-5-9-5-9 5 9 5z" />
-                    <path
-                      fill="#fff"
-                      d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"
-                    />
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={2}
-                      d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222"
-                    />
-                  </svg>
-                </div>
-                <div>
-                  <span className="block text-2xl font-bold">25</span>
-                  <span className="block text-gray-500">Lectures left</span>
+          </section>
+          <section>
+            <div className="grade-container grid grid-cols-2 gap-x-20">
+              <div>
+                <h2 className="text-4xl font-bold mb-4 text-white text-center">
+                  Core Courses Grades
+                </h2>
+                <div className="space-y-4">
+                  <div className="p-4 bg-white  border rounded-xl text-gray-800 space-y-2">
+                    <div className="flex justify-between">
+                      <div className="text-gray-400 text-1xl text-center">
+                        {GradesData[0].instructor}
+                      </div>
+                      <div className="text-gray-400 text-1xl text-center">
+                        {GradesData[0].timeUploaded}
+                      </div>
+                    </div>
+                    <a
+                      href="javascript:void(0)"
+                      className="text-center font-bold hover:text-yellow-800 hover:underline"
+                    >
+                      {GradesData[0].courseCode}
+                    </a>
+                    <div className="text-xl text-gray-600 text-center">
+                      {GradesData[0].grade}
+                    </div>
+                  </div>{" "}
+                  <div className="p-4 bg-white border rounded-xl text-gray-800 space-y-2">
+                    <div className="flex justify-between">
+                      <div className="text-gray-400 text-1xl text-center">
+                        {" "}
+                        {GradesData[1].instructor}
+                      </div>
+
+                      <div className="text-gray-400 text-1xl text-center">
+                        {GradesData[1].timeUploaded}
+                      </div>
+                    </div>
+                    <a
+                      href="javascript:void(0)"
+                      className="text-center font-bold hover:text-yellow-800 hover:underline"
+                    >
+                      {GradesData[1].courseCode}
+                    </a>
+                    <div className="text-xl text-gray-600 text-center">
+                      {GradesData[1].grade}
+                    </div>
+                  </div>{" "}
+                  <div className="p-4 bg-white border rounded-xl text-gray-800 space-y-2">
+                    <div className="flex justify-between">
+                      <div className="text-gray-400 text-1xl text-center">
+                        {GradesData[2].instructor}
+                      </div>
+                      <div className="text-gray-400 text-1xl text-center">
+                        {GradesData[2].timeUploaded}
+                      </div>
+                    </div>
+                    <a
+                      href="javascript:void(0)"
+                      className="text-center font-bold hover:text-yellow-800 hover:underline"
+                    >
+                      {GradesData[2].courseCode}
+                    </a>
+                    <div className="text-xl text-gray-600 text-center">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="1em"
+                        height="1em"
+                        fill="currentColor"
+                        className="text-gray-800 inline align-middle mr-1"
+                        viewBox="0 0 16 16"
+                      >
+                        <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8 4a.905.905 0 0 0-.9.995l.35 3.507a.552.552 0 0 0 1.1 0l.35-3.507A.905.905 0 0 0 8 4zm.002 6a1 1 0 1 0 0 2 1 1 0 0 0 0-2z" />
+                      </svg>
+                      {GradesData[2].grade}
+                    </div>
+                  </div>{" "}
+                  <div className="p-4 bg-white border rounded-xl text-gray-800 space-y-2">
+                    <div className="flex justify-between">
+                      <div className="text-gray-400 text-1xl text-center">
+                        {GradesData[3].instructor}
+                      </div>
+                      <div className="text-gray-400 text-1xl text-center">
+                        {GradesData[3].timeUploaded}
+                      </div>
+                    </div>
+                    <a
+                      href="javascript:void(0)"
+                      className="text-center font-bold hover:text-yellow-800 hover:underline"
+                    >
+                      {GradesData[3].courseCode}
+                    </a>
+                    <div className="text-xl text-gray-600 text-center">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="1em"
+                        height="1em"
+                        fill="currentColor"
+                        className="text-gray-800 inline align-middle mr-1"
+                        viewBox="0 0 16 16"
+                      >
+                        <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8 4a.905.905 0 0 0-.9.995l.35 3.507a.552.552 0 0 0 1.1 0l.35-3.507A.905.905 0 0 0 8 4zm.002 6a1 1 0 1 0 0 2 1 1 0 0 0 0-2z" />
+                      </svg>
+                      {GradesData[3].grade}
+                    </div>
+                  </div>
                 </div>
               </div>
-              <div className="flex items-center p-8 bg-white shadow rounded-lg">
-                <div className="inline-flex flex-shrink-0 items-center justify-center h-16 w-16 text-teal-600 bg-teal-100 rounded-full mr-6">
-                  <svg
-                    aria-hidden="true"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                    className="h-6 w-6"
+              <div>
+                <h2 className="text-4xl font-bold mb-4 text-white text-center">
+                  Elective Courses Grades
+                </h2>
+                <div className="space-y-4">
+                  <div className="p-4 bg-white border rounded-xl text-gray-800 space-y-2">
+                    <div className="flex justify-between">
+                      <div className="text-gray-400 text-1xl text-center">
+                        {GradesData[4].instructor}
+                      </div>
+                      <div className="text-gray-400 text-1xl text-center">
+                        {GradesData[4].timeUploaded}
+                      </div>
+                    </div>
+                    <a
+                      href="javascript:void(0)"
+                      className="text-center font-bold hover:text-yellow-800 hover:underline"
+                    >
+                      {GradesData[4].courseCode}
+                    </a>
+                    <div className="text-xl text-gray-600 text-center">
+                      {/* <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="1em"
+                    height="1em"
+                    fill="currentColor"
+                    className="text-gray-800 inline align-middle mr-1"
+                    viewBox="0 0 16 16"
                   >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={2}
-                      d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
-                    />
-                  </svg>
-                </div>
-                <div>
-                  <span className="block text-2xl font-bold">139</span>
-                  <span className="block text-gray-500">
-                    Hours spent on lectures
-                  </span>
+                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8 4a.905.905 0 0 0-.9.995l.35 3.507a.552.552 0 0 0 1.1 0l.35-3.507A.905.905 0 0 0 8 4zm.002 6a1 1 0 1 0 0 2 1 1 0 0 0 0-2z" />
+                  </svg> */}
+                      {GradesData[4].grade}
+                    </div>
+                  </div>
+                  <div className="p-4 bg-white border rounded-xl text-gray-800 space-y-2">
+                    <div className="flex justify-between">
+                      <div className="text-gray-400 text-1xl text-center">
+                        {GradesData[5].instructor}
+                      </div>
+                      <div className="text-gray-400 text-1xl text-center">
+                        {GradesData[5].timeUploaded}
+                      </div>
+                    </div>
+                    <a
+                      href="javascript:void(0)"
+                      className="text-center font-bold hover:text-yellow-800 hover:underline"
+                    >
+                      {GradesData[5].courseCode}
+                    </a>
+                    <div className="text-xl text-gray-600 text-center">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="1em"
+                        height="1em"
+                        fill="currentColor"
+                        className="text-gray-800 inline align-middle mr-1"
+                        viewBox="0 0 16 16"
+                      >
+                        <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8 4a.905.905 0 0 0-.9.995l.35 3.507a.552.552 0 0 0 1.1 0l.35-3.507A.905.905 0 0 0 8 4zm.002 6a1 1 0 1 0 0 2 1 1 0 0 0 0-2z" />
+                      </svg>
+                      {GradesData[5].grade}
+                    </div>
+                  </div>
+                  <div className="p-4 bg-white border rounded-xl text-gray-800 space-y-2">
+                    <div className="flex justify-between">
+                      <div className="text-gray-400 text-1xl text-center">
+                        {GradesData[6].instructor}
+                      </div>
+                      <div className="text-gray-400 text-1xl text-center">
+                        {GradesData[6].timeUploaded}
+                      </div>
+                    </div>
+                    <a
+                      href="javascript:void(0)"
+                      className="text-center font-bold hover:text-yellow-800 hover:underline"
+                    >
+                      {GradesData[6].courseCode}
+                    </a>
+                    <div className="text-xl text-gray-600 text-center">
+                      {/* <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="1em"
+                    height="1em"
+                    fill="currentColor"
+                    className="text-gray-800 inline align-middle mr-1"
+                    viewBox="0 0 16 16"
+                  >
+                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8 4a.905.905 0 0 0-.9.995l.35 3.507a.552.552 0 0 0 1.1 0l.35-3.507A.905.905 0 0 0 8 4zm.002 6a1 1 0 1 0 0 2 1 1 0 0 0 0-2z" />
+                  </svg> */}
+                      {GradesData[6].grade}
+                    </div>
+                  </div>
+                  <div className="p-4 bg-white border rounded-xl text-gray-800 space-y-2">
+                    <div className="flex justify-between">
+                      <div className="text-gray-400 text-1xl text-center">
+                        {GradesData[7].instructor}
+                      </div>
+                      <div className="text-gray-400 text-1xl text-center">
+                        {GradesData[7].timeUploaded}
+                      </div>
+                    </div>
+                    <a
+                      href="javascript:void(0)"
+                      className="text-center font-bold hover:text-yellow-800 hover:underline"
+                    >
+                      {GradesData[7].courseCode}
+                    </a>
+                    <div className="text-xl text-gray-600 text-center">
+                      {GradesData[7].grade}
+                    </div>
+                  </div>
                 </div>
               </div>
-            </section>
+            </div>
+          </section>
+          <section className="grid md:grid-cols-2 xl:grid-cols-4 xl:grid-rows-3 xl:grid-flow-col gap-6">
+            <div className="flex items-center p-8 bg-white shadow rounded-lg">
+              <div className="inline-flex flex-shrink-0 items-center justify-center h-16 w-16 text-yellow-600 bg-yellow-100 rounded-full mr-6">
+                <svg
+                  aria-hidden="true"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  className="h-6 w-6"
+                >
+                  <path fill="#fff" d="M12 14l9-5-9-5-9 5 9 5z" />
+                  <path
+                    fill="#fff"
+                    d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"
+                  />
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222"
+                  />
+                </svg>
+              </div>
+              <div>
+                <span className="block text-2xl font-bold">25</span>
+                <span className="block text-gray-500">Lectures left</span>
+              </div>
+            </div>
+            <div className="flex items-center p-8 bg-white shadow rounded-lg">
+              <div className="inline-flex flex-shrink-0 items-center justify-center h-16 w-16 text-teal-600 bg-teal-100 rounded-full mr-6">
+                <svg
+                  aria-hidden="true"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  className="h-6 w-6"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
+                  />
+                </svg>
+              </div>
+              <div>
+                <span className="block text-2xl font-bold">139</span>
+                <span className="block text-gray-500">
+                  Hours spent on lectures
+                </span>
+              </div>
+            </div>
           </section>
         </div>
       </section>
+
       <Footer />
     </>
   );
