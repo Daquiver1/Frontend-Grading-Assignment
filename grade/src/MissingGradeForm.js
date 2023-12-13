@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
+import MyNavbar from './nav';
+import MyFooter from './MyFooter';
 const MissingGradeForm = () => {
   const [courseName, setCourseName] = useState('');
   const [instructorName, setInstructorName] = useState('');
@@ -18,7 +19,12 @@ const MissingGradeForm = () => {
   };
 
   return (
-    <div className="container mt-5">
+    <div>
+      <MyNavbar />
+      
+      <MyFooter />
+
+    <div className="container main mt-5">
       <h1 className="mb-4">Missing Grade Form</h1>
 
       {isSubmitted ? (
@@ -88,6 +94,7 @@ const MissingGradeForm = () => {
           </button>
         </form>
       )}
+    </div>
     </div>
   );
 };

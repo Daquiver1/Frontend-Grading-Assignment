@@ -1,18 +1,33 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import MyNavbar from './nav';
+import MyFooter from './MyFooter';
 
 const HelpAndSupport = () => {
-  // Sample FAQ data
+
   const faqs = [
     {
-      question: 'How do I report missing grades?',
-      answer: 'You can report missing grades on the Grade Report page by clicking on the "Report Missing Grade" button.',
+      question: 'What is the missing grade process?',
+      answer: 'The missing grade process is the procedure for requesting and resolving missing grades. Missing grades can occur for a variety of reasons, such as clerical errors, incomplete records, or lost coursework..',
     },
     {
-      question: 'Can I view grades from previous semesters?',
+      question: 'How can I check if my grade is missing?',
+      answer: 'You can check if your grade is missing by reviewing your unofficial transcript on the Student Portal. If your grade is missing, it will be displayed as an "N/A"',
+    },
+    {
+      question: 'What should I do if my grade is missing??',
+      answer: 'If your grade is missing, you should submit a missing grade request form. The form can be found on the Registrars Office website.',
+    },
+    {
+      question: 'How long will it take for my missing grade to be processed?',
+      answer: 'If you miss the deadline for submitting a missing grade request, your request will not be processed. You will need to submit a late request, which will be subject to a late fee.',
+    },
+    {
+      question: 'What happens if I miss the deadline for submitting a missing grade request?',
       answer: 'Yes, you can use the filter on the Grade Report page to view grades from specific semesters or academic years.',
     },
-    // Add more FAQs as needed
+
+   
   ];
 
   // Function to handle form submission (mock-up)
@@ -24,7 +39,13 @@ const HelpAndSupport = () => {
   };
 
   return (
-    <div className="container mt-5">
+    <div>
+      <MyNavbar />
+      
+      
+
+    
+    <div className="container main mt-5">
       <h1 className="mb-4">Help and Support</h1>
 
       {/* FAQ Section */}
@@ -85,6 +106,8 @@ const HelpAndSupport = () => {
           </button>
         </form>
       </div>
+    </div>
+    <MyFooter />
     </div>
   );
 };

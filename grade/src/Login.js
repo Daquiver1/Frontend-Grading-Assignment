@@ -11,16 +11,18 @@ const Login = () => {
 
   const handleLogin = (e) => {
     e.preventDefault();
-    // TODO: Implement authentication logic here
     alert(`Logging in with Student ID: ${studentId} and PIN: ${pin}`);
   };
 
   const handleForgotPassword = () => {
-    // TODO: Implement forgot password logic here
+    
     alert('Forgot Password clicked. Implement the logic here.');
   };
 
   return (
+    <div>
+      <MyNavbar />
+    
     <div className="container mt-5">
       <h1 className="mb-4">Login</h1>
       <form onSubmit={handleLogin}>
@@ -57,10 +59,11 @@ const Login = () => {
           Forgot Password?
         </a>
       </p>
-      <MyNavbar />
+      
       
       <MyFooter />
 
+    </div>
     </div>
   );
 };

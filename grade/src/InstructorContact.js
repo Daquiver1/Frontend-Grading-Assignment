@@ -1,41 +1,48 @@
 import React, { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import MyNavbar from './nav';
+import MyFooter from './MyFooter';
 
-// Sample instructor images (replace with actual image URLs)
+
 const instructorImages = {
-  'Dr. John Smith': 'https://placekitten.com/50/50', // Example cat image
-  'Prof. Jane Doe': 'https://placekitten.com/50/51', // Another example cat image
-  // Add more images for other instructors as needed
+  'John Venn': process.env.PUBLIC_URL + '/images/john.jpeg',
+  'Sir Isaac Netwon': process.env.PUBLIC_URL + '/images/isaac.jpeg',
+  'Albert Einstein': process.env.PUBLIC_URL + '/images/albert.jpeg',
 };
 
 const InstructorContact = () => {
-  // Sample data representing instructors and their contact details
+
   const [instructors, setInstructors] = useState([
     {
-      name: 'Dr. John Smith',
-      email: 'john.smith@example.com',
-      phone: '123-456-7890',
+      name: 'John Venn',
+      email: 'jv@st.ug.edu.gh',
+      phone: '+233 20 192 9434',
     },
     {
-      name: 'Prof. Jane Doe',
-      email: 'jane.doe@example.com',
-      phone: '987-654-3210',
+      name: 'Sir Isaac Netwon',
+      email: 'gravitionalpull@forces.com',
+      phone: '+233 24 0092541',
     },
-    // Add more instructors as needed
+    {
+      name: 'Albert Einstein',
+      email: 'generalrealativty@photoelectriceffect.com',
+      phone: '+47 455 61 774',
+    },
+    
   ]);
 
-  // State to manage the selected instructor for email simulation
+  
   const [selectedInstructor, setSelectedInstructor] = useState(null);
 
-  // Function to handle the selection of an instructor for email simulation
+
   const handleInstructorSelect = (instructor) => {
     setSelectedInstructor(instructor);
   };
 
-  // Function to simulate sending an email (mock-up)
+
   const sendEmail = () => {
     if (selectedInstructor) {
-      // Simulated email logic (replace with actual email functionality)
+
       alert(`Email sent to ${selectedInstructor.name}`);
     } else {
       alert('Please select an instructor to send an email.');
@@ -43,6 +50,12 @@ const InstructorContact = () => {
   };
 
   return (
+    <div>
+      <MyNavbar />
+      
+      
+
+    
     <div className="container mt-5">
       <h1 className="mb-4">Instructor Contact</h1>
 
@@ -94,6 +107,8 @@ const InstructorContact = () => {
       >
         Send Simulated Email
       </button>
+    </div>
+    <MyFooter />
     </div>
   );
 };

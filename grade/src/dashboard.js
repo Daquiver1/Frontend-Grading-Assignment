@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import MyNavbar from './nav';
+import MyFooter from './MyFooter';
 
 const Dashboard = () => {
   const [gradeReport, setGradeReport] = useState([
@@ -25,7 +27,13 @@ const Dashboard = () => {
   const missingGrades = findMissingGrades();
 
   return (
-    <div className="container mt-5">
+    <div>
+      <MyNavbar />
+      
+      
+
+    
+    <div className="container main mt-5">
       <h1 className="mb-4">Dashboard</h1>
 
       <div className="mb-4">
@@ -64,11 +72,13 @@ const Dashboard = () => {
             </ul>
           </div>
         ) : (
-          <div className="alert alert-success" role="alert">
+          <div  className="alert alert-success" role="alert">
             <p>No missing grades. Good job!</p>
           </div>
         )}
       </div>
+    </div>
+    <MyFooter />
     </div>
   );
 };
