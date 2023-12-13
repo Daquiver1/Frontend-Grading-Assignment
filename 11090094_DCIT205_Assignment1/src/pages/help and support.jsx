@@ -3,7 +3,9 @@ export const Help_and_Support = () => {
     <>
       <div className="grid grid-cols-2 h-screen">
         <div className="bg-gray-400 text-justify p-5">
-          <p className=" font-bold">FREQUENTLY ASKED QUESTIONS</p>
+          <p className=" font-bold text-3xl text-center">
+            FREQUENTLY ASKED QUESTIONS
+          </p>
           <div className="my-5">
             <p>What should I do if my grade report is missing?</p>
             <p>-Fill the Missing Grade form accurately.</p>
@@ -50,7 +52,57 @@ export const Help_and_Support = () => {
             </p>
           </div>
         </div>
-        <div className="bg-blue-500">9</div>
+        <div className="bg-blue-500 w-full   ">
+          <div className="mt-12">
+            <p className="font-bold text-3xl mb-6">Contact Us</p>
+            <form>
+              <div className="mb-4">
+                <label
+                  className="block text-white text-sm font-semi-bold mb-2"
+                  htmlFor="">
+                  Your Name
+                </label>
+                <input
+                  placeholder="Akua Amuah"
+                  className="w-3/5 px-3 py-2 border rounded-lg bg-gray-800 focus:border-blue-500"
+                  type="text"
+                />
+              </div>
+
+              <div className="mb-4">
+                <label
+                  className="block text-white text-sm font-semi-bold mb-2"
+                  htmlFor="">
+                  Your Email
+                </label>
+                <input
+                  placeholder="Ella@example.com"
+                  className="w-3/5 px-3 py-2 border rounded-lg bg-gray-800 focus:border-blue-400"
+                  type="email"
+                />
+              </div>
+              <div className="mb-4">
+                <label
+                  className="block text-white text-sm font-semi-bold mb-2"
+                  htmlFor="">
+                  Your Message
+                </label>
+                <textarea
+                  placeholder=""
+                  className="w-3/5 px-3 py-2 border rounded-lg bg-gray-800 focus:border-blue-400"
+                  type="text"
+                />
+              </div>
+              <div>
+                <button
+                  type="submit"
+                  className="bg-teal-400 text-white font-semibold px-4 py-2 rounded-lg  focus:outline-white hover:bg-teal-200">
+                  Send Message
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
       </div>
     </>
   );
