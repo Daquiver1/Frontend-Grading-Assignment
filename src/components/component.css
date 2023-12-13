@@ -31,3 +31,15 @@
 p{
     font-size: 18px;
 }
+.record_grid{
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 500px;
+}
+
+.record{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    column-gap: 10px;
+   
+}

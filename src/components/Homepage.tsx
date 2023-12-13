@@ -1,4 +1,6 @@
 import "./component.css";
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import React, { Component } from "react";
 
 function HomePage() {
   return (
@@ -20,13 +22,48 @@ function HomePage() {
         </div>
       </div>
       <br />
-      <div className="nav_grid">
-        <div className="nav">Dashboard</div>
-        <div className="nav">Grade Report</div>
-        <div className="nav">Missing Grade Form</div>
-        <div className="nav">Contact Instructor</div>
-        <div className="nav">Help and Support</div>
-      </div>
+      <Router>
+        <div className="nav_grid">
+          <div className="nav">
+            {" "}
+            <Link to="/DashboardPage">Dashboard</Link>
+          </div>
+          <div className="nav">
+            <Link to="/GradeReport">Grade Report</Link>
+          </div>
+          <div className="nav">
+            <Link to="/MissingGradeForm">Missing Grade Form</Link>Missing Grade
+            Form
+          </div>
+          <div className="nav">
+            <Link to="/ContactInstructor">Contact Instructor</Link>Contact
+            Instructor
+          </div>
+          <div className="nav">
+            <Link to="/HelpAndSupport">Help and Support</Link>Help and Support
+          </div>
+
+          <Routes>
+            <Route exact path="/DashboardPage" element={<Dashboard />}></Route>
+            <Route exact path="/GradeReport" element={<GradeReport />}></Route>
+            <Route
+              exact
+              path="/MissingGradeForm"
+              element={<MissingGradeForm />}
+            ></Route>
+            <Route
+              exact
+              path="/ContactInstructor"
+              element={<ContactInstructor />}
+            ></Route>
+            <Route
+              exact
+              path="/HelpAndSUpport"
+              element={<HelpAndSUpport />}
+            ></Route>
+          </Routes>
+        </div>
+      </Router>
       <br />
 
       <h1 style={{ color: "orange", textAlign: "center" }}>

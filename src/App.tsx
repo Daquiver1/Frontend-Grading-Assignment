@@ -1,10 +1,10 @@
-import HomePage from "./components/Homepage";
-import LoginPage from "./components/LoginPage";
+import DashboardPage from "./components/DashboardPage";
+import GradeReportPage from "./components/GradeReportPage";
 
 function App() {
   return (
     <div>
-      <LoginPage />
+      <GradeReportPage />
     </div>
   );
 }
