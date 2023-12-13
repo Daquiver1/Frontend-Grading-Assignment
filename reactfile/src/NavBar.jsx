@@ -1,23 +1,28 @@
 import React from "react";
+import './NavBar.css';
+import { Link } from "react-router-dom";
+
+
 function NavBar(){
   return(
       <>
       <div className="Container">
     <img className="logo"  src="/UG LOGO.PNG"></img>
      <div className="Nav-links">
-      <div className="nav-item">HOME</div>
-      <div className="nav-item">LOGIN</div>
-      <div className="nav-item">DASHNOARD</div>
+      <Link to="/"><div className="nav-item">HOME</div></Link>
+      <Link to="/Login"><div className="nav-item">LOGIN</div></Link>
+      <Link to= "/Dashboard"><div className="nav-item">DASHBOARD</div> </Link>
       <div className="nav-item">GRADE REPORT</div>
-      <div className="nav-item">MISSING GRADE</div>
+      <Link to= "/MissingGrade"><div className="nav-item">MISSING GRADE</div> </Link>
       <div className="nav-item">CONTACT US</div>
-      <div className="nav-item">HELP</div>
+      <Link to="/Help"><div className="nav-item">HELP</div> </Link>
+      
       
 
      </div>
      </div>
      </>
-  )
+  );
 
 }
  
