@@ -135,5 +135,12 @@ export const data1 = [
     }
   ];
   
+
+  export const Auth = [
+    {
+      studentID: 11259806,
+      pin: 1234
+    }
+  ]
   
   

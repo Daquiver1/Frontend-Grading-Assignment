@@ -9,6 +9,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 import ArrowBackOutlinedIcon from '@mui/icons-material/ArrowBackOutlined';
 import HelpOutlineOutlinedIcon from '@mui/icons-material/HelpOutlineOutlined';
 import CallOutlinedIcon from '@mui/icons-material/CallOutlined';
+import ReportGmailerrorredIcon from '@mui/icons-material/ReportGmailerrorred';
 
 function LSideBar() {
     const [collapsed,setCollapsed] = useState(false)
@@ -45,14 +46,15 @@ const logout = () => {
                     <CallOutlinedIcon fontSize="medium" />
                     {!collapsed && <span>Contact Instructor</span>}
                 </NavLink>
+                <NavLink to='/missinggradeform' className={'flex items-center gap-2 p-2 ' + (collapsed? "justify-center" : "")} >
+                    <ReportGmailerrorredIcon fontSize="medium" />
+                    {!collapsed && <span>Report Grade </span>}
+                </NavLink>
                 <NavLink to='/help' className={'flex items-center gap-2 p-2 ' + (collapsed? "justify-center" : "")} >
                     <HelpOutlineOutlinedIcon fontSize="medium" />
                     {!collapsed && <span>Help </span>}
                 </NavLink>
-                <NavLink to='profile' className={'flex items-center gap-2 p-2 ' + (collapsed? "justify-center" : "")} >
-                    <PersonIcon fontSize="medium" />
-                    {!collapsed && <span>Profile</span>}
-                </NavLink>
+                
                 <p onClick={logout} className={'flex items-center gap-2 p-2 cursor-pointer ' + (collapsed? "justify-center" : "")} >
                     <LogoutIcon fontSize="medium" />
                     {!collapsed && <span>Logout</span>}
