@@ -1,0 +1,10 @@
+/* Add this to your App.css or another CSS file */
+.left-side {
+    display: flex;
+    align-items: center;
+  }
+  
+  .right-side {
+    margin-left: auto;
+  }
+  

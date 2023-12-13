@@ -1,0 +1,23 @@
+/* MissingGradeForm.css */
+.missing-grade-form {
+    background-color: #9a616d;
+    color: black;
+    min-height: 100vh;
+  }
+  
+  .missing-grade-form h1 {
+    font-size: 2rem;
+  }
+  
+  .missing-grade-form Form {
+    max-width: 400px;
+    margin: auto;
+  }
+  
+  .missing-grade-form .btn-block {
+    margin-top: 20px;
+  }
+  
+  .py-5{
+    background-color: #ceb1b1;;
+  }

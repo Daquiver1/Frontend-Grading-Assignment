@@ -1,0 +1,20 @@
+/* GradeReportPage.css */
+
+.grade-report {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+}
+  
+.table {
+    margin-top: 20px;
+}
+  
+.semester-count-info {
+    margin-top: 20px;
+    font-weight: bold;
+}
+.gradereport-button :hover{
+    color: darkblue;
+}
+  

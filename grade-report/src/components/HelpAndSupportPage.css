@@ -1,0 +1,11 @@
+
+.button-blue:hover {
+    background-color: darkblue;
+    border-color: rgb(6, 6, 42);
+    color: white;
+  }
+
+.heading{
+  text-align: center;
+  color: darkblue;
+}
