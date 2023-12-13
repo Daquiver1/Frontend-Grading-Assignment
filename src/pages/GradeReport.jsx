@@ -1,7 +1,7 @@
 import React from 'react'
 import { data1 } from '../data/data'
 
-function Courses() {
+function GradeReport() {
   const colors = {
     "A": "bg-green-500/70",
     "B": "bg-blue-700/70",
@@ -37,4 +37,4 @@ function Courses() {
   )
 }
 
-export default Courses
+export default GradeReport

@@ -28,18 +28,22 @@ const logout = () => {
         <div className='w-full p-1'>
             {!collapsed && <div className='flex flex-col justify-center items-center p-2 text-blue-950'>
                 <span className='text-gray-500'>Student</span>
-                <h1 className='text-xl'>Ampah Kuuku</h1>
+                <h1 className='text-xl'>Esinam Dodoo</h1>
             </div>}
             {collapsed && <p className='text-center text-2xl font-bold'>-</p>}
 
             <div className='w-full flex flex-col gap-2 mt-5 text-blue-950 text-lg links'>
-                <NavLink to='/' className={'flex items-center gap-2 p-2 ' + (collapsed? "justify-center" : "")} >
+                <NavLink to='/Home' className={'flex items-center gap-2 p-2 ' + (collapsed? "justify-center" : "")} >
+                    <DashboardOutlinedIcon fontSize="medium"/>
+                    {!collapsed && <span>Home</span>}
+                </NavLink>
+                <NavLink to='/StDashBoard' className={'flex items-center gap-2 p-2 ' + (collapsed? "justify-center" : "")} >
                     <DashboardOutlinedIcon fontSize="medium"/>
                     {!collapsed && <span>Student Dashboard </span>}
                 </NavLink>
-                <NavLink to='/courses' className={'flex items-center gap-2 p-2 ' + (collapsed? "justify-center" : "")} >
+                <NavLink to='/GradeReport' className={'flex items-center gap-2 p-2 ' + (collapsed? "justify-center" : "")} >
                     <MenuBookOutlinedIcon fontSize="medium" />
-                    {!collapsed && <span>Courses </span>}
+                    {!collapsed && <span>GradeReport </span>}
                 </NavLink>
                 <NavLink to='/contact' className={'flex items-center gap-2 p-2 ' + (collapsed? "justify-center" : "")} >
                     <CallOutlinedIcon fontSize="medium" />
