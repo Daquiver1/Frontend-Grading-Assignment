@@ -1,12 +1,18 @@
 import "../css/index.css"
 import Hearder from "./Hearder"
+import Footer from "./Footer"
+  
+
+  
+
 
 const Contact = () => {
   return (
     <div>
       <Hearder/>
+      <Footer/>
       
-      Contact</div>
+     </div>
   )
 }
 
