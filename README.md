@@ -45,13 +45,13 @@ To contribute to this project, please follow these guidelines:
 
 ## Screenshots
 
-![Frontpage](./frontpage.jpg)
-![Login](./loginpage.jpg)
-![Dashboard](./dashboard.jpg)
-![Dashboard](./dashboard2.jpg)
-![GradeReport](./gradereport.jpg)
-![MissingGrade](./missinggrade.jpg)
-![Help](./help.jpg)
+![Frontpage](./images/frontpage.jpg)
+![Login](./images/loginpage.jpg)
+![Dashboard](./images/dashboard.jpg)
+![Dashboard](./images/dashboard2.jpg)
+![GradeReport](./images/gradereport.jpg)
+![MissingGrade](./images/missinggrade.jpg)
+![Help](./images/help.jpg)
 
 
 
