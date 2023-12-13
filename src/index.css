@@ -361,3 +361,66 @@ input {
   text-align: center;
   color: #333;
 }
+body.contact-form-container {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f4f4;
+}
+
+.contact-form {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group textarea {
+  width: 600px;
+  padding: 8px;
+  border-radius: 3px;
+  border: 1px solid rgb(171, 117, 47);
+}
+
+.form-group textarea {
+  resize: vertical;
+}
+
+button[type="submit"] {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  background-color:  rgb(19, 63, 121);
+  color:rgb(171, 117, 47);
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color, color 0.15s;
+}
+
+button[type="submit"]:hover {
+  background-color:  rgb(19, 63, 121);
+}
+
+button[type="submit"]:active{
+  opacity: 0.7;
+}
