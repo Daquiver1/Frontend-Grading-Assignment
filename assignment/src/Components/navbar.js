@@ -14,7 +14,7 @@ function Navbar(){
                 <a href="/#">Home</a>
                 <a href="/#">Dashboard</a>
                 <a href="/#">Contact </a>
-                <a href="Login.js">Login</a>
+                <a href="">Login</a>
                 <button className="nav-btn nav close-btn" onClick={showNavbar}>
                         <FaTimes />
                 </button>
@@ -23,9 +23,6 @@ function Navbar(){
                 <FaBars/>
             </button>
         </header>
-        <div>
-            <h1>SDFGHJ</h1>
-        </div>
         </>
         
         

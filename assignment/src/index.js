@@ -3,11 +3,13 @@ import ReactDOM from 'react-dom/client';
 import Login from './Pages/Login';
 import './index.css';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
 import Navbar from './Components/Navbar';
-import DashboardPage from './Pages/Dashboard';
 import GradeReportPage from './Pages/GradeReport';
-import Contact from './Pages/Contact';
+import Dashboard from './Pages/Dashboard';
+import MissingGradeFormPage from './Pages/MissingGradeReport';
+import Landing from './Pages/Landing page';
+import { reportWebVitals } from './reportWebVitals';
+
 
 
 
@@ -18,7 +20,4 @@ root.render(
   </React.StrictMode>
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
