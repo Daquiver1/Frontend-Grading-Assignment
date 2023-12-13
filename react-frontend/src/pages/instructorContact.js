@@ -1,71 +1,79 @@
 import React, { useState } from "react";
-import "./styles/Contactus.css";
-import emailjs from "@emailjs/browser";
-function ContactUs() {
-  const [name, setName] = useState("");
-  const [subject, setSubject] = useState("");
+import "../styles/contactus.css";
+
+const ContactForm = () => {
+  const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
-  function sendEmail(e) {
+  const [subject, setSubject] = useState("");
+
+  const instructors = [
+    {
+      name: "Micheal Agbo Tettey Soli",
+      email: "magbo@ug.edu.gh",
+      phone: "+233 200 200 200",
+    },
+    {
+      name: "Paul Ammah",
+      email: "Pamma@ug.edu.gh",
+      phone: "+233 200 200 200",
+    },
+    {
+      name: "Abdullai Dwumfour Aziz",
+      email: "Ada@ug.edu.gh",
+      phone: "+233 200 200 200",
+    },
+    {
+      name: "Benjamin Ghansah",
+      email: "benghansah@ug.edu.gh",
+      phone: "+233 200 200 200",
+    },
+  ];
+
+  const handleSubmit = (e) => {
     e.preventDefault();
-    emailjs
-      .sendForm(
-        "service_568b21c",
-        "template_40397dq",
-        e.target,
-        "user_DhJHGzKYgVZFvRrTQWOxN"
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
-  }
+
+    console.log("Email:", email);
+    console.log("Message:", message);
+    console.log("Subject:", subject);
+  };
+
   return (
     <div className="contact-us">
-      <form onSubmit={sendEmail}>
-        <label>Your Name:</label>
-        <input
-          type="text"
-          name="name"
-          value={name}
-          onChange={(e) => {
-            setName(e.target.value);
-          }}
-          required
-        />
-        <br />
-        <label>Subject:</label>
-        <select
-          name="subject"
-          value={subject}
-          onChange={(e) => {
-            setSubject(e.target.value);
-          }}
-        >
-          <option value="">--Please choose an option--</option>
-          <option value="General Inquiry">General Inquiry</option>
-          <option value="Feedback">Feedback</option>
-          <option value="Technical Issue">Technical Issue</option>
-        </select>
-        <br />
-        <label>Message:</label>
-        <textarea
-          name="message"
-          rows="4"
-          cols="50"
-          value={message}
-          onChange={(e) => {
-            setMessage(e.target.value);
-          }}
-          required
-        ></textarea>
-        <br />
-        <button type="submit">Send</button>
-      </form>
+      <div className="wrapper">
+        <h2>Contact Us</h2>
+        <form onSubmit={handleSubmit}>
+          <div className="input-group">
+            <label htmlFor="name">Name:</label>
+            <input type="text" id="name" name="name" required />
+          </div>
+          <div className="input-group">
+            <label htmlFor="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <div className="input-group">
+            <label htmlFor="subject">Subject:</label>
+            <input type="text" id="subject" name="subject" required />
+          </div>
+          <div className="input-group">
+            <label htmlFor="message">Message:</label>
+            <textarea id="message" name="message" required />
+          </div>
+          <div className="instructors">
+            {instructors.map((instructor) => (
+              <div key={instructor.id} className="instructor">
+                <h3>{instructor.name}</h3>
+                <p>Email: {instructor.email}</p>
+                <p>Phone: {instructor.phone}</p>
+              </div>
+            ))}
+          </div>
+          <div className="submit-btn">
+            <button type="submit">Submit</button>
+          </div>
+        </form>
+      </div>
     </div>
   );
-}
-export default ContactUs;
+};
+
+export default ContactForm;

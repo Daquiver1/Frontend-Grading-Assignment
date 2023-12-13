@@ -6,7 +6,7 @@ import { Alert } from "./alert";
 
 function Dashboard() {
   const [loading, setLoading] = useState(false);
-  const [alertState, setAlertState] = useState({});
+
   useEffect(() => {
     setLoading(true);
     setTimeout(() => {
@@ -21,7 +21,6 @@ function Dashboard() {
         </div>
       ) : (
         <>
-          <Alert alertState={alertState} setAlertState />
           <header>
             <h1>Academic Record</h1>
           </header>
