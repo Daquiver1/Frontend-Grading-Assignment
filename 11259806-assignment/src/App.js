@@ -1,26 +1,15 @@
-import { createBrowserRouter,RouterProvider,Route } from "react-router-dom"
 import Layout from "./pages/Layout"
 
 
 function App() {
-const router = createBrowserRouter(
-  [
-    {
-       path: "/",
-       element: <Layout />,
-       
-         
-       
-    }
-  ]
-)
+
 
 
   
   return (
-    <>
-      <RouterProvider router={router}/>
-    </>
+    <div>
+      <Layout/>
+    </div>
   )
 }
 
