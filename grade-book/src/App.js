@@ -17,18 +17,7 @@ import HelpAndSupportPage from "./Components/HelpAndSupportPage";
 
 function App() {
   return (
-    <Router>
-      <Switch>
-        <Route path="/" component={LandPage} />
-        <Route path="/login" component={LoginPage} />
-        <Route path="/home" component={HomePage} />
-        <Route path="/Dashboard" component={DashboardPage} />
-        <Route path="/GradeReport" component={GradeReportPage} />
-        <Route path="/Missinggrade" component={MissingGradePage} />
-        <Route path="/contact" component={ContactPage} />
-        <Redirect from="/" to="/login" />
-      </Switch>
-    </Router>
+    <HelpAndSupportPage/>
   );
 }
 
