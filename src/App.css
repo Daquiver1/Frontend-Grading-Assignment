@@ -1,0 +1,63 @@
+
+.main-div{ 
+  background-color: blue;
+  color: red;
+  background-image:  url("./WhatsApp Image 2023-12-05 at 13.20.08.png");
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container-class{
+  background-image: url("../public/WhatsApp\ Image\ 2023-12-05\ at\ 19.58.54\ \(1\).jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.welcome-text{
+  font-family: fantasy;
+}
+
+.dashboard{
+  background-image: url("../public/mountain.avif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.missing{
+  background-image: url("../public/water.avif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.contact{
+  background-image: url("../public/developer.avif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.help{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.report{
+  background-image: url("/public/download.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}

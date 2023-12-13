@@ -27,17 +27,55 @@ The application consists of 7 main pages:
 To set up the project locally, follow these steps:
 
 ```bash
-git clone https://github.com/your-github-username/DCIT_205_ASSIGNGMENT1.git
-cd repo-name
-npm install
+git clone https://github.com/Endykay23/11352955_DCIT205_Assignment1.git
+cd 11352955_DCIT205_Assignment1
+npx create-react-app 11352955_DCITR_205_Assignment1
 npm start
 ```
 
-This will start the application on `localhost` at the default port.
+This will start the application on `localhost` at the default port, which is usually Port 3000.
 
 ## Usage
 
 Describe how to use the application, highlighting key functionalities such as logging in, viewing grades, reporting missing grades, and contacting instructors.
+
+Component-Based Architecture:
+React encourages a component-based approach, where each part of your user interface is broken down into reusable components. Create components for the login page, grade viewing, missing grades reporting, and contacting instructors.
+
+Login Page:
+Design a login page component that captures user credentials. Use React's state management to handle the input fields and submit button. Upon submission, the component can trigger an authentication process, possibly communicating with a backend server to verify the user's identity.
+
+User Authentication:
+React can handle the rendering and interaction of the login page, but the actual authentication logic should be implemented on the server-side. Upon successful authentication, you can manage the user's authentication state within your React application, allowing access to protected routes or components.
+
+Dashboard and Navigation:
+Create a dashboard component that acts as the main interface after login. Implement navigation within the dashboard to switch between different sections, such as viewing grades, reporting missing grades, and contacting instructors. React Router is commonly used for this purpose.
+
+Grade Viewing:
+Develop a component responsible for fetching and displaying the user's grades. Utilize React's lifecycle methods or useEffect hook to initiate API requests to the server. Render the retrieved data in a user-friendly format, allowing users to easily understand and navigate their grades.
+
+Missing Grades Reporting:
+Create a form-based component for reporting missing grades. Use React's state to manage the form input and handle the submission process. Upon form submission, the component can send a request to the backend to record the missing grade report.
+
+Contacting Instructors:
+Implement a component for contacting instructors, allowing users to send messages or inquiries. This component could include a form for composing messages and interacting with the backend to send the messages to the relevant instructors. React state management can help in handling the form input and submission.
+
+State Management:
+Leverage React's state management to maintain the state of the application. Keep track of user authentication status, grades data, form input, and other relevant information using local state or state management libraries such as Redux.
+
+Event Handling:
+Use React's event handling capabilities to respond to user interactions. For instance, trigger functions to handle button clicks, form submissions, or other user-triggered events. These events can then initiate the necessary actions, such as API calls or state updates.
+
+Responsive UI:
+Design your components with a responsive user interface to ensure a seamless user experience across various devices. Use CSS frameworks or styling libraries (such as Tailwind CSS or Styled Components) to create a visually appealing and user-friendly interface.
+
+Feedback and Notifications:
+Implement feedback mechanisms to inform users about the success or failure of actions. Use React to display notifications, error messages, or confirmation messages based on user interactions. Provide clear feedback to enhance the user experience.
+
+Testing:
+Consider testing your React components to ensure they function as expected. Use testing libraries like Jest and React Testing Library to write unit tests, integration tests, and end-to-end tests for your components and application functionalities.
+
+By following these principles, you can create a robust and user-friendly school report system using React, allowing users to seamlessly log in, view grades, report missing grades, and contact instructors.
 
 ## Contribution
 
