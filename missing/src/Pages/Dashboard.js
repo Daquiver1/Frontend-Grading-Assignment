@@ -83,7 +83,7 @@ function Dashboard() {
                 </div>
                 <div className="grid grid-cols-2 gap-4">
                     <div className="items-center justify-center p-4 rounded bg-gray-50 h-48 dark:bg-violet-100">
-                        <h2 class="mb-2 text-lg font-semibold text-gray-900">Password requirements:</h2>
+                        <h2 class="mb-2 text-lg font-semibold text-gray-900">Number of missing grades:</h2>
                         <ul class="max-w-md space-y-1 text-gray-700 list-disc list-inside dark:text-gray-500">
                             <li>
                                 At least 10 characters (and up to 100 characters)
@@ -125,7 +125,7 @@ function Dashboard() {
                         </ul> 
                     </div>
                     <div className="items-center justify-center p-4 rounded bg-gray-50 h-48 dark:bg-blue-100">
-                        <h2 class="mb-2 text-lg font-semibold text-gray-900">Password requirements:</h2>
+                        <h2 class="mb-2 text-lg font-semibold text-gray-900">Number of Resits:</h2>
                         <ul class="max-w-md space-y-1 text-gray-700 list-disc list-inside dark:text-gray-500">
                             <li>
                                 At least 10 characters (and up to 100 characters)
