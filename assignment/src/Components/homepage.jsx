@@ -15,11 +15,11 @@ const LandingPage = () => {
             <Button variant="primary">Go to Dashboard</Button>
           </Link>
           {' '}
-          <Link to="/grade-report">
+          <Link to="/gradereport">
             <Button variant="secondary">View Grade Report</Button>
           </Link>
           {' '}
-          <Link to="/help-and-support">
+          <Link to="/help">
             <Button variant="info">Get Help & Support</Button>
           </Link>
         </p>

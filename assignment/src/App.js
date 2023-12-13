@@ -10,6 +10,7 @@ import ContactInstructor from './Components/contact';
 import MyModal from './Components/login';
 import HelpAndSupportPage from './Components/help';
 import MissingGradeForm from './Components/missing grade form';
+import AppFooter from './Components/footer';
 
 
 
@@ -21,15 +22,15 @@ function App() {
     <>
     <AppNavbar />
     <Routes>
-      <Route path ='/' element={<LandingPage />} />
+      <Route path ='homepage' element={<LandingPage />} />
       <Route path="dashboard" element={<Dashboardpage />} />
-      <Route path="grade report" element={<GradeReportPage />} />
-      <Route path="instructor" element={<ContactInstructor />} />
+      <Route path="gradereport" element={<GradeReportPage />} />
+      <Route path="contact" element={<ContactInstructor />} />
       <Route path="login" element={<MyModal />} />
-      <Route path="help and support" element={<HelpAndSupportPage />} />
+      <Route path="help" element={<HelpAndSupportPage />} />
       <Route path="missing grade form" element={<MissingGradeForm />} />
     </Routes>
-    
+    <AppFooter />
     </>
   );
 }
