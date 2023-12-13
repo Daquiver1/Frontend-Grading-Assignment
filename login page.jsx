@@ -1,7 +1,7 @@
 // Login.js
 
 import React from 'react';
-import './Login.css'; // Import the CSS file for styling
+import './Login.css'; 
 
 const Login = () => {
   return (
@@ -10,7 +10,7 @@ const Login = () => {
         <h2>Login to Your Account</h2>
       </header>
       <nav>
-        <a href="/landing page.html">Home</a>
+        <a href="/landing page">Home</a>
         <a href="/login page">Login</a>
         <a href="/dashboard">Dashboard</a>
         <a href="/grade-report">Grade Report</a>
