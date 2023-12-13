@@ -4,7 +4,6 @@ import { useState } from "react";
 function LoginPage() {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
-  const [isHuman, setIsHuman] = useState(false);
 
   const handleUsernameChange = (event) => {
     setUsername(event.target.value);
@@ -14,13 +13,8 @@ function LoginPage() {
     setPassword(event.target.value);
   };
 
-  const handleCheckboxChange = (event) => {
-    setIsHuman(event.target.checked);
-  };
-
   const handleSubmit = (event) => {
     event.preventDefault();
-    // Perform login logic here
     console.log("Username:", username);
     console.log("Password:", password);
   };
