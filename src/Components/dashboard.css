@@ -174,9 +174,20 @@
     gap: 40px;
 }
 
+.missing-grade-form,
+.missing-grade-list {
+    min-height: 340px;
+}
+
 .missing-grade-list span {
     font-size: 1.2em;
     font-weight: 600;
+    border-bottom: 1px solid grey;
+    padding-bottom: 10px;
+}
+
+.missing {
+    padding-top: 8px;
 }
 
 .missing div {
@@ -187,10 +198,153 @@
     margin: 10px 0 10px 0;
 }
 
-.missing-grade-form span{
+.select-lable {
     font-weight: 600;
     font-size: 1.2em;
 }
+
+.email-lable {
+    font-size: 1.2em;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+select {
+    width: 400px;
+    height: 40px;
+    padding: 10px;
+}
+
+.missing-grade-form {
+    display: flex;
+    flex-direction:column;
+}
+
+.missing-grade-form input {
+    width: 400px;
+    height: 40px;
+    padding: 10px;
+    outline: none;
+    border: none;
+    border: 1px solid grey;
+    border-radius: 6px;
+}
+
+.missing-grade-form .btn {
+    width: 100px;
+    height: 39px;
+    padding: 10px;
+    background: aqua;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.ContactInstructor {
+    height: 80dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.instructor-form,
+.instructor-list {
+    min-height: 340px;
+}
+
+.instructor-list span {
+    font-size: 1.2em;
+    font-weight: 600;
+    border-bottom: 1px solid grey;
+    padding-bottom: 10px;
+}
+
+.instructors {
+    padding-top: 8px;
+}
+
+.instructors div div{
+    width: 100%;
+}
+
+.instructors div {
+    width: 320px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(77, 77, 77);
+    margin: 10px 0 10px 0;
+}
+
+.instructor-form {
+    display: flex;
+    flex-direction:column;
+}
+
+.instructor-form input {
+    width: 400px;
+    height: 40px;
+    padding: 10px;
+    outline: none;
+    border: none;
+    border: 1px solid grey;
+    border-radius: 6px;
+}
+
+.instructor-form .btn {
+    width: 100px;
+    height: 39px;
+    padding: 10px;
+    background: aqua;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.textarea-lable {
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 1.2em;
+}
+
+.faq-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #b2ebf2; /* Light aqua border */
+    background-color: #ffffff; /* White background */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    color: #009688; /* Aqua color for heading */
+  }
+  
+  .faq-section {
+    margin-top: 20px;
+  }
+  
+  .faq-question {
+    border: 1px solid #b2ebf2; /* Light aqua border */
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+  }
+  
+  h3 {
+    color: #009688; /* Aqua color for question headings */
+  }
+  
+  p {
+    color: #555;
+  }
 
 @keyframes animation {
     0%{transform: translateX(200px);}
