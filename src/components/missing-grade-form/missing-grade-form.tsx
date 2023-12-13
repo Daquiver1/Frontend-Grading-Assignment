@@ -23,7 +23,7 @@ export const MissingGradeForm = ({ className }: MissingGradeFormProps) => {
                     <input type="text" className={styles.input} />
                     <label className={styles.label}>Explanation:</label>
                     <textarea className={styles.input} />
-                    <button className={styles.btn}>Button</button>
+                    <button className={styles.btn}>Submit</button>
                 </form>
             </div>
         </div>

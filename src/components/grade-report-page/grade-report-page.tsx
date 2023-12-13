@@ -1,8 +1,8 @@
 import classNames from 'classnames';
 import styles from './grade-report-page.module.scss';
-import { Navigation } from '../navigation/navigation';
-import { Sidebar } from '../sidebar/sidebar';
 import React, { useState } from 'react';
+import { Footer } from '../footer/footer';
+import { Navigation } from '../navigation/navigation';
 export interface GradeReportPageProps {
     className?: string;
 }
@@ -30,6 +30,7 @@ const allCourses: Course[] = [
 ];
 
 
+
 export const GradeReportPage = ({ className }: GradeReportPageProps) => {
 
     const [courses, setCourses] = useState<Course[]>(allCourses);
@@ -48,9 +49,8 @@ export const GradeReportPage = ({ className }: GradeReportPageProps) => {
 
     return <div className={classNames(styles.root, className)}>
         <Navigation />
-        <Sidebar />
         <div className={styles.GR}>
-            <h2>Grade Report</h2>
+            <h2 className={styles.ti}>Grade Report</h2>
             <div className={classNames('semester-filter', styles.SF)}>
                 <label htmlFor="semester">Filter by Semester:</label>
                 <select id="semester" onChange={(e) => filterCoursesBySemester(e.target.value)} className={styles.SL}>
@@ -59,8 +59,7 @@ export const GradeReportPage = ({ className }: GradeReportPageProps) => {
                     <option value="Second Semester">Second Semester</option>
                 </select>
             </div>
-            <div className={styles['grade-report-page']}>
-                <h3 className={classNames(styles.h3, styles.H3)}>Current Grades</h3>
+            <div className={styles.grp}>
                 <ul className={classNames(styles.ul, styles.UL)}>
                     {courses.map((grade, index) => (
                         <li key={index} className={classNames(styles.li, styles.LI)}>
@@ -70,5 +69,6 @@ export const GradeReportPage = ({ className }: GradeReportPageProps) => {
                 </ul>
             </div>
         </div>
+        <Footer />
     </div>;
 };

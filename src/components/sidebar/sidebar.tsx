@@ -5,35 +5,32 @@ export interface SidebarProps {
     className?: string;
 }
 
-/**
- * This component was created using Codux's Default new component template.
- * To create custom component templates, see https://help.codux.com/kb/en/article/kb16522
- */
+
 export const Sidebar = ({ className }: SidebarProps) => {
     return <div className={classNames(styles.root, className)} title="">
         <div className={styles.did}>
             <div className={styles.di}>
                 <div className={styles.vi} />
                 <div className={styles.iv}>
-                    <h2 className={styles.button}>Home</h2>
+                    <a href="/home"><h2 className={styles.button}>Home</h2></a>
                 </div>
                 <div className={styles.iv}>
-                    <h2 className={styles.button}>Contact Us</h2>
+                    <a href="/instructorContact"><h2 className={styles.button}>Contact Us</h2></a>
                 </div>
                 <div className={styles.iv}>
-                    <h2 className={styles.button}>Help </h2>
+                    <a href="/helpAndSupport"><h2 className={styles.button}>Help </h2></a>
                 </div>
                 <div className={styles.iv}>
-                    <h2 className={styles.button}>Grade Report</h2>
+                    <a href="/gradeReport"><h2 className={styles.button}>Grade Report</h2></a>
                 </div>
                 <div className={styles.iv}>
-                    <h2 className={styles.button}> Form</h2>
+                    <a href="/missingGradeForm"><h2 className={styles.button}> Form</h2></a>
                 </div>
                 <div className={styles.iv}>
-                    <h2 className={styles.button}>Login</h2>
+                    <a href="/login"><h2 className={styles.button}>Login</h2></a>
                 </div>
                 <div className={styles.iv}>
-                    <h2 className={styles.button}>Overview</h2>
+                    <a href="/dashboard"><h2 className={styles.button}>Overview</h2></a>
                 </div>
             </div>
             <div className={styles.ki} />

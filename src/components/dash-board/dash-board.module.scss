@@ -1,0 +1,27 @@
+.root {}
+
+.cut {
+    height: 110vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.ut {
+    width: 80%;
+    background-image: linear-gradient(black, rgba(255, 255, 255, 0));
+    background-color: transparent;
+    color: #FFFFFF;
+}
+
+.up {
+    text-align: center;
+    color: #5E2D2D;
+    background-image: linear-gradient(180deg, #000000 32%, rgba(255, 255, 255, 0) 100%);
+    background-color: transparent;
+    background-position: 0%;
+    background-size: auto;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-origin: padding-box;
+    background-clip: border-box;
+}

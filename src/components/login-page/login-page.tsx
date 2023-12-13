@@ -5,10 +5,7 @@ export interface LoginPageProps {
     className?: string;
 }
 
-/**
- * This component was created using Codux's Default new component template.
- * To create custom component templates, see https://help.codux.com/kb/en/article/kb16522
- */
+
 export const LoginPage = ({ className }: LoginPageProps) => {
     return <div className={classNames(styles.root, className)}>
         <div className={styles.log}>
@@ -19,10 +16,10 @@ export const LoginPage = ({ className }: LoginPageProps) => {
             <h2 className={styles.vh}>Login Here</h2>
             <form className={styles.from}><label className={styles.nam}>Student ID</label><input type="text" className={styles.put} />
                 <label className={styles.nam}>PIN</label>
-                <input type="text" className={styles.put} />
+                <input type="password" className={styles.put} />
                 <label className={styles.nam}></label>
                 <label className={styles.label}></label>
-                <button type="submit" className={styles.butto}>Login</button>
+                <button type="submit" className={styles.butto}><a href="/home">Login</a></button>
             </form></div>
 
     </div>;
