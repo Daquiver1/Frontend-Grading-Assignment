@@ -3,7 +3,10 @@ const Footer = () => {
     <footer>
       <div className="footer">
         <h1>Welcome </h1>
-        <div className="base-div">2022@Copyright Preserved</div>
+        <div className="base-div">
+          {" "}
+          &copy; 2023 Missing Grade Reporting System. All rights reserved
+        </div>
       </div>
     </footer>
   );

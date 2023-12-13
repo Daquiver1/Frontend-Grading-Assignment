@@ -1,37 +1,42 @@
+import { Outlet, Link } from "react-router-dom";
+
 const Navbar = () => {
   return (
-    <nav>
-      <div className="Navbar">
-        <h1>
-          Missing <span>Grade Reporting</span> System
-        </h1>
-        <div className="links">
-          <ul>
-            <li>
-              <a href="<Home/>">Home</a>
-            </li>
-            <li>
-              <a href="<Login/>">Login</a>
-            </li>
-            <li>
-              <a href="<Dashboard/>">Dashboard</a>
-            </li>
-            <li>
-              <a href="<Grade/>">Grade Report</a>
-            </li>
-            <li>
-              <a href="<Missing/>">Missing Grade</a>
-            </li>
-            <li>
-              <a href="<Instructor/>">Instructor Contact</a>
-            </li>
-            <li>
-              <a href="<Help/>">Help & Support</a>
-            </li>
-          </ul>
+    <>
+      <nav>
+        <div className="Navbar">
+          <h1>
+            <span>Missing Grade Reporting System</span>
+          </h1>
+          <div className="links">
+            <ul>
+              <li>
+                <Link to="/">Home</Link>
+              </li>
+              <li>
+                <Link to="/login">Login</Link>
+              </li>
+              <li>
+                <Link to="/dashboard">Dashboard</Link>
+              </li>
+              <li>
+                <Link to="/grade">Grade Report</Link>
+              </li>
+              <li>
+                <Link to="/help">Help and Support</Link>
+              </li>
+              <li>
+                <Link to="/instructor">Instructor Contact</Link>
+              </li>
+              <li>
+                <Link to="/missing">Missing Grade</Link>
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
-    </nav>
+      </nav>
+      <Outlet />
+    </>
   );
 };
 export default Navbar;

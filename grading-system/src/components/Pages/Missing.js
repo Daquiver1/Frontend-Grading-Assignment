@@ -1,7 +1,18 @@
 import { FaChalkboardTeacher, FaBook } from "react-icons/fa";
 import { MdGrade } from "react-icons/md";
+import React from "react";
+import { toast, ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const Missing = () => {
+  const showAlert = () => {
+    // Display a simple toast message
+    toast.info("Your response is being submitted.", {
+      position: toast.POSITION.TOP_CENTER,
+      autoClose: 3000, // Close the alert after 3000 milliseconds (3 seconds)
+    });
+  };
+
   return (
     <div className="missing-wrapper">
       <form action="">
@@ -21,7 +32,10 @@ const Missing = () => {
         <div className="complain-area">
           <textarea type="message" placeholder="What do you have to say?" />
         </div>
-        <button type="submit">Submit</button>
+        <button onClick={showAlert} type="submit">
+          Submit
+        </button>
+        <ToastContainer />
       </form>
     </div>
   );
