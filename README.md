@@ -68,3 +68,44 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+Assignment Overview
+In this assignment, you will develop a 7-page website that acts as the front for a "Missing Grade Reporting System". This system is designed to help students track and report grades that are not recorded in their academic profiles. The goal is to create an interactive, user-friendly interface that enables students to view their grades, report missing grades, and communicate with their instructors or academic administration.
+
+
+Features
+
+The website should be responsive.
+Landing Page
+Overview of the system.
+Navigation links to other pages.
+Login Page
+Secure login form for students. (Student ID and PIN)
+Authentication simulation (no real backend, just a mock-up)
+Dashboard Page
+Overview of the student’s current grades.
+Alerts or notifications for any missing grades.
+Grade Report Page
+Detailed view of all courses and respective grades.
+Option to filter by semester/academic year.
+Missing Grade Form Page
+Form to report a missing grade.
+Fields: Course name, Instructor name, Expected grade, Explanation field.
+Submit button to report (no real submission, just a confirmation message).
+Instructor Contact Page
+List of instructors with contact details.
+Option to send a simulated email to the instructor (no real email, just a mock-up).
+Help and Support Page
+FAQ section regarding grade reporting.
+Contact form for technical support (mock-up).
+Navigation
+There should be a navbar/sidebar.
+There should be a footer.
+
+Permitted Technologies for Development:
+
+React
+CSS/Bootstrap/Tailwind
+Vite(Optional)
+
