@@ -1,0 +1,400 @@
+/* LandingPage.css */
+.landing-page {
+    text-align: center;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+
+  body, html {
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+  }
+  
+  header {
+    background-color: #3498db;
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.ug-logo {
+  width: 300px; /* Adjust the logo size as needed */
+  height: 80px;
+  margin-right: 100px; /* Adjust the spacing between the logo and text */
+}
+
+.logo h1 {
+  color: #ffffff;
+  margin: 0;
+  font-size: 24px;
+}
+  
+  .hero-section {
+    padding: 40px 0;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #2ecc71;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .cta-button:hover {
+    background-color: #27ae60;
+  }
+  
+  /* LandingPage.css */
+/* ... (existing styles) ... */
+
+.features-section {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px 0;
+  background-color: #f9f9f9; /* Background color for the feature section */
+  border-radius: 10px; /* Optional: Add rounded corners to the feature section */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle box shadow */
+}
+
+.feature {
+  flex: 0 1 30%;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin: 0 10px;
+  background-color: #ffffff; /* Background color for each feature box */
+  transition: transform 0.3s, box-shadow 0.3s; /* Optional: Add transition effects */
+}
+
+.feature:hover {
+  transform: translateY(-5px); /* Optional: Add a subtle lift on hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add a box shadow on hover */
+}
+
+.feature h3 {
+  color: #3498db; /* Adjust the color as needed */
+  font-size: 18px; /* Adjust the font size as needed */
+}
+
+.feature p {
+  color: #666;
+}
+
+/* ... (rest of the styles) ... */
+
+  
+  footer {
+    background-color: #f1f1f1;
+    padding: 10px 0;
+  }
+  
+  /* LandingPage.css */
+/* ... (existing styles) ... */
+
+.login-form-container {
+  text-align: center;
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: #ffffff; /* Background color for the login container */
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle box shadow */
+  padding: 20px;
+  margin-top: 20px; /* Optional: Adjust the top margin */
+}
+
+.avatar-container {
+  margin-bottom: 20px;
+}
+
+.avatar {
+  width: 80px; /* Adjust the avatar size as needed */
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #3498db; /* Optional: Add a border to the avatar */
+}
+
+.form label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.login-heading {
+  color: #3498db;
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.form input {
+  width: 50%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form button {
+  background-color: #3498db;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form button:hover {
+  background-color: #2980b9;
+}
+
+/* Your existing styles */
+
+.dashboard-container {
+  display: flex;
+}
+
+.sidebar {
+  background-color: rgba(0, 0, 0, 0.8); /* Black with 80% transparency */
+  color: #fff;
+  width: 250px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.sidebar .student-info {
+  text-align: center;
+}
+
+.sidebar img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.sidebar nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar nav ul li {
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.sidebar nav ul li:hover {
+  background-color: #2980b9; /* Hover color */
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* Your existing styles for Dashboard */
+/* ... (existing styles) ... */
+
+/* Updated color scheme */
+:root {
+  --primary-color: #2ecc71; /* Emerald Green */
+  --secondary-color: #3498db; /* Dodger Blue */
+  --accent-color: #e74c3c; /* Alizarin Crimson */
+  --background-color: #ecf0f1; /* Clouds */
+  --text-color: #2c3e50; /* Midnight Blue */
+}
+
+/* Style for the sidebar */
+.sidebar {
+  background-color: rgba(0, 0, 0, 0.8); /* Black with 80% transparency */
+  color: #fff;
+  width: 250px;
+  padding: 20px;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif; /* Change to your desired font */
+}
+
+.sidebar .student-info p {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px;
+  cursor: none;
+  border-radius: 5px;
+  background-color: green; /* Default hover background color */
+  transition: background-color 0.3s;
+}
+
+.sidebar nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar nav li {
+  margin-bottom: 10px;
+}
+
+.sidebar nav a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  display: block;
+  padding: 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.sidebar nav a:hover {
+  background-color: #3498db; /* Change to your desired hover color */
+}
+
+
+.sidebar p {
+  margin: 15px 0; /* Increased spacing */
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.sidebar p:hover {
+  background-color: var(--primary-color);
+}
+
+/* Line separator style */
+.sidebar hr {
+  border: 0;
+  height: 1px;
+  background-color: #fff;
+  margin: 15px 0; /* Increased spacing */
+}
+
+/* Style for the semester toggle buttons */
+.semester-toggle {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.semester-toggle button {
+  background-color: var(--primary-color);
+  color: green;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.semester-toggle button:hover {
+  background-color:lightgreen;
+}
+
+/* Style for the results table and instructors table */
+.results-table,
+.instructors-table table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: rgba(0, 0, 0, 0.8); /* Same as sidebar */
+}
+
+.results-table th,
+.results-table td,
+.instructors-table th,
+.instructors-table td {
+  border: 1px solid var(--background-color);
+  padding: 12px;
+  text-align: left;
+  color: #fff;
+}
+
+.results-table th {
+  background-color: var(--secondary-color);
+}
+
+/* Style for the course and instructor items */
+.course-item {
+  margin-bottom: 20px;
+  padding: 15px;
+  border: 1px solid var(--background-color);
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.course-item h3 {
+  margin-bottom: 5px;
+  color: var(--secondary-color);
+}
+
+.course-item p {
+  color: var(--text-color);
+}
+
+
+/* Style for the Grade Report container */
+.grade-report-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+.grade-report-container h1 {
+  color: green; /* Header color similar to Dashboard */
+}
+
+/* Style for the sections in Grade Report */
+.grade-report-container section {
+  background-color: rgba(0, 0, 0, 0.7); 
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+  width: 80%;
+  max-width: 600px; /* Adjust the max-width based on your design */
+  transition: transform 0.3s; /* Adding a smooth transition effect */
+}
+
+/* Hover effect for sections */
+.grade-report-container section:hover {
+  transform: scale(1.05); /* Scale up on hover */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a subtle box shadow on hover */
+}
+
+.grade-report-container h2 {
+  color: #3498db; /* Section header color similar to Dashboard */
+}
+
+.grade-report-container p {
+  margin: 10px 0;
+}
+
+.grade-report-container ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0;
+}
+
+
