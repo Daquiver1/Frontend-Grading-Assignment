@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './style.css'
 
+
 const LoginPage = () => {
   const [studentId, setStudentId] = useState('');
   const [pin, setPin] = useState('');

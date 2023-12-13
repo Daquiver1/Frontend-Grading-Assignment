@@ -25,7 +25,7 @@ function Navigation() {
           <Nav.Link href="/dashboard">Dashboard</Nav.Link>
           <Nav.Link href="/gradereport">Grade Report</Nav.Link>
           <Nav.Link href="/gradereportform">Missing Grade Form</Nav.Link>
-          <Nav.Link href="/landingpage">Help and Support</Nav.Link>
+          <Nav.Link href="/help">Help and Support</Nav.Link>
           <Nav.Link href="/login">Log Out</Nav.Link>
         </Nav>
       </Navbar.Collapse>

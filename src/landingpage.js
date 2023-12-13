@@ -1,8 +1,10 @@
 import React from 'react';
+import Navigation from './Navigation';
 
 function LandingPage() {
   return (
     <div className="landing-page">
+       <Navigation/>
       <h1>Welcome to Grade Assessment</h1>
       <p>
         Our platform offers powerful tools for assessing grades, enabling educators to streamline the grading process.
