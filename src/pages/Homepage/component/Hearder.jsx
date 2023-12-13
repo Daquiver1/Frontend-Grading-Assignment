@@ -18,7 +18,7 @@ const Hearder =()=>{
                <a onClick={()=>navigate("Homepage")}><li>Home</li></a>
             <a onClick={()=>navigate("Missinggrade")}><li >Missing grade</li></a> 
                <a onClick={()=>navigate("Dashboard")}><li>Dashboard</li></a>
-               <a onClick={()=>navigate("Missinggrade")}><li>Contact</li></a>
+               <a onClick={()=>navigate("Contact")}><li>Contact</li></a>
                <a onClick={()=>navigate("Faqs")}><li>FAQs</li></a>
              </ul>
       </div>

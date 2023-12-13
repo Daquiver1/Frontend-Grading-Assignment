@@ -8,7 +8,8 @@ import Missinggrade from "./pages/Homepage/component/Missinggrade"
 import Hearder from "./pages/Homepage/component/Hearder"
 import Fqas from "./pages/Homepage/component/Fqas"
 import Dashboard from "./pages/Homepage/component/Dashboard"
-
+import Contact from "./pages/Homepage/component/Contact"
+import Footer from "./pages/Homepage/component/Footer"
 
 
 const App = () => {
@@ -22,6 +23,8 @@ const App = () => {
 <Route path="/Header" element={<Hearder/>}/>
 <Route path="/Faqs" element={<Fqas/>}/>
 <Route path="/Dashboard" element={<Dashboard/>}/>
+<Route path="/Contact" element={<Contact/>}/>
+<Route path="/Footer"element={<Footer/>}/>
 
    </Routes>
   )

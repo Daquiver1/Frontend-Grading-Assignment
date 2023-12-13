@@ -1,5 +1,6 @@
 import Hearder from "./component/Hearder"
 import Herosection from "./component/Herosection"
+import Footer from "./component/Footer"
 import "./css/index.css"
 
 
@@ -10,6 +11,7 @@ const Homepage = () => {
     <div>
         <Hearder />
         <Herosection />
+        <Footer /> 
        
     </div>
   )

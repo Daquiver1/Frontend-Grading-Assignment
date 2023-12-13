@@ -1,10 +1,12 @@
 import "../css/index.css"
 import Hearder from "./Hearder"
+import Footer from "./Footer"
 
 const Fqas = () => {
   return (
    <>
     <Hearder />
+   
   
     <div className="log">
      <div className="password-pic">
@@ -18,8 +20,7 @@ const Fqas = () => {
           type="text"
           id="username"
           placeholder=""
-          // value={username}
-          // onChange={(e) => setUserId(e.target.value)}
+        
           required
         />
 
@@ -28,8 +29,6 @@ const Fqas = () => {
           type="password"
           placeholder=""
           id="password"
-          // value={password}
-          // onChange={(e) => setPassword(e.target.value)}
           required
         />
           <label htmlFor="email">Email:</label>
@@ -91,8 +90,7 @@ const Fqas = () => {
 
         </details>
       </div>
-      </div>
-            
+      </div>   
                 
       <div className="card">
       <div className="frequently">
@@ -103,18 +101,9 @@ const Fqas = () => {
         </details>
       </div>
       </div>
-    
-
-      {/* <div className="frequently">
-        <h3 className="">5.What happens after I submit a missing grade report?</h3>
-        <details>
-          <p className="">After you submit a missing grade report, it will undergo a review process. You will receive email notifications regarding the status of your report and any actions taken to resolve the issue.</p>
-        </details>
-      </div> */}
-
-
-
+     
     </div>
+    <Footer />
    </>
 )
 }

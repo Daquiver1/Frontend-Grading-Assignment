@@ -8,7 +8,8 @@ const Dashboard = () => {
         
         
         
-        Dashboard</div>
+        Dashboard
+        </div>
   )
 }
 
