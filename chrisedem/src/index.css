@@ -29,18 +29,19 @@
   color: #35d8f1;
 }
 .content {
-  max-width: 600px;
-  margin: 40px auto;
-  padding: 20px;
+  /* max-width: 600px; */
+  /* margin: 40px auto; */
+  /* padding: 20px; */
+  margin-left: 50px;
 }
 
 .Home {
   position: absolute;
- top: 5;
-  right: 5;
-  transform: translate(-20%, 0);
-  text-align: left;
-  margin-top: -60px;
+ /* top: 5;
+  right: 5; */
+  /* transform: translate(-20%, 0); */
+  text-align:center;
+  margin-top: 60px;
   
  
 }
@@ -51,6 +52,9 @@
 .why{
   color: #35d8f1;
 
+}
+.whyli{
+  list-style-type: none;
 }
 .serv{
   color: #35d8f1; 

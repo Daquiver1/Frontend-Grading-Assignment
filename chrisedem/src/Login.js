@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Footer from './Footer';
 import './index.css';
+import Navbar from './Navbar';
 
 const Login = () => {
   const [username, setUsername] = useState('');
@@ -14,6 +15,9 @@ const Login = () => {
   };
 
   return (
+    <div>
+      <div><Navbar/></div>
+   
     <div>
       <h2>Login to your Scholar Grade Account</h2>
       <p>
@@ -47,6 +51,7 @@ const Login = () => {
         <button type="submit">Login</button>
       </form>
       <Footer />
+    </div>
     </div>
   );
 };
