@@ -1,18 +1,18 @@
-import SideBar from "../components/naviagtion/SideBar.jsx";
+import SideBar from "../components/naviagtion/SideBar";
+import NavBar from "../components/naviagtion/NavBar.jsx";
+import { Outlet } from "react-router-dom";
 
 function Dashboard() {
   return (
     <div className=" h-[100vh] w-full flex flex-row ">
-      <div className="sideBar_container active">
+      <div className="sideBar_container">
         <SideBar  />
       </div>
-      <div className="content_ px-3">
-        lewkfhweihfiohfoiwefjp9 ewfwefijweflijweoif ewifjewiofjowiejfoiewjf
-        ewifjoiwejfoiewjfoiewj lewkfhweihfiohfoiwefjp9 ewfwefijweflijweoif
-        ewifjewiofjowiejfoiewjf ewifjoiwejfoiewjfoiewj lewkfhweihfiohfoiwefjp9
-        ewfwefijweflijweoif ewifjewiofjowiejfoiewjf ewifjoiwejfoiewjfoiewj
-        lewkfhweihfiohfoiwefjp9 ewfwefijweflijweoif ewifjewiofjowiejfoiewjf
-        ewifjoiwejfoiewjfoiewj
+      <div className="content_  769px:pl-3 overflow-y-auto">
+        <NavBar />
+       <div className="w-full py-2 ">
+        <Outlet />
+       </div>
       </div>
     </div>
   );

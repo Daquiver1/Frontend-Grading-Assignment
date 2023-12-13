@@ -5,7 +5,7 @@ import Logo from "../../assets/images/student_avater.png";
 
 function SideBar() {
   return (
-    <div className="side_bar overflow-y-auto py-5 px-3 relative flex flex-col">
+    <div className="side_bar border-r-4 border-r-[#23255941] overflow-y-auto py-5 px-3 relative flex flex-col">
       <div className=" text-[30px] font-bold text-primary_blue">UG</div>
       <div className=" bg-secondary py-4 w-full mt-2 grid grid-cols-4 rounded-lg px-2">
         <img src={Logo} className=" col-span-1 border rounded-full bg-white" />
@@ -16,6 +16,7 @@ function SideBar() {
       <div className=" w-full py-1 mt-5 flex flex-col gap-3">
         {navlinks.map((link) => (
           <NavLink
+          key={link}
             to={link.path}
             end
             relative="path"
