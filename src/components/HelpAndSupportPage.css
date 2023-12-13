@@ -1,0 +1,60 @@
+/* HelpAndSupportPage.css */
+
+.help-and-support-container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    margin-top: 50px;
+    text-align: center;
+  }
+  
+  h2, h3 {
+    color: #333;
+  }
+  
+  .faq-section, .contact-form {
+    margin-top: 20px;
+  }
+  
+  .faq-item {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #7b4f35;
+  }
+  
+  .confirmation-message {
+    color: #008000;
+    margin-top: 10px;
+  }
+  
