@@ -5,6 +5,10 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Navbar from './Components/Navbar';
+import DashboardPage from './Pages/Dashboard';
+import GradeReportPage from './Pages/GradeReport';
+import Contact from './Pages/Contact';
+
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

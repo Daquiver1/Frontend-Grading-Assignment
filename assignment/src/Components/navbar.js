@@ -6,22 +6,30 @@ function Navbar(){
     const showNavbar = () => {
         navRef.current.classList.toggle ("responsive_nav")
     }
-    return (
+    return ( 
+        <>
         <header>
             <h3>Grade Repo</h3>
             <nav>
                 <a href="/#">Home</a>
-                <a href="/#">Home</a>
-                <a href="/#">Home</a>
+                <a href="/#">Dashboard</a>
+                <a href="/#">Contact </a>
                 <a href="Login.js">Login</a>
                 <button className="nav-btn nav close-btn" onClick={showNavbar}>
                         <FaTimes />
                 </button>
             </nav>
-            <button className="nav-btn nav close-btn" onClick={showNavbar}>
+            <button className="nav-btn" onClick={showNavbar}>
                 <FaBars/>
             </button>
         </header>
+        <div>
+            <h1>SDFGHJ</h1>
+        </div>
+        </>
+        
+        
+        
     )
 }
 
