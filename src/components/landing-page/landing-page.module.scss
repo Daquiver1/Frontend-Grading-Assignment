@@ -1,0 +1,67 @@
+.root {
+    background-color: #5E5656;
+}
+
+.vide {
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-image: url('https://media.istockphoto.com/id/1294603953/vector/abstract-black-stripes-diagonal-background.jpg?s=612x612&w=0&k=20&c=nQZHTk-o97cNVqWnUe8BJg0A5jQG0tqylquzbt9YtcQ=');
+    background-position: 50%;
+    background-size: cover;
+    background-attachment: scroll;
+    background-origin: padding-box;
+    background-clip: border-box;
+    background-color: transparent;
+}
+
+.he {
+    text-align: center;
+    color: white;
+}
+
+.vive {
+    background-color: transparent;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-image: linear-gradient(180deg, #000000 56%, rgba(255, 255, 255, 0) 100%);
+    background-position: 0%;
+    background-size: auto;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-origin: padding-box;
+    background-clip: border-box;
+    background-position: 0%;
+    background-size: auto;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-origin: padding-box;
+    background-clip: border-box;
+}
+
+.vit {
+    width: 70%;
+}
+
+.fi {
+    text-align: center;
+    border-bottom: 3px double black;
+    color: white;
+}
+
+.se {
+    color: white;
+    line-height: 1.7;
+    padding: 20px;
+}
+
+.ji {
+    margin: 20px;
+    color: white;
+}
+
+.vite {
+    margin: 20px;
+    color: white;
+}

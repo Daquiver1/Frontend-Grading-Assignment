@@ -1,0 +1,153 @@
+.root {
+    margin: 0;
+
+    h2 {
+        margin-bottom: 0px;
+        font-size: 45px;
+        text-align: center;
+        padding-left: 0px;
+        color: #D2C48D;
+    }
+
+    .semester-filter {
+        margin-bottom: 16px;
+
+        label {
+            font-size: 16px;
+            margin-right: 8px;
+        }
+
+        select {
+            padding: 8px;
+            font-size: 16px;
+        }
+    }
+
+    .grade-report-page {
+        display: flex;
+        flex-direction: column;
+        width: 800px;
+        border: 2px solid #8E8E8E;
+        border-radius: 7px;
+        border-left: 0px solid #8E8E8E;
+        border-right: 0px solid #8E8E8E;
+    }
+
+    .course-list {
+        display: grid;
+        gap: 16px;
+
+        .course {
+            border: 1px solid #ccc;
+            padding: 16px;
+            border-radius: 8px;
+
+            h3 {
+                font-size: 20px;
+                margin-bottom: 8px;
+            }
+
+            p {
+                font-size: 16px;
+                margin: 8px 0;
+            }
+        }
+    }
+
+    background-color:#2A2929;
+    background-repeat:repeat;
+    background-image: none;
+    background-position: 0%;
+    background-size:auto;
+    background-attachment: scroll;
+    background-origin: padding-box;
+    background-clip: border-box;
+    width:100%;
+
+
+}
+
+
+.GR {
+    height: 110vh;
+    width: 100%;
+    margin-left: 0px;
+    background-color: #090808;
+    background-repeat: repeat;
+    background-image: none;
+    background-position: 0%;
+    background-size: auto;
+    background-attachment: scroll;
+    background-origin: padding-box;
+    background-clip: border-box;
+    opacity: 1;
+    box-shadow: 1.94px 3.5px 2px black;
+    padding-left: 0px;
+}
+
+.H3 {
+    font-size: 35px;
+    padding-left: 20px;
+    color: #FFFFFF;
+}
+
+.UL {
+    flex-direction: column;
+    align-items: start;
+    font-size: 25px;
+    color: #FFFFFF;
+}
+
+.LI {
+    font-size: 25px;
+    margin-left: 20px;
+    font-weight: 500;
+    color: #FAFAFA;
+}
+
+.SF {
+    padding-left: 20px;
+    font-size: 20px;
+    color: #FFFFFF;
+    text-align: start;
+}
+
+.SL {
+    font-size: 20px;
+    margin-left: 10px;
+    color: #FFFFFF;
+    background-color: #000000;
+    background-image: none;
+    background-position: 0%;
+    background-size: auto;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-origin: padding-box;
+    background-clip: border-box;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 2px;
+}
+
+.NV {
+    height: 180%;
+}
+
+.vi {}
+
+.ti {}
+
+.grp {}
+
+.set {
+    width: 100%;
+    height: 100vh;
+}
+
+.bck {}
+
+.bk {
+    width: 40px;
+    height: 40px;
+    color: #FFFFFF;
+}
