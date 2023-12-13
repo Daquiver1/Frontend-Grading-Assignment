@@ -14,7 +14,7 @@ const HelpAndSupportPage = () => {
 
   return (
     <div className="help-and-support-container">
-      <h2 className="heading">Help and Support</h2>
+      <h2 className="heading">Need more help?</h2>
       <div className="faq-section">
         <table>
           <thead>

@@ -5,8 +5,8 @@ import "./InstructorContactPage.css"; // Css file
 const InstructorContactPage = () => {
   const instructorsData = [
     {
-      name: "Dr. Grace Anang",
-      email: "graceanang@outlook.com",
+      name: "Dr. Grace Anane",
+      email: "graceanane@gmail.com",
       avatar: "female_lecturer2.jpeg",
     },
     {
@@ -24,7 +24,7 @@ const InstructorContactPage = () => {
     },
     {
       name: "Prof. Ernest Kwakye",
-      email: "ernest3232@outlook.com",
+      email: "ernest3232@gmail.com",
       avatar: "lecturer9.jpeg",
     },
   ];
