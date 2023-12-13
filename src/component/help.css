@@ -1,0 +1,50 @@
+/* Basic styles - customize as needed */
+.help-support-container {
+    padding: 20px;
+    background-color: #f7f7f7;
+  }
+  
+  .section {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Styling for FAQ section */
+  .faq-item, .guide-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+  
+  /* Styling for Feedback Form */
+  textarea {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  
+  
+  /* Styling for Social Media Links */
+  .social-links a {
+    display: inline-block;
+    margin-right: 10px;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  /* Hiding the FAQ answers and troubleshooting steps by default */
+  .answer,
+  .steps {
+    display: none;
+  }
+  
+  /* Displaying answers and steps on hover */
+  .faq-item:hover .answer,
+  .guide-item:hover .steps {
+    display: block;
+  }
+  

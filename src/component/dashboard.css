@@ -1,0 +1,101 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .board {
+    text-align: center;
+    margin-left: 300px;
+    margin-top: 80px;
+  }
+  
+  .appear {
+    width: 75%;
+    margin-bottom: 30px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin-top: 50px;
+  }
+  
+  .h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+  
+  .h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+  
+  .p {
+    font-size: 18px;
+  }
+  
+  .appear a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  .appear a:hover {
+    text-decoration: underline;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  th,
+  td {
+    border: 1px solid #000;
+    padding: 15px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  .gpa-button {
+    background-color: #3498DB;
+    padding: 5px 5px;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    position: absolute;
+    bottom: 2px;
+    right: 50px;
+    width: 10%;
+  }
+  
+  .gpa-button:hover {
+    background-color: #2980B9;
+  }
+  
+  .gpa-button a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  /* Media queries for responsiveness */
+  @media screen and (max-width: 768px) {
+    .board {
+      margin-left: 0;
+    }
+    
+    .appear {
+      width: 90%;
+      margin-top: 20px;
+    }
+    
+    .gpa-button {
+      width: 20%;
+    }
+  }
+  

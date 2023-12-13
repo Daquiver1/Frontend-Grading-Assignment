@@ -1,0 +1,125 @@
+.navbar {
+    background-color: #f8f9fa;
+  }
+  
+  .navbar-brand {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+  }
+  
+  .logo {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  .nav-link {
+    color: #000;
+  }
+  
+  .header {
+    padding: 60px 0;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .container {
+    margin-top: 40px;
+  }
+  
+  h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0069d9;
+    border-color: #0062cc;
+  }
+  
+  .img-fluid {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .features {
+    padding: 60px 0;
+    background-color: rgba(255, 255, 255, 0.9);
+  }
+  
+  .features h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .features p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .footer {
+    background-color: #f8f9fa;
+  }  
+
+  
+  .login-container {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    margin-top: 50px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  .log {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input[type='text'],
+  input[type='password'] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  
+  
