@@ -3,28 +3,68 @@
 @tailwind utilities;
 
 :root {
-    --primary-color: #232559;
-    --secondary-color: #ba8f4a;
-    --unscroll-header-height: 5cm;
-  }
+  --primary-color: #232559;
+  --secondary-color: #ba8f4a;
+  --sidebar-width: 6cm;
+}
+
+.sideBar_container {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  display: none;
+  top: 0;
+  left: 0;
+  background-color: rgba(22, 20, 20, 0.534);
+  overflow: hidden;
+}
+
+.sideBar_container.active {
+  display: block;
+}
+
+.side_bar {
+  background-color: white;
+  height: 100%;
+  width: var(--sidebar-width);
+}
+
+.content_ {
+  height: 100%;
+  width: 100%;
+  background-color: red;
+}
 
 form-group {
-    border: 2px solid #23255979;
-    transition: 0.1s;
+  border: 2px solid #23255979;
+  transition: 0.1s;
+}
+
+.form-group.active {
+  border: 2px solid var(--primary-color);
+  transition: 0.1s;
+}
+
+.form-group.disabled {
+  opacity: 0.4;
+}
+
+.form-group.active .label {
+  transition: 0.1s;
+  transform: translateY(-25px);
+  font-weight: bold;
+  color: var(--primary-color);
+}
+
+@media screen and (min-width: 769px) {
+  .sideBar_container {
+    width: var(--sidebar-width);
+    position: relative;
+    display: block;
   }
-  
-  .form-group.active {
-    border: 2px solid var(--primary-color);
-    transition: 0.1s;
+
+  .side_bar {
+    width: 100%;
   }
-  
-  .form-group.disabled {
-    opacity: 0.4;
-  }
-  
-  .form-group.active .label{
-    transition: 0.1s;
-    transform: translateY(-25px);
-    font-weight: bold;
-    color: var(--primary-color);
-  }
+
+}
