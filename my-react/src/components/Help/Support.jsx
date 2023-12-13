@@ -17,7 +17,7 @@ const ContactForm = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Add your logic to handle form submission (e.g., send data to server)
+
     console.log('Form submitted:', formData);
   };
 
@@ -72,7 +72,7 @@ const ContactForm = () => {
         </div>
         <button
           type="submit"
-          className="bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600 focus:outline-none focus:shadow-outline-blue"
+          className=" bg-[#00df9a] text-white py-2 px-4 rounded hover:bg-green-400 focus:outline-none focus:shadow-outline-blue"
         >
           Submit
         </button>
