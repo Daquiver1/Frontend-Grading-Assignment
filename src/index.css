@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.links a.active{
+    color: rgb(36, 99, 247);
+}
