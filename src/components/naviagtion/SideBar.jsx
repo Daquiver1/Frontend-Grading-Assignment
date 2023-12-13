@@ -34,8 +34,10 @@ function SideBar() {
           </NavLink>
         ))}
       </div>
-      <button className="mt-10 px-1 w-full flex justify-center bg-secondary items-center gap-2 font-bold h-[1cm] rounded-md text-white">
-        <span className=" text-xl flex justify-center items-center"><MdLogout /></span>
+      <button className="mt-10 px-1 w-full flex justify-center bg-secondary items-center gap-2 font-bold h-[1cm] rounded-md text-white py-2">
+        <span className=" text-xl flex justify-center items-center">
+          <MdLogout />
+        </span>
         <span className=" flex justify-start items-center">LOGOUT</span>
       </button>
     </div>
