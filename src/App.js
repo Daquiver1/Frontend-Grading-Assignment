@@ -1,17 +1,14 @@
-import LandingPage from "./components/LandingPage";
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+// App.js
 
-
-
-
-function App() {
+import React from 'react';
+import HomePage from './components/HomePage/HomePage'; // Adjust the path based on your project structure
+import { BrowserRouter } from 'react-router-dom';
+const App = () => {
   return (
-    <Router>
-      <Routes>
-        <Route path="/" element={<LandingPage/>} />
-      </Routes>
-    </Router> 
+    <BrowserRouter>
+      <HomePage />
+    </BrowserRouter>
   );
-}
+};
 
 export default App;
