@@ -6,12 +6,12 @@ const InstructorContactPage = () => {
   const instructorsData = [
     {
       name: "Dr. Grace Anang",
-      email: "Graceanang@outlook.com",
+      email: "graceanang@outlook.com",
       avatar: "female_lecturer2.jpeg",
     },
     {
-      name: "Prof. Jane Quaye",
-      email: "QuayeJJJ@gmail.com",
+      name: "Prof. Keren Quartey",
+      email: "qaurtey1@gmail.com",
       avatar: "lecturer_female10.jpeg",
     },
   ];
@@ -20,11 +20,11 @@ const InstructorContactPage = () => {
     {
       name: "Prof. Dzifa Matrevi",
       email: "DziDziMad@gmail.com",
-      avatar: "female_lecturer2.jpeg",
+      avatar: "lecturer1.jpeg",
     },
     {
       name: "Prof. Ernest Kwakye",
-      email: "Ernest3232@outlook.com",
+      email: "ernest3232@outlook.com",
       avatar: "lecturer9.jpeg",
     },
   ];

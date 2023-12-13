@@ -35,7 +35,7 @@ function LandingPage() {
           <div className="feature-card">
             <h2 className="feature-title">Report Missing Grades</h2>
             <p className="feature-description">
-              Report all your missing grades GradePal's intuitive Missing Grade
+              Report all your missing grades with GradePal's intuitive Missing Grade
               Form.
             </p>
             <h3 className="">How it works</h3>
