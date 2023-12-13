@@ -1,51 +1,78 @@
-# Student Grade Reporting System Frontend
+# Missing Grade Reporting System
 
-## Project Overview
+Welcome to the Missing Grade Reporting System, a web application developed to aid students in tracking and reporting missing grades in their academic profiles. This system provides a user-friendly interface, allowing students to view their grades, report missing grades, and communicate with instructors or academic administration.
 
-This project is a front-end web application for a Student Grade Reporting System. It simulates a real-world application where students can view, report, and manage their academic grades. This system addresses the issue of missing or unrecorded grades in a student's profile.
+## Features
 
-## Application Structure
+- **Responsive Design:** The website is designed to provide an optimal viewing experience on various devices.
+- **User Authentication:** Secure login form for students using Student ID and PIN with authentication simulation.
+- **Dashboard Page:** Overview of the student's current grades, including alerts for any missing grades.
+- **Grade Report Page:** Detailed view of all courses and respective grades, with the option to filter by semester/academic year.
+- **Missing Grade Form Page:** Form to report a missing grade, including course name, instructor name, expected grade, and explanation field.
+- **Instructor Contact Page:** List of instructors with contact details and an option to send a simulated email.
+- **Help and Support Page:** FAQ section regarding grade reporting and a contact form for technical support.
 
-The application consists of 7 main pages:
+## Permitted Technologies for Development
 
-- **Homepage:** Introduction to the system and its purpose.
-- **Login Page:** Mock login interface for student authentication.
-- **Dashboard:** Displays an overview of the student’s current grades and alerts for missing grades.
-- **Grade Report:** Shows a detailed view of the student's grades filtered by semester or academic year.
-- **Missing Grade Form:** Enables students to report missing grades.
-- **Instructor Contact Page:** Lists instructors' contact information with a simulated email feature.
-- **Help and Support:** Provides FAQs and a mock support contact form.
+- **React:** A JavaScript library for building user interfaces.
+- **CSS/Bootstrap/Tailwind:** Styling options for responsive and visually appealing design.
+- **Vite (Optional):** A fast build tool for modern web development (optional).
 
-## Technical Details
+## Project Structure
 
-- **Framework/Technology Used:** [React]
-- **Responsive Design:** Implemented using [CSS Flexbox/Grid, Bootstrap, Tailwind CSS].
-- **JavaScript Functionality:** Used for form validations, dynamic content rendering, and simulating interactions.
+The project follows a modular structure, with components organized for each page:
 
-## Setup and Installation
+src/
+|-- components/
+| |-- Navbar.jsx
+| |-- LandingPage.jsx
+| |-- LoginPage.jsx
+| |-- DashboardPage.jsx
+| |-- GradeReportPage.jsx
+| |-- MissingGradeFormPage.jsx
+| |-- InstructorContactPage.jsx
+| |-- HelpAndSupportPage.jsx
+|-- App.jsx
+|-- index.jsx
+|-- styles/
+| |-- App.css
 
-To set up the project locally, follow these steps:
 
-```bash
-git clone https://github.com/your-github-username/DCIT_205_ASSIGNGMENT1.git
-cd repo-name
+## File Structure
+
+- **src/components:** Contains React components for each page and the Navbar component.
+- **src/App.jsx:** Main application component with routing logic.
+- **src/index.jsx:** Entry point for rendering the React application.
+- **src/styles:** CSS files for styling each page.
+
+## How to Run the Project
+
+1. **Clone the repository:**
+git clone https://github.com/your-username/missing-grade-reporting-system.git
+
+
+2. **Navigate to the project directory:**
+cd missing-grade-reporting-system
+
+
+3. **Install dependencies:**
 npm install
-npm start
-```
 
-This will start the application on `localhost` at the default port.
 
-## Usage
+5. **Open your browser and go to:** `http://localhost:3000`
 
-Describe how to use the application, highlighting key functionalities such as logging in, viewing grades, reporting missing grades, and contacting instructors.
+## Contributing
 
-## Contribution
+If you would like to contribute to the project, follow these steps:
 
-To contribute to this project, please follow these guidelines:
+1. Fork the repository on GitHub.
+2. Create a new branch for your feature: `git checkout -b feature-name`
+3. Commit your changes: `git commit -m "Description of changes"`
+4. Push the branch to your fork: `git push origin feature-name`
+5. Create a pull request on GitHub.
 
-1. Fork the repository.
-2. Create a new branch for your feature.
-3. Commit your changes and push them to your branch.
-4. Submit a pull request for review.
 
-Please adhere to the project's coding standards and provide clear and detailed pull request descriptions.
+Sudent ID: 11074191
+Cann-Tamakloe Charles William Welbeck Kekeli
+
+
