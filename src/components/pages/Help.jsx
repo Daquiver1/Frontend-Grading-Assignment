@@ -1,16 +1,77 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import LoginFooter from "./LoginFooter";
 import Header from "./header";
 //This is the help and support page to assist users of the site on how to surf the site
 
 const Help = () => {
+  const [showInput, setShowInput] = useState(false);
+  const [submit, setSubmit] = useState(false);
+  const showInputType = () => {
+    setShowInput(!showInput);
+  };
+
+  const inputShown = () => {
+    return (
+      showInput && (
+        <div className="flex flex-col gap-5 absolute">
+          <div className="flex gap-4 flex-col">
+            <label htmlFor="senderName" className="text-green-900 text-lg">
+              Enter your email
+            </label>
+            <input type="email" />
+          </div>
+          <div className="flex flex-col gap-3">
+            <textarea
+              name="messageText"
+              id="messageText"
+              className="name max-w-full"
+              placeholder="Enter your message here"
+            ></textarea>
+            <button
+              type="submit"
+              className="text-green-900 text-lg bg-blue-500 rounded-md hover:bg-green-900 hover:text-blue-500 duration-[0.5s]"
+            >
+              Submit
+            </button>
+          </div>
+        </div>
+      )
+    );
+  };
+  // const inputShown = () =>
+  //   showInput ? (
+  //     <div className="flex flex-col gap-5 absolute">
+  //       <div className="flex gap-4 flex-col">
+  //         <label htmlFor="senderName" className="text-green-900 text-lg">
+  //           Enter your email
+  //         </label>
+  //         <input type="email" />
+  //       </div>
+  //       <div className="flex flex-col gap-3">
+  //         <textarea
+  //           name="messageText"
+  //           id="messageText"
+  //           className="name max-w-full"
+  //           placeholder="Enter your message here"
+  //         ></textarea>
+  //         <button type="submit" className="text-green-900 text-lg bg-blue-500 rounded-md hover:bg-green-900 hover:text-blue-500 duration-[0.5s]">
+  //           Submit
+  //         </button>
+  //       </div>
+  //     </div>
+  //   ) : (
+  //     <p>I am a boy</p>
+  //   );
+
   return (
     <>
       <Header></Header>
-      <div className="container relative left-44 bg-white bg-opacity-10">
-        <div className="place-items-center flex flex-col justify-center relative">
-          <p className="custom-header font-black">ABOUT PEP&apos;S GRADE REPORT SYSTEM</p>
+      <div className="container relative bg-white bg-opacity-10">
+        <div className="place-items-center flex flex-col justify-center left-44 relative">
+          <p className="custom-header font-black">
+            NEED HELP, YOU ARE AT THE RIGHT PLACE...
+          </p>
           <p className="text-size">
             Pep&apos;s Grade Report System is a system designed to connect
             students to lecturers. This site helps to make complaints to
@@ -70,7 +131,9 @@ const Help = () => {
                 to add their academic details on the grade report page.
               </li>
             </ul>
-            <p className="custom-header">MAKING COMPLAINTS/ REPORTS TO LECTURERS</p>
+            <p className="custom-header">
+              MAKING COMPLAINTS/ REPORTS TO LECTURERS
+            </p>
             <ul>
               <li className="text-size">
                 As the core purpose of this site, there is a page for users to
@@ -112,7 +175,7 @@ const Help = () => {
                 very comfortable way of doing this through the contacts page of
                 the site and this, as said is very easy and quick to do. Lodge
                 all your complaints and whatever you want to make known to your
-                lecturer through this page. You can click{" "}
+                lecturer through this page. You can click
                 <Link to="/instructor" className="custom-link">
                   Contact Instructor
                 </Link>
@@ -122,6 +185,28 @@ const Help = () => {
           </div>
         </div>
         <LoginFooter></LoginFooter>
+        {inputShown()}
+        <div className="absolute right-0 text-blue-500 mt-24">
+          <button
+            onClick={showInputType}
+            title="Click to send us a message"
+            className="w-10 h-6 animate-bounce"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              strokeWidth={1.5}
+              stroke="currentColor"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M20.25 8.511c.884.284 1.5 1.128 1.5 2.097v4.286c0 1.136-.847 2.1-1.98 2.193-.34.027-.68.052-1.02.072v3.091l-3-3c-1.354 0-2.694-.055-4.02-.163a2.115 2.115 0 01-.825-.242m9.345-8.334a2.126 2.126 0 00-.476-.095 48.64 48.64 0 00-8.048 0c-1.131.094-1.976 1.057-1.976 2.192v4.286c0 .837.46 1.58 1.155 1.951m9.345-8.334V6.637c0-1.621-1.152-3.026-2.76-3.235A48.455 48.455 0 0011.25 3c-2.115 0-4.198.137-6.24.402-1.608.209-2.76 1.614-2.76 3.235v6.226c0 1.621 1.152 3.026 2.76 3.235.577.075 1.157.14 1.74.194V21l4.155-4.155"
+              />
+            </svg>
+          </button>
+        </div>
       </div>
     </>
   );
