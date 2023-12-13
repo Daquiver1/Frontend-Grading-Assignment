@@ -2,12 +2,9 @@ import React from "react";
 import img1 from "../assets/yah.jpg";
 export const Login = () => {
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-2 h-screen w-full">
-      <div className="hidden sm:block">
-        <img className="w-full h-full object-cover" src={img1} alt="" />
-      </div>
+    <div className="h-screen w-full">
       <div className="bg-gray-800 flex flex-col justify-center">
-        <form className="max-w-[400px] w-full mx-auto  py-20 px-10 rounded-lg">
+        <form className="max-w-[400px] h-screen w-full mx-auto mt-40 py-20 px-10 rounded-lg">
           <h2 className="text-4xl text-white font-bold text-center">LOGIN</h2>
           <div className="flex flex-col text-gray-400 py-4 ">
             <label>Student ID</label>

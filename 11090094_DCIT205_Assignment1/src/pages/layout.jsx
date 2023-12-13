@@ -7,8 +7,8 @@ const Layout = () => {
   return (
     <div className="h-screen w-full flex flex-col bg-indigo-500 bg-gradient-to-r from-teal-500 text-white">
       <NavbarComponent />
-      <div className=" justify-center items-center flex flex-col  min-h-[450px] ">
-        <h1 className="font-bold text-3xl">Welcome</h1>
+      <div className=" justify-center items-center flex flex-col  min-h-[450px] font-bold text-2xl m-9">
+        <h1 className="font-bold text-4xl">Welcome</h1>
         <p>
           Track your grades, effortlessly keep tabs on your academic performance
           and gain valuable insights into your educational journey.
@@ -29,7 +29,7 @@ const Layout = () => {
         </p>
       </div>
 
-      <div className="mt-20">
+      <div className="mt-7">
         <h2 className="font-bold">Ready to get started?</h2>
         <button>
           <Link to="/login">
