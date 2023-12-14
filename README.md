@@ -30,7 +30,7 @@ Throughout the development of this project, several key learnings were gained:
 3. Navigation and User Experience: Designing an innate navigation system and optimizing the user experience by organizing content logically,
 4. GitHub Workflow: Practicing version control and collaboration using Git and GitHub, including cloning,
 branching committing and pushing changes.
-пр
+прm
 
 
 
