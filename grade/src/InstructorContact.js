@@ -60,7 +60,6 @@ const InstructorContact = () => {
     <div className="container main mt-5">
       <h1 className="mb-4">Instructor Contact</h1>
 
-      {/* Instructor List */}
       <ul className="list-group mb-4">
         {instructors.map((instructor, index) => (
           <li
@@ -84,7 +83,6 @@ const InstructorContact = () => {
         ))}
       </ul>
 
-      {/* Selected Instructor Contact Details */}
       {selectedInstructor && (
         <div className='space'>
           <h2>Contact Details</h2>

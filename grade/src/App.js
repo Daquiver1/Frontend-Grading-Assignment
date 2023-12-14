@@ -4,15 +4,6 @@ import MyFooter from './MyFooter';
 import { BrowserRouter as Router, Route, Switch, Link, BrowserRouter } from 'react-router-dom';
 import { Container, Navbar, Nav } from 'react-bootstrap';
 import './App.css'
-//import Container from 'react-bootstrap/Container';
-
-
-/*<BrowserRouter>
-  <Route>
-    <Route path='/Login' element={< Login/>} />
-  </Route>
-</BrowserRouter>
-*/
 
 
 

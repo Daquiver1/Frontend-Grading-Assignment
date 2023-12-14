@@ -30,12 +30,9 @@ const HelpAndSupport = () => {
    
   ];
 
-  // Function to handle form submission (mock-up)
   const handleFormSubmit = (e) => {
     e.preventDefault();
-    // Simulated form submission logic (replace with actual form submission)
     alert('Form submitted. We will get in touch with you shortly.');
-    // You can reset form fields or perform other actions here
   };
 
   return (
@@ -48,7 +45,6 @@ const HelpAndSupport = () => {
     <div className="container main mt-5">
       <h1 className="mb-4">Help and Support</h1>
 
-      {/* FAQ Section */}
       <div className="mb-4">
         <h2>Frequently Asked Questions</h2>
         <div className="accordion" id="faqAccordion">
@@ -79,7 +75,6 @@ const HelpAndSupport = () => {
         </div>
       </div>
 
-      {/* Contact Form for Technical Support (Mock-up) */}
       <div>
         <h2>Contact Technical Support</h2>
         <form onSubmit={handleFormSubmit}>

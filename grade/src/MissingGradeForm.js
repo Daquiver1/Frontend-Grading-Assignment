@@ -12,9 +12,6 @@ const MissingGradeForm = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    // TODO: Implement logic to handle the form submission (e.g., send data to server)
-
-    // For this example, just display a confirmation message
     setIsSubmitted(true);
   };
 
