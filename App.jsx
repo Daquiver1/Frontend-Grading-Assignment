@@ -1,6 +1,9 @@
 // src/App.js
 import React, { useState } from 'react';
 import Login from './Login';
+import HomePage from './HomePage';
+import Dashboard from './Dashboard';
+import './App.css';
 
 const App = () => {
   const [user, setUser] = useState(null);
@@ -14,10 +17,13 @@ const App = () => {
       {user ? (
         <div>
           <h2>Welcome, {user}!</h2>
-          {/* Add your main application content here */}
+          <Dashboard />
         </div>
       ) : (
-        <Login onLogin={handleLogin} />
+        <div>
+          <HomePage />
+          <Login onLogin={handleLogin} />
+        </div>
       )}
     </div>
   );
