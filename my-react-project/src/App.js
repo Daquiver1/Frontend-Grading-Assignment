@@ -1,6 +1,11 @@
-function App() {
-  return <h1>Hello World Joshua</h1>
- 
+import React from 'react'
+
+const App = () => {
+  return (
+    <div>
+      <h1>Hello React</h1>
+    </div>
+  )
 }
 
-export default App;
+export default App
