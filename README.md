@@ -1,5 +1,5 @@
 # Student Grade Reporting System Frontend
-# ID_STUDENT: 11004310
+## ID_STUDENT: 11004310
 ## Project Overview
 
 This project is a front-end web application for a Student Grade Reporting System. It simulates a real-world application where students can view, report, and manage their academic grades. This system addresses the issue of missing or unrecorded grades in a student's profile.
@@ -20,6 +20,8 @@ The application consists of 7 main pages:
 - ![Screenshot 2023-12-14 120904](https://github.com/Ihongui/11004310_Frontend-Grading-Assignment/assets/150761912/0d60957e-6f51-4450-ac45-9af18c8193a8)
 - **Missing Grade Form:** Enables students to report missing grades.
 - ![Screenshot 2023-12-14 120957](https://github.com/Ihongui/11004310_Frontend-Grading-Assignment/assets/150761912/b7f590cc-2206-40c2-b486-c859716455ca)
+- ![Screenshot 2023-12-14 151839](https://github.com/Ihongui/11004310_Frontend-Grading-Assignment/assets/150761912/1081b85f-15d5-43d3-8cce-7ee25698c681)
+
 - **Instructor Contact Page:** Lists instructors' contact information with a simulated email feature.
 - ![Screenshot 2023-12-14 121028](https://github.com/Ihongui/11004310_Frontend-Grading-Assignment/assets/150761912/1b836054-1f7a-4bcd-95eb-1d07712a4d5c)
 ![Screenshot 2023-12-14 121420](https://github.com/Ihongui/11004310_Frontend-Grading-Assignment/assets/150761912/9b702d26-d9bb-4ed4-acde-25f475cfc876)
@@ -60,4 +62,4 @@ To contribute to this project, please follow these guidelines:
 3. Commit your changes and push them to your branch.
 4. Submit a pull request for review.
 
-##Create and build by Fabice Ihongui 
+## Create and build by Fabice Ihongui 
