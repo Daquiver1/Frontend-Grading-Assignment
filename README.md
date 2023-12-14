@@ -52,38 +52,38 @@ To contribute to this project, please follow these guidelines:
 
 Please adhere to the project's coding standards and provide clear and detailed pull request descriptions.
 
-# **Caption: This is a screenshot of the homepage.**
+# **This is a screenshot of the homepage.**
 
 
 ![Homepage Screenshot](assets/homepage.png)
 
-# **Caption: This is a screenshot of the login page.**
+# ** This is a screenshot of the login page.**
 
 ![Loginpage Screenshot](assets/loginpage.png)
 
 
-# **Caption: This is a screenshot of the Dashboard page.**
+# **This is a screenshot of the Dashboard page.**
 
 ![Dashbord Screenshot](assets/Dashboard.png)
 
 
-# **Caption: This is a screenshot of the GradeReport Page.**
+# **This is a screenshot of the GradeReport Page.**
 
 ![GradeReport Screenshot](assets/GradeReport.png)
 
 
-# **Caption: This is a screenshot of the Missing Grade Form Page.**
+# **This is a screenshot of the Missing Grade Form Page.**
 
 ![MissingGradeForm Screenshot](assets/MissingGradeForm.png)
 
 
-# **Caption: This is a screenshot of the Instructor's Contact Page.**
+# **This is a screenshot of the Instructor's Contact Page.**
 
 ![Instructor's Contact Screenshot](assets/InstructorContact.png)
 
 
 
-# **Caption: This is a screenshot of the Help And Support Page.**
+# **This is a screenshot of the Help And Support Page.**
 
 ![Help And Support Screenshot](assets/HelpAndSupport.png)
 
