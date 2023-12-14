@@ -8,7 +8,7 @@ import Contact from "./pages/Contact"
 import ContactSupport from "./components/TechnicalSuppot"
 import Faq from "./components/Faq"
 import Profile from "./pages/Profile"
-
+import SignIn from "./pages/SignIn"
 function App() {
 const router = createBrowserRouter(
   [
@@ -27,6 +27,10 @@ const router = createBrowserRouter(
          {
           path: "GradeReport",
           element: <GradeReport />
+         },
+         {
+          path: "/SignIn",
+          element: <SignIn/>
          },
          
          {
@@ -50,7 +54,8 @@ const router = createBrowserRouter(
          {
           path: "profile",
           element: <Profile />
-         }
+         },
+        
        ]
     }
   ]

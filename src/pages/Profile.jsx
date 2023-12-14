@@ -90,7 +90,7 @@ function ProfilePage() {
         </div>
         <div className="profile-info">
           <FaUser className="profile-icon" />
-          <span>Name: Esnam Dodoo</span>
+          <span>Name: Esinam Dodoo</span>
         </div>
         <div className="profile-info">
           <FaEnvelope className="profile-icon" />

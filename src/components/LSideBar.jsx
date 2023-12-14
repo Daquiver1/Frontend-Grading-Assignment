@@ -33,10 +33,7 @@ const logout = () => {
             {collapsed && <p className='text-center text-2xl font-bold'>-</p>}
 
             <div className='w-full flex flex-col gap-2 mt-5 text-blue-950 text-lg links'>
-                <NavLink to='/Home' className={'flex items-center gap-2 p-2 ' + (collapsed? "justify-center" : "")} >
-                    <DashboardOutlinedIcon fontSize="medium"/>
-                    {!collapsed && <span>Home</span>}
-                </NavLink>
+       
                 <NavLink to='/StDashBoard' className={'flex items-center gap-2 p-2 ' + (collapsed? "justify-center" : "")} >
                     <DashboardOutlinedIcon fontSize="medium"/>
                     {!collapsed && <span>Student Dashboard </span>}
