@@ -3,7 +3,6 @@ import { Routes,Route } from 'react-router-dom';
 import './App.css';
 
 import Home from './components/Home';
-import AppHeader from './components/header';
 import AppDashboard from './components/dashboard';
 import AppReport from './components/grade report';
 import AppInstructor from './components/instructor';
@@ -11,6 +10,7 @@ import AppHelpandSupport from './components/help and support';
 import AppLogin from './components/login';
 import AppMissingGradeForm from './components/missing grade form';
 import Footer from './components/footer';
+import AppHeader from './components/header';
 
 
 

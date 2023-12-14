@@ -9,6 +9,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTachometerAlt, faChartLine, faFileAlt } from '@fortawesome/free-solid-svg-icons';
 import "./styles/home.css"
 
+
 const heroData = [
   {
     id: 1,
@@ -67,7 +68,9 @@ const graduatesData = [
 
 function Home() {
   return (
+    
     <section>
+   
       <div className='background'>
         <Carousel>
           {heroData.map(hero => (

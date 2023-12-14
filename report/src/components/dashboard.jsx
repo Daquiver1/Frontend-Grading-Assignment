@@ -1,13 +1,9 @@
-import React from 'react';
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
-import Card from 'react-bootstrap/Card';
-import Button from 'react-bootstrap/Button';
+import React, { useState } from 'react';
+import { Container, Row, Col, Card, Button, Carousel, Badge } from 'react-bootstrap';
+import { FaBook, FaChartLine, FaExclamationTriangle } from 'react-icons/fa';
 
- function AppDashboard() {
-  // Replace with actual user data or fetch it from your backend
-  const user = {
+function AppDashboard() {
+  const [user ] = useState({
     name: 'Christian Dwamena',
     grade: '12',
     average: '87',
@@ -24,7 +20,7 @@ import Button from 'react-bootstrap/Button';
       'Perfect Attendance for the Semester',
     ],
     recentActivity: 'Attended a Guest Lecture on Cybersecurity.',
-  };
+  });
 
   const missingGrades = user.courses.filter((course) => !course.grade);
 
@@ -38,9 +34,9 @@ import Button from 'react-bootstrap/Button';
   };
 
   return (
-    <Container>
+    <Container className="mt-4">
       {/* Welcome Message Section */}
-      <Row className="mt-4">
+      <Row>
         <Col>
           <h2>Welcome, {user.name}!</h2>
           <p>Grade: {user.grade}</p>
@@ -60,42 +56,69 @@ import Button from 'react-bootstrap/Button';
         </Col>
       </Row>
 
-      {/* Summary Cards Section */}
+      {/* Current Grades and Missing Grades Section */}
       <Row className="mt-4">
         <Col>
-          <h3>Summary</h3>
-          <Row xs={1} md={2}>
-            <Col>
-              <Card>
+          <h3 className="mb-4">Overview</h3>
+          <Carousel fade interval={3000}>
+            <Carousel.Item>
+              <Card bg="info" text="white">
                 <Card.Body>
-                  <Card.Title>Missing Grades</Card.Title>
-                  <Card.Text>{missingGrades.length} grades are currently missing.</Card.Text>
+                  <FaBook className="icon" />
+                  <Card.Title>Current Grades</Card.Title>
+                  {user.courses.map((course, index) => (
+                    <p key={index}>
+                      {course.name}: {course.grade}
+                    </p>
+                  ))}
                 </Card.Body>
               </Card>
-            </Col>
+            </Carousel.Item>
 
-            <Col>
-              <Card>
+            <Carousel.Item>
+              <Card bg="danger" text="white">
                 <Card.Body>
-                  <Card.Title>Achievements</Card.Title>
+                  <FaExclamationTriangle className="icon" />
+                  <Card.Title>Missing Grades</Card.Title>
                   <ul>
-                    {user.achievements.map((achievement, index) => (
-                      <li key={index}>{achievement}</li>
+                    {missingGrades.map((course, index) => (
+                      <li key={index}>
+                        {course.name}: <Badge bg="warning">Missing</Badge>
+                      </li>
                     ))}
                   </ul>
                 </Card.Body>
               </Card>
-            </Col>
-          </Row>
+            </Carousel.Item>
+          </Carousel>
+        </Col>
+      </Row>
+
+      {/* Achievements Section */}
+      <Row className="mt-4">
+        <Col>
+          <h3 className="mb-4">Achievements</h3>
+          <Card bg="success" text="white">
+            <Card.Body>
+              <FaChartLine className="icon" />
+              <Card.Title>Achievements</Card.Title>
+              <ul>
+                {user.achievements.map((achievement, index) => (
+                  <li key={index}>{achievement}</li>
+                ))}
+              </ul>
+            </Card.Body>
+          </Card>
         </Col>
       </Row>
 
       {/* Fun Fact Section */}
       <Row className="mt-4">
         <Col>
-          <h3>Fun Fact</h3>
-          <Card>
+          <h3 className="mb-4">Fun Fact</h3>
+          <Card bg="dark" text="white">
             <Card.Body>
+              <FaBook className="icon" />
               <Card.Text>{getRandomFunFact()}</Card.Text>
             </Card.Body>
           </Card>
@@ -105,9 +128,10 @@ import Button from 'react-bootstrap/Button';
       {/* Recent Activity Section */}
       <Row className="mt-4">
         <Col>
-          <h3>Recent Activity</h3>
-          <Card>
+          <h3 className="mb-4">Recent Activity</h3>
+          <Card bg="secondary" text="white">
             <Card.Body>
+              <FaChartLine className="icon" />
               <Card.Text>{user.recentActivity}</Card.Text>
             </Card.Body>
           </Card>
