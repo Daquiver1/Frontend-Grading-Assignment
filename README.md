@@ -1,3 +1,5 @@
+# Amenuvie Martey Kingsley    11298637
+
 # Student Grade Reporting System Frontend
 
 ## Project Overview
