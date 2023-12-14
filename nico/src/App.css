@@ -1,0 +1,41 @@
+import 
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+.App {
+  display: flex;
+}
+
+.Navbar {
+  height: 100vh; /* Set the sidebar to full height of the viewport */
+  width: 200px;
+  background-color: #333;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav li {
+  padding: 15px;
+  color: white;
+  cursor: pointer;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+nav li:hover {
+  background-color: #555;
+}
+
+.MainContent {
+  flex: 1; /* Allow the main content to take up the remaining space */
+  padding: 20px;
+  background-color: #f1f1f1;
+}
