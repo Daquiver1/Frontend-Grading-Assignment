@@ -2,15 +2,16 @@ import React, { useRef } from 'react';
 import { NavLink, Link } from 'react-router-dom';
 import { BiMenu } from 'react-icons/bi';
 import logo from '../../assets/images/logo.jpg';
-import userImg from '../../assets/images/avatar-icon.png';
+import userImg from '../../assets/images/card3.jpg';
 
 const navLinks = [
   { path: '/home', display: 'Home' },
   { path: '/dashboard', display: 'Dashboard' },
   { path: '/gradeReport', display: 'Grade Report' },
   { path: '/missingGrade', display: 'Missing Grade' },
-  { path: '/helpAndSupport', display: 'Help And Support' },
   { path: '/instructorContact', display: 'Instructor Contact' },
+  { path: '/helpAndSupport', display: 'Help And Support' },
+
 ];
 
 const Header = () => {
@@ -24,7 +25,7 @@ const Header = () => {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <div>
-            <img src={logo} alt="Company Logo" />
+            <img src={logo} alt="Company Logo" className='w-[100px] h-p[100px]'/>
           </div>
 
           {/* Menu */}

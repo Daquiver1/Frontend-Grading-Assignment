@@ -1,3 +1,4 @@
+// GradeReport.js
 import React, { useState } from 'react';
 import { BsArrowRight } from 'react-icons/bs';
 import { Link } from 'react-router-dom'; // Make sure to import Link from 'react-router-dom'
@@ -5,9 +6,9 @@ import { Link } from 'react-router-dom'; // Make sure to import Link from 'react
 const GradeReport = () => {
   // Sample data for courses and grades
   const gradeData = [
-    { course: 'Math', grade: 'A', semester: 'Fall 2022' },
-    { course: 'Science', grade: 'B', semester: 'Fall 2022' },
-    { course: 'English', grade: 'A-', semester: 'Spring 2023' },
+    { course: 'Math', grade: 'A', semester: '1st 2022' },
+    { course: 'Science', grade: 'B', semester: '2nd 2022' },
+    { course: 'English', grade: 'A-', semester: '1st 2023' },
     // Add more data as needed
   ];
 
@@ -57,10 +58,10 @@ const GradeReport = () => {
         </thead>
         <tbody>
           {filteredGradeData.map((item, index) => (
-            <tr key={index} className="border-b">
-              <td className="p-2">{item.course}</td>
-              <td className="p-2">{item.grade}</td>
-              <td className="p-2">{item.semester}</td>
+            <tr key={index} className={index % 2 === 0 ? 'bg-gray-100' : 'bg-white'}>
+              <td className="p-2 border">{item.course}</td>
+              <td className="p-2 border">{item.grade}</td>
+              <td className="p-2 border">{item.semester}</td>
             </tr>
           ))}
         </tbody>

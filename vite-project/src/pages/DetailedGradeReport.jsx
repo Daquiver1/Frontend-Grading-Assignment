@@ -32,9 +32,28 @@ const DetailedGradeReport = () => {
       {/* Additional content for the detailed report */}
       <div className="bg-white p-4 rounded shadow-md">
         <h3 className="text-lg font-semibold mb-2">Additional Details</h3>
-        <p className="text-gray-700">
-          Add your detailed report content here. This could include more charts, tables, or any other relevant information.
-        </p>
+        
+
+        {/* Example Table */}
+        <table className="w-full mt-4">
+          <thead>
+            <tr className="bg-gray-200">
+              <th className="p-2">Category</th>
+              <th className="p-2">Details</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr className="border-b">
+              <td className="p-2">Category 1</td>
+              <td className="p-2">Details for Category 1</td>
+            </tr>
+            <tr className="border-b">
+              <td className="p-2">Category 2</td>
+              <td className="p-2">Details for Category 2</td>
+            </tr>
+            {/* Add more rows as needed */}
+          </tbody>
+        </table>
       </div>
     </div>
   );

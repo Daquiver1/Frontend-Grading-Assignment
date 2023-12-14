@@ -1,19 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { BsArrowRight } from 'react-icons/bs';
-import home4 from '../assets/images/home4.jpg';
-import home1 from '../assets/images/home1.png';
-import home2 from '../assets/images/home2.png';
-import home3 from '../assets/images/home3.png';
-import home5 from '../assets/images/home5.jpg';
-import icon01 from '../assets/images/icon01.png';
-import icon02 from '../assets/images/icon02.png';
-import icon03 from '../assets/images/icon03.png';
+
 import illustration1 from '../assets/images/illustration1.webp';
 import illustration2 from '../assets/images/illustration2.png';
 import illustration3 from '../assets/images/illustration3.jpg';
-import videoIcon from '../assets/images/video-icon.png';
-import avatarIcon from '../assets/images/avatar-icon.png';
+
 
 const Home = () => {
   return (

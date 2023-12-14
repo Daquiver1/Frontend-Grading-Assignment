@@ -1,6 +1,5 @@
 //import React from 'react';
 import Home from '../pages/Home';
-import Signup from '../pages/Signup';
 import Login from '../pages/Login';
 import GradeReport from '../pages/GradeReport';
 import MissingGrade from '../pages/MissingGrade';
@@ -18,7 +17,6 @@ const Routers = () => {
             <Route path="/home" element={<Home/>}/>
             <Route path="/dashboard" element={<Dashboard/>}/>
             <Route path="/login" element={<Login/>}/>
-            <Route path="/register" element={<Signup/>}/>
             <Route path="/missingGrade" element={<MissingGrade/>}/>
             <Route path="/gradeReport" element={<GradeReport/>}/>
             <Route path="/instructorContact" element={<InstructorContact/>}/>

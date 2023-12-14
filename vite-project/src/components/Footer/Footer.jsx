@@ -64,29 +64,19 @@ const quickLinks01=[
                 display: "Missing Grade",
             },
 
-            {
-                path: "/",
-                display: "Find a Location",
-            },
+           
 
-            {
-                path: "/",
-                display: "Get a Opinion",
-            },
 
         ];
 
 
         const quickLinks03=[
 
-            {
-                path: "/",
-                display: "Donate",
-            },
+           
 
             {
-                path: "/contact",
-                display: "Contact Us",
+                path: "/helpAndSupport",
+                display: "Help And Support",
             },  
         ];
 
@@ -99,8 +89,8 @@ const Footer = () => {
             <div className="container">
                 <div className="flex justify-between flex-col md:flex-row flex-wrap gap-[30px]">
                     <div>
-                        <img src={logo} alt=""/>
-                        <p className="text-[16px] leading-7 font-[400] text-textColor mt-4">Copyright © {year} developed by Prodigies all right reserved </p>
+                        <img src={logo} alt="" className='w-[100px] h-[100px]'/>
+                        <p className="text-[16px] leading-7 font-[400] text-textColor mt-4">Copyright © {year} </p>
 
                         
                         <p className="text-[16px] leading-7 font-[400] text-textColor mt-4">Connect with us:</p>

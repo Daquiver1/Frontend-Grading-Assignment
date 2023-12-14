@@ -1,7 +1,7 @@
 import React from 'react';
 import { Bar, Doughnut } from 'react-chartjs-2';
 import 'chart.js/auto';
-import home1 from '../../assets/images/home1.png';
+import home1 from '../../assets/images/card1.jpg';
 
 const gradeData = {
   labels: ['Math', 'Science', 'English', 'History', 'Art'],
