@@ -1,0 +1,17 @@
+/* Header.css */
+.center-align {
+    text-align: center;
+  }
+  
+  header div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px; /* Add margin to separate from the navigation links */
+  }
+  
+  header img {
+    width: 100%; /* Set the desired width for your logo */
+    height: 100%; /* Maintain the aspect ratio */
+  }
+  
