@@ -1,5 +1,6 @@
 # Missing Grade Report Page
 ## 11279787_DCIT205_Assignment1
+# Click react-app to open the actual react app
 
 # Web Pages
 ## Landing Page
