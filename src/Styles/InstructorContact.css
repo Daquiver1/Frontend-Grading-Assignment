@@ -1,0 +1,50 @@
+.i-container {
+  padding-top: 50px;
+  background-color: white;
+  position: relative;
+  top: -10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  width: 100%;
+  height: 800px;
+}
+.contact {
+  border-radius: 10px;
+  margin-bottom: 20px;
+  padding: 20px;
+  height: 110px;
+  width: 800px;
+  display: flex;
+  flex-direction: row;
+  column-gap: 10px;
+  border: 2px solid rgb(30, 104, 188);
+}
+.contact-details {
+  font-family: Roboto;
+  font-weight: bolder;
+  border-radius: 10px;
+  color: white;
+  background-color: rgb(178, 178, 178);
+  border: 2px solid gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 265px;
+  height: 100px;
+}
+.send-btn {
+  width: 100px;
+  height: 35px;
+  color: white;
+  background-color: rgb(44, 138, 44);
+  border: none;
+}
+
+.send-btn:hover {
+  background-color: white;
+  border: 1.5px solid rgb(44, 138, 44);
+  color: rgb(44, 138, 44);
+}
