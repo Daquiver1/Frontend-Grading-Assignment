@@ -17,7 +17,7 @@
 ![Grade Report](<src/Page Screenshots/Missing Grade Report.png>)
 
 ## Missing Grade Report Page
-![Find missing grade](<src/Page Screenshots/Missing Grade Report.png>)
+![grade form](<src/Page Screenshots/missing grade form.png>)
 
 ## Instructor Contact Page
 ![instructor contact](<src/Page Screenshots/instructor contact.png>)
