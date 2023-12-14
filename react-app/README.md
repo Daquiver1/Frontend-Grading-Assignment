@@ -31,6 +31,12 @@
 ![header](<src/Page Screenshots/header.png>)
 ![footer](<src/Page Screenshots/footer.png>)
 
+# Setup and instalation
+git clone https://github.com/bakorx/11279787_DCIT205_Assignment1.git
+cd repo-name
+npm install
+npm start
+
 
 
 
