@@ -62,4 +62,4 @@ To contribute to this project, please follow these guidelines:
 3. Commit your changes and push them to your branch.
 4. Submit a pull request for review.
 
-## Create and build by Fabice Ihongui 
+## Create and build by Fabrice Ihongui 
