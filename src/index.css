@@ -15,8 +15,9 @@
   display: none;
   top: 0;
   left: 0;
-  background-color: rgba(22, 20, 20, 0.534);
+  background-color: rgba(0, 0, 0, 0.274);
   overflow: hidden;
+  backdrop-filter: blur(5px);
 }
 
 .sideBar_container.active {

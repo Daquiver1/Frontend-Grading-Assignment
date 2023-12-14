@@ -1,13 +1,24 @@
 import { NavLink } from "react-router-dom";
 import navlinks from "../../assets/data/navLinks";
 import { MdLogout } from "react-icons/md";
+import { HiOutlineChevronDoubleLeft } from "react-icons/hi";
+
 import Logo from "../../assets/images/student_avater.png";
 
-function SideBar() {
+function SideBar({ handleClick }) {
   return (
-    <div className="side_bar border-r-4 border-r-[#23255941] overflow-y-auto py-5 px-3 relative flex flex-col">
-      <div className=" text-[30px] font-bold text-primary_blue">UG</div>
-      <div className=" bg-secondary py-4 w-full mt-2 grid grid-cols-4 rounded-lg px-2">
+    <div className="side_bar z-[99] border-r-4 border-r-[#23255941] overflow-y-auto py-5 px-3 relative flex flex-col">
+      <div className=" text-[30px] font-bold text-primary_blue w-full flex flex-row justify-between">
+        <span>UG</span>
+        <button
+          type="button"
+          onClick={handleClick}
+          className=" px-2 bg-gray-100 cursor-pointer rounded-md text-primary_blue"
+        >
+          <HiOutlineChevronDoubleLeft size={25} />
+        </button>
+      </div>
+      <div className=" bg-secondary py-4 w-full mt-5 grid grid-cols-4 rounded-lg px-2">
         <img src={Logo} className=" col-span-1 border rounded-full bg-white" />
         <p className=" text-primary_blue font-bold col-span-3 flex justify-center items-center">
           Esther O.
@@ -16,7 +27,7 @@ function SideBar() {
       <div className=" w-full py-1 mt-5 flex flex-col gap-3">
         {navlinks.map((link) => (
           <NavLink
-          key={link}
+            key={link.path}
             to={link.path}
             end
             relative="path"

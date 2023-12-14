@@ -1,18 +1,35 @@
+import { useState } from "react";
 import SideBar from "../components/naviagtion/SideBar";
 import NavBar from "../components/naviagtion/NavBar.jsx";
 import { Outlet } from "react-router-dom";
 
 function Dashboard() {
+  const [isOpen, setOpen] = useState(false);
+
+  const handleNavbar = () => {
+    setOpen((prev) => !prev);
+  };
+
+  const handleOutSpaceClose = (el) => {
+    if (!el.classList.contains("sideBar_container")) {
+      return;
+    }
+    setOpen(false);
+  };
+
   return (
     <div className=" h-[100vh] w-full flex flex-row ">
-      <div className="sideBar_container">
-        <SideBar  />
+      <div
+        className={`z-[99] sideBar_container ${!isOpen ? null : "active"} `}
+        onClick={(e) => handleOutSpaceClose(e.target)}
+      >
+        <SideBar isOpen={isOpen} handleClick={()=>setOpen(false)} />
       </div>
       <div className="content_  769px:pl-3 overflow-y-auto">
-        <NavBar />
-       <div className="w-full py-2 ">
-        <Outlet />
-       </div>
+        <NavBar handleClick={() => handleNavbar()} />
+        <div className="w-full py-2 ">
+          <Outlet />
+        </div>
       </div>
     </div>
   );
