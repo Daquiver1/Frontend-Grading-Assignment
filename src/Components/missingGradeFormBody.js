@@ -4,9 +4,9 @@ export default function MissingGradeFormBody() {
     return(
         <>
         
-        <form>
         <div class="container card text-bg-dark" id="signuppagebg">
             <div className="container" id="signinborder"> 
+        <form>
                 <img src={UgLogo} className="d-grid gap-2 col-1" alt="uglogo" ></img>
             <   h1 className="text-left">PLease fill the form below</h1>
                 <div class="d-grid gap-2 col-5">
@@ -29,10 +29,10 @@ export default function MissingGradeFormBody() {
                     <a className="btn btn-primary" id="submit-btn" href="/Dashboard" role="button">Submit</a>
                     {/*<button type="submit" href="/Dashboard" class="btn btn-primary mb-3">Submit</button>*/}
                 </div>
-                
+            
+        </form>
             </div>     
         </div>
-        </form>
 
         </>
     ) ;   

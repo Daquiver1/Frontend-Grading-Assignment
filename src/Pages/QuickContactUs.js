@@ -1,21 +1,15 @@
-import Sidebar from "../Components/sidebar"
+
 import Footer from "../Components/footer"
 
-export default function ContactUs() {
+export default function QuickContactUs() {
     return(
         <>
 
-            <div id="Parent">
-                <div id="sidebarPositioning" >
-                    <Sidebar/>
-                </div>
 
-                <div id="sidebarContentPositioning">
-                    
                     <div class="container card text-bg-dark" id="signuppagebg">
                         <div className="container" id="signinborder">
                         <h2 id="dashboardH2" >Lecturers With Their Respective Contacts</h2>
-                        <table class="table table-secondary " >
+                    <table class="table table-secondary " >
                         <thead>
                             <tr>
                             <th scope="col">#</th>
@@ -64,10 +58,6 @@ export default function ContactUs() {
                                                 
 
                     <Footer/>    
-                </div>
-
-            </div>
-            
 
         </> 
     )    

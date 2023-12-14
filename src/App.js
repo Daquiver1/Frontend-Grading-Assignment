@@ -9,6 +9,7 @@ import LoginPage from './Pages/loginPage';
 import GradeReport from './Pages/gradeReport';
 import NoPage from './Pages/NoPage';
 import MissingGradeform from './Pages/missingGradeForm';
+import QuickContactUs from './Pages/QuickContactUs'
 
 
 
@@ -25,6 +26,7 @@ export default function App() {
           <Route path='/HelpAndSupport' element={<HelpAndSupport/>}/>
           <Route path='/LoginPage' element={<LoginPage/>}/>
           <Route path='/MissingGrade' element={<MissingGradeform/>}/>
+          <Route path='/QuickContactUs' element={<QuickContactUs/>}/>
           <Route path='*' element={<NoPage/>}/>
         </Routes>
       </BrowserRouter>

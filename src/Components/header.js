@@ -30,7 +30,7 @@ export default function Header() {
                 <ul className="navbar-nav">
                 
                 <li className="nav-item active">
-                    <a href="/ContactUs" className="nav-link">
+                    <a href="/QuickContactUs" className="nav-link">
                     Contact Us
                     </a>
                 </li>
