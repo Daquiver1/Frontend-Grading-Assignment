@@ -1,0 +1,52 @@
+.home {
+    background-image: url('../images/home_background.jpg');
+    background-size: cover; 
+  background-position: center;
+}
+
+.schoolname {
+    font-size:35px ;
+    text-align: center;
+    color: white;
+}
+
+.entrytext{
+    text-align: center;
+    margin-top: 250px;
+    font-size: 30px;
+    color: white;
+
+}
+
+.overview{
+    text-align: center;
+    font-size: 20px;
+    color: white;
+
+}
+
+.button-container{
+    text-align: center;
+    align-items: center;
+
+
+}
+
+.homebutton {
+    display: block;
+    /*margin-left: 570px;*/
+    font-size: 18px;
+    background-color:rgb(189, 156, 108);
+    border: none;
+    color: white;
+    border-radius: 2px;
+    padding: 5px;
+    transition: 0.5s;
+}
+
+
+
+.homebutton:hover {
+    cursor: pointer;
+    opacity: 5px;
+}
