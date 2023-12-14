@@ -1,11 +1,10 @@
 import React from 'react';
-import Navbar from './Navbar';
 
-const Landingpage =() => {
-  
+
+const LandingPage =() => {
+
 return(
   < >
-  <Navbar />
 <div>
 <h1>WELCOME</h1>
 <p>Welcome to the Missing Grade Reporting System</p>
@@ -17,4 +16,4 @@ return(
 );
 };
 
-export default Landingpage;
+export default LandingPage;
