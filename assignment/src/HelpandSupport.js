@@ -1,10 +1,13 @@
 import React from "react";
 import Nav from "./components/Navbar";
+import Help from "./components/FAQs";
 const HelpAndSupport = () =>{
     return ( 
-        <div>
-            <div><Nav/></div>
-            Help</div>
+        <div className="mt-[85px]">
+        <Nav/>
+        <Help/>
+          
+            </div>
      );
 }
  
