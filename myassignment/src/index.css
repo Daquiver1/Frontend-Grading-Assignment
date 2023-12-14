@@ -1,13 +1,94 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+* {
+  margin: 0%;
+  color: black;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.header{
+  max-height: 70px;
+  position: fixed;
+  z-index: 1;
+  height: 70px;
+  width: 100vw;
+  background-color: blue;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header > .navLinks {
+  height: 70px;
+  flex-grow: 0.5;
+  background-color: white;
+}
+
+header > .navLinks nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+}
+
+header > .navLinks nav ul li {
+  list-style: none;
+  margin-right: 30px;
+}
+
+header > .navLinks nav ul li a {
+  text-decoration: none;
+  color: #112f98;
+  font-family: Montserrat;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  cursor: pointer;
+}
+
+header > .navLinks nav ul li a:hover{
+  color: orange;
+  transition: all 0.1s ease-in-out;
+}
+
+.homeHero{
+  height: 100vh;
+  width: 100vw;
+  align-items: center;
+  justify-content: center;
+  background-position: center;
+  background-color:rgba(255, 255, 0, 0.502);
+}
+
+.homeHero > h1{
+  text-align: center;
+  font-size: 40px;
+}
+
+.homeHero > form{
+  margin-top: 20px;
+}
+
+.homeHero > form > input{
+  display: block;
+  background-position: center;
+  text-align: center;
+  border: 1px;
+  margin-right: 10px;
+  margin-left: 40vw;
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+  line-height: 1.25;
+  margin-bottom: 70px;
+  border: 1px solid #BABFC7;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.submit {
+  background-color: white;
+  
+}
+.submit:hover {
+  background-color: transparent;
+  
 }
