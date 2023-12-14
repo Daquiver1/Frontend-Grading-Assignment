@@ -1,0 +1,210 @@
+
+
+.main-div{
+  background-color: #05040442;
+  margin-top: 330px;
+  background-image: url('./Images/new.jpg');
+  background-size: cover; 
+  background-position: center; 
+  color:white;
+  opacity:2;
+  }
+  .killmoves{
+    font-family:script;
+  }
+
+  .dhead{
+    text-align: center;
+    margin-bottom: 5px;
+    color:white;
+    font-family:script;
+  }
+  
+
+  .first-div{
+    background-color: #022418d6;
+
+  }
+.dhead-span{
+  margin-bottom:20px;
+  margin-top: -13px;
+  margin-left:5%;
+  font-family:script;
+}
+.boxes{
+  display:flex;
+  margin-top:8px;
+  margin-left:22px;
+  
+}
+.one{
+  background-color: #022418e2;
+  color: #333;width: 300px;
+  height: 300px;
+  margin:10px;
+  border-radius: 20px;
+  border-radius:20px;
+
+}
+
+.two{
+  background-color: #022418e2;
+  color: #333;  width: 300px;
+    height: 300px;
+    margin:10px;
+    border-radius:20px;
+
+  }
+  .three{
+    background-color: #022418e2;
+    color: #333;    width: 300px;
+      height: 300px;
+      margin:10px;
+      border-radius:20px;
+
+    }
+    .four{
+      background-color: #022418e2;
+      color: #333;      width: 300px;
+        height: 300px;
+        margin:10px;
+        border-radius:20px;
+
+      }
+
+      .five{
+        background-color: #022418e2;
+        color: #333;        width: 300px;
+          height: 300px;
+          margin:10px;
+          border-radius:20px;
+
+        }
+        .six{
+          background-color: #022418e2;
+          color: #333;          width: 300px;
+            height: 300px;
+            margin:10px;
+            border-radius:20px;
+
+          }
+
+          .seven{
+            background-color: #022418e2;
+            color: #333;            width: 300px;
+              height: 300px;
+              margin:10px;
+              border-radius:20px;
+
+            }
+            .eight{
+              background-color: #022418e2;
+              color: #333;              width: 300px;
+                height: 300px;
+                margin:10px;
+                border-radius:20px;
+
+              }
+
+
+
+.image1{
+  width:1000px;
+  margin-left:90px;
+  height:100px;
+  object-fit: cover;
+margin-top:-14px;
+}
+
+
+.one img {
+  width: 291px; 
+  height: 200px; 
+  object-fit: cover;
+  border-radius:20px;
+  transition: opacity 0.3s ease-in-out;
+
+}
+.two img {
+  width: 291px; 
+  height: 200px; 
+  object-fit: cover;
+  border-radius:20px;
+  transition: opacity 0.3s ease-in-out;
+
+}
+
+.three img {
+  width: 291px; 
+  height: 200px; 
+  object-fit: cover;
+  border-radius:20px;
+  transition: opacity 0.3s ease-in-out;
+
+}
+.four img {
+  width: 291px; 
+  height: 200px; 
+  object-fit: cover;
+  border-radius:20px;
+  transition: opacity 0.3s ease-in-out;
+
+}
+.five img {
+  width: 291px; 
+  height: 200px; 
+  object-fit: cover;
+  border-radius:20px;
+  transition: opacity 0.3s ease-in-out;
+
+}
+.six img {
+  width: 291px; 
+  height: 200px; 
+  object-fit: cover;
+  border-radius:20px;
+  transition: opacity 0.3s ease-in-out;
+
+}
+.seven img {
+  width: 291px; 
+  height: 200px; 
+  object-fit: cover;
+  border-radius:20px;
+  transition: opacity 0.3s ease-in-out;
+
+
+}
+
+.eight img {
+  width: 291px; 
+  height: 200px; 
+  object-fit: cover;
+  border-radius:20px;
+transition: opacity 0.3s ease-in-out;
+}
+
+.one img:hover{
+  opacity:0.5;
+}
+.two img:hover{
+  opacity:0.5;
+}
+.three img:hover{
+  opacity:0.5;
+}
+.four img:hover{
+  opacity:0.5;
+}
+.five img:hover{
+  opacity:0.5;
+}
+.six img:hover{
+  opacity:0.5;
+}
+.seven img:hover{
+  opacity:0.5;
+}
+.eight img:hover{
+  opacity:0.5;
+}

@@ -1,0 +1,51 @@
+p{
+  font-family:sans-serif;
+  font-size:10px;
+}
+.main-foot{
+  width: 100%;
+  padding: 1.3rem 0;
+  background: linear-gradient(to bottom, #F0F0F0 0.5% ,  black 90%);
+  color: #fff;
+  font-family:elephant;
+height: 100px;
+bottom:0;
+}
+
+
+
+.template{
+  max-width: 1140px;
+  padding-top: 100pz;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+  padding: 0 2rem;
+
+}
+
+
+.my-div{
+  margin-top:5px;
+  margin-bottom:10px;
+}
+
+h4{
+  font-size: 1rem;
+}
+
+
+@media screen and (max-width: 760px){
+  .footer-container{
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+
+      max-width: 1140px;
+      margin: auto;
+    
+      gap: 2px;
+      padding: 0 1rem;
+  
+  }
+  
+}

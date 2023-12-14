@@ -1,0 +1,66 @@
+.edum{
+  background-image: url('./Images/night.jpg');
+  background-size: cover; 
+  background-position: center; 
+  color:white;
+  opacity:0.9;
+}
+
+.profs{
+  color:white;
+  font-weight: bold;
+}
+.profs-span{
+  font-family:script;
+  margin-left:15px;
+}
+.staff-main{
+  margin-top:92px;
+text-decoration: underline;
+  font-size:40px;
+  margin-left: 40%;
+  font-weight:bold;
+}
+.buttonn{
+background-color: white;
+font-size:20px;
+border-radius:12px;
+margin-top: 10px;
+}
+.staff-maina{
+  margin-left:8%;
+  font-size:20px;
+  font-family:script;
+}
+.searching{
+  background-color: #9397964e;
+}
+.search-input{
+  margin:10px;
+  border-radius:8px;
+  font-size:9px;
+}
+.holes{
+display:flex;
+}
+.hole1{
+  background-color: #9397964e;
+  color: #333;
+  width: 300px;
+  height: 150px;
+  margin:25px;
+  border-radius: 20px;
+  border-radius:20px;
+  width:250px;
+margin-right:30px;
+}
+
+.hole2{
+  background-color: #A7C0B7; /* Pale sage green with a hint of pink */
+  color: #333;width: 300px;
+  height: 200px;
+  margin:10px;
+  border-radius: 20px;
+  border-radius:20px;
+
+}
