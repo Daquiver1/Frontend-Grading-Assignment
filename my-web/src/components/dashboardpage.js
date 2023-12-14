@@ -20,7 +20,7 @@ const DashboardPage = () => {
                 <ul>
                     <li><Link to="/dashboard">DashboardPage</Link></li>
                     <li><Link to="/grade-report">GradeReportPage</Link></li>
-                    <li><Link to="/missing-grade-form">MissingGrade</Link></li>
+                    <li><Link to="/missinggrade">MissingGrade</Link></li>
                     <li><Link to="/instructor-contact">InstructorContact</Link></li>
                     <li><Link to="/help-support">HelpAndSupport</Link></li>
                 </ul>

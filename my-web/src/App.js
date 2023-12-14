@@ -7,6 +7,7 @@ import Login from './components/login';
 import DashboardPage from './components/dashboardpage'; 
 import GradeReportPage from './components/GradeReport';
 import { BrowserRouter as Router, Route, Routes, BrowserRouter } from 'react-router-dom';
+import MissingGrade from './components/missinggrade';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/dashboard" element={<DashboardPage />} /> 
         <Route path="/grade-report" element={<GradeReportPage />} />
+        <Route path="/missinggrade" element={<MissingGrade />} />
       </Routes>
       <Footer />
     </Router>

@@ -301,3 +301,66 @@ main.cards section.card.progress {
   padding: 20px;
   background-color: #fff;
 }
+.grade-report-container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background-color: var(--mainColorLight);
+  color: var(--textColor);
+  min-height: 100vh;
+}
+
+.grade-report-container h2 {
+  color: var(--mainColor);
+  margin-bottom: 20px;
+}
+
+.grade-report-container .filter-section {
+  margin-bottom: 20px;
+}
+
+.grade-report-container .filter-section label {
+  margin-right: 10px;
+  font-weight: bold;
+  color: var(--mainColor);
+}
+
+.grade-report-container .filter-section select {
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid var(--mainColor);
+  background-color: white;
+  color: var(--mainColor);
+}
+
+.grade-report-table {
+  background-color: white;
+  border-collapse: collapse;
+  width: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.grade-report-table th, .grade-report-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.grade-report-table th {
+  background-color: var(--mainColor);
+  color: white;
+}
+
+.grade-report-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.grade-report-table tr:hover {
+  background-color: var(--secondaryColor);
+  color: white;
+}
+
+.grade-report-table .missing-grade {
+  color: var(--secondaryColor);
+  font-weight: bold;
+}

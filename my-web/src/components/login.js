@@ -9,7 +9,7 @@ const Login = () => {
 
     const handleSubmit = (event) => {
         event.preventDefault();
-        // Handle the login logic here
+        
         alert(`Login attempted with Student ID: ${studentId} and PIN: ${pin}`);
         navigate('/DashboardPage');
     };
