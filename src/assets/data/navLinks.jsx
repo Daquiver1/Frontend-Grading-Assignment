@@ -13,12 +13,12 @@ const navlinks = [
   {
     path: "reported-grades",
     icon: <MdBookmarkAdded />,
-    label: "Reports",
+    label: "Reported Grades",
   },
   {
     path: "add-missing-grade",
     icon: <MdBookmarkAdd />,
-    label: "Add Grade",
+    label: "Report Missing Grade",
   },
   {
     path: "contact-instructor",

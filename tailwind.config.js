@@ -11,6 +11,7 @@ export default {
         secondary: '#ba8f4a'
       },
       screens: {
+        '370px': '370px',
         '400px': '400px',
         '450px': '450px',
         '500px': '500px',
