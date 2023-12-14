@@ -114,3 +114,20 @@ li {
 li:hover {
   text-decoration: underline;
 }
+
+
+.navi {
+  background-color: #081018; 
+}
+
+
+.text-muted {
+  color: #ffffff28; 
+}
+
+
+.text-muted .fab {
+  font-size: 20px; 
+  margin-right: 10px; 
+}
+
