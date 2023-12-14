@@ -6,8 +6,11 @@ const GradeReport = () => {
   const [courses, setCourses] = useState([
     { name: 'Introduction to Computer Science A', grade: 'A', semester: 'Fall 2023' },
     { name: 'Mathematics', grade: 'B', semester: 'Fall 2023' },
-    { name: 'History', grade: 'A-', semester: 'Spring 2023' },
-    { name: 'Literature', grade: 'B+', semester: 'Spring 2023' },
+    { name: 'CALCULUS 1', grade: 'A-', semester: 'FALL 2023' },
+    { name: 'CALCULUS 2', grade: 'B+', semester: 'SEMESTER 1 2023' },
+    { name: 'MULTIMEDIA AND WEB DESIGN', grade: 'B+', semester: 'Spring 2023' },
+    { name: 'PROGRAMMING 1', grade: 'B+', semester: 'SEMESTER 2 2023' },
+    { name: 'COMOUTER ARCHITECTURE', grade: 'B+', semester: 'Spring 2023' },
     // Add more course data as needed
   ]);
 
