@@ -1,0 +1,20 @@
+.dash{
+    width: 1000px;
+    margin-left: 150px;
+}
+.card{
+    background-color: rgb(226, 221, 221);
+    margin-left: 70px;
+}
+.mt{
+    color: rgb(167, 132, 80);
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.tit{
+    color: rgb(15, 75, 112);
+}
+.over{
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
