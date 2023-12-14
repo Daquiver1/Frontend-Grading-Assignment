@@ -6,11 +6,12 @@ import GradeReportPage from "./Pages/GradeReport";
 import Dashboard from "./Pages/Dashboard";
 import Contact from "./Pages/Contact";
 import HelpSupportPage from "./Pages/HelpSupportPage";
+import LandingPage from "./Pages/Landing page";
 
 function App() {
   return (
         <React.Fragment>
-          <Navbar/>
+          <LandingPage/>
         </React.Fragment>
   );
 }

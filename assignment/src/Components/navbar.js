@@ -11,7 +11,7 @@ function Navbar(){
         <>
         <header>
             <h3>Grade Repo</h3>
-            <nav>
+            <nav ref={navRef}>
                 <Link to="/">Home</Link>
                 <a href="/#">Dashboard</a>
                 <a href="/Contact">Contact </a>

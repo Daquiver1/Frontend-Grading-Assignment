@@ -34,9 +34,8 @@ const MissingGradeFormPage = () => {
       <div className="container mx-auto p-8">
         <h1 className="text-4xl font-bold mb-4">Missing Grade Form</h1>
 
-        {/* Missing Grade Form */}
+      
         <form onSubmit={handleSubmit} className="max-w-md">
-          {/* Course Name */}
           <div className="mb-4">
             <label htmlFor="courseName" className="block text-sm font-medium text-gray-600">
               Course Name
@@ -51,7 +50,6 @@ const MissingGradeFormPage = () => {
             />
           </div>
 
-          {/* Instructor Name */}
           <div className="mb-4">
             <label htmlFor="instructorName" className="block text-sm font-medium text-gray-600">
               Instructor Name
@@ -65,8 +63,6 @@ const MissingGradeFormPage = () => {
               required
             />
           </div>
-
-          {/* Expected Grade */}
           <div className="mb-4">
             <label htmlFor="expectedGrade" className="block text-sm font-medium text-gray-600">
               Expected Grade
@@ -81,7 +77,6 @@ const MissingGradeFormPage = () => {
             />
           </div>
 
-          {/* Explanation */}
           <div className="mb-4">
             <label htmlFor="explanation" className="block text-sm font-medium text-gray-600">
               Explanation
@@ -95,7 +90,6 @@ const MissingGradeFormPage = () => {
             />
           </div>
 
-          {/* Submit Button */}
           <button type="submit" className="bg-blue-500 text-white p-2 rounded-md">
             Submit
           </button>
