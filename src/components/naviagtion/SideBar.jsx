@@ -8,29 +8,32 @@ import Logo from "../../assets/images/student_avater.png";
 function SideBar({ handleClick }) {
   return (
     <div className="side_bar z-[99] border-r-4 border-r-[#23255941] overflow-y-auto py-5 px-3 relative flex flex-col">
+
       <div className=" text-[30px] font-bold text-primary_blue w-full flex flex-row justify-between">
         <span>UG</span>
         <button
           type="button"
           onClick={handleClick}
-          className=" px-2 bg-gray-100 cursor-pointer rounded-md text-primary_blue"
+          className=" 769px:hidden px-2 bg-gray-100 cursor-pointer rounded-md text-primary_blue"
         >
           <HiOutlineChevronDoubleLeft size={25} />
         </button>
       </div>
+
       <div className=" bg-secondary py-4 w-full mt-5 grid grid-cols-4 rounded-lg px-2">
         <img src={Logo} className=" col-span-1 border rounded-full bg-white" />
         <p className=" text-primary_blue font-bold col-span-3 flex justify-center items-center">
           Esther O.
         </p>
       </div>
+
       <div className=" w-full py-1 mt-5 flex flex-col gap-3">
         {navlinks.map((link) => (
           <NavLink
             key={link.path}
             to={link.path}
+            onClick={handleClick}
             end
-            relative="path"
             className={({ isActive }) =>
               ` ${isActive ? "active" : null} w-full navlink`
             }
@@ -46,12 +49,14 @@ function SideBar({ handleClick }) {
           </NavLink>
         ))}
       </div>
+
       <button className="mt-10 px-1 w-full flex justify-center bg-secondary items-center gap-2 font-bold h-[1cm] rounded-md text-white py-2">
         <span className=" text-xl flex justify-center items-center">
           <MdLogout />
         </span>
         <span className=" flex justify-start items-center">LOGOUT</span>
       </button>
+
     </div>
   );
 }

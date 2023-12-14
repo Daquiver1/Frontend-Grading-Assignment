@@ -23,7 +23,7 @@ function Dashboard() {
         className={`z-[99] sideBar_container ${!isOpen ? null : "active"} `}
         onClick={(e) => handleOutSpaceClose(e.target)}
       >
-        <SideBar isOpen={isOpen} handleClick={()=>setOpen(false)} />
+        <SideBar isOpen={isOpen} handleClick={() => setOpen(false)} />
       </div>
       <div className="content_  769px:pl-3 overflow-y-auto">
         <NavBar handleClick={() => handleNavbar()} />
