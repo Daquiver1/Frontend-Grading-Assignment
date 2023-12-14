@@ -1,28 +1,30 @@
+import Chart from 'chart.js/auto';
 import React from 'react'
 import { Fragment, useState, useEffect, useRef  } from 'react'
 import { Dialog, Menu, Transition } from '@headlessui/react'
 import {
   Bars3Icon,
   BellIcon,
+  CalendarIcon,
   ChartPieIcon,
   Cog6ToothIcon,
+  DocumentDuplicateIcon,
+  FolderIcon,
   HomeIcon,
   UsersIcon,
   XMarkIcon,
-  BookmarkIcon,
-  QuestionMarkCircleIcon,
-
-  
 } from '@heroicons/react/24/outline'
 import { ChevronDownIcon, MagnifyingGlassIcon } from '@heroicons/react/20/solid'
 import unknown from '../images/unknown.jpg'
 
+import { BarChart, ResponsiveContainer } from 'recharts'
 const navigation = [
-  { name: 'Home', href: '/LandingPage', icon: HomeIcon, current: false },
-  { name: 'Dashboard', href: '/Dashboard', icon: BookmarkIcon, current: true },
-  { name: 'Login', href: '/Login', icon: UsersIcon, current: false },
-  { name: 'Report', href: '/GradeReport', icon: ChartPieIcon, current: false },
-  { name: 'Help', href: '#', icon: QuestionMarkCircleIcon, current: false },
+  { name: 'Dashboard', href: '#', icon: HomeIcon, current: true },
+  { name: 'Team', href: '#', icon: UsersIcon, current: false },
+  { name: 'Projects', href: '#', icon: FolderIcon, current: false },
+  { name: 'Calendar', href: '#', icon: CalendarIcon, current: false },
+  { name: 'Documents', href: '#', icon: DocumentDuplicateIcon, current: false },
+  { name: 'Reports', href: '#', icon: ChartPieIcon, current: false },
 ]
 const teams = [
   { id: 1, name: 'Heroicons', href: '#', initial: 'H', current: false },
@@ -95,8 +97,15 @@ export default function Example() {
                       </button>
                     </div>
                   </Transition.Child>
+                  {/* Sidebar component, swap this element with another sidebar if you like */}
                   <div className="flex grow flex-col gap-y-5 overflow-y-auto bg-black px-6 pb-4 ring-1 ring-white/10">
-                   
+                    <div className="flex h-16 shrink-0 items-center">
+                      <img
+                        className="h-8 w-auto"
+                        src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500"
+                        alt="Your Company"
+                      />
+                    </div>
                     <nav className="flex flex-1 flex-col">
                       <ul role="list" className="flex flex-1 flex-col gap-y-7">
                         <li>
@@ -160,15 +169,16 @@ export default function Example() {
           </Dialog>
         </Transition.Root>
 
+        {/* Static sidebar for desktop */}
         <div className="hidden lg:fixed lg:inset-y-0 lg:z-50 lg:flex lg:w-72 lg:flex-col">
           {/* Sidebar component, swap this element with another sidebar if you like */}
           <div className="flex grow flex-col gap-y-5 overflow-y-auto bg-black px-6 pb-4">
             <div className="flex h-16 shrink-0 items-center">
-            <div className="text-lg" style={{color:'white'}}>
-            <b>
-              GradeQuest
-            </b>
-          </div>
+              <img
+                className="h-8 w-auto"
+                src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500"
+                alt="Your Company"
+              />
             </div>
             <nav className="flex flex-1 flex-col">
               <ul role="list" className="flex flex-1 flex-col gap-y-7">
@@ -314,101 +324,48 @@ export default function Example() {
           </div>
 
           <main className="py-10">
-            <div>
-                <div style={{marginLeft: '40px'}}>
-                    <b className='text-3xl'>Grades</b>
-                </div>
-                <div className='grid lg:grid-cols-6 md:grid-cols-2 space-x-3 mx-4' style={{marginTop:'20px', marginLeft: '40px'}}>
-                    <div className='text-center  shadow-xl'  style={{ border: '1px solid lightgray', borderRadius: '2px', padding: '2px', width:'120px'}}>1st Semester</div>
-                    <div className='text-center  shadow-xl' style={{ border: '1px solid lightgray', borderRadius: '2px', padding: '2px', width:'120px'}}>2nd Semester</div>
-                    <div className='text-center  shadow-xl' style={{ border: '1px solid lightgray', borderRadius: '2px',padding: '2px', width:'120px'}}>3rd Semester</div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                </div>
-                <div>
-                    <table  style={{ border: '1px solid lightgray', width:'90%', height:'400px', marginLeft:'40px', marginTop: '16px', padding:'40px'}} className='text-center shadow-2xl' >
-                        <tr className='px-22'style={{borderBottom: '1px solid lightgray'}} >
-                            <td><b>Class</b></td>
-                            <td><b>Exam1</b></td>
-                            <td><b>Exam2</b></td>
-                            <td><b>Exam3</b></td>
-                            <td><b>Final Paper</b></td>
-                            <td><b>Final Grade</b></td>
-                        </tr>
-                        <tr style={{borderBottom: '1px solid lightgray', padding:'20px'}}>
-                            <td>Introduction to Maths</td>
-                            <td>86</td>
-                            <td>90</td>
-                            <td>100</td>
-                            <td>94</td>
-                            <td><b>93(A)</b></td>
-                        </tr>
-                        <tr style={{borderBottom: '1px solid lightgray'}}>
-                            <td>Introduction to Management</td>
-                            <td>100</td>
-                            <td>82</td>
-                            <td>98</td>
-                            <td>Not</td>
-                            <td><b>N/A</b></td>
-                        </tr>
-                        <tr style={{borderBottom: '1px solid lightgray'}}>
-                            <td>Science Basics</td>
-                            <td>75</td>
-                            <td>85</td>
-                            <td>94</td>
-                            <td>96</td>
-                            <td><b>88(B)</b></td>
-                        </tr>
-                        <tr style={{borderBottom: '1px solid lightgray'}}>
-                            <td>Art History</td>
-                            <td>Not</td>
-                            <td>80</td>
-                            <td>60</td>
-                            <td>72</td>
-                            <td><b>70(C)</b></td>
-                        </tr>
-                        <tr style={{borderBottom: '1px solid lightgray'}}>
-                            <td>Math & Numbers</td>
-                            <td>26</td>
-                            <td>48</td>
-                            <td>28</td>
-                            <td>34</td>
-                            <td><b>34(E)</b></td>
-                        </tr>
-                        <tr style={{borderBottom: '1px solid lightgray'}}>
-                            <td>English Writing</td>
-                            <td>20</td>
-                            <td>Not</td>
-                            <td>50</td>
-                            <td>48</td>
-                            <td><b>40(E)</b></td>
-                        </tr>
-                        <tr style={{borderBottom: '1px solid lightgray'}}>
-                            <td>Philosophy of Science</td>
-                             <td>92</td>
-                            <td>100</td>
-                            <td>100</td>
-                            <td>86</td>
-                            <td><b>95(A)</b></td>
-                        </tr>
-                    </table>
-                </div>
-                <div className='lg:grid grid-cols-2 md:grid-cols-1'>
-                    <div>
-                        <div>
-                            <p>In Perspective</p>
-                        </div>
+           
+        <div className='text-5xl text-center mt-11 mb-12'>
+            <b>Missing Grade Form</b>
+        </div>
+        <div className='text-sm ' style={{fontStyle:"italic",marginLeft:'250px',paddingBottom:'20px'  }}>
+            <p>The fields denoted by <span style={{color:'red'}}>*</span> are required</p>
+        </div>
+        <div className='justify-start'style={{marginLeft:'250px'}} >
+            <form>
+                    <p>
+                    Course Name: <span style={{color:'red'}}>*</span> 
+                    </p>
+                    <br/>
+                    <div className='border-solid black'>                
+                    <input type='text' placeholder='' style={{border: '1px solid gray',borderRadius: '5px', width: '350px', padding:'3px'}}/>
                     </div>
+                    <div className='border-solid black pt-9 shadow-black'> 
+                    <p>
+                        Instructor's Name: <span style={{color:'red'}}>*</span>
+                    </p> 
+                    <br/>
+                        <input type='text' placeholder="" style={{border: '1px solid gray', borderRadius: '5px', width: '350px', padding: '3px'}}/>
+                    </div>
+                    <div className='border-solid black pt-9 shadow-black'> 
+                    <p>
+                        Expected Grade: <span style={{color:'red'}}>*</span>
+                        <input type='text' placeholder=' ' style={{border: '1px solid gray', borderRadius: '5px', width: '100px', padding: '3px', marginLeft:'2px'}}/>
+                    </p> 
+                    </div>
+                    <div className='border-solid black pt-9 shadow-black'> 
+                    <p>
+                        Explanation Field: <span style={{color:'red'}}>*</span>
+                    </p> 
+                    <br/>
+                        <input type='text' placeholder=' ' style={{border: '1px solid gray', borderRadius: '5px', width: '500px', padding: '3px', height:'100px' }}/>
+                    </div>
+                    <div className='pt-6 '>
+                    <button style={{background:'black', color: 'whitesmoke', padding: '2px', borderRadius: '5px', width:'100px'}}>Submit</button>
+                  </div>
                     
-
-                </div>
-            
-            
-            
-            </div>
-        
-
+                </form>
+        </div>
           </main>
         </div>
       </div>

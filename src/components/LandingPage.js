@@ -1,4 +1,5 @@
 import React from "react";
+import Navbar from "./Navbar";
 import laptop from "../images/grade.jpg"
 import course from "../images/course_grades.jpg"
 import assessment from "../images/assessment_grades.jpg"
@@ -13,7 +14,9 @@ import {FaCartPlus ,FaInstagram, FaFacebook, FaTwitter, FaPhone, FaMailBulk} fro
 
 const LandingPage = ()=>{
     return(
+
         <div>
+            <Navbar/>
             <div className="grid lg:grid-cols-2 md:grid-cols-1">
                 <div className=" justify-center mt-40 ml-20">
                     <div className="text-5xl leading-13">

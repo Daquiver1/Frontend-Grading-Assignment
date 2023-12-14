@@ -1,14 +1,13 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import LandingPage from "./components/LandingPage";
-import Navbar from './components/Navbar';
 import LoginPage from './components/LoginPage';
 import DashboardPage from './components/DashboardPage'
 import GradeReportPage from './components/GradeReportPage';
+import FormPage from './components/FormPage';
 const App = () => {
   return (
   
     <Router>
-      <Navbar/>
      
     
 
@@ -17,6 +16,7 @@ const App = () => {
         <Route path="/Login" element={<LoginPage/>}/>
         <Route path="/Dashboard" element={<DashboardPage/>}/>
         <Route path="/GradeReport" element={<GradeReportPage/>}/>
+        <Route path="/FormPage" element={<FormPage/>}/>
 
 
 
