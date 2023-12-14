@@ -9,12 +9,26 @@ This project is a front-end web application for a Student Grade Reporting System
 The application consists of 7 main pages:
 
 - **Homepage:** Introduction to the system and its purpose.
+![Screenshot](public/screenshots/)
+
 - **Login Page:** Mock login interface for student authentication.
+![Screenshot](public/screenshots/)
+
 - **Dashboard:** Displays an overview of the student’s current grades and alerts for missing grades.
+![Screenshot](public/screenshots/admin-dashboard-page.png)
+
 - **Grade Report:** Shows a detailed view of the student's grades filtered by semester or academic year.
+![Screenshot](public/screenshots/admin-grade-report-page.png)
+
 - **Missing Grade Form:** Enables students to report missing grades.
+![Screenshot](public/screenshots/admin-missing-grade-report.png)
+
 - **Instructor Contact Page:** Lists instructors' contact information with a simulated email feature.
+![Screenshot](public/screenshots/admin-instructor-contacts.png)
+
 - **Help and Support:** Provides FAQs and a mock support contact form.
+![Screenshot](public/screenshots/)
+
 
 ## Technical Details
 
@@ -40,7 +54,33 @@ This will start the application on `localhost` at the default port.
 Describe how to use the application, highlighting key functionalities such as logging in, viewing grades, reporting missing grades, and contacting instructors.
 
 **Logging In:**
-Logging In the Student Grade Report System is simple as there is a Login button on the Landing page and Help And Support page as those are the only pages accessible to users of the app who haven't logged in yet. This button redirects the user to the Login page where the user will have to provide their Student ID and PIN to be authentucated and then granted access if their information is in the database they will be granted acess to the website.
+
+Logging into the Student Grade Reporting System is straightforward. Follow these steps:
+
+1. From the Landing Page or the Help and Support Page, click the "Login" button.
+2. You will be redirected to the Login Page.
+3. Provide your Student ID and PIN for authentication.
+4. If your information is verified in the database, you will be granted access to the website.
+
+### Application Functionalities
+
+Once logged in, you can explore the following key functionalities:
+
+- **Dashboard:**
+  - View an overview of your current grades.
+  - Receive alerts for any missing grades.
+
+- **Grade Report:**
+  - Access a detailed view of your grades.
+  - Filter grades by semester or academic year.
+
+- **Missing Grade Form:**
+  - Report any missing grades by filling out the provided form.
+  - Submit the form for confirmation (no actual submission, just a confirmation message).
+
+- **Instructor Contact Page:**
+  - Browse a list of instructors with their contact details.
+  - Simulate sending emails to instructors (no real emails, just a mock-up).
 
 ## Contribution
 
