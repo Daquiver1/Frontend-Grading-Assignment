@@ -82,7 +82,7 @@ const InstructorContactPage = () => {
       )}
 
       <section className="passages-section">
-      <h2>Passages</h2>
+      <h2></h2>
     <p>
         Welcome to the Instructor Contact Page! This page allows you to explore information about our
         dedicated instructors who play a vital role in shaping the learning experience.
