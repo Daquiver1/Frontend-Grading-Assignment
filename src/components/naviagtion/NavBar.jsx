@@ -5,9 +5,9 @@ import { MdMessage } from "react-icons/md";
 import { FaRegCalendarAlt } from "react-icons/fa";
 import Logo from "../../assets/images/student_avater.png";
 
-function NavBar({handleClick}) {
+function NavBar({ handleClick }) {
   return (
-    <header className="w-full px-2 h-[1.5cm] items-center bg-[#ffffff96] backdrop-blur-lg flex flex-row justify-between">
+    <header className=" sticky top-0 w-full px-2 h-[1.5cm] items-center bg-[#ffffff96] backdrop-blur-lg flex flex-row justify-between">
       <div className="hidden text-secondary font-semibold 769px:flex flex-row gap-2 justify-center items-center">
         <span>
           <FaRegCalendarAlt size={23} />
@@ -15,7 +15,11 @@ function NavBar({handleClick}) {
         <p>Today</p>
       </div>
 
-      <button type="button" onClick={handleClick} className=" 769px:hidden px-1 bg-gray-100 cursor-pointer rounded-md text-primary_blue">
+      <button
+        type="button"
+        onClick={handleClick}
+        className=" 769px:hidden px-1 bg-gray-100 cursor-pointer rounded-md text-primary_blue"
+      >
         <HiBars2 size={32} />
       </button>
 

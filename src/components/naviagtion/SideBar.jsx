@@ -8,7 +8,6 @@ import Logo from "../../assets/images/student_avater.png";
 function SideBar({ handleClick }) {
   return (
     <div className="side_bar z-[99] border-r-4 border-r-[#23255941] overflow-y-auto py-5 px-3 relative flex flex-col">
-
       <div className=" text-[30px] font-bold text-primary_blue w-full flex flex-row justify-between">
         <span>UG</span>
         <button
@@ -42,7 +41,7 @@ function SideBar({ handleClick }) {
               <span className=" text-xl col-span-1 flex justify-center items-center">
                 {link.icon}
               </span>
-              <span className=" col-span-3 flex justify-start items-center">
+              <span className=" text-[14px] col-span-3 flex justify-start items-center">
                 {link.label}
               </span>
             </div>
@@ -56,7 +55,6 @@ function SideBar({ handleClick }) {
         </span>
         <span className=" flex justify-start items-center">LOGOUT</span>
       </button>
-
     </div>
   );
 }

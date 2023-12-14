@@ -27,7 +27,7 @@ function Dashboard() {
       </div>
       <div className="content_  769px:pl-3 overflow-y-auto">
         <NavBar handleClick={() => handleNavbar()} />
-        <div className="w-full py-2 ">
+        <div className="w-full py-2 min-h-full bg-slate-50">
           <Outlet />
         </div>
       </div>
