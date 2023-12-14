@@ -6,9 +6,9 @@ import './ic.css'
 const InstructorContactPage = () => {
   // Sample data for instructors
   const instructors = [
-    { name: 'John Doe', email: 'john.doe@example.com' },
-    { name: 'Jane Smith', email: 'jane.smith@example.com' },
-    { name: 'Bob Johnson', email: 'bob.johnson@example.com' },
+    { name: 'Mark Atta Mensah', email: 'mma@st.ug.edu.gh' },
+    { name: 'Micheal Soli', email: 'ms@st.ug.edu.gh' },
+    { name: 'Joe Metle', email: 'joemetle@gmail.com' },
   ];
 
   const [selectedInstructor, setSelectedInstructor] = useState(null);
