@@ -1,20 +1,26 @@
-# Student Grade Reporting System Frontend
+# 11037680_DCIT205_Assignment1
+# Missing Grade Reporting System 
 
-## Project Overview
+Welcome to the Missing Grade Reporting System is an essential tool designed to empower students by enabling them to track and report any missing grades or discrepancies within their academic records. This system serves as a supportive mechanism to ensure the accuracy and completeness of students' academic profiles.
 
-This project is a front-end web application for a Student Grade Reporting System. It simulates a real-world application where students can view, report, and manage their academic grades. This system addresses the issue of missing or unrecorded grades in a student's profile.
+## Introduction
 
-## Application Structure
+The system offers an intuitive and user-friendly interface accessible to students, allowing them to easily navigate and input necessary information. The implementation of the Missing Grade Reporting System enhances transparency and accountability within academic institutions but also empowers students to actively participate in ensuring the accuracy of their academic records. This fosters a culture of trust and reliability between students and academic administrators, promoting a smoother and more efficient educational experience. It includes pages dedicated  to various aspect of the department such as the Home page, Grade Report, Dashboard, Help SupportPage, MissingGradeFormPage, ICP and LoginPage
 
-The application consists of 7 main pages:
+## PROJECT PURPOSE
 
-- **Homepage:** Introduction to the system and its purpose.
-- **Login Page:** Mock login interface for student authentication.
-- **Dashboard:** Displays an overview of the student’s current grades and alerts for missing grades.
-- **Grade Report:** Shows a detailed view of the student's grades filtered by semester or academic year.
-- **Missing Grade Form:** Enables students to report missing grades.
-- **Instructor Contact Page:** Lists instructors' contact information with a simulated email feature.
-- **Help and Support:** Provides FAQs and a mock support contact form.
+Students can input and track their grades for various courses or assignments that haven't been recorded or are missing from their academic transcripts. If students notice any inconsistencies or missing grades within their academic profiles, they can report these discrepancies through the system. This initiates a process where administrators can investigate and rectify the issue promptly. Students receive acknowledgment or confirmation upon submitting missing grades or discrepancies. This ensures that their concerns have been successfully registered within the system. The system provides students with real-time updates on the status of reported missing grades or discrepancies, keeping them informed throughout the resolution process. Integration capabilities with existing academic databases and management systems ensure seamless synchronization of reported missing grades into the official records once resolved.
+
+## How to Clone and set up the project
+
+To get a copy of this project and run it on your local machine, follow these steps:
+1. *clone the repository:*
+   bashhttps://github.com/EstherBoahemaaAcheampong/Frontend-Grading-Assignment
+
+
+
+
+
 
 ## Technical Details
 
