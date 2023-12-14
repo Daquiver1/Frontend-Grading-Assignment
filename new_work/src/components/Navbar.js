@@ -22,8 +22,8 @@ function AppNavbar() {
         <Navbar.Collapse id="basic-navbar-nav">
           <div className="right-side">
             <Nav className="mr-3">
-              <Nav.Link as={Link} to="/">Home</Nav.Link>
-              <Nav.Link as={Link} to="/login">Login</Nav.Link>
+              <Nav.Link as={Link} to="home">Home</Nav.Link>
+              <Nav.Link as={Link} to="Login">Login</Nav.Link>
               <Nav.Link as={Link} to="/dashboard">Dashboard</Nav.Link>
               <Nav.Link as={Link} to="/grade report">Grade Report</Nav.Link>
               <Nav.Link as={Link} to="/missing grade form">Missing Grade Form</Nav.Link>

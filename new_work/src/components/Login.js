@@ -3,7 +3,7 @@ import '../components/Login.css';
 import school_logoImage from '../images/school_logo.png';
 
 
-function Login() {
+function AppLogin() {
    return(
     <html>
       <body className='main'>
@@ -24,4 +24,4 @@ function Login() {
    )
 }
 
-export default Login;
+export default AppLogin;

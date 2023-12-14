@@ -2,7 +2,7 @@ import React from 'react';
 import  '../components/Home.css';
 import home_backgroundImage from '../images/home_background.jpg';
 
-function Home() {
+function AppHome() {
   return (
     <html>
           <body className='home'>
@@ -42,4 +42,4 @@ function Home() {
   )
 }
 
-export default Home;
+export default AppHome;
