@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import { Container, Row, Col, Button, Form } from 'react-bootstrap';
+import MyNavbar from './Nav';
+import './ic.css'
 
 const InstructorContactPage = () => {
   // Sample data for instructors
@@ -26,10 +28,12 @@ const InstructorContactPage = () => {
   };
 
   return (
+    <div>
+      <MyNavbar />
     <Container className="mt-5">
-      <h2 className="text-center">Instructor Contact</h2>
+      <h2 className="text-center text-white">Instructor Contact</h2>
 
-      <Row className="mt-3">
+      <Row className="mt-3 text-white">
         <Col md={4}>
           <h4>Instructors</h4>
           <ul>
@@ -83,6 +87,7 @@ const InstructorContactPage = () => {
         </Col>
       </Row>
     </Container>
+    </div>
   );
 };
 

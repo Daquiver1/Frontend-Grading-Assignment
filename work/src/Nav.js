@@ -1,38 +1,36 @@
 import React from 'react';
-import { Container, Navbar } from 'react-bootstrap';
+import Navbar from 'react-bootstrap/Navbar';
+import Nav from 'react-bootstrap/Nav';
+import Container from 'react-bootstrap/Container';
+import Image from 'react-bootstrap/Image';
+import { Link } from 'react-router-dom';
 
 const MyNavbar = () => {
   return (
-    <div>
-      <Navbar bg="dark" variant="dark" expand="lg">
-        <Container>
-          {/* Logo and Title on Top */}
-          <Navbar.Brand href="/">
-            <img
-              src="images/logo.jpg"
-              alt="Logo"
-              className="d-inline-block align-top"
-              style={{ maxWidth: '50px', maxHeight: '50px', marginRight: '10px' }}
-            />
-            Missing Grade Reporting System
-          </Navbar.Brand>
+    <Navbar  expand="lg" variant="dark">
+      <Container>
+       
+        <Navbar.Brand href="#home">
+        
+            
+        </Navbar.Brand>
+        
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
+          <Nav className="mr-auto">
+            <Nav.Link href="/">Home</Nav.Link>
+            <Nav.Link href="/LoginPage">Login</Nav.Link>
+            <Nav.Link href="/DashboardPage">Dashboard</Nav.Link>
+            <Nav.Link href="/GradeReportPage">Grade Report</Nav.Link>
+            <Nav.Link href="/MissingGradeForm">Missing Grade Form</Nav.Link>
+            <Nav.Link href="/InstructorContactPage">Instructor Contact</Nav.Link>
+            <Nav.Link href="/HelpAndSupportPage">Help and Support</Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
 
-          {/* Navbar Toggle Button */}
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
-
-          {/* Navbar Collapsible Content */}
-          <Navbar.Collapse id="basic-navbar-nav">
-            {/* Navigation Menu */}
-            <MyNavbar />
-          </Navbar.Collapse>
-        </Container>
-      </Navbar>
-
-      {/* Rest of your content */}
-      <div className='bg-dark main'>
-        {/* ... */}
-      </div>
-    </div>
+        
+      </Container>
+    </Navbar>
   );
 };
 

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import MyNavbar from './src/Nav';
+import MyNavbar from './Nav';
 
 const GradeReportPage = () => {
   const [gradeReport, setGradeReport] = useState([

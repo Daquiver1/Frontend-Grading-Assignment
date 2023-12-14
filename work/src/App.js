@@ -1,6 +1,7 @@
 import React from 'react';
 import MyNavbar from './Nav';
 import { Container } from 'react-bootstrap';
+import './App.css';
 //import MyFooter from './MyFooter';
 
 const App = () => {
@@ -8,7 +9,7 @@ const App = () => {
     <div>
       <MyNavbar />
       {/*<MyFooter />*/}
-      <div className='bg-dark main'>
+      <div className=' main'>
         <h1 className="text-white text-center">Welcome to the Missing Grade Reporting System</h1>
         <p className="text-white text-center">Empowering students to manage their grades effectively</p>
 

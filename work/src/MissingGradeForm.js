@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import MyNavbar from './nav';
-import MyFooter from './Footer';
+import MyNavbar from './Nav';
+//import MyFooter from './Footer';
 
 const MissingGradeForm = () => {
   const [courseName, setCourseName] = useState('');
@@ -22,7 +22,7 @@ const MissingGradeForm = () => {
   return (
     <div>
       <MyNavbar />
-      <MyFooter />
+      
 
       <div className="container main mt-5">
         <h1 className="mb-4">Missing Grade Form</h1>

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Row, Col, Alert } from 'react-bootstrap';
-import MyNavbar from './src/Nav';
+import MyNavbar from './Nav';
 
 const DashboardPage = () => {
   // Sample data for current grades and missing grade alerts

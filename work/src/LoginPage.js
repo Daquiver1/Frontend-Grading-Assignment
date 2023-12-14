@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Container, Form, Button, Row, Col } from 'react-bootstrap';
-import MyNavbar from './src/Nav';
+import MyNavbar from './Nav';
 
 const LoginPage = () => {
   const [studentId, setStudentId] = useState('');
