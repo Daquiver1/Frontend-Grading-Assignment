@@ -1,0 +1,67 @@
+.grade-report-header{
+  text-align: center;
+}
+
+.grade-report-container{
+  position: relative;
+  display:flex;
+  flex-direction: column;
+  width:1000px;
+  border:2px solid black;
+  margin-left:300px;
+  margin-top: 50px;
+}
+.level-container{
+  position:relative;
+  display: flex;
+  flex-direction: column;
+  width:1000px;
+  height: 500px;
+}
+.header-box{
+  position:absolute;
+  left:300px;
+  top:10px;
+  width:500px;
+  background-color: rgb(222, 141, 42);
+  display:flex;
+  justify-content: center;
+}
+.level-header{
+  margin-top:60px;
+  text-align: center;
+}
+.level-container h2{
+ color:white;
+}
+.level-container p{
+  color:rgb(180, 173, 173);
+}
+.level-container h3{
+  color:#2C2A58;
+}
+.level-container h4{
+  color:black;
+}
+.courses-and-grades-container{
+  position: absolute;
+  left: 100px;
+  top:150px;
+ display: grid;
+ grid-template-columns: 400px 300px;
+ column-gap: 300px;
+ row-gap:10px;
+ text-align: justify;
+}
+.course-and-grade-header{
+  position: absolute;
+  left:200px;
+  top:100px;
+  width:650px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
+}
+
+
