@@ -52,6 +52,7 @@ const HelpAndSupport = () => {
       </Accordion.Body>
     </Accordion.Item>
   </Accordion>
+  
   );
 };
 export default HelpAndSupport;

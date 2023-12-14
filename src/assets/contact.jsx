@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-
+import Footer from "./footer";
 function Contact() {
   const [instructors, setInstructors] = useState([
     { id: 1, name: "Micheal Soli ", email: "michaelsoli@gmail.com" },
@@ -44,7 +44,10 @@ function Contact() {
         </p>
 
       )}
+       
     </div>
+    
   );
 }
+
 export default  Contact ;

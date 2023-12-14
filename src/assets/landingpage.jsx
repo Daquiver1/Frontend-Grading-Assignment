@@ -56,7 +56,9 @@ function LandingPage(){
             Have any questions, complaints or suggestions? Contact our support team at supportgm@gmail.com
           </p>
         </div>
+          
      </div>
+     
   );
 }
 
