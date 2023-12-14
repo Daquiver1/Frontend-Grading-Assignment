@@ -1,0 +1,88 @@
+.report{
+	width: 100%;
+  height: 120vh;
+  margin: 0 ;
+  background-color:#f6f5ff;
+  color:#0a2f55;
+  font-family: Tahoma;
+  font-size: 16px;
+}
+
+.report-title {
+	margin: 1em auto;
+	text-align: center;
+}
+
+form{
+	max-width: 500px;
+	min-width: 300px;
+	margin: 0 auto;
+	padding-bottom: 2em;
+}
+
+label{
+	display: block;
+	margin: 0.5rem 0;
+}
+
+fieldset{
+	border:none;
+	padding: 2rem 0;
+	border-bottom:2px solid #3b3b4f;
+}
+
+fieldset:last-of-type{
+	border-bottom: none;
+}
+
+input,textarea{
+	margin: 20px 0 0 0;
+	width: 100%;
+	min-height: 2em;
+	padding: 5px 2%;
+}
+
+input,textarea{
+	background-color: #0a0a23;
+	border: 1px solid #0a0a23;
+	border-radius: 5px;
+	color: #fff;
+}
+
+.inline {
+	width: unset;
+	margin: 0 0 0 0;
+	vertical-align: middle;
+}
+
+input[type="submit"]{
+	display: block;
+	width: 60%;
+	margin: 1em auto;
+	height: 2em;
+	font-size: 1.1rem;
+	background-color: #3b3b4f;
+	border-color: white;
+	min-width: 300px;
+	cursor: pointer;
+	transition: 0.3s ease-out;
+}
+
+input[type="submit"]:hover{
+	background-color: #fff;
+	color: #3b3b4f;
+}
+
+input[type="file"]{
+	padding: 1px 2px;
+}
+
+
+footer{
+	background-color: #fff;
+	color: #1b1b32;
+	padding: 0 auto;
+	margin-top: -10px;
+	text-align: center;
+	font-size: 12px;
+}

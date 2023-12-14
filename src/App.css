@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: aqua;
+    padding: 0px 34px;
+    margin-bottom: 16px;
+    height: 10rem;
+}
+
+
+.logo a{
+    list-style-type: none;
+    text-decoration: none;
+    color: blue;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: Ariel;    
+}
+
+
+
+.navbar-menu{
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
+    margin: 0px;
+    align-items: center;
+}
+
+.navbar-menu li a {
+    text-decoration: none;
+    color: rgb(77, 90, 110);
+    font-size: 18px;
+}
+
+.navbar-menu li a:hover{
+    color: blue;
+    transition: 0.3s ease-out;
+}
+
+
+
+.landingPage {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background:linear-gradient(white,blue)
+}
+
+.landing {
+    text-align: center;
+    padding: 50px;
+    width: 80%;
+    height: 100vh;
+    margin: 0 auto;
+    background:linear-gradient(white,rgba(117, 126, 168, 0.2), rgba(250, 106, 106,0.7));
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.1);
+}
+
+.landing h1 {
+    color: #333;
+    font-size: 3.5em;
+    margin-bottom: 15px;
+    color: #00f;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.landing p {
+    color: rgb(57, 36, 114);
+    line-height: 1.6;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.landing nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.landing nav ul li {
+    display: inline-block;
+    margin: 50px;
+}
+
+.landing nav ul li a {
+    display: block;
+    color: #fff;
+    background-color: #00f;
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.landing nav ul li a:hover {
+    background-color: #f00;
+}
+
+.landing img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #2F4F4F;
+    color: #bd1717;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.container p {
+    margin: 0;
+    padding: 5px;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 1px;
+}
