@@ -123,3 +123,32 @@ export default function Dashboard(){
             </tr>
           </thead>
           <tbody>
+
+          {console.log(grade)}
+
+{
+  user?.map((data,i)=>(
+    <tr key={i+1} className="border-b dark:border-neutral-500">
+    <td className="whitespace-nowrap px-6 py-4 font-medium">{data.subject}</td>
+    <td className="whitespace-nowrap px-6 py-4">{data.credit}</td>
+    <td className="whitespace-nowrap px-6 py-4">{data.assessment}</td>
+    <td className="whitespace-nowrap px-6 py-4">{data.term}</td>
+    <td className="whitespace-nowrap px-6 py-4">{data.total}</td>
+    <td className="whitespace-nowrap px-6 py-4">{data.result}</td>
+    <td className="whitespace-nowrap px-6 py-4">{data.grade}</td>
+    <td className="whitespace-nowrap px-6 py-4">{data.semester}</td>
+    <td className="whitespace-nowrap px-6 py-4">{data.date}</td>
+  </tr>
+  ))
+}
+
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+
+</Layout>
+)
+}
