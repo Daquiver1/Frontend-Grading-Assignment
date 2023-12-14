@@ -10,6 +10,7 @@ import Dashboard from './Dashboard';
 import MissingGrade from './MissingGrade';
 import Help from './Help';
 import Contact from './Contact';
+import GradeReport from './GradeReport';
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
       <Route path='/MissingGrade' element={<MissingGrade/>} />
       <Route path='/Help' element={<Help/>}/>
       <Route path='/Contact' element={<Contact/>}/>
+      <Route path='/GradeReport' element={<GradeReport/>}/>
     
      
       

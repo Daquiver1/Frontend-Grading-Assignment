@@ -1,6 +1,6 @@
 .image{
   width: 99.5%;
-  height: 10%;
+  height: 750px;
   border-radius: 20px;
   border: dashed 3px cadetblue;
 
@@ -8,7 +8,7 @@
 
 .top-right{
   position: absolute;
-  top: 450px;
+  top: 400px;
   right: 0px;
   color: lightskyblue;
   font: 5000px;
@@ -16,4 +16,19 @@
   font-style: italic;
   width: 500px;
   text-transform: capitalize;
+}
+
+.landing-head{
+  text-align: center;
+  color: rgb(7, 43, 65);
+  font-size: 42px;
+  font-style: italic;
+}
+.landing-paragraph{
+  width: 1300px;
+  margin-left: 20px;
+  font-size: 20px;
+  font-style: italic;
+  line-height: 22px;
+    
 }

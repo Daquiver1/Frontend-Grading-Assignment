@@ -1,33 +1,39 @@
 import React from 'react';
 import NavBar from './NavBar';
 import './Contact.css';
+import Footer from './Footer';
 
 const Contact = () => {
   const instructors = [
     {
       id: 1,
-      name: 'Instructor 1',
-      email: 'instructor1@example.com',
-      imageSrc: 'path/to/instructor1.jpg',
+      name: 'Ferdinard Katsriku',
+      email: 'fersww@gmail.com',
+      imageSrc: '/Ferdd.jpeg',
     },
+
     {
       id: 2,
-      name: 'Instructor 2',
-      email: 'instructor2@example.com',
-      imageSrc: 'path/to/instructor2.jpg',
+      name: 'Michael Agbo Tettey Soli',
+      email: 'msoli@ug.edu.gh',
+      imageSrc: '/Soli.webp',
     },
+  
     {
       id: 3,
-      name: 'Instructor 3',
-      email: 'instructor3@example.com',
-      imageSrc: 'path/to/instructor3.jpg',
+      name: 'Salomey Mensah',
+      email: 'saowusu@gmail.com',
+      imageSrc: '/salo.jpeg',
     },
+
     {
       id: 4,
-      name: 'Instructor 4',
-      email: 'instructor4@example.com',
-      imageSrc: 'path/to/instructor4.jpg',
+      name: 'Alysd Aziz',
+      email: 'azizsyd@ug.edu.gh',
+      imageSrc: '/alysd.jpeg',
     },
+
+
   ];
 
   const handleSendEmail = (email) => {
@@ -38,6 +44,10 @@ const Contact = () => {
   return (
     <>
     <NavBar/>
+    <div
+     style={{
+      backgroundImage: 'url("/ash1.jpg")',
+    }} className="inst-container"> 
     <div className="instructor-contact-page-container">
       <h1>Instructor Contact Page</h1>
       <div className="instructor-list-container">
@@ -46,13 +56,16 @@ const Contact = () => {
             <img src={instructor.imageSrc} alt={`Instructor ${instructor.id}`} />
             <div className="instructor-details">
               <h3>{instructor.name}</h3>
+              <button onClick={handleSendEmail}>Send Email</button>
               <p>Email: {instructor.email}</p>
-              <button onClick={() => handleSendEmail(instructor.email)}>Send Email</button>
+              
             </div>
           </div>
         ))}
       </div>
     </div>
+    </div>
+    <Footer/>
     </>
   );
 };

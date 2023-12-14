@@ -2,6 +2,7 @@
 import NavBar from './NavBar';
 import React, { useState } from 'react';
 import './LoginPage.css';
+import Footer from './Footer';
 
 const LoginPage = () => {
   const [studentId, setStudentId] = useState('');
@@ -24,12 +25,12 @@ const LoginPage = () => {
     }} className="login-container">
       <div className="image-container">
        
-        <img src="/login.jpg" alt="Student" />
+        <img src="/stulog.jpg" alt="Student" />
       </div>
       <div className="form-container">
-        <h2>Student Login</h2>
+        <h2 className='stulog'>Student Login</h2>
         <form>
-          <label htmlFor="studentId">Student ID:</label>
+          <label  htmlFor="studentId">Student ID:</label>
           <input className='PASS'
             type="text"
             id="studentId"
@@ -37,7 +38,7 @@ const LoginPage = () => {
             onChange={(e) => setStudentId(e.target.value)}
           />
 
-          <label htmlFor="pin">PIN:</label>
+          <label  htmlFor="pin">PIN:</label>
           <input className='PASS'
             type="password"
             id="pin"
@@ -51,6 +52,7 @@ const LoginPage = () => {
         </form>
       </div>
     </div>
+    <Footer/>
 
     </>
   );

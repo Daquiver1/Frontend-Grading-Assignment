@@ -2,6 +2,7 @@ import NavBar from './NavBar';
 
 import './MissingGrade.css'; 
 import React, { useState } from 'react';
+import Footer from './Footer';
 
 
 const MissingGrade = () => {
@@ -95,6 +96,7 @@ const MissingGrade = () => {
         <button type="submit">Submit</button>
       </form>
     </div>
+    <Footer/>
     </>
   );
 };

@@ -32,13 +32,24 @@
   color: cornflowerblue;
   
   
+  
 
 }
 
+.nav-item{
+  border-radius: 20px;
+  height: 27px;
+  margin-top: 5px;
+
+
+
+}
+
+
   .nav-item:hover {
-    background-color: rgb(168, 137, 142);
-    color: #333;
-    transition: 1.2s;
+    background-color:cadetblue;
+    color:beige;
+    transition: 1.3s;
     
   }
   

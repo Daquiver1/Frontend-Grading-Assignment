@@ -2,6 +2,7 @@ import NavBar from './NavBar';
 
 import './Help.css';
 import  Contactform from './Contactform';
+import Footer from './Footer';
 
 function Help(){
 
@@ -62,6 +63,7 @@ function Help(){
                 </div>
       
                <Contactform/>
+               <Footer/>
       
     
      </>

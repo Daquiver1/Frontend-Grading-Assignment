@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import NavBar from './NavBar';
 import './Dashboard.css'; 
+import Footer from './Footer';
 
 const Dashboard = () => {
   
@@ -21,7 +22,7 @@ const Dashboard = () => {
   const secondSemesterGrades = [
     { subject: 'DCIT 105', grade: 'B' },
     { subject: 'STAT 112', grade: 'A' },
-    { subject: 'DCIT 105', grade: 'B' },
+    { subject: 'UGRC150', grade: 'B' },
    
   ];
 
@@ -118,6 +119,7 @@ const Dashboard = () => {
       
 
     </div>
+    <Footer/>
     </>
   );
 };
