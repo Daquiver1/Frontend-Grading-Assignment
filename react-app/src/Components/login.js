@@ -4,6 +4,11 @@ import './login.css';
 import user_icon from '../Assets/person.png';
 import email_icon from '../Assets/email.png';
 import password_icon from '../Assets/password.png';
+import Navbar from "./Navbar";
+import Footer from "./Footer";
+
+
+
 
 const Login = () => {
   const [isSignUp, setIsSignUp] = useState(false);
@@ -42,6 +47,8 @@ const Login = () => {
   };
 
   return (
+    <>
+    <Navbar />
     <div className='container'>
       <div className='header'>
         <div className="text">
@@ -97,6 +104,8 @@ const Login = () => {
         </div>
       </div>
     </div>
+    <Footer />
+    </>
   );
 };
 

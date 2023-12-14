@@ -1,0 +1,99 @@
+
+  
+  .grade-report-page {
+    padding: 2rem;
+    border-radius: 10px;
+    background-color: rgba(25, 25, 32, 0.15);
+    backdrop-filter: blur(5px);
+  }
+  
+  .page-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    color: #00fff5;
+    animation: neon 1s ease-in-out infinite;
+  }
+  
+  @keyframes neon {
+    0% {
+      text-shadow: 0 0 5px #00ff9e, 0 0 10px #00eeff, 0 0 15px #00d6ff;
+    }
+    100% {
+      text-shadow: 0 0 5px #00d6ff, 0 0 10px #00a3ff, 0 0 15px #0070ff;
+    }
+  }
+  
+  .filter-label {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .semester-select {
+    background-color: rgba(25, 25, 32, 0.5);
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    color: #eee;
+    font-family: inherit;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .semester-select:hover {
+    background-color: rgba(0, 255, 245, 0.1);
+  }
+  
+  .grade-table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #000;
+  }
+  
+  .grade-table thead,
+  .grade-table tbody {
+    background-color: rgba(25, 25, 32, 0.3);
+  }
+  
+  .table-header {
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .table-cell {
+    padding: 0.5rem 1rem;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  tr:nth-child(odd) {
+    background-color: rgba(25, 25, 32, 0.15);
+  }
+  
+  .table-cell:hover {
+    background-color: rgba(0, 255, 245, 0.05);
+  }
+  
+  .table-cell {
+    color: #eee;
+    text-align: left;
+  }
+  
+ 
+  .table-cell[data-grade="A"] {
+    color: #22ff22;
+  }
+  .table-cell[data-grade="B"] {
+    color: #ffff00; 
+  }
+  .table-cell[data-grade="C"] {
+    color: #ff9900; 
+  }
+  .table-cell[data-grade="D"] {
+    color: #ff0000; 
+  }
+  
+ 
+  .table-cell:last-child {
+    border-right: none;
+  }
