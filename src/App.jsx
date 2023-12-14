@@ -6,7 +6,7 @@ import Login from "./pages/Homepage/component/login"
 import Signup from "./pages/Homepage/component/Signup"
 import Missinggrade from "./pages/Homepage/component/Missinggrade"
 import Hearder from "./pages/Homepage/component/Hearder"
-import Fqas from "./pages/Homepage/component/Fqas"
+import Faqs from "./pages/Homepage/component/Faqs"
 import Dashboard from "./pages/Homepage/component/Dashboard"
 import Contact from "./pages/Homepage/component/Contact"
 import Footer from "./pages/Homepage/component/Footer"
@@ -21,7 +21,7 @@ const App = () => {
 <Route path="/Signup" element={<Signup/>}/>
 <Route path="/Missinggrade" element={<Missinggrade/>}/>
 <Route path="/Header" element={<Hearder/>}/>
-<Route path="/Faqs" element={<Fqas/>}/>
+<Route path="/Faqs" element={<Faqs/>}/>
 <Route path="/Dashboard" element={<Dashboard/>}/>
 <Route path="/Contact" element={<Contact/>}/>
 <Route path="/Footer"element={<Footer/>}/>

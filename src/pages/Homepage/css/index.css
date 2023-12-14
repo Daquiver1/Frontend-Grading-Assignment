@@ -66,6 +66,12 @@
  position: relative;
  flex:1px;
 }
+@media (max-width: 700px){
+  .container{
+    flex-direction: column;
+  }
+}
+  
 
  .contents h1{
     font-weight: 500px;
@@ -107,8 +113,6 @@
 .cont-img{
     max-width: 650px;
     height: 500px;
-    
-
 }
 .cont-img img{
    max-width: 100%;
@@ -345,6 +349,9 @@ justify-content: center;
 @media(max-width: 700px){
   .footer-nav ul{
     flex-direction: column;
+    text-align: center;
+    justify-content: center;
+
   }
 
   .footer-nav ul li{

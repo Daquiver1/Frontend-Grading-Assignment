@@ -2,7 +2,7 @@ import "../css/index.css"
 import Hearder from "./Hearder"
 import Footer from "./Footer"
 
-const Fqas = () => {
+const Faqs = () => {
   return (
    <>
     <Hearder />
@@ -111,4 +111,4 @@ const Fqas = () => {
   
 
 
-export default Fqas
+export default Faqs
