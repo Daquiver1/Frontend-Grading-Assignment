@@ -1,5 +1,5 @@
 import React from "react";
-import Layout from '../Layout/layout';
+import Layout from "../Layout/Layout";
 import ReactApexChart from "react-apexcharts";
 
 
@@ -25,6 +25,8 @@ const state = {
     }]
   },
 };
+
+
 const state1 = {
         
   series: [{
@@ -80,3 +82,31 @@ const state2 = {
 
 
 };
+
+
+
+export default function Dashboard(){
+
+ 
+
+  return(
+    <Layout>
+
+<h1 className="mb-2 mt-0 text-5xl  font-medium leading-tight text-primary">Dashboard</h1>
+
+
+<div className="grid grid-cols-1 gap-4">
+<div className="row-span-3 col-span-1">
+    <div id="chart">
+    <ReactApexChart options={state1.options} series={state1.series} type="bar" height={350} />
+  </div>
+</div>
+<div className="row-span-3 col-span-1">
+    <div id="chart">
+      <ReactApexChart options={state.options} series={state.series} type="donut" />
+     </div>
+</div>
+</div>
+    </Layout>
+  )
+}
