@@ -1,5 +1,6 @@
-/*import React, { useState } from 'react';
+import React, { useState } from 'react';
 import './MissingGradeForm.css';
+import Navbar from './component/Navbar';
 
 function MissingGradeForm () {
   const [formData, setFormData] = useState({});
@@ -17,7 +18,9 @@ function MissingGradeForm () {
   };
 
   return (
-    <div className="missing-grade-form">
+    <div className='dash'>
+      <Navbar />
+      <div className="missing-grade-form">
       <h2>Report Missing Grade</h2>
       {submitted ? (
         <p className="confirmation-message">Form submitted successfully!</p>
@@ -66,7 +69,9 @@ function MissingGradeForm () {
         </form>
       )}
     </div>
+    </div>
+    
   );
 };
 
-export default MissingGradeForm;*/
+export default MissingGradeForm;

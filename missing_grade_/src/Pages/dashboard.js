@@ -1,32 +1,10 @@
 import React, { useState, useEffect } from "react";
-import "./dashboard.css";
-import { Link } from "react-router-dom";
-
-
-
+import "./Dashboard.css";
+import Navbar from "./component/Navbar";
 
 function Dashboard () {
-    const Dropdown = () => {
-        const [isOpen, setIsOpen] = useState(false);
-      
-        const toggleDropdown = () => {
-          setIsOpen(!isOpen);
-        };
-
-        return (
-            <div className="drop-down-menu">
-                <div className="profile-img" />
-                <div className="nav-buttons">
-                    <button className="nav-button">Dashboard</button>
-                    <Link to="/grades"><button className="nav-button">Grades</button></Link>
-                    <button className="nav-button">Contact Instructor</button>
-                    <button className="nav-button">Help</button>
-                </div>
-            </div>
-
-        );
-
-    };
+    //Navigating to the various pages
+    
 
     //Returning the date to the date display session
     const [dateDisplay, setDateDisplay] = useState('');
@@ -44,16 +22,9 @@ function Dashboard () {
 
 
     return(
-        <div className="dashboard">
-            <div className="tab-1">
-                <h1 className="logo">UG</h1>
-                <div className="nav-buttons">
-                    <button className="nav-button">Dashboard</button>
-                    <button className="nav-button">Grades</button>
-                    <button className="nav-button">Contact</button>
-                    <button className="nav-button">Help</button>
-                </div>
-            </div>
+        <div className="total">
+            <Navbar />
+           
             <div className="tab-2">
                 <div className="tab-2-left">
                     <div className="greeting-and-time">
@@ -75,7 +46,7 @@ function Dashboard () {
                         </div>
                     </div>
                     <div className="events">
-                        <h2>Upcoming Events</h2>
+                        <h2 className="upcoming">Upcoming Events</h2>
                         <div className="events-cluster">
                             <div className="event">
                                 <p>Graded Quiz - Computer Systems</p>

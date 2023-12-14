@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Dashboard from "./dashboard";
-import "./login.css";
+import "./Login.css";
 
 function Login () {
     const [username, setUsername] = useState('');
@@ -10,8 +10,8 @@ function Login () {
     const handleSubmit = (e) => {
         e.preventDefault();
 
-        const testUsername = 'Keren Lartey';
-        const testPassword = '900%>=yes';
+        const testUsername = '11173490';
+        const testPassword = '13864';
 
         if (username === testUsername && password === testPassword) {
             setIsLoggedIn(true);

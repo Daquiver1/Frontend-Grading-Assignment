@@ -1,64 +1,41 @@
-import React, { useState, useEffect } from "react";
-import "./HelpAndSupport.css";
-import { Link } from "react-router-dom";
+import React from "react";
+import "./Dashboard.css";
+import Navbar from "./component/Navbar";
 
 
-function Support () {
-    const Dropdown = () => {
-        const [isOpen, setIsOpen] = useState(false);
-      
-        const toggleDropdown = () => {
-          setIsOpen(!isOpen);
-        };
+function Help () {
+    //Navigating to the various pages
+    //const navigate = useNavigate();
 
-        return (
-            <div className="drop-down-menu">
-                <div className="profile-img" />
-                <div className="nav-buttons">
-                    <button className="nav-button">Dashboard</button>
-                    <Link to="/grades"><button className="nav-button">Grades</button></Link>
-                    <button className="nav-button">Contact Instructor</button>
-                    <button className="nav-button">Help</button>
-                </div>
-            </div>
-
-        );
-
-    };
-
+    //const navigateToDashboard = () => {
+    //    navigate('./dashboard');
+    //}
 
     return(
-        <div className="dashboard">
-            <div className="tab-1">
-                <h1 className="logo">UG</h1>
-                <div className="nav-buttons">
-                    <button className="nav-button">Dashboard</button>
-                    <button className="nav-button">Grades</button>
-                    <button className="nav-button">Contact</button>
-                    <button className="nav-button">Help</button>
-                </div>
-            </div>
-            <div className="tab-2">
+        <div className="total">
+            <Navbar /> 
+            
+            <div className="tab-2 help-info">
+                <h2>Help And Support</h2>
                 <div className="viewing-grades">
                     <h2>Viewing Grades</h2>
-                    <p>Follow these steps to access and view your grades on our platform:</p>    
+                    <p>Follow these steps to access and view your grades:</p>    
                 </div>
                 <div className="instructions">
                     <ol>
-                        <li>Step 1: [Add instructions]</li>
-                        <li>Step 2: [Add instructions]</li>
-                        <li>Step 3: [Add instructions]</li>
+                        <li>Step 1: Login to the portal</li>
+                        <li>Step 2: Navigate to the grades page</li>
+                        <li>Step 3: View your grades by course</li>
                     </ol>
-                    <p>If you encounter any issues, please check our <a href="#troubleshooting">troubleshooting guide</a>.</p>
                 </div>
 
                 <div className="missingGrades">
                     <h2>Finding Missing Grades</h2>
                     <p>If you have missing grades, here's what you can do:</p>
                     <ol>
-                        <li>Step 1: [Add instructions]</li>
-                        <li>Step 2: [Add instructions]</li>
-                        <li>Step 3: [Add instructions]</li>
+                        <li>Step 1: Refresh the page</li>
+                        <li>Step 2: Ensure that all scores are allocated</li>
+                        <li>Step 3: Contact your instructor</li>
                     </ol>
                     <p>If your issue persists, please report it through our <a href="#contact">contact form</a>.</p>
                 </div>
@@ -87,5 +64,5 @@ function Support () {
 
 }
 
-export default Support;
+export default Help;
 
