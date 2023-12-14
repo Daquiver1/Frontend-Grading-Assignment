@@ -1,16 +1,18 @@
+import { Link } from 'react-router-dom'
 const NavBar = () => {
+    
     return (  
     <header>
            <div className="navLinks">
            <nav>
                <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="ABC">Login</a></li>
-                <li><a href="">Dashboard</a></li>
-                <li><a href="">Grade  report</a></li>
-                <li><a href="">Missing grade form</a></li>
-                <li><a href="">tutors contact link</a></li>
-                <li><a href="">help</a></li>
+                <li><Link to="/">Home</Link></li>
+                <li><Link to="/Login">Login</Link></li>
+                <li><Link to="/dashboard">Dashboard</Link></li>
+                <li><Link to="/report">Grade  report</Link></li>
+                <li><Link to="/form">Missing grade form</Link></li>
+                <li><Link to="/contact">tutors contact link</Link></li>
+                <li><Link to="/help">help</Link></li>
                </ul>
         </nav>
            </div>
