@@ -1,11 +1,11 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import { Fragment } from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebookF,faInstagram, faXTwitter, faGoogle } from '@fortawesome/free-brands-svg-icons';
 
-function LandingFooter() {
+const LandingFooter = () => {
     return(
         <Fragment>
-             {/* <!--copyright section start--> */}
              <div className="event copyright flex mt-03">
                 <div class="container-fluid">
                     <div class="row">
@@ -14,25 +14,21 @@ function LandingFooter() {
                                 <ul>
                                     <li>
                                         <a class="center-content" href="#">
-                                            {/* <i class="fa fa-facebook"></i> */}
                                             <FontAwesomeIcon icon={faFacebookF} />
                                         </a>
                                     </li>
                                     <li>
                                         <a class="center-content" href="#">
-                                            {/* <i class="fa fa-twitter"></i> */}
                                             <FontAwesomeIcon icon={faInstagram} />
                                         </a>
                                     </li>
                                     <li>
                                         <a class="center-content" href="#">
-                                            {/* <i class="fa fa-instagram"></i> */}
                                             <FontAwesomeIcon icon={faXTwitter} />
                                         </a>
                                     </li>
                                     <li>
                                         <a class="center-content" href="#">
-                                            {/* <i class="fa fa-google"></i> */}
                                             <FontAwesomeIcon icon={faGoogle} />
                                         </a>
                                     </li>
@@ -40,12 +36,11 @@ function LandingFooter() {
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <p class="copyright-text text-end text-white">© 2023 Royalty. All Rights Reserved </p>
+                            <p class="copyright-text text-end text-white">© {new Date().getFullYear()}{" "} Royalty. All Rights Reserved </p>
                         </div>
                     </div>
                 </div>
             </div>
-            {/* <!--copyright section end--> */}
         </Fragment>
     )
 }

@@ -39,6 +39,9 @@ This will start the application on `localhost` at the default port.
 
 Describe how to use the application, highlighting key functionalities such as logging in, viewing grades, reporting missing grades, and contacting instructors.
 
+**Logging In:**
+Logging In the Student Grade Report System is simple as there is a Login button on the Landing page and Help And Support page as those are the only pages accessible to users of the app who haven't logged in yet. This button redirects the user to the Login page where the user will have to provide their Student ID and PIN to be authentucated and then granted access if their information is in the database they will be granted acess to the website.
+
 ## Contribution
 
 To contribute to this project, please follow these guidelines:

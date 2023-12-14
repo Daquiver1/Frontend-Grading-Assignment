@@ -6,10 +6,7 @@ import LandingFooter from '../layout/footer/LandingFooter';
 import { Button, CollapseElement } from "../components/Component";
 
 
-
-
-
-function Login(){
+const HelpAndSupport = () => {
 
     const [openCollapsibleId, setOpenCollapsibleId] = useState(null);
 
@@ -234,4 +231,4 @@ function Login(){
     );
 }
 
-export default Login;
+export default HelpAndSupport;

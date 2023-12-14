@@ -1,8 +1,9 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import { Fragment } from "react";
 import logo from '../../assets/images/logo/main-logo-1.png';
 
 
-function LandingHeader({showLogin}) {
+const LandingHeader = ({showLogin}) => {
     return (
         <Fragment>
             <header className="event loding-header nav-abs custom-scroll nav-lg">

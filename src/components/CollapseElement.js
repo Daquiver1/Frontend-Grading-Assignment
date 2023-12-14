@@ -11,21 +11,6 @@ const CollapseElement = ({ id, question, answer, size, className, isOpen=true, o
     });
 
     const { getCollapseProps, getToggleProps } = useCollapse();
-    // const { getCollapseProps } = useCollapse({ isOpen });
-
-    // return (
-    //     <div className="collapsible">
-    //       <div className="text-center link-horizontal header" onClick={() => onToggle(id)}>
-    //         <a className={buttonClass} href="#">
-    //           {question}
-    //         </a>
-    //       </div>
-    //       <br />
-    //       <div {...getCollapseProps()}>
-    //         <div className="content">{answer}</div>
-    //       </div>
-    //     </div>
-    //   );
 
     return (
         <div className="collapsible">

@@ -1,12 +1,23 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { Fragment } from 'react';
+import { useForm } from "react-hook-form";
 import { Form, FormGroup, Card } from "reactstrap";
 import { Button } from "../components/Component"
 import LandingHeader from "../layout/header/LandingHeader";
 import LandingFooter from '../layout/footer/LandingFooter';
 
 
-function Login(){
+const Login = () => {
+
+    const onFormSubmit = (formData) => {
+        console.log(formData);
+        //backend authentication will be here: to check if email and password are correct 
+        window.history.pushState("", "", "/admin/dashboard");
+        window.location.reload();
+    };
+
+    const { errors, register, handleSubmit } = useForm();
+    
     return (
         <Fragment>
             
@@ -50,27 +61,41 @@ function Login(){
                                                     <br></br><br></br>
                                                     <div class="card-inner card-inner-lg col-sm-8 offset-sm-2">
                                                         
-                                                        <Form>
+                                                        <Form onSubmit={handleSubmit(onFormSubmit)}>
 
                                                             <FormGroup>
                                                                 <div class="form-group">
-                                                                    <label for="exampleInputEmail1">Email address</label>
-                                                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email"/>
+                                                                    <label for="studentId">Student ID</label>
+                                                                    <input 
+                                                                        type="number" 
+                                                                        class="form-control" 
+                                                                        name="studentId" 
+                                                                        aria-describedby="emailHelp" 
+                                                                        placeholder="Enter student Id"
+                                                                        ref={register({ required: "This field is required" })}
+                                                                    />
+                                                                    {errors.studentId && <span className="invalid">{errors.studentId.message}</span>}
                                                                 </div>
                                                             </FormGroup>    
                                                             <br></br>
 
                                                             <FormGroup>
                                                             <div class="form-group">
-                                                                <label for="exampleInputPassword1">Password</label>
-                                                                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password"/>
+                                                                <label for="pin">PIN</label>
+                                                                <input 
+                                                                    type="password" 
+                                                                    class="form-control" 
+                                                                    name="pin" 
+                                                                    placeholder="PIN"
+                                                                    ref={register({ required: "This field is required" })}
+                                                                />
+                                                                {errors.pin && <span className="invalid">{errors.pin.message}</span>}
                                                             </div>
                                                             </FormGroup>
                                                             
                                                             <br></br>
                                                             <FormGroup>
                                                                 <Button size="lg" className="btn-block col-lg-6 login-rounded" type="submit" color="primary">
-                                                                    {/* {loading ? <Spinner size="sm" color="light" /> : "Sign in"} */}
                                                                     Sign In
                                                                 </Button>
                                                             </FormGroup>
