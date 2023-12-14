@@ -8,7 +8,7 @@ const SignIn = () => {
                 <input type="text" name="username" id="username" placeholder="Username" required className="bg-slate-200 text-slate-700 border-b-2 border-slate-400 my-4 outline-none"/>
                 <input type="password" name="password" id="password" placeholder="Password" required className="bg-slate-200 text-slate-700 border-b-2 border-slate-400 outline-none"/>
                 <a href="#" className="my-4 hover:font-medium">Forget password?</a>
-                <a href="" type="submit" className="text-center border-solid border-2 border-slate-800 rounded-2xl bg-slate-700 text-white py-1 my-4 hover:bg-slate-400 hover:text-slate-700">Log in</a>
+                <a href="\MainContent" type="submit" className="text-center border-solid border-2 border-slate-800 rounded-2xl bg-slate-700 text-white py-1 my-4 hover:bg-slate-400 hover:text-slate-700">Log in</a>
                 <p className="my-2 text-center">Not a member? <a href="" className="text-slate-800 font-medium">Sign Up</a></p>
             </form>
         </div>
