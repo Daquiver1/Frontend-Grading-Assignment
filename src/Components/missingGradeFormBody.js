@@ -1,6 +1,6 @@
 import UgLogo from "../Components/University_of_Ghana_logo.png"
 
-export default function MissingGradeForm() {
+export default function MissingGradeFormBody() {
     return(
         <>
         

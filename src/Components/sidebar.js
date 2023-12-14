@@ -35,6 +35,12 @@ export default function
                             </a>
                         </li>
                         <li class="nav-item text-white fs-4 my-1">
+                            <a href="/MissingGrade" class="nav-link text-white fs-5" aria-current="page">
+                                <i className='bi bi-patch-question'></i>
+                                <span className='ms-3 d-none d-sm-inline'>Missing Grade</span>
+                            </a>
+                        </li>
+                        <li class="nav-item text-white fs-4 my-1">
                             <a href="/ContactUs" class="nav-link text-white fs-5" aria-current="page">
                                 <i className='bi bi-bi bi-person-lines-fill'></i>
                                 <span className='ms-3 d-none d-sm-inline'>Contact</span>

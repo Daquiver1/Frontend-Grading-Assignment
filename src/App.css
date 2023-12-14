@@ -43,11 +43,9 @@
   z-index: 1;
 }
 
+/*Alert for missing grade*/
 #alert {
-  width: 50%;
-  z-index: 2;
-  display: flex;
-  justify-content: right;
+  margin-top: 10px;
 }
 
 #Parent {
@@ -66,13 +64,6 @@
 #sidebarFooterPositioning {
 }
 
-@media (max-width: 580px) {
-  #sidebarContentPositioning {
-    flex-grow: 1;
-    margin-left: 76px;
-  }
-}
-
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -81,11 +72,11 @@ body {
 }
 h1,
 h2 {
-  color: #333;
+  color: #323131;
 }
 p,
 td {
-  color: #666;
+  color: #cecece;
 }
 table {
   width: 100%;
@@ -109,4 +100,12 @@ tr:nth-child(even) {
 }
 #dashboardp {
   margin-left: 10px;
+}
+
+/*Need tghe media Query because of the shrinkage*/
+@media (max-width: 580px) {
+  #sidebarContentPositioning {
+    flex-grow: 1;
+    margin-left: 76px;
+  }
 }
