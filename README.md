@@ -1,15 +1,15 @@
-# Student Grade Reporting System Frontend
+# Student Grade Reporting System Frontend - Kwabena Owusu-Darko (11170189)
 
 ## Project Overview
 
-This project is a front-end web application for a Student Grade Reporting System. It simulates a real-world application where students can view, report, and manage their academic grades. This system addresses the issue of missing or unrecorded grades in a student's profile.
+This project is a front-end web application for a Student Grade Reporting System called GradeRepo. It simulates a real-world application where students can view, report, and manage their academic grades. This system addresses the issue of missing or unrecorded grades in a student's profile.
 
 ## Application Structure
 
 The application consists of 7 main pages:
 
 - **Homepage:** Introduction to the system and its purpose.
-- **Login Page:** Mock login interface for student authentication.
+- **Login Page:** A mock login interface for student authentication.
 - **Dashboard:** Displays an overview of the student’s current grades and alerts for missing grades.
 - **Grade Report:** Shows a detailed view of the student's grades filtered by semester or academic year.
 - **Missing Grade Form:** Enables students to report missing grades.
@@ -18,8 +18,8 @@ The application consists of 7 main pages:
 
 ## Technical Details
 
-- **Framework/Technology Used:** [React]
-- **Responsive Design:** Implemented using [CSS Flexbox/Grid, Bootstrap, Tailwind CSS].
+- **Framework/Technology Used:** React
+- **Responsive Design:** Implemented using CSS Flexbox/Grid and Tailwind CSS.
 - **JavaScript Functionality:** Used for form validations, dynamic content rendering, and simulating interactions.
 
 ## Setup and Installation
@@ -27,25 +27,26 @@ The application consists of 7 main pages:
 To set up the project locally, follow these steps:
 
 ```bash
-git clone https://github.com/your-github-username/DCIT_205_ASSIGNGMENT1.git
-cd repo-name
+git clone https://github.com/kodditor/Frontend-Grading-Assignment.git
+cd assignment-1
 npm install
 npm start
 ```
 
-This will start the application on `localhost` at the default port.
+This will start the application on `localhost` at the default port, 3000.
 
 ## Usage
 
-Describe how to use the application, highlighting key functionalities such as logging in, viewing grades, reporting missing grades, and contacting instructors.
+The app welcomes you with a hero section indicating its goal and giving you a peek of its interface. The Navbar gives you access to all seven pages in the app, while focusing on a call-to-action to login.
 
-## Contribution
+Once on the login page, you can enter your Student ID and Student Pin, but make sure to enter valid inputs, since the client-side form validation enforces the pattern attribute in each input.
 
-To contribute to this project, please follow these guidelines:
+Completing the login redirects you to the dashboard, where you have a brief view of all completed and missing grades, with an option to open the 'My Grades' page to have a detailed view of the grades.
 
-1. Fork the repository.
-2. Create a new branch for your feature.
-3. Commit your changes and push them to your branch.
-4. Submit a pull request for review.
+The 'My grades' page shows the course ID, title, semester, academic year and grade attained for each course. While also providing details of any grades missing.
 
-Please adhere to the project's coding standards and provide clear and detailed pull request descriptions.
+The 'Report Grade' page features a form that allows you to report any missing grades, but requires you to input the course details and a reasonable explanation before submission.
+
+The 'Instructors' page features the details of various course instructors, and provides a simple dialog to contact the lecturer with a message without revealing the lecturer's email, which is assumed to be private.
+
+The 'Help' Page features frequently asked questions (AI generated) and a contact form to send a message to the webmaster.
