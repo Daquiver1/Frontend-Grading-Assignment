@@ -3,6 +3,11 @@ import './Contactform.css';
 
 const Contactform = () => {
   return (
+    <>
+    <div 
+    style={{
+      backgroundImage: 'url("/ash1.jpg")',
+    }}className="cc-container">
     <div className="contact-form2-container">
       <h2>Contact Us</h2>
       <form className="form2-container">
@@ -24,6 +29,8 @@ const Contactform = () => {
         <button type="submit">Submit</button>
       </form>
     </div>
+    </div>
+    </>
   );
 };
 
