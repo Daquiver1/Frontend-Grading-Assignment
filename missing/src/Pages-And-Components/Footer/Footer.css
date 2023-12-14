@@ -64,3 +64,11 @@ a{
   justify-content: space-between;
   margin-top: 0.2rem;
 }
+
+.sb__footer-copyright p{
+  font-size: 13px;
+  line-height: 15px;
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+}
+
