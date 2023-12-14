@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+        body{
+            background-color: #1d2634;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        header {
+    color: white;
+    width: 90%;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 62px;
+    font-weight: bold;
+}
+header .logo {
+    font-size: 30px;
+    text-transform: uppercase;
+}
+header nav ul {
+    display: flex;
+    list-style-type: none;
+}
+header nav ul li a {
+    display: inline-block;
+    color: #fff;
+    padding: 5px 0;
+    margin: 0 10px;
+    border: 3px solid transparent;
+    text-transform: uppercase;
+    transition: 0.2s;
+    text-decoration: none;
+    
+
+}
+header nav ul li a:hover,
+header nav ul li a.active {
+    border-bottom-color: dodgerblue;
+}
+
+
+    button{
+        border: 1px solid black;
+        color: dodgerblue;
+    }
+
+    section {
+        padding-top: 50px;
+        color: white;
+        text-align: center;
+    }
+
+    section h1{
+        font-size: 100px;
+    }
+
+    section button{
+        margin-top: 20px;
+        border-radius: 10px;
+        padding: 15px 25px 15px 25px;
+        background-color: dodgerblue;
+        color: white;
+        border: none;
+        font-size: 20px;
+    }
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">Missing Report.</div>
+        <nav>
+            <ul>
+                <li>
+                    <a href="" class="active">Dashboard</a>
+                </li>
+                <li>
+                    <a href="Login.html"> Sign-in </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+    <h1>Grow with Excellence</h1>
+    <h2>Fast, Flexible, Accessing for Students</h2>
+    <p>Monitor your Excellence to increase your potential</p>
+    <a href="Login.html"><button>Get Started</button></a>
+    </section>
+</body>
+</html>

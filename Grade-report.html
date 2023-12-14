@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+        * {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background: rgb(53, 142, 231);
+}
+header {
+    background: #fff;
+    width: 100%;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+}
+header .logo {
+    font-size: 30px;
+    text-transform: uppercase;
+}
+header nav ul {
+    display: flex;
+}
+header nav ul li a {
+    display: inline-block;
+    color: #000;
+    padding: 5px 0;
+    margin: 0 10px;
+    border: 3px solid transparent;
+    text-transform: uppercase;
+    transition: 0.2s;
+}
+header nav ul li a:hover,
+header nav ul li a.active {
+    border-bottom-color: dodgerblue;
+}
+.hamburger {
+    cursor: pointer;
+    display: none;
+}
+.hamburger div {
+    width: 30px;
+    height: 3px;
+    margin: 5px 0;
+    background: #000;
+}
+@media only screen and (max-width: 900px) {
+    header {
+        padding: 0 30px;
+    }
+}
+@media only screen and (max-width: 700px) {
+    .hamburger {
+        display: block;
+    }
+    header nav {
+        position: absolute;
+        width: 100%;
+        left: -100%;
+        top: 70px;
+        width: 100%;
+        background: #fff;
+        padding: 30px;
+        transition: 0.3s;
+    }
+    header #nav_check:checked ~ nav {
+        left: 0;
+    }
+    header nav ul {
+        display: block;
+    }
+    header nav ul li a {
+        margin: 5px 0;
+    }
+}
+
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+            text-align: center;
+            color: whitesmoke;
+        }
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        h1, p{
+            color: white;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">Missing Report.</div>
+        <input type="checkbox" id="nav_check" hidden>
+        <nav>
+            <ul>
+                <li>
+                    <a href="Home.jsx" class="active">Dashboard</a>
+                </li>
+                <li>
+                    <a href="Login.html">Sign-in </a>
+                </li>
+                <li>
+                    <a href="Missing-Grade-Form-Page.html">Grade Form</a>
+                </li>
+                <li>
+                    <a href="Grade-report.html">Grade Report</a>
+                </li>
+                <li>
+                    <a href="Help-page.html">Help Page</a>
+                </li>
+
+                <li>
+                    <a href="contact.html" >Contact</a>
+                </li>
+
+
+            </ul>
+        </nav>
+        <label for="nav_check" class="hamburger">
+            <div></div>
+            <div></div>
+            <div></div>
+        </label>
+    </header>
+
+    <h1>Grade Report</h1>
+    <p>Detailed view of all courses and respective grades.</p>
+    <label for="semester">Filter by semester:</label>
+    <select id="semester" onchange="filterTable()">
+        <option value="">All</option>
+        <option value="Semester 1">Semester 1</option>
+        <option value="Semester 2">Semester 2</option>
+    </select>
+
+    <div class="grade-table">
+        <table id="grades">
+            <tr>
+                <th>Courses</th>
+                <th>Grade</th>
+                <th>Semester</th>
+            </tr>
+            <tr>
+                <td>DCIT101| INTRODUCTION TO COMPUTER SCIENCE</td>
+                <td>A</td>
+                <td>Semester 1</td>
+            </tr>
+            <tr>
+                <td>DCIT103 OFFICE PRODUCTIVITY TOOLS</td>
+                <td>A</td>
+                <td>Semester 1</td>
+            </tr>
+    
+            <tr>
+                <td>MATH121 ALGEBRA AND TRIGONOMETRY</td>
+                <td>A</td>
+                <td>Semester 1</td>
+            </tr>
+    
+            <tr>
+                <td>MATH123 VECTORS AND GEOMETRY</td>
+                <td>A</td>
+                <td>Semester 1</td>
+            </tr>
+    
+            <tr>
+                <td>STAT111 INTRODUCTION TO STATISTICS AND PROBABILITY I</td>
+                <td>A</td>
+                <td>Semester 1</td>
+            </tr>
+    
+            <tr>
+                <td>UGRC150 CRITICAL THINKING AND PRACTICAL REASONING</td>
+                <td>A</td>
+                <td>Semester 1</td>
+            </tr> <br>
+    
+            <tr>
+                <th>Courses</th>
+                <th>Grade</th>
+                <th>Semester</th>
+            </tr>
+            <tr>
+                <td>DCIT102 COMPUTER HARDWARE FUNDAMENTALS AND CIRCUITS</td>
+                <td>A</td>
+                <td>Semester 2</td>
+            </tr>
+            <tr>
+                <td>DCIT104 PROGRAMMING FUNDAMENTALS</td>
+                <td>A</td>
+                <td>Semester 2</td>
+            </tr>
+    
+            <tr>
+                <td>MATH122 CALCULUS I</td>
+                <td>A</td>
+                <td>Semester 2</td>
+            </tr>
+    
+            <tr>
+                <td>MATH126 ALGEBRA AND GEOMETRY</td>
+                <td>A</td>
+                <td>Semester 2</td>
+            </tr>
+    
+            <tr>
+                <td>STAT112 INTRODUCTION TO STATISTICS AND PROBABILITY II</td>
+                <td>A</td>
+                <td>Semester 2</td>
+            </tr>
+    
+            <tr>
+                <td>UGRC110 ACADEMIC WRITING I</td>
+                <td>A</td>
+                <td>Semester 2</td>
+            </tr> 
+        </table>
+    </div>
+    
+
+
+
+
+    
+
+    <script>
+        function filterTable() {
+            var semester = document.getElementById("semester").value;
+            var table = document.getElementById("grades");
+            var rows = table.getElementsByTagName("tr");
+            for (var i = 1; i < rows.length; i++) {
+                var cell = rows[i].getElementsByTagName("td")[2];
+                if (cell) {
+                    if (semester === "" || cell.innerHTML === semester) {
+                        rows[i].style.display = "";
+                    } else {
+                        rows[i].style.display = "none";
+                    }
+                }
+            }
+        }
+    </script>
+
+
+</body>
+</html>
+
