@@ -16,7 +16,7 @@ const HeroSection = () => {
               Excellent for grades 
             </p>
             <Typed
-            className="md:text-5xl sm:text-4xl text-xl font-bold md:pl-4 pl-2 capitalize"
+            className="md:text-5xl sm:text-4xl text-xl font-bold md:pl-4 pl-2 uppercase"
               strings={['MONITORING ','reporting', 'and checking']}
               typeSpeed={120}
               backSpeed={140}
