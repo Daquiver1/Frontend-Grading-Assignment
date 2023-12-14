@@ -25,12 +25,12 @@ const Navbar = () => {
           <a class="nav-link" href="/Dashboard">Dashboard</a>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <a class="nav-link dropdown-toggle" href="/" role="button" data-bs-toggle="dropdown" aria-expanded="false">
            Contacts
           </a>
           <ul class="dropdown-menu" >
-            <li> <Link to='/' aria-current="page">Instructor</Link></li>
-            <li> <Link to='/' aria-current="page">Help and Support</Link>
+            <li> <Link to='/Instructor' aria-current="page">Instructor</Link></li>
+            <li> <Link to='/Help and Support' aria-current="page">Help and Support</Link>
   </li>
             
           </ul>

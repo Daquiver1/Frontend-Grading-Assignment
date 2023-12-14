@@ -19,7 +19,8 @@ const Login = () => {
       <div><Navbar/></div>
    
     <div>
-      <h2>Login to your Scholar Grade Account</h2>
+    <h2 style={{ color: '#35d8f1' }}>Login to your Scholar Grade Account</h2>
+
       <p>
         Log in to your account to access personalized information, grades, and support services.
       </p>
@@ -48,7 +49,10 @@ const Login = () => {
           <strong>Instructions:</strong> Enter your username, password, and university year to
           proceed.
         </p>
-        <button type="submit">Login</button>
+        <button type="submit" style={{ backgroundColor: '#35d8f1', color: 'white' }}>
+  Login
+</button>
+
       </form>
       <Footer />
     </div>

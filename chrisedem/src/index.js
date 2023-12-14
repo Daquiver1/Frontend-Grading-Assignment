@@ -7,6 +7,8 @@ import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import Home from "./Home";
 import Login from "./Login";
 import Dashboard from "./Dashboard";
+import Instructor from "./Instructor"; 
+import HelpAndSupport from "./Help and Support";
 import { createBrowserRouter, RouterProvider, Route } from "react-router-dom";
 
 
@@ -28,6 +30,15 @@ const router = createBrowserRouter([
   {
     path: "/Dashboard",
     element: <Dashboard />,
+  },
+
+  {
+    path:"/Instructor",
+    element: <Instructor/>,
+  },
+  {
+    path:"/Help and Support",
+    element: <HelpAndSupport/>
   }
   
 
