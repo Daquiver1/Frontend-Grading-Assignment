@@ -37,9 +37,21 @@ This will start the application on `localhost` at the default port.
 
 ## Usage
 
-To use this app, users are expected to log in to start using the app.
-After logging in, users can
-Describe how to use the application, highlighting key functionalities such as logging in, viewing grades, reporting missing grades, and contacting instructors.
+To use this app, users are expected to log in on the login page to start using the app.
+After logging in, users can navigate to any of the available pages for various services.
+
+The landing page gives a rough overview of the app, its features, testimonials and how to reach out for support.
+
+So on the contact page, a user can send an email to a lecturer by tapping on the 'send email' button, which opens a text box to allow the user to send their message.
+
+On the Dashboard, there is an overview of all the students grade, and alerts of any missing grades.
+
+Any student with a missing grade can go to the missing grade form, to file a complaint to the lecturer responsible for the course, in order to have their issue rectified.
+
+The grade report page gives all the sstudents grades which they can filter out by year, or view all grades at once.
+
+The help and support page has frequently asked questions in case a user has a question. If their issue is not included in the FAQs, they can fill a form and reach for support from our team.
+
 
 ## Contribution
 
