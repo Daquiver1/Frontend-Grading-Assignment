@@ -2,8 +2,12 @@ import React from 'react';
 
 
 export default function Navbar() {
-  return <nav className="nav">
-    
+  return <nav className="nav"> (
+    <nav>
+      {/* Navbar content */}
+    </nav>
+  );
+ 
   </nav>
 }
 
