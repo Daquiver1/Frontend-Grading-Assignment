@@ -1,0 +1,145 @@
+/* Layout.css */
+
+body {
+  font-family: 'Times New Roman', Times, serif;
+  margin: 0;
+  padding: 0;
+  background-image:url('./alta-epecializacion.jpg') ;
+  background: rgba(225, 225, 225, 0.3);
+}
+
+header {
+  background-color: white;
+  color: black;
+  text-align: left;
+  margin: 0;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+}
+
+header img {
+  height: 80px;
+  margin-right: 10px;
+}
+
+header button,
+header a {
+  background-color: white;
+  color: rgb(28, 76, 138);
+  padding: 8px 12px;
+  margin-right: 5px;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 10px;
+  text-align: right;
+  font-size: large;
+}
+
+header button:hover,
+header a:hover {
+  background-color: white;
+  color: ;
+}
+
+header button {
+  border: 1px solid rgb(28, 76, 138);
+}
+
+h2{
+  color: white;
+  text-align: center;
+}
+p{text-align: center;
+color: rgb(203, 225, 235);
+font-weight: bolder;}
+
+.search-box {
+  display: flex;
+  align-items: center;
+}
+
+.search-box input {
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+
+.search-icon {
+  width: 20px;
+  cursor: pointer;
+}
+
+.ribbon {
+  position: relative;
+  background-color: rgb(28, 76, 138);
+  color: white;
+  text-align: center;
+  padding: 5px;
+}
+
+.ribbon:before,
+.ribbon:after {
+  content: '';
+  position: absolute;
+  border-style: solid;
+  border-color: transparent;
+}
+
+.ribbon:before {
+  border-width: 5px 10px 5px 0;
+  border-right-color: #333;
+  right: -10px;
+}
+
+.ribbon:after {
+  border-width: 5px 0 5px 10px;
+  border-left-color: #333;
+  left: -10px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(28, 76, 138);
+  color: white;
+  text-align: center;
+  padding: 20px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+body.scrolled .footer {
+  opacity: 1;
+}
+  .footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(28, 76, 138);
+  color: white;
+  text-align: center;
+  padding: 20px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: auto; 
+  z-index: 1;
+}
+
+.footer-content {
+  
+  display: flex;
+  align-items: center;
+}
+
+.contact-info {
+  text-align: left;
+  margin-right: 20px;
+}
+

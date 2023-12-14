@@ -1,0 +1,87 @@
+/* src/Login.css */
+.login-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: -90px;
+    height: 100vh; /* This ensures the container takes the full height of the viewport */
+  }
+  
+  .login-form {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #104da2;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+    background-color: rgb(28, 76, 138); /* Add a background color */
+  }
+  
+  label {
+    color: white;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  p {
+    margin-top: 15px;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Set the body to at least 100% of the viewport height */
+  }
+
+  footer {
+    background-color: white;
+    color: rgb(14, 169, 246);
+    padding: 10px;
+    text-align: center;
+  }
+  body:not(header) {
+    position: relative;
+    background-image: url('./alta-epecializacion.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+  
+  body:not(header)::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.1); /* Semi-transparent white */
+  }
+  
+  
+  
+  
