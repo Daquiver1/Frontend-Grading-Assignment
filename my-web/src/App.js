@@ -8,6 +8,8 @@ import DashboardPage from './components/dashboardpage';
 import GradeReportPage from './components/GradeReport';
 import { BrowserRouter as Router, Route, Routes, BrowserRouter } from 'react-router-dom';
 import MissingGrade from './components/missinggrade';
+import InstructorContact from './components/instructorcontact';
+import HelpAndSupportPage from './components/helpnsupport';
 
 function App() {
   return (
@@ -20,6 +22,8 @@ function App() {
         <Route path="/dashboard" element={<DashboardPage />} /> 
         <Route path="/grade-report" element={<GradeReportPage />} />
         <Route path="/missinggrade" element={<MissingGrade />} />
+        <Route path="/instructorcontact" element={<InstructorContact />} />
+        <Route path="/helpnsupport" element={<HelpAndSupportPage />} />
       </Routes>
       <Footer />
     </Router>

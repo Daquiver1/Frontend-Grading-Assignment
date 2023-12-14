@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import '../main.css';
 
 const GradeReport = () => {
     const [semesterFilter, setSemesterFilter] = useState('All');
