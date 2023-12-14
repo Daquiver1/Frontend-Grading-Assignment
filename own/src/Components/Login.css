@@ -1,0 +1,77 @@
+
+.fill {
+  background-image: url('./Images/dark.jpg');
+  background-size: cover; 
+  background-position: center; 
+  color:white;
+}
+
+p{
+  font-size: 12px;
+}
+
+.form1{
+margin-left: 400px;
+margin-top: -50px;
+color:white;
+}
+
+
+h1{
+  color:white;
+  margin: 10px;
+  padding: 0 0 20px;
+  text-align: center;
+  font-size: 40px;
+  margin-top: -238px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+input{
+  width: 250px;
+  font-size: 16px;
+  color: white;
+  padding-right: 10px ;
+  margin-left: 0px;
+  padding: 9px;
+  margin-left: 10px;
+  border-bottom-color: blue;
+  border-color: solid #fff;   
+  background-color: rgba(137, 149, 137, 0.402);
+}
+
+
+.bss{
+  margin:10px;
+  font-family:'Times New Roman', Times, serif;
+  font-weight:bold;
+  font-size:15px;
+  background-color: rgba(249, 249, 249, 0.669);
+}
+
+
+.aspan{
+  background-color: rgba(158, 176, 158, 0.402);
+  margin-top:10px;
+  height:30px;
+  padding-top:9 ,9,9,px;
+  padding-bottom:9px;
+}
+
+
+.aspan1{
+margin-left:200px;
+font-family:serif;
+font-size:25px;
+color:white;
+
+}
+
+.aspan2{
+  color:white;
+}
+
+.vhim{
+  margin-top: 43px;
+}

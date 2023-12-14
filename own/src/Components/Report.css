@@ -1,0 +1,169 @@
+
+
+  .boss-div {
+    background-image: url('./Images/black.jpeg');
+    background-size: cover; 
+    background-position: center; 
+    color:white;
+    opacity:0.9;
+  }
+
+
+.come{
+  margin-top:100px;
+}
+
+.academic{
+  font-size:30px;
+  font-weight: bold;
+margin-left:40%;
+text-decoration: underline;
+}
+
+.snum{
+  margin-left:5%;
+  font-weight:bold
+}
+.sname{
+  margin-left:11%;
+  font-weight: bold;
+}
+
+.side1{
+margin-left: 50%;
+font-weight: bold;
+
+}
+.side2{
+  margin-left: 81%;
+  font-weight: bold;
+}
+
+.div-line{
+  background-color: white;
+  height: 1.5px;
+
+}
+
+.adult1{
+  margin-top: 10px;
+}
+.work1{
+  font-weight: bold;
+  margin-left: 3px;
+}
+
+.work1baby{
+  margin-left: 80px;
+  font-weight: bold;
+}
+.work2{
+  font-weight: bold;
+  margin-left: 250px;
+}
+
+.work2baby{
+  margin-left: 100px;
+  font-weight: bold;
+}
+.under1boss{
+  margin-top: 5px;
+}
+.under1{
+  font-weight:500;
+}
+.class1{
+  margin-left:17px;
+}
+.class1boss{
+  display:flex;
+}
+
+.div-line2{
+  background-color:white;;
+  height: 1.5px;
+  margin-top:2px;
+  margin-bottom: 0px;
+}
+.under1a{
+  margin-left: 158px;
+  font-weight:500;
+}
+.under1b{
+  margin-left:390px;
+  font-weight:500;
+}
+.under1c{
+  margin-left: 170px;
+  font-weight:500;
+}
+
+
+.below1boss{
+
+  font-family: serif;
+  font-size: 15px;
+}
+
+.Abelow1{
+  margin-left: 150px;
+  font-family: serif;
+  font-size: 15px;
+}
+.below-num1{
+  margin-left: 200px;
+}
+.below-num1a{
+  margin-left:270px;
+}
+.below-num1b{
+  margin-left:208px;
+}
+.below-num1c{
+  margin-left:130px;
+}
+.below-num1d{
+  margin-left:239px;
+}
+.below-letter1{
+  margin-left:230px;
+}
+.belowe{
+  margin-left: 194px;
+}
+.belowe1{
+  margin-left: 188px;
+}
+.belowe2{
+  margin-left: 197px;
+}
+.new1{
+margin-left: 295px;
+}
+.new2{
+  margin-left: 380px;
+}
+.new3{
+  margin-left: 195px;
+}
+.new4{
+  margin-left: 293px;
+}
+.new5{
+  margin-left: 154px;
+}
+.grade1{
+  margin-left: 210px;
+}
+.grade2{
+  margin-left: 210px;
+}
+.grade3{
+  margin-left: 210px;
+}
+.grade4{
+  margin-left: 210px;
+}
+.grade5{
+  margin-left: 210px;
+}
