@@ -1,17 +1,4 @@
-/*
-  This example requires some changes to your config:
-  
-  ```
-  // tailwind.config.js
-  module.exports = {
-    // ...
-    plugins: [
-      // ...
-      require('@tailwindcss/forms'),
-    ],
-  }
-  ```
-*/
+
 import React from 'react'
 import { Fragment, useState } from 'react'
 import { Dialog, Menu, Transition } from '@headlessui/react'
@@ -28,6 +15,8 @@ import {
   XMarkIcon,
 } from '@heroicons/react/24/outline'
 import { ChevronDownIcon, MagnifyingGlassIcon } from '@heroicons/react/20/solid'
+import unknown from '../images/unknown.jpg'
+
 import { BarChart, ResponsiveContainer } from 'recharts'
 const navigation = [
   { name: 'Dashboard', href: '#', icon: HomeIcon, current: true },
@@ -44,7 +33,7 @@ const teams = [
 ]
 const userNavigation = [
   { name: 'Your profile', href: '#' },
-  { name: 'Sign out', href: '#' },
+  { name: 'Sign out', href: '/Login' },
 ]
 const data=[
     {name:"Introduction to Math", value: 93},
@@ -65,14 +54,7 @@ export default function Example() {
 
   return (
     <>
-      {/*
-        This example requires updating your template:
 
-        ```
-        <html class="h-full bg-white">
-        <body class="h-full">
-        ```
-      */}
       <div>
         <Transition.Root show={sidebarOpen} as={Fragment}>
           <Dialog as="div" className="relative z-50 lg:hidden" onClose={setSidebarOpen}>
@@ -85,7 +67,7 @@ export default function Example() {
               leaveFrom="opacity-100"
               leaveTo="opacity-0"
             >
-              <div className="fixed inset-0 bg-gray-900/80" />
+              <div className="fixed inset-0 bg-black" />
             </Transition.Child>
 
             <div className="fixed inset-0 flex">
@@ -116,7 +98,7 @@ export default function Example() {
                     </div>
                   </Transition.Child>
                   {/* Sidebar component, swap this element with another sidebar if you like */}
-                  <div className="flex grow flex-col gap-y-5 overflow-y-auto bg-gray-900 px-6 pb-4 ring-1 ring-white/10">
+                  <div className="flex grow flex-col gap-y-5 overflow-y-auto bg-black px-6 pb-4 ring-1 ring-white/10">
                     <div className="flex h-16 shrink-0 items-center">
                       <img
                         className="h-8 w-auto"
@@ -190,7 +172,7 @@ export default function Example() {
         {/* Static sidebar for desktop */}
         <div className="hidden lg:fixed lg:inset-y-0 lg:z-50 lg:flex lg:w-72 lg:flex-col">
           {/* Sidebar component, swap this element with another sidebar if you like */}
-          <div className="flex grow flex-col gap-y-5 overflow-y-auto bg-gray-900 px-6 pb-4">
+          <div className="flex grow flex-col gap-y-5 overflow-y-auto bg-black px-6 pb-4">
             <div className="flex h-16 shrink-0 items-center">
               <img
                 className="h-8 w-auto"
@@ -299,12 +281,12 @@ export default function Example() {
                     <span className="sr-only">Open user menu</span>
                     <img
                       className="h-8 w-8 rounded-full bg-gray-50"
-                      src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
-                      alt=""
+                      src={unknown}
+                      alt="unknown"
                     />
                     <span className="hidden lg:flex lg:items-center">
                       <span className="ml-4 text-sm font-semibold leading-6 text-gray-900" aria-hidden="true">
-                        Tom Cook
+                        Doreen 
                       </span>
                       <ChevronDownIcon className="ml-2 h-5 w-5 text-gray-400" aria-hidden="true" />
                     </span>
