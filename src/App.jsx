@@ -6,6 +6,7 @@ import Dashboard from "./components/pages/Dashboard.jsx";
 import Gradereport from "./components/pages/Gradereport.jsx";
 import MissingGrade from "./components/pages/MissingGrade.jsx";
 import Help from "./components/pages/Help.jsx";
+import Instructor from "./components/pages/Instructor.jsx";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="/report" element={<Gradereport></Gradereport>}></Route>
         <Route path="/missing" element={<MissingGrade></MissingGrade>}></Route>
         <Route path="/help" element={<Help></Help>}></Route>
+        <Route path="/instructor" element={<Instructor></Instructor>}></Route>
       </Routes>
     </>
   );

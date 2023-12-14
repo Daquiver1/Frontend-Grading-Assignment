@@ -67,8 +67,8 @@ const Help = () => {
   return (
     <>
       <Header></Header>
-      <div className="container relative bg-white bg-opacity-10">
-        <div className="place-items-center flex flex-col justify-center left-44 relative">
+      <div className="container relative left-44 bg-white bg-opacity-10">
+        <div className="place-items-center flex flex-col justify-center relative">
           <p className="custom-header font-black">
             NEED HELP, YOU ARE AT THE RIGHT PLACE...
           </p>
@@ -186,7 +186,7 @@ const Help = () => {
         </div>
         <LoginFooter></LoginFooter>
         {inputShown()}
-        <div className="absolute right-0 text-blue-500 mt-24">
+        <div className="absolute right-0 text-red-500 mt-24">
           <button
             onClick={showInputType}
             title="Click to send us a message"
