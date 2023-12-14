@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
 
 .l-container {
-  background-color: rgb(205, 204, 201);
+  background-color: rgb(237, 237, 237);
   position: relative;
   display: flex;
   flex-direction: column;
@@ -19,9 +19,11 @@
   align-items: center;
   width: 350px;
   height: 450px;
-  background-color: rgba(255, 255, 255,0.5);
   border: 2px solid rgb(30, 104, 188);
   border-radius: 5px;
+}
+.login-form p{
+  margin-left: 140px;
 }
 .login-text {
   font-family: Roboto;
@@ -63,7 +65,14 @@
   opacity: 0.4;
 }
 .forgot {
+  width: inherit;
   font-size: 16px;
   font-family: Roboto;
   font-weight: bold;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
