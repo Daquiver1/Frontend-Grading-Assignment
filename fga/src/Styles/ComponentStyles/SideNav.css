@@ -8,11 +8,15 @@
     border-left: solid;
     border-color: rgb(0, 112, 203);
     border-width: 20px;  
-    height:75vh;
+    height: 75vh;
+    z-index: 0;
+
   }
   
-  h2{
+  .navlinks {
     margin-right: 10px;
+    color: floralwhite;
+
   }
 
 

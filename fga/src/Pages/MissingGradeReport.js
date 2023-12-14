@@ -50,7 +50,7 @@ const GradeReportForm = () => {
         <>
         <Header />
         <SideNav />
-        <div className="container">
+        <div className="form">
         <Content />
             <h2>Report Missing Grade</h2>
             <form id="missingGradeForm" onSubmit={handleSubmit}>

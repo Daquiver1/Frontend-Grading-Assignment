@@ -1,29 +1,29 @@
 import "../Styles/ComponentStyles/SideNav.css";
-
+import { Link } from "react-router-dom";
 
 
 const Navlist = () => {
   return(
     <div className="navlist">
       <ul className="navlistul">
-        <a href="LandingPage.js">
+        <Link to="LandingPage.js">
           <li>Overview</li>
-        </a>
-        <a href="DashBoard.js">
+        </Link>
+        <Link to="#">
           <li>DashBoard</li>
-        </a>
-        <a href="Grades.js">
+        </Link>
+        <Link to="#">
           <li>Your Grades</li>
-        </a>
-        <a href="MissingGradeReport.js">
+        </Link>
+        <Link to ="#">
           <li>Reportform</li>
-        </a>
-        <a href="InstructorContactPage.js">
+        </Link>
+        <Link to ="InstructorContactPage">
           <li>Contact</li>
-        </a>
-        <a href="HelpAndSupport.js">
+        </Link>
+        <Link to="HelpAndSupportPage">
           <li>Help</li>
-        </a>
+        </Link>
       </ul>
     </div>
   )

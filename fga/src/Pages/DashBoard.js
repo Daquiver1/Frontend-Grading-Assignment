@@ -24,14 +24,19 @@ function Gradecard({coursename, grade})  {
 const DASHBOARD = () => {
     return (
         <>
+            <div className="gradebody">
             <div className="grade-section">
             <h2>Welcome, Student</h2>
 
+
+                <div className="notifications">
+                    <h4>NOTIFICATIONS</h4>
+                    <p>Your DCIT207 missing grade will be added to your dashboard by next week</p>
+                </div>
                 <div className="left">
                     <Gradecard coursename="DCIT201" grade="A"/>
                     <Gradecard coursename="DCIT203" grade="A"/>
                     <Gradecard coursename="DCIT205" grade="A"/>
-                    <Gradecard coursename="DCIT207" grade="A"/>
                 </div>    
 
                 <div className="right">    
@@ -39,7 +44,9 @@ const DASHBOARD = () => {
                     <Gradecard coursename="MATH223" grade="A"/>
                     <Gradecard coursename="CBAS210" grade="A"/>
                 </div>
+                </div>
 
+            <div className="below">
             <p>A detailed statement of your academic record is available 
             <Link to = "/Pages/Grades"> here. </Link>
             </p>
@@ -47,7 +54,7 @@ const DASHBOARD = () => {
                 <Link to = "/Pages/MissingGradeReport">here</Link>
             </p>
             </div>
-
+            </div>
         </>
     )
 }

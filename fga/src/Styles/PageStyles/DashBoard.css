@@ -10,10 +10,22 @@
     border-radius: 8px;
     box-shadow: 5px 5px 4px 8px rgba(0, 0, 0, 0.1);
     padding: 20px;
-    margin: 10px;
     width: 200px;
     text-align: center;
 
+}
+
+.notifications {
+    background-color: #edecec;
+    border-radius: 8px;
+    width: 600px;
+    text-align: center;
+    color: #070505;
+}
+
+.notifications h4{
+    color: #f93d20;
+    font-weight: 800;
 }
 
 .grade-section h2 {
@@ -38,3 +50,7 @@
     margin-top: 10px;
 }
  
+
+.below {
+    font-size: large;
+}

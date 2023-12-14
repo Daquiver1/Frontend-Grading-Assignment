@@ -1,25 +1,28 @@
-.body{
+.main{
+    border-top-width: 20px;
     display: flex;
-    align-self: center;
-    
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 
 .login-box {
-    border-radius: 15px;
+    border-radius: 10px;
     border-color: #479AEC;
     background-color: #AFD7F4;
-    width: 300px;
-    height: 300px;
-
-    /**
+    width: 500px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     border-style: inset ridge outset ridge;
-    margin: auto;
-    */
+    
 
 }
 
 .form {
-    margin: auto;
+    
     color: #333333;
 }
