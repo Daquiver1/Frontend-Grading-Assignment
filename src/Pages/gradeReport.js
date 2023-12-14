@@ -1,5 +1,6 @@
 import Sidebar from "../Components/sidebar";
 import Footer from "../Components/footer";
+import MissingGradeForm from "../Components/missingGradeForm";
 
 export default function GradeReport() {
     return(
@@ -12,7 +13,7 @@ export default function GradeReport() {
 
     <div id="sidebarContentPositioning">
         
-
+        <MissingGradeForm/>
         <Footer/>    
     </div>
 
