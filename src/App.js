@@ -4,6 +4,7 @@ import Dashboard from './pages/dashboard/index.';
 import NotFound from './pages/404';
 import Login from './pages/login';
 import GradeReportPage from './pages/GradeReportPage';
+import MissingGradeForm from './pages/MissingGradePage';
 
 
 
@@ -15,7 +16,8 @@ function App() {
             <Route path="/dashboard" element={<Dashboard />} />
             <Route path="/login" element={<Login />} />
             <Route path="/*" element={<NotFound />} />
-            <Route path="/GradeReportPage" element={<GradeReportPage />}/>
+            <Route path="/dashboard/missing-grade-form" element={<MissingGradeForm />}/>
+            <Route path="/dashboard/grade-report" element={<GradeReportPage />}/>
             
          </Routes>
       </>

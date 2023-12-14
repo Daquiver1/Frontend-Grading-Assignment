@@ -10,12 +10,12 @@ import {
 } from 'react-icons/hi'
 
 export const DASHBOARD_SIDEBAR_LINKS = [
-	{
-		key: 'Login',
-		label: 'Login',
-		path: '/Login',
-		icon: <HiOutlineCube />
-	},
+	// {
+	// 	key: 'Login',
+	// 	label: 'Login',
+	// 	path: '/Login',
+	// 	icon: <HiOutlineCube />
+	// },
 	{
 		key: 'dashboard',
 		label: 'Dashboard',
@@ -27,13 +27,13 @@ export const DASHBOARD_SIDEBAR_LINKS = [
 	{
 		key: 'GradeReport',
 		label: 'GradeReport',
-		path: '/GradeReport',
+		path: '/grade-report',
 		icon: <HiOutlineShoppingCart />
 	},
 	{
 		key: 'Missing Grade Form',
 		label: 'Missing Grade Form',
-		path: '/Missing Grade Form',
+		path: '/missing-grade-form',
 		icon: <HiOutlineUsers />
 	},
 	{
