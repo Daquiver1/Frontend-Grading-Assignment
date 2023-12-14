@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navigation from './Navigation';
-import Footer from './Footer'
+//import Footer from './Footer'
 
 const HelpAndSupport = () => {
   // Mock FAQ data regarding grade reporting
@@ -41,8 +41,8 @@ const HelpAndSupport = () => {
   return (
     <div>
         <Navigation />
-        <Footer />
-    <div className="container mt-4">
+        
+    <div className="container main mt-4">
       <h1>Help and Support</h1>
 
       <div className="row mt-4">

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navigation from './Navigation';
-import Footer from './Footer'
+//import Footer from './Footer'
 
 const MissingGradeForm = () => {
   const [formData, setFormData] = useState({
@@ -33,7 +33,7 @@ const MissingGradeForm = () => {
   return (
     <div>
         <Navigation />
-        <Footer />
+      
     <div className="container mt-4">
       <h1>Report Missing Grade</h1>
 

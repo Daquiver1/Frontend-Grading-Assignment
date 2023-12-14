@@ -22,10 +22,10 @@ const Dashboard = () => {
     <div>
         <Navigation />
        
-    <div className="container mt-4">
+    <div className="container main mt-4">
       <h1>Dashboard</h1>
 
-      <div className="row mt-4">
+      <div className="row  main mt-4">
         <div className="col-md-6">
           <h2>Current Grades</h2>
           <ul className="list-group">
@@ -38,7 +38,7 @@ const Dashboard = () => {
           </ul>
         </div>
 
-        <div className="col-md-6">
+        <div className="col-md-6 main">
           <h2>Missing Grades</h2>
           <ul className="list-group">
             {missingGrades.map((missing, index) => (
