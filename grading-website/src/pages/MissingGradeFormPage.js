@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import HeroSection from "../components/HeroSection";
+import "../components/MissingGradeFormPage.css";
 
 function MissingGradeFormPage() {
   const handleClick = () => {
