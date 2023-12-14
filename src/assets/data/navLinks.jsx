@@ -23,7 +23,7 @@ const navlinks = [
   {
     path: "contact-instructor",
     icon: <MdMessage />,
-    label: "Contacts",
+    label: "Contact Instructor",
   },
   {
     path: "need-help",
