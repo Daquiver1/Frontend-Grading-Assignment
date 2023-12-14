@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Footer from "./Footer";
 import Header from "./header";
 import "../../Styles/utils.css";
@@ -56,6 +56,9 @@ const MissingGrade = () => {
       console.error(error);
     }
   };
+  useEffect(() => {
+    fetchData()
+  })
   return (
     <>
       <Header></Header>
