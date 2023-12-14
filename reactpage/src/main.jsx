@@ -1,4 +1,3 @@
-import './index.css'; // Add this line if you have a separate CSS file
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
