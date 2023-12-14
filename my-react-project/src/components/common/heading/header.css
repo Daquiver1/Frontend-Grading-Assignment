@@ -45,7 +45,7 @@ header ul li a:hover {
   display: none;
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width: 768px) {
   .start{
     clip-path: none;
   }
@@ -56,6 +56,9 @@ header ul li a:hover {
   }
   header ul.flexSB {
     display: none;
+  }
+  header ul li {
+    margin-bottom: 20px;
   }
   .toggle {
     display: block;
