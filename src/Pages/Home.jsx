@@ -13,7 +13,7 @@ import Footer from "../Components/Footer";
 function Home() {
   return (
     <>
-      {/* <Header /> */}
+      <Header />
       <div>
         <div
           id="carouselExampleIndicators"
