@@ -1,43 +1,36 @@
-import React from "react";
-import lexis from "./images/man2.jpg";
-import david from "./images/man2.webp";
-import charis from "./images/woman1.jpg";
-import angela from "./images/woman2.jpg";
-<>
-  <div className="grid grid-cols-2">
-    <div>
-      <div>
-        <img src={lexis} alt="" />
-      </div>
-      <div>
-        <p>info</p>
-        <p></p>
-      </div>
+<div className="grid grid-cols-2 gap-8">
+  <div>
+    <div className="h-50 w-50 ">
+      <img className="h-auto max-w-full" src={lexis} />
     </div>
+
     <div>
-      <div>
-        <img src={david} alt="" />
-      </div>
-      <div>
-        <p>info</p>
-      </div>
-    </div>
-    <div>
-      <div>
-        <img src={charis} alt="" />
-      </div>
-      <div>
-        <p>info</p>
-      </div>
-    </div>
-    <div>
-      <div>
-        <img src={angela} alt="" />
-      </div>
-      <div>
-        <p>info</p>
-      </div>
+      <p>info</p>
     </div>
   </div>
-  ;
-</>;
+
+  <div>
+    <div className="h-50 w-50">
+      <img className="h-auto max-w-full" src={david} />
+    </div>
+    <div>
+      <p>info</p>
+    </div>
+  </div>
+  <div>
+    <div>
+      <img src={charis} />
+    </div>
+    <div>
+      <p>info</p>
+    </div>
+  </div>
+  <div>
+    <div>
+      <img src={angela} />
+    </div>
+    <div>
+      <p>info</p>
+    </div>
+  </div>
+</div>;

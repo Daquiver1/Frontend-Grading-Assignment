@@ -1,49 +1,97 @@
-import React from "react";
-import lexis from "./images/man2.jpg";
-import david from "./images/man2.webp";
-import charis from "./images/woman1.jpg";
-import angela from "./images/woman2.jpg";
+import React, { useState } from "react";
 
 export const Instructor_Contact = () => {
+  const [instructors] = useState([
+    {
+      id: 1,
+      name: "David Berko",
+      email: "davidberko@icloud.com",
+    },
+    {
+      id: 2,
+      name: "Charis Boateng",
+      email: "charisboateng@icloud.com",
+    },
+    {
+      id: 3,
+      name: "Seth Baidoo",
+      email: "sethBaidoo@icloud.com",
+    },
+    {
+      id: 4,
+      name: "Nyla Darko",
+      email: "nylaDarko@gmail.com",
+    },
+    {
+      id: 5,
+      name: "Kofi Asare",
+      email: "AsareKofi@gmail.com",
+    },
+  ]);
+
+  const [selectedInstructor, setSelectedInstructor] = useState(null);
+  const [emailContent, setEmailContent] = useState("");
+
+  const handleInstructorClick = (instructor) => {
+    setSelectedInstructor(instructor);
+    setEmailContent("");
+  };
+
+  const handleSendEmail = () => {
+    alert(
+      `Simulated Email Sent to ${selectedInstructor.name}:\n${emailContent}`
+    );
+  };
+
   return (
-    <>
-      <div className="grid grid-cols-2">
+    <div className="container mx-auto w-full h-screen mt-8">
+      <h1 className="text-3xl font-bold my-20 text-5xl">
+        Instructor Contact Page
+      </h1>
+      <div className="grid grid-cols-2 gap-4">
         <div>
-          <div className="h-50 w-50 ">
-            <img className="h-auto max-w-full rounded-[50%]" src={lexis} />
-          </div>
-
-          <div>
-            <p>info</p>
-          </div>
+          <h2 className="text-4xl font-semibold mb-4">Instructors</h2>
+          <ul className="space-y-7 text-2xl">
+            {instructors.map((instructor) => (
+              <li
+                key={instructor.id}
+                className={`cursor-pointer ${
+                  selectedInstructor?.id === instructor.id
+                    ? "text-blue-500"
+                    : ""
+                }`}
+                onClick={() => handleInstructorClick(instructor)}>
+                {instructor.name}
+              </li>
+            ))}
+          </ul>
         </div>
 
-        <div>
-          <div className="h-50 w-50">
-            <img className="h-auto max-w-full rounded-[50%]" src={david} />
-          </div>
+        {selectedInstructor && (
           <div>
-            <p>info</p>
+            <h2 className=" font-semibold mb-4 text-4xl">Contact Details</h2>
+            <div className="leading-10 text-xl">
+              <p>Name: {selectedInstructor.name}</p>
+              <p>Email: {selectedInstructor.email}</p>
+            </div>
+
+            <div className="mt-4">
+              <h2 className="text-xl font-semibold mb-2">Send Email</h2>
+              <textarea
+                className="w-full border p-2 h-40"
+                placeholder="Enter your email content..."
+                value={emailContent}
+                onChange={(e) => setEmailContent(e.target.value)}
+              />
+              <button
+                className="mt-2 px-4 py-2 bg-blue-500 text-white rounded-md"
+                onClick={handleSendEmail}>
+                Send Email
+              </button>
+            </div>
           </div>
-        </div>
-        <div>
-          <div>
-            <img src={charis} />
-          </div>
-          <div>
-            <p>info</p>
-          </div>
-        </div>
-        <div>
-          <div>
-            <img src={angela} />
-          </div>
-          <div>
-            <p>info</p>
-          </div>
-        </div>
+        )}
       </div>
-      ;
-    </>
+    </div>
   );
 };

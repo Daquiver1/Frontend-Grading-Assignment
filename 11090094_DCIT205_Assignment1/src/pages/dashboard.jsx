@@ -1,10 +1,9 @@
 export const Dashboard = () => {
-  const gradesData = [
-    { courseTitle: "DCIT 201 - PROGRAMMING 1", grade: "A" },
-    { courseTitle: "DCIT 203 - DIGITAL AND LOGIC SYSTEM DESIGN", grade: "N/A" },
-  ];
   return (
     <>
+      <div className="mt-4 p-3 bg-blue-400 text-blue-600 dark:bg-blue-800 dark:text-white rounded-md mb-4">
+        Some grades are missing. Please fill the missing grade report form
+      </div>
       <header className="font-bold text-3xl  mb-10">
         STUDENT'S CURRENT GRADES
       </header>
