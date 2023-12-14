@@ -25,7 +25,9 @@
 
 ## Help and Support Page
 ![contact ](<Page Screenshots/contact 1.png>)
-![help](<Page Screenshots/dashboard.png>)
+![hekp](<Page Screenshots/help 1.png>)
+
+
 
 ## Header and Footer
 ![header](<Page Screenshots/header.png>)
