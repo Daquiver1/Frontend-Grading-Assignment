@@ -6,10 +6,11 @@ import GradeReportPage from "./Pages/GradeReport";
 import Dashboard from "./Pages/Dashboard";
 import Contact from "./Pages/Contact";
 import HelpSupportPage from "./Pages/HelpSupportPage";
+
 function App() {
   return (
         <React.Fragment>
-          <HelpSupportPage/>
+          <Navbar/>
         </React.Fragment>
   );
 }

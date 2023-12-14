@@ -1,5 +1,6 @@
 // src/components/HelpSupportPage.jsx
 import React, { useState } from 'react';
+import Navbar from '../Components/Navbar';
 
 const HelpSupportPage = () => {
   const [name, setName] = useState('');
@@ -25,6 +26,8 @@ const HelpSupportPage = () => {
   };
 
   return (
+    <>
+    <Navbar/>
     <div className="bg-gray-100 min-h-screen">
       <div className="container mx-auto p-8">
         <h1 className="text-4xl font-bold mb-4">Help and Support</h1>
@@ -96,6 +99,7 @@ const HelpSupportPage = () => {
       </div>
       {/* Footer Component */}
     </div>
+    </>
   );
 };
 

@@ -1,22 +1,25 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import Login from './Pages/Login';
 import './index.css';
 import App from './App';
-import Navbar from './Components/Navbar';
-import GradeReportPage from './Pages/GradeReport';
-import Dashboard from './Pages/Dashboard';
-import MissingGradeFormPage from './Pages/MissingGradeReport';
-import Landing from './Pages/Landing page';
 import { reportWebVitals } from './reportWebVitals';
-
+import { BrowserRouter, Route, Routes  } from 'react-router-dom'
+import Login from './Pages/Login';
+import HelpSupportPage from './Pages/HelpSupportPage';
 
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<App />} />
+        <Route path='/Login' element={<Login/>} />
+        <Route path='/Contact' element={<HelpSupportPage/>} />
+      </Routes>
+    </BrowserRouter>
+
   </React.StrictMode>
 );
 

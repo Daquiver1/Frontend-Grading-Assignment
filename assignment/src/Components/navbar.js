@@ -1,20 +1,21 @@
 import { useRef } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 function Navbar(){
     const navRef = useRef();
 
     const showNavbar = () => {
-        navRef.current.classList.toggle ("responsive_nav")
+        navRef.current.classList.toggle("responsive_nav")
     }
     return ( 
         <>
         <header>
             <h3>Grade Repo</h3>
             <nav>
-                <a href="/#">Home</a>
+                <Link to="/">Home</Link>
                 <a href="/#">Dashboard</a>
-                <a href="/#">Contact </a>
-                <a href="">Login</a>
+                <a href="/Contact">Contact </a>
+                <Link to="/login">Login</Link>
                 <button className="nav-btn nav close-btn" onClick={showNavbar}>
                         <FaTimes />
                 </button>
