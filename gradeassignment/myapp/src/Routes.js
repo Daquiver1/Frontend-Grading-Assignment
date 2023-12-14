@@ -1,16 +1,17 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import { LandingPage } from './src/pages/LandingPage';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import LandingPage from './pages/LandingPage';
 
-export const Routes =() => {
+export const Routers =() => {
   return(
     <Router>
-      <Switch>
-        <Route path="./" exact>
+      <Routes>
+        <Route path="./pages/LandingPage" exact>
           <LandingPage />
         </Route>
 
-      </Switch>
+      </Routes>
     </Router>
   )
 }
+export default Route;
