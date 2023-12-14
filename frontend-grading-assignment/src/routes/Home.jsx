@@ -51,7 +51,7 @@ const Home = () => {
                 <div className="container mt-4">
                     <div className="row">
                         <div className="col-12 col-sm-4 mb-3 mb-sm-0">
-                            <div className="card bg-blue">
+                            <div className="card bg-blue mt-2">
                                 <div className="card-body py-2 text-white">
                                     <p className="fs-1">
                                     <i className="bi bi-people"></i>
@@ -65,7 +65,7 @@ const Home = () => {
                         </div>
                         
                         <div className="col-12 col-sm-4 mb-3 mb-sm-0">
-                            <div className="card bg-blue">
+                            <div className="card bg-blue mt-2">
                                 <div className="card-body py-2 text-white">
                                     <p className="text-white">
                                         <img style={{height: "60px", width: "90px", color: "white"}} src="https://thenounproject.com/api/private/icons/44224/edit/?backgroundShape=SQUARE&backgroundShapeColor=%23000000&backgroundShapeOpacity=0&exportSize=752&flipX=false&flipY=false&foregroundColor=%23000000&foregroundOpacity=1&imageFormat=png&rotation=0" alt="" />
@@ -99,6 +99,34 @@ const Home = () => {
                     </div>
                 </div>
                 
+                <div className="row mt-3">
+                    <div className="col-12 col-md-6">
+                        <div className="card bg-blue">
+                            <div className="card-body py-2 text-white">
+                                <p className="fs-1">
+                                    <i className="bi bi-people"></i>
+                                </p>
+                                <span className="fs-1 fw-bolder me-2">
+                                    {count}
+                                </span> <br />
+                                <span>Students</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-12 col-md-6">
+                        <div className="card bg-blue">
+                            <div className="card-body py-2 text-white">
+                                <p className="fs-1">
+                                    <i className="bi bi-people"></i>
+                                </p>
+                                <span className="fs-1 fw-bolder me-2">
+                                    {count}
+                                </span> <br />
+                                <span>Students</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                  <section>
                         <div className="container bg-white mt-5">
                             <div className="row">

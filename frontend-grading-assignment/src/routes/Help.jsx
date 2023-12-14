@@ -6,13 +6,13 @@ const Help  = () => {
     return (
         <div>
             <div className="container faqs p-5">
-               <h4 className="text-center my-5">FAQ Section Regarding Grade Reporting</h4>
+               <h4 className="text-center mb-4 mt-2 fw-bolder">FREQUENTLY ASKED QUESTIONS REGARDING GRADE REPORTING</h4>
 
                 <div className="accordion container" id="accordionPanelsStayOpenExample">
                     <div className="accordion-item">
                         <h2 className="accordion-header">
                         <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
-                           <strong>How do I view my grades on the platform?</strong>
+                           <strong className="text-uppercase">How do I view my grades on the platform?</strong>
                         </button>
                         </h2>
                         <div id="panelsStayOpen-collapseOne" className="accordion-collapse collapse show">
@@ -28,7 +28,7 @@ const Help  = () => {
                     <div className="accordion-item">
                         <h2 className="accordion-header">
                         <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
-                            <strong>What should I do if some of my grades are missing?</strong>
+                            <strong className="text-uppercase">What should I do if some of my grades are missing?</strong>
                         </button>
                         </h2>
                         <div id="panelsStayOpen-collapseTwo" className="accordion-collapse collapse">
@@ -44,7 +44,7 @@ const Help  = () => {
                     <div className="accordion-item">
                         <h2 className="accordion-header">
                         <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
-                           <strong>Can I dispute a grade if I believe there's an error?</strong>
+                           <strong className="text-uppercase">Can I dispute a grade if I believe there's an error?</strong>
                         </button>
                         </h2>
                         <div id="panelsStayOpen-collapseThree" className="accordion-collapse collapse">
@@ -61,7 +61,7 @@ const Help  = () => {
                     <div className="accordion-item">
                         <h2 className="accordion-header">
                         <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
-                           <strong>Is there a specific deadline for reporting missing grades?</strong>
+                           <strong className="text-uppercase">Is there a specific deadline for reporting missing grades?</strong>
                         </button>
                         </h2>
                         <div id="panelsStayOpen-collapseThree" className="accordion-collapse collapse">
@@ -75,10 +75,10 @@ const Help  = () => {
                         </div>
                     </div>
 
-                   {/* <div className="accordion-item">
+                   <div className="accordion-item">
                         <h2 className="accordion-header">
                         <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
-                           <strong>How often are grades updated on the platform?</strong>
+                           <strong className="text-uppercase">How often are grades updated on the platform?</strong>
                         </button>
                         </h2>
                         <div id="panelsStayOpen-collapseThree" className="accordion-collapse collapse">
@@ -91,7 +91,7 @@ const Help  = () => {
                             </div>
                         </div>
                     </div>
-
+                   {/*
                     <div className="accordion-item">
                         <h2 className="accordion-header">
                         <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">

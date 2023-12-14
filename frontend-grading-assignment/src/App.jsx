@@ -113,7 +113,17 @@ const App = () => {
           <section>
             <footer>
               <div className="container-fluid py-5 bg-blue">
-
+                 <div className="container">
+                    <div className="row text-center align-items-end">
+                      <div className="col-sm-6 col-md-6 col-xl-3">
+                        <p className="py-2 text-start">Copyright ©2023</p>
+                        <p className="text-start">Developed with 
+                          <span><i className="bi bi-balloon-heart-fill text-danger px-2"></i></span>
+                          by Richmond Andoh
+                        </p>
+                      </div>
+                    </div>
+                 </div>
               </div>
             </footer>
           </section>
