@@ -4,8 +4,7 @@
 }
 
 .sect{
-  /* height: 100vh;
-  background: linear-gradient(#d5a3ff, #77a5f8); */
+ 
   display: flex;
   justify-content: center;
   align-items: center;
@@ -23,10 +22,7 @@
   margin-top: 200px;
   background: #fff;
   padding-bottom: 30px;
-  /* background: #4e3a6e;
-width: 900px;
-border-radius: 15px;
-padding: 20px; */
+
 }
 
 .header {

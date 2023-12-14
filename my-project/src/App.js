@@ -1,36 +1,32 @@
+// Import necessary components and modules
 import React from "react";
- import Header from "./components/components-pages/Header";
-// import LandingPage from "./components/components-pages/LandingPage";
-import Login from "./components/components-pages/Login";
- import Feature from "./components/components-pages/Feature";
- import Presentation from "./components/components-pages/Presentation";
- //import InstructorContactPage from "./components/components-pages/InstructorContactPage";
-//  import Footer from "./components/components-pages/Footer";
-import GradeReport from "./components/components-pages/GradeReport";
-import CourseDetail from "./components/components-pages/CourseDetail";
-import Filter from "./components/components-pages/Filter";
-import HelpAndSupportPage from "./components/components-pages/HelpAndSupportPage"
-import MissingGradeForm from "./components/components-pages/MissingGradeForm"
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
+// Import your components
+import LandingPage from "./components/components-pages/LandingPage";
+import Login from "./components/components-pages/Login";
+import GradeReport from "./components/components-pages/GradeReport";
+import HelpAndSupportPage from "./components/components-pages/HelpAndSupportPage";
+import MissingGradeForm from "./components/components-pages/MissingGradeForm";
+import InstructorContactPage from "./components/components-pages/InstructorContactPage";
+import Dashboard from "./components/components-pages/Dashboard";
+
+// Define your App component
 function App() {
   return (
-    
-    <div className="App">
-{/* <LandingPage/>   */}
-  {/* <Login/>   */}
-  <Header/>
- <Feature/>
- <Presentation/> 
- {/* <InstructorContactPage/> */}
-  {/* <Footer/>  */}
-   {/* <GradeReport/>  */}
-    {/* <CourseDetail/>  */}
-   {/* <Filter/>   */}
-   {/* <HelpAndSupportPage/> */}
-   {/* <MissingGradeForm/> */}
- 
+    <Router>
+      <Routes>
+        <Route path="/" element={<LandingPage />} />
+        <Route path="/Login" element={<Login />} />
+        <Route path="/GradeReport" element={<GradeReport />} />
+        <Route path="/HelpAndSupportPage" element={<HelpAndSupportPage />} />
+        <Route path="/MissingGradeForm" element={<MissingGradeForm />} />
+        <Route path="/InstructorContactPage" element={<InstructorContactPage />} />
+        <Route path="/Dashboard" element={<Dashboard />} />
 
-    </div>
+     
+      </Routes>
+    </Router>
   );
 }
 

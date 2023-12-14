@@ -1,0 +1,26 @@
+.dashboard-container {
+  font-family: sans-serif;
+  margin: 50px;
+}
+
+h1,
+h2 {
+  margin-bottom: 15px;
+}
+
+.grade-card {
+  list-style: none;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.grade-card li {
+  margin-bottom: 5px;
+}
+
+.alert {
+  padding: 10px;
+  margin-top: 15px;
+  border-radius: 5px;
+}

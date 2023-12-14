@@ -1,6 +1,9 @@
 import React, { useState } from "react";
 import logo from "../components-images/logo.png";
 import "../components-css/Navbar.css"
+import { NavLink } from "react-router-dom";
+
+
 
 function Navbar() {
   const [nav,setnav]= useState(false);
@@ -25,12 +28,42 @@ function Navbar() {
                 <span className="nav-icon"></span>
            </label>
            <ul className='menu'>
-            <li><a href="/" className="active">Home</a></li>
-            <li><a href="/">Dashboard</a></li>
-            <li><a href="/">Grade Report</a></li>
-            <li><a href=".">Login</a></li>
-            <li><a href="/">Missing Grade Form</a></li>
-            <li><a href="/">Help and Support</a></li>
+           
+            <li>
+          <NavLink to="/" className="nav-active">
+             HOME
+          </NavLink>
+        </li>
+        <li>
+          <NavLink to="/Login" className="nav-active">
+             Login
+          </NavLink>
+        </li>
+        <li>
+          <NavLink to="/Dashboard" className="nav-active">
+             Dashboard
+          </NavLink>
+        </li>
+        <li>
+          <NavLink to="/GradeReport" className="nav-active">
+             Grade Report
+          </NavLink>
+        </li>
+        <li>
+          <NavLink to="/MissingGradeForm" className="nav-active">
+             Missing Grade
+          </NavLink>
+        </li>
+        <li>
+          <NavLink to="/InstructorContactPage" className="nav-active">
+             Instructor Contact
+          </NavLink>
+        </li>
+        <li>
+          <NavLink to="/HelpAndSupportPage" className="nav-active">
+            Help and Support
+          </NavLink>
+        </li>
            </ul>
 
       </nav>

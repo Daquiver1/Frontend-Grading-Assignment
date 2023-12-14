@@ -1,7 +1,7 @@
 import React from "react";
 import "../components-css/Footer.css"
 import {
-      //  FaDribbleSquare,
+      
        FaFacebookSquare,
        FaGithubSquare,
        FaInstagramSquare,
@@ -10,48 +10,65 @@ import {
 
 function Footer ()  {
   return(
-    <div className="foot">
-         <div>
-          <h1 className="ft">Grading System</h1>
-         <p className="grade">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate maiores, similique harum voluptatem est quaerat nemo natus praesentium amet enim sunt! Voluptates similique 
-          eius a id temporibus ipsa voluptate nostrum.</p>
-         <div className="icons">
-          <FaFacebookSquare size={30}/>
-          <FaTwitterSquare size={30}/>
-          {/* <FaDribbleSquare size={30}/> */}
-          <FaGithubSquare size={30}/>
-          <FaInstagramSquare size={30}/>
+    <div className="footer">
+         <div classname="sb_footer section_padding">
+<div classname="sb_footer-links">
+  <div className="sb_footer-links_div">
+              <a href="/">
+                
+              </a>
+  </div>
+
+</div>
+           <div classname="sb_footer-links_div">
+<h3>
+  Welcome to the Grading System
+</h3>
+<a href="/Dashboard">
+              </a>
+              <a href="/">
+                <p>Check the Support Page for additional information</p>
+              </a>
+              
+           </div>
+           <div classname="sb_footer-links_div">
+<h3>
+   Grading System
+</h3>
+<a href="/Dashboard">
+              </a>
+              <a href="/">
+                <ul>
+                  <li>Excellent</li>
+                  <li>Very Good</li>
+                  <li>Good</li>
+                  </ul>
+              </a>
+              
+           </div>
+           <div className="sb_footer-links_div">
+            
+             <div socialmedia>
+                 
+             <a href="/"><FaTwitterSquare /></a>
+             <a href="/"><FaInstagramSquare /></a>
+             <a href="/"><FaFacebookSquare /></a>
+             <a href="/"><FaGithubSquare /></a>
+             </div>
+           </div>
+             
          </div>
-          </div>
-      <div className="footer-col">
-         <div className="list">
-          <h6>Grades</h6>
-          <ul>
-            <li className="py-2 text-sm">FAQ</li>
-            <li>FAQ</li>
-            <li>FAQ</li>
-            <li>FAQ</li>
-          </ul>
+         <hr></hr>
+         <div className="sb_footer-below">
+             <div className="sb_footer-copyright">
+<p>
+  @{new Date().getFullYear()} GradingSystem. All rights reserved.
+</p>
+             </div>
+             <div className="sb_footer-below-links">
+                 <a href="/terms"><div><p>Terms & Conditions</p></div></a>
+             </div>
          </div>
-         <div className="list">
-          <h6>Support</h6>
-          <ul>
-            <li className="py-2 text-sm">FAQ</li>
-            <li>FAQ</li>
-            <li>FAQ</li>
-            <li>FAQ</li>
-          </ul>
-         </div>
-         <div className="list">
-          <h6>Help</h6>
-          <ul>
-            <li className="py-2 text-sm">FAQ</li>
-            <li>FAQ</li>
-            <li>FAQ</li>
-            <li>FAQ</li>
-          </ul>
-         </div>
-            </div>
     </div>
   )
 }
