@@ -15,11 +15,11 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/Login" element={<StudentLogin />} />
-          <Route path="/Dashboard" element={<AcademicReport />} />
+          {/* <Route path="/Dashboard" element={<AcademicReport />} />
           <Route path="/GradeForm" element={<GradeForm />} />
           <Route path="/Contact" element={<InstructorContact />} />
           <Route path="/Help" element={<HelpSupport />} />
-          <Route path="/Grade" element={<GradeReport />} />
+          <Route path="/Grade" element={<GradeReport />} /> */}
         </Routes>
       </Router>
     </>

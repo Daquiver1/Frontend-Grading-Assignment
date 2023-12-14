@@ -112,7 +112,12 @@ const NavBar = () => {
               ></button>
             </div>
             <div className="modal-body">
-              <p>Some of your courses have not been graded!!!</p>
+              <p>You have 3 courses not graded!</p>
+              <ul>
+                <li>UGRC 150</li>
+                <li>DCIT 205</li>
+                <li>Math 220</li>
+              </ul>
             </div>
             <div className="modal-footer">
               <button
@@ -122,7 +127,7 @@ const NavBar = () => {
               >
                 Close
               </button>
-              <a href="/Help" type="button" className="btn btn-outline-success">
+              <a href="/GradeForm" type="button" className="btn btn-outline-success">
                 Report
               </a>
             </div>
