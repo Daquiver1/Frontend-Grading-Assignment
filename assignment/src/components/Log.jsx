@@ -20,11 +20,11 @@ const Access = (props) =>{
 
             <label className="flex flex-col  text-xl font-sans font-semibold  " htmlFor="email">Student ID</label>
             <input className= "rounded bg-slate-200 font-extralight font-serif text-center h-[45px] w-[400px] mb-10" type="number" value={email}  onChange={(e) =>
-            setEmail(e.target.value)} placeholder="Enter your ID" id="number" name="number"/>
+            setEmail(e.target.value)} placeholder="Enter your ID" id="number" name="number" required/>
 
             <label className="flex flex-col font-sans font-semibold text-xl" htmlFor="password">Password</label>
             <input className="rounded bg-slate-200 font-extralight font-serif text-center h-[45px] w-[400px]" type="password" value={pass} onChange={(e) =>
-            setPass(e.target.value)} placeholder="**************" id="password" name="password"/>
+            setPass(e.target.value)} placeholder="**************" id="password" name="password" required/>
 
             <button   type="submit" className="flex flex-col text-center  pl-10 w-[120px] bg-blue-700 text-white font-semibold rounded p-[8px] hover:bg-yellow-300 hover:text-blue-700 duration-75 mt-10 mb-0">Login</button>
 
