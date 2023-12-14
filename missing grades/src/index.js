@@ -22,10 +22,10 @@ function MyRouter() {
         <Routes>
           <Route path='/' element={<App />} />
           <Route path='/login' element={<Login />} />
-          <Route path='/instructors' element={<InstructorContact />} />
+          <Route path='/instructorContact' element={<InstructorContact />} />
           <Route path='/faq' element={<HelpAndSupport />} />
-          <Route path='/grades' element={<GradeReport />} />
-          <Route path='/missing-grades' element={<MissingGradeForm />} />
+          <Route path='/gradeReport' element={<GradeReport />} />
+          <Route path='/missingGradeForm' element={<MissingGradeForm />} />
           <Route path='/dashboard' element={<Dashboard />} />
           <Route path='/landingpage' element={<LandingPage />} />
         </Routes>

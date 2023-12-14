@@ -1,0 +1,36 @@
+/* Create a new CSS file (e.g., gradeReport.css) and add the following styles */
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.mb-4 {
+    margin-bottom: 20px;
+}
+
+.form-label {
+    font-weight: bold;
+}
+
+.form-select {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+}
+
+.table {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.table th,
+.table td {
+    padding: 12px;
+    text-align: left;
+}
+
+/* Adjust these styles based on your specific design preferences */

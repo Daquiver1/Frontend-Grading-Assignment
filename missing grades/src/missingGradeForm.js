@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './missingGradeForm.css';
 import MyNavbar from './nav';
 import MyFooter from './Footer';
 
@@ -22,7 +23,7 @@ const MissingGradeForm = () => {
   return (
     <div>
       <MyNavbar />
-      <MyFooter />
+ 
 
       <div className="container main mt-5">
         <h1 className="mb-4">Missing Grade Form</h1>
@@ -94,7 +95,10 @@ const MissingGradeForm = () => {
             </button>
           </form>
         )}
+
+        
       </div>
+           <MyFooter />
     </div>
   );
 };

@@ -1,6 +1,7 @@
 
 import React, { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './gradeReport.css';
 import MyNavbar from './nav';
 import MyFooter from './Footer';
 
@@ -84,12 +85,8 @@ const GradeReport = () => {
   
 
   return (
+     
     <div>
-      <MyNavbar />
-      
-    
-    
-
     <div className="container mt-5">
       <h1 className="mb-4">Grade Report</h1>
 
@@ -151,7 +148,8 @@ const GradeReport = () => {
       <div style={{marginBottom: "70px"}}>
         <p>GPA: {calculateGPA()}</p>
       </div>
-    </div>
+    
+      </div>
     <MyFooter /> 
     </div>
   );

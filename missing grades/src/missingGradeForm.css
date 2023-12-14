@@ -1,0 +1,51 @@
+/* Create a new CSS file (e.g., missingGradeForm.css) and add the following styles */
+
+.container.main {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.mb-4 {
+    margin-bottom: 20px;
+}
+
+.form-label {
+    font-weight: bold;
+    color: #02353c;
+}
+
+.form-control {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+}
+
+textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+}
+
+.btn-primary {
+    background-color: #2eaf7d;
+    border-color: #2eaf7d;
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #3Fdoc9 !important; 
+    /* Adjust color on hover */
+}
+
+.alert-success {
+    margin-top: 20px;
+    background-color: #28a745;
+    color: white;
+    border: 1px solid #218838;
+}
+
+/* Adjust these styles based on your specific design preferences */
