@@ -51,7 +51,4 @@ To contribute to this project, please follow these guidelines:
 
  ## Screenshot of pages
  
-![Screenshot (18)](https://github.com/hayat717/Frontend-Grading-Assignment-11328068_DCIT205/assets/143534124/6362468b-2b8e-4970-8835-9d0f451ce1ae)
-
-
 Please adhere to the project's coding standards and provide clear and detailed pull request descriptions.
