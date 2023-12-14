@@ -1,51 +1,39 @@
-# Student Grade Reporting System Frontend
+README DOCUMENT FOR ASSIGNMENT 1
+# A GRADING REPORT SYSTEM
+This project is a 7 page frontend website for reporting missing grades
+the website was done or designed my use of BOOTSRAP
+It is made up of the following pages
+1. LANDING PAGE
+2. HOME PAGE
+3. MISSING GRADE REPORT PAGE
+4. DASHBOARD
+5. CONTACT INSTRUCTOR PAGE
+6. HELP AND SUPPORT PAGE
+7. LOG IN PAGE
+# Landing Page
+The landing page consists of a brief description of what the website entailes.
+there's a log in button which when tapped, sends you to the log in page
+the page also containes a navbar when has all the links to the various pages of the website
+# Home Page
+The homepage and the landing page basically contain the same features
+# MISSING GRADE REPORT PAGE
+This page contains a form which has the following spaces
+1. instructors name
+2. course name
+3. expected grade
+4. submit button
+Which when filled will send a complain about the user's missing grade
+# DASHBOARD
+The dashbord contains all courses the student has taken with their grades attached
+and theres a notifiction which points out an error of a missing grade
+#CONTACT INSTRUCTOR PAGE
+This page also gives out a list of instructors to call, as well as there is a link which when clickes will enable you send an email to the various instructots dependinfg on the one you clicked on
+# HELP AND SUPPORT PAGE
+Provides a faq page for questions frequently asked as well as a form to fill if there are any further questions
+# LOG IN PAGE
+A page for the user to input his or details to log into the website
 
-## Project Overview
 
-This project is a front-end web application for a Student Grade Reporting System. It simulates a real-world application where students can view, report, and manage their academic grades. This system addresses the issue of missing or unrecorded grades in a student's profile.
 
-## Application Structure
 
-The application consists of 7 main pages:
 
-- **Homepage:** Introduction to the system and its purpose.
-- **Login Page:** Mock login interface for student authentication.
-- **Dashboard:** Displays an overview of the student’s current grades and alerts for missing grades.
-- **Grade Report:** Shows a detailed view of the student's grades filtered by semester or academic year.
-- **Missing Grade Form:** Enables students to report missing grades.
-- **Instructor Contact Page:** Lists instructors' contact information with a simulated email feature.
-- **Help and Support:** Provides FAQs and a mock support contact form.
-
-## Technical Details
-
-- **Framework/Technology Used:** [React]
-- **Responsive Design:** Implemented using [CSS Flexbox/Grid, Bootstrap, Tailwind CSS].
-- **JavaScript Functionality:** Used for form validations, dynamic content rendering, and simulating interactions.
-
-## Setup and Installation
-
-To set up the project locally, follow these steps:
-
-```bash
-git clone https://github.com/your-github-username/DCIT_205_ASSIGNGMENT1.git
-cd repo-name
-npm install
-npm start
-```
-
-This will start the application on `localhost` at the default port.
-
-## Usage
-
-Describe how to use the application, highlighting key functionalities such as logging in, viewing grades, reporting missing grades, and contacting instructors.
-
-## Contribution
-
-To contribute to this project, please follow these guidelines:
-
-1. Fork the repository.
-2. Create a new branch for your feature.
-3. Commit your changes and push them to your branch.
-4. Submit a pull request for review.
-
-Please adhere to the project's coding standards and provide clear and detailed pull request descriptions.
