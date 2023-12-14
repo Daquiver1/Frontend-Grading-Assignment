@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 function Contact() {
   const [instructors, setInstructors] = useState([
-    { id: 1, name: "Micheal Soli", email: "michaelsoli@gmai.com" },
+    { id: 1, name: "Micheal Soli", email: "michaelsoli@gmail.com" },
     { id: 2, name: "Mark Attah Mensah", email: "mam@gmail.com" },
     { id: 3, name: "Aziz Dwumfuor", email: "azizdwumfuor@gmail.com" },
     { id: 4, name: "Solomon Mensah", email: "solomensah@gmail.com" },

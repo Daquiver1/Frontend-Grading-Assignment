@@ -8,7 +8,7 @@ import Navbar from 'react-bootstrap/Navbar';
 function Navigation() {
     return (
         <div>
-             <Navbar expand="lg" className="bg-body-tertiary" sticky = "top" >
+             <Navbar expand="lg" bg = "dark" variant = "dark" sticky = "top" >
       <Container>
         <Navbar.Brand href="#home">Grade Map</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />

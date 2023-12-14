@@ -1,12 +1,12 @@
 
 import React from 'react';
-import Navigation from '../navigation';
+
 
 function LandingPage(){
   return(
     <div className = "landing-page">
-      <Navigation />
-      <h1>Welcome To Our Powerful Grade Assessment App</h1>
+      
+      <h1>Welcome To Grade Map</h1>
       <p>
         Our platform makes it much easier to assess grades,report issues with grades, and keep
         student information safe.Lecturers can easily be contacted in case of missing or incorrect grades recorded
@@ -31,7 +31,7 @@ function LandingPage(){
         </p>
         </div>
 
-        <div className = "Testimonies">
+        <div className = "pros">
               <h2>Testimonials</h2>
               <p>
                 "This app is the best thing I've used throughout my education. I used to chase lecturers around in case
@@ -46,14 +46,14 @@ function LandingPage(){
               </p>
         </div>
 
-        <div className = "subscriptions">
+        <div className = "pros">
           <h2>Subscriptions</h2>
           <p>You can use the app for free! Or check out our premium plans starting at only $0.99/month</p>
         </div>
-        <div className = "Contact">
+        <div className = "pros">
           <h2>Contact Us</h2>
           <p>
-            Have any questions, complaints or suggestions? Contact our support team at supportga@gmail.com
+            Have any questions, complaints or suggestions? Contact our support team at supportgm@gmail.com
           </p>
         </div>
      </div>

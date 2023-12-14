@@ -38,6 +38,7 @@ This will start the application on `localhost` at the default port.
 ## Usage
 
 To use this app, users are expected to log in to start using the app.
+After logging in, users can
 Describe how to use the application, highlighting key functionalities such as logging in, viewing grades, reporting missing grades, and contacting instructors.
 
 ## Contribution
