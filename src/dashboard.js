@@ -1,8 +1,9 @@
 import React from 'react';
 import Navigation from './Navigation';
 import { Container, Row, Col, Card, ProgressBar } from 'react-bootstrap';
-import {  FaBook, FaChartLine, FaUser, FaBell, FaComments, FaCog } from 'react-icons/fa';
+import {  FaBook, FaChartLine, FaUser, FaIdCard, FaComments, FaExclamationTriangle  } from 'react-icons/fa';
 import Footer from './footer';
+
 
 const DashboardPage = () => {
   return (
@@ -40,10 +41,10 @@ const DashboardPage = () => {
           
           <div className="sidebox">
       {/* Announcements */}
-          <Card className="small-grids">
+          <Card className="small-grids2">
             <Card.Body >
-              <h2 className="text-center">Announcements</h2>
-              <h2 className="text-center1"><FaBell /> Important announcement: Exam schedule updated.</h2>
+              <h2 className="text-center3"><FaExclamationTriangle/><br/></h2> 
+              <h2 className="text-center4"> Missing Grade: </h2 ><h2 className="text-center1">DCIT101</h2>
             </Card.Body>
           </Card>
 
@@ -52,8 +53,8 @@ const DashboardPage = () => {
           <Card className="small-grids">
             <Card.Body >
               <h2 className="text-center">Student Profile</h2>
-              <h2 className="text-center1"><FaUser /> Name: Nana Kwame </h2> <br/> 
-              <h2 className="text-center1"> <FaCog /> <a className="text-center1" href="/profile">Edit Profile</a></h2>
+              <h2 className="text-center1"><FaUser /> Name: Nana Kwame </h2>
+              <h2 className="text-center1"> <FaIdCard /> ID: 11111111</h2>
             </Card.Body>
           </Card>
         

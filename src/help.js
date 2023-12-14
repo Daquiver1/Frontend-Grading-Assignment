@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import Navigation from './Navigation';
 import Accordion from 'react-bootstrap/Accordion';
+import Footer from './footer';
+
 
 const HelpAndSupportPage = () => {
   const [searchQuery, setSearchQuery] = useState('');
@@ -63,6 +65,7 @@ const HelpAndSupportPage = () => {
     <div className="contact-support">
       <button className="contact-support-btn">Contact Support</button>
       </div>
+      <Footer/>
     </div>
   );
 };
