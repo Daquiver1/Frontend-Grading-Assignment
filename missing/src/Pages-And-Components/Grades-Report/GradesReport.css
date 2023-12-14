@@ -1,0 +1,30 @@
+.dashboard-container {
+  padding: 20px;
+}
+
+#grade-report-section {
+  margin-top: 20px;
+}
+
+.grade-report-div {
+  margin-top: 20px;
+  
+}
+
+.grade-report-div p {
+  text-align: left;
+}
+
+.grade-report-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.grade-report-table th, .grade-report-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+
+
