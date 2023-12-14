@@ -9,3 +9,24 @@ const grade = [
    {subject:"Course four",credit:4, assessment:28,term:55,total:83,result:"Pass",grade:"A",semester:"Semester Three",date:"2023/2024"},
    {subject:"Course five",credit:4, assessment:30,term:60,total:90,result:"Pass",grade:"A+",semester:"Semester Three",date:"2023/2024"},
 ];
+
+export default function Dashboard(){
+
+  const [user,setUser]=useState(grade);
+
+  const handleSearch = (e) =>{
+
+  
+     grade.filter(obj => {
+      
+
+      if(obj.semester === e.target.value){
+
+        setUser([
+          {subject:obj.subject,credit:obj.credit, assessment:obj.assessment,term:obj.term,total:obj.total,result:obj.result,grade:obj.grade, semester:obj.semester, date:obj.date},
+      ])
+      }
+    });
+
+  }
+
