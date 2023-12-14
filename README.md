@@ -1,51 +1,15 @@
-# Student Grade Reporting System Frontend
+# 11355543
+## Sulemana Abubakar Saddique
 
-## Project Overview
-
-This project is a front-end web application for a Student Grade Reporting System. It simulates a real-world application where students can view, report, and manage their academic grades. This system addresses the issue of missing or unrecorded grades in a student's profile.
-
-## Application Structure
-
-The application consists of 7 main pages:
-
-- **Homepage:** Introduction to the system and its purpose.
-- **Login Page:** Mock login interface for student authentication.
-- **Dashboard:** Displays an overview of the student’s current grades and alerts for missing grades.
-- **Grade Report:** Shows a detailed view of the student's grades filtered by semester or academic year.
-- **Missing Grade Form:** Enables students to report missing grades.
-- **Instructor Contact Page:** Lists instructors' contact information with a simulated email feature.
-- **Help and Support:** Provides FAQs and a mock support contact form.
-
-## Technical Details
-
-- **Framework/Technology Used:** [React]
-- **Responsive Design:** Implemented using [CSS Flexbox/Grid, Bootstrap, Tailwind CSS].
-- **JavaScript Functionality:** Used for form validations, dynamic content rendering, and simulating interactions.
-
-## Setup and Installation
-
-To set up the project locally, follow these steps:
-
-```bash
-git clone https://github.com/your-github-username/DCIT_205_ASSIGNGMENT1.git
-cd repo-name
-npm install
-npm start
-```
-
-This will start the application on `localhost` at the default port.
-
-## Usage
-
-Describe how to use the application, highlighting key functionalities such as logging in, viewing grades, reporting missing grades, and contacting instructors.
-
-## Contribution
-
-To contribute to this project, please follow these guidelines:
-
-1. Fork the repository.
-2. Create a new branch for your feature.
-3. Commit your changes and push them to your branch.
-4. Submit a pull request for review.
-
-Please adhere to the project's coding standards and provide clear and detailed pull request descriptions.
+### Screenshots of pages 
+![Screenshot (1)](https://github.com/SulemanaAbu/Frontend-Grading-Assignment/assets/151389012/928036a6-5311-4123-a4fd-24fa8155aa57)
+![Screenshot (3)](https://github.com/SulemanaAbu/Frontend-Grading-Assignment/assets/151389012/17b53d05-4e79-4920-8694-5330e237327f)
+![Screenshot (2)](https://github.com/SulemanaAbu/Frontend-Grading-Assignment/assets/151389012/4c276e0b-75e4-4abd-b0f6-09d5b97b3a74)
+![Screenshot (4)](https://github.com/SulemanaAbu/Frontend-Grading-Assignment/assets/151389012/d4cf143c-de03-4473-944a-4fe6985d60a3)
+![Screenshot (9)](https://github.com/SulemanaAbu/Frontend-Grading-Assignment/assets/151389012/0a830208-1dbb-4201-85bd-8161ce37e9be)
+![Screenshot (8)](https://github.com/SulemanaAbu/Frontend-Grading-Assignment/assets/151389012/85dc4a5e-17dc-4627-98ed-564ba5ffc116)
+![Screenshot (7)](https://github.com/SulemanaAbu/Frontend-Grading-Assignment/assets/151389012/ddc87958-907c-4690-afc6-f92dc3acd13a)
+![Screenshot (6)](https://github.com/SulemanaAbu/Frontend-Grading-Assignment/assets/151389012/f120f90c-0a7d-44ca-9ad1-a66ff5449604)
+![Screenshot (5)](https://github.com/SulemanaAbu/Frontend-Grading-Assignment/assets/151389012/d7d8734f-bff2-4d34-b3ac-485238ecc3f2)
+![Screenshot (11)](https://github.com/SulemanaAbu/Frontend-Grading-Assignment/assets/151389012/ec59a028-b376-4f61-a027-8c869838f2b9)
+![Screenshot (10)](https://github.com/SulemanaAbu/Frontend-Grading-Assignment/assets/151389012/435851b9-9abc-4beb-8f3d-1cabd3286fdf)

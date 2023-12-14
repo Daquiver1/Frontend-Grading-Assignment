@@ -1,0 +1,481 @@
+body {
+  margin: 35px;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+#left-section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: aliceblue;
+  width: 100%;
+}
+
+  #left-section h1 {
+      font-family: 'Lato', sans-serif;
+      font-weight: 900;
+      font-size: 30px;
+      color: #000;
+      margin-bottom: 20px;
+  }
+
+  #left-section p {
+      font-size: 19px;
+      color: #555;
+      text-align: center;
+      margin-bottom: 40px;
+  }
+
+  #left-section button {
+      background-color: deepskyblue;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      font-size: 14px;
+      border-radius: 4px;
+      cursor: pointer;
+  }
+
+
+
+.navbar {
+  background-color: steelblue;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+}
+
+  .logo img {
+      width: 75px;
+      height: 40px;
+      margin-right: 10px;
+  }
+
+.tabs {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+  .tabs li {
+      margin-left: 20px;
+  }
+
+      .tabs li a {
+          color: #fff;
+          text-decoration: none;
+          font-weight: 600;
+      }
+footer {
+  background-color: steelblue;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-section {
+  flex: 1;
+  padding: 0 20px;
+}
+
+  .footer-section h2 {
+      font-size: 18px;
+      margin-bottom: 10px;
+  }
+
+  .footer-section p {
+      font-size: 14px;
+      margin-bottom: 5px;
+  }
+
+.footer-bottom p {
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+
+.login-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 40px;
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+  .login-container h1 {
+      font-size: 24px;
+      margin-bottom: 20px;
+  }
+
+form {
+  text-align: left;
+}
+
+  form label,
+  form input {
+      display: block;
+      margin-bottom: 10px;
+  }
+
+  form input {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+  }
+
+button {
+  background-color: deepskyblue;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 14px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+/* Rest of the styles from previous examples */
+
+header {
+  background-color: steelblue;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+  header h1 {
+      font-size: 24px;
+      margin: 0;
+  }
+
+  header nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+  }
+
+      header nav ul li {
+          display: inline-block;
+          margin-right: 10px;
+      }
+
+          header nav ul li a {
+              color: #fff;
+              text-decoration: none;
+          }
+
+.grades-section {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+  .grades-section h2 {
+      font-size: 20px;
+      margin-bottom: 10px;
+  }
+
+.grades-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+  .grades-table th,
+  .grades-table td {
+      padding: 10px;
+      border-bottom: 1px solid #ccc;
+  }
+
+.notifications-section {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+.hover{
+  color:lightblue;
+
+}
+
+  .notifications-section h2 {
+      font-size: 20px;
+      margin-bottom: 10px;
+  }
+
+.notification {
+  margin-bottom: 10px;
+  padding: 10px 20px;
+  background-color: lightblue;
+  border-radius: 4px;
+}
+
+  .notification p {
+      margin: 0;
+  }
+
+  .notification a {
+      color: #333;
+      text-decoration: none;
+  }
+
+/* Rest of the styles from previous examples */
+
+.filter-section {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+  .filter-section h2 {
+      font-size: 20px;
+      margin-bottom: 10px;
+  }
+
+  .filter-section form label,
+  .filter-section form select {
+      display: block;
+      margin-bottom: 10px;
+  }
+
+  .filter-section form select {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+  }
+
+.grades-section {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+  .grades-section h2 {
+      font-size: 20px;
+      margin-bottom: 10px;
+  }
+
+.grades-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+  .grades-table th,
+  .grades-table td {
+      padding: 10px;
+      border-bottom: 1px solid #ccc;
+  }
+
+/* Rest of the styles from previous examples */
+
+.form-section {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+  .form-section h2 {
+      font-size: 20px;
+      margin-bottom: 10px;
+  }
+
+  .form-section form label,
+  .form-section form input,
+  .form-section form textarea {
+      display: block;
+      margin-bottom: 10px;
+  }
+
+  .form-section form input,
+  .form-section form textarea {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+  }
+
+  .form-section form textarea {
+      resize: vertical;
+  }
+
+  .form-section form button {
+      padding: 10px 20px;
+      background-color: deepskyblue;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+  }
+
+.confirmation {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: lightblue;
+  border-radius: 4px;
+}
+/*Instructor's Contact Page*/
+/* Rest of the styles from previous examples */
+
+.instructor-details h3 {
+  margin-top: 0;
+}
+
+.instructor-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.instructor-list li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+/* Rest of the styles from previous examples */
+
+.send-email-btn {
+  padding: 10px 20px;
+  background-color: deepskyblue;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+
+.email-modal {
+  display: none;
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.email-modal-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 600px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 4px;
+}
+
+  .email-modal-content h3 {
+      font-size: 20px;
+      margin-bottom: 10px;
+  }
+
+  .email-modal-content label,
+  .email-modal-content input,
+  .email-modal-content textarea {
+      display: block;
+      margin-bottom: 10px;
+  }
+
+  .email-modal-content input,
+  .email-modal-content textarea {
+      width: calc(100% - 20px);
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+  }
+
+  .email-modal-content textarea {
+      resize: vertical;
+  }
+
+  .email-modal-content button {
+      padding: 10px 20px;
+      background-color: #333;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+  }
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #888;
+  cursor: pointer;
+}
+
+/*Help and Support Page*/
+/* Rest of the styles from previous examples */
+
+.faq-section {
+  margin-bottom: 40px;
+}
+
+.faq h3 {
+  margin-top: 0;
+}
+
+.contact-section form label,
+.contact-section form input,
+.contact-section form textarea {
+  display: block;
+  margin-bottom: 10px;
+  width: 70%;
+}
+
+.contact-section form input,
+.contact-section form textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.contact-section form button {
+  padding: 10px 20px;
+  background-color: deepskyblue;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
