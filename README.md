@@ -16,42 +16,24 @@ Students can input and track their grades for various courses or assignments tha
 To get a copy of this project and run it on your local machine, follow these steps:
 1. *clone the repository:*
    bashhttps://github.com/EstherBoahemaaAcheampong/Frontend-Grading-Assignment
+2. Navigate to the project Directory: bash 11037680_DCIT205
+3. Open the React Pages in a Web Browser: Open the npm start file in your preferred web browser to explore the website
+
+## Name and ID
+Acheampong Esther 11037680
+
+## What I have Learnt 
+
+Throughout the development of this project, several key learnings were gained:
+1. Responsive Design: Implementing responsive design principles to ensure the website looks good and functions well on various devices and screen sizes,
+2. React and CSS Styling: Creating well-structured React pages and applying CSS styles for consistent and visually appealing presentation.
+3. Navigation and User Experience: Designing an innate navigation system and optimizing the user experience by organizing content logically,
+4. GitHub Workflow: Practicing version control and collaboration using Git and GitHub, including cloning,
+branching committing and pushing changes.
+пр
 
 
 
 
 
 
-## Technical Details
-
-- **Framework/Technology Used:** [React]
-- **Responsive Design:** Implemented using [CSS Flexbox/Grid, Bootstrap, Tailwind CSS].
-- **JavaScript Functionality:** Used for form validations, dynamic content rendering, and simulating interactions.
-
-## Setup and Installation
-
-To set up the project locally, follow these steps:
-
-```bash
-git clone https://github.com/your-github-username/DCIT_205_ASSIGNGMENT1.git
-cd repo-name
-npm install
-npm start
-```
-
-This will start the application on `localhost` at the default port.
-
-## Usage
-
-Describe how to use the application, highlighting key functionalities such as logging in, viewing grades, reporting missing grades, and contacting instructors.
-
-## Contribution
-
-To contribute to this project, please follow these guidelines:
-
-1. Fork the repository.
-2. Create a new branch for your feature.
-3. Commit your changes and push them to your branch.
-4. Submit a pull request for review.
-
-Please adhere to the project's coding standards and provide clear and detailed pull request descriptions.
