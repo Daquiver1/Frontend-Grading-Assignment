@@ -9,8 +9,8 @@ function AppDashboard() {
   // Replace with actual user data or fetch it from your backend
   const user = {
     name: 'George Barclay',
-    grade: '12',
-    average: '87',
+    grade: '300',
+    average: '3.33',
     courses: [
       { name: 'DCIT 201', grade: 'A' },
       { name: 'DCIT 203', grade: 'B' },
@@ -24,7 +24,7 @@ function AppDashboard() {
   const missingGrades = user.courses.filter((course) => !course.grade);
 
   return (
-    <Container style={{ backgroundImage: 'url("your-new-background-image-url")', backgroundSize: 'cover', minHeight: '100vh' }}>
+    <Container >
       {/* User Information Section */}
       <Row className="mt-4">
         <Col>
