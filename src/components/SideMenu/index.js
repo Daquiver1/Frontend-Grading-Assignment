@@ -15,27 +15,27 @@ function SideMenu(){
                 {
                label: 'Dashboard',
                icon: <AppstoreOutlined />,
-               key: '/dashboard' 
+               key: '/dashboard/main' 
             },
             {
                 label: 'Grade Report',
                 icon: <ProjectOutlined />,
-                key: '/grade-report'
+                key: '/dashboard/grade-report'
             },
             {
                 label: 'Missing Grade Form',
                 icon: <FormOutlined />,
-                key: '/missing-grade-form'
+                key: '/dashboard/missing-grade-form'
             },
             {
                 label: 'Instructor Contact',
                 icon: <UserOutlined />,
-                key: '/instructor-contact'
+                key: '/dashboard/instructor-contact'
             },
             {
                 label: 'Help and Support',
                 icon: <CommentOutlined />,
-                key: '/help-and-support'
+                key: '/dashboard/help-and-support'
             }
             ]}></Menu>
         </div>

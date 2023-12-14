@@ -1,9 +1,17 @@
 import { Space, Table, Typography } from "antd";
 import './Mail.css'
+import AppHeader from '../../components/AppHeader';
+import PageContent from '../../components/PageContent';
+import SideMenu from '../../components/SideMenu';
+import AppFooter from "../../components/AppFooter";
 
 function Instructor(){
     return (
-    <div>
+        <div className="App">
+        <AppHeader />
+        <Space className='SideMenuAndPageContent'>
+        <SideMenu/>
+        <div>
         <Space direction="vertical">
             <Typography.Text variant="h1">
                 <h3>Instructors</h3>
@@ -18,7 +26,10 @@ function Instructor(){
                 </Space>
             </Space>
         </Space>
-    </div>
+        </div>
+        </Space>
+        <AppFooter />
+        </div>
     );
 }
 
@@ -58,15 +69,15 @@ const InstructorMail = () => {
     return (
         <section>
             <div className="container">
-                <h1 className="--text-center">Send a Mail</h1>
-                <form className="--form-control --card --flex-center --dir-column">
+                <h1>Send a Mail</h1>
+                <form>
                     <input type="text" placeholder="Full Name" name="name" required/>
                     <input type="text" placeholder="Index Number" name="id" required/>
                     <input type="email" placeholder="instructor's-email@ug.edu.gh" name="mail" required/>
                     <input type="Subject" placeholder="Mail Subject..." name="subject" required/>
                     <textarea placeholder="Message To instructor..." cols='60' rows='10' required></textarea>
                     <br/>
-                    <button type='submit' className="--btn --btn-primary">Send Message</button>
+                    <button type='submit'>Send Message</button>
                 </form>
             </div>
         </section>

@@ -12,13 +12,15 @@ function Navbar(){
     }
     return(
         <nav className="nav">
-            <a href="#" className="nav-logo">Logo</a>
+            <a className="nav-logo">
+                <img src='' alt='logo'/>
+            </a>
             <ul className={active}>
-                <li className="nav-item"><a href='#' className="nav-link">Dashboard</a></li>
-                <li className="nav-item"><a href='#' className="nav-link">Report</a></li>
-                <li className="nav-item"><a href='#' className="nav-link">Form</a></li>
-                <li className="nav-item"><a href='#' className="nav-link">Contact</a></li>
-                <li className="nav-item"><a href='#' className="nav-link">Support</a></li>
+                <li className="nav-item"><a href='/dashboard/main' className="nav-link">Dashboard</a></li>
+                <li className="nav-item"><a href='/dashboard/grade-report' className="nav-link">Report</a></li>
+                <li className="nav-item"><a href='dashboard/missing-grade-form' className="nav-link">Form</a></li>
+                <li className="nav-item"><a href='/dashboard/instructor-contact' className="nav-link">Contact</a></li>
+                <li className="nav-item"><a href='/dashboard/help-and-support' className="nav-link">Support</a></li>
             </ul>
             <div onClick={navToggle} className={toggleIcon}>
                 <div className="nav-toggle-bar1"></div>

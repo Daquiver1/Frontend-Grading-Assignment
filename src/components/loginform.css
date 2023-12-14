@@ -4,25 +4,28 @@
     font-family: sans-serif;
 }
 
-.login-page{
-    height: 100vh;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.login-cover h1{
+    text-align: center;
+    color: rgba(53, 162, 235, 5);
 }
 
 .login-cover{
-    background-color: white;
-    width: 25em;
-    height: 25em;
-    position: relative;
-    border-radius: 0.5em;
-    box-shadow: 0 0 0.5em 0.1em rgba(156, 156, 156);
+        margin-left: 35%;
+        margin-top: 10%;
+        padding: 30px;
+        width: 500px;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2)
+}
+
+
+.login-cover input, textarea{
+    font-style: italic;
+    font-weight: bold;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
+    width: 90%;
+    padding: 10px;
+    margin: 8px 0;
 }
 
 input{
@@ -35,13 +38,17 @@ input:focus{
     outline-color: black;
 }
 
+.login-cover p{
+    color: red;
+    font-style: italic;
+}
+
 .login-button{
-    width: 30%;
+    width: 80%;
     height: 2.5em;
     background-color: rgb(32, 177, 255);
     display: flex;
     margin-left: 25px;
-    margin-top: -35px;
     justify-content: center;
     align-items: center;
     transition: 0.5s;
@@ -55,8 +62,7 @@ input:focus{
 }
 
 .pass-reset{
-    margin-top: -45px;
-    margin-left: 25px;
+    margin-left: 35%;
     cursor: pointer;
     color: gray;
 }
@@ -70,7 +76,8 @@ input:focus{
 }
 
 .login-popup{
-    position: absolute;
+    margin-top: -40%;
+    margin-left: 20%;
     height: 13em;
     width: 20em;
     display: flex;
@@ -84,6 +91,3 @@ input:focus{
     transform: 1.5s;
 }
 
-label{
-    color: red;
-}

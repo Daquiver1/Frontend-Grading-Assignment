@@ -1,7 +1,10 @@
 import { Card, Space, Statistic, Typography } from "antd";
 import { BookOutlined } from '@ant-design/icons'
 import 'react-calendar/dist/Calendar.css';
-
+import AppHeader from '../../components/AppHeader';
+import PageContent from '../../components/PageContent';
+import SideMenu from '../../components/SideMenu';
+import AppFooter from "../../components/AppFooter";
 import {
     Chart as ChartJS,
     CategoryScale,
@@ -25,6 +28,11 @@ ChartJS.register(
 
 function Dashboard(){
     return (
+        <div className="App">
+        <AppHeader />
+        <Space className='SideMenuAndPageContent'>
+        <SideMenu/>
+        
     <div>
         <Space direction="vertical">
             <Typography.Text>
@@ -43,6 +51,10 @@ function Dashboard(){
                 </Space>
         </Space>
     </div>
+
+        </Space>
+        <AppFooter />
+        </div>
     );
 }
 
