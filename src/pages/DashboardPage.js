@@ -30,13 +30,13 @@ function DashboardPage() {
       {
         course: "DCIT 207",
         grade: "C",
-        instructor: "Bob Lee",
+        instructor: "Fabrice Ihongui",
         semester: "Fall 2023",
       },
       {
         course: "CBAS 210",
         grade: null, // Missing grade
-        instructor: "Alice Wong",
+        instructor: "Alice Poulin",
         semester: "Fall 2023",
       },
     ];

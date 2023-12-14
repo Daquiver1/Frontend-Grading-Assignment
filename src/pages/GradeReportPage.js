@@ -43,7 +43,7 @@ function GradeReportPage() {
       {
         course: "CBAS 210",
         grade: null, // Missing grade
-        instructor: "Alice Wong",
+        instructor: "Alice Poulin",
         semester: "Fall 2023",
       },
       {
@@ -67,7 +67,7 @@ function GradeReportPage() {
       {
         course: "Science 202",
         grade: "B-",
-        instructor: "Alice Wong",
+        instructor: "Alice Poulin",
         semester: "Spring 2023",
       },
     ]);

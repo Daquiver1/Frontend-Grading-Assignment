@@ -62,7 +62,6 @@ const About = () => {
               A: You can report a missing grade on the{" "}
               <a href="/MissingGradeFormPage">Missing Grade Form</a> page.
             </li>
-            <li>{/* Add more FAQs as needed */}</li>
           </ul>
         </section>
 
