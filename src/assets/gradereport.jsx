@@ -46,7 +46,7 @@ const GradeReportPage = () => {
         };
 
         return(
-            <div>
+            <div className='dash'>
                 <h2>Grade Report</h2>
                 <div>
                     <label htmlFor = "yearFilter">Filter by Year:

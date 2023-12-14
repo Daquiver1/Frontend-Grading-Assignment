@@ -35,7 +35,7 @@ const Dashboard = () => {
          setMissingGrades(missing)
     }, []);
     return (
-      <div>
+      <div className="dash">
         <h2>Student Dashboard</h2>
         All Accumulated Grades:
         <h3>Overview</h3>

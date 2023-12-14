@@ -1,5 +1,5 @@
-
 import React from 'react';
+import Footer from './footer';
 
 
 function LandingPage(){
@@ -61,5 +61,5 @@ function LandingPage(){
      
   );
 }
-
+<Footer />
 export default LandingPage;

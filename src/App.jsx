@@ -10,6 +10,7 @@ import GradeReport from "./assets/gradereport";
 import HelpAndSupport from "./assets/helpandsupport";
 import MissingGradeForm from "./assets/missinggradeform";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Footer from "./assets/footer";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -18,6 +19,8 @@ function App() {
     <BrowserRouter>
       <div>
         <Navigation />
+        
+        
         <Routes>
           <Route path="/" element={<Landingpage />}></Route>
           <Route path = "/landingpage" element = {<Landingpage />}></Route> 
@@ -31,8 +34,10 @@ function App() {
           ></Route>
           <Route path="/helpandsupport" element={<HelpAndSupport />}></Route>
         </Routes>
+        <Footer />
       </div>
     </BrowserRouter>
+   
   );
 }
 

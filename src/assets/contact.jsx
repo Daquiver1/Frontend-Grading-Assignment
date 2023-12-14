@@ -1,5 +1,8 @@
 import React, { useState } from "react";
 import Footer from "./footer";
+
+
+
 function Contact() {
   const [instructors, setInstructors] = useState([
     { id: 1, name: "Micheal Soli ", email: "michaelsoli@gmail.com" },
@@ -23,7 +26,7 @@ function Contact() {
   };
 
   return (
-    <div className = "contact">
+    <div className = "dash">
       <h2>Instructor Contact Page</h2>
       <ul>
         {instructors.map((instructor) => (

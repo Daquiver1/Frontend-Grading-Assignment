@@ -1,7 +1,7 @@
 const Footer = () => {
 
     return <footer className = "footer">
-        {'Copyright \u00A9 GradeMap 2021'}
+        {'Copyright \u00A9GradeMap 2021'}
         <p>
             Email:grademap@gmail.com <br />
             Phone:0234456739 <br />
