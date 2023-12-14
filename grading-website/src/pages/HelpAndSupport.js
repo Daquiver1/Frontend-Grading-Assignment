@@ -3,6 +3,8 @@ import Navbar from "../components/Navbar";
 import HeroSection from "../components/HeroSection";
 import Accordion from "../components/Accordion";
 import Footer from "../components/Footer";
+import "../components/HelpAndSupport.css";
+
 function HelpAndSupport() {
   const backgroundImage = (
     <>
