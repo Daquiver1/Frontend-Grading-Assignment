@@ -1,12 +1,24 @@
-import Header from "../Components/header"
+import Sidebar from "../Components/sidebar"
 import Footer from "../Components/footer"
 
 export default function ContactUs() {
     return(
         <>
-        <Header/>
-        <h1>Contact Us</h1>
-        <Footer/>
-        </>
+
+            <div id="Parent">
+                <div id="sidebarPositioning" >
+                    <Sidebar/>
+                </div>
+
+                <div id="sidebarContentPositioning">
+                    
+
+                    <Footer/>    
+                </div>
+
+            </div>
+            
+
+        </> 
     )    
 }

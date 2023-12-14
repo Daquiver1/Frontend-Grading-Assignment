@@ -1,23 +1,24 @@
-import Header from "../Components/header"
+import Sidebar from "../Components/sidebar";
 import Footer from "../Components/footer";
 
 export default function GradeReport() {
     return(
-        <>
-        <Header/>
-        <h1>GradeReport</h1>
+<>
+
+<div id="Parent">
+    <div id="sidebarPositioning" >
+        <Sidebar/>
+    </div>
+
+    <div id="sidebarContentPositioning">
         
 
-        <div class="sidebar">
-            <h2>Sidebar</h2>
-            <p>Links, content, or navigation here</p>
-        </div>
+        <Footer/>    
+    </div>
 
-        <div class="content">
-            <h1>Your Page Content</h1>
-            <p>Scroll down to see the fixed sidebar in action while the content moves.</p>
-        </div>
-        <Footer/>
-        </>
+</div>
+   
+
+</>
     );    
 }
