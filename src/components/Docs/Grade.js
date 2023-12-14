@@ -2,12 +2,12 @@ import React, { useState } from "react";
 import Layout from '../Layout/layout';
 
 const grade = [
-   {subject:"Course One",credit:4, assessment:29,term:50,total:79,result:"Pass",grade:"B", semester:"Semester One", date:"2021/2022"},
-   {subject:"Course Two",credit:4, assessment:30,term:60,total:90,result:"Pass",grade:"A+",semester:"Semester One",date:"2021/2022"},
-   {subject:"Course Three",credit:4, assessment:25,term:60,total:85,result:"Pass",grade:"A",semester:"Semester Two",date:"2022/2023"},
-   {subject:"Course Four",credit:4, assessment:20,term:50,total:70,result:"Pass",grade:"B",semester:"Semester Two",date:"2022/2023"},
-   {subject:"Course Five",credit:4, assessment:28,term:55,total:83,result:"Pass",grade:"A",semester:"Semester Three",date:"2023/2024"},
-   {subject:"Course Six",credit:4, assessment:30,term:60,total:90,result:"Pass",grade:"A+",semester:"Semester Three",date:"2023/2024"},
+   {subject:"Course One",credit:3, assessment:29, term:50, total:79, result:"Pass", grade:"B", semester:"Semester One", year:"2021/2022"},
+   {subject:"Course Two",credit:3, assessment:30, term:60, total:90, result:"Pass", grade:"A+", semester:"Semester One", year:"2021/2022"},
+   {subject:"Course Three",credit:3, assessment:25, term:60, total:85, result:"Pass", grade:"A", semester:"Semester Two", year:"2022/2023"},
+   {subject:"Course Four",credit:3, assessment:20, term:50, total:70, result:"Pass", grade:"B", semester:"Semester Two", year:"2022/2023"},
+   {subject:"Course Five",credit:3, assessment:28, term:55, total:83, result:"Pass", grade:"A", semester:"Semester Three", year:"2023/2024"},
+   {subject:"Course Six",credit:3, assessment:30, term:60, total:90, result:"Pass", grade:"A+", semester:"Semester Three", year:"2023/2024"},
 ];
 
 export default function Dashboard(){
@@ -23,7 +23,7 @@ export default function Dashboard(){
       if(obj.semester === e.target.value){
 
         setUser([
-          {subject:obj.subject,credit:obj.credit, assessment:obj.assessment,term:obj.term,total:obj.total,result:obj.result,grade:obj.grade, semester:obj.semester, date:obj.date},
+          {subject:obj.subject,credit:obj.credit, assessment:obj.assessment,term:obj.term,total:obj.total,result:obj.result,grade:obj.grade, semester:obj.semester, year:obj.year},
       ])
       }
     });
@@ -37,10 +37,10 @@ export default function Dashboard(){
     grade.filter(obj => {
      
 
-     if(obj.date === e.target.value){
+     if(obj.year === e.target.value){
 
        setUser([
-         {subject:obj.subject,credit:obj.credit, assessment:obj.assessment,term:obj.term,total:obj.total,result:obj.result,grade:obj.grade, semester:obj.semester, date:obj.date},
+         {subject:obj.subject,credit:obj.credit, assessment:obj.assessment,term:obj.term,total:obj.total,result:obj.result,grade:obj.grade, semester:obj.semester, year:obj.year},
      ])
      }
    });
@@ -82,6 +82,7 @@ export default function Dashboard(){
                   <option value={"Semester Three"}>semester Three</option>
                   <option value={"Semester Four"}>semester Four</option>
                   <option value={"Semester Five"}>semester Five</option>
+                  <option value={"Semester Six"}>semester Six</option>
                 </select>
               </div>
               </th>
@@ -112,7 +113,7 @@ export default function Dashboard(){
             </th>
             </tr>
             <tr>
-              <th scope="col" className="px-6 py-4">Subject code/Title</th>
+              <th scope="col" className="px-6 py-4">Subject code</th>
               <th scope="col" className="px-6 py-4">Credits</th>
               <th scope="col" className="px-6 py-4">Internal Assessment(30 marks)</th>
               <th scope="col" className="px-6 py-4">End Term Examination(70 marks)</th>
@@ -138,7 +139,7 @@ export default function Dashboard(){
                 <td className="whitespace-nowrap px-6 py-4">{data.result}</td>
                 <td className="whitespace-nowrap px-6 py-4">{data.grade}</td>
                 <td className="whitespace-nowrap px-6 py-4">{data.semester}</td>
-                <td className="whitespace-nowrap px-6 py-4">{data.date}</td>
+                <td className="whitespace-nowrap px-6 py-4">{data.year}</td>
               </tr>
               ))
             }
