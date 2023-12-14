@@ -22,7 +22,7 @@ const Navbar = () => {
             <ul>
                 <li><Link to="/Dashboard" className='nav-link1' >Dashboard</Link></li>
                 <li><Link to="/instructorcontact" className='nav-link1' >Instructor  Contact</Link></li>
-                <li><Link to="/missinggrade" className='nav-link1' >Missing  Grade</Link></li>
+                <li><Link to="/Missinggrade" className='nav-link1' >Missing  Grade</Link></li>
                 <li><Link to="/gradereport" className='nav-link1' >Grade  Report</Link></li>
                 <li><Link to="/helpandsupport" className='nav-link1' >Help & Support</Link></li>
             </ul>

@@ -1,15 +1,16 @@
 import React from 'react';
-import Landing from './landing';
+import Landing from './Landing';
 import Dashboard from './Dashboard';
-import GradeReport from './gradereport';
+import Gradereport from './Gradereport';
 import Header from './header';
 import Footer from './footer';
-import HelpAndSupport from './helpandsupport';
-import InstructorContact from './instructorcontact';
-import Login from './login';
-
+import Helpandsupport from './Helpandsupport';
+import Instructorcontact from './Instructorcontact';
+import Missinggrade from './Missinggrade';
+import Login from './Login';
 import Navbar from './Navbar';
-import './App.css'
+import './App.css';
+import Landingheader from './Landingheader'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 const App = () => {
@@ -21,6 +22,7 @@ const App = () => {
                         path="/"
                         element={
                             <>
+                                <Landingheader />
                                 <Landing />
                                 <Footer />
                             </>
@@ -28,7 +30,7 @@ const App = () => {
                     />
 
                     <Route
-                        path="/login"
+                        path="/Login"
                         element={
                             <>
                                 <Login />
@@ -52,25 +54,13 @@ const App = () => {
                     />
 
                     <Route
-                        path="/instructorcontact"
-                        element={
-                            <>
-                                <Header />
-                                <InstructorContact />
-                                <Navbar />
-                                <Footer />
-                            </>
-                        }
-                    />
-
-                    <Route
-                        path="/missinggrade"
+                        path="/Instructorcontact"
                         element={
                             <>
                                 <Header />
                                 <div className='NavBoard'>
                                     <div className='Navbar'><Navbar /></div>
-                                    <div className='Dashboard'><missinggrade/></div>
+                                    <div className='Dashboard'><Instructorcontact/></div>
                                 </div>
                                 <Footer />
                             </>
@@ -78,13 +68,13 @@ const App = () => {
                     />
 
                     <Route
-                        path="/gradereport"
+                        path="/Missinggrade"
                         element={
                             <>
                                 <Header />
                                 <div className='NavBoard'>
                                     <div className='Navbar'><Navbar /></div>
-                                    <div className='Dashboard'><GradeReport/></div>
+                                    <div className='Dashboard'><Missinggrade /></div>
                                 </div>
                                 <Footer />
                             </>
@@ -92,12 +82,28 @@ const App = () => {
                     />
 
                     <Route
-                        path="/helpandsupport"
+                        path="/Gradereport"
                         element={
                             <>
                                 <Header />
-                                <HelpAndSupport />
-                                <Navbar />
+                                <div className='NavBoard'>
+                                    <div className='Navbar'><Navbar /></div>
+                                    <div className='Dashboard'><Gradereport/></div>
+                                </div>
+                                <Footer />
+                            </>
+                        }
+                    />
+
+                    <Route
+                        path="/Helpandsupport"
+                        element={
+                            <>
+                                <Header />
+                                <div className='NavBoard'>
+                                    <div className='Navbar'><Navbar /></div>
+                                    <div className='Dashboard'><Helpandsupport/></div>
+                                </div>
                                 <Footer />
                             </>
                         }

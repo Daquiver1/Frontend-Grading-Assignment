@@ -1,13 +1,15 @@
 .nav-link1 {
     color: white;
     text-decoration: none;
+   
 }
 
 .nav-item1 {
     list-style: none;
+    margin-left: 500px;
 }
 
 .nav-list1 {
-    margin-left: 750px;
+    margin-left: 200px;
     margin-top: 26px;
 }
