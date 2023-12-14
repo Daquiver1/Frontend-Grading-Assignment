@@ -27,7 +27,7 @@ The application consists of 7 main pages:
 To set up the project locally, follow these steps:
 
 ```bash
-git clone https://github.com/your-github-username/DCIT_205_ASSIGNGMENT1.git
+git clone https://github.com/Antwiwaa-tech/11179865_DCIT205_Assignment1.git
 cd repo-name
 npm install
 npm start
@@ -36,6 +36,14 @@ npm start
 This will start the application on `localhost` at the default port.
 
 ## Usage
+ 1.The Home page/ Landing page gives an insight of what the missing grade is about<br>
+ 2.For any  student of the University of Ghana,offering computer science or infomation technology,seclet login from the header and Login into your grade report with your details.This form is compulsory to fill<br>
+ 3.This gives your report grade,from your grade report,you get to see what course grades are missing,if there is.<br>
+ 4.Fill the missing grade form if any of your grades are missing.<br>
+ 5.View the the contact page to see a list of instructors and their emails.<br>
+ 6.Visit the Help ans Support page if you have any challenges.
+
+
 
 Describe how to use the application, highlighting key functionalities such as logging in, viewing grades, reporting missing grades, and contacting instructors.
 
