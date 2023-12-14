@@ -10,7 +10,7 @@ const Header = () => {
       <nav className="Navigation">
         <ul>
           <li>
-            <NavLink to="/">Home</NavLink>
+            <NavLink to="/home">Home</NavLink>
           </li>
           <li>
             <NavLink to="/dashboard">Dashboard</NavLink>

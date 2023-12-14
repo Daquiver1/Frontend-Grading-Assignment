@@ -1,6 +1,12 @@
-
+import React, { useState } from 'react';
 
 const help = () =>{
+  
+    const [formSubmitted, setFormSubmitted] = useState(false);
+    const handleSubmit = (e) => {
+      e.preventDefault();
+      setFormSubmitted(true);
+    };
   return (
     <div className="big-container">
         <div className="main-heading">
@@ -59,7 +65,7 @@ const help = () =>{
         <div className="contact-form-container" >
         
             <h2 style={{textAlign: 'center', fontSize:'24px', color: '#555', marginTop: "10px"}}>Contact Us</h2>
-            <form  method="post">
+            <form  onSubmit={handleSubmit}>
               <div class="form-group">
                 <label for="name">Name</label>
                 <input type="text" id="name" name="name" required />
@@ -75,6 +81,13 @@ const help = () =>{
               <button type="submit">Submit</button>
             </form>
 </div>
+          {formSubmitted && (
+        <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50">
+          <div className="bg-white p-6 rounded-md shadow-md">
+            <p className="text-green-600">Message has been sent successfully!</p>
+          </div>
+        </div>
+      )}
 
         </div>
     

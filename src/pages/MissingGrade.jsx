@@ -1,6 +1,12 @@
+import React, { useState } from 'react';
 import logo from "../assets/images/logo.png";
 
 const MissingGrade = () => {
+  const [formSubmitted, setFormSubmitted] = useState(false);
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    setFormSubmitted(true);
+  };
   return (
     <>
       <div className="flex min-h-full flex-1 flex-col justify-center px-6 py-12 lg:px-8">
@@ -70,7 +76,7 @@ const MissingGrade = () => {
                 </label>
                 
               </div>
-              <div className="mt-2">
+              <div className="mt-2" >
                 <textarea
                   maxLength={100}
                   rows={6}
@@ -82,13 +88,20 @@ const MissingGrade = () => {
             </div>
 
             <div>
-              <button className="flex w-full justify-center rounded-md bg-ugBlue p-3 text-white">
+              <button  className="flex w-full justify-center rounded-md bg-ugBlue p-3 text-white">
                 Submit
               </button>
             </div>
           </form>
         </div>
       </div>
+      {formSubmitted && (
+        <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50">
+          <div className="bg-white p-6 rounded-md shadow-md">
+            <p className="text-green-600">Message has been sent successfully!</p>
+          </div>
+        </div>
+      )}
     </>
   );
 };

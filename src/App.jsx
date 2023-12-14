@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Layout from "./layouts";
 import LandingPage from "./pages/Landing";
-import LoginForm from "./pages/Login";
+import Login from "./pages/Login";
 import Instructors from "./pages/Instructor";
 import GradeReport from "./pages/GradeReport";
 import Dashboard from "./pages/Dashboard";
@@ -13,8 +13,8 @@ const App = () => {
     <Router>
       <Routes>
         <Route path="/" element={<Layout />}>
-          <Route index element={<LandingPage />} />
-          <Route path="/login" element={<LoginForm />} />
+          <Route index element={<Login />}  />
+          <Route path="/home" element={<LandingPage />} />
           <Route path="/instructors" element={<Instructors />} />
           <Route path="/grade-report" element={<GradeReport />} />
           <Route path="/dashboard" element={<Dashboard />} />
