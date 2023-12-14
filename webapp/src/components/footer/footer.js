@@ -1,15 +1,12 @@
-import React from "react";
-import "./footer.css";
-import facebook from "../img/facebook.png";
-import gmail from "../img/gmail.png";
-import instagram from "../img/instagram.png";
-import twitter from "../img/twitter.png";
-import linkedin from "../img/linkedin.png";
-import whatsapp from "../img/whatsapp.png";
+// import React from "react";
+// import "./footer.css";
 
-const footer=()=>{
-    return(
-     <h1>footer hour</h1>
-    )
-}
-export default footer;
+// const footer=()=>{
+//     return(
+//     <div className="center">
+//      <h1>@COPYRIGHT(C) 2023-2024</h1>
+//      <p>Released by GabTech</p>
+//     </div>
+//     )
+// }
+// export default footer;

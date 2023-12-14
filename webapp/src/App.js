@@ -9,9 +9,9 @@ import Dashboard from "./components/Dashboard Page";
 import GradeReport from "./components/Grade report";
 import Contact from "./components/Help and Support";
 import "./App.css";
-import footer from "./components/footer/footer";
-
-
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+import Footer from "./components/footer/footer";
 
 
 
@@ -24,12 +24,12 @@ function App() {
          
          <BrowserRouter>
         
-        
+         
           
             <Navbar  />
            
             <Routes >
-              <Route  path="/Home" Component={Home} /> 
+              <Route  path="/home" Component={Home} /> 
               <Route path="/About" Component={About } /> 
               <Route path="/Login" Component={Login} /> 
               <Route path="/InstructorContact" Component={InstructorContact} /> 
@@ -38,12 +38,15 @@ function App() {
               <Route path="/Contact" Component={Contact} /> 
               </Routes>
            </BrowserRouter>
+           
           
           
         
-           <footer/>   
+      
+        <ToastContainer/>
+        {/* <Footer/> */}
       </div>
-       
+      
     );
 }
 

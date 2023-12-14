@@ -5,9 +5,10 @@ import backgound1 from "./img/background.jpg";
 
 
 const Home=()=>{
+    
     return(
     <div >
-          
+            
           <img src={backgound1} className="App-background"/>
         <p>
     
@@ -52,12 +53,16 @@ const Home=()=>{
                     making academic management a breeze. </p>
                 </p>
                 </div>
-                </section>
               
+                </section>
+
+             
             </div>
                
             
             
+
+
           
         </div>
      
