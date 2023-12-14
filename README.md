@@ -56,3 +56,40 @@ Please adhere to the project's coding standards and provide clear and detailed p
 
 
 ![Homepage Screenshot](assets/homepage.png)
+
+# **Caption: This is a screenshot of the login page.**
+
+![Login page Screenshot](assets/loginpage.png)
+
+
+# **Caption: This is a screenshot of the Dashboard page.**
+
+![Dashbord Screenshot](assets/dashboard.png)
+
+
+# **Caption: This is a screenshot of the GradeReport Page.**
+
+![GradeReport Screenshot](assets/gradeReport.png)
+
+
+# **Caption: This is a screenshot of the Missing Grade Form Page.**
+
+![MissingGradeForm Screenshot](assets/missinggradeform.png)
+
+
+# **Caption: This is a screenshot of the Instructor's Contact Page.**
+
+![Instructor's Contact Screenshot](assets/instructor'scontact.png)
+
+
+
+# **Caption: This is a screenshot of the Help And Support Page.**
+
+![Help And Support Screenshot](assets/helpandsupport.png)
+
+
+
+
+
+
+
