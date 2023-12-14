@@ -11,6 +11,7 @@ I've created a React app to simplify the process of finding and filling in missi
 
 ## Login Page
 ![login](<Page Screenshots/login.png>)
+put in any 8 digit numbers for the student id and any 4 digits for the pin
 
 ## Dashboard Page
 ![Dashboard](<Page Screenshots/dashboard.png>)
