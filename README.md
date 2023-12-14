@@ -11,6 +11,8 @@ The application consists of 7 main pages:
 - **Homepage:** Introduction to the system and its purpose.
 
 - **Login Page:** Mock login interface for student authentication.
+- ![screenshot of missing grade page](own/src/Components/Images/helppagescreenshot2.png)
+
 - **Dashboard:** Displays an overview of the student’s current grades and alerts for missing grades.
 - **Grade Report:** Shows a detailed view of the student's grades filtered by semester or academic year.
 - **Missing Grade Form:** Enables students to report missing grades.
