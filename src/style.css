@@ -1,0 +1,256 @@
+/*LOGINPAGE*/
+.container{
+    display:flex;
+    align-items: center;
+    margin-left:0px;
+    padding-left:0px;
+
+
+}
+a.nav-link{
+    margin-right: 0;
+    margin-left: 40px;   
+}
+
+
+
+   
+
+.login-container{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 200px;
+    background-color:  lightblue;
+    padding-bottom: 30px;
+    width: 500px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 5px;
+
+}  
+
+.login-header{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 9px;
+    width: 100%;
+    height:40px;
+    margin-top: 30px;
+    
+}
+
+
+.login-text{
+    color:rgb(23, 23, 103);
+    font-size: 30px;
+    font-style:inherit;
+    font-weight:bolder;
+    text-align: center;
+
+    
+}
+
+
+ 
+.login-input1{
+    margin-top: 25px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 50px;
+    width:200px;
+    height: 40px;
+    background-color: beige;
+    border-radius: 6px;
+    border: none;
+}
+
+.login-input2{
+    margin-top: 25px;
+    align-items: center;
+    width: 200px;
+    height: 40px;
+    background-color: beige;
+    border-radius: 6px;
+    border: none;
+}
+
+.loginbutton{background-color: aliceblue;
+    margin-top: 20px;
+    border: solid 1px rgb(23, 23, 103);
+    padding: 5px 30px 5px 30px;
+    border-radius: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+/*GRADEREPORT*/
+
+.gradetable{
+    margin-left: 650px;
+    width: 100%;
+}
+
+
+.report-headers{
+    margin-left: 60px;
+}
+
+
+/*MISSINGGRADE*/
+.missinggrade form label{
+    text-align: justify;
+}
+
+.namebox{
+    margin: auto;
+    margin-left: 50px;
+    margin-top: 50px;
+
+}
+
+.form-name{
+    margin:auto;
+    margin-right: 50px;
+    width: 300px;
+    border:none;
+    border-bottom: 1px solid ;
+    background-color: azure;
+    }
+
+
+    .form-name2{
+        margin:auto;
+        width: 650px;
+        border:none;
+    border-bottom: 1px solid ;
+    background-color: azure;
+        
+    
+    }
+
+    .form-name3{
+        margin:auto;
+        width: 650px;
+        height: 80px;
+        border:1px solid;
+    background-color: azure;
+        
+    
+    }
+
+.missinggrade{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 70px;
+    background-color:azure;
+    padding-bottom: 30px;
+    width: 800px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 5px;
+}
+
+
+
+.form-title{
+    border-bottom: 1px solid;
+    height: 80px;
+    background-color: rgb(7, 7, 45);
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.form-title h2{
+    color: rgb(255, 255, 255);
+    margin-top: 18px;
+}
+
+.submit-button{
+    padding: 4px 18px;
+    border-radius: 7px;
+    font-family: system-ui;
+    font-weight: bolder;
+    color:whitesmoke ;
+    background-color:rgb(7, 7, 45); ;
+    transition: 0.4s;
+}
+
+.submit-button:hover{
+    padding: 4px 18px;
+    border-radius: 7px;
+    font-family: system-ui;
+    font-size: larger;
+    font-weight: bolder;
+    color:whitesmoke ;
+    background-color:rgb(7, 7, 45); ;
+}
+
+.namebox label{
+    color:rgb(7, 7, 45); 
+    font-weight:500;
+}
+
+.id-box label{
+    color:rgb(7, 7, 45); 
+    font-weight:500;
+}
+
+/*HELP AND SUPPORT*/
+.help-header{
+    height: 130px;
+    background-color: rgb(51, 166, 128);
+    
+}
+
+
+
+.search-bar{
+    margin-top: 20px;
+    
+}
+
+.search-bar input{
+    width: 400px;
+    height: 40px;
+    border: none;
+}
+
+.acc-box{ 
+    width: 800px;
+    margin:auto;
+}
+
+.contact-support{
+    margin-top: 50px;
+    border: 1px solid;
+    width:800px;
+    height: 150px;
+    margin: auto;
+    margin-top:50px;
+    border-radius: 4px;
+}
+
+.contact-support-btn{
+    margin-top: 110px;
+    margin-left: -590px;
+    font-family: system-ui;
+    font-weight: bolder;
+    color:whitesmoke ;
+    background-color:rgb(4, 4, 98);
+    transition: 0.4s;
+    border:none;
+    border-radius:6px;
+    height:35px;
+}
+
+
+.acc-header{
+    color:rgb(4, 4, 98);
+    font-size: 20px;
+}
+
+.acc-head{
+    color:rgb(4, 4, 98);
+    font-family: system-ui;
+}

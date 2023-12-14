@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Grade Report Form</title>
+  <script src="gradereportform.js" defer></script>
+</head>
+<body>
+  <h1>Missing Grade Form</h1>
+  <form id="missingGradeForm">
+    <label for="firstName">First Name:</label><br>
+    <input type="text" id="firstName" name="firstName" required>
+
+    <label for="surname">Surname:</label><br>
+    <input type="text" id="surname" name="surname" required><br><br>
+
+    <label for="indexNumber">Index Number:</label><br>
+    <input type="text" id="indexNumber" name="indexNumber" required><br><br>
+
+    <label for="courseName">Course Name:</label><br>
+    <input type="text" id="courseName" name="courseName" required><br><br>
+
+    <label for="instructorName">Instructor Name:</label><br>
+    <input type="text" id="instructorName" name="instructorName" required><br><br>
+
+    <label for="expectedGrade">Expected Grade:</label><br>
+    <input type="text" id="expectedGrade" name="expectedGrade" required><br><br>
+
+    <label for="explanation">Explanation:</label><br>
+    <textarea id="explanation" name="explanation" rows="4" cols="50" required></textarea><br><br>
+
+    <input type="submit" value="Submit">
+  </form>
+  <div id="confirmationMessage" style="display: none;">
+    <p>Thank you for reporting the missing grade!</p>
+  </div>
+</body>
+</html>
