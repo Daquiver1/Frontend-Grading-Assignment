@@ -59,3 +59,67 @@ export default function Dashboard(){
   <div className="overflow-x-auto sm:-mx-6 lg:-mx-8">
     <div className="inline-block min-w-full py-2 sm:px-6 lg:px-8">
     <h2 className="mb-4 mt-6 text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white">Grade Report</h2>
+
+    <div className="overflow-hidden">
+        <table className="min-w-full text-left text-sm font-light">
+          <thead className="border-b font-medium dark:border-neutral-500">
+            <tr>
+              <th>
+            
+              <div className="mt-2">
+              <select
+                   
+                  onChange={(e)=>handleSearch(e)}
+                  id="semester"
+                  name="semester"
+                  autoComplete="semester"
+                  className="block w-full ml-8 rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-inset focus:ring-indigo-600  sm:text-sm sm:leading-12"
+                >
+                  <option value={''}>Select Semester</option>
+                  <option value={"Semester One"}>semester One</option>
+                  <option value={"Semester Two"}>semester Two</option>
+                  <option value={"Semester Three"}>semester Three</option>
+                  <option value={"Semester Four"}>semester Four</option>
+                  <option value={"Semester Five"}>semester Five</option>
+                </select>
+              </div>
+              </th>
+
+              <th>
+            
+            <div className="mt-2 mr-4">
+            <select
+                onChange={(e)=>handleDate(e)}
+                id="academic Year"
+                name="academic Year"
+                autoComplete="academic Year"
+                className="block w-full ml-12 rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-inset focus:ring-indigo-600  sm:text-sm sm:leading-12"
+              >
+                <option value={''}>Search Academic Year</option>
+                <option value={"2021/2022"}>2021/2022</option>
+                <option value={"2022/2023"}>2022/2023</option>
+                <option value={"2023/2024"}>2023/2024</option>
+              </select>
+            </div>
+            </th>
+            <th colSpan={4}>
+            <div className="mt-2">
+               <button type="button" onClick={handRefresh} className="text-sm font-semibold leading-6 text-gray-900 ml-12">
+                 Refresh Table
+                </button>
+            </div>
+            </th>
+            </tr>
+            <tr>
+              <th scope="col" className="px-6 py-4">Subject code/Title</th>
+              <th scope="col" className="px-6 py-4">Credits</th>
+              <th scope="col" className="px-6 py-4">Internal Assessment(30 marks)</th>
+              <th scope="col" className="px-6 py-4">End Term Examination(70 marks)</th>
+              <th scope="col" className="px-6 py-4">Total Marks</th>
+              <th scope="col" className="px-6 py-4">Final Result</th>
+              <th scope="col" className="px-6 py-4">Grade</th>
+              <th scope="col" className="px-6 py-4">Semester</th>
+              <th scope="col" className="px-6 py-4">Academic Year</th>
+            </tr>
+          </thead>
+          <tbody>
