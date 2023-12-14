@@ -11,33 +11,35 @@ import {
 
 export const DASHBOARD_SIDEBAR_LINKS = [
 	{
+		key: 'Login',
+		label: 'Login',
+		path: '/Login',
+		icon: <HiOutlineCube />
+	},
+	{
 		key: 'dashboard',
 		label: 'Dashboard',
 		path: '/',
 		icon: <HiOutlineViewGrid />
+        
+        
 	},
 	{
-		key: 'products',
-		label: 'Products',
-		path: '/products',
-		icon: <HiOutlineCube />
-	},
-	{
-		key: 'orders',
-		label: 'Orders',
-		path: '/orders',
+		key: 'GradeReport',
+		label: 'GradeReport',
+		path: '/GradeReport',
 		icon: <HiOutlineShoppingCart />
 	},
 	{
-		key: 'customers',
-		label: 'Customers',
-		path: '/customers',
+		key: 'Missing Grade Form',
+		label: 'Missing Grade Form',
+		path: '/Missing Grade Form',
 		icon: <HiOutlineUsers />
 	},
 	{
-		key: 'transactions',
-		label: 'Transactions',
-		path: '/transactions',
+		key: 'Instructor Contact',
+		label: 'Instructor Contact',
+		path: '/Instructor Contact',
 		icon: <HiOutlineDocumentText />
 	},
 	{
@@ -61,4 +63,5 @@ export const DASHBOARD_SIDEBAR_BOTTOM_LINKS = [
 		path: '/support',
 		icon: <HiOutlineQuestionMarkCircle />
 	}
+    
 ]

@@ -3,7 +3,8 @@ import LandingPage from './pages/home';
 import Dashboard from './pages/dashboard/index.';
 import NotFound from './pages/404';
 import Login from './pages/login';
-import Grades from './pages/grade_report';
+import GradeReportPage from './pages/GradeReportPage';
+
 
 
 function App() {
@@ -14,7 +15,8 @@ function App() {
             <Route path="/dashboard" element={<Dashboard />} />
             <Route path="/login" element={<Login />} />
             <Route path="/*" element={<NotFound />} />
-            <Route path="/Grades" element={<Grades />} />
+            <Route path="/GradeReportPage" element={<GradeReportPage />}/>
+            
          </Routes>
       </>
 
