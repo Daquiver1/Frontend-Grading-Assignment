@@ -1,5 +1,6 @@
 import React,{useState} from 'react'
 
+
 const LoginPage = () =>{
     const [studentID, setStudentID] = useState('');
     const [password, setPassword] = useState('');
@@ -18,20 +19,20 @@ const LoginPage = () =>{
     
 
     return (
-        <div>
+        <div className='login'>
             <h2>Login Page</h2>
             <form>
-            <div>
+            <div className = "hold">
             <label htmlFor = "studentID">StudentID:</label>
-            <input type= "number"
+            <input type= "number" className='input'
             id = "studentID"
             value = {studentID}
             onChange={handleStudentIDChange}
             />
             </div>
-            <div>
-            <label htmlFor = "password">Pin:</label>
-            <input type = "password" id ={password}
+            <div className='hold'>
+            <label htmlFor = "password">Pin    :</label>
+            <input className= 'input' type = "password" id ={password}
             onChange={handlePasswordChange}
             />
             </div>
