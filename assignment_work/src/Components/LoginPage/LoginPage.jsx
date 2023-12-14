@@ -1,4 +1,4 @@
-// Login.js
+
 
 import React, { useState } from 'react';
 import './LoginPage.css';
@@ -12,11 +12,11 @@ const Login = () => {
   const handleLogin = (e) => {
     e.preventDefault();
     // Simulated authentication logic (replace with actual authentication logic)
-    if (studentId === '11302223' && pin === '1234') {
+    if (studentId === '0000' && pin === '0000') {
       // Redirect to Dashboard or perform other actions on successful login
       console.log('Login successful');
     } else {
-      setError('Invalid credentials. Please try again.');
+      setError('Invalid credentials. Please try again. ID:0000 Password:0000');
     }
   };
 
@@ -26,7 +26,7 @@ const Login = () => {
       <form onSubmit={handleLogin} className="login-form">
         <div className="form-group">
           <label htmlFor="studentId">Student ID:</label>
-          <input
+          <input className='input-tag'
             type="text"
             id="studentId"
             value={studentId}
@@ -36,7 +36,7 @@ const Login = () => {
         </div>
         <div className="form-group">
           <label htmlFor="pin">PIN:</label>
-          <input
+          <input className='input-tag'
             type="password"
             id="pin"
             value={pin}
@@ -44,7 +44,7 @@ const Login = () => {
             required
           />
         </div>
-        <button type="submit">Login</button>
+        <button className='btn-login' type="submit">Login</button>
         {error && <p className="error-message">{error}</p>}
       </form>
     </div>
