@@ -1,9 +1,9 @@
 import React from 'react';
 import MyNavbar from './nav';
 import MyFooter from './MyFooter';
-import login from './Login';
 import { BrowserRouter as Router, Route, Switch, Link, BrowserRouter } from 'react-router-dom';
 import { Container, Navbar, Nav } from 'react-bootstrap';
+import './App.css'
 //import Container from 'react-bootstrap/Container';
 
 
@@ -18,7 +18,7 @@ import { Container, Navbar, Nav } from 'react-bootstrap';
 
 const App = () => {
   return (
-    <div>
+    <div className='space'>
       <MyNavbar />
       
       <MyFooter />
@@ -83,7 +83,7 @@ const App = () => {
             Ready to take control of your grades? Log in now to access the features
             of the Missing Grade Reporting System.
           </p>
-          <a href="login.html" className="cta-button">
+          <a href="./login" className="cta-button">
             <div className="container mt-5">
               <div className="text-center">
                 <button id="loginButton" className="btn btn-primary">

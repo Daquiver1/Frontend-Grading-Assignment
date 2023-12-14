@@ -6,7 +6,7 @@ import './footer.css'
 
 const MyFooter = () => {
   return (
-    <Navbar className='navi' fixed="bottom" bg="warning" variant="dark">
+    <Navbar className='navi' fixed="bottom" variant="dark">
       <Container>
         <Navbar.Text className="text-muted">
           © {new Date().getFullYear()} University of Ghana

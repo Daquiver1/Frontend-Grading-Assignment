@@ -8,13 +8,13 @@ import { Link } from 'react-router-dom';
 
 const MyNavbar = () => {
   return (
-    <Navbar   bg="info" expand="lg" variant="dark">
+    <Navbar    expand="lg" variant="dark">
       <Container>
        
         <Navbar.Brand href="#home">
-        <Image src="images/legon.png" 
+        <Image className='legon' src="images/legon.png" 
         alt="Logo" 
-        fluid style={{ maxWidth: '50px', maxHeight: '50px' }} />
+        fluid  />
 
           {' '}
            Missing Grade Reporting System 

@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import MyNavbar from './nav';
 import MyFooter from './MyFooter';
+import './App.css'
 
 
 const instructorImages = {
@@ -56,7 +57,7 @@ const InstructorContact = () => {
       
 
     
-    <div className="container mt-5">
+    <div className="container main mt-5">
       <h1 className="mb-4">Instructor Contact</h1>
 
       {/* Instructor List */}
@@ -85,7 +86,7 @@ const InstructorContact = () => {
 
       {/* Selected Instructor Contact Details */}
       {selectedInstructor && (
-        <div>
+        <div className='space'>
           <h2>Contact Details</h2>
           <p>
             <strong>Name:</strong> {selectedInstructor.name}
@@ -99,7 +100,7 @@ const InstructorContact = () => {
         </div>
       )}
 
-      {/* Email Simulation Button */}
+      
       <button
         className="btn btn-primary mt-3"
         onClick={sendEmail}

@@ -36,3 +36,20 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  background: linear-gradient(to right, #2d2c2c, #ceb0069c); /* Black to Gold gradient */
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #f1eeee;
+}
+
+.legon{
+  height: 60px;
+}
+
+.space{
+  margin-bottom: 70px;
+  border-top: solid #282c34;
+
+}
