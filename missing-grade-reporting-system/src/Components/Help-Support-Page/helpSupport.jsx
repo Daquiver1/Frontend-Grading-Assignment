@@ -52,9 +52,9 @@ const HelpSupport = () => {
         <div className='help-div'>
           <h1>Find Help And Support</h1>
           <div className="search-container">
-    <input type="text" placeholder="Search..." />
-    <span className="search-icon" role="img" aria-label="Search">&#128269;</span>
-  </div>
+            <input type="text" placeholder="Search..." />
+            <span className="search-icon" role="img" aria-label="Search">&#128269;</span>
+          </div>
         </div>
         <div className='help-links'>
           <h1><u>Suggested Help Links</u></h1>
