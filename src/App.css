@@ -1,0 +1,90 @@
+/* AppHelpAndSupport.css */
+
+:root {
+    --background: #f2f5f7;
+    --text-primary: #2f4770;
+    --text-secondary: #647780;
+    --white: #ffffff;
+  }
+  
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    padding: 60px;
+    
+    background-color: var(--background);
+    overscroll-behavior: none;
+   
+  }
+ 
+  
+  
+  .container {
+    max-width: 1140px;
+    margin: auto;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+  
+  /* Accordion styles */
+  
+  .accordion__title {
+    font-size: 24px;
+    color: var(--text-primary);
+    margin-bottom: 20px;
+  }
+  
+  .accordion__faq-item {
+    background-color: var(--white);
+    margin-bottom: 20px;
+    padding: 0px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .accordion__faq-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .accordion__faq-heading h3 {
+    color: var(--text-secondary);
+    font-weight: 600;
+    margin: 0;
+  }
+  
+  .accordion__faq-heading .verticle {
+    font-size: 24px;
+    margin-left: 10px;
+  }
+  
+  .accordion__faq p {
+    margin: 0;
+    padding-bottom: 30px;
+    color: var(--text-secondary);
+    line-height: 1.4;
+    display: none;
+  }
+  
+  .accordion__faq .active p {
+    display: block;
+  }
+  
+
+  .left-side{
+    display: flex;
+    align-items: center;
+  }
+
+.right-side{
+  margin-left: auto;
+}
