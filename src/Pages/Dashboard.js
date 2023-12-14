@@ -19,6 +19,7 @@ export const Dashboard = () => {
           <span> Program of Study:</span> Bsc. Computer Science
         </p>
       </div>
+      <h1 id="c-grades">Current Grades</h1>
       <div className="d-grades">
         <h2 className="sem">Level 100 - 2nd Semester</h2>
         <table>
