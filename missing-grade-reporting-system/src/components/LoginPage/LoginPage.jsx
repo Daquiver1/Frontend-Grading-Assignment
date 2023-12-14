@@ -12,7 +12,8 @@ useEffect(() => {
 }, []);
 
   return (
-    <div className='main'>
+   <div className='container'>
+     <div className='main'>
         <div>
             <img src={user_pic} alt="userpicture here" className='user1' />
         </div>
@@ -38,6 +39,9 @@ useEffect(() => {
         </div>
         
     </div>
+   </div>
+
+  
   )
 }
 
