@@ -29,7 +29,7 @@ export const Instructor_Contact = () => {
     },
   ]);
 
-  const [selectedInstructor, setSelectedInstructor] = useState(null);
+  const [selectedInstructor, setSelectedInstructor] = useState(instructors[0]); // Set the first instructor by default
   const [emailContent, setEmailContent] = useState("");
 
   const handleInstructorClick = (instructor) => {
@@ -38,16 +38,12 @@ export const Instructor_Contact = () => {
   };
 
   const handleSendEmail = () => {
-    alert(
-      `Simulated Email Sent to ${selectedInstructor.name}:\n${emailContent}`
-    );
+    alert(`Email Sent to ${selectedInstructor.name}:\n${emailContent}`);
   };
 
   return (
     <div className="container mx-auto w-full h-screen mt-8">
-      <h1 className="text-3xl font-bold my-20 text-5xl">
-        Instructor Contact Page
-      </h1>
+      <h1 className="l font-bold my-20 text-5xl">Instructor Contact Page</h1>
       <div className="grid grid-cols-2 gap-4">
         <div>
           <h2 className="text-4xl font-semibold mb-4">Instructors</h2>

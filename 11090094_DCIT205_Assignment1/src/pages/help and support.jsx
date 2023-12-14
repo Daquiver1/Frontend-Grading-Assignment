@@ -52,9 +52,11 @@ export const Help_and_Support = () => {
             </p>
           </div>
         </div>
-        <div className="bg-blue-500 w-full   ">
-          <div className="mt-12">
-            <p className="font-bold text-3xl mb-6">Contact Us</p>
+        <div className="bg-gray-800 w-full py-20 px-10py-20 px-10 ">
+          <div className="mt-28">
+            <p className="text-4xl text-white font-bold text-center">
+              Contact Us
+            </p>
             <form>
               <div className="mb-4">
                 <label

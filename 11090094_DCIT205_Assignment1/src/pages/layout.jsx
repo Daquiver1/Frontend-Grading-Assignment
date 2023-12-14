@@ -5,7 +5,7 @@ import NavbarComponent from "../components/NavbarComponent";
 
 const Layout = () => {
   return (
-    <div className="h-screen w-full flex flex-col bg-indigo-500 bg-gradient-to-r from-teal-500 text-white">
+    <div className="h-screen w-full flex flex-col bg-gray-800 text-white">
       <NavbarComponent />
       <div className=" justify-center items-center flex flex-col  min-h-[450px] font-bold text-2xl m-9">
         <h1 className="font-bold text-4xl">Welcome</h1>
@@ -33,7 +33,7 @@ const Layout = () => {
         <h2 className="font-bold">Ready to get started?</h2>
         <button>
           <Link to="/login">
-            <button className="w-full my-5 py-2 bg-indigo-800 shadow-lg shadow-teal-500/50 hover:shadow-teal-500/40 text-white font-semibold rounded-lg p-10">
+            <button className="w-full my-5 py-2 bg-teal-500 shadow-lg shadow-blue-500/50 hover:shadow-blue-500/40 text-white font-semibold rounded-lg p-10">
               Login
             </button>
           </Link>

@@ -7,7 +7,7 @@ const NavbarComponent = () => {
     <div>
       {/* LOGO */}
 
-      <nav className=" top-0 z-10 h-full  max-w-full rounded-none px-4 py-2 lg:px-8 lg:py-4 flex flex-row justify-between space-x-5 w-full  ">
+      <nav className=" bg-teal-500 top-0 z-10 h-full  max-w-full rounded-none px-4 py-2 lg:px-8 lg:py-4 flex flex-row justify-between space-x-5 w-full border-b ">
         <p className="flex flex-row">AnimwaaExpress</p>
         <ul className="flex flex-row gap-4  justify-between items-center font-bold">
           <li className="hover:font-bold ">

@@ -1,7 +1,7 @@
 export const Dashboard = () => {
   return (
     <>
-      <div className="mt-4 p-3 bg-blue-400 text-blue-600 dark:bg-blue-800 dark:text-white rounded-md mb-4">
+      <div className="mt-4 p-3 bg-teal-500 text-white  dark:text-white rounded-md mb-4">
         Some grades are missing. Please fill the missing grade report form
       </div>
       <header className="font-bold text-3xl  mb-10">
@@ -42,7 +42,7 @@ export const Dashboard = () => {
                 class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
                 DCIT 205 - MULTI MEDIA AND WEB DESIGN
               </th>
-              <td class="px-6 py-4">A</td>
+              <td class="px-6 py-4">N/A</td>
             </tr>
             <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
               <th

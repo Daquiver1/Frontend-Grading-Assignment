@@ -1,55 +1,89 @@
+import React from "react";
+
 export const Missing_Grade_Form = () => {
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    // Add logic to handle form submission (e.g., show confirmation message)
+    alert("Grade report submitted successfully!");
+  };
+
   return (
-    <div>
-      <form>
-        <h2 className="text-4xl font-bold text-black text-center">
+    <div className="container mx-auto mt-8">
+      <form onSubmit={handleSubmit} className="max-w-md mx-auto">
+        <h2 className="text-4xl font-bold text-black text-center mb-6">
           MISSING GRADES?
         </h2>
         <p>
           <small className="text-xl">
-            <em>Fill the form below</em>
+            <em>Fill out the form below to report missing grades</em>
           </small>
         </p>
-        <div>
-          <select
-            id="courses"
-            className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
-            <option selected>Select a course</option>
-            <option value="US">DCIT 201</option>
-            <option value="CA">DCIT 203</option>
-            <option value="FR">DCIT 205</option>
-            <option value="DE">DCIT 207</option>
-          </select>
-        </div>
-        <div>
-          <select
-            id="courses"
-            className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
-            <option selected>Select your Instructor</option>
-            <option value="US">Mr Emmanuel Asare</option>
-            <option value="CA">Mr David Berko</option>
-            <option value="FR">Dr. Melissa Kwarteng</option>
-          </select>
+        <div className="mt-8 space-y-4">
           <div>
-            <select
-              id="courses"
-              className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
-              <option selected>Your Expected Grade</option>
-              <option value="US">A</option>
-              <option value="CA">B</option>
-              <option value="FR">C</option>
-              <option value="DE">D</option>
-              <option value="DE">E</option>
-              <option value="DE">F</option>
+            <label
+              htmlFor="courses"
+              className="block text-sm font-semibold mb-2">
+              Select a Course
+            </label>
+            <select id="courses" className="w-full border p-2 rounded-lg">
+              <option>Select a course</option>
+              <option value="01">DCIT 201</option>
+              <option value="03">DCIT 203</option>
+              <option value="05">DCIT 205</option>
+              <option value="07">DCIT 207</option>
+              <option value="09">DCIT 209</option>
+              <option value="20">CBAS 210</option>
             </select>
           </div>
           <div>
-            <label>Explanation</label>
+            <label
+              htmlFor="instructor"
+              className="block text-sm font-semibold mb-2">
+              Select your Instructor
+            </label>
+            <select id="instructor" className="w-full border p-2 rounded-lg">
+              <option>Select your Instructor</option>
+              <option value="DB">David Berko</option>
+              <option value="CB">Charis Boateng</option>
+              <option value="SB">Seth Baidoo</option>
+              <option value="ND">Nyla Darkoo</option>
+              <option value="KA">Kofi Asare</option>
+            </select>
+          </div>
+          <div>
+            <label
+              htmlFor="expectedGrade"
+              className="block text-sm font-semibold mb-2">
+              Your Expected Grade
+            </label>
+            <select id="expectedGrade" className="w-full border p-2 rounded-lg">
+              <option>Your Expected Grade</option>
+              <option value="A">A</option>
+              <option value="B">B</option>
+              <option value="C">C</option>
+              <option value="D">D</option>
+              <option value="E">E</option>
+              <option value="F">F</option>
+            </select>
+          </div>
+          <div>
+            <label
+              htmlFor="explanation"
+              className="block text-sm font-semibold mb-2">
+              Explanation
+            </label>
             <textarea
-              id="messages"
+              id="explanation"
               rows="4"
-              className="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-              placeholder="Elaborate....."></textarea>
+              className="w-full border p-2 rounded-lg"
+              placeholder="Elaborate..."></textarea>
+          </div>
+          <div>
+            <button
+              type="submit"
+              className="bg-blue-500 text-white py-2 px-4 rounded-md hover:bg-blue-600 focus:outline-none focus:shadow-outline-blue active:bg-blue-800">
+              Submit
+            </button>
           </div>
         </div>
       </form>
