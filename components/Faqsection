@@ -1,0 +1,114 @@
+import React, { useState } from 'react';
+import { Container, Accordion, Card, Form, Button } from 'react-bootstrap';
+
+const faqData = [
+  {
+    id: 1,
+    question: 'How do I report my grades?',
+    answer: 'To report your grades, log in to your student portal and navigate to the grade reporting section. Follow the instructions to submit your grades.',
+  },
+  {
+    id: 2,
+    question: 'When is the deadline for grade reporting?',
+    answer: 'The deadline for grade reporting is usually at the end of each semester. Check your academic calendar for specific dates.',
+  },
+  // Add more FAQ items as needed
+];
+
+const Faqsection = () => {
+  const [contactFormData, setContactFormData] = useState({
+    name: '',
+    email: '',
+    message: '',
+  });
+
+  const handleContactFormChange = (e) => {
+    const { name, value } = e.target;
+    setContactFormData((prevData) => ({ ...prevData, [name]: value }));
+  };
+
+  const handleContactFormSubmit = (e) => {
+    e.preventDefault();
+    // Simulated action - you can replace this with actual form submission logic
+    console.log('Contact form submitted:', contactFormData);
+    // Reset form data
+    setContactFormData({
+      name: '',
+      email: '',
+      message: '',
+    });
+  };
+
+  return (
+    <Container className="mt-5">
+      <h1 className="mb-4 text-center">Help and Support</h1>
+
+      {/* FAQ Section */}
+      <Accordion defaultActiveKey="0">
+        {faqData.map((item) => (
+          <Card key={item.id}>
+            <Card.Header>
+              <Accordion.Toggle as={Button} variant="link" eventKey={item.id.toString()}>
+                {`FAQ: ${item.question}`}
+              </Accordion.Toggle>
+            </Card.Header>
+            <Accordion.Collapse eventKey={item.id.toString()}>
+              <Card.Body>
+                <div className="mb-3">
+                  <strong>{item.question}</strong>
+                  <p>{item.answer}</p>
+                </div>
+              </Card.Body>
+            </Accordion.Collapse>
+          </Card>
+        ))}
+      </Accordion>
+
+      {/* Contact Form */}
+      <div className="mt-5">
+        <h2 className="mb-4 text-center">Technical Support</h2>
+        <Form onSubmit={handleContactFormSubmit}>
+          <Form.Group className="mb-3" controlId="name">
+            <Form.Label>Your Name</Form.Label>
+            <Form.Control
+              type="text"
+              name="name"
+              value={contactFormData.name}
+              onChange={handleContactFormChange}
+              required
+            />
+          </Form.Group>
+
+          <Form.Group className="mb-3" controlId="email">
+            <Form.Label>Your Email</Form.Label>
+            <Form.Control
+              type="email"
+              name="email"
+              value={contactFormData.email}
+              onChange={handleContactFormChange}
+              required
+            />
+          </Form.Group>
+
+          <Form.Group className="mb-3" controlId="message">
+            <Form.Label>Your Message</Form.Label>
+            <Form.Control
+              as="textarea"
+              rows={4}
+              name="message"
+              value={contactFormData.message}
+              onChange={handleContactFormChange}
+              required
+            />
+          </Form.Group>
+
+          <Button variant="primary" type="submit">
+            Submit
+          </Button>
+        </Form>
+      </div>
+    </Container>
+  );
+}
+
+export default Faqsection;
