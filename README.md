@@ -3,33 +3,33 @@
 
 # Web Pages
 ## Landing Page
-![landing](<src/Page Screenshots/landing1.png>)
-![landing](<src/Page Screenshots/landing2.png>)
-![landing](<src/Page Screenshots/landing 3.png>)
+![Alt text](<Page Screenshots/landing1.png>)
+![landing](<Page Screenshots/landing2.png>)
+![landing](<Page Screenshots/landing 3.png>)
 
 ## Login Page
-![login](<src/Page Screenshots/login.png>)
+![login](<Page Screenshots/login.png>)
 
 ## Dashboard Page
-![Dashboard](<src/Page Screenshots/dashboard.png>)
+![Dashboard](<Page Screenshots/dashboard.png>)
 
 ## Grade Report Page
-![Grade Report](<src/Page Screenshots/Missing Grade Report.png>)
+![Grade Report](<Page Screenshots/Missing Grade Report.png>)
 
 ## Missing Grade Report Page
-![Find missing grade](<src/Page Screenshots/Missing Grade Report.png>)
+![Find missing grade](<Page Screenshots/Missing Grade Report.png>)
 
 ## Instructor Contact Page
-![instructor contact](<src/Page Screenshots/instructor contact.png>)
-![intructor contact](<src/Page Screenshots/instructor contact 2.png>)
+![instructor contact](<Page Screenshots/instructor contact.png>)
+![intructor contact](<Page Screenshots/instructor contact 2.png>)
 
 ## Help and Support Page
-![contact ](<src/Page Screenshots/contact 1.png>)
-![help](<src/Page Screenshots/dashboard.png>)
+![contact ](<Page Screenshots/contact 1.png>)
+![help](<Page Screenshots/dashboard.png>)
 
 ## Header and Footer
-![header](<src/Page Screenshots/header.png>)
-![footer](<src/Page Screenshots/footer.png>)
+![header](<Page Screenshots/header.png>)
+![footer](<Page Screenshots/footer.png>)
 
 # Setup and instalation
 git clone https://github.com/bakorx/11279787_DCIT205_Assignment1.git
