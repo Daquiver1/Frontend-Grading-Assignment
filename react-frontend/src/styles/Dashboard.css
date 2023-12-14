@@ -14,6 +14,22 @@ header {
   height: 100vh;
 }
 
+.alert {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px;
+  background-color: #f44336;
+  color: white;
+  text-align: center;
+  z-index: 999;
+}
+
+.alert.top {
+  animation: slideDown 0.5s ease-in-out;
+}
+
 .grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;

@@ -2,16 +2,25 @@ import React, { useState, useEffect } from "react";
 import BounceLoader from "react-spinners/BounceLoader";
 import Profile from "../assets/profile-pic.jpg";
 import "../styles/Dashboard.css";
-import { Alert } from "./alert";
 
 function Dashboard() {
   const [loading, setLoading] = useState(false);
+  const [showAlert, setShowAlert] = useState(false);
 
   useEffect(() => {
     setLoading(true);
     setTimeout(() => {
       setLoading(false);
     }, 6000);
+  }, []);
+
+  useEffect(() => {
+    setShowAlert(true);
+    const timeoutId = setTimeout(() => {
+      setShowAlert(false);
+    }, 8000);
+
+    return () => clearTimeout(timeoutId);
   }, []);
   return (
     <div className="dashboard">
@@ -77,6 +86,11 @@ function Dashboard() {
             </table>
           </section>
         </>
+      )}
+      {showAlert && (
+        <div className="alert top">
+          <strong> Alert!</strong> You have missing grades.
+        </div>
       )}
     </div>
   );
