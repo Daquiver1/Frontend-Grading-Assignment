@@ -52,12 +52,33 @@ const AppHelpAndSupportPage = () => {
             </div>
           </Collapse>
         </a>
-
+       
         <a
           href="#faq3collapse"
           data-mdb-toggle="collapse"
           aria-expanded="false"
           aria-controls="faq3collapse"
+          className="list-group-item list-group-item-action"
+        >
+          <div className="d-flex w-100 justify-content-between">
+            <h5 className="mb-1">Can I access EduGuard on multiple devices simultaneously?</h5>
+          </div>
+          <p className="mb-1">Yes, you can access EduGuard on multiple devices simultaneously. Your account is accessible from any device with internet connectivity.</p>
+          <small>
+            <u>Learn more</u>
+          </small>
+
+          <Collapse in={false} id="faq3collapse">
+            <div className="collapse mt-3">
+              Make sure to log out securely if you are using shared or public devices to maintain account security.
+            </div>
+          </Collapse>
+        </a>
+        <a
+          href="#faq4collapse"
+          data-mdb-toggle="collapse"
+          aria-expanded="false"
+          aria-controls="faq4collapse"
           className="list-group-item list-group-item-action"
         >
           <div className="d-flex w-100 justify-content-between">
@@ -68,14 +89,36 @@ const AppHelpAndSupportPage = () => {
             <u>Learn more</u>
           </small>
 
-          <Collapse in={false} id="faq3collapse">
+          <Collapse in={false} id="faq4collapse">
             <div className="collapse mt-3">
               Complete the form with the necessary details, and our support team will assist you in resolving the issue promptly.
             </div>
           </Collapse>
         </a>
+
+        {/* Updated FAQ 9 */}
+<a
+  href="#faq9collapse"
+  data-mdb-toggle="collapse"
+  aria-expanded="false"
+  aria-controls="faq9collapse"
+  className="list-group-item list-group-item-action"
+>
+  <div className="d-flex w-100 justify-content-between">
+    <h5 className="mb-1">How do I change my password?</h5>
+  </div>
+  <p className="mb-1">To change your password, navigate to the Account Settings section in the dashboard. Select the "Change Password" option and follow the instructions to update your password securely.</p>
+  <small>
+    <u>Learn more</u>
+  </small>
+
+  <Collapse in={false} id="faq9collapse">
+    <div className="collapse mt-3">
+      Make sure to choose a strong and unique password for enhanced security.
+    </div>
+  </Collapse>
+</a>
       </div>
-    
 
       {/* Contact Form */}
       <Container className="mt-4">

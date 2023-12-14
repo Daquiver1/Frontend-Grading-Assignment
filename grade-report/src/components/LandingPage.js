@@ -1,12 +1,12 @@
 // Homepage.js
 
 import React from 'react';
-import { Container, Row, Col, Button } from 'react-bootstrap';
+import { Row, Col, Button } from 'react-bootstrap';
 import './LandingPage.css';
 
 const AppHome = () => {
   return (
-    <Container className="home-container">
+    <div className="home-container">
       <Row>
         <Col>
           <h1>Welcome to EduGuard</h1>
@@ -43,7 +43,7 @@ const AppHome = () => {
           </p>
         </Col>
       </Row>
-    </Container>
+    </div>
   );
 };
 
