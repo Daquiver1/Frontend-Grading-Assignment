@@ -13,12 +13,14 @@ import Sidebar from '../components/Sidebar';
 
 
 
+
 const Dashboard = () => {
   const [open, /*setOpen*/] = useState(true);
 
   return (
     <div className="flex">
       <Sidebar/>
+  
 
       <div className="p-7 flex">
         <div className="bg-gray-100 min-h-screen ">
@@ -92,6 +94,7 @@ const Dashboard = () => {
         </div>
       </div>
     </div>
+    
   );
     
 }
