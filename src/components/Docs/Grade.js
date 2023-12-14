@@ -1,4 +1,4 @@
-mport React, { useState } from "react";
+import React, { useState } from "react";
 import Layout from '../Layout/layout';
 
 const grade = [
@@ -30,6 +30,7 @@ export default function Dashboard(){
 
   }
 
+
   const handleDate = (e) =>{
 
   
@@ -60,7 +61,7 @@ export default function Dashboard(){
     <div className="inline-block min-w-full py-2 sm:px-6 lg:px-8">
     <h2 className="mb-4 mt-6 text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white">Grade Report</h2>
 
-    <div className="overflow-hidden">
+      <div className="overflow-hidden">
         <table className="min-w-full text-left text-sm font-light">
           <thead className="border-b font-medium dark:border-neutral-500">
             <tr>
@@ -124,31 +125,31 @@ export default function Dashboard(){
           </thead>
           <tbody>
 
-          {console.log(grade)}
+            {console.log(grade)}
 
-{
-  user?.map((data,i)=>(
-    <tr key={i+1} className="border-b dark:border-neutral-500">
-    <td className="whitespace-nowrap px-6 py-4 font-medium">{data.subject}</td>
-    <td className="whitespace-nowrap px-6 py-4">{data.credit}</td>
-    <td className="whitespace-nowrap px-6 py-4">{data.assessment}</td>
-    <td className="whitespace-nowrap px-6 py-4">{data.term}</td>
-    <td className="whitespace-nowrap px-6 py-4">{data.total}</td>
-    <td className="whitespace-nowrap px-6 py-4">{data.result}</td>
-    <td className="whitespace-nowrap px-6 py-4">{data.grade}</td>
-    <td className="whitespace-nowrap px-6 py-4">{data.semester}</td>
-    <td className="whitespace-nowrap px-6 py-4">{data.date}</td>
-  </tr>
-  ))
-}
+            {
+              user?.map((data,i)=>(
+                <tr key={i+1} className="border-b dark:border-neutral-500">
+                <td className="whitespace-nowrap px-6 py-4 font-medium">{data.subject}</td>
+                <td className="whitespace-nowrap px-6 py-4">{data.credit}</td>
+                <td className="whitespace-nowrap px-6 py-4">{data.assessment}</td>
+                <td className="whitespace-nowrap px-6 py-4">{data.term}</td>
+                <td className="whitespace-nowrap px-6 py-4">{data.total}</td>
+                <td className="whitespace-nowrap px-6 py-4">{data.result}</td>
+                <td className="whitespace-nowrap px-6 py-4">{data.grade}</td>
+                <td className="whitespace-nowrap px-6 py-4">{data.semester}</td>
+                <td className="whitespace-nowrap px-6 py-4">{data.date}</td>
+              </tr>
+              ))
+            }
 
-</tbody>
-</table>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
 </div>
-</div>
-</div>
-</div>
-
-</Layout>
-)
+    
+    </Layout>
+  )
 }
