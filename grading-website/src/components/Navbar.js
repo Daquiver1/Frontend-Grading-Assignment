@@ -16,7 +16,7 @@ function Navbar() {
               <li className="nav-item">
                 <a
                   className="nav-link --bs-body-bg-rgb"
-                  href="http://localhost:3000/home"
+                  href="http://localhost:3000"
                 >
                   Home
                 </a>
@@ -35,7 +35,10 @@ function Navbar() {
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link --bs-body-bg-rgb" href="#">
+                <a
+                  className="nav-link --bs-body-bg-rgb"
+                  href="http://localhost:3000/report"
+                >
                   Grade Report
                 </a>
               </li>
