@@ -1,3 +1,4 @@
+import FooterComponent from "../components/FooterComponent";
 export const Dashboard = () => {
   return (
     <>
@@ -70,6 +71,9 @@ export const Dashboard = () => {
             </tr>
           </tbody>
         </table>
+      </div>
+      <div>
+        <FooterComponent />
       </div>
     </>
   );

@@ -1,3 +1,4 @@
+import FooterComponent from "../components/FooterComponent";
 export const Help_and_Support = () => {
   return (
     <>
@@ -105,6 +106,9 @@ export const Help_and_Support = () => {
             </form>
           </div>
         </div>
+      </div>
+      <div>
+        <FooterComponent />
       </div>
     </>
   );
