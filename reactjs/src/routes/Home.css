@@ -10,7 +10,7 @@
 .containers{
     min-height: 97vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4, 9, 30, 0.2), rgba(4, 9, 30, 0.1)), url("../images/bbs.jpg");
+    background-image: linear-gradient(rgba(4, 9, 30, 0.2), rgba(4, 9, 30, 0.1)), url("../images/yym.jpg");
     background-position: center;
     background-size: cover;
     position: relative;

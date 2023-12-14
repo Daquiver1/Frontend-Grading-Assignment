@@ -24,7 +24,7 @@ const Dashboard = () => {
               <h2>GPA</h2>
               <span class="material-icons-outlined">first class</span>
             </div>
-            <h1>4.0</h1>
+            <h1>3.8</h1>
           </div>
 
           <div class="card">

@@ -1,0 +1,48 @@
+
+/* src/routes/Contact.css */
+.contact form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: auto;
+  margin-top: 90px;
+}
+.contact{
+  min-height: 97vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(4, 9, 30, 0.2), rgba(4, 9, 30, 0.2)), url("../images/contact.jpg");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+ 
+}
+.contact h2{
+  font-size: 40px;
+  color: black;
+  padding: 20px;
+  
+}
+
+
+label {
+  margin-bottom: 5px;
+}
+
+input,
+textarea {
+  margin-bottom: 10px;
+  padding: 8px;
+  font-size: 16px;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #007bff;
+}

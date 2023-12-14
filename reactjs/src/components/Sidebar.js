@@ -8,11 +8,10 @@ import {
     FaTh,
     FaBars,
     FaRegChartBar,
-    FaCommentAlt,
-    FaShoppingBag,
-    FaThList
+   
 }from "react-icons/fa";
 import { NavLink } from 'react-router-dom';
+
 
 
 const Sidebar = ({children}) => {

@@ -37,22 +37,41 @@ body {
     color: rgb(255, 255, 255);
     border-radius: 30px;
     box-shadow: 0 6px 7px -4px rgba(0, 0, 0, 0.2);
+    
   }
+  
   
   .card:first-child {
     background-color: rgb(213, 0, 0);
+    transition: 0.5s;
+  }
+  .card:first-child:hover{
+    background-color: dodgerblue;
+    
   }
   
   .card:nth-child(2) {
     background-color: rgb(46, 125, 50);
+    transition: 0.5s;
+  }
+
+  .card:nth-child(2):hover{
+    background-color: dodgerblue;
   }
   
   .card:nth-child(3) {
     background-color: rgb(255, 111, 0);
+    transition: 0.5s;
   }
-  
+  .card:nth-child(3):hover{
+    background-color: dodgerblue;
+  }
   .card:nth-child(4) {
-    background-color: rgb(29, 38, 154);
+    background-color: blue;
+  }
+
+  .card:nth-child(4):hover{
+    background-color: dodgerblue;
   }
   
   .card-inner {

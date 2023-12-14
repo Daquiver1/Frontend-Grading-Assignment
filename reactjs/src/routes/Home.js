@@ -1,4 +1,5 @@
 
+import FramerAnimation from "../FramerAnimation";
 import "./Home.css";
 
 
@@ -11,9 +12,9 @@ const Home = () => {
        <div>
 
             <div  class="containers">
-
+                <FramerAnimation/>
                 <div class="texbox">
-                    
+
                     
                 </div>
             </div>
