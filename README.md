@@ -1,51 +1,101 @@
-# Student Grade Reporting System Frontend
 
-## Project Overview
+## Description
 
-This project is a front-end web application for a Student Grade Reporting System. It simulates a real-world application where students can view, report, and manage their academic grades. This system addresses the issue of missing or unrecorded grades in a student's profile.
+- This React application is built using [create-react-app](https://create-react-app.dev/).
+- It uses [Tailwind CSS](https://tailwindcss.com/)
+- The application is generated in JavaScript.
 
-## Application Structure
+## Pre-requisites
 
-The application consists of 7 main pages:
+- [git](https://git-scm.com/) - v2.13 or greater
+- [NodeJS](https://nodejs.org/en/) - v16 or greater
+- [npm](https://www.npmjs.com/) - v6 or greater
 
-- **Homepage:** Introduction to the system and its purpose.
-- **Login Page:** Mock login interface for student authentication.
-- **Dashboard:** Displays an overview of the student’s current grades and alerts for missing grades.
-- **Grade Report:** Shows a detailed view of the student's grades filtered by semester or academic year.
-- **Missing Grade Form:** Enables students to report missing grades.
-- **Instructor Contact Page:** Lists instructors' contact information with a simulated email feature.
-- **Help and Support:** Provides FAQs and a mock support contact form.
+## Running in dev environment
 
-## Technical Details
+1.  `cd YOUR_APPLICATION`
+2.  `npm install`
+3.  `npm start`
 
-- **Framework/Technology Used:** [React]
-- **Responsive Design:** Implemented using [CSS Flexbox/Grid, Bootstrap, Tailwind CSS].
-- **JavaScript Functionality:** Used for form validations, dynamic content rendering, and simulating interactions.
+## .env file
 
-## Setup and Installation
+This file contains various environment variables that you can configure.
 
-To set up the project locally, follow these steps:
+**REACT_APP_GOOGLE_CLIENT_ID** - Your Google Client ID
 
-```bash
-git clone https://github.com/your-github-username/DCIT_205_ASSIGNGMENT1.git
-cd repo-name
-npm install
-npm start
+## Folder Structure
+
+```
+ .
+ ├── package.json
+ ├── postcss.config.js
+ ├── public
+ │   ├── assets
+ │   │   └── images --------- All Project Images
+ │   ├── favicon.ico
+ │   ├── index.html
+ │   ├── manifest.json
+ │   └── robots.txt
+ ├── README.md
+ ├── src
+ │   ├── App.jsx
+ │   ├── assets
+ │   │   └── fonts ---------- Project fonts
+ │   ├── components --------- UI and Detected Common Components
+ │   ├── constants ---------- Project constants, eg: string consts
+ │   ├── hooks -------------- Helpful Hooks
+ │   ├── index.jsx
+ │   ├── pages -------------- All route pages
+ │   ├── Routes.jsx ---------- Routing
+ │   ├── styles
+ │   │   ├── index.css ------ Other Global Styles
+ │   │   └── tailwind.css --- Default Tailwind modules
+ │   └── util
+ │       └── index.jsx ------- Helpful utils
+ └── tailwind.config.js ----- Entire theme config, colors, fonts etc.
 ```
 
-This will start the application on `localhost` at the default port.
+For the project to build, **these files must exist with exact filenames**:
 
-## Usage
+- `public/index.html` is the page template;
+- `src/index.jsx` is the JavaScript entry point.
 
-Describe how to use the application, highlighting key functionalities such as logging in, viewing grades, reporting missing grades, and contacting instructors.
+You may create subdirectories inside src.
 
-## Contribution
+## Available Scripts
 
-To contribute to this project, please follow these guidelines:
+In the project directory, you can run:
 
-1. Fork the repository.
-2. Create a new branch for your feature.
-3. Commit your changes and push them to your branch.
-4. Submit a pull request for review.
+### `npm start`
 
-Please adhere to the project's coding standards and provide clear and detailed pull request descriptions.
+Runs the app in the development mode.<br>
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+### `npm test`
+
+Launches the test runner in the interactive watch mode.<br>
+
+### `npm run build`
+
+Builds the app for production to the `build` folder.<br>
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time.
+
+## Installing a Dependency
+
+You can install any dependencies (for example, React Router) with `npm`:
+
+```sh
+npm install --save react-router
+```
+
+Alternatively you may use `yarn`:
+
+```sh
+yarn add react-router
+```
+
