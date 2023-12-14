@@ -29,46 +29,46 @@ function MissingGradeForm(){
     };
 
     return(
-        <div>
+        <div className='login'>
             <h2>Report Missing Grade</h2>
             <form onSubmit = {handleSubmit}>
-                <label>
+                <label className='hold'>
                     Course Name:
-                    <input type = "text"
+                    <input type = "text" className='hold'
                     name = "coursename"
                     value = {formData.courseName}
                     onChange = {handleChange}
                     required/>
                 </label>
                 <br/>
-                <label>
+                <label className='hold'>
                     Instructor Name:
-                    <input type = "text"
+                    <input type = "text" className='hold'
                     name = "instructorName"
                     value = {formData.instructorName}
                     onChange = {handleChange}
                     required/>
                 </label>
                 <br/>
-                <label>
+                <label className='hold'>
                 Expected Grade:
-                    <input type = "text"
+                    <input type = "text" className='hold'
                     name = "expectedGrade"
                     value = {formData.expectedGrade}
                     onChange = {handleChange}
                     required/>
                 </label>
                 <br/>
-                <label>
+                <label className='hold'>
                 Explanation:
-                    <textarea 
+                    <textarea className='hold'
                     name = "explanation"
                     value = {formData.explanation}
                     onChange = {handleChange}
                     required/>
                 </label>
                 <br/>
-                <button type = "submit">Report</button>
+                <button  className= 'submit' type = "submit">Report</button>
             </form>
         </div>
     );

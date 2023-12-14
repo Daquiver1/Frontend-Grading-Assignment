@@ -1,9 +1,15 @@
 import Accordion from 'react-bootstrap/Accordion';
 import {Container, Row, Col, Card, ProgressBar} from 'react-bootstrap';
 
+
 const HelpAndSupport = () => {
+  
+  
   return (
     
+      <div className="help">
+        <h2>Help And Support</h2><br />
+        <h3>FAQs</h3>
     <Accordion defaultActiveKey="0" flush>
     <Accordion.Item eventKey="0">
       <Accordion.Header>Why are some of my courses not showing?</Accordion.Header>
@@ -53,6 +59,11 @@ const HelpAndSupport = () => {
     </Accordion.Item>
   </Accordion>
   
+  
+  </div>
+  
   );
+ 
 };
+
 export default HelpAndSupport;
