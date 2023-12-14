@@ -1,5 +1,7 @@
 # Student Grade Reporting System Frontend
 
+## Kwabena Eyiah Phandoh - 11348753
+
 ## Project Overview
 
 This project is a front-end web application for a Student Grade Reporting System. It simulates a real-world application where students can view, report, and manage their academic grades. This system addresses the issue of missing or unrecorded grades in a student's profile.
@@ -19,7 +21,7 @@ The application consists of 7 main pages:
 ## Technical Details
 
 - **Framework/Technology Used:** [React]
-- **Responsive Design:** Implemented using [CSS Flexbox/Grid, Bootstrap, Tailwind CSS].
+- **Responsive Design:** Implemented using [CSS Flexbox/Grid].
 - **JavaScript Functionality:** Used for form validations, dynamic content rendering, and simulating interactions.
 
 ## Setup and Installation
@@ -27,8 +29,8 @@ The application consists of 7 main pages:
 To set up the project locally, follow these steps:
 
 ```bash
-git clone https://github.com/your-github-username/DCIT_205_ASSIGNGMENT1.git
-cd repo-name
+git clone https://github.com/Phandoh/Frontend-Grading-Assignment.git
+cd Frontend-Grading-Assignment
 npm install
 npm start
 ```
@@ -37,7 +39,16 @@ This will start the application on `localhost` at the default port.
 
 ## Usage
 
-Describe how to use the application, highlighting key functionalities such as logging in, viewing grades, reporting missing grades, and contacting instructors.
+To use this web app;
+
+1. You will first have to login using your Student ID and PIN on the home page.
+2. You can then navigate to the various pages using the navbar.
+3. To view your current grades, you will have to visit the Dashboard from the navbar.
+4. The Report page gives a detailed view of your entire transcript.
+5. The missing grade page allows students to make reports about missing grades.
+6. The instructor contact page shows the contact details of the various course instructors and a button to send them an email.
+7. The help page enables students to ask questions and seek for help regarding the grade report system. 
+
 
 ## Contribution
 
