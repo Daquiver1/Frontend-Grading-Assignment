@@ -42,6 +42,7 @@ Describe how to use the application, highlighting key functionalities such as lo
 ## Contribution
 
 To contribute to this project, please follow these guidelines:
+HAPPY HACKING
 
 1. Fork the repository.
 2. Create a new branch for your feature.
