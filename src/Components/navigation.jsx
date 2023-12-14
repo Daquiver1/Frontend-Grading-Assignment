@@ -7,7 +7,7 @@ import Navbar from 'react-bootstrap/Navbar';
 
 function Navigation() {
     return (
-        <div>
+            <div className = "nav">        
              <Navbar expand="lg" bg = "dark" variant = "dark" sticky = "top" >
       <Container>
         <Navbar.Brand href="#home">Grade Map</Navbar.Brand>
@@ -25,8 +25,8 @@ function Navigation() {
         </Navbar.Collapse>
       </Container>
     </Navbar>
-
-        </div>
+      </div>
+       
     )
 }
 
