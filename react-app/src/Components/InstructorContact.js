@@ -5,10 +5,17 @@ import Footer from './Footer';
 
 const instructorsData = [
   { id: 1, name: 'Dwumfour Abdullai Abdul-Aziz', email: 'adwumfour@ug.edu.gh', courseCodes: ['DCIT203'] },
-  { id: 2, name: 'Michael Agni Soli', email: 'jane.smith@example.com', courseCodes: ['DCIT205'] },
-  { id: 3, name: 'Paul Nii Tachie Ammah', email: 'bob.johnson@example.com', courseCodes: ['STAT202', 'STAT203'] },
-  { id: 4, name: 'Benjamin Ghansah', email: 'alice.davis@example.com', courseCodes: ['ENG101'] },
+  { id: 2, name: 'Michael Agni Soli', email: 'MicSoli@ug.ed.gh', courseCodes: ['DCIT205'] },
+  { id: 3, name: 'Paul Nii Tachie Ammah', email: 'PaulNii@ug.edu.gh', courseCodes: ['DCIT209'] },
+  { id: 4, name: 'Benjamin Ghansah', email: 'Bghansah@ug.edu.gh', courseCodes: ['ENG101'] },
+  { id: 5, name: 'Nancy Myles', email: 'NancyMyles@ug.edu.gh', courseCodes:['UGRC120']},
+  { id: 5, name: 'Kenneth Dadedzi', email: 'Kdadedzi@ug.edu.gh', courseCodes:['Math123']},
+  { id: 6, name: 'Grace Anane', email: 'Ganane@ug.edu.gh', courseCodes: ['DCIT205', 'STAT204'] },
+  { id: 7, name: 'Emmanuel Adu-Gyamfi', email: 'Eadugyamfi@ug.edu.gh', courseCodes: ['DCIT206', 'MATH205'] },
+  { id: 8, name: 'Abena Yeboah', email: 'Ayeboah@ug.edu.gh', courseCodes: ['ENG202', 'UGRC201'] },
+
 ];
+
 
 const InstructorContactPage = () => {
   const [selectedInstructor, setSelectedInstructor] = useState(null);
