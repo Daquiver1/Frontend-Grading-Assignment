@@ -1,7 +1,7 @@
 import React from "react";
-import Landing_header from "./landing-header";
-import Landing_cards from "./landing-cards";
-import Landing_footer from "./landing-footer";
+import Landing_header from "../Components/pageheader";
+import Landing_cards from "../Components/landing-cards";
+import Landing_footer from "../Components/pagefooter";
 
 
 
