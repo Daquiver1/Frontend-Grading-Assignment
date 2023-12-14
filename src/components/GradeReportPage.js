@@ -10,10 +10,7 @@ const GradeReportPage = () => {
   };
   return (
     <>
-      <div className='text-4xl'>
-        <p>missing Grade Form</p>
-          
-      </div>
+      
       
       
       

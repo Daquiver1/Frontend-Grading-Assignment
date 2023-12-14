@@ -18,11 +18,11 @@ import { ChevronDownIcon, MagnifyingGlassIcon } from '@heroicons/react/20/solid'
 import unknown from '../images/unknown.jpg'
 
 const navigation = [
-  { name: 'Home', href: '/LandingPage', icon: HomeIcon, current: false },
+  { name: 'Home', href: '/', icon: HomeIcon, current: false },
   { name: 'Dashboard', href: '/Dashboard', icon: BookmarkIcon, current: true },
   { name: 'Login', href: '/Login', icon: UsersIcon, current: false },
   { name: 'Report', href: '/GradeReport', icon: ChartPieIcon, current: false },
-  { name: 'Help', href: '#', icon: QuestionMarkCircleIcon, current: false },
+  { name: 'Help', href: '/HelpPage', icon: QuestionMarkCircleIcon, current: false },
 ]
 const teams = [
   { id: 1, name: 'Heroicons', href: '#', initial: 'H', current: false },

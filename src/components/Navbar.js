@@ -16,12 +16,12 @@ function Navbar () {
     };
   return (
     <nav className='nav'>
-        <a href="/LandingPage" className='title text-transform: uppercase font-weight: bold'>GradeQuest</a>
+        <a href="/" className='title text-transform: uppercase font-weight: bold'>GradeQuest</a>
         <ul className={active}>
             <li className='nav_item'><a href="Login" className='nav_link'>Login</a></li>
             <li className='nav_item'><a href="Dashboard" className='nav_link'>Dashboard</a></li>
             <li className='nav_item'><a href="GradeReport" className='nav_link'>Report</a></li>
-            <li className='nav_item'><a href="/login" className='nav_link'>Help and Support</a></li>
+            <li className='nav_item'><a href="/HelpPage" className='nav_link'>Help and Support</a></li>
         </ul>
         <div onClick={navToggle} className={toggleIcon}>
             <div className="line1"></div>

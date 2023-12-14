@@ -1,31 +1,27 @@
-import Chart from 'chart.js/auto';
 import React from 'react'
 import { Fragment, useState, useEffect, useRef  } from 'react'
 import { Dialog, Menu, Transition } from '@headlessui/react'
 import {
   Bars3Icon,
   BellIcon,
-  CalendarIcon,
   ChartPieIcon,
   Cog6ToothIcon,
-  DocumentDuplicateIcon,
-  FolderIcon,
   HomeIcon,
   UsersIcon,
   XMarkIcon,
+  BookmarkIcon,
+  QuestionMarkCircleIcon
 } from '@heroicons/react/24/outline'
 import { ChevronDownIcon, MagnifyingGlassIcon } from '@heroicons/react/20/solid'
 import unknown from '../images/unknown.jpg'
 
-import { BarChart, ResponsiveContainer } from 'recharts'
 const navigation = [
-  { name: 'Dashboard', href: '#', icon: HomeIcon, current: true },
-  { name: 'Team', href: '#', icon: UsersIcon, current: false },
-  { name: 'Projects', href: '#', icon: FolderIcon, current: false },
-  { name: 'Calendar', href: '#', icon: CalendarIcon, current: false },
-  { name: 'Documents', href: '#', icon: DocumentDuplicateIcon, current: false },
-  { name: 'Reports', href: '#', icon: ChartPieIcon, current: false },
-]
+    { name: 'Home', href: '/LandingPage', icon: HomeIcon, current: false },
+    { name: 'Dashboard', href: '/Dashboard', icon: BookmarkIcon, current: true },
+    { name: 'Login', href: '/Login', icon: UsersIcon, current: false },
+    { name: 'Report', href: '/GradeReport', icon: ChartPieIcon, current: false },
+    { name: 'Help', href: '/HelpPage', icon: QuestionMarkCircleIcon, current: false },
+  ]
 const teams = [
   { id: 1, name: 'Heroicons', href: '#', initial: 'H', current: false },
   { id: 2, name: 'Tailwind Labs', href: '#', initial: 'T', current: false },
@@ -173,12 +169,10 @@ export default function Example() {
         <div className="hidden lg:fixed lg:inset-y-0 lg:z-50 lg:flex lg:w-72 lg:flex-col">
           {/* Sidebar component, swap this element with another sidebar if you like */}
           <div className="flex grow flex-col gap-y-5 overflow-y-auto bg-black px-6 pb-4">
-            <div className="flex h-16 shrink-0 items-center">
-              <img
-                className="h-8 w-auto"
-                src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500"
-                alt="Your Company"
-              />
+          <div className="text-lg mt-8" style={{color:'white'}}>
+            <b>
+              GradeQuest
+            </b>
             </div>
             <nav className="flex flex-1 flex-col">
               <ul role="list" className="flex flex-1 flex-col gap-y-7">
@@ -325,10 +319,10 @@ export default function Example() {
 
           <main className="py-10">
            
-        <div className='text-5xl text-center mt-11 mb-12'>
+        <div className='text-5xl text-center mt-8 mb-12'>
             <b>Missing Grade Form</b>
         </div>
-        <div className='text-sm ' style={{fontStyle:"italic",marginLeft:'250px',paddingBottom:'20px'  }}>
+        <div className='text-sm ' style={{fontStyle:"italic",marginLeft:'250px',paddingBottom:'20px', color:'gray' }}>
             <p>The fields denoted by <span style={{color:'red'}}>*</span> are required</p>
         </div>
         <div className='justify-start'style={{marginLeft:'250px'}} >
