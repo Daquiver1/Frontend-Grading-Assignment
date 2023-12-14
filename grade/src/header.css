@@ -1,0 +1,36 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-bottom-width: 1px;
+    border-bottom-color: rgb(234, 230, 230);
+    border-bottom-style:solid ;
+    background-color: #ccc;
+    z-index: 100;
+
+}
+.nav-logo{
+    width: 150px;
+    height: 40px;
+    
+}
+.nav-items{
+    display: flex;
+    list-style: none;
+    padding-right: 30px;
+}
+.nav-items > li{
+    padding: 8px;
+    padding-top: 0;
+    color:#00357a;
+    text-transform: uppercase;
+    font-family: 'Times New Roman';
+    font-size: 13px;
+   
+}
