@@ -3,7 +3,7 @@ import logo from "../images/logo.png"
 const Dashboard = () => {
     return (
         <div>
- <nav className="navbar navbar-expand-lg bg-body-tertiary fixed-top mb-4">
+ <nav className="navbar navbar-expand-lg bg-primary fixed-top mb-4">
                 <div className="container-fluid">
                     <a className="navbar-brand" href="#">
                         <img src={logo} alt=""  style={{width: "70px", height: "60px"}}/>
@@ -40,7 +40,7 @@ const Dashboard = () => {
                         <button className="btn btn-outline-success" type="submit">Search</button>
                     </form>
                         <div className="notification-btn">
-                            <i className="bi bi-bell-fill text-primary fs-3 px-2"></i>
+                            <i className="bi bi-bell-fill fs-3 px-2" style={{color: "gold"}}></i>
                         </div>
                     </div>
                 </div>
