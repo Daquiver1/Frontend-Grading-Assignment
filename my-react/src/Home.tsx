@@ -16,7 +16,7 @@ function Home(){
        <img  className='logo' src ={img1} alt=''  />
 
             <div>
-     <h2>Missing Grade reporting system</h2>
+     <h2 className='missing '>Missing Grade reporting system</h2>
      </div>
        <div className='image-content'>
        <img title='students' data-mdb-animation='fade-out' className='students' src={img2}></img>
