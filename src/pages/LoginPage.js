@@ -78,7 +78,7 @@ function LoginPage() {
                 />
               </Form.Group>
               <Button variant="primary" type="submit" className="w-100">
-                Connexion
+                Login
               </Button>
               {error && (
                 <Alert variant="danger" className="mt-3">

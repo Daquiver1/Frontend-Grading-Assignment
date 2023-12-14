@@ -11,7 +11,7 @@ const About = () => {
   };
 
   const headingStyle = {
-    color: "#333",
+    color: "#01FFFF",
   };
 
   const sectionHeadingStyle = {

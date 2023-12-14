@@ -13,7 +13,7 @@ const Footer = () => {
           {/* ... other columns ... */}
           <div className="col-lg-8 col-md-6 col-sm-6">
             <div className="single-footer-widget pt-10">
-              <h4>Assigment of DCIT 205</h4>
+              <h4>Assignment of DCIT 205</h4>
               <p>Stay updated with our latest</p>
               <div id="mc_embed_signup">
                 {" "}

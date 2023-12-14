@@ -147,7 +147,7 @@ function GradeReportPage() {
                               Completed
                             </Button>
                           ) : (
-                            <Link to="/missing-grade-form">
+                            <Link to="/MissingGradeFormPage">
                               <Button variant="danger">Report</Button>
                             </Link>
                           )}
