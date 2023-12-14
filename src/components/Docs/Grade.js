@@ -30,3 +30,32 @@ export default function Dashboard(){
 
   }
 
+  const handleDate = (e) =>{
+
+  
+    grade.filter(obj => {
+     
+
+     if(obj.date === e.target.value){
+
+       setUser([
+         {subject:obj.subject,credit:obj.credit, assessment:obj.assessment,term:obj.term,total:obj.total,result:obj.result,grade:obj.grade, semester:obj.semester, date:obj.date},
+     ])
+     }
+   });
+
+ }
+
+
+ const handRefresh = () =>{
+
+  setUser(grade)
+ }
+
+
+  return(
+    <Layout>
+  <div className="flex flex-col">
+  <div className="overflow-x-auto sm:-mx-6 lg:-mx-8">
+    <div className="inline-block min-w-full py-2 sm:px-6 lg:px-8">
+    <h2 className="mb-4 mt-6 text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white">Grade Report</h2>
