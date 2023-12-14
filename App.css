@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #4478de;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,4 +35,60 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: rgb(22, 133, 158);
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: #333;
+}
+
+h3 {
+  color: #555;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+.home-page-container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #1a2b7e;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.welcome-heading {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.intro-text {
+  color: #555;
+  font-size: 16px;
 }
