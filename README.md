@@ -1,101 +1,62 @@
+Missing Grade Reporting System Website
+Welcome to the Missing Grade Reporting System Website! This web application serves as the front end for a comprehensive system designed to streamline the reporting of missing grades in educational institutions.
 
-## Description
+Table of Contents
+Introduction
+Features
+Getting Started
+Usage
+Contributing
+License
+Introduction
+The Missing Grade Reporting System is a platform designed to facilitate the efficient reporting and resolution of missing grades within educational institutions. This website acts as the user interface, providing an intuitive and user-friendly experience for students, teachers, and administrators.
 
-- This React application is built using [create-react-app](https://create-react-app.dev/).
-- It uses [Tailwind CSS](https://tailwindcss.com/)
-- The application is generated in JavaScript.
+Features
+User Authentication: Secure login and registration system for authorized users.
+Grade Reporting Interface: Intuitive interface for reporting missing grades, providing necessary details.
+Real-time Notifications: Users receive instant notifications on the status of their reported missing grades.
+Administrative Dashboard: Administrators have access to a centralized dashboard for monitoring and managing reported missing grades.
+Search and Filter: Users can search and filter missing grades based on various criteria.
+Getting Started
+To get started with the Missing Grade Reporting System, follow these steps:
 
-## Pre-requisites
+Clone the Repository:
 
-- [git](https://git-scm.com/) - v2.13 or greater
-- [NodeJS](https://nodejs.org/en/) - v16 or greater
-- [npm](https://www.npmjs.com/) - v6 or greater
+bash
+Copy code
+git clone https://github.com/your-username/missing-grade-system.git
+cd missing-grade-system
+Install Dependencies:
 
-## Running in dev environment
+bash
+Copy code
+npm install
+Configure Environment Variables:
+Create a .env file in the root directory and add the necessary configuration values.
 
-1.  `cd YOUR_APPLICATION`
-2.  `npm install`
-3.  `npm start`
+Run the Application:
 
-## .env file
+bash
+Copy code
+npm start
+Access the Application:
+Open your web browser and navigate to http://localhost:3000 to access the application.
 
-This file contains various environment variables that you can configure.
+Usage
+User Registration and Login:
 
-**REACT_APP_GOOGLE_CLIENT_ID** - Your Google Client ID
+Create an account using the registration form.
+Log in with your credentials.
+Report Missing Grades:
 
-## Folder Structure
+Navigate to the reporting interface.
+Fill in the required information about the missing grade.
+Monitor Status:
 
-```
- .
- ├── package.json
- ├── postcss.config.js
- ├── public
- │   ├── assets
- │   │   └── images --------- All Project Images
- │   ├── favicon.ico
- │   ├── index.html
- │   ├── manifest.json
- │   └── robots.txt
- ├── README.md
- ├── src
- │   ├── App.jsx
- │   ├── assets
- │   │   └── fonts ---------- Project fonts
- │   ├── components --------- UI and Detected Common Components
- │   ├── constants ---------- Project constants, eg: string consts
- │   ├── hooks -------------- Helpful Hooks
- │   ├── index.jsx
- │   ├── pages -------------- All route pages
- │   ├── Routes.jsx ---------- Routing
- │   ├── styles
- │   │   ├── index.css ------ Other Global Styles
- │   │   └── tailwind.css --- Default Tailwind modules
- │   └── util
- │       └── index.jsx ------- Helpful utils
- └── tailwind.config.js ----- Entire theme config, colors, fonts etc.
-```
+Receive real-time notifications about the status of your reported missing grades.
+Administrative Functions:
 
-For the project to build, **these files must exist with exact filenames**:
-
-- `public/index.html` is the page template;
-- `src/index.jsx` is the JavaScript entry point.
-
-You may create subdirectories inside src.
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.<br>
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br>
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time.
-
-## Installing a Dependency
-
-You can install any dependencies (for example, React Router) with `npm`:
-
-```sh
-npm install --save react-router
-```
-
-Alternatively you may use `yarn`:
-
-```sh
-yarn add react-router
-```
-
+Admins can log in to the administrative dashboard.
+Monitor, review, and resolve reported missing grades.
+Contributing
+Contributions are welcome! If you want to contribute to the development of the Missing Grade Reporting System, please follow the contribution guidelines.
