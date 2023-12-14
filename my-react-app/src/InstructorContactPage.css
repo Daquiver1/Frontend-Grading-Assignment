@@ -7,7 +7,7 @@ body {
   }
   
   .instructor-contact-container {
-    max-width: 800px;
+    max-width: 1000px;
     margin: 50px auto;
     padding: 20px;
     background-color: #f5f5f5;
@@ -54,7 +54,7 @@ body {
   .instructor-list button {
     background: none;
     border: none;
-    color: #007bff;
+    color: #272270;
     cursor: pointer;
     font-size: 18px;
     text-decoration: underline;

@@ -12,7 +12,7 @@ function HelpAndSupport() {
           <Link to="/" className="dropdown-item">Landing</Link>
           <Link to="/dashboard" className="dropdown-item">Dashboard</Link>
           <Link to="/GradeReport" className="dropdown-item">Grade Report</Link>
-          <Link to="/missing-grade-form" className="dropdown-item">Missing Grade Form</Link>
+          <Link to="/MissingGradeForm" className="dropdown-item">Missing Grade Form</Link>
           <Link to="/InstructorContactPage" className="dropdown-item">Instructor Contact</Link>
           <Link to="/help-support" className="dropdown-item">Help and Support</Link>
         </div>

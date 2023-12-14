@@ -2,14 +2,14 @@
 
 import React, { useState } from 'react';
 import './InstructorContactPage.css';
-
+import { Link } from 'react-router-dom';
 function InstructorContactPage() {
   const [selectedInstructor, setSelectedInstructor] = useState(null);
 
   const instructors = [
-    { id: 1, name: 'John Doe', email: 'john@example.com' },
-    { id: 2, name: 'Jane Smith', email: 'jane@example.com' },
-    { id: 3, name: 'Alex Johnson', email: 'alex@example.com' },
+    { id: 1, name: 'Dwumfour Abdullai Abdul-Aziz', email: 'Aziz@gmail.com' },
+    { id: 2, name: 'Michael Agbo Tettey Soli', email: 'Soli@gmail.com' },
+    { id: 3, name: 'Mark Attah Mensah', email: 'Mark@gmail.com' },
     // Add more instructors as needed
   ];
 
@@ -23,6 +23,18 @@ function InstructorContactPage() {
   };
 
   return (
+    <div className="instructor-contact-container">
+    <div className="dropdown">
+      <button className="dropdown-button">Menu</button>
+      <div className="dropdown-content">
+        <Link to="/" className="dropdown-item">Landing</Link>
+        <Link to="/dashboard" className="dropdown-item">Dashboard</Link>
+        <Link to="/GradeReport" className="dropdown-item">Grade Report</Link>
+        <Link to="/MissingGradeForm" className="dropdown-item">Missing Grade Form</Link>
+        <Link to="/InstructorContactPage" className="dropdown-item">Instructor Contact</Link>
+        <Link to="/HelpAndSupport" className="dropdown-item">Help and Support</Link>
+      </div>
+    </div>
     <div className="instructor-contact-container">
       <h1 className="page-title">Instructor Contact Page</h1>
 
@@ -47,7 +59,7 @@ function InstructorContactPage() {
         </div>
       </div>
     </div>
+    </div>
   );
 }
-
 export default InstructorContactPage;

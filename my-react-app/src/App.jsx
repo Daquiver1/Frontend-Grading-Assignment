@@ -7,6 +7,7 @@ import Dashboard from './Dashboard';
 import HelpAndSupport from './HelpAndSupport.jsx'
 import GradeReport from './GradeReport.jsx'
 import InstructorContactPage from './InstructorContactPage.jsx'
+import MissingGradeForm from './MissingGradeForm.jsx';
 function App() {
     return (
         
@@ -18,6 +19,7 @@ function App() {
                 <Route path="/HelpAndSupport" element={<HelpAndSupport/>} />
                 <Route path="/GradeReport" element={<GradeReport/>} />
                 <Route path="/InstructorContactPage" element={<InstructorContactPage/>} />
+                <Route path="/MissingGradeForm" element={<MissingGradeForm/>} />
             </Routes>
         </Router>
     );
