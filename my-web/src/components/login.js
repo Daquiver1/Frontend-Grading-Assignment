@@ -1,35 +1,45 @@
-import React from 'react';
+import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
+
+const Login = () => {
+    const [studentId, setStudentId] = useState('');
+    const [pin, setPin] = useState('');
+    const navigate = useNavigate();
 
 
-function Login() {
+    const handleSubmit = (event) => {
+        event.preventDefault();
+        // Handle the login logic here
+        alert(`Login attempted with Student ID: ${studentId} and PIN: ${pin}`);
+        navigate('/DashboardPage');
+    };
 
- return (
+    return (
+        <div className="loginContainer">
+            <h2>Login</h2>
+            <form onSubmit={handleSubmit}>
+                <label htmlFor="studentId">Student ID</label>
+                <input 
+                    type="text" 
+                    id="studentId" 
+                    value={studentId} 
+                    onChange={(e) => setStudentId(e.target.value)} 
+                    placeholder="Enter your Student ID" 
+                />
 
-    <div className="login-container">
+                <label htmlFor="pin">PIN</label>
+                <input 
+                    type="password" 
+                    id="pin" 
+                    value={pin} 
+                    onChange={(e) => setPin(e.target.value)} 
+                    placeholder="Enter your PIN" 
+                />
 
-      <h2>Login</h2>
-
-      <form>
-
-        <label>Username</label>
-
-        <input type="text" name="username" />
-
-
-        <label>Password</label>
-
-        <input type="password" name="password" />
-
-
-        <button type="submit">Login</button>
-
-      </form>
-
-    </div>
-
- );
-
-}
-
+                <button type="submit">Login</button>
+            </form>
+        </div>
+    );
+};
 
 export default Login;

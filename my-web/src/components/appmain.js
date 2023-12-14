@@ -1,12 +1,15 @@
 import React from 'react';
-
-import '../styles/main.css';
+import Navbar from './navbar';
+import Footer from './footer';
+import '../main.css';
 import myImage from './images/400.png';
 
  
 function Main(){
     return( 
-    <><div className="custom-div">
+    <>
+     <Navbar/>
+    <div className="custom-div">
         <img className="biss" src={myImage} alt="Landing " />
       </div>
       <h1 style={{ color: '#123456' }}>Welcome to Gradesk</h1>
@@ -27,9 +30,9 @@ function Main(){
     <span>Monitor your academic progress over time. Gradesk provides visualizations and insights to help you understand your strengths and areas that need improvement.</span>
     <button>View Progress</button>
   </section>
-        </main>
-      
-      
+    </main>
+     
+     <Footer/>
       
       </>
 

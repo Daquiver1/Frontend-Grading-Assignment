@@ -1,3 +1,5 @@
+
+
 @import url('https:fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;700&display=swap');
 *{
     padding: 0;
@@ -266,4 +268,36 @@ main.cards section.card.progress {
       font-size: 70%;
   }
 
+}
+.dashboard-container {
+  display: flex;
+}
+
+.sidebar {
+  width: 200px;
+  background-color: #f0f0f0;
+  height: 100vh; /* Full height */
+  padding-top: 20px;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar ul li a {
+  display: block;
+  color: black;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.sidebar ul li a:hover {
+  background-color: #ddd;
+}
+
+.content {
+  flex-grow: 1;
+  padding: 20px;
+  background-color: #fff;
 }
