@@ -1,0 +1,356 @@
+.Dashboard{
+    width: 100%;
+    height: fit-content;
+
+}
+.Dashboard .Navbar{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1em;
+    background-color: aqua;
+    padding: 10px;
+}
+.Dashboard .Logo{
+    font-size: 1.6em;
+    font-weight: 700;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.Dashboard .Navlinks{
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    cursor: pointer;
+
+}
+.Dashboard .Navlinks li:hover {
+    transform: scale(1.3);
+    color: blueviolet;
+    transition: 0.3s;
+}
+.Dashboard .User{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    font-size: 1.2em;
+    padding: 5px;
+    background-color: rgb(207, 181, 146);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Outlet {
+    min-height: 100dvh;
+    padding: 20px 40px 40px 40px;
+}
+
+.first-line-content {
+    width: 100%;
+    background: rgb(245, 222, 180);
+    padding: 20px;
+    display: flex;
+    gap: 30px;
+    border-radius: 10px;
+}
+
+.notification {
+    position: fixed;
+    right: 0;
+    background: rgb(255, 44, 44);
+    padding: 20px;
+    width: 170px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    animation: animation 0.5s linear;
+}
+
+.notification:hover {
+    transform: scale(1.1);
+    transition: 0.3s ease-in;
+}
+
+.card {
+    width: 200px;
+    background-color: rgb(177, 177, 177);
+    color: #FFF;
+    padding: 20px;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card span:nth-child(1) {
+    margin-bottom: 10px;
+    font-size: 1.1em;
+    font-weight: 600;
+}
+
+.second-line-content {
+    margin-top: 40px;
+    background: rgb(245, 222, 180);
+    width: 100%;
+    padding: 20px;
+    min-height: 50vh;
+    border-radius: 10px;
+}
+
+ table {
+    margin-bottom: 20px;
+    width: 100%;
+    border: 1px solid rgb(97, 97, 97);
+}
+
+ th {
+    padding: 5px;
+    text-align: center;
+    border: 1px solid rgb(110, 110, 110);
+}
+
+ td {
+    padding: 5px;
+    border: 1px solid rgb(110, 110, 110);
+}
+
+ tr:nth-child(1) {
+    background-color: black;
+    color:#FFF;
+}
+
+.footer {
+    width: 100%;
+    text-align: center;
+    color: white;
+    background: #414141;
+    padding: 6px;
+}
+
+.greet-user {
+    padding: 10px 0 20px 10px;
+}
+
+.welcome {
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+.programme {
+    font-size: 1.1em;
+    color: rgb(122, 47, 47);
+}
+
+.grade-report {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.grade-info {
+    display: flex;
+    width: 100%;
+    justify-content: left;
+    padding: 20px 0 20px 0;
+} 
+
+.grade-info div {
+    margin-right: 20px;
+    border-radius: 6px;
+    padding: 10px;
+    background: rgb(51, 51, 51);
+    color: #FFF;
+}
+
+.MissingGrade {
+    height: 80dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.missing-grade-form,
+.missing-grade-list {
+    min-height: 340px;
+}
+
+.missing-grade-list span {
+    font-size: 1.2em;
+    font-weight: 600;
+    border-bottom: 1px solid grey;
+    padding-bottom: 10px;
+}
+
+.missing {
+    padding-top: 8px;
+}
+
+.missing div {
+    width: 320px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(77, 77, 77);
+    margin: 10px 0 10px 0;
+}
+
+.select-lable {
+    font-weight: 600;
+    font-size: 1.2em;
+}
+
+.email-lable {
+    font-size: 1.2em;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+select {
+    width: 400px;
+    height: 40px;
+    padding: 10px;
+}
+
+.missing-grade-form {
+    display: flex;
+    flex-direction:column;
+}
+
+.missing-grade-form input {
+    width: 400px;
+    height: 40px;
+    padding: 10px;
+    outline: none;
+    border: none;
+    border: 1px solid grey;
+    border-radius: 6px;
+}
+
+.missing-grade-form .btn {
+    width: 100px;
+    height: 39px;
+    padding: 10px;
+    background: aqua;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.ContactInstructor {
+    height: 80dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.instructor-form,
+.instructor-list {
+    min-height: 340px;
+}
+
+.instructor-list span {
+    font-size: 1.2em;
+    font-weight: 600;
+    border-bottom: 1px solid grey;
+    padding-bottom: 10px;
+}
+
+.instructors {
+    padding-top: 8px;
+}
+
+.instructors div div{
+    width: 100%;
+}
+
+.instructors div {
+    width: 320px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(77, 77, 77);
+    margin: 10px 0 10px 0;
+}
+
+.instructor-form {
+    display: flex;
+    flex-direction:column;
+}
+
+.instructor-form input {
+    width: 400px;
+    height: 40px;
+    padding: 10px;
+    outline: none;
+    border: none;
+    border: 1px solid grey;
+    border-radius: 6px;
+}
+
+.instructor-form .btn {
+    width: 100px;
+    height: 39px;
+    padding: 10px;
+    background: aqua;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.textarea-lable {
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 1.2em;
+}
+
+.faq-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #b2ebf2; /* Light aqua border */
+    background-color: #ffffff; /* White background */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    color: #009688; /* Aqua color for heading */
+  }
+  
+  .faq-section {
+    margin-top: 20px;
+  }
+  
+  .faq-question {
+    border: 1px solid #b2ebf2; /* Light aqua border */
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+  }
+  
+  h3 {
+    color: #009688; /* Aqua color for question headings */
+  }
+  
+  p {
+    color: #555;
+  }
+
+@keyframes animation {
+    0%{transform: translateX(200px);}
+    20%{transform: translateX(-20px);}
+    40%{transform: translateX(20px);}
+    60%{transform: translateX(8px);}
+    80%{transform: translateX(-8px);}
+    100%{transform: translateX(0px);}
+}
