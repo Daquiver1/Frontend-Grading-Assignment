@@ -73,7 +73,7 @@ const DashboardPage = () => {
           </a>
           
         </ul>
-
+                    <br />
         <h3 className='dashboard-title2'>Current Grades</h3>
         <a href={Current} target='0'>
         <ul className='dashboard-body2'>
