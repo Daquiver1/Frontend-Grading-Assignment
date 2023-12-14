@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Navbar from '../Navigation-Bar/navbar';
 import Footer from '../Footer/Footer';
+import './MissingGradeForm.css'
 
 const MissingGradeForm = () => {
   const [formData, setFormData] = useState({
