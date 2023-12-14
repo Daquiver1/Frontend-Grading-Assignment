@@ -1,0 +1,62 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.Home{
+    background-color: rgb(224, 172, 0);
+}
+
+.studentimg{
+        height: 80px;
+        position: relative;
+        top: 190px;
+        left: 635px;
+
+}
+
+.Body{
+    background-color: rgb(224, 172, 0);
+    display: flex;
+    width: 100%;
+    height: 620px;
+    display: inline-block;
+
+  
+}
+
+.Home p{
+    position: relative;
+    top: 190px;
+    text-align: center;
+    color: white;
+    text-decoration: solid;
+    font-size: 18px;
+   
+
+}
+
+.Home h1{
+    position: relative;
+    top: 200px;
+    text-align: center;
+    color: rgb(1, 1, 114);
+}
+
+
+
+.linkbutton{
+    background-color: rgb(255, 255, 255);
+    border-radius: 50px;
+   margin-top: 200px;
+   margin-left: 600px;
+   height: 70px;
+   width:150px;
+}
+
+.linkbutton:hover , .linkbutton a:hover{
+    cursor: pointer;
+    background-color: rgb(2, 2, 51);
+    color: white;
+}
+
