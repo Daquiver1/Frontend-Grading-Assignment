@@ -1,0 +1,23 @@
+.containe {
+    font-family: 'Poppins', sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    color: rgb(8, 8, 66);
+}
+
+.text-image {
+    height: auto;
+    padding: 1rem;
+   
+}
+
+.mb-4 {
+    margin-bottom: 1rem;
+    
+}
+
+.image-height{
+    height: 300px;
+}

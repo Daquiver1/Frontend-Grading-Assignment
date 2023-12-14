@@ -1,0 +1,23 @@
+/* InstructorContactPage.css */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.instructor-card {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.email-button {
+    background-color: #4299e1;
+    color: #ffffff;
+    padding: 0.5rem 1rem;
+    border: none;
+    cursor: pointer;
+}
+
+.email-button:hover {
+    background-color: #3182ce;
+}

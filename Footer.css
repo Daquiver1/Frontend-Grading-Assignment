@@ -1,0 +1,45 @@
+/* Footer.css */
+.bg-gray-800 {
+    background-color: rgb(10, 10, 58);
+}
+
+.footer-link {
+    color: #ffffff;
+    margin-right: 1rem;
+}
+
+footer {
+    background-color: blue;
+    color: #ffffff;
+    text-align: center;
+    padding: 1em;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 100px;
+}
+
+.footer-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+   
+    flex-wrap: wrap;
+    
+}
+
+.subfooter-div {
+    width: 30%;
+    
+    margin-bottom: 1rem;
+    
+}
+
+
+@media (max-width: 768px) {
+    .subfooter-div {
+        width: 100%;
+        
+    }
+}
