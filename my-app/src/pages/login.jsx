@@ -1,9 +1,11 @@
 import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 
 const LoginPage = () => {
   const [id, setId] = useState('');
   const [pin, setPin] = useState('');
   const [error, setError] = useState('');
+  const navigate = useNavigate();
 
   const handleLogin = (e) => {
     e.preventDefault();
@@ -11,6 +13,7 @@ const LoginPage = () => {
     if (id === '123456' && pin === '7890') {
       alert('Login successful!');
       setError('');
+      navigate('/dashboard'); // Redirect to the dashboard page after successful login
     } else {
       setError('Invalid ID or PIN');
     }
@@ -18,6 +21,14 @@ const LoginPage = () => {
     // Clear input fields after login attempt
     setId('');
     setPin('');
+  };
+
+  const handleForgotPin = () => {
+    // Handle the action for the "Forgot PIN?" link
+    // For example, show a modal or navigate to a password reset page
+
+    // Placeholder code to show an alert
+    alert('Forgot PIN link clicked');
   };
 
   return (
@@ -59,12 +70,12 @@ const LoginPage = () => {
             >
               Login
             </button>
-            <a
-              className="inline-block text-sm font-bold text-blue-500 align-baseline hover:text-blue-800"
-              href="#"
+            <button
+              className="inline-block text-sm font-bold text-blue-500 align-baseline hover:text-blue-800 focus:outline-none"
+              onClick={handleForgotPin}
             >
               Forgot PIN?
-            </a>
+            </button>
           </div>
         </form>
       </div>

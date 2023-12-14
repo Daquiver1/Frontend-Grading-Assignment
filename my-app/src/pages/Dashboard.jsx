@@ -1,9 +1,10 @@
 import React from 'react';
+import NavBar from './NavBar';
 
 const DashboardPage = () => {
   return (
     <div className="min-h-screen bg-gray-200">
-      <header className="bg-white shadow">
+      <header className="w-full bg-white shadow">
         <nav className="container flex items-center justify-between py-4 mx-auto">
           <a href="/" className="text-2xl font-bold text-gray-800">My Dashboard</a>
           <button className="px-4 py-2 font-bold text-white bg-blue-500 rounded-md hover:bg-blue-600">
@@ -11,6 +12,7 @@ const DashboardPage = () => {
           </button>
         </nav>
       </header>
+      <NavBar />
       <main className="container py-12 mx-auto">
         <h1 className="mb-4 text-4xl font-bold">Welcome to Your Dashboard!</h1>
         <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
