@@ -1,53 +1,78 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
+import Navigation from './Navigation';
+import { Container, Row, Col, Card, ProgressBar } from 'react-bootstrap';
+import {  FaBook, FaChartLine, FaUser, FaBell, FaComments, FaCog } from 'react-icons/fa';
+import Footer from './footer';
 
 const DashboardPage = () => {
-  const [grades, setGrades] = useState([]);
-  const [missingGrades, setMissingGrades] = useState([]);
-
-  
-  useEffect(() => {
-    
-    const fetchGrades = () => {
-      setTimeout(() => {
-        
-        const fetchedGrades = [
-          { subject: 'Math', grade: 85 },
-          { subject: 'Science', grade: 92 },
-          { subject: 'History', grade: null },
-          { subject: 'English', grade: 78 },
-        ];
-        setGrades(fetchedGrades);
-
-       
-        const missing = fetchedGrades.filter(grade => grade.grade === null);
-        setMissingGrades(missing);
-      }, 1000); 
-    };
-
-    fetchGrades();
-  }, []);
-
   return (
     <div>
-      <h2>Dashboard</h2>
-      <h3>Current Grades:</h3>
-      <ul>
-        {grades.map((grade, index) => (
-          <li key={index}>
-            {grade.subject}: {grade.grade !== null ? `${grade.grade}%` : 'N/A'}
-          </li>
-        ))}
-      </ul>
-      {missingGrades.length > 0 && (
-        <div>
-          <h3>Alerts: Missing Grades</h3>
-          <ul>
-            {missingGrades.map((missing, index) => (
-              <li key={index}>{missing.subject}</li>
-            ))}
-          </ul>
-        </div>
-      )}
+       <Navigation/>
+       
+    <Container fluid style={{ backgroundColor: 'rgb(51, 166, 128)', color: 'white', minHeight: '100vh' }}>
+      {/* Header */}
+      <Row className="mb-4">
+        <Col>
+          <h1>Grade Report Dashboard</h1>
+        </Col>
+      </Row>
+      <div className="dash">
+      {/* Student Overview */}
+          <Card className="big-grids">
+            <Card.Body>
+              <h2 className="text-center">Student Overview</h2>
+              <h2 className="text-center1"><FaChartLine/>Current GPA: 3.8 | Class Average: 3.5</h2>
+            </Card.Body>
+          </Card>
+
+      {/* Course List */}
+          <Card className="big-grids">
+            <Card.Body>
+              <h2 className="text-center">Course List</h2>
+               <h2 className="text-center2"><FaBook/> Course 1: A</h2> <ProgressBar className='progress-bar1' now={100} label="80%" />
+               <h2 className="text-center2"><FaBook/> Course 1: A</h2> <ProgressBar className='progress-bar2' now={100} label="81%" />
+               <h2 className="text-center2"><FaBook/> Course 1: B+</h2> <ProgressBar className='progress-bar3'now={100} label="79%" />
+              <h2 className="text-center2"> <FaBook/> Course 1: B+</h2> <ProgressBar className='progress-bar4' now={100} label="77%" />
+              <h2 className="text-center2"><FaBook/> Course 1: A</h2> <ProgressBar className='progress-bar5' now={100} label="83%" />
+              <h2 className="text-center2"><FaBook/> Course 1: B</h2> <ProgressBar className='progress-bar6' now={100} label="70%" />
+            </Card.Body>
+          </Card>
+          
+          <div className="sidebox">
+      {/* Announcements */}
+          <Card className="small-grids">
+            <Card.Body >
+              <h2 className="text-center">Announcements</h2>
+              <h2 className="text-center1"><FaBell /> Important announcement: Exam schedule updated.</h2>
+            </Card.Body>
+          </Card>
+
+
+      {/* Student Profile */}
+          <Card className="small-grids">
+            <Card.Body >
+              <h2 className="text-center">Student Profile</h2>
+              <h2 className="text-center1"><FaUser /> Name: Nana Kwame </h2> <br/> 
+              <h2 className="text-center1"> <FaCog /> <a className="text-center1" href="/profile">Edit Profile</a></h2>
+            </Card.Body>
+          </Card>
+        
+     
+
+      {/* Feedback and Comments */}
+          <Card className="small-grids">
+            <Card.Body>
+              <h2 className="text-center">Feedback and Comments</h2>
+              <h2 className="text-center1"><FaComments /> Teacher's Comment: Good progress this semester.</h2>
+            </Card.Body>
+          </Card>
+          </div>
+          </div>
+        
+  
+    </Container>
+    
+    <Footer/>
     </div>
   );
 };

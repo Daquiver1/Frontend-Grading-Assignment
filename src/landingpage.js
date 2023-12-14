@@ -1,5 +1,7 @@
 import React from 'react';
 import Navigation from './Navigation';
+import Footer from './footer';
+
 
 function LandingPage() {
   return (
@@ -43,6 +45,7 @@ function LandingPage() {
           Have questions? Reach out to our support team at support@gradeassessment.com
         </p>
       </div>
+      <Footer/>
     </div>
   );
 }

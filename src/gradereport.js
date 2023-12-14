@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import Navigation from './Navigation';
 import './style.css'
+import Footer from './footer';
+
 
 const GradeReportPage = () => {
   const [allGrades, setAllGrades] = useState([]);
@@ -77,7 +79,9 @@ const GradeReportPage = () => {
         </tbody>
       </table>
       </div>
+      <Footer/>
     </div>
+    
   );
 };
 

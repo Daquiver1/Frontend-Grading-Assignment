@@ -254,3 +254,169 @@ a.nav-link{
     color:rgb(4, 4, 98);
     font-family: system-ui;
 }
+
+
+/*FOOTER*/
+.footer {
+background-color: #222;
+color: #fff;
+padding: 20px 0;
+}
+
+.footer h4 {
+margin-bottom: 10px;
+font-size: 18px;
+}
+
+.footer p {
+font-size: 14px;
+}
+
+.footer ul {
+list-style: none;
+padding: 0;
+margin: 0;
+}
+
+.footer li {
+margin-bottom: 10px;
+}
+
+.footer a {
+color: #fff;
+text-decoration: none;
+}
+
+.footer a:hover {
+text-decoration: underline;
+}
+
+
+.footer-heading1{text-decoration: none;
+font-size: 40px;
+color: whitesmoke;
+font-family:Verdana;
+text-align:center;
+align-items: center;
+margin-right:10px;
+}
+
+.footer-heading2{text-decoration: none;
+font-size: 40px;
+color: whitesmoke;
+font-family:Verdana;
+text-align:center;
+align-items: center;
+margin-right:10px;
+margin-top:30px;
+}
+
+.footer-heading3{text-decoration: none;
+font-size: 40px;
+color: whitesmoke;
+font-family:Verdana;
+text-align:center;
+align-items: center;
+margin-right:10px;
+margin-top:30px;
+}
+
+.social1{
+margin-top:20px;
+margin-left:590px;
+margin-right:20px;
+}
+
+.social2{
+margin-top:10px;
+margin-left:590px;
+margin-right:20px;
+margin-bottom:0;
+}
+
+        
+.social-media-links li {
+display: inline-block;
+margin-right: 10px;
+}
+
+.social-media-links li i {
+font-size: 20px;
+}
+
+.quick-links{
+text-align: center;
+}
+
+.info-text1{
+    font-size: 14px;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: block;
+    text-align:center;
+    }
+
+    /*DASHBOARD*/
+    .dash{
+        margin-left:150px;
+        margin-top:100px;
+    }
+    .small-grids{
+    display:grid;
+     width: 300px;
+     margin-bottom:36px;
+    }
+
+    .progress-bar1{
+        width: 80%;
+        
+    }
+
+    .progress-bar2{
+        width: 81%;
+    }
+    .progress-bar3{
+        width: 79%;
+    }
+    .progress-bar4{
+        width: 77%;
+    }
+    .progress-bar5{
+        width: 83%;
+    }
+    .progress-bar6{
+        width: 70%;
+    }
+
+    .big-grids{
+        display:grid;
+        width: 700px;
+        margin-bottom: 70px;
+        
+    }
+
+    .sidebox{ 
+    
+        margin-left: 750px;
+        margin-top: -603px;
+        
+    }
+
+    .text-center{
+        color:rgb(4, 4, 98);
+}
+
+
+    .text-center1{
+        color:rgb(4, 4, 98);
+        font-size:17px;
+    }
+
+
+    .text-center2{
+        color:rgb(4, 4, 98);
+        font-size:17px;
+        text-align: justify;
+    }
+
+
