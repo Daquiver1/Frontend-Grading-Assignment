@@ -8,7 +8,7 @@ This project is a front-end web application for a Student Grade Reporting System
 
 The application consists of 7 main pages:
 
-- **Homepage:** Introduction to the system and its purpose.
+- **Landing Page:** Introduction to the system and its purpose.
 - **Login Page:** Mock login interface for student authentication.
 - **Dashboard:** Displays an overview of the student’s current grades and alerts for missing grades.
 - **Grade Report:** Shows a detailed view of the student's grades filtered by semester or academic year.
@@ -27,8 +27,8 @@ The application consists of 7 main pages:
 To set up the project locally, follow these steps:
 
 ```bash
-git clone https://github.com/your-github-username/DCIT_205_ASSIGNGMENT1.git
-cd repo-name
+git clone https://github.com/oswaldamoah/11046928_DCIT205_Assignment1.git
+cd assignment1
 npm install
 npm start
 ```
