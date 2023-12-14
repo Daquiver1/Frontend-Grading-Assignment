@@ -1,13 +1,13 @@
-
 import React, { useState } from 'react';
-import './InstructorContactPage.css';
+import './InstructorContact.css';
+import Navbar from './Navbar';
+import Footer from './Footer';
 
 const instructorsData = [
-  { id: 1, name: 'John Doe', email: 'john.doe@example.com' },
-  { id: 2, name: 'Jane Smith', email: 'jane.smith@example.com' },
-  { id: 3, name: 'Bob Johnson', email: 'bob.johnson@example.com' },
-  { id: 4, name: 'Alice Davis', email: 'alice.davis@example.com' },
- 
+  { id: 1, name: 'Dwumfour Abdullai Abdul-Aziz', email: 'adwumfour@ug.edu.gh', courseCodes: ['DCIT203'] },
+  { id: 2, name: 'Michael Agni Soli', email: 'jane.smith@example.com', courseCodes: ['DCIT205'] },
+  { id: 3, name: 'Paul Nii Tachie Ammah', email: 'bob.johnson@example.com', courseCodes: ['STAT202', 'STAT203'] },
+  { id: 4, name: 'Benjamin Ghansah', email: 'alice.davis@example.com', courseCodes: ['ENG101'] },
 ];
 
 const InstructorContactPage = () => {
@@ -24,11 +24,12 @@ const InstructorContactPage = () => {
   };
 
   const handleSendEmail = () => {
-   
     alert(`Simulating sending email to ${selectedInstructor.email}:\n\n${emailContent}`);
   };
 
   return (
+    <>
+    <Navbar />
     <div className="instructor-contact-page">
       <h1>Instructor Contact Page</h1>
 
@@ -54,6 +55,7 @@ const InstructorContactPage = () => {
           <h2>Contact Details</h2>
           <p>Name: {selectedInstructor.name}</p>
           <p>Email: {selectedInstructor.email}</p>
+          <p>Courses: {selectedInstructor.courseCodes.join(', ')}</p>
         </section>
       )}
 
@@ -72,11 +74,8 @@ const InstructorContactPage = () => {
         </section>
       )}
 
-// InstructorContactPage.js
-// ... (previous code)
-
-    <section className="passages-section">
-    <h2>Passages</h2>
+      <section className="passages-section">
+      <h2>Passages</h2>
     <p>
         Welcome to the Instructor Contact Page! This page allows you to explore information about our
         dedicated instructors who play a vital role in shaping the learning experience.
@@ -91,9 +90,11 @@ const InstructorContactPage = () => {
         Whether you have questions, need clarification, or simply want to express your thoughts,
         our instructors are here to help.
     </p>
-    </section>
-     </div>
-    );
-    };
+      </section>
+    </div>
+    <Footer />
+    </>
+  );
+};
 
-    export default InstructorContactPage;
+export default InstructorContactPage;
