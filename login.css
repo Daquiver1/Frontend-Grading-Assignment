@@ -28,7 +28,8 @@ body{
     width: 420px;
     background: transparent;
     border: 2px solid rgba(255, 255 , 255, .2);
-    backdrop-filter: blur(1.25rem);
+   -webkit-backdrop-filter: blur(1.25rem);
+    backdrop-filter:blur(1.25rem) ;
     box-shadow: 0 0 1px rgba(0, 0 , 0, .2);
     color: var(--white);
     border-radius: 10px;
