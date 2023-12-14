@@ -42,7 +42,7 @@ const Dashboard = () => {
         <p> Your GPA is:3.0</p>
         <ul>
           <Container>
-            
+         
           {grades.map((grade, index) => (
            <Col className = "new"><li key={index}>
               {grade.subject}:{" "}
@@ -52,6 +52,8 @@ const Dashboard = () => {
           
           </Container>
         </ul>
+
+
         {missingGrades.length > 0 && (
           <div>
             <h3>Alerts:Missing Grades!</h3>
