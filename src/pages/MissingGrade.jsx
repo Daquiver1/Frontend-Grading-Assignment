@@ -16,8 +16,8 @@ const MissingGrade = () => {
               </label>
               <div className="mt-2">
                 <select className="block w-full rounded-md border-0 p-3 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 outline-none sm:text-sm sm:leading-6">
-                  <option>DCIT 205 - Multimedia and Web Design</option>
-                  <option>DCIT 203 - Digital and Logic System Design</option>
+                  <option>DCIT 205 - Multimedia and web design</option>
+                  <option>DCIT 203 - Digital and logic system designs</option>
                   <option>DCIT 201 - Programming One</option>
                 </select>
               </div>
@@ -29,9 +29,9 @@ const MissingGrade = () => {
               </label>
               <div className="mt-2">
                 <select className="block w-full rounded-md border-0 p-3 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 outline-none sm:text-sm sm:leading-6">
-                  <option>Aziz Abdullai Dwumfour</option>
-                  <option>Paul Ammah</option>
-                  <option>Michael Soli Mensah</option>
+                  <option>Aziz Movno</option>
+                  <option>Paul Ama</option>
+                  <option>Mikaela Mensah</option>
                 </select>
               </div>
             </div>

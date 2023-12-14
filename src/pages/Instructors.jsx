@@ -4,14 +4,14 @@ import aziz from "../assets/images/aziz.jpeg";
 
 const people = [
   {
-    name: "Mr. Michael Soli",
+    name: "Mr. M Soli",
     role: "Lecturer",
     imageUrl: soli,
     twitterUrl: "#",
     linkedinUrl: "#",
   },
   {
-    name: "Aziz Abdullai Dwumfour",
+    name: "Aziz Movno",
     role: "Lecturer",
     imageUrl: aziz,
     twitterUrl: "#",
