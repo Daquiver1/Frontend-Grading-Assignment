@@ -1,5 +1,4 @@
 import "./component.css";
-import { Outlet, Link } from "react-router-dom";
 
 function HomePage() {
   return (
@@ -21,23 +20,22 @@ function HomePage() {
         </div>
       </div>
       <br />
-      <div className="nav_grid">
-        <div className="nav">1</div>
-        <div className="nav">2</div>
-        <div className="nav">3</div>
-        <div className="nav">4</div>
-        <div className="nav">5</div>
-        <div className="nav">6</div>
-        <div className="nav">7</div>
-      </div>
-      <br />
 
       <h1 style={{ color: "orange", textAlign: "center" }}>
         Welcome to the Missing Grade Report System
       </h1>
       <p>
-        This system allows students, parents, or teachers to report missing
-        grades for courses.
+        Welcome to our Missing Grade Report System! Our framework is intended to
+        give a consistent and proficient interaction for revealing and settling
+        missing grades.
+      </p>
+      <p>
+        With our simple to utilize interface, students can without a doubt
+        investigate the system and submit missing grade reports with two or
+        three snaps. The structure assembles key information, for instance, the
+        course name, instructor's nuances, and the possibility of the missing
+        grade. This data allows our administrative staff to investigate and
+        decide the issue
       </p>
       <p>
         To report a missing grade, please navigate to the Report Missing Grade
@@ -47,10 +45,6 @@ function HomePage() {
         If you're an administrator, you can access the Admin Dashboard to manage
         reported missing grades.
       </p>
-      <div>
-        <a href="/report-missing-grade">Report Missing Grade</a>
-        <a href="/admin-dashboard">Admin Dashboard</a>
-      </div>
     </>
   );
 }

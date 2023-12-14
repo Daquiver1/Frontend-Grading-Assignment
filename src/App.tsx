@@ -1,3 +1,4 @@
+import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import HomePage from "./components/HomePage";
 import LoginPage from "./components/LoginPage";
@@ -10,8 +11,9 @@ import HelpSupportPage from "./components/HelpSupportPage";
 function App() {
   return (
     <div>
-      <LoginPage />
+      <HomePage />
     </div>
   );
 }
+
 export default App;
