@@ -8,7 +8,11 @@ export const Navbar = () => {
   return (
     <nav>
       <div className="logo">
-        <img className="logo-img" src={require("../Images/logo.png")} alt="" />
+        <img
+          className="logo-img"
+          src={require("../Images/ug-logo.png")}
+          alt=""
+        />
       </div>
       <div
         className="menu"
