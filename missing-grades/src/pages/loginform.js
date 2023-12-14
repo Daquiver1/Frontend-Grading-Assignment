@@ -27,6 +27,6 @@ const loginform = () => {
     
     </div>
   )
-}
+  }
 
 export default loginform

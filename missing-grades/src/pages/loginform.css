@@ -8,11 +8,11 @@
 }
 @font-face {
   font-family: "lato regular";
-  src: url("../components/fonts/Lato-Regular.ttf");
+  src: url("../assets/fonts/Lato-Regular.ttf");
 }
 
 .page {
-  background-image: url("../components/images/sts.jpg");
+  background-image: url("../assets/images/sts.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
@@ -58,7 +58,7 @@
 }
 
 .student-mail{
-  background-image:url("../components/images/mail.png") ;
+  background-image:url("../assets/images/mail.png") ;
 }
 input {
   border: none;
