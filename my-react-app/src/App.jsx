@@ -5,7 +5,8 @@ import Landing from './Landing.jsx';
 import Login from './Login.jsx'; // Assuming Login.jsx exists
 import Dashboard from './Dashboard';
 import HelpAndSupport from './HelpAndSupport.jsx'
-
+import GradeReport from './GradeReport.jsx'
+import InstructorContactPage from './InstructorContactPage.jsx'
 function App() {
     return (
         
@@ -15,6 +16,8 @@ function App() {
                 <Route path="/login" element={<Login />} />
                 <Route path="/Dashboard" element={<Dashboard/>} />
                 <Route path="/HelpAndSupport" element={<HelpAndSupport/>} />
+                <Route path="/GradeReport" element={<GradeReport/>} />
+                <Route path="/InstructorContactPage" element={<InstructorContactPage/>} />
             </Routes>
         </Router>
     );

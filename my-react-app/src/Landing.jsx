@@ -18,9 +18,9 @@ function Landing() {
                     <div className="dropdown-content">
                         <Link to="/" className="dropdown-item">Landing</Link>
                         <Link to="/dashboard" className="dropdown-item">Dashboard</Link>
-                        <Link to="/grade-report" className="dropdown-item">Grade Report</Link>
+                        <Link to="/GradeReport" className="dropdown-item">Grade Report</Link>
                         <Link to="/missing-grade-form" className="dropdown-item">Missing Grade Form</Link>
-                        <Link to="/instructor-contact" className="dropdown-item">Instructor Contact</Link>
+                        <Link to="/InstructorContactPage" className="dropdown-item">Instructor Contact</Link>
                         <Link to="/HelpAndSupport" className="dropdown-item">Help and Support</Link>
                     </div>
                 </div>
