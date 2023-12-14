@@ -1,40 +1,58 @@
-import React, { useState } from 'react'
+import React, { useState } from "react";
 import "./styles/Contactus.css";
-import emailjs from '@emailjs/browser';
-function ContactUs() {
-  const [name, setName] = useState("");
-  const [subject, setSubject] = useState("")
-  const [message, setMessage] = useState("");
-  function sendEmail(e) {
-    e.preventDefault();
-    emailjs.sendForm('service_568b21c', 'template_40397dq', e
-    .target, 'user_DhJHGzKYgVZFvRrTQWOxN')
-    .then((result) => {
-      console.log(result.text);
-      }, (error) => {
-        console.log(error.text);
-        });
-        };
-        return (
-          <div className="contact-us">
-            <form onSubmit={sendEmail}>
-              <label>Your Name:</label>
-              <input type='text' name='name' value={name} onChange={(e)=>{setName(e.target.value
-              )}} required/><br />
-              <label>Subject:</label>
-              <select name='subject' value={subject} onChange={(e)=>{setSubject(e.target.value)}} >
-                <option value=''>--Please choose an option--</option>
-                <option value='General Inquiry'>General Inquiry</option> 
-                <option value='Feedback'>Feedback</option>
-                <option value='Technical Issue'>Technical Issue</option>
-                </select><br />
-                <label>Message:</label>
-                <textarea name='message' rows='4' cols='50' value={message} onChange={(e)=>{setMessage(
-                  e.target.value)}} required></textarea><br />
-                  <button type='submit'>Send</button>
-                  </form>
-                  </div>
-                  );
-                  }
-                  export default ContactUs;
-                  
+import InstructorList from "./instructorlist";
+import ContactBackground from "../Assets/contactus.avif";
+
+
+const Contact = () => {
+  const [selectedInstructor, setSelectedInstructor] = useState(null);
+  const [emailContent, setEmailContent] = useState("");
+
+  const handleInstructorSelect = (instructor) => {
+    setSelectedInstructor(instructor);
+  };
+
+  const handleEmailSubmit = () => {
+    // Simulate sending an email (you can implement this based on your needs)
+    alert(`Simulating email sent to ${selectedInstructor.name} with content: ${emailContent}`);
+  };
+
+  return (
+       <div className="contact-section-container">
+  <div className="contact-background-image-container">
+    <img src={ContactBackground} alt="" />
+  </div>
+      <div className="contact-page-wrapper">
+        <h1 className="primary-heading">Have a Question in Mind?</h1>
+        <h1 className="primary-heading">Let Us Help You</h1>
+        <div className="contact-form-container">
+          <input
+            type="text"
+            placeholder="yourmail@gmail.com"
+            onChange={(e) => setEmailContent(e.target.value)}
+          />
+          <button className="secondary-button" onClick={handleEmailSubmit}>
+            Submit
+          </button>
+        </div>
+      </div>
+
+      {/* New section for Instructor List */}
+      <div className="instructor-list-container">
+        <h2 className="secondary-heading">Instructors</h2>
+        <InstructorList onSelect={handleInstructorSelect} />
+      </div>
+
+      {/* Display selected instructor details */}
+      {selectedInstructor && (
+        <div className="instructor-details-container">
+          <h2 className="secondary-heading">{selectedInstructor.name}</h2>
+          <p>Email: {selectedInstructor.email}</p>
+          <p>Office: {selectedInstructor.office}</p>
+        </div>
+      )}
+    </div>
+  );
+};
+
+export default Contact;

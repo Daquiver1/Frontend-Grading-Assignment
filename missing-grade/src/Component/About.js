@@ -1,6 +1,7 @@
 import React from "react";
 import AboutBackground from "../Assets/pic.jpg";  
 import { Link } from 'react-router-dom';
+import "./styles/about.css";
 
 
 

@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import "./styles/login.css"
+import LoginBackground from "../Assets/login.avif";
+
 
 function Login() {
  const [email, setEmail] = useState('');
@@ -12,6 +14,19 @@ function Login() {
  };
 
  return (
+
+
+  <div className="login-section-container">
+  <div className="login-background-image-container">
+    <img src={LoginBackground} alt="" />
+  </div>
+  
+  <div className="login-section-text-container">
+    <h1 className="login-heading">
+Login Here!     </h1>
+  
+    </div>
+    
     <div className="background">
       <div className="shape"></div>
       <div className="shape"></div>
@@ -46,6 +61,7 @@ function Login() {
           </div>
         </div>
       </form>
+    </div>
     </div>
  );
 }

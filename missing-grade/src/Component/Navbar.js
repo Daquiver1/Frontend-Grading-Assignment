@@ -13,10 +13,10 @@ const ResponsiveNavbar = () => {
             <div className="navbar-links-container">
                 {isMenuOpen && (
                     <>
-                        <Link to="./Component/Dashboard">Dashboard</Link>
-                        <Link to="./Component/missinggradeform">Missing Grade form</Link>
-                        <Link to="./Component/Contactus">Contact Us</Link>
-                        <Link to="./Component/grade-report">Grade & Report</Link>
+                        <Link to="/Dashboard">Dashboard</Link>
+                        <Link to="/missinggradeform">Missing Grade form</Link>
+                        <Link to="/Contactus">Contact Us</Link>
+                        <Link to="/grade-report">Grade & Report</Link>
                     </>
                 )}
                 <button onClick={toggleMenu}>Menu</button>

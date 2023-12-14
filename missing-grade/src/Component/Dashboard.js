@@ -1,83 +1,175 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import "./styles/Dashboard.css";
+import {
+  LineChart,
+  Line,
+  XAxis,
+  YAxis,
+  CartesianGrid,
+  Tooltip,
+  Legend,
+} from "recharts";
+import { ResponsiveContainer } from "recharts";
+import { BarChart, Bar } from "recharts";
+import StudentImage from '../Assets/login.avif'; // This is correct
 
-const Dashboard = () => {
-  const [formData, setFormData] = useState({
-    surname: '',
-    firstName: '',
-    email: '',
-    date: '',
-    education: '',
-    organization: '',
-    position: '',
-    interests: [],
-  });
+function Dashboard() {
+  const studentData = [
+    {
+      subject: "DCIT 203",
+      grade: "A",
+      pictureId: "john_doe_picture",
+      score: 89,
+    },
+    {
+      subject: "DCIT 201",
+      grade: NaN,
+      score: 78,
+    },
+    {
+      subject: "DCIT 209",
+      grade: "A",
+      score: 84,
+    },
+    {
+      subject: "CBAS 201",
+      grade: "B+",
+      score: 74,
+    },
+    {
+      subject: "DCIT 207",
+      grade: NaN,
+      score: 85,
+    },
+    {
+      subject: "DCIT 205",
+      grade: "A",
+      score: 89,
+    },
+  ];
 
-  const handleChange = (e) => {
-    const { name, value, type, checked } = e.target;
-    setFormData((prevData) => ({
-      ...prevData,
-      [name]: type === 'checkbox' ? (checked ? [...prevData.interests, value] : prevData.interests.filter(item => item !== value)) : value,
-    }));
-  };
+  const [showAlert, setShowAlert] = useState(false);
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    // Add your form submission logic here using formData
-    console.log('Form submitted:', formData);
-  };
+  useEffect(() => {
+    // Simulate missing grades alert
+    setShowAlert(true);
+
+    // Hide the alert after 5 seconds (adjust the timing as needed)
+    const timeoutId = setTimeout(() => {
+      setShowAlert(false);
+    }, 5000);
+
+    return () => clearTimeout(timeoutId);
+  }, []);
 
   return (
-    <div className="col-2">
-      <img src="./images/under_grad_main.jpg" alt="Undergraduate Main" />
+    <main className="main-container">
+      {showAlert && (
+        <div className="alert top">
+          <strong> Alert!</strong> You have missing grades.
+        </div>
+      )}
+  <div className="main-title">
+        <h1>STUDENT DASHBOARD</h1>
+      </div>
 
-      <form onSubmit={handleSubmit}>
-        <h1>Short Course Registration Form</h1>
-        <p>
-          Please fill this form to register for short courses organized by the University of Ghana Computer Science Department
-        </p>
+      <div className="main-cards">
+        <div className="card">
+          <div className="card-inner">
+          <img src={StudentImage} alt="" />
+          </div>
+        </div>
+      </div>
 
-        <fieldset>
-          <legend>
-            <span className="number">1</span> Your Basic Info
-          </legend>
+      <div className="main-cards">
+        <div className="card">
+          <div className="card-inner">
+            <h3>STANLEY BOATENG</h3>
+          </div>
+          <h1>{studentData.length} courses</h1>
+        </div>
+      </div>
 
-          <label htmlFor="surname"></label>
-          <input type="text" id="surname" placeholder="Surname here" name="surname" onChange={handleChange} />
+      
 
-          <label htmlFor="firstName"></label>
-          <input type="text" id="firstName" placeholder="First name here" name="firstName" onChange={handleChange} />
+      <div className="table-container">
+      <table className="student-table">
+          <thead>
+            <tr>
+              <th>Subject</th>
+              <th>Score</th>
+              <th>Grade</th>
+            </tr>
+          </thead>
+          <tbody>
+            {studentData.map((student, index) => (
+              <tr key={index}>
+                <td>{student.subject}</td>
+                <td>{student.score}</td>
+                <td>{student.grade}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
 
-          <label htmlFor="email"></label>
-          <input type="email" placeholder="Email" id="email" name="email" onChange={handleChange} />
+      <div className="charts">
+        <ResponsiveContainer width="100%" height={300}>
+          <BarChart
+            width={500}
+            height={300}
+            data={studentData}
+            margin={{
+              top: 5,
+              right: 30,
+              left: 20,
+              bottom: 5,
+            }}
+          >
+            <CartesianGrid strokeDasharray="3 3" />
+            <XAxis dataKey="subject" />
+            <YAxis />
+            <Tooltip />
+            <Legend />
+            <Bar dataKey="score" fill="#8884d8" />
+          </BarChart>
+        </ResponsiveContainer>
 
-          <input type="date" id="date" name="date" onChange={handleChange} />
-        </fieldset>
+        <ResponsiveContainer width="100%" height={300}>
+          <LineChart
+            width={500}
+            height={300}
+            data={studentData}
+            margin={{
+              top: 5,
+              right: 30,
+              left: 20,
+              bottom: 5,
+            }}
+          >
+            <CartesianGrid strokeDasharray="3 3" />
+            <XAxis dataKey="subject" />
+            <YAxis />
+            <Tooltip />
+            <Legend />
+            <Line
+              type="monotone"
+              dataKey="score"
+              stroke="#8884d8"
+              activeDot={{ r: 8 }}
+              />
+              </LineChart>
+            </ResponsiveContainer>
+          </div>
+        </main>
+      );
+    }
+    
+    export default Dashboard;
 
-        {/* Other fieldsets go here... */}
 
-        <fieldset>
-          <legend>
-            <span className="number">4</span> Course Selection
-          </legend>
-          <label></label>
-          <input
-            type="checkbox"
-            id="development"
-            value="Microsoft SQL Server Database Administration (₵ 995)"
-            name="interests"
-            onChange={handleChange}
-          />
-          <label className="light" htmlFor="development">
-            Microsoft SQL Server Database Administration (₵ 995)
-          </label>
-          {/* Add other checkboxes similarly */}
-        </fieldset>
 
-        <button type="submit">Sign Up</button>
-      </form>
-    </div>
-  );
-};
+    
+    
+  
 
-export default Dashboard;
