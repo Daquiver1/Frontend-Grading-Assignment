@@ -1,5 +1,6 @@
 import React, {useState } from 'react';
 import Navigation from './Navigation';
+import './style.css'
 
 
 function MissingGradeForm(){
@@ -31,13 +32,18 @@ function MissingGradeForm(){
     };
 
     return(
+        <body>
+        <div>
+              <Navigation/>
         <div className="missinggrade">
-             <Navigation/>
-            <h2>Report Missing Grade</h2>
+        <div className="form-title">
+        <h2>Report Missing Grade</h2>
+        </div>
             <form onSubmit = {handleSubmit}>
+            <div className="namebox"> 
                 <label>
-                    Name:
-                    <input type = "text"
+                    Name<br/>
+                    <input className='form-name' type = "text"
                     name = "coursename"
                     value = {formData.courseName}
                     onChange = {handleChange}
@@ -45,63 +51,75 @@ function MissingGradeForm(){
                 </label>
                
                 <label>
-                    Surname:
-                    <input type = "text"
+                    Surname <br/>
+                    <input className='form-name' type = "text"
                     name = "coursename"
                     value = {formData.courseName}
                     onChange = {handleChange}
                     required/>
                 </label>
+                </div>
                 <br/>
+                <div className="id-box">
                 <label>
-                    ID:
-                    <input type = "text"
+                    ID  <br/>
+                    <input className='form-name2' type = "text"
                     name = "coursename"
                     value = {formData.courseName}
                     onChange = {handleChange}
                     required/>
                 </label>
+                </div>
                 <br/>
-                <br/>
+                <div className="id-box">
                 <label>
-                    Course Code:
-                    <input type = "text"
+                    Course Code  <br/>
+                    <input  className='form-name2' type = "text" 
                     name = "coursename"
                     value = {formData.courseName}
                     onChange = {handleChange}
                     required/>
                 </label>
+                </div>
                 <br/>
+                <div className="id-box">
                 <label>
-                    Instructor Name:
-                    <input type = "text"
+                    Instructor Name  <br/>
+                    <input className='form-name2' type = "text"
                     name = "instructorName"
                     value = {formData.instructorName}
                     onChange = {handleChange}
                     required/>
                 </label>
+                </div>
                 <br/>
+                <div className="id-box">
                 <label>
-                Expected Grade:
-                    <input type = "text"
+                Expected Grade  <br/>
+                    <input className='form-name2' type = "text"
                     name = "expectedGrade"
                     value = {formData.expectedGrade}
                     onChange = {handleChange}
                     required/>
                 </label>
+                </div>
                 <br/>
+                <div className="id-box">
                 <label>
-                Explanation:
-                    <textarea 
+                Explanation  <br/>
+                    <textarea className='form-name3'
                     name = "explanation"
                     value = {formData.explanation}
                     onChange = {handleChange}
                     required/>
                 </label>
+                </div>
                 <br/>
-                <button type = "submit">Report</button>
+                <button className="submit-button" type = "submit">Submit</button>
             </form>
         </div>
+        </div>
+        </body>
     );
 }
 export default MissingGradeForm;
