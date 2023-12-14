@@ -59,7 +59,7 @@ Please adhere to the project's coding standards and provide clear and detailed p
 
 # **Caption: This is a screenshot of the login page.**
 
-![login page Screenshot](assets/loginpage.png)
+![loginpage Screenshot](assets/loginpage.png)
 
 
 # **Caption: This is a screenshot of the Dashboard page.**
