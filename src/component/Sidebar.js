@@ -23,11 +23,12 @@ const Sidebar = () => {
             Dashboard
           </li>
         </Link>
-
+          <Link to="/gradeform">
         <li className="m-[1rem]   hover:bg-[#232590] transition duration-300 ease-in-out  hover:text-white hover:p-2    rounded-full flex gap-3 p-[0.4rem]">
           <IoNewspaperOutline size={26} />
-          Newsletter
+         Grade Form
         </li>
+        </Link>
         <Link to="/faqs">
           <li className="m-[1rem]   hover:bg-[#232590] transition duration-300 ease-in-out  hover:text-white hover:p-2    rounded-full flex gap-3 p-[0.4rem]">
             <IoHelpCircleOutline size={26} /> Help/FAQ's

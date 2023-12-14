@@ -6,6 +6,7 @@ import Profile from "./pages/Profile";
 import Grade from "./pages/Grade";
 import Faqs from "./pages/Faqs";
 import Instructorpage from "./pages/Instructorpage";
+import Gradeform from "./pages/Gradeform";
 
 export const router = createBrowserRouter([
     {
@@ -50,5 +51,9 @@ export const router = createBrowserRouter([
         path:"/instructorpage",
         element: <Instructorpage />,
     },
+    {
+        path:"/gradeform",
+        element: <Gradeform />,
+    }
  
 ])
