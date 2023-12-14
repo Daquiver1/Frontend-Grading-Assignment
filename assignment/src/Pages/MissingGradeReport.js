@@ -1,102 +1,100 @@
-// src/components/MissingGradeFormPage.jsx
+// src/pages/MissingGradeFormPage.js
 import React, { useState } from 'react';
 import Navbar from '../Components/Navbar';
+import Footer from '../Components/Footer';
 
 const MissingGradeFormPage = () => {
-  // State for form fields
-  const [courseName, setCourseName] = useState('');
-  const [instructorName, setInstructorName] = useState('');
-  const [expectedGrade, setExpectedGrade] = useState('');
-  const [explanation, setExplanation] = useState('');
+  const [formData, setFormData] = useState({
+    courseName: '',
+    instructorName: '',
+    expectedGrade: '',
+    explanation: '',
+  });
 
-  // Function to handle form submission
+  const [confirmationMessage, setConfirmationMessage] = useState('');
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData((prevData) => ({ ...prevData, [name]: value }));
+  };
+
   const handleSubmit = (e) => {
     e.preventDefault();
-
-    console.log({
-      courseName,
-      instructorName,
-      expectedGrade,
-      explanation,
-    });
-
-    
-    setCourseName('');
-    setInstructorName('');
-    setExpectedGrade('');
-    setExplanation('');
+    // Simulate form submission logic (you can replace this with your actual API call)
+    // For demonstration purposes, we'll just set a confirmation message
+    setConfirmationMessage('Grade report submitted successfully!');
   };
 
   return (
-    <>
-    <Navbar/>
-    <div className="bg-gray-100 min-h-screen">
-      <div className="container mx-auto p-8">
-        <h1 className="text-4xl font-bold mb-4">Missing Grade Form</h1>
+    <div>
+      <Navbar />
+      <div className="container mx-auto p-4">
+        <section className="mb-8 text-center">
+          <h1 className="text-4xl font-bold mb-4 text-red-600">Report Missing Grade</h1>
+          <p className="text-lg text-gray-600">Please fill in the details below to report a missing grade.</p>
+        </section>
 
-      
-        <form onSubmit={handleSubmit} className="max-w-md">
+        <form onSubmit={handleSubmit}>
           <div className="mb-4">
-            <label htmlFor="courseName" className="block text-sm font-medium text-gray-600">
-              Course Name
-            </label>
+            <label className="block text-gray-600">Course Name:</label>
             <input
               type="text"
-              id="courseName"
-              className="mt-1 p-2 w-full border rounded-md"
-              value={courseName}
-              onChange={(e) => setCourseName(e.target.value)}
-              required
+              name="courseName"
+              value={formData.courseName}
+              onChange={handleChange}
+              className="w-full p-2 border border-gray-300 rounded-md focus:outline-none focus:border-red-500"
             />
           </div>
 
           <div className="mb-4">
-            <label htmlFor="instructorName" className="block text-sm font-medium text-gray-600">
-              Instructor Name
-            </label>
+            <label className="block text-gray-600">Instructor Name:</label>
             <input
               type="text"
-              id="instructorName"
-              className="mt-1 p-2 w-full border rounded-md"
-              value={instructorName}
-              onChange={(e) => setInstructorName(e.target.value)}
-              required
-            />
-          </div>
-          <div className="mb-4">
-            <label htmlFor="expectedGrade" className="block text-sm font-medium text-gray-600">
-              Expected Grade
-            </label>
-            <input
-              type="text"
-              id="expectedGrade"
-              className="mt-1 p-2 w-full border rounded-md"
-              value={expectedGrade}
-              onChange={(e) => setExpectedGrade(e.target.value)}
-              required
+              name="instructorName"
+              value={formData.instructorName}
+              onChange={handleChange}
+              className="w-full p-2 border border-gray-300 rounded-md focus:outline-none focus:border-red-500"
             />
           </div>
 
           <div className="mb-4">
-            <label htmlFor="explanation" className="block text-sm font-medium text-gray-600">
-              Explanation
-            </label>
+            <label className="block text-gray-600">Expected Grade:</label>
+            <input
+              type="text"
+              name="expectedGrade"
+              value={formData.expectedGrade}
+              onChange={handleChange}
+              className="w-full p-2 border border-gray-300 rounded-md focus:outline-none focus:border-red-500"
+            />
+          </div>
+
+          <div className="mb-4">
+            <label className="block text-gray-600">Explanation:</label>
             <textarea
-              id="explanation"
-              className="mt-1 p-2 w-full border rounded-md"
-              value={explanation}
-              onChange={(e) => setExplanation(e.target.value)}
-              required
-            />
+              name="explanation"
+              value={formData.explanation}
+              onChange={handleChange}
+              rows="4"
+              className="w-full p-2 border border-gray-300 rounded-md focus:outline-none focus:border-red-500"
+            ></textarea>
           </div>
 
-          <button type="submit" className="bg-blue-500 text-white p-2 rounded-md">
+          <button
+            type="submit"
+            className="bg-red-500 text-white px-6 py-3 rounded-md hover:bg-red-700 focus:outline-none"
+          >
             Submit
           </button>
         </form>
+
+        {confirmationMessage && (
+          <div className="mt-4 p-4 bg-green-100 text-green-700 rounded-md">
+            {confirmationMessage}
+          </div>
+        )}
       </div>
+      <Footer />
     </div>
-    </>
   );
 };
 

@@ -13,7 +13,7 @@ function Navbar(){
             <h3>Grade Repo</h3>
             <nav ref={navRef}>
                 <Link to="/">Home</Link>
-                <a href="/#">Dashboard</a>
+                <a href="/Dashboard">Dashboard</a>
                 <a href="/Contact">Contact </a>
                 <Link to="/login">Login</Link>
                 <button className="nav-btn nav close-btn" onClick={showNavbar}>

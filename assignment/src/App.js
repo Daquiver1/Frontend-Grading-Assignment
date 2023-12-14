@@ -7,11 +7,12 @@ import Dashboard from "./Pages/Dashboard";
 import Contact from "./Pages/Contact";
 import HelpSupportPage from "./Pages/HelpSupportPage";
 import LandingPage from "./Pages/Landing page";
+import Footer from "./Components/Footer";
 
 function App() {
   return (
         <React.Fragment>
-          <LandingPage/>
+          <MissingGradeFormPage/>
         </React.Fragment>
   );
 }
