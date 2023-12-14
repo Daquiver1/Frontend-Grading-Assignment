@@ -13,7 +13,7 @@ const LoginPage = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        if (studentId !== '12345678' && pin !== '1234') {
+        if (studentId.length === 8 && pin.length === 5) {
           history.push('/home');
             
         } else {

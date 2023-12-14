@@ -6,19 +6,19 @@ const Navbar = () => {
     <nav className="navbar">
       <ul>
         <li>
-          <a href="../Components/HomePage">Home</a>
+          <a href="/HomePage">Home</a>
         </li>
         <li>
-          <a href="../Components/DashboardPage">Dashboard</a>
+          <a href="/DashboardPage">Dashboard</a>
         </li>
         <li>
-          <a href="../Components/MissingGradePage">Missing Grade</a>
+          <a href="/MissingGradePage">Missing Grade</a>
         </li>
         <li>
-        <a href="../Components/GradeReportPage">Grade Report</a>
+        <a href="/GradeReportPage">Grade Report</a>
         </li>
         <li>
-        <a href="../Components/HelpAndSupportPage">Help</a>
+        <a href=".HelpAndSupportPage">Help</a>
         </li>
         <li>
         <a href="../Components/ContactPage">Contact</a>
