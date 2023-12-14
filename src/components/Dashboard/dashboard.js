@@ -52,3 +52,31 @@ const state1 = {
 
 
 };
+
+const state2 = {
+          
+  series: [{
+    data: [400, 430, 448, 470, 540, 580, 690, 1100, 1200, 1380]
+  }],
+  options: {
+    chart: {
+      type: 'bar',
+      height: 350
+    },
+    plotOptions: {
+      bar: {
+        borderRadius: 4,
+        horizontal: false,
+      }
+    },
+    dataLabels: {
+      enabled: false
+    },
+    xaxis: {
+      categories: ['Semester one 2020', 'Semester Two 2020', 'Semester One 2021', 'Semester Two 2021', 'Semester One 2022','Semester Two 2022'
+      ],
+    }
+  },
+
+
+};
