@@ -3,7 +3,6 @@ import React from 'react'
 import{Nav,
   NavLink,
   NavMenu,
-  logo,
   NavBtn,
   NavBtnLink} from './NavbarElements';
 
@@ -38,7 +37,7 @@ const Navbar = () => {
           </NavLink>
         </NavMenu>
         <NavBtn>
-          <NavBtnLink to='/'>Sign Out</NavBtnLink>
+          <NavBtnLink to='/Login'>Sign Out</NavBtnLink>
         </NavBtn>
        </Nav>
     </>

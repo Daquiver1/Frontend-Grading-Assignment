@@ -11,9 +11,10 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 function App(){
   return(
+  
     <Router>
   <Routes>
-  <Route path='/Login' element = {<Login />} />
+  <Route path="/"index element = {<Login />} />
      <Route path='/Dashboard' element = {<Dashboard />} />
      <Route path='/Help and Support' element = {< Help and Support />} />
      <Route path='/Contact Instructor' element = {< Contact Instructor />} />

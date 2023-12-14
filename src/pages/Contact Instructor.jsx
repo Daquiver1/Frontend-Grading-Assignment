@@ -8,9 +8,9 @@ import Navbar from '../components/Navbar'
 
 export const Contact = () => {
     return (
-        <form>
+        <>
              <Navbar></Navbar>
-       <h1>Contact Instructor</h1>
-    </form>
+       <h1>Contact<span>Here</span></h1>
+    </>
     );
 };
