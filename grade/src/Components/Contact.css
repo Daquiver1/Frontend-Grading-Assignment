@@ -1,62 +1,51 @@
+/* Contact.css */
+
 .contact {
+  padding: 20px;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.form-container {
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input,
+textarea {
   width: 100%;
-  height: 100vh;
-  position: relative;
-  background: rgba(0,0,0,.5);
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 16px;
+  margin-top: 5px;
 }
 
-.contact:before {
-  content: '';
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  z-index: -1;
+button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
 }
 
-
-.contact .container .form-container {
-display: flex;
-justify-content: center;
-align-items: center;
-height: 100%;
-color: #f8f8f8;
-}
-
-.contact form {
-  width: 50%;
-  margin: 1rem;
-}
-
-.contact .form-container div {
-  display: flex;
-  flex-direction: column;
-}
-
-.contact form label {
-  margin: 2rem 0 .7rem 0;
-  display: none;
-}
-
-.contact form input, textarea {
-  padding: .5rem;
-  font-size: 1.2rem;
-  color: #f8f8f8;
-  margin: 1rem 0;
-  font-family: 'Roboto', sans-serif;
-  background: rgba(0, 0, 0, .15);
-  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-  backdrop-filter: blur(4px);
-  border-radius: 4px;
-  border: 1px solid rgba(0, 0, 0, .15);
-}
-
-.contact form input:focus,textarea:focus {
-  outline: var(--primary-color);
-  box-shadow: 0 0 12px 0 var(--primary-color);
-}
-
-@media screen and (max-width: 940px) {
-  .contact form {
-      width: 100%;
-  }
+button:hover {
+  background-color: #0056b3;
 }

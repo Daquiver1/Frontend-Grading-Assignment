@@ -45,7 +45,7 @@ const AppGradeReport = () => {
 
  return (
     <div className="report-container">
-      <h1>{studentData.name}'s Grade Report</h1>
+      <h1> Grade Report</h1>
       <h2>GPA: {studentData.gpa}</h2>
       <h2>CGPA: {studentData.cgpa}</h2>
       {studentData.semesters.map((semester, index) => (

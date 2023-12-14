@@ -22,7 +22,7 @@ function App() {
     <>
     <AppHead />
     <Routes>
-      <Route path ='/' element={<AppHero />} />
+      <Route path ='/home' element={<AppHero />} />
       <Route path="Dashboard" element={<DashboardPage />} />
       <Route path="GradeReport" element={<AppGradeReport />} />
       <Route path="Contact" element={<AppContact />} />

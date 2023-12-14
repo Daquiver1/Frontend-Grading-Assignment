@@ -1,39 +1,53 @@
-import React, { useState } from 'react'
-import { FaEnvelope } from 'react-icons/fa';
-import { RiLockPasswordLine } from 'react-icons/ri';
+import React, { useState } from 'react';
 
-const AppLogIn = () => {
+const LoginSignupPage = () => {
+  const [isLogin, setIsLogin] = useState(true);
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
+  const [rememberMe, setRememberMe] = useState(false);
+  const [forgotPasswordEmail, setForgotPasswordEmail] = useState('');
 
-  const [action,setAction] = useState("Sign Up");
+  const handleLogin = () => {
+    // Handle login logic
+  };
+
+  const handleSignup = () => {
+    // Handle signup logic
+  };
+
+ 
 
   return (
-    <div className="container">
-      <div className="header">
-        <div className="text">{action}</div>
-        <div className="underline"></div>
-      </div>
-      <div className="inputs">
-        {action==="Log In"?<div></div>:<div className="input">
-          <input type='text' placeholder='Username' />
-        </div>}
-        
-        <div className="input">
-        <FaEnvelope />
-          <input type="email" placeholder='Enter Your Email' />
+    <div>
+      {isLogin ? (
+        <div>
+          <h2>Login</h2>
+          <input type="text" placeholder="Email" value={email} onChange={(e) => setEmail(e.target.value)} />
+          <input type="password" placeholder="Password" value={password} onChange={(e) => setPassword(e.target.value)} />
+          <label>
+            <input type="checkbox" checked={rememberMe} onChange={() => setRememberMe(!rememberMe)} />
+            Remember me
+          </label>
+          <button onClick={handleLogin}>Login</button>
+          <p onClick={() => setIsLogin(false)}>Don't have an account? Sign up</p>
+          <p onClick={() => setForgotPasswordEmail(email)}>Forgot password?</p>
         </div>
-        <div className="input">
-        <RiLockPasswordLine />
-          <input type="password" placeholder='Enter Your Password'/>
+      ) : (
+        <div>
+          <h2>Sign Up</h2>
+          {/* Signup form fields */}
+          <button onClick={handleSignup}>Sign Up</button>
+          <p onClick={() => setIsLogin(true)}>Already have an account? Login</p>
         </div>
-      </div>
-      {action==="Sign Up"?<div></div>:<div className="forgot-password">Forgot Password? <span>Click Here</span></div>}
-      
-      <div className="submit-container">
-        <div className={action==="Login"?"submit gray":"submit"} onClick={()=>{setAction("Sign Up")}}>Sign Up</div>
-        <div className={action==="SignUp"?"submit gray":"submit"} onClick={()=>{setAction("Log In")}}>Log In</div>
-      </div>
+      )}
+      {forgotPasswordEmail && (
+        <div>
+          <h2>Forgot Password</h2>
+          <p>An email with instructions to reset your password has been sent to {forgotPasswordEmail}</p>
+        </div>
+      )}
     </div>
-  )
-}
+  );
+};
 
-export default AppLogIn
+export default LoginSignupPage;

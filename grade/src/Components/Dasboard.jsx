@@ -1,52 +1,21 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import './Dashboard.css';
 
 const DashboardPage = () => {
- const [grades, setGrades] = useState([]);
- const [missingGrades, setMissingGrades] = useState([]);
 
- useEffect(() => {
-    fetchGrades();
- }, []);
-
- const fetchGrades = async () => {
-    const response = await fetch('https://your-api-url/grades');
-    const data = await response.json();
-    setGrades(data.grades);
-    setMissingGrades(data.missingGrades);
- };
 
  return (
-    <div className="dashboard">
-      <h1>Dashboard</h1>
-      <div className="grades-container">
-        <h2>Current Grades</h2>
-        <table>
-          <thead>
-            <tr>
-              <th>Subject</th>
-              <th>Grade</th>
-            </tr>
-          </thead>
-          <tbody>
-            {grades.map((grade, index) => (
-              <tr key={index}>
-                <td>{grade.subject}</td>
-                <td>{grade.grade}</td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
-      </div>
-      <div className="alerts-container">
-        <h2>Alerts</h2>
-        <ul>
-          {missingGrades.map((missingGrade, index) => (
-            <li key={index}>Missing grade for subject: {missingGrade.subject}</li>
-          ))}
-        </ul>
-      </div>
-    </div>
+  <div>
+  <h1>Welcome to the Missing Grade Reporting System Dashboard</h1>
+  <p>Here are some quick links and statistics:</p>
+  <ul>
+    <li><a href="/MissingGradeForm">Report a Missing Grade</a></li>
+    <li><a href="/GradeReport">View My Reports</a></li>
+  </ul>
+  <div>
+    <h2>No missing grades at the moment</h2>
+  </div>
+</div>
  );
 };
 
