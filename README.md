@@ -1,6 +1,6 @@
 # Missing Grade Report Page
 ## 11279787_DCIT205_Assignment1
-# Click react-app to open the actual react app
+# Click react-app to open the actual react app, npm start in the react-app
 I've created a React app to simplify the process of finding and filling in missing grades for students. The app features a user-friendly interface for easy grade input and tracking. It uses an intelligent algorithm to identify missing entries and suggests possible grades based on historical performance. The app also includes data visualizations for a quick overview of class performance, helping educators make informed decisions. This tool saves time for educators and provides students with transparent access to their grade information.
 
 # Web Pages
