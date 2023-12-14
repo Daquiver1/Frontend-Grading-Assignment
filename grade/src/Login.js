@@ -9,7 +9,6 @@ function Login() {
   const [error, setError] = useState('');
 
   const handleLogin = () => {
-    // Validate student ID and PIN
     if (!/^\d{8}$/.test(studentId)) {
       setError('Student ID must be 8 numbers');
       return;
@@ -19,8 +18,6 @@ function Login() {
       setError('PIN must be 5 numbers');
       return;
     }
-
-    // You can implement authentication logic here
     console.log('Logging in with Student ID:', studentId, 'and PIN:', pin);
     setError('');
   };
