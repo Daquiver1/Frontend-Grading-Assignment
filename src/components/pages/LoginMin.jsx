@@ -1,14 +1,14 @@
 import { Link } from "react-router-dom";
 
-const LoginFooter = () => {
+const LoginMin = () => {
   const dateValue = new Date();
   const dateYear = dateValue.getFullYear();
 
   return (
     <>
-      <div className="container max-xl:hidden xl:flex place-items-center bg-blue-800 w-full justify-center fixed bottom-0">
-        {/*Specify position whn using directions like right, left etc*/}
-        <div className="left- flex place-items-center gap-5">
+      <div className="container flex flex-col place-items-center bg-blue-800 w-full justify-center fixed bottom-0">
+        {/*Specify position when using directions like right, left etc*/}
+        <div className="left- flex flex-col place-items-center gap-5">
           <img className="rounded-full w-16 h-16" src="/coat-arms.jpg" alt="" />
           <Link className="text-blue-100" to="/legal-section">
             Legal Docs
@@ -29,10 +29,10 @@ const LoginFooter = () => {
             Guidelines
           </Link>
         </div>
-        <div className="date-year text-red-400 mr-5 ml-5">
+        <div className="date-year text-red-400 mr-5 ml-5 mt-5">
           <p>Copyright &copy; {dateYear} Pep&apos;s Grade Report System</p>
         </div>
-        <div className="contact-section flex gap-5">
+        <div className="contact-section flex flex-col place-items-center gap-5 mt-5">
           <div className="flex">
             <button className="block w-6 h-6 text-blue-50">
               <svg
@@ -89,4 +89,4 @@ const LoginFooter = () => {
   );
 };
 
-export default LoginFooter;
+export default LoginMin;

@@ -7,6 +7,8 @@ import Gradereport from "./components/pages/Gradereport.jsx";
 import MissingGrade from "./components/pages/MissingGrade.jsx";
 import Help from "./components/pages/Help.jsx";
 import Instructor from "./components/pages/Instructor.jsx";
+import MinFooter from "./components/pages/MinFooter.jsx";
+import LoginMin from "./components/pages/LoginMin.jsx";
 
 function App() {
   return (
@@ -19,6 +21,8 @@ function App() {
         <Route path="/missing" element={<MissingGrade></MissingGrade>}></Route>
         <Route path="/help" element={<Help></Help>}></Route>
         <Route path="/instructor" element={<Instructor></Instructor>}></Route>
+        <Route path="/min" element={<MinFooter></MinFooter>}></Route>
+        <Route path="/logmin" element={<LoginMin></LoginMin>}></Route>
       </Routes>
     </>
   );

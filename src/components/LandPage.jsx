@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Header from "./pages/header";
 import LoginFooter from "./pages/LoginFooter";
+import LoginMin from "./pages/LoginMin";
 
 const LandPage = () => {
   const [showText, setShowText] = useState(false);
@@ -21,7 +22,7 @@ const LandPage = () => {
             </p>
           </div>
         </div>
-        <div className="sliding-text flex flex-col justify-center place-items-center mt-52">
+        <div className="sliding-text minfooter flex flex-col justify-center place-items-center mt-52">
           <div className="text-1">
             <p className="sliding-texts">Have Issues With Your Grade?</p>
             <p className="sliding-semi-text">
@@ -46,6 +47,7 @@ const LandPage = () => {
           </div>
         </div>
       </div>
+      <LoginMin></LoginMin>
       <LoginFooter></LoginFooter>
     </>
   );

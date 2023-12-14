@@ -75,3 +75,10 @@
     transform: translateX(30%);
   }
 }
+
+
+@media(max-width: 1280px){
+  .minfooter{
+    display: none;
+  }
+}
