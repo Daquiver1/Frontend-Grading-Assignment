@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Navbar from '../Navigation-Bar/navbar';
 import Footer from '../Footer/Footer';
+import './InstructorContact.css';
 
 const InstructorContact = () => {
   const [instructors, setInstructors] = useState([
