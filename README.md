@@ -54,15 +54,8 @@ To contribute to this project, please follow these guidelines:
 Please adhere to the project's coding standards and provide clear and detailed pull request descriptions.
 
 ## Screenshot
-
-![Screenshot (44)](https://github.com/mighty808/11353372_DCIT205_Assignment1/assets/142548335/6258ffc1-e6de-4d77-8081-0f42292a82e0)
-![Screenshot (45)](https://github.com/mighty808/11353372_DCIT205_Assignme![Screenshot (47)]![Screenshot (48)]![Screenshot (49![Screenshot (54)](https://github.com/mighty808/11353372_DCIT205_Assignment1/assets/142548335/f1d2e414-5e5f-43d7-be11-bc5b4682b4f0)
-![Screenshot (53)](https://github.com/mighty808/11353372_DCIT205_Assignment1/assets/142548335/53e57372-dbda-4477-bb2d-74bdf6fe6163)
-)]![Scre![Screenshot (52)](https://github.com/mighty808/11353372_DCIT205_Assignment1/assets/142548335/c63ce61c-4895-4971-8efb-3e57eabe50e2)
-enshot (51)](https://github.com/mighty808/11353372_DCIT205_Assignment1/assets/142548335/224e455d-df9a-41f3-9a5b-da13a9e77d1b)
-![Screenshot (50)](https://github.com/mighty808/11353372_DCIT205_Assignment1/assets/142548335/0ba3f912-aec6-4d18-a711-d5244491062f)
-(https://github.com/mighty808/11353372_DCIT205_Assignment1/assets/142548335/39b63180-9b37-4cc7-8442-b748812cf477)
-(https://github.com/mighty808/11353372_DCIT205_Assignment1/assets/142548335/6aa957c4-358a-4c1b-89a9-41cc65155b5a)
-(https://github.com/mighty808/11353372_DCIT205_Assignment1/assets/142548335/44665c8a-9918-41ab-951d-1e25697f1178)
-nt1/assets/142548335/50b3796d-8b06-4f67-aac3-9bc9d622004d![Screenshot (46)](https://github.com/mighty808/11353372_DCIT205_Assignment1/assets/142548335/96a3a8b9-95d6-4e40-a8cc-6b78183a5de4)
-)
+![Screenshot (44)](https://github.com/mighty808/11353372_DCIT205_Assignment1/assets/142548335/b20d7ca3-77f1-4fc6-8c99-6f94ae876cc8)
+![Screenshot (45)](https://github.com/mighty808/11353372_DCIT205_Assignment1/assets/142548335/867154b5-3983-4544-af7a-f7ae1137ea7f)
+![Screenshot (46)](https://github.com/mighty808/11353372_DCIT205_Assignment1/assets/142548335/99fc8e42-41cc-4851-8eb5-b83c8ffc43ae)
+![Screenshot (47)](https://github.com/mighty808/11353372_DC![Screenshot (48)](https://github.com/mighty808/11353372_DCIT205_Assignment1/assets/142548335/9d02a887-f16d-473a-88a8-9b2c4e1b0d2d)
+IT205_Assignment1/assets/142548335/f0c24837-222f-44d2-ae4f-d196814fb189)
