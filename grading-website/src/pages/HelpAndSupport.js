@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "../components/Navbar";
 import HeroSection from "../components/HeroSection";
 import Accordion from "../components/Accordion";
-
+import Footer from "../components/Footer";
 function HelpAndSupport() {
   const backgroundImage = (
     <>
@@ -60,6 +60,7 @@ function HelpAndSupport() {
         pageContent={pageContent}
       />
       <Accordion />
+      <Footer />
     </>
   );
 }
