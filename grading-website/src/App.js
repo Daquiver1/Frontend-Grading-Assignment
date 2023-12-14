@@ -7,11 +7,12 @@ import HelpAndSupport from "./pages/HelpAndSupport";
 import MissingGradeFormPage from "./pages/MissingGradeFormPage";
 import InstructorContact from "./pages/InstructorContact";
 import GradeReport from "./pages/GradeReport";
+
 function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/home" element={<Home />} />
+        <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login />} />
         <Route path="/help" element={<HelpAndSupport />} />
         <Route path="/missing" element={<MissingGradeFormPage />} />
