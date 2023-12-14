@@ -1,4 +1,4 @@
-import Typed from 'react-typed'
+// import Typed from 'react-typed'
 
 const HeroSection = () => {
   return ( 
@@ -15,13 +15,13 @@ const HeroSection = () => {
             <p className="md:text-5xl sm:text-4xl text-xl font-bold py-4">
               Excellent for grades 
             </p>
-            <Typed
+            {/* <Typed
             className="md:text-5xl sm:text-4xl text-xl font-bold md:pl-4 pl-2 uppercase"
               strings={['MONITORING ','reporting', 'and checking']}
               typeSpeed={120}
               backSpeed={140}
               loop
-            />
+            /> */}
           </div>
           
         </div>

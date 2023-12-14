@@ -1,5 +1,5 @@
 import { useState } from "react";
-import {motion, AnimatePresence} from "framer-motion";
+// import {motion, AnimatePresence} from "framer-motion";
 import {FaPlusCircle, FaMinusCircle} from 'react-icons/fa'
 
 const Faq = () => {
