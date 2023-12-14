@@ -1,0 +1,41 @@
+.landing-page {
+    text-align: center;
+    padding: 50px;
+   }
+   
+   .suggestion-form {
+    margin: 20px auto;
+    width: 100%;
+    max-width: 500px;
+   }
+   
+   .suggestion-form input[type="text"], .suggestion-form textarea {
+    padding: 10px;
+    font-size: 14px;
+    width: 100%;
+    box-sizing: border-box;
+   }
+   
+   .suggestion-form input[type="submit"] {
+    padding: 10px;
+    font-size: 14px;
+    width: 100%;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+   }
+   
+   .suggestion-form input[type="submit"]:hover {
+    background-color: #0056b3;
+   }
+   
+   .suggestion-form textarea {
+    resize: vertical;
+    max-height: 150px;
+   }
+
+   .paragraph{
+
+
+   }
