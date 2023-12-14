@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "../components/Navbar";
 import HeroSection from "../components/HeroSection";
 import Footer from "../components/Footer";
+import "../components/InstructorContact.css";
 
 function InstructorContact() {
   const backgroundImage = (
