@@ -1,18 +1,15 @@
 import Hero from "./Components/Hero";
-import Sidebar from "./Components/Sidebar";
+import Navbar from "./Components/Navbar";
 
 
 function App() {
   return (
     <div className=''>
-      <Sidebar/>
-
-     <div className="flex justify-start items start">
-     <Hero/>
-     </div>
+     <Navbar/>
       
+     <Hero/>
     
-       </div>
+    </div>
 
      
 
