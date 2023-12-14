@@ -1,4 +1,5 @@
 import React from 'react';
+import heroImage from './hero-image.jpg';
 import './Hero.css';
 
 
@@ -11,6 +12,9 @@ const AppHero = () => {
           <h1>GRADETRACK</h1>
           <p>Empowering students to report missing grades and ensure academic transparency</p>
           <a href="/login" className="cta-button">Get Started</a>
+        </div>
+        <div className="hero-image">
+            <img src={heroImage} alt="GradeTrack Hero" />
         </div>
       </div>
       <div className="about-section">

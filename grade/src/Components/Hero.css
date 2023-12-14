@@ -1,17 +1,13 @@
 .hero-section {
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
   display: flex;
   align-items: center;
-  justify-content: center;
-  color: black;
-  text-align: center;
+  justify-content: space-between;
 }
 
 .hero-content {
-  max-width: 800px;
-  margin: 0 auto;
+  max-width: 50%;
+  padding: 20px;
+  color: black;
 }
 
 .hero-content h1 {
@@ -21,13 +17,13 @@
 
 .hero-content p {
   font-size: 1.5rem;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 
 .cta-button {
   display: inline-block;
   padding: 10px 20px;
-  background-color: #ff6b6b;
+  background-color: #ff6600;
   color: #fff;
   text-decoration: none;
   border-radius: 5px;
@@ -35,8 +31,19 @@
 }
 
 .cta-button:hover {
-  background-color: #ff4f4f;
+  background-color: #e65c00;
 }
+
+.hero-image {
+  flex: 1;
+  text-align: center;
+}
+
+.hero-image img {
+  max-width: 100%;
+  height: auto;
+}
+
 .features-section {
   text-align: center;
   padding: 50px 0;
