@@ -1,12 +1,14 @@
-import Navbar from './components/Navbar'
-import LandingPage from './components/LandingPage'
+// import Navbar from './components/Navbar'
+// import LandingPage from './components/LandingPage'
+import Index from './components/Index';
 
 function App() {
 
   return (
     <div>
-      <Navbar />
-      <LandingPage />
+      {/* <Navbar />
+      <LandingPage /> */}
+      <Index />
     </div>
   )
 }

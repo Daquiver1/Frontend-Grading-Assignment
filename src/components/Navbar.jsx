@@ -69,7 +69,7 @@ function Navbar() {
         <li className='p-4'>Home</li>
         <li className='p-4'>Dashboard</li>
         <li className='p-4 whitespace-nowrap'>Grade Report</li>
-        <li className='p-4 whitespace-nowrap'>Missing Grade Form</li>
+        <a href="./MissingGradeForm.jsx"><li className='p-4 whitespace-nowrap'>Missing Grade Form</li></a>
         <li className='p-4'>About</li>
         <li className='p-4'>{width}</li>
       </ul>
