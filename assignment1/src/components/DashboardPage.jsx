@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Chart from '../assets/chart.png';
+import Current from '../assets/current.png';
 import './DashboardPage.css';
 
 const DashboardPage = () => {
@@ -70,7 +71,16 @@ const DashboardPage = () => {
           <a href="/grade-report">
             <img className='DashboardBannerImage' src={Chart} alt="Landing Page Banner"  />
           </a>
+          
         </ul>
+
+        <h3 className='dashboard-title2'>Current Grades</h3>
+        <a href={Current} target='0'>
+        <ul className='dashboard-body2'>
+        
+          <img className='CurrentGradesImage' src={Current} alt="Current Grades Image"  height={350}/>
+          </ul>
+          </a>
       </div>
     </div>
   );
