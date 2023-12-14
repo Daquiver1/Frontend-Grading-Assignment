@@ -28,6 +28,7 @@ const Register = (props) => {
               onChange={(e) => setName(e.target.value)}
               id="name"
               placeholder="full Name"
+              required
             />
             <label htmlFor="email">email</label>
             <input
@@ -37,6 +38,7 @@ const Register = (props) => {
               placeholder="youremail@gmail.com"
               id="email"
               name="email"
+              required
             />
             <label htmlFor="password">password</label>
             <input
@@ -46,8 +48,11 @@ const Register = (props) => {
               placeholder="********"
               id="password"
               name="password"
+              required
             />
-            <button type="submit">Log In</button>
+            <button className="Log" type="submit">
+              Regiser
+            </button>
           </form>
           <button className="link-btn">
             <a href="/Login">Already have an account? Login here.</a>

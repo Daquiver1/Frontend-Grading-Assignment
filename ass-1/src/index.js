@@ -9,6 +9,8 @@ import Help from "./Component/pages/Help";
 import Login from "./Component/pages/Login";
 import Dashboard from "./Component/pages/Dashboard";
 import Register from "./Component/pages/Register";
+import GradeReport from "./Component/pages/Grade Report";
+import MissingGradeForm from "./Component/pages/Missing grade form";
 import { createBrowserRouter, RouterProvider, Route } from "react-router-dom";
 
 const router = createBrowserRouter([
@@ -35,6 +37,14 @@ const router = createBrowserRouter([
   {
     path: "Register",
     element: <Register />,
+  },
+  {
+    path: "/GradeReport",
+    element: <GradeReport />,
+  },
+  {
+    path: "/MissingGradeForm",
+    element: <MissingGradeForm />,
   },
 ]);
 const root = ReactDOM.createRoot(document.getElementById("root"));

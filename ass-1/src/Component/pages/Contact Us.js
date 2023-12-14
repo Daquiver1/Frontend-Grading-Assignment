@@ -10,17 +10,17 @@ const Contact = () => {
       id: 1,
       name: "Mark Atta",
 
-      email: "john.doe@example.com",
-      // picture: { Img1 },
-      description: "Experienced instructor with expertise in mathematics.",
+      email: "Mark_Atta@gmail.com",
+
+      description: "Experienced instructor with expertise in Statistics.",
     },
 
     {
       id: 2,
-      name: "Jane Smith",
+      name: "Edem Wemegah",
 
-      email: "john.doe@example.com",
-      picture: "/img/Course Advisor.jpg",
+      email: "EdWem@gmail.com",
+
       description: "Experienced instructor with expertise in mathematics.",
     },
 
@@ -28,9 +28,10 @@ const Contact = () => {
       id: 3,
       name: "Micheal Soli",
 
-      email: "john.doe@example.com",
-      picture: "john-doe.jpg",
-      description: "Experienced instructor with expertise in mathematics.",
+      email: "Micheal_Soli@gmail.com",
+
+      description:
+        "Experienced instructor with expertise in Statistics and Informatics.",
     },
 
     {
@@ -38,8 +39,9 @@ const Contact = () => {
       name: "Christian Abrokwa",
 
       email: "john.doe@example.com",
-      picture: "john-doe.jpg",
-      description: "Experienced instructor with expertise in mathematics.",
+
+      description:
+        "Experienced instructor with expertise in Software Development and AI.",
     },
   ];
 
@@ -51,9 +53,8 @@ const Contact = () => {
   };
 
   const handleSendEmail = () => {
-    // Simulate sending an email (in a real-world scenario, this would involve server-side logic)
     console.log(`Email sent to ${selectedInstructor.name}: ${emailContent}`);
-    // Reset state after sending the email
+
     setSelectedInstructor(null);
     setEmailContent("");
   };
@@ -86,15 +87,11 @@ const Contact = () => {
         </div>
         {selectedInstructor && (
           <div className="selected-instructor">
-            <img
-              src={selectedInstructor.picture}
-              alt={selectedInstructor.name}
-              style={imageStyles}
-            />
             <h3>Contact Details</h3>
             <div>
               <p>Name: {selectedInstructor.name}</p>
               <p>Email: {selectedInstructor.email}</p>
+              <p>Description: {selectedInstructor.description}</p>
             </div>
 
             <div>
@@ -123,9 +120,5 @@ const Contact = () => {
     </div>
   );
 };
-const imageStyles = {
-  width: "150px",
-  borderRadius: "50%",
-  marginBottom: "10px",
-};
+
 export default Contact;

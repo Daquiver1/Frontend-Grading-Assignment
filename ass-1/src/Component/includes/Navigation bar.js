@@ -37,6 +37,9 @@ function NavBar() {
                   <Link to="/Dashboard">Dashboard</Link>
                 </li>
                 <li>
+                  <Link to="/GradeReport">Report Grade</Link>
+                </li>
+                <li>
                   <Link to="/Contact">Contact</Link>
                 </li>
 

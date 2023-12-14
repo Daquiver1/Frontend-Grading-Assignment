@@ -89,10 +89,6 @@ ul li a:hover {
 }
 
 /* LOGIN PAGE */
-/* .Login {
-  display: flex;
-  justify-content: center;
-} */
 
 .Login {
   text-align: center;
@@ -202,4 +198,116 @@ button {
   font-size: 20px;
   font-weight: 20px;
   font-family: cursive;
+}
+
+/* Grade Report */
+.Lab1 {
+  font-size: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.col1 {
+  font-size: 27px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bold;
+  background-color: #5cd8ce;
+}
+
+.table tbody tr td {
+  font-size: 24px;
+  background-color: #6fadc6;
+  border: none;
+}
+.Th {
+  font-size: 30px;
+  font-weight: bold;
+  background-color: #51a3c4;
+  border-radius: 8px;
+}
+select {
+  height: 40px;
+  border-radius: 6px;
+}
+option {
+  font-size: 26px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.filters {
+  font-size: 20px;
+
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.d1 {
+  margin-right: 60px;
+}
+.help {
+  text-align: center;
+  display: flex;
+  min-height: 10vh;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-image: linear-gradient(79deg, #836d23, #c8da64 48%, #1f5f5a);
+  margin-bottom: -130px;
+}
+.login-form {
+  display: flex;
+  flex-direction: row;
+}
+.Mes {
+  display: flex;
+  flex-direction: column;
+}
+.submit {
+  border: none;
+  background-color: rgb(97, 218, 141);
+  padding: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: rgb(51, 53, 153);
+  margin-top: 20px;
+  font-weight: bolder;
+  font-size: 25px;
+}
+.submit-div button {
+  margin-top: 500px;
+  margin-left: -320px;
+}
+
+.Mes textarea {
+  border: #ddeef0;
+  border-radius: 16px;
+  background-color: #ddeef0;
+  height: 40vh;
+  width: 30vh;
+  font-size: 30px;
+  font-family: "Times New Roman", Times, serif;
+}
+.p2 {
+  font-size: 30px;
+  text-align: justify;
+}
+.accordion button {
+  background-color: rgb(207, 129, 129);
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100px;
+}
+.accordion {
+  margin-top: -30px;
+}
+.accordion-body {
+  font-size: 36px;
+  font-family: "Times New Roman", Times, serif;
+  text-align: justify;
+  background-color: #5cd8ce;
+}
+@media screen and (min-width: 800px) {
+  .missing-grade-container {
+    height: 75vh;
+    width: 60vh;
+    padding: 5rem;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin: 3rem;
+  }
 }
