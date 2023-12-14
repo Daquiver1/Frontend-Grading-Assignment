@@ -27,8 +27,8 @@ The application consists of 7 main pages:
 To set up the project locally, follow these steps:
 
 ```bash
-git clone https://github.com/your-github-username/DCIT_205_ASSIGNGMENT1.git
-cd repo-name
+git clone https://github.com/Kadia-D/11297365_DCIT205_Assignment1.git
+cd 11297365_DCIT205_Assignment1
 npm install
 npm start
 ```
