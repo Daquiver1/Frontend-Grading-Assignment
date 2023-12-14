@@ -1,0 +1,39 @@
+#contact-section {
+    width: 1300px;
+    margin: auto;
+}
+
+.text-div {
+    text-align: center;
+}
+
+.lecturer-details1 {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding-bottom: 120px;
+    padding-top: 50px;
+}
+
+.lecturer-box {
+    border: 1px solid;
+    border-radius: 5px;
+    width: 190px;
+    height: 385px;
+}
+
+.lecturer-box a {
+    color: rgb(88, 24, 0);
+}
+
+.lecturer-details2 {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding-bottom: 120px;
+}
+
+#text-under {
+    text-align: center;
+    padding-bottom: 70px;
+}
