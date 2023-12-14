@@ -21,7 +21,7 @@ The application consists of 7 main pages:
 ## Technical Details
 
 - **Framework/Technology Used:** [React]
-- **Responsive Design:** Implemented using [CSS Flexbox/Grid, Bootstrap, Tailwind CSS].
+- **Responsive Design:** Implemented using [CSS / Tailwind CSS].
 - **JavaScript Functionality:** Used for form validations, dynamic content rendering, and simulating interactions.
 
 ## Setup and Installation
@@ -38,8 +38,7 @@ npm start
 This will start the application on `localhost` at the default port.
 
 ## Usage
-
-Describe how to use the application, highlighting key functionalities such as logging in, viewing grades, reporting missing grades, and contacting instructors.
+The application is implemented over the web. Using it is intuitive as there are visible,self explanatory buttons and features that allow the user to manouvre through the various app sections. A user would first have to login using a student ID and pin. The user will then be redirected to the landing page, where they will have the opportunity to visit the other pages through the navbar, or log out. On the grade report page, users are able to view their grades for every semester or academic year depending on the filter selected. In case of any missing grade, the missing grade form allows users to lodge a complain and seek resolution of said problem. Users also have the ability to contact the instructors that handle the courses for which they might suspect errors in their grades. 
 
 ## Contribution
 
