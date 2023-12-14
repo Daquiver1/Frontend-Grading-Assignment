@@ -49,3 +49,11 @@ To contribute to this project, please follow these guidelines:
 4. Submit a pull request for review.
 
 Please adhere to the project's coding standards and provide clear and detailed pull request descriptions.
+
+## What I learnt
+
+1. I learnt how to create and set up my app with create-react-app.
+2. I learnt how to debug code using the error messages I get.
+3. Understood the principles of component based design of web applications, notably SPAs.
+4. Integration of Boostrap components and responsive design into my project.
+    
