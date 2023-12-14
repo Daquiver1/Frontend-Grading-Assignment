@@ -1,0 +1,60 @@
+.wrapper2 {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+  background-color: #ccc;
+  min-height: 100vh;
+}
+
+.missingGradeForm {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #0e1225;
+  border-radius: 5px;
+  color: white;
+}
+
+.missingGradeForm label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.missingGradeForm input[type="text"],
+.missingGradeForm textarea {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 16px;
+}
+
+.missingGradeForm textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.missingGradeForm button[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  padding: 14px 20px;
+  margin: 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+  border-radius: 3px;
+  font-size: 16px;
+}
+
+.missingGradeForm button[type="submit"]:hover {
+  opacity: 1;
+}

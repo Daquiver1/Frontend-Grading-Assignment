@@ -39,7 +39,7 @@ const ContactForm = () => {
 
   return (
     <div className="contact-us">
-      <div className="wrapper">
+      <div className="wrapper1">
         <h2>Contact Us</h2>
         <form onSubmit={handleSubmit}>
           <div className="input-group">
