@@ -10,9 +10,6 @@ const Support = () => {
   const [isOpen3, setIsOpen3]= useState(false);
   const [isOpen4, setIsOpen4]= useState(false);
   const [isOpen5, setIsOpen5]= useState(false);
-  const [isOpen6, setIsOpen6]= useState(false);
-  const [isOpen7, setIsOpen7]= useState(false)
-
   const Menus =[
     {title: "Dashboard",src: "Chart_fill", path:"/dashboard"},
     {title: "Missing Grade Form", src: "Search", path: "/search"},
@@ -47,8 +44,6 @@ const Support = () => {
     third: "Download UG mobile and click link to get the procedure!",
     fourth: "Click here to see procedure on how to connect wifi!",
     fifth: "Download pdf on how to reset MIS Web password",
-    sixth: "Click link here to get access to how to defer your course of study",
-    seventh: "Yes! Click here to check how."
   }]
   
 
@@ -132,26 +127,6 @@ const Support = () => {
             <h3>{item.fifth}</h3>
           </div>))}</div>)}
       </section>
-
-      <section className="bg-gray-200 p-15 mb-15 rounded-md shadow-md mb-[30px] text-1xl" onClick={()=>setIsOpen6((prev) => !prev)}>
-        <p>How do I defer my course of study or programme
-        {!isOpen6?(<AiOutlineCaretUp className='h-8'/>):(<AiOutlineCaretDown className='h-8'/>)}
-        </p>
-        {isOpen6 &&(<div className="bg-gray-200 p-15 mb-15 rounded-md shadow-md mb-[30px] text-1xl">
-          {list.map((item)=>(<div>
-            <h3>{item.sixth}</h3>
-          </div>))}</div>)}
-      </section>
-      <section className="bg-gray-200 p-15 mb-15 rounded-md shadow-md mb-[30px] text-1xl" onClick={()=>setIsOpen7((prev) => !prev)}>
-        <p>Can I change my programme in the course of my study
-        {!isOpen7?(<AiOutlineCaretUp className='h-8'/>):(<AiOutlineCaretDown className='h-8'/>)}
-        </p>
-        {isOpen7 &&(<div className="bg-gray-200 p-15 mb-15 rounded-md shadow-md mb-[30px] text-1xl">
-          {list.map((item)=>(<div>
-            <h3>{item.seventh}</h3>
-          </div>))}</div>)}
-      </section>
-
       <div className="antialiased">
         <div className="flex w-full min-h-screen justify-center items-center pb-[900px]">
           <div className="flex flex-col space-y-6 bg-cyan-700 w-full max-w-4xl p-14 rounded-xl shadow-lg text-white">
