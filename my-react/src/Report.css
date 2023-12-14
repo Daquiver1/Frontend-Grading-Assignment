@@ -1,0 +1,42 @@
+div .antwi {
+    color: black;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+h2{
+    text-align: left;
+    margin-bottom: 10px;
+}
+.text-primary{
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: left;
+    
+}
+.level{
+ text-align:center;
+ display: block;
+ font-size: 23px;
+ font-weight: bold;
+ width: 300px;
+}
+.level:hover{
+    color: #1151a5;
+    cursor: pointer;
+}
+.no-data{
+    text-align: center;
+    font-size: 20px;
+}
+.top{
+    display: block;
+    margin-top: 50px;
+}
+.fw-bold{
+    background-color: #1151a5;
+    color: #fff;
+    margin-top: 0px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-bottom: 30px;
+}

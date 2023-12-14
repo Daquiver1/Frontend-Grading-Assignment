@@ -1,0 +1,64 @@
+.missing-grade{
+    text-align: center;
+    font-weight: bold;
+    font-size: 33px;
+    color: white;
+}
+.stu-details{
+    display: block;
+    font-size: 20px;
+ 
+
+}
+.b{
+    padding: 50px 50px 50px 50px ;
+    padding-top: 100px;
+}
+
+.form{
+    
+    width: 800px;
+    margin-inline: auto;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: rgb(167, 132, 80);
+    padding: 50px 50px 50px 50px ;
+    border-radius: 20px;
+
+}
+.box{
+    width: 300px;
+    height: 40px;
+
+}
+.box .box-name:hover{
+    border-color: #00357a;
+}
+.box-name{
+    width: 300px;
+    margin-right: 50px;
+    height: 40px;
+   
+
+}
+textarea{
+    
+    width: 500px;
+    height: 300px;
+   
+}
+.Submit{
+    display: block;
+    background-color:  #00357a;
+    color: white;
+    border-radius: 12px;
+    text-align: center;
+    margin-inline: auto;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-top: 50px;
+
+
+}

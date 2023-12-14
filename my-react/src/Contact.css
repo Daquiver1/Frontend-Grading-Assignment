@@ -1,0 +1,51 @@
+aside{
+    width: 800px;
+    background-color:#00357a;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    height: 780px;
+    border-radius: 10px;
+    margin-right: 200px;
+   
+}
+.us{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+.cont-act{
+    display: inline-block;
+    color: white;
+    vertical-align: top;
+    padding-top: 50px;
+    margin: 30px 70px 70px 70px ;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    align-self: center;
+}
+.sch{
+width:500px;
+margin-left: 80px;
+
+}
+.head{
+    font-size: 33px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.social-icons a {
+    font-size: 8rem;
+    color: black;
+   
+  
+   
+    }
+    .social-icons{
+        display: inline-block;
+        width: 100px;
+        margin-left:100px;
+      
+      
+    }
