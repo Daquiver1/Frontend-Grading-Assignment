@@ -1,4 +1,4 @@
-# 11037680_DCIT205_Assignment1
+![Screenshot (40)](https://github.com/EstherBoahemaaAcheampong/Frontend-Grading-Assignment/assets/152202120/c8a7a13a-309a-4001-b301-77529a44f982)# 11037680_DCIT205_Assignment1
 # Missing Grade Reporting System 
 
 Welcome to the Missing Grade Reporting System is an essential tool designed to empower students by enabling them to track and report any missing grades or discrepancies within their academic records. This system serves as a supportive mechanism to ensure the accuracy and completeness of students' academic profiles.
@@ -29,11 +29,17 @@ Throughout the development of this project, several key learnings were gained:
 2. React and CSS Styling: Creating well-structured React pages and applying CSS styles for consistent and visually appealing presentation.
 3. Navigation and User Experience: Designing an innate navigation system and optimizing the user experience by organizing content logically,
 4. GitHub Workflow: Practicing version control and collaboration using Git and GitHub, including cloning,
-branching committing and pushing changes.
-прm
+branching committing and pushing changes.npm
 
 
+## Screenshot 
 
+![Screenshot (41)](https://github.com/EstherBoahemaaAcheampong/Frontend-Grading-Assignment/assets/152202120/91caa816-4c28-45a8-b2a4-ee8e6fb70cbd)
+![Screenshot (42)](https://github.com/EstherBoahemaaAcheampong/Frontend-Grading-Assignment/assets/152202120/eb427033-541c-4fa9-b3b5-d5ea8e11e3f9)
+![Screenshot (43)](https://github.com/EstherBoahemaaAcheampong/Frontend-Grading-Assignment/assets/152202120/d592ab88-ced1-434b-9c0b-5b714a053545)
+![Screenshot (45)](https://github.com/EstherBoahemaaAcheampong/Frontend-Grading-Assignment/assets/152202120/d!
+[Uploading Screenshot (40).png…]()
+10565f1-464c-4ac3-9044-75c1cb5a61f8)
 
 
 
