@@ -52,9 +52,3 @@ Please adhere to the project's coding standards and provide clear and detailed p
 
 
 /*Screenshot of pages*/
-![Alt text](src/images/s1.jpeg)
-![Alt text](src/images/s2.jpeg)
-![Alt text](src/images/s3.jpeg)
-![Alt text](src/images/s4.jpeg)
-![Alt text](src/images/s5.jpeg)
-![Alt text](src/images/s6.jpeg)
