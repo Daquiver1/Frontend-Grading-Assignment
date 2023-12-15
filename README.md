@@ -4,6 +4,12 @@
 
 This project is a front-end web application for a Student Grade Reporting System. It simulates a real-world application where students can view, report, and manage their academic grades. This system addresses the issue of missing or unrecorded grades in a student's profile.
 
+## Contact
+
+Name **Sulemana Abdul Haafiz Bundana**
+Student ID **11140508**
+If you want to contact with me you can reach me at [Email]<absulemana003@st.ug.edu.gh>.
+
 ## Application Structure
 
 The application consists of 7 main pages:
