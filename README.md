@@ -72,5 +72,5 @@ The application consists of seven main pages, each serving a specific purpose:
 ## Technical Details
 
 - **Framework/Technology Used:** Developed using React.
-- **Responsive Design:** Implemented with CSS Flexbox/Grid, Bootstrap, and Tailwind CSS to ensure compatibility with various devices.
+- **Responsive Design:** Implemented with CSS Bootstrap 5.
 - **JavaScript Functionality:** Leveraged for form validations, dynamic content rendering, and simulating user interactions.
