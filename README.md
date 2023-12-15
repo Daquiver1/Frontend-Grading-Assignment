@@ -1,8 +1,9 @@
 # Student Grade Reporting System Frontend
 
 ## Details
-**Name:** Abdul-Hamid Rayyaan
-**ID:** 11313444
+**Name:** # Abdul-Hamid Rayyaan
+
+**ID:** # 11313444
 
 ## Project Overview
 
