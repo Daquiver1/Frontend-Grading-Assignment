@@ -1,4 +1,9 @@
+<<<<<<< HEAD
 # Student Grade Reporting System Frontend
+
+**STUDENT ID: 11016071**
+**E-MAIL: ramensah043@st.ug.edu.gh**
+
 
 ## Project Overview
 
@@ -37,7 +42,14 @@ This will start the application on `localhost` at the default port.
 
 ## Usage
 
-Describe how to use the application, highlighting key functionalities such as logging in, viewing grades, reporting missing grades, and contacting instructors.
+1. Logging In:
+- Open the website on your laptop.
+- Enter your credentials (USER ID and USER PIN) in  the provided fields.
+- Click on the "Log In" button to access your account.
+2. Reporting Missing Grades:
+- Locate the "Report Issue" or "Contact Support" section, usually found in the menu.
+- Fill out a form or provide details about the missing grade, including the course name, expected grade, instructor's name and an explanation.
+- Submit the form, and the system should generate a notification about the successful submission of the report.
 
 ## Contribution
 
@@ -48,4 +60,4 @@ To contribute to this project, please follow these guidelines:
 3. Commit your changes and push them to your branch.
 4. Submit a pull request for review.
 
-Please adhere to the project's coding standards and provide clear and detailed pull request descriptions.
+
