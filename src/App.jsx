@@ -7,11 +7,13 @@ import AddGrade from "./pages/AddGrade";
 import Contacts from "./pages/contacts";
 import Faq from "./pages/FAQ";
 import RequireAuth from "./auth/requireAuth";
+import HomePage from "./pages/HomePage";
 
 export default function App() {
   return (
     <BrowserRouter>
       <Routes>
+        <Route path="/" element={<HomePage />} />
         <Route element={<RequireAuth />}>
           <Route path="dashboard" element={<DashboardLayout />}>
             <Route index element={<Dashboard />} />
