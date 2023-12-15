@@ -4,8 +4,10 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
 import Home from "./components/home/Home"
 import Login from "./components/login/Login"
 import dashboard from "./components/dashboard/dashboard"
-import Contact from "./components/contact/Contact"
 import help from "./components/help/help"
+import Contact from "./components/common/Contact/contact"
+import missing_grades from "./components/common/Missing_grades/missing_grades"
+
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
           <Route path='/dashboard' exact component={dashboard} />
           <Route path='/contact' exact component={Contact} />
           <Route path='/help' exact component={help} />
+          <Route path='/missing_grades' exact component={missing_grades} />
+          
         </Switch>
 
       </Router>

@@ -192,3 +192,17 @@ form button{
   cursor: pointer;
   font-size: 14px;
 }
+
+.wrapper {
+  text-align: center;
+}
+
+.wrapper h1 {
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+.wrapper p {
+  padding-left: 180px;
+  padding-right: 180px;
+}
