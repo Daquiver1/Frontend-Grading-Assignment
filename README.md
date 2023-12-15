@@ -16,6 +16,11 @@ The application consists of 7 main pages:
 - **Instructor Contact Page:** Lists instructors' contact information with a simulated email feature.
 - **Help and Support:** Provides FAQs and a mock support contact form.
 
+## Contact
+- **Name:** Afari Damien Sena
+- **ID:** 11317507
+  
+
 ## Technical Details
 
 - **Framework/Technology Used:** [React]
