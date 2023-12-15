@@ -2,6 +2,7 @@ import { useState } from "react";
 import { MdCastForEducation } from "react-icons/md";
 import MissingGradeForm from "./MissingGradeForm";
 import HelpAndSupport from "./HelpAndSupport";
+import InstructorContact from "./InstructorContact";
 
 function Navbar() {
   const [open, setOpen] = useState(true);
@@ -73,7 +74,8 @@ function Navbar() {
       
       <div className="h-screen flex-1  mt-[60px]">
         {/* <MissingGradeForm /> */}
-        <HelpAndSupport />
+        {/* <HelpAndSupport /> */}
+        <InstructorContact />
       </div>
     </div>
   );

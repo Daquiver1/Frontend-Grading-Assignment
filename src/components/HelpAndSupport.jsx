@@ -3,7 +3,25 @@ import { faqs } from "./FAQsData";
 import HandleAnFaq from './HandleAnFaq';
 
 function HelpAndSupport() {
+  const [formData, setFormData] = useState({
+    email: '',
+    descriptionOfIssue: ''
+  })
   const [questionAndAnswers] = useState(faqs);
+
+  function handleChange(event) {
+    const {name, value} = event.target 
+    setFormData(prevFormData => {
+      return {
+        ...prevFormData,
+        [name]: value
+      }
+    })
+  }
+
+  function handleSubmit(event) {
+    event.preventDefault()
+  }
 
   return (
     <section className="max-w-xl mx-auto py-4 px-4">
@@ -18,17 +36,24 @@ function HelpAndSupport() {
         </section>
 
         {/* Contact form for technical support (mock-up). */}
-        <form action="" className='mt-5 mb-20 flex flex-col border rounded-lg border-zinc-950 p-2'>
+        <form action="" className='mt-5 mb-20 flex flex-col border rounded-lg border-zinc-950 p-2' onSubmit={handleSubmit}>
+          <h3 className='my-1 text-center text-slate-700'>Contact form for technical support</h3>
           <input 
-            type="text" 
+            type="email" 
             placeholder='Email' 
             className='mb-4 py-4 pl-1 placeholder-zinc-900 rounded-lg border'
+            name='email'
+            onChange={handleChange}
+            value={formData.email} 
           />
 
           <textarea  
             type="text" 
             placeholder='Description of the Issue' 
             className='py-4 pl-1 min-h-[70px] max-h-[250px] placeholder-zinc-900 rounded-lg border'
+            onChange={handleChange}
+            name='descriptionOfIssue'
+            value={formData.descriptionOfIssue}
           />
 
           <button 
