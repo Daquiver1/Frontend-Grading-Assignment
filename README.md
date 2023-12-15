@@ -1,109 +1,70 @@
-# Student Grade Reporting System Frontend <hr>
+# Getting Started with Create React App
 
-# Author: Theo Daniels Jr
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-# Student ID: 11031981 
+## Available Scripts
 
+In the project directory, you can run:
 
-## Project Overview
+### `npm start`
 
-This project is a front-end web application for a Student Grade Reporting System. It simulates a real-world application where students can view, report, and manage their academic grades. This system addresses the issue of missing or unrecorded grades in a student's profile.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-## Application Structure
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-The application consists of 7 main pages:
+### `npm test`
 
-- **Homepage:** Introduction to the system and its purpose.
-- ![Landing Page](https://github.com/theodanielsjr101/Frontend-Grading-Assignment/assets/150858757/2ba9e075-1809-43ae-b26c-85276808a0c3)
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-- **Login Page:** Mock login interface for student authentication.
-- ![Login Page](https://github.com/theodanielsjr101/Frontend-Grading-Assignment/assets/150858757/4089ddc9-eb20-4362-886f-02ea857e0552)
+### `npm run build`
 
-- **Dashboard:** Displays an overview of the student’s current grades and alerts for missing grades.
-- 
-- **Grade Report:** Shows a detailed view of the student's grades filtered by semester or academic year.
-- ![Grade Report Page](https://github.com/theodanielsjr101/Frontend-Grading-Assignment/assets/150858757/c453cd07-5510-4b9d-b715-ecfbc7fd8c9c)
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-- **Missing Grade Form:** Enables students to report missing grades.
-- ![Missing Grade Form Page](https://github.com/theodanielsjr101/Frontend-Grading-Assignment/assets/150858757/9afa7bf3-54ea-442c-adfd-63ee52292cb4)
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-- **Instructor Contact Page:** Lists instructors' contact information with a simulated email feature.
-- ![Instructor Contact Page](https://github.com/theodanielsjr101/Frontend-Grading-Assignment/assets/150858757/b16a966d-23a9-4ac1-9f9e-bc07f028fa21)
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-- **Help and Support:** Provides FAQs and a mock support contact form.
-- ![FAQ Section](https://github.com/theodanielsjr101/Frontend-Grading-Assignment/assets/150858757/bb6f160e-4fa9-4dd1-a399-2710b3d485a6)
-- ![Contact Form For Tech Support](https://github.com/theodanielsjr101/Frontend-Grading-Assignment/assets/150858757/2f26e4bc-16f4-44e2-afec-6a4c6efe4e12)
+### `npm run eject`
 
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-## Technical Details
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-- **Framework/Technology Used:** [React]
-- **Responsive Design:** Implemented using [CSS Flexbox/Grid, Bootstrap, Tailwind CSS].
-- **JavaScript Functionality:** Used for form validations, dynamic content rendering, and simulating interactions.
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Setup and Installation
+## Learn More
 
-To set up the project locally, follow these steps:
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-```bash
-git clone https://github.com/theodanielsjr101/DCIT_205_ASSIGNGMENT1.git
-cd repo-name
-npm install
-npm start
-```
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-This will start the application on `localhost` at the default port.
+### Code Splitting
 
-## Usage
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-Describe how to use the application, highlighting key functionalities such as logging in, viewing grades, reporting missing grades, and contacting instructors.
-# 1. Logging In:
-Visit the website of the missing grade report application.
+### Analyzing the Bundle Size
 
-Look for a "Login" or "Sign In" option on the homepage.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-Enter your credentials, which typically include a Student ID and a PIN.
+### Making a Progressive Web App
 
-# 2. Viewing Grades:
-Navigate to the "Grade Report" section of the application.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-You should see a list of your courses along with corresponding grades.
+### Advanced Configuration
 
-You can also access your grades from past semesters
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-# 3. Reporting Missing Grades:
-Locate a section or feature specifically for reporting missing grades.
+### Deployment
 
-This could be labeled as "Report Missing Grades," or something similar.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-Select the course for which you believe there is a missing grade.
+### `npm run build` fails to minify
 
-Provide any required information, such as the course name, date, or any relevant details to support your claim.
-
-# 4. Contacting Instructors:
-Check for a "Contact Instructors" section.
-
-Find the instructor you wish to contact.
-
-You will be provided a messaging system within the platform, with a list of instructors and their emails.
-
-Compose a message explaining your concern about the missing grade and include any supporting information.
-
-# 5. Help/Support Center:
-
-Explore the help or support center for additional guidance.
-
-This section may include FAQ's and a form to contact technical support to assist you in using the features of the application effectively.
-
-
-## Contribution
-
-To contribute to this project, please follow these guidelines:
-
-1. Fork the repository.
-2. Create a new branch for your feature.
-3. Commit your changes and push them to your branch.
-4. Submit a pull request for review.
-
-Please adhere to the project's coding standards and provide clear and detailed pull request descriptions.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
