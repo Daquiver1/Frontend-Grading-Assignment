@@ -1,4 +1,5 @@
 .wrapper2 {
+  background: url("../assets/bac.jpg");
   padding: 0;
   margin: 0;
   display: flex;
@@ -16,9 +17,9 @@
   margin: 0 auto;
   padding: 20px;
   box-sizing: border-box;
-  background-color: #0e1225;
+
   border-radius: 5px;
-  color: white;
+  color: black;
 }
 
 .missingGradeForm label {
