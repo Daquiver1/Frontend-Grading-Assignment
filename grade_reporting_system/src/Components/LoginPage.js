@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom'; // Import Link from react-router-dom
-import '../CSS/LoginPage.css'; // Import the corresponding CSS styles
+import { Link } from 'react-router-dom'; 
+import '../CSS/LoginPage.css'; 
 import UniversalComponent from './UniversalComponent';
 
 const LoginPage = () => {
@@ -24,11 +24,8 @@ const LoginPage = () => {
   const handleSubmit = (event) => {
     event.preventDefault();
 
-    // Logic to check login credentials
-    // For the example, let's assume correct credentials are "12345" for both fields
+    
     if (studentID === '12345' && pin === '12345') {
-      // Redirect to the dashboard or another page on successful login
-      // For now, we'll log a success message to the console
       console.log('Login successful!');
     } else {
       setErrorMessage('Invalid student ID or PIN. Please try again.');
@@ -75,7 +72,6 @@ const LoginPage = () => {
             <Link to="/forgot-password">Forgot password?</Link>
             <p>Don't have an account? <Link to="/sign-up">Sign up</Link></p>
           </div>
-          {/* Add social media login options if applicable */}
         </div>
       </div>
     </UniversalComponent>

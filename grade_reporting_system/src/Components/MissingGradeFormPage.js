@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import '../CSS/MissingGradeFormPage.css'; // Import the corresponding CSS styles
+import '../CSS/MissingGradeFormPage.css'; 
 import UniversalComponent from './UniversalComponent';
 import { Link } from 'react-router-dom';
 
@@ -18,17 +18,12 @@ const MissingGradeFormPage = () => {
   };
 
   const handleAttachmentChange = (event) => {
-    // Handle file attachment, if needed
     setAttachment(event.target.files[0]);
   };
 
   const handleSubmit = (event) => {
     event.preventDefault();
 
-    // Logic to submit the form and handle confirmation
-    // ...
-
-    // Display confirmation message
     setConfirmationMessage('Missing grade reported successfully!');
   };
 
@@ -41,10 +36,12 @@ const MissingGradeFormPage = () => {
             <div className="form-group">
               <label htmlFor="course">Select Course:</label>
               <select id="course" value={selectedCourse} onChange={handleCourseChange}>
-                {/* Populate options dynamically based on available courses */}
-                <option value="course1">Course 1</option>
-                <option value="course2">Course 2</option>
-                {/* Add more options based on your data */}
+                <option value="DCIT 203">DCIT 203</option>
+                <option value="DCIT 201">DCIT 201</option>
+                <option value="MATH 203">MATH 223</option>
+                <option value="DCIT 202">DCIT 202</option>
+                <option value="MATH 203">MATH 225</option>
+                <option value="DCIT 205">DCIT 205</option>
               </select>
             </div>
             <div className="form-group">

@@ -1,15 +1,16 @@
 import React from 'react';
-import { Link } from 'react-router-dom'; // Import Link from react-router-dom
-import '../CSS/DashboardPage.css'; // Import the corresponding CSS styles
+import { Link } from 'react-router-dom';
+import '../CSS/DashboardPage.css';
 import UniversalComponent from './UniversalComponent';
 
 const DashboardPage = () => {
-  // Sample data for current courses and grades
   const currentCourses = [
-    { name: 'Course 1', grade: 'A' },
-    { name: 'Course 2', grade: 'B' },
-    { name: 'Course 3', grade: 'A-' },
-    // Add more courses as needed
+    { name: 'DCIT 201', grade: 'A' },
+    { name: 'DCIT 205', grade: 'C-' },
+    { name: 'MATH 223', grade: 'A' },
+    { name: 'DCIT 202', grade: 'A' },
+    { name: 'DCIT 203', grade: 'C-' },
+    { name: 'MATH 225', grade: 'A' },
   ];
 
   return (
@@ -29,7 +30,6 @@ const DashboardPage = () => {
                 ))}
               </ul>
             </div>
-            {/* Add components or content for displaying other overviews */}
           </div>
           <div className="dashboard-quick-links">
             <h2>Quick Links</h2>
@@ -40,13 +40,11 @@ const DashboardPage = () => {
               <li>
                 <Link to="/missing-grade-form">Missing Grade Form</Link>
               </li>
-              {/* Add more quick links based on your requirements */}
             </ul>
           </div>
           <div className="dashboard-notifications">
             <h2>Notifications</h2>
             <div className="missing-grades-alert">
-              {/* Add components or content for missing grades alert */}
               <h4>Subject: Important Notice-Missing Grade Alert!</h4>
               <p>
                 This is to inform you that a grade for {`Biology`} is currently missing from your academic records.
@@ -55,16 +53,13 @@ const DashboardPage = () => {
               </p>
             </div>
             <div className="new-grades-messages">
-              {/* Add components or content for new grades or messages */}
             </div>
           </div>
           <div className="dashboard-announcements">
             <h2>Announcements</h2>
-            {/* Add components or content for recent announcements or updates */}
           </div>
           <div className="dashboard-search">
             <h2>Search Courses</h2>
-            {/* Add components or content for search or filter option for courses */}
           </div>
         </div>
       </div>

@@ -1,8 +1,10 @@
-/* HomePage.css */
 
 .home-container {
   padding: 20px;
   background-color:  #f5f5f5;
+  background-image: url(../Images/bg.jpg);
+  background-size: cover;
+  opacity: 0.8;
 }
 
 .home-content {
@@ -22,13 +24,13 @@
   display: block;
   margin-bottom: 10px;
   text-decoration: none;
-  color: rgb(2, 189, 189);
+  color: rgb(3, 146, 146);
   font-weight: bold;
   transition: color 0.3s;
 }
 
 .home-navigation a:hover {
-  color: rgb(4, 144, 144);
+  color: rgb(0, 81, 81);
 }
 
 .home-highlights,
@@ -41,4 +43,4 @@
   color: #333;
 }
 
-/* Add more styling based on your design preferences */
+

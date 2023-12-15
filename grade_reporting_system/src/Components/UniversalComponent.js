@@ -1,10 +1,8 @@
-// UniversalComponent.jsx
-
 import React from 'react';
 import Header from './Header';
 import Sidebar from './Sidebar';
 import Footer from './Footer';
-import '../CSS/UniversalComponents.css'; // Import the stylesheet
+import '../CSS/UniversalComponents.css'; 
 
 const UniversalComponent = ({ children }) => {
   return (

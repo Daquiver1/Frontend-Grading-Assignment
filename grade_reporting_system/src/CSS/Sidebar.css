@@ -30,7 +30,6 @@
   margin: 10px 5px;
   border-radius: 10px;
   transition: background-color 0.3s;
-  transition: background-color 0.3s;
 }
 
 .sidebar-link:hover {
@@ -52,14 +51,14 @@
   margin-top: -20px;
 }
 
-.nav-links a {
+.nav-links .link-text {
   display: block;
   text-align: left;
   color: rgb(15, 23, 42);
-  text-decoration: none;
   font-size: small;
-  font-weight: 350;
-  transition: background-color 0.3s;
+}
+.nav-links a {
+  text-decoration: none;
 }
 
 

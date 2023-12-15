@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom'; // Import Link from react-router-dom
-import '../CSS/InstructorContactPage.css'; // Import the corresponding CSS styles
+import { Link } from 'react-router-dom'; import '../CSS/InstructorContactPage.css'; 
 import UniversalComponent from './UniversalComponent';
 
 const InstructorContactPage = () => {
@@ -23,17 +22,12 @@ const InstructorContactPage = () => {
   };
 
   const handleAttachmentChange = (event) => {
-    // Handle file attachment, if needed
     setAttachment(event.target.files[0]);
   };
 
   const handleSubmit = (event) => {
     event.preventDefault();
 
-    // Logic to submit the form and handle confirmation
-    // ...
-
-    // Display confirmation message
     setConfirmationMessage('Message sent successfully!');
   };
 
@@ -46,22 +40,27 @@ const InstructorContactPage = () => {
             <h2>Instructors List</h2>
             <ul>
               <li>
-                <strong>Instructor 1:</strong> Contact details
+                <strong>Dr. Normenyo Vasco:</strong> bnormenyovasco@gmail.com
               </li>
               <li>
-                <strong>Instructor 2:</strong> Contact details
+                <strong>Prof. Biniot Sheba:</strong> biniotsheba@gmail.com
               </li>
-              {/* Add more instructors or departments with contact details */}
+              <li>
+                <strong>Dr. Paul Boateng:</strong> paulsco@gmail.com
+              </li>
+              <li>
+                <strong>Prof. Jane Mensah:</strong> janerjaner@gmail.com
+              </li>
             </ul>
           </div>
           <form onSubmit={handleSubmit}>
             <div className="form-group">
               <label htmlFor="recipient">Select Recipient:</label>
               <select id="recipient" value={selectedRecipient} onChange={handleRecipientChange}>
-                {/* Populate options dynamically based on available instructors or departments */}
-                <option value="instructor1">Instructor 1</option>
-                <option value="instructor2">Instructor 2</option>
-                {/* Add more options based on your data */}
+                <option value="Dr. Normenyo Vasco">Dr. Normenyo Vasco</option>
+                <option value="Prof. Biniot Sheba">Prof. Biniot Sheba</option>
+                <option value="Dr. Paul Boateng">Dr. Paul Boateng</option>
+                <option value="Prof. Jane Mensah">Prof. Biniot Sheba</option>
               </select>
             </div>
             <div className="form-group">

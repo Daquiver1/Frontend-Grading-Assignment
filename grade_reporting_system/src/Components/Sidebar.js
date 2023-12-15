@@ -13,33 +13,47 @@ const Sidebar = () => {
     return (
         <aside className="sidebar">
             <div className="logo">
-                <img src={CLogo} alt="Logo" />
+                <Link to="/home">
+                    <img src={CLogo} alt="Logo" />
+                </Link>
             </div>
             <nav className="nav-links">
-                <div className="sidebar-link">
-                    <img src={Home} alt="home" />
-                    <Link to="/home">Home</Link>
-                </div>
-                <div className="sidebar-link">
-                    <img src={Dashboard} alt="dashboard" />
-                    <Link to="/dashboard">Dashboard</Link>
-                </div>
-                <div className="sidebar-link">
-                    <img src={GradeReport} alt="grade report" />
-                    <Link to="/grade-report">Grade Report</Link>
-                </div>
-                <div className="sidebar-link">
-                    <img src={MissingGradeForm} alt="missing grade form" />
-                    <Link to="/missing-grade-form">Missing Grade Form</Link>
-                </div>
-                <div className="sidebar-link">
-                    <img src={InstuctorContact} alt="instructor contact" />
-                    <Link to="/instructor-contact">Instructor Contact</Link>
-                </div>
-                <div className="sidebar-link">
-                    <img src={HelpAndSupport} alt="help & support" />
-                    <Link to="/help-support">Help & Support</Link>
-                </div>
+                <Link to="/home">
+                    <div className="sidebar-link">
+                        <img src={Home} alt="home" />
+                        <div className="link-text">Home</div>
+                    </div>
+                </Link>
+                <Link to="/dashboard">
+                    <div className="sidebar-link">
+                        <img src={Dashboard} alt="dashboard" />
+                        <div className="link-text">Dashboard</div>
+                    </div>
+                </Link>
+                <Link to="/grade-report">
+                    <div className="sidebar-link">
+                        <img src={GradeReport} alt="grade report" />
+                        <div className="link-text">Grade Report</div>
+                    </div>
+                </Link>
+                <Link to="/missing-grade-form">
+                    <div className="sidebar-link">
+                        <img src={MissingGradeForm} alt="missing grade form" />
+                        <div className="link-text">Missing Grade Form</div>
+                    </div>
+                </Link>
+                <Link to="/instructor-contact">
+                    <div className="sidebar-link">
+                        <img src={InstuctorContact} alt="instructor contact" />
+                        <div className="link-text">Instructor Contact</div>
+                    </div>
+                </Link>
+                <Link to="/Help-support">
+                    <div className="sidebar-link">
+                        <img src={HelpAndSupport} alt="help & support" />
+                        <div className="link-text">Help & Support</div>
+                    </div>
+                </Link>
             </nav>
             <div className="settings">
                 <Link to="/settings" className="cust">Settings</Link>

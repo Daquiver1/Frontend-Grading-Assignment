@@ -1,12 +1,19 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import '../CSS/LandingPage.css'; // Import the corresponding CSS styles
+import { useState } from 'react';
+import '../CSS/LandingPage.css'; 
 import UniversalComponent from './UniversalComponent';
 
 const LandingPage = () => {
+  const [darkMode, setDarkMode] = useState(false);
+
+  const handleDarkMode = () => {
+      setDarkMode(!darkMode);
+  };
+
   return (
     <UniversalComponent>
-      <div className="landing-container">
+      <div className={`landing-container ${darkMode ? 'dark' : ''}`}>
         <div className="landing-content">
           <h1>Welcome to Our Platform</h1>
           <p>Introducing Grade Guru – Your Academic Ally for Tracking, Reporting, and Excelling!</p>
@@ -25,7 +32,6 @@ const LandingPage = () => {
           <div className="featured-announcements">
             <h2>Featured Announcements</h2>
             <p>Stay informed about important updates and news.</p>
-            {/* Add featured announcements or news here */}
           </div>
         </div>
       </div>

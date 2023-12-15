@@ -1,44 +1,39 @@
-/* styles.css */
 
 .universal-container {
   display: flex;
   flex-direction: column;
-  min-height: 100vh; /* Ensure the container takes at least the full viewport height */
+  min-height: 100vh;
 }
 
 .content-container {
   display: flex;
-  flex: 1; /* Allow the content to take up remaining space */
+  flex: 1; 
 }
 
 main {
-  flex: 1; /* Allow the main content to take up remaining space */
+  flex: 1; 
   padding: 20px;
 }
 
-/* Add more styling based on your design preferences */
-
-/* Header styles */
 header {
   background-color: #333;
   color: white;
   padding: 10px;
 }
 
-/* Sidebar styles */
 aside {
   width: 200px;
   background-color: #ddd;
   padding: 10px;
 }
 
-/* Footer styles */
+
 footer {
   background-color: #333;
   color: white;
   padding: 10px;
   text-align: center;
-  margin-top: auto; /* Push the footer to the bottom of the container */
+  margin-top: auto; 
 }
 
 h1, h2, h3, h4{

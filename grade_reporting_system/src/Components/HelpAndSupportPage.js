@@ -1,6 +1,6 @@
 import React from 'react';
-import { Link } from 'react-router-dom'; // Import Link from react-router-dom
-import '../CSS/HelpAndSupportPage.css'; // Import the corresponding CSS styles
+import { Link } from 'react-router-dom';
+import '../CSS/HelpAndSupportPage.css'; 
 import UniversalComponent from './UniversalComponent';
 
 const HelpAndSupportPage = () => {
@@ -14,7 +14,6 @@ const HelpAndSupportPage = () => {
             <ul>
               <li>Q: How do I reset my password?</li>
               <li>Q: Can I view my grades for past semesters?</li>
-              {/* Add more FAQs based on common user queries */}
             </ul>
           </div>
           <div className="contact-info">
@@ -36,7 +35,6 @@ const HelpAndSupportPage = () => {
             <ul>
               <li>If you're experiencing login issues, try resetting your password.</li>
               <li>Clear your browser cache to resolve display issues.</li>
-              {/* Add more troubleshooting tips based on common issues */}
             </ul>
           </div>
           <div className="feedback-form">
@@ -45,7 +43,6 @@ const HelpAndSupportPage = () => {
               We value your feedback! Use the form below to submit suggestions or
               report bugs.
             </p>
-            {/* Add a form component for users to submit feedback */}
           </div>
           <div className="relevant-links">
             <h2>Relevant Documentation and Resources</h2>
@@ -53,7 +50,6 @@ const HelpAndSupportPage = () => {
               <li>
                 Explore our <Link to="/help-center">Help Center</Link> for additional resources.
               </li>
-              {/* Add more relevant links based on your documentation */}
             </ul>
           </div>
         </div>

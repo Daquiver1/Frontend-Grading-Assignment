@@ -1,36 +1,36 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom'; // Import Link from react-router-dom
-import '../CSS/GradeReportPage.css'; // Import the corresponding CSS styles
+import { Link } from 'react-router-dom'; 
+import '../CSS/GradeReportPage.css'; 
 import UniversalComponent from './UniversalComponent';
 
 const GradeReportPage = () => {
-  const [selectedYear, setSelectedYear] = useState('2023'); // Initial year
+  const [selectedYear, setSelectedYear] = useState('2023'); 
   const [gradeData, setGradeData] = useState([
     { course: 'Mathematics', grade: 'A' },
     { course: 'History', grade: 'B' },
-    // Add more courses and grades as needed
+    { course: 'DCIT 203', grade: 'B' },
+    { course: 'MATH 223', grade: 'B' },
+    { course: 'DCIT 205', grade: 'D' },
+    { course: 'MATH 243', grade: 'B' },
   ]);
 
   const handleYearChange = (event) => {
     setSelectedYear(event.target.value);
-    // Logic to fetch grade data for the selected year
-    // For the example, we'll use dummy data
     setGradeData([
       { course: 'Mathematics', grade: 'A' },
       { course: 'History', grade: 'B' },
-      // Add more courses and grades as needed
+      { course: 'DCIT 203', grade: 'B' },
+      { course: 'MATH 223', grade: 'B' },
+      { course: 'DCIT 205', grade: 'D' },
+      { course: 'MATH 243', grade: 'B' },
     ]);
   };
 
   const handleDownloadClick = () => {
-    // Logic to download the grade report
-    // For the example, we'll log a message to the console
     console.log('Downloading grade report...');
   };
 
   const handlePrintClick = () => {
-    // Logic to print the grade report
-    // For the example, we'll log a message to the console
     console.log('Printing grade report...');
   };
 
@@ -51,7 +51,6 @@ const GradeReportPage = () => {
               <option value="2021">2021</option>
               <option value="2020">2020</option>
               <option value="2019">2019</option>
-              {/* Add more options for different years as needed */}
             </select>
           </div>
           <div className="grade-table">
@@ -76,7 +75,6 @@ const GradeReportPage = () => {
             <p>Cumulative GPA: 3.5</p>
           </div>
           <div className="graphs-and-charts">
-            {/* Add graphs or charts visualizing grade distribution */}
           </div>
           <div className="action-buttons">
             <button onClick={handleDownloadClick}>Download Report</button>
