@@ -1,6 +1,7 @@
 import React from "react";
 import "./HelpAndSupport.css";
 import Navbar from "./component/Navbar";
+import Footer from "./component/footer";
 
 function Help () {
     
@@ -51,7 +52,7 @@ function Help () {
                     <p>Phone: 123-456-7890</p>
                         </div>
                     </div>
-                    
+                    <Footer/>
                 </div>
     );
 

@@ -2,7 +2,9 @@
 import React, { useState, useEffect } from "react";
 import "./Dashboard.css";
 import Navbar from './component/Navbar';
-import { Link } from "react-router-dom";
+import Footer from "./component/footer";
+
+
 
 function Grades () {
 
@@ -92,7 +94,7 @@ function Grades () {
                     </tbody>
                 </table>
             </div>
-            
+            <Footer/>
         </div>
     );
 

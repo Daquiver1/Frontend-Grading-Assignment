@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Dashboard from "./dashboard";
 import "./Login.css";
+import Footer from "./component/footer";
 
 function Login () {
     const [username, setUsername] = useState('');
@@ -49,6 +50,7 @@ function Login () {
                     <p className="forgot">Forgot password?</p>
                 </form>
             </div>
+            <Footer />
         </div>
     );
 }

@@ -1,9 +1,8 @@
 import React, { useState, useEffect } from "react";
 import "./Dashboard.css";
 import Navbar from "./component/Navbar";
-
+import Footer from "./component/footer";
 function Dashboard () {
-    //Navigating to the various pages
     
 
     //Returning the date to the date display session
@@ -87,6 +86,7 @@ function Dashboard () {
                     </div>
                 </div>
             </div>
+            <Footer/>
         </div>
     );
 

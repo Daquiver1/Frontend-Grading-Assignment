@@ -5,3 +5,12 @@ The main goal of the "Missing Grade Reporting System" website is to provide a us
 # TECHNOLOGIES USED
 React
 CSS
+
+# WEBSITE PAGES 
+![Alt text](<FireShot Capture 001 - React App - localhost.png>)
+![Alt text](<FireShot Capture 002 - React App - localhost.png>)
+![Alt text](<FireShot Capture 003 - React App - localhost.png>)
+![Alt text](<FireShot Capture 004 - React App - localhost.png>)
+![Alt text](<FireShot Capture 005 - React App - localhost.png>)
+![Alt text](<FireShot Capture 006 - React App - localhost.png>)
+![Alt text](<FireShot Capture 007 - React App - localhost.png>)

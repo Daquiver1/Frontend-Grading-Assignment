@@ -4,6 +4,8 @@ import React from 'react';
 import Navbar from './component/Navbar';
 import { Link } from 'react-router-dom';
 import './Homepage.css';
+import Footer from './component/footer';
+
 
 const Homepage = () => {
   return (
@@ -40,6 +42,7 @@ const Homepage = () => {
           </div>
         </div>
       </div>
+      <Footer/>
     </div>
   );
 };

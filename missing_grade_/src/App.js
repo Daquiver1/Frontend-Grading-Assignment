@@ -7,7 +7,7 @@ import Grade from './Pages/GradesReport';
 import MissingGradeForm from './Pages/MissingGradeForm';
 import Contact from './Pages/ContactUs';
 import HelpAndSupport from './Pages/HelpAndSupport';
-import Footer from './Pages/component/footer';
+
 
 const App = () => {
   return (
@@ -25,7 +25,7 @@ const App = () => {
             
          
         </Routes>
-      <Footer />
+      
     </Router>
   );
 };
