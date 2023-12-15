@@ -22,7 +22,7 @@ const Footer = () => {
             <h4 className="footer-heading3">Search</h4>
             <div className="search-container">
               <input type="text" placeholder="Search..." className="search-input" />
-              <button className="search-button"><FaSearch style={{ color: '#0e76a8', fontSize: '55px'}}/></button>
+              <button className="search-button"><FaSearch style={{ color: '#222', fontSize: '35px'}}/></button>
             </div>
           </div>
           <div className="social">

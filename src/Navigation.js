@@ -4,7 +4,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 /*import NavDropdown from 'react-bootstrap/NavDropdown';*/
 import React from 'react';
-import Trinity from './icons/trinity.PNG';
+
 
 
 function Navigation() {
@@ -12,13 +12,7 @@ function Navigation() {
 <div>
     <Navbar expand="lg" bg="dark" variant="dark" sticky="top" >
     <Container>
-    <img
-              alt=""
-              src={Trinity}
-              width="70"
-              height="70"
-              className="d-inline-block align-top"
-            />{' '}
+   
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="me-auto">
