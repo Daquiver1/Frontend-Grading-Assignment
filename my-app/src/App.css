@@ -1,0 +1,55 @@
+/* styles.css */
+
+/* Define a fade-in animation */
+@keyframes fadeIn {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 5;
+  }
+}
+
+.img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation:step-start;
+}
+
+/* Style for words with the fade-in animation */
+.word-container {
+  text-align: center;
+  animation: fadeIn 5ms ease-in-out;
+}
+
+/* Optionally, you can add more styling for a smoother transition */
+.word-container h1 {
+  margin: 0;
+  font-size: 2em;
+  color: #333;
+}
+
+/* Apply a scale-in animation to images */
+.img-container img {
+  animation: scaleIn 1s ease-in-out;
+}
+
+@keyframes scaleIn {
+  from {
+    transform: scale(0.8);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+.footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color:black;
+  color: white;
+  text-align: center;
+}
