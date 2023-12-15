@@ -1,51 +1,53 @@
-# Student Grade Reporting System Frontend
+# ASSIGNMENT 1_ 11300128
+# Grade Management System
 
-## Project Overview
+The Grade Management System is a comprehensive web-based application designed to simplify the process of managing and tracking student grades. This system provides a user-friendly interface for teachers to input and update grades, generate grade reports, and communicate with students and parents regarding academic performance.
 
-This project is a front-end web application for a Student Grade Reporting System. It simulates a real-world application where students can view, report, and manage their academic grades. This system addresses the issue of missing or unrecorded grades in a student's profile.
+## Features
 
-## Application Structure
+- User Authentication: The system allows users to create accounts and log in securely to access their personalized dashboards.
+- Grade Input: Teachers can effortlessly enter and update student grades for various subjects and assignments.
+- Grade Reports: Generate detailed grade reports for individual students or entire classes, providing a comprehensive overview of their academic progress.
+- Communication: Facilitate effective communication by enabling teachers to send messages and notifications to students and parents regarding grades and academic performance.
+- Contacts: Access contact information for staff and faculty members for easy communication and collaboration.
 
-The application consists of 7 main pages:
+## Technologies Used
 
-- **Homepage:** Introduction to the system and its purpose.
-- **Login Page:** Mock login interface for student authentication.
-- **Dashboard:** Displays an overview of the student’s current grades and alerts for missing grades.
-- **Grade Report:** Shows a detailed view of the student's grades filtered by semester or academic year.
-- **Missing Grade Form:** Enables students to report missing grades.
-- **Instructor Contact Page:** Lists instructors' contact information with a simulated email feature.
-- **Help and Support:** Provides FAQs and a mock support contact form.
+- Front-end: React.js, HTML, CSS
 
-## Technical Details
+  
 
-- **Framework/Technology Used:** [React]
-- **Responsive Design:** Implemented using [CSS Flexbox/Grid, Bootstrap, Tailwind CSS].
-- **JavaScript Functionality:** Used for form validations, dynamic content rendering, and simulating interactions.
+## Installation and Usage
 
-## Setup and Installation
+1. Clone the repository: `git clone [repository URL]`
+2. Install dependencies: `npm install`
+3. Start the development server: `npm start`
 
-To set up the project locally, follow these steps:
+Ensure that you have Node.js and MongoDB installed on your system.
 
-```bash
-git clone https://github.com/your-github-username/DCIT_205_ASSIGNGMENT1.git
-cd repo-name
-npm install
-npm start
-```
+To use the Grade Management System:
 
-This will start the application on `localhost` at the default port.
+1. Navigate to the project directory: `cd grade-management-system`
+2. Start the application: `npm start`
+3. Open your web browser and visit `http://localhost:3000`
 
-## Usage
+## Lesson Learned 
+Through this tiring task, I managed to navigate the challenges and successfully manipulate the React DOM while utilizing DOM functions. This experience provided me with valuable lessons on interacting with the React DOM and making dynamic changes to the user interface. I learned how to leverage DOM functions like `getElementById`, `createElement`, `appendChild`, and `setAttribute` to access and modify elements within the DOM tree. Furthermore, I gained insights into updating component state to trigger re-renders and ensure a seamless synchronization between the DOM and React components. Understanding event handling in React was also a key takeaway, enabling me to effectively respond to user interactions. I recognize the importance of adhering to React's best practices and guidelines when manipulating the DOM, as the virtual DOM diffing algorithm plays a vital role in optimizing updates. 
+## Support
 
-Describe how to use the application, highlighting key functionalities such as logging in, viewing grades, reporting missing grades, and contacting instructors.
+For any inquiries or support, please reach out to our team at [mawuliagbeko@gmail.com.com](mailto:support@example.com). We are happy to assist you with any questions or concerns you may have.
 
-## Contribution
-
-To contribute to this project, please follow these guidelines:
-
-1. Fork the repository.
-2. Create a new branch for your feature.
-3. Commit your changes and push them to your branch.
-4. Submit a pull request for review.
-
-Please adhere to the project's coding standards and provide clear and detailed pull request descriptions.
+##  These are some Screenshot of my page
+![Alt text](<src/Component/pictures/Screenshot (57).png>)
+![Alt text](<src/Component/pictures/Screenshot (59).png>) 
+![Alt text](<src/Component/pictures/Screenshot (62).png>) 
+![Alt text](<src/Component/pictures/Screenshot (63).png>) 
+![Alt text](<src/Component/pictures/Screenshot (64).png>) 
+![Alt text](<src/Component/pictures/Screenshot (65).png>) 
+![Alt text](<src/Component/pictures/Screenshot (66).png>) 
+![Alt text](<src/Component/pictures/Screenshot (68).png>) 
+![Alt text](<src/Component/pictures/Screenshot (69).png>) 
+![Alt text](<src/Component/pictures/Screenshot (70).png>) 
+![Alt text](<src/Component/pictures/Screenshot (71).png>) 
+![Alt text](<src/Component/pictures/Screenshot (72).png>) 
+![Alt text](<src/Component/pictures/Screenshot (73).png>)

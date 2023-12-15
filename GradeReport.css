@@ -1,0 +1,54 @@
+#HM {
+  padding: 10px;
+  position: fixed;
+  background-color: rgb(108, 108, 253);
+  width: 1250px;
+  top: 0;
+}
+
+.jm {
+  display: flex;
+  align-items: center;
+
+}
+
+.pg {
+  margin-right: 10px;
+}
+
+.UN {
+  font-weight: bold;
+  margin-left: 200px;
+}
+
+.container{
+  margin-top: 200px;
+  display: flex;
+}
+
+.main {
+margin:10px 0 0 50px;
+
+}
+.select{
+  text-align: left;
+}
+
+.LL{
+  margin-bottom: 20px;
+}
+table {
+  width: 850px;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 8px;
+  border: none;
+}
+th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+.gd{
+  text-align: left;
+}
