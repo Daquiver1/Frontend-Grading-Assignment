@@ -2,6 +2,10 @@ import React from 'react'
 import DashNav from './DashNav';
 import './Home.css';
 import Table from 'react-bootstrap/Table';
+import * as ReactBootStrap from "react-bootstrap";
+import { Link } from 'react-router-dom';
+
+
 
 
 const Home = () => {
@@ -16,7 +20,9 @@ const Home = () => {
                         <div className='p-3 bg-white shaodow-sm d-flex justify-content-around align-items-center rounded'>
                             <div>
                                 <h3 className='fs-2'>Grade Records </h3>
-                                <p className='fs-5'>See grades for respective resgisted courses. Open grade records to view<br /> <i className='bi bi-arrow-right'></i></p>
+                                <p className='fs-5'>See grades for respective resgisted courses. Open grade records to view<br />
+                                <ReactBootStrap.Nav.Link href="/Pages/GradeReport"><i className='bi bi-arrow-right'></i></ReactBootStrap.Nav.Link>
+                                </p>
                             </div>
                             <i className='bi bi-file-earmark-text p-3 fs-1'></i>
                         </div>
@@ -26,7 +32,7 @@ const Home = () => {
                             <div>
                                 <h3 className='fs-2'>Report Missing Grades </h3>
                                 <p className='fs-5'>Fill a report form to track missing grades<br />
-                                <i className='bi bi-arrow-right'></i>
+                                <ReactBootStrap.Nav.Link href="/Pages/MissingGrade"><i className='bi bi-arrow-right'></i></ReactBootStrap.Nav.Link>
                                 </p>
                             </div>
                             <i className='bi bi-exclamation-triangle p-3 fs-1'></i>
@@ -37,7 +43,7 @@ const Home = () => {
                             <div>
                                 <h3 className='fs-2'>Contact Course Instructor </h3>
                                 <p className='fs-5'>Contact the course instructors of the respective courses<br />
-                                <i className='bi bi-arrow-right'></i>
+                                <ReactBootStrap.Nav.Link href="/Pages/ContactInstructor"> <i className='bi bi-arrow-right'></i></ReactBootStrap.Nav.Link>
                                 </p>
                             </div>
                             <i className='bi bi-chat-dots p-3 fs-1'></i>

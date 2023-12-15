@@ -44,47 +44,47 @@ function MissingGrade(){
         <Form noValidate validated={validated} onSubmit={handleSubmit}>
       <Row className="mb-3">
         <Form.Group as={Col} md="4" controlId="validationCustom01">
-          <Form.Label className="labels">Student ID</Form.Label>
+          <Form.Label className="labels">Course Name</Form.Label>
           <Form.Control
             required
             type="text"
-            placeholder="ID"
+            placeholder="Title of Course"
           />
         </Form.Group>
         <Form.Group as={Col} md="4" controlId="validationCustom02">
-          <Form.Label className="labels">Year of Enrollment</Form.Label>
+          <Form.Label className="labels">Course Code</Form.Label>
           <Form.Control
             required
             type="text"
-            placeholder="eg: 2022/2023"
+            placeholder="Enter Course Code"
           />
         </Form.Group>
         <Form.Group as={Col} md="4" controlId="validationCustomUsername">
-          <Form.Label className="labels">Course Code</Form.Label>
+          <Form.Label className="labels">Instructor Name</Form.Label>
           <InputGroup hasValidation>
             <Form.Control
               type="text"
-              placeholder="Enter Course code"
+              placeholder="Course was delivered by?"
               aria-describedby="inputGroupPrepend"
               required
             />
             <Form.Control.Feedback type="invalid" className="feedback">
-              Please enter Course Code.
+              Please enter the name of the instructor
             </Form.Control.Feedback>
           </InputGroup>
         </Form.Group>
       </Row>
       <Row className="mb-3">
         <Form.Group as={Col} md="4" controlId="validationCustom03">
-          <Form.Label className="labels">Course Title</Form.Label>
-          <Form.Control type="text" placeholder="Title of Course" required />
+          <Form.Label className="labels">Expected Grade</Form.Label>
+          <Form.Control type="text" placeholder="based on results from Marked Scripts/Assesments" required />
           <Form.Control.Feedback type="invalid" className="feedback">
             Cannot be empty
           </Form.Control.Feedback>
         </Form.Group>
         <Form.Group as={Col} md="7" controlId="validationCustom04">
-          <Form.Label className="labels">Leave a note for the Instructor</Form.Label>
-          <Form.Control type="text" placeholder="Message for the Instructor" required />
+          <Form.Label className="labels">Explanation Field</Form.Label>
+          <Form.Control type="text" placeholder="Message for the instructor" required />
           <Form.Control.Feedback type="invalid" className="feedback">
             Please say something about your Issue.
           </Form.Control.Feedback>

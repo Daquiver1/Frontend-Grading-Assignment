@@ -31,7 +31,11 @@ const YearFilterDropdown = ({ onChange }) => {
         <ReactBootStrap.Alert variant="success">
       <ReactBootStrap.Alert.Heading>No Academic Year Selected !!!</ReactBootStrap.Alert.Heading>
       <p >
-        Select to view the grades of the respective Academic Year.
+        Select to view the grades of the respective Academic Year. <br />
+        <i className='bi bi-exclamation-triangle p-2 fs-1'></i>
+        <p>Missing Grade for Course: STAT111    Academic Year : 2019/2020 </p>
+        <p>Missing Grade for Course: MATH223    Academic Year : 2020/2021 </p>
+
       </p>
       
       

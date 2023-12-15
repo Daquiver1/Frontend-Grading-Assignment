@@ -20,7 +20,7 @@ const WelcomeSection = () => {
                         <Card.Text>
                         Track your grades, Check for Missing grades.Access detailed insights into each subjects.
                         </Card.Text>
-                        <Button variant="primary">View Dashboard</Button>
+                        <ReactBootStrap.Nav.Link href="/Pages/Login"> <Button variant="primary">View Dashboard</Button></ReactBootStrap.Nav.Link>
                     </Card.Body>
                 </Card>
           
@@ -31,7 +31,7 @@ const WelcomeSection = () => {
                         <Card.Text>
                         Report Missing grades to instructors.To ensure accuracy and transparency.
                         </Card.Text>
-                        <Button variant="primary">Make a Report</Button>
+                        <ReactBootStrap.Nav.Link href="/Pages/Login"><Button variant="primary">Make a Report</Button></ReactBootStrap.Nav.Link>
                     </Card.Body>
                 </Card>
             

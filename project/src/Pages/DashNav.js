@@ -13,8 +13,8 @@ const DashNav = () =>{
                 <ReactBootStrap.Navbar.Collapse id="responsive-navbar-nav">
                     <ReactBootStrap.Nav className="me-auto">
                     <ReactBootStrap.Nav.Link href="#features">Home</ReactBootStrap.Nav.Link>
-                    <ReactBootStrap.Nav.Link href="#pricing">Pricing</ReactBootStrap.Nav.Link> 
-                  {/*  <ReactBootStrap.NavDropdown title="Dashboard" id="collasible-nav-dropdown">
+                    {/*<ReactBootStrap.Nav.Link href="#pricing">Pricing</ReactBootStrap.Nav.Link> 
+                    <ReactBootStrap.NavDropdown title="Dashboard" id="collasible-nav-dropdown">
                         <ReactBootStrap.NavDropdown.Item href="#action/3.1">Grade report</ReactBootStrap.NavDropdown.Item>
                         <ReactBootStrap.NavDropdown.Item href="#action/3.2">
                         Missing grade form

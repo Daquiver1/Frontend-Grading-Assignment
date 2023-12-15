@@ -20,8 +20,8 @@ const Login = () =>{
         <div className='overlay'>
         <div className='cover'>
                 <h1>Login</h1>
-                <input type='text' placeholder='Username' />
-                <input type='password' placeholder='Password' />
+                <input type='text' placeholder='Student ID' />
+                <input type='password' placeholder='PIN' />
                 <ReactBootStrap.Nav.Link href="/Pages/Dashboard"> <div className='Login-btn'> Login</div></ReactBootStrap.Nav.Link>
         </div>
         </div>

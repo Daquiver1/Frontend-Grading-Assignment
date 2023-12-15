@@ -17,7 +17,7 @@ const PagesHeading = () => {
         <ReactBootStrap.Navbar.Collapse id="responsive-navbar-nav">
           <ReactBootStrap.Nav className="me-auto">
           {/*  <ReactBootStrap.Nav.Link href="#features">Features</ReactBootStrap.Nav.Link>
-            <ReactBootStrap.Nav.Link href="#pricing">Pricing</ReactBootStrap.Nav.Link> */}
+            <ReactBootStrap.Nav.Link href="#pricing">Pricing</ReactBootStrap.Nav.Link> 
             <ReactBootStrap.NavDropdown title="Dashboard" id="collasible-nav-dropdown">
               <ReactBootStrap.NavDropdown.Item href="#action/3.1">Grade report</ReactBootStrap.NavDropdown.Item>
               <ReactBootStrap.NavDropdown.Item href="#action/3.2">
@@ -28,7 +28,7 @@ const PagesHeading = () => {
               <ReactBootStrap.NavDropdown.Item href="#action/3.4">
                 Separated link
               </ReactBootStrap.NavDropdown.Item>
-            </ReactBootStrap.NavDropdown>
+            </ReactBootStrap.NavDropdown>*/}
           </ReactBootStrap.Nav>
           <ReactBootStrap.Nav>
             <ReactBootStrap.Nav.Link href="/Pages/Login">Login</ReactBootStrap.Nav.Link>

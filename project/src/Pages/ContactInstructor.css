@@ -1,0 +1,10 @@
+.tableDiv{
+    position: relative;
+    top: 100px;
+}
+.titleOfPage{
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
