@@ -4,16 +4,16 @@ const SupportSection = () => {
     return (
         <Fragment>
             <section className="event subscribe subscribe-3 set-relative">
-                <div class="circle">
+                <div className="circle">
                 </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-10 offset-md-1">
-                            <div class="title title3">
-                                <div class="main-title">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-md-10 offset-md-1">
+                            <div className="title title3">
+                                <div className="main-title">
                                     <h2><span>Sup</span>port</h2>
                                 </div>
-                                <div class="sub-title">
+                                <div className="sub-title">
                                     <p>For resolution of missing grades,
                                         <span>
                                             select 'Contact Me' below.
@@ -27,14 +27,14 @@ const SupportSection = () => {
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-6 offset-lg-3 col-md-8 offset-md-2">
-                            <div class="subscribe">
-                                <div class="center-content">
-                                    <div class="form-group">
-                                        <div class="flex">
-                                            <input class="form-control text-capitalize" name="email"  placeholder="Please Enter Your Email Address" type="email"/>
-                                            <div class="button-primary">
-                                                <button class=" btn btn-default primary-btn text-white text-capitalize"
+                        <div className="col-lg-6 offset-lg-3 col-md-8 offset-md-2">
+                            <div className="subscribe">
+                                <div className="center-content">
+                                    <div className="form-group">
+                                        <div className="flex">
+                                            <input className="form-control text-capitalize" name="email"  placeholder="Please Enter Your Email Address" type="email"/>
+                                            <div className="button-primary">
+                                                <button className=" btn btn-default primary-btn text-white text-capitalize"
                                                     type="submit">
                                                     contact me
                                                 </button>

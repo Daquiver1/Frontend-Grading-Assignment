@@ -24,36 +24,37 @@ const Login = () => {
            <LandingHeader/>
 
             {/* <!-- header Start--> */}
-            <section class="event header" id="home">
-                <div class="header3 bg">
-                    <div class="event-content">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-xl-8 offset-xl-2 col-md-10 offset-md-1">
-                                    <div class="center-text">
-                                        <div class="text-center w-100">
-                                            <div class="h1-margin">
+            <section className="event header" id="home">
+                <div className="header3 bg">
+                    <div className="event-content">
+                        <div className="container">
+                            <div className="row">
+                                <div className="col-xl-8 offset-xl-2 col-md-10 offset-md-1">
+                                    <div className="center-text">
+                                        <div className="text-center w-100">
+                                            <div className="h1-margin">
                                                 <h1>Missing Grade Report System
                                                 </h1>
                                             </div>
-                                            <div class="wedding-time">
-                                                <div class="row  col-sm-8 offset-sm-2">
+                                            <div className="wedding-time">
+                                                <div className="row  col-sm-8 offset-sm-2">
 
-                                                <Card class="card-preview card-bordered">
+                                                <Card className="card-preview card-bordered">
                                                 
                                                     <br></br>
                                                     <h2>Sign-In</h2>
                                                     <br></br><br></br>
-                                                    <div class="card-inner card-inner-lg col-sm-8 offset-sm-2">
+                                                    <div className="card-inner card-inner-lg col-sm-8 offset-sm-2">
                                                         
                                                         <Form onSubmit={handleSubmit(onFormSubmit)}>
 
                                                             <FormGroup>
-                                                                <div class="form-group">
-                                                                    <label for="studentId">Student ID</label>
+                                                                <div className="form-group">
+                                                                    <label htmlFor="studentId">Student ID</label>
                                                                     <input 
                                                                         type="text" 
-                                                                        class="form-control" 
+                                                                        className="form-control" 
+                                                                        id="studentId" 
                                                                         name="studentId" 
                                                                         aria-describedby="emailHelp" 
                                                                         placeholder="Enter student Id"
@@ -65,11 +66,12 @@ const Login = () => {
                                                             <br></br>
 
                                                             <FormGroup>
-                                                            <div class="form-group">
-                                                                <label for="pin">PIN</label>
+                                                            <div className="form-group">
+                                                                <label htmlFor="pin">PIN</label>
                                                                 <input 
                                                                     type="password" 
-                                                                    class="form-control" 
+                                                                    className="form-control" 
+                                                                    id="pin" 
                                                                     name="pin" 
                                                                     placeholder="PIN"
                                                                     ref={register({ required: "This field is required" })}

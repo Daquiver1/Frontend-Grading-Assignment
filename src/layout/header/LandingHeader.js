@@ -14,7 +14,7 @@ const LandingHeader = ({showLogin}) => {
                         <div className="col">
                             <nav>
                                 <a className="d-inline-block m-r-auto" href="/">
-                                    <img alt="" className="img-fluid" src={logo}/>
+                                    <img alt="main-logo" className="img-fluid" src={logo}/>
                                 </a>
                                 <div className="responsive-btn">
                                     <a className="toggle-nav" href="#">
@@ -32,7 +32,7 @@ const LandingHeader = ({showLogin}) => {
                                             <a href="/">home</a>
                                         </li>
                                         <li id="dropdown-li"> 
-                                            <a class="dropdown" href="/help-and-support">
+                                            <a className="dropdown" href="/help-and-support">
                                                 Help and Support &nbsp;
                                                 <FontAwesomeIcon icon={faCaretDown} />
                                                 </a>

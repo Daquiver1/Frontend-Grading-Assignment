@@ -7,36 +7,36 @@ const LandingFooter = () => {
     return(
         <Fragment>
              <div className="event copyright flex mt-03">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="link-horizontal d-flex align-content-lg-center h-100">
+                <div className="container-fluid">
+                    <div className="row">
+                        <div className="col-md-6">
+                            <div className="link-horizontal d-flex align-content-lg-center h-100">
                                 <ul>
                                     <li>
-                                        <a class="center-content" href="#">
+                                        <a className="center-content" href="#">
                                             <FontAwesomeIcon icon={faFacebookF} />
                                         </a>
                                     </li>
                                     <li>
-                                        <a class="center-content" href="#">
+                                        <a className="center-content" href="#">
                                             <FontAwesomeIcon icon={faInstagram} />
                                         </a>
                                     </li>
                                     <li>
-                                        <a class="center-content" href="#">
+                                        <a className="center-content" href="#">
                                             <FontAwesomeIcon icon={faXTwitter} />
                                         </a>
                                     </li>
                                     <li>
-                                        <a class="center-content" href="#">
+                                        <a className="center-content" href="#">
                                             <FontAwesomeIcon icon={faGoogle} />
                                         </a>
                                     </li>
                                 </ul>
                             </div>
                         </div>
-                        <div class="col-md-6">
-                            <p class="copyright-text text-end text-white">© {new Date().getFullYear()}{" "} Royalty. All Rights Reserved </p>
+                        <div className="col-md-6">
+                            <p className="copyright-text text-end text-white">© {new Date().getFullYear()}{" "} Royalty. All Rights Reserved </p>
                         </div>
                     </div>
                 </div>

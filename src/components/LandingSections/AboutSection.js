@@ -7,18 +7,18 @@ const AboutSection = () => {
     return (
         <Fragment>
             <section className="event about bg bg-img bg-about">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-10 offset-md-1">
-                            <div class="title title3">
-                                <div class="main-title">
-                                    <h2 class=" text-white">About System</h2>
+                <div className="container">
+                    <div className="row">
+                        <div className="col-md-10 offset-md-1">
+                            <div className="title title3">
+                                <div className="main-title">
+                                    <h2 className=" text-white">About System</h2>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 offset-lg-1 col-md-6">
-                            <div class="text-end">
-                                <div class="announcer-img">
+                        <div className="col-lg-4 offset-lg-1 col-md-6">
+                            <div className="text-end">
+                                <div className="announcer-img">
                                     <img alt="" className="img-fluid" src={pic1}/>
                                     <img alt="" className="img-fluid" src={pic1}/>
                                     <img alt="" className="img-fluid" data-tilt data-tilt-max="3" data-tilt-perspective="500"
@@ -26,22 +26,22 @@ const AboutSection = () => {
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xl-5 offset-xl-1 col-lg-7 col-md-6">
-                            <div class="abouts center-text">
-                                <div class="format">
-                                    <div class="format-small-text">
-                                        <h6 class="text-white borders-before text-uppercase"><span>System function</span></h6>
+                        <div className="col-xl-5 offset-xl-1 col-lg-7 col-md-6">
+                            <div className="abouts center-text">
+                                <div className="format">
+                                    <div className="format-small-text">
+                                        <h6 className="text-white borders-before text-uppercase"><span>System function</span></h6>
                                     </div>
-                                    <div class="format-head-text">
-                                        <h3 class="about-font-header text-white">Missing Grades Report System</h3>
+                                    <div className="format-head-text">
+                                        <h3 className="about-font-header text-white">Missing Grades Report System</h3>
                                     </div>
-                                    <div class="format-sub-text">
-                                        <p class="about-para">
+                                    <div className="format-sub-text">
+                                        <p className="about-para">
                                             Welcome to our responsive education portal! We prioritize student success by offering a secure and intuitive system. 
                                             Navigate seamlessly through our landing page for an overview.
                                             Our login ensures a safe experience, with simulated authentication for added security. 
                                         </p>
-                                        <p class="about-para">
+                                        <p className="about-para">
                                             The dashboard provides a snapshot of your grades and alerts for missing ones.
                                             Dive into detailed grade reports and easily report missing grades through our user-friendly form. 
                                             Connect with instructors via the dedicated page and explore our help and support section for FAQs and simulated technical support. 

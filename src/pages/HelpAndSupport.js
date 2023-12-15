@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { Fragment, useState } from 'react';
-import { Form, FormGroup, Card, CardBody, CardTitle, CardText } from "reactstrap";
+import { Form, FormGroup, Card, CardBody, CardTitle } from "reactstrap";
 import LandingHeader from "../layout/header/LandingHeader";
 import LandingFooter from '../layout/footer/LandingFooter';
 import { Button, CollapseElement } from "../components/Component";
@@ -8,7 +8,7 @@ import { Button, CollapseElement } from "../components/Component";
 
 const HelpAndSupport = () => {
 
-    const [openCollapsibleId, setOpenCollapsibleId] = useState(null);
+    const [setOpenCollapsibleId] = useState(null);
 
     const handleToggle = (id) => {
         setOpenCollapsibleId((prevId) => (prevId === id ? null : id));
