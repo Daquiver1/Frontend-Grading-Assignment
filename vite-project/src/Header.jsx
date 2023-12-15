@@ -9,9 +9,7 @@ export default function Header() {
       </h1>
       <ul>
 
-        <li>
-          <input type="text" />
-        </li>
+        
         
       <li>
           <img src="https://cdn-icons-png.flaticon.com/128/954/954591.png" alt="" />

@@ -1,8 +1,13 @@
 const Contact = () => {
   return (
+    <>
+  <div className="background-contact">
+    <div>im</div>
     <div className="container12">
-      
+
+
       <div className="contact">
+
         <h1>Contact Us</h1>
         <ul>
           <li>
@@ -37,9 +42,10 @@ const Contact = () => {
           <img src="https://img.icons8.com/?size=48&id=13930&format=png" alt="" />
         </div>
       </div> 
-<br/>
-<div>
-        <img src="" alt="" />
+
+    </div>
+
+    <div className="contact-info">
         <h1>How may we help you</h1>
         <ul>
           <li>I want to retake a quiz
@@ -54,8 +60,12 @@ const Contact = () => {
         </ul>
 
       </div>
-     
     </div>
+    <section>
+      <img src="" alt="" />
+    </section>
+     
+    </>
   );
 }
 export default Contact

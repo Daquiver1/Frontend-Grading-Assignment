@@ -16,7 +16,7 @@ export default function Navbar() {
           <a href="/dashboard">Dashboard</a>
         </li> 
         <li> <img src="https://cdn-icons-png.flaticon.com/128/11660/11660195.png" alt="" />
-          <a href="/faq">Faq</a>
+          <a href="/faq">Instructors </a>
         </li> 
         <li> <img src="https://cdn-icons-png.flaticon.com/128/2972/2972160.png" alt="" />
           <a href="/gradereport">GradeReport</a>
@@ -27,8 +27,8 @@ export default function Navbar() {
         <li> <img src="https://cdn-icons-png.flaticon.com/128/7490/7490430.png" alt="" />
           <a href="/missinggrade">Missing Grade</a>
         </li>
-        <li> <img src="https://cdn-icons-png.flaticon.com/128/1564/1564087.png" alt="" />
-          <a href="/contact">Contact</a>
+        <li> <img src="https://cdn-icons-png.flaticon.com/128/1828/1828490.png" alt="" />
+          <a href="/login">log out</a>
         </li>
       </ul>
     </nav>

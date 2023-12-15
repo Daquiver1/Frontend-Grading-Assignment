@@ -8,11 +8,7 @@ const Home = () => {
         
   <div>
     
-      <span className="welcome">
-        <h1>Welcome back</h1>
-       
-      </span>
-
+      
       
         
         <div className="grid">
@@ -55,7 +51,40 @@ const Home = () => {
             <h2>To your lecturer</h2>
 
           </div>
+          <div>
+            <img src="https://images.unsplash.com/photo-1618218168350-6e7c81151b64?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGhlbHB8ZW58MHx8MHx8fDA%3D" alt="" />
+            <h1></h1>
+          </div>
+          <div>
+            <img src="https://images.unsplash.com/photo-1521587760476-6c12a4b040da?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZWR1Y2F0aW9uYWx8ZW58MHx8MHx8fDA%3D" alt="" />
+            <h1></h1>
+          </div>
+          <div>
+            <img src="https://images.unsplash.com/photo-1497864149936-d3163f0c0f4b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGVkdWNhdGlvbnxlbnwwfHwwfHx8MA%3D%3D" alt="" />
+            <h1></h1>
+          </div>
 
+          <div>
+            <img src="https://plus.unsplash.com/premium_photo-1676998931123-75789162f170?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8ZWR1Y2F0aW9ufGVufDB8fDB8fHww" alt="" />
+            <h1></h1>
+          </div>
+          <div>
+            <img src="" alt="" />
+            <h1></h1>
+          </div>
+          <div>
+            <img src="" alt="" />
+            <h1></h1>
+          </div>
+          <div>
+            <img src="https://plus.unsplash.com/premium_photo-1664302654457-399bf1bff533?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8ZXZlbnRzfGVufDB8fDB8fHww" alt="" />
+            <h1>Seminars</h1>
+          </div>
+          <div>
+            <img src="https://images.unsplash.com/photo-1508830524289-0adcbe822b40?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGNvdXJzZXN8ZW58MHx8MHx8fDA%3D" alt="" />
+            <h1>Code drill</h1>
+          </div>
+          
         </div>
         
         

@@ -10,6 +10,7 @@ import Help from './pages/Help';
 import MissingGrade from './pages/MissingGrade';
 import Header from './Header';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import LoginPage from './pages/Login';
 
 
 function App() {
@@ -18,7 +19,7 @@ function App() {
   <Header/>
 <div className="containerstyle" style={{  display: 'flex',
   // justifyContent: 'space-between',
-  padding: '20px',}}>
+  padding: '0px',}}>
 <Navbar/>
   <div className="container">
     <Routes>
@@ -30,7 +31,7 @@ function App() {
       <Route path='/gradereport' element = {<GradeReport/>} />
       <Route path='/Help' element = {<Help/>} />
       <Route path='/missinggrade' element = {<MissingGrade/>} />
-      <Route path='/contact' element = {<Contact/>} />
+      <Route path='/login' element = {<LoginPage/>} />
 
     </Routes>
     </div>
