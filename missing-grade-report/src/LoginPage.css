@@ -1,0 +1,75 @@
+/* LoginPage.css */
+
+.login-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    /* Align items to the top */
+    height: 100vh;
+    padding-top: 20px;
+    /* Add padding to the top */
+}
+
+/* ... Other styles remain unchanged ... */
+
+/* Style for form fields */
+
+label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+input[type="digits"],
+input[type="digits"] {
+    width: calc(100% - 16px);
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    /* Smooth transition effect */
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* LoginPage.css */
+
+/* ... Other styles ... */
+
+/* Custom alert styles */
+.custom-alert {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #007bff;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+}
+
+.custom-alert p {
+    margin: 0;
+}
+
+.close {
+    margin-left: 10px;
+    cursor: pointer;
+}
