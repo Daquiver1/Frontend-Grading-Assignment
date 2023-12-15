@@ -71,7 +71,7 @@ const Login = () => {
        </div>
     <div>
         <div className="forgot">
-            <p>Forgot Pin or Request Pin Change? <a href="index.html">Click Here!</a></p>
+            <p>Forgot Pin or Request Pin Change? <a href="#">Click Here!</a></p>
         </div>
 
         <div className='submit-container'>
