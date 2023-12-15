@@ -15,7 +15,7 @@ const coursesData = [
   { id: 8, name: 'Multimedia', grade:'A', semester:'second semester'}, 
   { id: 9, name: 'Discrete Mathematics', grade:'B', semester:'First semester'}, 
   { id: 10, name: 'Calculus', grade:'B', semester:'First semester'}, 
-  // Add more courses as needed
+  
 ];
 
 const GradeReportPage = () => {

@@ -1,4 +1,4 @@
-// Dashboard.js
+
 import React, { useState, useEffect } from 'react';
 import "./Dashborad.css"; // Import your CSS file
 
@@ -54,7 +54,7 @@ const Dashboard = () => {
         <h2 className='repo'>Report Missing Grades</h2>
         <p className='repo1'>Use the form below to report any missing grades:</p>
         <form>
-          {/* Add form fields for reporting missing grades (course selection, assignment details, attachments, etc.) */}
+        
           <label className='sele' htmlFor="course">Select Course:</label>
           <select id="course" name="course">
             {enrolledCourses.map((course) => (
@@ -64,7 +64,7 @@ const Dashboard = () => {
             ))}
           </select>
 
-          {/* Add more form fields based on your requirements */}
+          
         <Link to="/MissingGrade">
             {""} 
           <button type="submit">Submit Report</button>

@@ -1,4 +1,4 @@
-// InstructorContactPage.js
+
 import React, { useState } from 'react';
 import './InstructorContactPage.css';
 import Footer from './Footer';
@@ -12,7 +12,7 @@ const instructors = [
   { id: 2, name: 'Ebenezer Owusu', email: 'ebenowusu@gmail.com' },
   { id: 2, name: 'Nana Assyne', email: 'Assyne@gmail.com' },
   { id: 2, name: 'Ralph Twum', email: 'ralph.twum@gmail.com' },
-  // Add more instructors as needed
+  
 ];
 
 const InstructorContactPage = () => {
@@ -28,18 +28,18 @@ const InstructorContactPage = () => {
   };
 
   const sendEmail = () => {
-    // Simulate sending email (display in console for this example)
+    
     console.log(`To: ${selectedInstructor.email}`);
     console.log(`Subject: ${emailSubject}`);
     console.log(`Body: ${emailBody}`);
     console.log('Email sent successfully!');
     
-    // Update state to show confirmation message and clear the form
+
     setEmailSent(true);
     setEmailSubject('');
     setEmailBody('');
 
-    // Reset email sent confirmation after 3 seconds
+    
     setTimeout(() => {
       setEmailSent(false);
     }, 3000);
