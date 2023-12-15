@@ -7,7 +7,7 @@ const MinFooter = () => {
 //This is a footer for smaller screens
   return (
     <>
-      <div className="container flex  flex-col place-items-center bg-blue-800 w-full justify-center relative bottom-0">
+      <div className="container max-xl:flex xl:flex flex-col place-items-center bg-blue-800 w-full justify-center relative bottom-0">
         {/*Specify position when using directions like right, left etc*/}
         <div className="left- flex flex-col place-items-center gap-5">
           <img className="rounded-full w-16 h-16" src="/coat-arms.jpg" alt="" />

@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <>
       <div className="container">
-        <div className="side-bar inline-flex place-items-center flex-col gap-10 bg-blue-50 absolute top-0">
+        <div className="side-bar max-xl:hidden inline-flex place-items-center flex-col gap-10 bg-blue-50 absolute top-0">
           <div className="image-text flex place-items-center gap-5">
             <img
               className="rounded-full w-20"

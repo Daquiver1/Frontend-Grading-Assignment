@@ -6,7 +6,7 @@ const LoginMin = () => {
 
   return (
     <>
-      <div className="container flex flex-col place-items-center bg-blue-800 w-full justify-center fixed bottom-0">
+      <div className="container xl:hidden flex-col place-items-center bg-blue-800 relative bottom-0 w-full">
         {/*Specify position when using directions like right, left etc*/}
         <div className="left- flex flex-col place-items-center gap-5">
           <img className="rounded-full w-16 h-16" src="/coat-arms.jpg" alt="" />
@@ -19,20 +19,11 @@ const LoginMin = () => {
           <Link className="text-blue-100" to="/privacy">
             Data Privacy
           </Link>
-          <Link className="text-blue-100" to="/policy">
-            Our Policies
-          </Link>
-          <Link className="text-blue-100" to="/partner">
-            Become a Partner
-          </Link>
           <Link className="text-blue-100" to="/guidelines">
             Guidelines
           </Link>
         </div>
-        <div className="date-year text-red-400 mr-5 ml-5 mt-5">
-          <p>Copyright &copy; {dateYear} Pep&apos;s Grade Report System</p>
-        </div>
-        <div className="contact-section flex flex-col place-items-center gap-5 mt-5">
+        <div className="contact-section flex place-items-center gap-5 mt-5">
           <div className="flex">
             <button className="block w-6 h-6 text-blue-50">
               <svg
@@ -51,38 +42,49 @@ const LoginMin = () => {
             </button>
             <p className="text-blue-100">0551875432</p>
           </div>
-          <a href="https://wa.me/+233551875432">
-            <img
-              className="h-6 w-6 rounded-full"
-              src="/xap-icon.jpeg"
-              alt="An image of the whatsapp icon"
-              title="Connect on whatsapp"
-            />
-          </a>
-          <a href="">
-            <img
-              className="h-6 w-6 rounded-full"
-              src="/facebook-icon.jpeg"
-              alt="The facebook icon"
-              title="Connect on facebook"
-            />
-          </a>
-          <a href="">
-            <img
-              className="h-6 w-6 rounded-full"
-              src="/x-icon.png"
-              alt="X icon"
-              title="Connect on X"
-            />
-          </a>
-          <a href="mailto:peprahdickson187@gmail.com">
-            <img
-              className="h-6 w-6 rounded-full"
-              src="/email-icon.png"
-              alt="Image of email icon"
-              title="Click to send an email"
-            />
-          </a>
+          <div className="flex max-[800px]:flex-col gap-4">
+              <a href="https://wa.me/+233551875432">
+                <img
+                  className="h-6 w-6 rounded-full"
+                  src="/xap-icon.jpeg"
+                  alt="An image of the whatsapp icon"
+                  title="Connect on whatsapp"
+                />
+              </a>
+              <a href="">
+                <img
+                  className="h-6 w-6 rounded-full"
+                  src="/facebook-icon.jpeg"
+                  alt="The facebook icon"
+                  title="Connect on facebook"
+                />
+              </a>
+              <a href="">
+                <img
+                  className="h-6 w-6 rounded-full"
+                  src="/x-icon.png"
+                  alt="X icon"
+                  title="Connect on X"
+                />
+              </a>
+              <a href="mailto:peprahdickson187@gmail.com">
+                <img
+                  className="h-6 w-6 rounded-full"
+                  src="/email-icon.png"
+                  alt="Image of email icon"
+                  title="Click to send an email"
+                />
+              </a>
+          </div>
+          <div className="date-year text-red-400 mt-5 flex justify-center place-items-center">
+            <p>Copyright &copy; {dateYear} Pep&apos;s Grade Report System</p>
+          </div>
+          <Link className="text-blue-100" to="/policy">
+            Our Policies
+          </Link>
+          <Link className="text-blue-100" to="/partner">
+            Become a Partner
+          </Link>
         </div>
       </div>
     </>
