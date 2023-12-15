@@ -40,6 +40,11 @@
     color: white
 }
 /*LOGINPAGE*/
+
+.log-ground{
+background-image: linear-gradient(90deg, );
+}
+
 .container{
     display:flex;
     align-items: center;
@@ -58,21 +63,38 @@ a.nav-link{
    
 
 .login-container{
-    display: flex;
-    flex-direction: column;
+  
+    
     margin: auto;
     margin-top: 200px;
     background-color:  lightblue;
     padding-bottom: 30px;
-    width: 500px;
-    border-radius: 15px;
-    box-shadow: 1px 1px 5px;
+    width: 450px;
+    height: 450px;
+    margin-left: 600px;
+    border-bottom-right-radius: 6px;
+    border-top-right-radius: 6px;
 
+    
 }  
+ 
+.ei{
+    height: 450px;
+    width: 450px;
+    margin-top: -450px;
+    margin-left: 150px;
+    border-bottom-left-radius: 6px;
+    border-top-left-radius: 6px;
+    background-image: url(./icons/login.png);
+    background-size: 450px 450px;
+    background-repeat: no-repeat;
+    background-position: ;
+}
+
+
 
 .login-header{
-    display:flex;
-    flex-direction: column;
+    
     align-items: center;
     gap: 9px;
     width: 100%;
@@ -99,30 +121,47 @@ a.nav-link{
     justify-content: center;
     align-items: center;
     margin-right: 50px;
-    width:200px;
+    width:350px;
     height: 40px;
     background-color: beige;
     border-radius: 6px;
     border: none;
+    border-bottom: 1px solid;
+    margin-top: 60px;
+    margin-left: 45px;
 }
 
 .login-input2{
     margin-top: 25px;
     align-items: center;
-    width: 200px;
+    width: 350px;
     height: 40px;
     background-color: beige;
-    border-radius: 6px;
     border: none;
+    border-radius: 6px;
+    border-bottom: 1px solid;
+    margin-top: 80px;
+    
 }
 
 .loginbutton{background-color: aliceblue;
-    margin-top: 20px;
+    margin-top: 50px;
     border: solid 1px rgb(23, 23, 103);
     padding: 5px 30px 5px 30px;
     border-radius: 40px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     
+}
+
+.forgot-password{
+    margin-top: 50px;
+}
+
+.joint-container{
+ width:fit-content;
+ margin-left:110px;
+
+
 }
 
 /*GRADEREPORT*/

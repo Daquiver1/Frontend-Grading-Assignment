@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './style.css'
 
 
+
 const LoginPage = () => {
   const [studentId, setStudentId] = useState('');
   const [pin, setPin] = useState('');
@@ -27,36 +28,39 @@ const LoginPage = () => {
   };
 
   return (
-    <div className='login-container'> 
-     <div className="login-header"> <h2 className='login-text' >Login Page</h2></div> 
-      <form>
+< div className='log-ground'>
+    <div className= 'joint-container'>
+      <div className='login-container'> 
+     <  div className="login-header"> <h2 className='login-text' >Login Page</h2></div> 
+          <form>
+            <div className='box'>
+          
+            <input className='login-input1'
+              type="text"
+              id="studentId"
+              placeholder="Student ID"
+              value={studentId}
+              onChange={handleStudentIdChange}/>
+            </div>
         <div className='box'>
-          <label htmlFor="studentId">Student ID:</label>
-          <input className='login-input1'
-            type="text"
-            id="studentId"
-            value={studentId}
-            onChange={handleStudentIdChange}
-          />
-        </div>
-        <div className='box'>
-          <label htmlFor="pin">PIN:</label>
-          <input className='login-input2'
+            <input className='login-input2'
             type="password"
             id="pin"
+            placeholder="PIN"
             value={pin}
-            onChange={handlePinChange}
-          />
+            onChange={handlePinChange}/>
         </div>
         {loginError && <p style={{ color: 'green' }}>Welcome Stephen!</p>}
-        <a href="/landingpage"><button className='loginbutton' type="button" onClick={handleLogin}>
-          Login
-        </button>
-        </a>
-          
-        <div className="forgot-password">Forgot Password? <span>Click Here!</span></div>
-      </form>
-    </div>
+            <a href="/landingpage"><button className='loginbutton' type="button" onClick={handleLogin}>
+              Login
+            </button>
+            </a> 
+            <div className="forgot-password">Forgot Password? <span>Click Here!</span></div>
+          </form>
+        </div>
+      <div className="ei"></div>
+  </div>
+</div>
   );
 };
 
