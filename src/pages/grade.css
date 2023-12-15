@@ -1,0 +1,43 @@
+/* grades.css */
+.missing-grades-alert {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .grade-overview {
+    margin-top: 20px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+  }
+  
+  .course-name {
+    font-weight: bold;
+  }
+  
+  .alert {
+    color: #ff6347; /* Tomato color */
+  }
+  
+  .grade {
+    color: #007bff;
+  }
+  .dashboard-page{
+    padding: 40px;
+
+  }
+  
