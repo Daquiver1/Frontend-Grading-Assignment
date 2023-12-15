@@ -34,9 +34,9 @@ export default function Dashboard(){
                   autoComplete="course-name"
                   className="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
                 >
-                  <option>Course one</option>
-                  <option>Course two</option>
-                  <option>Course three</option>
+                  <option>Course One</option>
+                  <option>Course Two</option>
+                  <option>Course Three</option>
                   <option>Course Four</option>
                   <option>Course Five</option>
                 </select>
