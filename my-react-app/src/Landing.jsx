@@ -27,7 +27,7 @@ function Landing() {
                 
             </main>
             <footer className="footer">
-                <p>© 2023 University Of Gana</p>
+                <p>© 2023 University Of Ghana</p>
             </footer>
         </div>
         
