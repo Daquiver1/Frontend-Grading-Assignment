@@ -1,3 +1,5 @@
+LARYEA NII AYI DAVID
+11253339
 # Student Grade Reporting System Frontend
 
 ## Project Overview
