@@ -52,3 +52,15 @@ Please adhere to the project's coding standards and provide clear and detailed p
 
 ## Screenshot of App
 
+![Alt text](<public/Screenshots/Screenshot (249).png>)
+![Alt text](<public/Screenshots/Screenshot (250).png>)
+![Alt text](<public/Screenshots/Screenshot (251).png>)
+![Alt text](<public/Screenshots/Screenshot (252).png>)
+![Alt text](<public/Screenshots/Screenshot (253).png>)
+![Alt text](<public/Screenshots/Screenshot (254).png>)
+![Alt text](<public/Screenshots/Screenshot (255).png>) 
+![Alt text](<public/Screenshots/Screenshot (256).png>) 
+![Alt text](<public/Screenshots/Screenshot (257).png>)
+![Alt text](<public/Screenshots/Screenshot (258).png>)
+![Alt text](<public/Screenshots/Screenshot (259).png>)
+![Alt text](<public/Screenshots/Screenshot (260).png>) 
