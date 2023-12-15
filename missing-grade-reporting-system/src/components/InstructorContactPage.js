@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './InstructorContactPage.css';
 import logo from './images/logo.png';
+import picture from '../components/images/picture.jpeg'
 const InstructorContactPage = () => {
   const [formData, setFormData] = useState({
     studentName: '',
@@ -23,7 +24,7 @@ const InstructorContactPage = () => {
   };
 
   return (
-    <div className="container">
+    <div className="instructor-container">
       
       <img
         id="logo"
@@ -92,7 +93,7 @@ const InstructorContactPage = () => {
         </button>
       </form>
 
-      {/* Instructor Information */}
+      
       <div className="instructor-info">
         <img
           src={picture}

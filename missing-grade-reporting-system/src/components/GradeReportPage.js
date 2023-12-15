@@ -14,11 +14,6 @@ const GradeReportPage = () => {
 
   return (
     <div className="grade-report-page">
-      <div className="navigation-links">
-        <span>Homepage</span>
-        <span>Login</span>
-        <span>Dashboard</span>
-      </div>
       <div className="report-card">
         <div className="header">
           <div className="school-logo-section">

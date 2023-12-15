@@ -5,7 +5,7 @@
   padding: 20px;
 }
 
-.navigation-links {
+.navigation-link {
   display: flex;
   justify-content: space-around;
   width: 100%;

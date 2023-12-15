@@ -18,11 +18,21 @@
   .login-container h2 {
     color: #333; 
   }
+
+  .login-form{
+    width: auto;
+  }
   
-  form {
+  form{
+    width: 100%;
+
+  }
+
+  form button{
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    background-color: blue;
+    /* gap: 15px; */
   }
   
   label {

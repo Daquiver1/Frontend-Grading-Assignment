@@ -7,7 +7,7 @@ const LoginPage = () => {
     <div className="login-page">
       <div className="login-container">
         <h2>Login</h2>
-        <form>
+        <form className='login-form'>
           <label htmlFor="studentID">Student ID:</label>
           <input type="text" id="studentID" name="studentID" />
 
@@ -17,7 +17,7 @@ const LoginPage = () => {
           <button type="submit">Login</button>
         </form>
         <p>
-          Don't have an account? <Link to="/signup">Sign up</Link>
+          Forgot Password? <Link to="#">Click Here</Link>
         </p>
       </div>
     </div>

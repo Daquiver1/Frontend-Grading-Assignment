@@ -1,5 +1,5 @@
 import React from 'react';
-//import { Link } from react-router-dom
+import { Link } from 'react-router-dom'
 import Footer from '../footer' 
 import './LandingPage.css'; 
 import logo from './images/logo.png';
@@ -21,13 +21,13 @@ function LandingPage() {
 
         {/* Navigation Links */}
         <div className="navigation-links">
-          <Link to="/LandingPage">Home</Link>
+          <Link to="/">Home</Link>
           <Link to="/LoginPage">Login</Link>
-          <Link to="/dashboard">Dashboard</Link>
-          <Link to="/grade-report">Grade Report</Link>
-          <Link to="/missing-grade-form">Missing Grade Form</Link>
-          <Link to="/instructor-contact">Instructor Contact</Link>
-          <Link to="/help-and-support">Help and Support</Link>
+          <Link to="/DashboardPage">Dashboard</Link>
+          <Link to="/GradeReportPage">Grade Report</Link>
+          <Link to="/MissingGradeFormPage">Missing Grade Form</Link>
+          <Link to="/InstructorContact">Instructor Contact</Link>
+          <Link to="/HelpAndSupport">Help and Support</Link>
         </div>
       </div>
 

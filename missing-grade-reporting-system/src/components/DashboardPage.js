@@ -15,14 +15,14 @@ const Dashboard = () => {
         <div className="sidebar">
           <nav>
             <ul>
-              <li>Home</li>
-              <li>Login</li>
-              <li>Dashboard</li>
-              <li>Grade Report</li>
-              <li>Missing Grade Form</li>
-              <li>Instructor contact</li>
-              <li>Help and Support</li>
-              <p> Grades Overview of This Semester COurses</p>
+              <li><a href='/'>Home</a></li>
+              <li><a href='/LoginPage'>Login</a></li>
+              <li><a href='/DashboardPage'>Dashboard</a></li>
+              <li><a href='/GradeReportPage'>Grade Report</a></li>
+              <li><a href='/MissingGradeFormPage'>Missing Grade Form</a></li>
+              <li><a href='/InstructorContact'>Instructor contact</a></li>
+              <li>< a href='/HelpAndSupport'>Help and Support</a></li>
+              <p> Grades Overview For This Semester Courses</p>
               <li>CBAS 210</li>
               <li>DCIT 201</li>
               <li>DCIT 203</li>
