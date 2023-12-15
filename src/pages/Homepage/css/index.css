@@ -25,7 +25,7 @@
   width: 100%;
   height: 60px;
   display: block;
-  background-color: #8f7ef1;
+  background-color: #846ff7;
 }
 
 
@@ -45,13 +45,14 @@
 
 
 
-.navigation a{
+.navigation li{
     float: left;
     height: 100%;
     margin: 5px;
     display: table;
     padding: 0 10px;
     vertical-align: center;
+    color: #fff;
    
 }
 /*herosection*/
@@ -357,6 +358,6 @@ justify-content: center;
   .footer-nav ul li{
     text-align: center;
     width: 100px;
-    margin:10px;
+    margin:20px;
   }
 }

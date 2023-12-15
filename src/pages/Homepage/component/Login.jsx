@@ -39,7 +39,7 @@ import "../css/index.css";
           required
         />
 
-        <button type="submit">Login</button>
+       <a href="/Dashboard"><button type="submit">Login</button></a>
         <p>Don&apos;t have an account? <a href="/Signup">Sign up</a></p>
       </form>
     </div>
