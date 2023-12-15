@@ -59,22 +59,32 @@ body{
   
   }
   .overview{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+   
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 
   }
-  @media (max-width: 935px) {
+  @media (max-width:400px) {
     .overview{
-      flex-direction: column;
+      
+      grid-template-columns: 1fr;
     }
   
   }
   @media (min-width: 1870px) {
     .overview{
-      flex-direction: row;
+     
+      grid-template-columns: 1fr 1fr 1fr;
     }
   }
+  
+  @media (max-width: 900px) {
+    .overview{
+     
+      grid-template-columns: 1fr 1fr ;
+    }
+  }
+  
   p{
    width: 500px; 
   }
