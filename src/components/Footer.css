@@ -1,0 +1,40 @@
+.footer-area {
+  background-color: #343638;
+  color: #fff;
+  padding: 10px 0;
+}
+
+.single-footer-widget h4 {
+  color: #fff;
+}
+
+.single-footer-widget ul {
+  list-style: none;
+  padding: 0;
+}
+
+.single-footer-widget a {
+  color: #fff;
+}
+
+.date-time-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f8f9fa;
+  padding: 0px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+.icon {
+  font-size: 2em;
+  margin-right: 15px;
+}
+
+.text {
+  text-align: left;
+}
+
+/* Add more styles as needed */
