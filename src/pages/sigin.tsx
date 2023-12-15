@@ -56,7 +56,7 @@ export default function SignIn() {
               required
               fullWidth
               id="email"
-              label="Email Address"
+              label="Student ID"
               name="email"
               autoComplete="email"
               autoFocus
