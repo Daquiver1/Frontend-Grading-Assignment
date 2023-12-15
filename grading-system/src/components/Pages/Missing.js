@@ -3,6 +3,7 @@ import { MdGrade } from "react-icons/md";
 import React from "react";
 import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import { BiCommentDetail } from "react-icons/bi";
 
 const Missing = () => {
   const showAlert = () => {
@@ -30,7 +31,8 @@ const Missing = () => {
           <MdGrade className="icon" />
         </div>
         <div className="complain-area">
-          <textarea type="message" placeholder="What do you have to say?" />
+          <textarea type="message" placeholder="Issue Details" />
+          <BiCommentDetail className="icon" />
         </div>
         <button onClick={showAlert} type="submit">
           Submit

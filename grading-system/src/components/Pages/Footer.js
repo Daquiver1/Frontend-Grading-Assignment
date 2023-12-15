@@ -2,7 +2,7 @@ const Footer = () => {
   return (
     <footer>
       <div className="footer">
-        <h1>Welcome </h1>
+        <br />
         <div className="base-div">
           {" "}
           &copy; 2023 Missing Grade Reporting System. All rights reserved

@@ -6,8 +6,9 @@ const Grade = () => {
       <div class="filter">
         <label for="semester">Select Semester:</label>
         <select id="semester">
-          <option value="spring">Spring 2023</option>
-          <option value="fall">Fall 2023</option>
+          <option value="spring">2022/2023 FIRST SEMESTER</option>
+          <option value="fall">2022/2023 SECOND SEMESTER</option>
+          <option value="spring">2023/2024 FIRST SEMESTER</option>
         </select>
       </div>
 

@@ -40,15 +40,18 @@ const Login = ({ onLogin }) => {
           />
           <FaLock className="icon" />
         </div>
+
         <div className="remember-forgot">
           <label>
             <input type="checkbox" /> Remember me
           </label>
           <a href="#">Forgot PIN?</a>
         </div>
+        <br />
         <button onClick={handleLogin} type="submit">
           Login
         </button>
+        <br />
         <div className="register-link">
           <p>
             Don't have an account? <a href="#">Register</a>
