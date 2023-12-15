@@ -1,5 +1,4 @@
 import React from 'react';
-
 function HelpSupportPage() {
  const handleSubmit = (event) => {
     event.preventDefault();
@@ -7,7 +6,7 @@ function HelpSupportPage() {
  };
 
  return (
-    <div>
+    <div className='login-container'>
       <h1>Help & Support</h1>
       <form onSubmit={handleSubmit}>
         <label>
@@ -22,7 +21,7 @@ function HelpSupportPage() {
           Message:
           <textarea name="message" />
         </label>
-        <input type="submit" value="Submit" />
+        <button type="submit">Submit</button>
       </form>
     </div>
  );

@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import '../styles/Missinggrade.css'
 
 function MissingGradeFormPage() {
  const [courseName, setCourseName] = useState('');
@@ -17,38 +18,41 @@ function MissingGradeFormPage() {
       <h2 className="report-title">Report Missing Grade</h2>
       <form onSubmit={handleSubmit}>
         <div className="input-block">
-          <label htmlFor="courseName" className="text-block">Course Name:</label>
+          <label htmlFor="courseName" className="text-block"></label>
           <input
             type="text"
             id="courseName"
             value={courseName}
             onChange={(e) => setCourseName(e.target.value)}
+            placeholder='Course Name'
           />
         </div>
         <div className="input-block">
-          <label htmlFor="instructorName" className="text-block">Instructor Name:</label>
+          <label htmlFor="instructorName" className="text-block"></label>
           <input
             type="text"
             id="instructorName"
             value={instructorName}
             onChange={(e) => setInstructorName(e.target.value)}
+            placeholder='Instructor Name'
           />
         </div>
         <div className="input-block">
-          <label htmlFor="expectedGrade" className="text-block">Expected Grade:</label>
+          <label htmlFor="expectedGrade" className="text-block"></label>
           <input
-            type="text"
-            id="expectedGrade"
-            value={expectedGrade}
-            onChange={(e) => setExpectedGrade(e.target.value)}
-          />
+              type="text"
+              id="expectedGrade"
+              value={expectedGrade}
+              onChange={(e) => setExpectedGrade(e.target.value)}
+              placeholder="Expected Grade"/>
         </div>
         <div className="input-block">
-          <label htmlFor="explanation" className="text-block">Explanation:</label>
+          <label htmlFor="explanation" className="text-block"></label>
           <textarea
             id="explanation"
             value={explanation}
             onChange={(e) => setExplanation(e.target.value)}
+            placeholder='Explanation'
           />
         </div>
         <button type="submit" className="submit-button">Submit</button>
