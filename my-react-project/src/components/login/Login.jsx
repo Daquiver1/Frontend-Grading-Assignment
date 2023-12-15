@@ -14,8 +14,9 @@
 
 
   return (
-    <>
-      <form onSubmit={handleSubmit}>
+    <div className='auth-form-container'>
+      <h2>Login</h2>
+      <form className='login' onSubmit={handleSubmit}>
         <label htmlFor='name'>Full name</label>
         <input value={name} name='name' id='name' placeholder='full Name' />
         <label for='email'>email</label>
@@ -25,7 +26,7 @@
         <button type='submit'>Login</button>
       </form>
       <button>Don't have an account? Register here.</button>
-    </>
+    </div>
   )
 }
 
