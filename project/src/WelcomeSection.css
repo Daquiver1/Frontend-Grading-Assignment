@@ -1,0 +1,25 @@
+.text{
+    color: white;
+    font-size: 60px;
+    font-family: 'Darker Grotesque', sans-serif;
+}
+.center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 50vh; /* Optional: Set the height of the container as 100% of the viewport height */
+  }
+  /*.img{
+    width: 100px;
+    height: 180px; 
+  } */
+  .card-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(8, 8, 73);
+
+  }
+  

@@ -1,0 +1,12 @@
+.containerYearFilter{
+    display: flex;
+    flex-direction: column;
+}
+.selectYear{
+    font-size: 20px;
+    color: white;
+}
+.alertCont{
+    position: relative;
+    top: 130px;
+}

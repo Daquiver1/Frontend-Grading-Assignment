@@ -1,0 +1,12 @@
+.dataContainer{
+    display: flex;
+    flex-direction: column;
+}
+.tableHeading{
+    min-height: 15vh;
+    position: relative;
+    top: 60px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
