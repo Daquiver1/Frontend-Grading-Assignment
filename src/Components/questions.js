@@ -1,3 +1,5 @@
+//These are the questions found in the FAQ Section on the Help Page.
+
 export const questions = [
     {
       question: "How does the Missing Grade System work?",

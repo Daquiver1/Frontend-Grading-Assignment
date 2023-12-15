@@ -1,13 +1,18 @@
-import React from 'react'
+import React from 'react';
+
+//This is called upon in the Grade Report.
+//This component displays the current grades for a specific semester and level.
+
 
 const CurrentGrades = () => {
   return (
-    <div>
-        <div className="flex flex-col md:flex-row items-center">
-        <div className='ml-[41rem]'>
-          <h1 className='text-2xl font-semibold ml-[1rem] text-gray-700'>Current Grades - Level 100, Semester 2</h1>
+    <div className="flex flex-col md:flex-row items-center">
+      <div className=" md:mr-[8rem]">
+        <h1 className="text-2xl font-semibold ml-[1rem] text-gray-700">
+          Current Grades - Level 100, Semester 2
+        </h1>
 
-        <table className="w-[20rem] m-5">
+        <table className="w-full md:w-[20rem] m-5">
           <thead className="border-b border-gray-200">
             <tr>
               <td className="p-2 font-semibold">Course</td>
@@ -41,20 +46,19 @@ const CurrentGrades = () => {
             </tr>
           </tbody>
         </table>
-        </div>
       </div>
 
-      <div className="ml-[1rem] mt-[-33rem] md:ml-0 md:order-first">
+      {/* Right section with an image */}
+
+      <div className="ml-[1rem] mt-[-1rem] md:ml-[17rem] md:order-first md:mt-0">
         <img
-          src={require('../assets/Grades-pana.png')} 
+          src={require('../assets/Grades-pana.png')}
           alt="Image Alt Text"
-          className="rounded-full object-cover w-[50%] max-w-none h-auto "
+          className="rounded-full object-cover w-full md:w-[50%] max-w-none h-auto"
         />
       </div>
-
     </div>
-  )
-}
+  );
+};
 
-export default CurrentGrades
-
+export default CurrentGrades;

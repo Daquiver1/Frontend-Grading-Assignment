@@ -1,9 +1,8 @@
 import React, { useState } from 'react'
 import { GiHamburgerMenu } from "react-icons/gi";
 
-
-
-
+//This component is the navigation bar or header for all pages except the login and the home page. 
+//It excludes the login button, as it is for pages you can access only after logging in.
 
 const Navbar = () => {
   let Links = [

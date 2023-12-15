@@ -4,13 +4,17 @@ import Footer from '../Components/Footer'
 import Gradesideeye from '../Components/Gradesideeye'
 
 
+
 const GradeReport = () => {
 
   return (
     <>
      <Navbar/>
 
-    <div className="max-w-6xl mx-auto pt-40 pb-10 px-4">
+     {/* This contains grade report information. On hover, the courses and their grades are displayed, filtered by year */}
+    <div className="max-w-6xl mx-auto pt-40 pb-10 px-4 ">
+      <h1 className='text-[2rem] font-semibold'>Grade Report</h1>
+      <br></br>
       <div className='text-red-700 text-[1.2rem] font-semibold'>NB: Missing grade courses are displayed in red</div>
       <br/>
       <br/>
@@ -24,7 +28,7 @@ const GradeReport = () => {
           Level 100
         </label>
         
-        {/* <div className="transition-all duration-300 max-h-0 overflow-hidden "> */}
+        
         <div className='hidden group-hover:block transition-all duration-1000 ease-in-out'>
           <hr/>
           <h2 className=" text-xl font-bold ml-36">Semester 1</h2>
@@ -121,7 +125,7 @@ const GradeReport = () => {
     </div>
 
 
-    <Gradesideeye/>
+    <Gradesideeye />
 
 
     <Footer/>

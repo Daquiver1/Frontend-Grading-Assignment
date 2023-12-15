@@ -1,12 +1,14 @@
 import React from 'react'
 
+//This component is used to display grades and their credits which are used to calculate a student's GPA
+
 const Gradesideeye = () => {
   return (
-    <div className="flex flex-col md:flex-row items-center ">
+    <div className="flex flex-col md:flex-row items-center  ">
         <div className='ml-[10rem]'>
           <h1 className='text-2xl font-semibold ml-[2rem] text-gray-700'>Grade Credits</h1>
 
-        <table className="w-[20rem]   m-5">
+        <table className="w-[20rem] m-5">
           <thead className="border-b border-gray-200">
             <tr>
               <td className="p-2 font-semibold">Grade</td>

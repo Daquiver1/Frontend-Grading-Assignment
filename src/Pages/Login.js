@@ -1,6 +1,8 @@
 import React from 'react'
 import FooterLog from '../Components/FooterLog'
 
+//This is the login page
+
 
 const Login = () => {
   return (

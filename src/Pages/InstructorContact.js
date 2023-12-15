@@ -9,6 +9,7 @@ import msImage from "../assets/ms.jpg";
 import kadedziImage from "../assets/kadeziai.jpeg";
 import emmaImage from "../assets/emmanuelebenezerowusu.jpg";
 
+//These are the list of instructors found on this Instructor Contact Page.
 
 const instructors = [
   {
@@ -64,6 +65,9 @@ const instructors = [
     <Navbar/>
     <div className="max-w-6xl mx-auto py-20 px-4">
       <h1 className="text-center text-3xl font-bold mb-8">Contact our Instructors</h1>
+
+      {/* The instructors array is mapped to render each instructor's information dynamically.  */}
+      {/* The handleSimulatedEmail function is called when the "Send Email" button is clicked, simulating an email action. */}
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
         {instructors.map((instructor) => (

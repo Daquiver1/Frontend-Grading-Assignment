@@ -3,7 +3,7 @@ import Button from './Button';
 import { GiHamburgerMenu } from "react-icons/gi";
 import {Link} from 'react-router-dom'
 
-
+//This is the navigation bar or header for the home page only, including the login button.
 
 
 const NavbarHome = () => {
