@@ -10,7 +10,7 @@ Explore the system's seven main pages:
 
 - **Homepage:**  Introduction to the system's purpose and functionality.
 -**Landing Page:** Displays the user's profile information for a personalized experience.
-- **Login Page:** Simulated login interface for student authentication.
+- **Login Page:** Simulated login interface designed for authenticating students
 - **Dashboard:** Offers an overview of the student's current grades, performance progress, and alerts for any missing grades.
 - **Grade Report:**  Presents a detailed view of the student's grades, filterable by academic year.
 - **Missing Grade Form:** Allows students to report missing grades conveniently.
