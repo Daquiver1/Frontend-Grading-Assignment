@@ -1,0 +1,191 @@
+*{
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.hero1 {
+  max-width: 100%;
+}
+
+.container{
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav{
+  background: #153d6f;
+  color: #fff;
+}
+.side_navbar{
+  padding: 1px;
+  display: flex;
+  flex-direction: column;
+}
+.side_navbar span{
+  color: #fff;
+  margin: 1rem 3rem;
+  font-size: 12px;
+}
+.side_navbar a{
+  width: 100%;
+  padding: 0.8rem 3rem;
+  font-weight: 500;
+  font-size: 15px;
+  color: #fff;
+}
+.links{
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  color: #bd9c6c;
+}
+.links a{
+  font-size: 13px;
+}
+.side_navbar a:hover{
+  background: #bd9c6c;
+}
+.side_navbar .active{
+  border-left: 2px solid rgb(100, 100, 100);
+}
+
+.main-body{
+  width: 90%;
+  padding: 1rem;
+}
+.pcard{
+  width: 100%;
+  color: #bd9c6c;
+  margin-top: 10px;
+  border-radius: 8px;
+  padding: 0.5rem 1rem 1rem 3rem;
+  background: #153d6f;
+}
+.pcard h1, .pcard span, button{
+  margin: 10px;
+  color: #bd9c6c;
+}
+.pcard button{
+  display: block;
+  padding: 6px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #bd9c6c;
+  color: #fff;
+  font-weight: 500;
+}
+.history_lists{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.row{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem 0;
+}
+table{
+  background: #bd9c6c;
+  padding: 1rem;
+  text-align: left;
+  border-radius: 10px;
+}
+table td, th{
+  padding: 0.2rem 0.8rem;
+}
+table th{
+  font-size: 15px;
+  color: #153d6f;
+}
+table td{
+  font-size: 13px;
+  color: #fff;
+}
+
+
+
+.sidebar{
+  width: 15%;
+  padding: 2rem 1rem;
+  background: #153d6f;
+  color: #fff;
+}
+.sidebar h4{
+  margin-bottom: 1.5rem;
+}
+.sidebar .newi{
+  display: flex;
+  align-items: left;
+  margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 1130px) {
+    .container {
+      flex-direction: column-reverse;
+    }
+    
+    .sidebar {
+        display: none;
+      width: 100%;
+      position: relative;
+      height: auto;
+      padding-bottom: 20px;
+      text-align: center;
+    }
+    
+    .main-body {
+      margin-left: 0;
+      width: 100%;
+    }
+    
+    .pcard,
+    .history_lists {
+      margin: 0 20px;
+    }
+    
+    .history_lists .list1,
+    .history_lists .list2 {
+      margin-right: 0;
+    }
+
+    .history_lists {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    
+    .newi {
+      margin-bottom: 20px;
+    }
+    
+    table {
+      width: 100%;
+      overflow-x: auto;
+    }
+    
+    .side_navbar {
+      display: none;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .pcard,
+    .history_lists,
+    .list1,
+    .list2 {
+      margin: 0 10px;
+    }
+    
+    table th,
+    table td {
+      padding: 5px;
+    }
+  }
+  
