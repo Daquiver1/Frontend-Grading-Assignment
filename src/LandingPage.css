@@ -1,0 +1,45 @@
+/* LandingPage.css */
+header {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 50px 20px;
+  }
+  
+  .tagline {
+    font-style: italic;
+  }
+  
+  .overview-section,
+  .features-section,
+  .getting-started-section {
+    margin: 20px 0;
+  }
+  
+  .feature {
+    margin-bottom: 20px;
+  }
+  
+  .call-to-action {
+    background-color: #2ecc71;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    background-color: #fff;
+    color: #3498db;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .cta-button:hover {
+    background-color: #2980b9;
+  }
+  
