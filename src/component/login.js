@@ -26,7 +26,7 @@ const Login = () => {
       </div>
       <form onSubmit={handleLogin}>
         <div className="form-group">
-          <label htmlFor="studentId">Student ID</label>
+          <label htmlFor="studentId"></label>
           <input
             type="text"
             id="studentId"
@@ -37,7 +37,7 @@ const Login = () => {
           />
         </div>
         <div className="form-group">
-          <label htmlFor="pin">PIN</label>
+          <label htmlFor="pin"></label>
           <input
             type="password"
             id="pin"
@@ -47,7 +47,7 @@ const Login = () => {
             required
           />
         </div>
-        <button type="submit">Login</button>
+        <button  type="submit" className='butt'>Login</button>
       </form>
       <div className="social-buttons">
         <button className="github-button">Login with GitHub</button>
