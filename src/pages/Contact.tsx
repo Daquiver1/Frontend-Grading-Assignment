@@ -2,7 +2,7 @@ import Layout from "../layouts/Layout"
 
 const lecturers = [
 	{
-		name: "Mark Attah",
+		name: "Mark Attah Mensah",
 		email: "mark.atta@example.com",
     tel: "233-2302324444",
     course: "DCIT 207",
@@ -38,7 +38,7 @@ const lecturers = [
 		offcieHours: "Monday - Friday 8:00am - 5:00pm",
 	},
   {
-		name: "Mark Attah Mensah",
+		name: "Prince Safo",
 		email: "mark.atta@example.com",
     tel: "233-2302324444",
     course: "DCIT 209",
