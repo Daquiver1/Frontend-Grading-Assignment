@@ -21,7 +21,7 @@ const GradeReport = () => {
                         <form action="">
                             <div className="container">
                                 <label htmlFor="year">Select Academic Year: </label>
-                                <select name="" id="" className="form-control w-25 bg-blue">
+                                <select name="" id="year" className="form-control w-25 bg-blue">
                                     <option value="">2020-2021</option>
                                     <option value="">2021-2022</option>
                                     <option value="">2022-2023</option>
@@ -51,35 +51,32 @@ const GradeReport = () => {
                         <td>10.5</td>
                     </tr>
                     <tr>
-                        <td>Garrett Winters</td>
-                        <td>Accountant</td>
-                        <td>Tokyo</td>
-                        <td>63</td>
-                        <td>2011-07-25</td>
+                        <td>INTRODUCTION TO COMPUTER SCIENCE</td>
+                        <td>DCIT101</td>
+                        <td>3</td>
+                        <td>B+</td>
+                        <td>10.5</td>
                     </tr>
                     <tr>
-                        <td>Ashton Cox</td>
-                        <td>Junior Technical Author</td>
-                        <td>San Francisco</td>
-                        <td>66</td>
-                        <td>2009-01-12</td>
-                    
+                        <td>INTRODUCTION TO COMPUTER SCIENCE</td>
+                        <td>DCIT101</td>
+                        <td>3</td>
+                        <td>B+</td>
+                        <td>10.5</td>
                     </tr>
                     <tr>
-                        <td>Cedric Kelly</td>
-                        <td>Senior Javascript Developer</td>
-                        <td>Edinburgh</td>
-                        <td>22</td>
-                        <td>2012-03-29</td>
-                        
+                        <td>INTRODUCTION TO COMPUTER SCIENCE</td>
+                        <td>DCIT101</td>
+                        <td>3</td>
+                        <td>B+</td>
+                        <td>10.5</td>
                     </tr>
                     <tr>
-                        <td>Airi Satou</td>
-                        <td>Accountant</td>
-                        <td>Tokyo</td>
-                        <td>33</td>
-                        <td>2008-11-28</td>
-                        
+                        <td>INTRODUCTION TO COMPUTER SCIENCE</td>
+                        <td>DCIT101</td>
+                        <td>3</td>
+                        <td>B+</td>
+                        <td>10.5</td>
                     </tr>
                 </tbody>
            </table>

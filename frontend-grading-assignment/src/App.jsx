@@ -72,6 +72,9 @@ const App = () => {
             <button className="btn" type="button" data-bs-theme="dark">
               <span className="navbar-toggler-icon"></span>
             </button>
+            {/* <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span className="navbar-toggler-icon"></span>
+              </button> */}
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
               <ul className="navbar-nav mx-auto mb-2 mb-lg-0">
                 <li className="nav-item">
@@ -80,20 +83,38 @@ const App = () => {
                     <button className="btn btn-outline-success" type="submit">Search</button>
                   </form>
                 </li>
-                {/* <li className="nav-item">
-                  <a href="" className="text-white">
-                    <span className="fs-2 pb-2">...</span> change password
-                  </a>
-                </li> */}
+                
               </ul>
               
               <div>
+                <a href="" className="text-white mx-3">
+                  <i class="bi bi-bell fs-4"></i>
+                </a>
+                <a href="" className="text-white mx-3">
+                  <img src="/"  className="rounded-circle img-fluid" alt=""  style={{width: "40px", height: "30px"}}/>
+                </a>
                 <a href="" className="text-white mx-3">
                  <i className="bi bi-box-arrow-right mx-2"></i> Logout
                 </a>
               </div>
             </div>
           </nav>
+
+
+          {/* <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Navbar</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  
+                </ul>
+                
+              </div>
+            </div>
+          </nav> */}
           <main className="content px-3 py-2">
             <div className="container-fluid">
               <div className="mb-3">

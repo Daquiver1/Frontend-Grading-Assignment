@@ -65,6 +65,8 @@ To effectively use the application, follow these steps:
    - Visit the Help and Support page for FAQs.
    - Use the mock support contact form for additional assistance.
 
+## Screenshots
+![Screenshot 1](./frontend-grading-assignment/public/Capture.JPG)
    
 ## Contribution
 
