@@ -23,7 +23,7 @@ The application consists of 7 main pages:
 ## Technical Details
 
 - **I used the REACT Framework
-- **I al so used Javascript in making some functionalities
+- **I also used Javascript in making some functionalities
 
 ## Setup and Installation
 
