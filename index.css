@@ -1,0 +1,512 @@
+/* Header css*/
+
+.first-header{ 
+  background: black;
+  max-height: 100px;
+  height: 750px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  Display:flex;
+  Flex-direction:row;
+  justify-content: space-between;
+  Align-items:center;
+}
+
+.H-container{
+  width: 1150px;
+}
+.LOGO1{
+  width: 150px;
+  height: 80px;
+  margin-top: 10px;
+  object-fit: contain;
+}
+.second-header{
+  background: #003071;
+  padding-bottom: 25px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: fixed;
+  top: 100px;
+  left: 0;
+  right: 0;
+}
+.page-title{
+  display: inline-block;
+  padding: 22px 0;
+  padding-bottom: 0;
+  font-family: "Arizona-Text",serif,serif
+}
+.MGRS{
+  color: #fff;
+  font-size: 40px;
+  font-weight: 200;
+  margin: 0px;
+  padding: 0;
+  line-height: 1.15;
+  letter-spacing: .01em;
+  margin-left: 30px;
+}
+.search-b{
+  margin-right: 70px;
+  margin-top: 30px;
+  float: right;
+  width: 100%;
+  height: 30px;
+  border-radius: 100px;
+}
+input:focus{
+  width: 300px;
+  transition: ease-in-out,width .35s ease-in-out;
+}
+
+/* Sidebar css*/
+
+.sidebar1{
+  position: fixed;
+  top: 193px;
+  left: 0;
+  bottom: 0;
+  width: 400px;
+  margin-top: 22px;
+  background-color: black;
+  font-size: 17px;
+}
+
+.school-name h1{
+  color: #fff;
+  z-index: 99;
+  font-size: 25px;
+  margin-right: 120px;
+  text-align: center;
+}
+.text-c{
+  color: white;
+}
+.loginp{
+  font-size: 40px;
+  margin-top: 5px;
+  margin-right: 50px;
+}
+.help-sp{
+  font-size: 30px;
+  margin-top: 10px;
+  margin-right: 50px;
+}
+.sidebar1{
+  Position: fixed;
+  Top:193px;
+  Left: 0;
+  Bottom: 0;
+  Width: 400px;
+  Background-color: black; 
+}
+ul{
+  text-align: center;
+  font-size: 29px;
+  line-height: 1.7rem;
+}
+.sidebar2{
+  margin-bottom: 33px;
+  margin-right: 40px;
+  margin-top: 25px;
+  color: white;
+}
+
+/* Landingpage css*/
+
+.homepage{
+  margin-left: 800px;
+  margin-top: 230px;
+}
+.homepage1{
+  margin-left: 650px;
+}
+h3{
+  margin-left: 500px;
+  margin-top: 50px;
+}
+.home-image-grade1{
+  width: 350px;
+  height: 250px;
+}
+.home-img-1{
+  margin-left: 450px;
+  margin-right: 100px;
+  display: flex;
+}
+.home-img-p1{
+  font-size: 18px;
+  line-height: 1.7rem;
+  text-align: justify;
+  margin-left:30px;
+}
+.home-img-p2{
+  margin-left: 500px;
+  margin-right: 120px;
+  font-size: 18px;
+  line-height: 1.7rem;
+  text-align: justify;
+}
+.home-img-2{
+  margin-left: 480px;
+}
+.home-image-grade2{
+  width: 700px;
+  height: 300px;
+}
+
+/* LoginPage.css */
+
+.login-container {
+  max-width: 400px;
+  margin: 0 auto;
+  margin-top: 250px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 10px;
+}
+
+input {
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 10px;
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+
+
+/* DashboardPage.css */
+
+.dash-container1{
+  Display:flex;
+  Flex-direction:row;
+  justify-content: space-between;
+  font-size: 18px;
+  line-height: 1.7rem;
+}
+.dashboard1{
+  margin-left: 420px;
+  margin-top: 220px;
+  text-align: center;
+}
+.dashboard2{
+  margin-left: 420px;
+  margin-top: 20px;
+}
+.dashboard3{
+  margin-left: 420px;
+  margin-top: 20px;
+}
+.dashboard4{
+  margin-top: 10px;
+}
+.dashboard5{
+  margin-top: 10px;
+}
+.dashboard6{
+  margin-top: 10px;
+}
+.dash-container2{
+  Display:flex;
+  Flex-direction:row;
+  justify-content: space-between;
+  font-size: 15px;
+}
+.dashboard7{
+  margin-left: 420px;
+  margin-top: 20px;
+}
+.dashboard8{
+  margin-left: 80px;
+  margin-top: 20px;
+}
+.dashboard9{
+  margin-left: 100px;
+  margin-top: 20px;
+}
+.dashboard10{
+  margin-left: 100px;
+  margin-top: 20px;
+}
+.dashboard11{
+  margin-left: 80px;
+  margin-top: 20px;
+}
+.dash-container3{
+  margin-top: 0%;
+  margin-bottom: 0%;
+  Display:flex;
+  Flex-direction:row;
+  justify-content: space-between;
+  font-size: 15px;
+}
+
+.dashboard-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  margin-top: 120px;
+}
+.table-container{
+  margin-left: 400px;
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  margin-bottom: 25px;
+}
+
+th, td {
+ padding: 25px;
+ text-align: left;
+}
+
+/* Missing grade report css*/
+
+
+.current-grades, .missing-grades-alert {
+  margin-bottom: 20px;
+}
+
+.missing-grades-alert {
+  background-color: #ffcccc;
+  padding: 10px;
+  border-radius: 5px;
+  margin-left: 400px;
+}
+
+.Missinggrade-1{
+  margin-top: 220px;
+  margin-left: 400px;
+  text-align: center;
+}
+.missing-intro{
+  margin-left: 500px;
+  margin-top: 30px;
+  font-size: 18px; 
+}
+.Missinggrade-2{
+  margin-left: 550px;
+  margin-top: 50px;
+}
+.Missinggrade-3{
+  margin-left: 550px;
+  margin-top: 20px;
+}
+.Missinggrade-4{
+  margin-left: 550px;
+  margin-top: 20px;
+}
+.Missinggrade-5{
+  margin-left: 550px;
+  margin-top: 20px;
+}
+.Missinggrade-butt{
+  margin-left: 800px;
+  margin-top: 30px;
+  width: 100px;
+  height: 40px;
+  background-color: #003071;
+}
+.Missinggrade-butt:hover{
+  background-color: rgb(3, 3, 69);
+}
+.submit{
+  margin-left: 550px;
+  margin-top: 600px;
+}
+.instruction{
+  margin-top: 220px;
+  margin-left: 400px;
+  text-align: center;
+}
+.info{
+  margin-left: 500px;
+  margin-top: 50px;
+  font-size: 18px;
+  line-height: 1.7rem;
+}
+/* GradeReportPage.css */
+
+.grade-report-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  margin-top: 220px;
+  margin-left: 400px;
+}
+.gradee{
+  text-align: center;
+}
+.grade-report1{
+  text-align: center;
+  margin-left: 10px;
+}
+
+.filter-container {
+  margin-bottom: 20px;
+}
+
+.grade-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.grade-table th, .grade-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.grade-table th {
+  background-color: #f2f2f2;
+}
+/* HelpAndSupportPage.css */
+
+.help-and-support-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  margin-top: 200px;
+  margin-left: 450px;
+  text-align: center;
+}
+.questionss{
+  margin-left: 1px;
+}
+.faq-section, .contact-form-section {
+  margin-bottom: 20px;
+}
+
+.faq-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.faq-section li {
+  margin-bottom: 10px;
+}
+.findme{
+  margin-left: 10px;
+}
+.contact-form-section form {
+  display: grid;
+  grid-gap: 10px;
+}
+
+.contact-form-section label {
+  font-weight: bold;
+}
+
+.contact-form-section textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+
+/* InstructorContactPage.css */
+
+.instructor-contact-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  margin-top: 180px;
+  margin-left: 400px;
+}
+.topic{
+  text-align: center;
+}
+.nowt{
+  margin-left: 120px;
+}
+.instructor-list, .contact-details {
+  margin-bottom: 20px;
+}
+
+.instructor-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.instructor-list li {
+  margin-bottom: 10px;
+}
+.contact-details{
+  margin-left: 400px;
+  margin-top: 400px;
+}
+.contact-details textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+.buttunn{
+  margin-left: 400px;
+}
+
+
+/* Footer.css */
+
+.footer-start{
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: inherit;
+  bottom: 0%;
+  margin-left: 392px;
+  right: 0;
+  height: 300px;
+  width: 843px;
+}
+
+
+.footer-main{
+  line-height: 1.7rem;
+  display: flex;
+  justify-content: space-between;
+  display: flex;
+  font-size: 18px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.formated{
+  line-height: 4.0rem;
+}
+.copyright{
+  text-align: left;
+  margin-top: 30px;
+  color: #cacaca;
+  line-height: 1px !important;
+  font-size: 16px;
+}
+
+
+
+
+
