@@ -1,0 +1,59 @@
+/* LandingPage.css */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-image: url(https://thumbs.dreamstime.com/z/creative-white-background-mock-up-place-landing-page-concept-d-rendering-229665773.jpg);
+  }
+  
+  .landing-page {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 700px;
+  } 
+  .overview {
+    margin: 40px 0;
+  }
+  
+  .overview-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    align-items: center;
+  }
+  
+  .overviewBox {
+    text-align: left;
+  }
+  
+  h1, h2 {
+    color:black;
+  }
+  
+  p {
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  .get-started-section {
+    margin: 40px 0;
+  }
+  
+  .get-started-button {
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .get-started-button:hover {
+    background-color: #218838;
+  }
