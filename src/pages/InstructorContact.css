@@ -1,0 +1,58 @@
+
+.instructor-contact-container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+ 
+
+
+
+.instructor-contact-container ul {
+  list-style: none;
+  padding: 0;
+}
+
+.instructor-contact-container li {
+  margin-bottom: 20px;
+}
+
+.instructor-contact-container li p {
+  
+  color: #333; 
+  font-size: 16px;
+  margin-bottom: 5px; }
+
+  
+  h2 {
+    color: hwb(205 29% 35%); 
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    border: 1px solid #0e0c0c;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px 0;
+  }
+  
+  
+  button{
+    background-color: hsl(201, 56%, 63%); 
+    color: white;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #5998c4; 
+  }
+  

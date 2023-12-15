@@ -1,0 +1,51 @@
+/* Navbar.css */
+
+.navbar {
+    background-color: rgb(28, 76, 138);
+    overflow: hidden;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 6px 8px;
+    text-decoration: none;
+    position: relative;
+  }
+  
+  .navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .ribbon {
+    position: relative;
+    background-color: rgb(28, 76, 138);
+    color: white;
+    text-align: center;
+    padding: 5px;
+  }
+  
+  .ribbon:before,
+  .ribbon:after {
+    content: '';
+    position: absolute;
+    border-style: solid;
+    border-color: transparent;
+  }
+  
+  .ribbon:before {
+    border-width: 5px 10px 5px 0;
+    border-right-color: #333;
+    right: -10px;
+  }
+  
+  .ribbon:after {
+    border-width: 5px 0 5px 10px;
+    border-left-color: #333;
+    left: -10px;
+  }
