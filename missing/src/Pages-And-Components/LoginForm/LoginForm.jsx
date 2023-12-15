@@ -1,4 +1,5 @@
 import React from 'react';
+
 import './LoginForm.css';
 import { FaUser, FaLock } from "react-icons/fa";
 
@@ -22,7 +23,7 @@ const LoginForm = () => {
                 <a href='#'>Forgot Password?</a>
            </div>
 
-           <button type='submit'>Login</button>
+           <a href="/Dashboard">Login</a>
       </form>
         </div>
       

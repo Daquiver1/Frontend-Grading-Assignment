@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import Navbar from '../Navigation-Bar/navbar';
+import Navbar from '../Navbar/navbar';
 import Footer from '../Footer/Footer';
 import './GradesReport.css'
 

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './HelpandSupport.css';
-import Navbar from '../Navigation-Bar/navbar';
+import Navbar from '../Navbar/navbar';
 import Footer from '../Footer/Footer';
 
 const HelpAndSupport = () => {
