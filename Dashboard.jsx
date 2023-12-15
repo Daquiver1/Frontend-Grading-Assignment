@@ -29,6 +29,9 @@ function Dashboard() {
             <p>Notifications:</p>
             <p>There are currently no new notifications.</p>
           </div>
+          <div>If you have any concerns that you want addressed by an instructor, 
+          <Link to= '/Instructor' className='instructor'> Click here</Link>
+          </div>
     </main>
 </div>
   )
