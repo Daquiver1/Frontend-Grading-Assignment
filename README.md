@@ -37,8 +37,35 @@ This will start the application on `localhost` at the default port.
 
 ## Usage
 
-Describe how to use the application, highlighting key functionalities such as logging in, viewing grades, reporting missing grades, and contacting instructors.
+To effectively use the application, follow these steps:
 
+1. **Homepage:**
+   - Navigate to the homepage for an introduction to the system.
+
+2. **Login Page:**
+   - Access the login page to authenticate as a student.
+   - Enter mock credentials to log in.
+
+3. **Dashboard:**
+   - Upon login, you'll be directed to the dashboard.
+   - View an overview of current grades and alerts for missing grades.
+
+4. **Grade Report:**
+   - Visit the Grade Report page to see a detailed breakdown of your grades.
+   - Filter grades by semester or academic year.
+
+5. **Missing Grade Form:**
+   - Report missing grades using the dedicated form.
+
+6. **Instructor Contact Page:**
+   - Find instructors' contact information.
+   - Use the simulated email feature to communicate.
+
+7. **Help and Support:**
+   - Visit the Help and Support page for FAQs.
+   - Use the mock support contact form for additional assistance.
+
+   
 ## Contribution
 
 To contribute to this project, please follow these guidelines:
