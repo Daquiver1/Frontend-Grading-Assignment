@@ -1,5 +1,10 @@
 # Student Grade Reporting System Frontend
 
+## Details
+**Name:**  Abdul-Hamid Rayyaan
+
+**ID:**  11313444
+
 ## Project Overview
 
 This project is a front-end web application for a Student Grade Reporting System. It simulates a real-world application where students can view, report, and manage their academic grades. This system addresses the issue of missing or unrecorded grades in a student's profile.
@@ -19,7 +24,7 @@ The application consists of 7 main pages:
 ## Technical Details
 
 - **Framework/Technology Used:** [React]
-- **Responsive Design:** Implemented using [CSS Flexbox/Grid, Bootstrap, Tailwind CSS].
+- **Responsive Design:** Implemented using [Tailwind CSS].
 - **JavaScript Functionality:** Used for form validations, dynamic content rendering, and simulating interactions.
 
 ## Setup and Installation
@@ -27,7 +32,7 @@ The application consists of 7 main pages:
 To set up the project locally, follow these steps:
 
 ```bash
-git clone https://github.com/your-github-username/DCIT_205_ASSIGNGMENT1.git
+git clone https://github.com/rayyaan143/DCIT_205_ASSIGNGMENT1.git
 cd repo-name
 npm install
 npm start
