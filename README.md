@@ -44,10 +44,6 @@ Make sure you have the following installed before running the application:
    git clone https://github.com/Albertnoble123/missing-grade-reporting-system.git
 
 
-## Demo
-
-Provide a link to a live demo or showcase screenshots and gifs of your app.
-
 ## Features
 
 User Authentication:
@@ -61,21 +57,45 @@ An intuitive dashboard providing an overview of missing grades.
 Visual indicators for priority items or overdue reports.
 Grade Reporting:
 
-Tools for teachers to easily report missing grades.
-Option to attach comments or additional context to reports.
-Notification System:
-
 Automated email or in-app notifications to inform teachers and administrators about missing grades.
 Reminders for pending actions or unresolved reports.
 Tracking and Analytics:
 
 Tracking system to monitor the status and progress of reported missing grades.
-Analytics features to identify trends, patterns, and areas of improvement.
-Search and Filtering:
 
-Search functionality for teachers and administrators to quickly find specific missing grade reports.
-Filtering options based on criteria such as course, grade level, or date.
-Resolution Workflow:
 
-Workflow tools for administrators to efficiently handle and resolve missing grade reports.
-Communication features to facilitate interaction between teachers, administrators, and students.
+## Contributions
+We welcome contributions to enhance the functionality and usability of the Missing Grade Reporting System. If you're interested in contributing, please follow these guidelines:
+
+#### Fork the Repository:
+
+Fork the Missing Grade Reporting System repository to your GitHub account.
+Create a Branch:
+
+Create a new branch for your feature or bug fix: git checkout -b feature/your-feature-name or bugfix/your-bug-fix.
+Make Changes:
+
+Implement your changes or additions to the codebase.
+Test:
+
+Ensure that your changes are thoroughly tested.
+Commit:
+
+Commit your changes with clear and descriptive messages.
+Push:
+
+Push your changes to your forked repository: git push origin feature/your-feature-name.
+Create a Pull Request (PR):
+
+Create a new pull request from your forked repository to the original repository.
+Review:
+
+Participate in discussions and address feedback if any.
+Merge:
+
+After approval, your changes will be merged into the main branch.
+
+## Conclusion
+The Missing Grade Reporting System is an ongoing project that aims to improve the efficiency of handling missing grades within educational institutions. We believe that through collaboration and contributions from the community, we can enhance the system's features and address the evolving needs of educators and administrators.
+
+Thank you for considering contributing to this project. Your efforts play a vital role in making education management more effective and streamlined.
