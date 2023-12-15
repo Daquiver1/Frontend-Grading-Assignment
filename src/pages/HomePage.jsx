@@ -32,7 +32,7 @@ function HomePage() {
       </section>
       {feature.map((f) => (
         <section className=" flex justify-center items-center flex-col mt-24">
-          <h2 className=" text-4xl font-extrabold text-primary_blue">
+          <h2 className=" text-center text-4xl font-extrabold text-primary_blue">
             {f.headline}
           </h2>
           <p className=" font-normal text-[16px] mt-2 text-center px-3">
