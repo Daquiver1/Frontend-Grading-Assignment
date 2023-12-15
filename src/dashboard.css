@@ -1,0 +1,84 @@
+.dashboard-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  background: url('src/background-image.jpeg') center/cover fixed;
+}
+
+.dashboard-content {
+  width: 800px;
+  height: 100%;
+  padding: 20px;
+  color: #fff;
+  cursor: pointer;
+  border: 1px solid #7c7a7a;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background: transparent;
+  text-align: center;
+  backdrop-filter: blur(10px);     
+}
+
+.alert-toggle {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+
+.grades-section,
+.missing-grades-section {
+  margin-bottom: 20px;
+}
+
+
+.grades-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+h2,
+h3 {
+  color: #fff;
+}
+
+.grades-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  margin: 0;
+}
+
+.grades-table th,
+.grades-table td {
+  padding: 8px;
+}
+
+.grades-table th {
+  background-color: #3498db;
+  color: #fff;
+}
+
+.grades-table td {
+  background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent white background */
+  color: #333;
+}
+.dashboard-title{
+  margin: 1em;
+}

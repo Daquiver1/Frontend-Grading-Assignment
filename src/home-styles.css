@@ -1,0 +1,18 @@
+.home{
+  background: url('src/background-image.jpeg') center/cover fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* color: #55608f; */
+  color: #fff;
+  height: 100vh;
+  font-family: sans-serif;
+  font-size: large;
+  font-weight: bold;
+  text-align: center;
+}
+.welcome-text{
+  margin-bottom: 1rem;
+  color: black;
+}
