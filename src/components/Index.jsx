@@ -3,8 +3,7 @@ import Navbar from './Navbar';
 import { MdCastForEducation } from "react-icons/md";
 import Sidebar from './Sidebar';
 import img1 from '../assets/img1.jpg'
-import HelpAndSupport from './HelpAndSupport';
-import InstructorContact from './InstructorContact';
+
 
 
 function Index() {

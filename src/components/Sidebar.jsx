@@ -1,6 +1,5 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { MdCastForEducation } from "react-icons/md";
-
 import LogIn from './LogIn';
 import Navbar from './Navbar';
 import HelpAndSupport from './HelpAndSupport'
@@ -10,30 +9,41 @@ import GradeReport from "./GradeReport";
 import { NavLink } from "react-router-dom";
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Dashboard from "./Dashboard";
+import LandingPage from "./LandingPage";
 
 function SideBar() {
   const [open, setOpen] = useState(true);
+  const [width, setWidth] = useState(window.innerWidth)
   const Menus = [
     { title: "Dashboard", href: "/Dashboard" , src: "Chart_fill"},
     { title: "Grade Report Form", href: "/GradeReport", src: "form" , gap: true},
     { title: "Missing Grade Form ", href: "/MissingGradeForm", src: "form2" },
     { title: "Instructor Contact ", href: "InstructorContact", src: "contact" },
     { title: "Help and Support ", href: "/HelpAndSupport" ,src: "faq", gap: true },
-    { title: "Profile", src: "User", href: "Profile" , gap: false }
   ];
 
+  useEffect(() => {
+    function watchWidth() {
+      setWidth(window.innerWidth)
+      console.log(width)
+    }
+    
+    window.addEventListener("resize", watchWidth)
+  }, [])
+  
   return (
-    <div className="flex">
+    <div className={window.innerWidth > 750 && `flex`}>
       <BrowserRouter>
-      <nav className='w-full items-center flex text-3xl font-bold text-[#00df94]  top-0 h-[60px]  fixed left-0 right-0  z-20   justify-end pr-[5%] py-[20px] bg-dark-purple'>
+      {window.innerWidth < 750 ? <div> <Navbar/></div> : 
+      <nav className='w-full items-center flex text-3xl font-bold text-[#00df94]  top-0 h-[60px] fixed left-0 right-0  z-20 justify-end pr-[5%] py-[20px] bg-dark-purple '>
         <h1 className='flex'>
           <MdCastForEducation className='mr-3 flex self-center' />Grade Report Form
         </h1>
-          </nav>
+      </nav> }
 
 
 
-      <div
+      {window.innerWidth > 997 && <div
         className={` ${
           open ? "w-72" : "w-20 "
         } bg-dark-purple h-[600px] p-5  pt-8 relative duration-300 mt-[40px] `}
@@ -79,7 +89,7 @@ function SideBar() {
             </NavLink>
           ))}
         </ul>
-      </div>
+      </div>}
 
 
 
@@ -94,6 +104,7 @@ function SideBar() {
           <Route path='/GradeReport' element={<GradeReport />}></Route>
           <Route path='/InstructorContact' element={<InstructorContact />}></Route>
           <Route path='/Dashboard' element={<Dashboard />}></Route>
+          <Route path='/LandingPage' element={<LandingPage />}></Route>
         </Routes>
       
       </div>

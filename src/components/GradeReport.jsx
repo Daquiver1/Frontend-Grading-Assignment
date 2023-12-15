@@ -51,6 +51,62 @@ function InstructorContact() {
       credit: 3,
       grade: "A",
       gpt: 12
+    },
+    {
+      name: "Cloud Computing",
+      code: "DCIT 103",
+      semester: "First Semester",
+      credit: 3,
+      grade: "A",
+      gpt: 12
+    },
+    {
+      name: "AI",
+      code: "DCIT 104",
+      semester: "First Semester",
+      credit: 3,
+      grade: "A",
+      gpt: 12
+    },
+    {
+      name: "Web Dev",
+      code: "DCIT 105",
+      semester: "First Semester",
+      credit: 3,
+      grade: "A",
+      gpt: 12
+    },
+    {
+      name: "Algebra and Trignometry",
+      code: "Math 201",
+      semester: "First Semester",
+      credit: 3,
+      grade: "B",
+      gpt: 12
+    },
+    {
+      name: "Office Productivity",
+      code: "DCIT 301",
+      semester: "First Semester",
+      credit: 3,
+      grade: "B+",
+      gpt: 12
+    },
+    {
+      name: "Programming ",
+      code: "DCIT 101",
+      semester: "First Semester",
+      credit: 3,
+      grade: "A",
+      gpt: 12
+    },
+    {
+      name: "Data Science",
+      code: "DCIT 301",
+      semester: "First Semester",
+      credit: 3,
+      grade: "A",
+      gpt: 12
     }
   ]
 
