@@ -3,7 +3,7 @@ function Footer() {
 
 
     return (
-        <footer className="bg-black text-white absolute bottom-0 w-full">
+        <footer className="bg-rich-black text-white absolute bottom-0 w-full">
             <div className="text-center">
                 <div className="flex flex-wrap justify-center sm:justify-around lg:justify-between h-auto sm:h-80">
                     <div className="p-4 sm:p-10">
