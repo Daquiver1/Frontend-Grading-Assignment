@@ -1,70 +1,86 @@
-# Getting Started with Create React App
+# DCIT 205 Assignment 1 - Missing Grade Reporting System
+# ID NUMBER: 11253767
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
 
-## Available Scripts
+This project is a part of the DCIT 205 assignment, focusing on the development of a Missing Grade Reporting System website. The goal is to create an interactive platform for students to track, report, and manage missing grades in their academic profiles.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- **Responsive Design:** The website is designed to be accessible and user-friendly on various devices.
+  
+### Pages
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. **Landing Page:**
+   - Overview of the Missing Grade Reporting System.
+   - Navigation links to other pages.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+2. **Login Page:**
+   - Secure login form for students (Student ID and PIN).
+   - Authentication simulation (mock-up).
 
-### `npm test`
+3. **Dashboard Page:**
+   - Overview of the student’s current grades.
+   - Alerts or notifications for any missing grades.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+4. **Grade Report Page:**
+   - Detailed view of all courses and respective grades.
+   - Option to filter by semester/academic year.
 
-### `npm run build`
+5. **Missing Grade Form Page:**
+   - Form to report a missing grade.
+   - Fields: Course name, Instructor name, Expected grade, Explanation.
+   - Submit button to report (confirmation message only).
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+6. **Instructor Contact Page:**
+   - List of instructors with contact details.
+   - Option to send a simulated email to the instructor (mock-up).
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+7. **Help and Support Page:**
+   - FAQ section regarding grade reporting.
+   - Contact form for technical support (mock-up).
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Navigation
 
-### `npm run eject`
+- Navbar/Sidebar for easy navigation.
+- Footer for additional information.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Technologies
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- React
+- CSS/Bootstrap/Tailwind (optional)
+- Vite (optional)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Restrictions
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- Prohibited: Other frameworks, languages, or libraries.
 
-## Learn More
+## Duration
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Start Date: Thursday 30th November 2023
+- End Date: Friday 15th December 2023, 11:55 PM
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Submission
 
-### Code Splitting
+1. Fork the repository to your GitHub account.
+2. Regularly commit changes.
+3. Raise a Pull Request (PR) with the name "STUDENT_ID_DCIT205_Assignment1".
+4. Ensure PR includes necessary files and an updated README.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Rubric
 
-### Analyzing the Bundle Size
+### Technical Skills (40 points)
+- Evaluate the functionality and navigability of the website.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Innovation (10 points)
+- Assess creativity in problem-solving and user experience enhancement.
+- Consider aesthetic appeal and responsive design.
 
-### Making a Progressive Web App
+### Documentation (40 points)
+- Review clarity and completeness of code documentation.
+- Verify adherence to project requirements.
+- Evaluate insights provided on improvements, challenges, and learnings.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### Timeliness (10 points)
+- Confirm progress made within the one-week timeframe.
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
