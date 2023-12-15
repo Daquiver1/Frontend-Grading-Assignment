@@ -1,0 +1,17 @@
+.Report{
+    position: absolute;
+    top: 100px;
+    left: 400px;
+    background-color: burlywood;
+    width: 600px;
+    height: 400px;
+    place-items: center;
+}
+
+.Report input[type='text']{
+    height: 20px;
+}
+
+.Report form{
+    align-items: center;
+}

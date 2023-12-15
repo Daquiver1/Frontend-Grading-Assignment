@@ -1,0 +1,19 @@
+.home{
+    position: absolute;
+    top: 100px;
+    left: 300px;
+}
+
+.home h1{
+    position: relative;
+    left: 250px;
+}
+
+.home .log{
+    text-align: center;
+}
+
+.home .log input[type="button"]{
+    background-color: #c1c1c960;
+    width: 100px;
+}

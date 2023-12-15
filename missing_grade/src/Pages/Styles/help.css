@@ -1,0 +1,21 @@
+.faq{
+    position: absolute;
+    top: 100px;
+}
+
+.faq h2{
+    position: absolute;
+    left: 500px;
+    bottom: -15px;
+}
+
+.faqcontent{
+    width: 1000px;
+    position: absolute;
+    left: 20px;
+}
+
+.faqcontent h3{
+    position: relative;
+    left: -290px;
+}

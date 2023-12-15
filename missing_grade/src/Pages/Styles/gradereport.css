@@ -1,0 +1,23 @@
+.Grades{
+    position: absolute;
+    top: 100px;
+    left: 400px;
+}
+
+.Grades table{
+    width: 550px;
+}
+
+.Grades h2{
+    position: relative;
+    left: 100px;
+}
+
+.Grades table td{
+    padding-left: 13%;
+}
+
+.report{
+    position: absolute;
+    bottom: px;
+}
