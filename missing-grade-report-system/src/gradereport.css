@@ -1,0 +1,11 @@
+.grade-report {
+    color: whitesmoke;
+    background-color: #1f2c43;
+    margin: 3rem 20%;
+    padding: 2rem;
+  }
+  h1 {
+    text-align: center;
+    font-size: 45px;
+  }
+  
