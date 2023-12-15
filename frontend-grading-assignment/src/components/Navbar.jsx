@@ -21,20 +21,20 @@ const Navbar = () => {
                         <a className="nav-link text-white fs-5 mx-2" href="dashboard">Dashboard</a>
                         </li>
                         <li className="nav-item">
-                        <a className="nav-link text-white fs-5 mx-2" href="#">Grade Report</a>
+                        <a className="nav-link text-white fs-5 mx-2" href="grade-report">Grade Report</a>
                         </li>
                         <li className="nav-item">
-                        <a className="nav-link text-white fs-5 mx-2" href="#">Missing Grade</a>
+                        <a className="nav-link text-white fs-5 mx-2" href="missing-grade-form">Missing Grade</a>
                         </li>
                         <li className="nav-item text-white">
-                        <a className="nav-link text-white fs-5 mx-2" href="#">Instructors Page</a>
+                        <a className="nav-link text-white fs-5 mx-2" href="instructors">Instructors Page</a>
                         </li>
                         <li className="nav-item">
-                        <a className="nav-link text-white fs-5 mx-2" href="#">Help</a>
+                        <a className="nav-link text-white fs-5 mx-2" href="help">Help</a>
                         </li>
                     </ul>
-                    <form class="d-flex" role="search">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                    <form className="d-flex" role="search">
+                        <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
                         <button className="btn btn-outline-success" type="submit">Search</button>
                     </form>
                     </div>

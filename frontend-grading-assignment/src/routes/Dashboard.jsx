@@ -8,7 +8,7 @@ const Dashboard = () => {
             
             <div className="container">
 
-                <div className="container d-flex justify-content-around py-3 my-4" style={{boxShadow: "0 5px 5px 10px rgba(0, 0, 0, 0.2)"}}>
+                <div className="container d-flex justify-content-around py-3" style={{boxShadow: "0 5px 5px 10px rgba(0, 0, 0, 0.2)", margin: "5rem 0"}}>
                     <div>
                         <p>Welcome: Awura</p>
                         <p>Student ID: 11254352</p>
