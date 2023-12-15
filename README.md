@@ -1,51 +1,77 @@
-# Student Grade Reporting System Frontend
+                                                  STUDENT ID : 11357174
+                                       MY FRONTEND MISSING GRADE REPORTING SYSTEM PAGES
 
-## Project Overview
+                                       THE PURPOSE OF THIS GRADE REPORTING SYSTEM PAGES:
+                                       
+                  The purpose of a Grade Reporting System page is to provide students and relevant stakeholders with a comprehensive and detailed view of a student's academic performance. This page typically includes information about the courses a student is enrolled in, along with the corresponding grades and other relevant details. Here are some key purposes and features of a Grade Report System page:
 
-This project is a front-end web application for a Student Grade Reporting System. It simulates a real-world application where students can view, report, and manage their academic grades. This system addresses the issue of missing or unrecorded grades in a student's profile.
+ACADEMIC PERFORMANCE OVERVIEW:
 
-## Application Structure
+Courses and Grades: Display a list of courses a student is enrolled in for a specific semester or academic year, along with the corresponding grades achieved in each course.
+Cumulative GPA: Show the overall Cumulative Grade Point Average (GPA) to summarize the student's performance across all courses.
 
-The application consists of 7 main pages:
+DETAILED COURSE INFORMATION:
 
-- **Homepage:** Introduction to the system and its purpose.
-- **Login Page:** Mock login interface for student authentication.
-- **Dashboard:** Displays an overview of the student’s current grades and alerts for missing grades.
-- **Grade Report:** Shows a detailed view of the student's grades filtered by semester or academic year.
-- **Missing Grade Form:** Enables students to report missing grades.
-- **Instructor Contact Page:** Lists instructors' contact information with a simulated email feature.
-- **Help and Support:** Provides FAQs and a mock support contact form.
+Course Name and Code: Provide information about the course name and code for easy identification.
+Instructor Details: Display the names of instructors or professors associated with each course.
 
-## Technical Details
+SEMESTER OR ACADEMIC YEAR FILTERING:
 
-- **Framework/Technology Used:** [React]
-- **Responsive Design:** Implemented using [CSS Flexbox/Grid, Bootstrap, Tailwind CSS].
-- **JavaScript Functionality:** Used for form validations, dynamic content rendering, and simulating interactions.
+Filter Options: Allow users to filter the displayed grades based on specific semesters or academic years. This helps in reviewing performance over different time frames.
 
-## Setup and Installation
+ADDITIONAL INFORMATION:
 
-To set up the project locally, follow these steps:
+Credit Hours: Include the credit hours associated with each course to reflect the workload.
+Course Type: Indicate whether a course is a core requirement, elective, or part of a specific program.
 
-```bash
-git clone https://github.com/your-github-username/DCIT_205_ASSIGNGMENT1.git
-cd repo-name
-npm install
-npm start
-```
+GRADE POINT SCALE:
 
-This will start the application on `localhost` at the default port.
+Explanation of Grades: Provide information about the grading scale used, explaining the meaning of each grade (e.g., A, B, C, etc.).
+Grade Point Average (GPA) Calculation: Clarify how the Cumulative GPA is calculated based on the assigned grades.
 
-## Usage
+FEEDBACK AND COOMMITS:
 
-Describe how to use the application, highlighting key functionalities such as logging in, viewing grades, reporting missing grades, and contacting instructors.
+Instructor Comments: Include any comments or feedback provided by instructors regarding the student's performance.
+Student Reflection: In some systems, there might be space for students to provide self-reflection or comments about their learning experience.
 
-## Contribution
+HISTORICAL DATA:
 
-To contribute to this project, please follow these guidelines:
+Previous Semesters: Allow users to navigate and view grade reports from previous semesters or academic years.
 
-1. Fork the repository.
-2. Create a new branch for your feature.
-3. Commit your changes and push them to your branch.
-4. Submit a pull request for review.
+ALERT OR NOTIFICATION:
 
-Please adhere to the project's coding standards and provide clear and detailed pull request descriptions.
+Missing Grades: Implement alerts or notifications to inform students about any missing grades or incomplete assignments.
+
+SUPPORT RESOURCES:
+
+Links to Resources: Provide links to academic support resources, tutoring services, or counseling services for students who may need additional assistance.
+
+COMPLIANCE ANDDOCUMENTATION:
+
+Official Records: Serve as an official record of a student's academic performance, which may be useful for transcripts, scholarship applications, or other documentation.
+
+                                       BELOW ARE MY SCREENSHORT PAGES
+
+   ![grade_report_page](https://github.com/SPEEDOFLIGHT559/11357174_DCIT_205_Assignment/assets/151200258/396800bf-b239-40a6-912c-8fe1f55b3ed3)
+                      
+
+
+![Instructor_Contact_Page](https://github.com/SPEEDOFLIGHT559/11357174_DCIT_205_Assignment/assets/151200258/f2010770-6dd0-4b69-b4e8-932c4dc635a0)
+
+                         
+              
+![missing_grade_form_page](https://github.com/SPEEDOFLIGHT559/11357174_DCIT_205_Assignment/assets/151200258/168a177c-59d2-42c6-95d1-b31069f4b21f)
+
+
+
+![S_login_page](https://github.com/SPEEDOFLIGHT559/11357174_DCIT_205_Assignment/assets/151200258/53a290f9-e0b2-4813-b8b7-4e428fb010e6)
+
+
+
+![dashboard_page](https://github.com/SPEEDOFLIGHT559/11357174_DCIT_205_Assignment/assets/151200258/eb38e022-cc78-42b4-8bff-f62d25a9928b)
+
+![home_page](https://github.com/SPEEDOFLIGHT559/11357174_DCIT_205_Assignment/assets/151200258/db9e1dbd-3349-4d3f-8277-2716c214a9f7)
+
+
+
+
