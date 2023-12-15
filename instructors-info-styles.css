@@ -1,0 +1,71 @@
+
+.t-styles{
+  background: url(src/background-image.jpeg);
+  height: 100%;
+  width: 100%;
+  color: #fff;
+  border-radius: 0 0 0 0;
+  margin-top: .13rem;
+  margin-bottom: 0rem;
+}
+.h-info{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  color: white;
+  margin-bottom: 2rem;
+}
+
+table{
+  width: 800px;
+  font-family: sans-serif;
+  font-weight: 100;
+  border-collapse: collapse;
+  overflow: hidden;
+  box-shadow: 0 0 20px #0000001a;
+  justify-content: center;
+  margin-left: 17.5rem;
+  backdrop-filter: blur(10px); 
+
+}
+
+th ,td {
+  background-color: #ffffff33;
+  padding: 15px;
+  color: #fff;
+}
+td{
+  color: #fff;
+  font-family: sans-serif;
+  font-weight: bolder;
+  font-style: oblique;
+  font-size: larger;
+}
+
+th {
+  text-align: left;
+}
+
+thead th {
+  background-color: #55608f;
+}
+
+tbody tr:hover {
+  background-color: #ffffff4d;
+}
+
+tbody td {
+  position: relative;
+}
+
+tbody td:hover:before {
+  content: "";
+  position: absolute;
+  background-color: #ffffff33;
+  left: 0;
+  right: 0;
+  top: -9999px;
+  bottom: -9999px;
+  z-index: -1;
+}
