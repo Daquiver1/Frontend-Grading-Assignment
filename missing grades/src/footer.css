@@ -1,19 +1,14 @@
-/* Add this to your footer.css file */
 
 .navi {
   background-color: white !important;
-  /* Make the background transparent */
   border-top: 1px solid #2eaf7d;
   height: 100px;
-  /* Add a border at the top with the specified color */
 }
 
 .text-muted {
   color: #02353c !important;
-  /* Set the text color */
 }
 
 .text-muted:hover {
   color: #08464f !important;
-  /* Change text color on hover */
 }

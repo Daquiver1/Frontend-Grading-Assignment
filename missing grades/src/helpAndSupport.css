@@ -1,0 +1,31 @@
+#faqAccordion {
+    margin-top: 20px;
+}
+
+.accordion-button {
+    background-color: #449342;
+    color: #fff;
+}
+
+.accordion-button:hover {
+    background-color: #2eaf7d;
+}
+
+.accordion-body {
+    background-color: #3fd0c9;
+    color: #fff;
+}
+
+.container.main {
+    margin-bottom: 50px;
+}
+
+.btn-primary {
+    background-color: #2eaf7d;
+    border-color: #2eaf7d;
+}
+
+.btn-primary:hover {
+    background-color: #449342;
+    border-color: #449342;
+}

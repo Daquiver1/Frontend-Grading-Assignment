@@ -10,7 +10,7 @@ const LandingPage = () => {
         <hr className="my-4" />
         <p>View your grades, report missing grades, and communicate with instructors or administration.</p>
         <p className="lead">
-          <Link className="btn btn-primary btn-lg" to="/dashboard" role="button">
+          <Link className="login-btn " to="/dashboard" role="button">
             View Dashboard
           </Link>
         </p>

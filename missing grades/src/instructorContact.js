@@ -9,7 +9,6 @@ const instructorImages = {
   };
 
 const InstructorContact = () => {
-  // Sample data representing instructors and their contact details
   const [instructors, setInstructors] = useState([
     {
       name: 'Dr. Mark Attah Mensah',
@@ -31,21 +30,16 @@ const InstructorContact = () => {
       email: 'imsadat@gmail.com',
       phone: '0597466323',
     },
-    // Add more instructors as needed
   ]);
 
-  // State to manage the selected instructor for email simulation
   const [selectedInstructor, setSelectedInstructor] = useState(null);
 
-  // Function to handle the selection of an instructor for email simulation
   const handleInstructorSelect = (instructor) => {
     setSelectedInstructor(instructor);
   };
 
-  // Function to simulate sending an email (mock-up)
   const sendEmail = () => {
     if (selectedInstructor) {
-      // Simulated email logic (replace with actual email functionality)
       alert(`Email sent to ${selectedInstructor.name}`);
     } else {
       alert('Please select an instructor to send an email.');
@@ -58,7 +52,7 @@ const InstructorContact = () => {
       <div className="containerrr">
         <h1 className="mb-4">Instructor Contact</h1>
 
-        {/* Instructor List */}
+        {/*  List of Instructors */}
         <ul className="list-group mb-4">
           {instructors.map((instructor, index) => (
             <li

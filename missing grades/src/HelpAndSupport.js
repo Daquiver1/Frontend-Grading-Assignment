@@ -1,8 +1,9 @@
-
+// HelpAndSupport.jsx
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import MyNavbar from './nav';
 import MyFooter from './Footer';
+import './helpAndSupport.css';
 
 const HelpAndSupport = () => {
   const faqs = [
@@ -15,25 +16,23 @@ const HelpAndSupport = () => {
       answer: 'You can check if your grade is missing by reviewing your unofficial transcript on the Student Portal. If your grade is missing, it will be displayed as an "N/A"',
     },
     {
-      question: 'What should I do if my grade is missing?',
-      answer: 'If your grade is missing, you should submit a missing grade request form. The form can be found on the Registrars Office website.',
+      question: ' How can I request an official transcript?',
+      answer: 'To request an official transcript, log in to the student portal and navigate to the Transcript Request section. Follow the instructions to submit your request. Please allow 5-7 business days for processing',
+    
     },
     {
       question: 'How long will it take for my missing grade to be processed?',
       answer: 'If you miss the deadline for submitting a missing grade request, your request will not be processed. You will need to submit a late request, which will be subject to a late fee.',
     },
-    {
-      question: ' How can I request an official transcript?',
-      answer: 'To request an official transcript, log in to the student portal and navigate to the Transcript Request section. Follow the instructions to submit your request. Please allow 5-7 business days for processing',
-    },
+    {  question: 'What should I do if my grade is missing?',
+      answer: 'If your grade is missing, you should submit a missing grade request form. The form can be found on the Registrars Office website.',
+    
+      },
   ];
 
-  // Function to handle form submission (mock-up)
   const handleFormSubmit = (e) => {
     e.preventDefault();
-    // Simulated form submission logic (replace with actual form submission)
-    alert('Form submitted. We will get in touch with you shortly.');
-    // You can reset form fields or perform other actions here
+    alert('Your form has been submitted. We will get in touch with you shortly.');
   };
 
   return (
@@ -43,7 +42,7 @@ const HelpAndSupport = () => {
       <div className="container main mt-5">
         <h1 className="mb-4">Help and Support</h1>
 
-        {/* FAQ Section */}
+       
         <div className="mb-4">
           <h2>Frequently Asked Questions</h2>
           <div className="accordion" id="faqAccordion">
@@ -74,7 +73,7 @@ const HelpAndSupport = () => {
           </div>
         </div>
 
-        {/* Contact Form for Technical Support (Mock-up) */}
+        {/* Contact Form for Technical Support*/}
         <div>
           <h2>Contact Technical Support</h2>
           <form onSubmit={handleFormSubmit}>
@@ -97,7 +96,7 @@ const HelpAndSupport = () => {
               <textarea className="form-control" id="message" rows="4" required></textarea>
             </div>
             <button type="submit" className="btn btn-primary">
-              SUBMIT
+              Submit
             </button>
           </form>
         </div>
