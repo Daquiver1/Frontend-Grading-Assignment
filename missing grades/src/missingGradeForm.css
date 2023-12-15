@@ -5,6 +5,7 @@
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
 }
 
 .mb-4 {
@@ -46,6 +47,20 @@ textarea {
     background-color: #28a745;
     color: white;
     border: 1px solid #218838;
+}
+
+.submit-btn {
+    background-color: 2eaf7d;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.submit-btn:hover {
+    background-color: 2eaf7d;
+    transition: 1s;
 }
 
 /* Adjust these styles based on your specific design preferences */

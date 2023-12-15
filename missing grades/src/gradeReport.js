@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './gradeReport.css';
 import MyNavbar from './nav';
 import MyFooter from './Footer';
+import { Navbar } from 'react-bootstrap';
 
 const GradeReport = () => {
   const [gradeReport, setGradeReport] = useState([
@@ -87,6 +88,10 @@ const GradeReport = () => {
   return (
      
     <div>
+      <div>
+        <MyNavbar />
+      </div>
+      <div className='table-and-content'>
     <div className="container mt-5">
       <h1 className="mb-4">Grade Report</h1>
 
@@ -147,7 +152,8 @@ const GradeReport = () => {
 
       <div style={{marginBottom: "70px"}}>
         <p>GPA: {calculateGPA()}</p>
-      </div>
+          </div>
+          </div>
     
       </div>
     <MyFooter /> 

@@ -2,26 +2,34 @@ import React, { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import MyNavbar from './nav';
 import MyFooter from './Footer';
+import './instructorContact.css';
 
-// Sample instructor images (replace with actual image URLs)
-const instructorImages = {
-  'Dr. John Smith': 'https://placekitten.com/50/50', // Example cat image
-  'Prof. Jane Doe': 'https://placekitten.com/50/51', // Another example cat image
-  // Add more images for other instructors as needed
-};
+
+const instructorImages = { 
+  };
 
 const InstructorContact = () => {
   // Sample data representing instructors and their contact details
   const [instructors, setInstructors] = useState([
     {
-      name: 'Dr. William Wales',
-      email: 'wales.w@gmail.com',
-      phone: '257019887',
+      name: 'Dr. Mark Attah Mensah',
+      email: 'mamensah@gmail.com',
+      phone: '0205468364',
     },
     {
-      name: 'Prof. Mary Anne',
-      email: 'anne.mae@gmail.com',
-      phone: '2468101214',
+      name: 'Prof. Elsie Effah Kauffman',
+      email: 'effahkauf@gmail.com',
+      phone: '0246810121',
+    },
+    {
+      name: 'Aziz Batchata',
+      email: 'azizsorli@gmail.com',
+      phone: '0247389354',
+    },
+    {
+      name: 'Iddrisu Sadat',
+      email: 'imsadat@gmail.com',
+      phone: '0597466323',
     },
     // Add more instructors as needed
   ]);
@@ -47,7 +55,7 @@ const InstructorContact = () => {
   return (
     <div>
       <MyNavbar />
-      <div className="container mt-5">
+      <div className="containerrr">
         <h1 className="mb-4">Instructor Contact</h1>
 
         {/* Instructor List */}
@@ -76,7 +84,7 @@ const InstructorContact = () => {
 
         {/* Selected Instructor Contact Details */}
         {selectedInstructor && (
-          <div>
+          <div className="selected-instructor-details">
             <h2>Contact Details</h2>
             <p>
               <strong>Name:</strong> {selectedInstructor.name}
@@ -92,7 +100,7 @@ const InstructorContact = () => {
 
         {/* Email Simulation Button */}
         <button
-          className="btn btn-primary mt-3"
+          className="simulated-btn"
           onClick={sendEmail}
           disabled={!selectedInstructor}
         >
