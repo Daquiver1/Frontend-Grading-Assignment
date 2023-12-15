@@ -1,3 +1,7 @@
+#Kelly Bediako Buabeng
+## 11180171
+
+
 # Student Grade Reporting System Frontend
 
 ## Project Overview
@@ -18,9 +22,8 @@ The application consists of 7 main pages:
 
 ## Technical Details
 
-- **Framework/Technology Used:** [React]
-- **Responsive Design:** Implemented using [CSS Flexbox/Grid, Bootstrap, Tailwind CSS].
-- **JavaScript Functionality:** Used for form validations, dynamic content rendering, and simulating interactions.
+- **I used the REACT Framework
+- **I al so used Javascript in making some functionalities
 
 ## Setup and Installation
 
