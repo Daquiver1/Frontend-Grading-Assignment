@@ -1,0 +1,45 @@
+*{
+    color: blue;
+}
+.report {
+    margin-bottom: 20px;
+  }
+  .report > h1{
+    text-align: center;
+    font-size: 50px;
+  }
+
+  .filter{
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .filter > h2{
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+  .perry{
+    font-size: 20px;
+    
+  }
+  
+  label {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  select {
+    padding: 5px;
+  }
+
+  .lists >h2{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+
+  .lists > ul{
+    text-align: center;
+    list-style: none;
+
+  }
