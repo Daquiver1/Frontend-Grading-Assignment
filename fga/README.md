@@ -28,7 +28,7 @@ To set up the project locally, follow these steps:
 
 ```bash
 git clone https://github.com/your-github-username/DCIT_205_ASSIGNGMENT1.git
-cd repo-name
+cd fga
 npm install
 npm start
 ```
@@ -38,6 +38,8 @@ This will start the application on `localhost` at the default port.
 ## Usage
 
 Describe how to use the application, highlighting key functionalities such as logging in, viewing grades, reporting missing grades, and contacting instructors.
+
+The site opens to an overview page which then links to the login page ,a page for viewing grades, one for reporting missing grades, another one for contacting instructors and a last page for help and support.
 
 ## Contribution
 
