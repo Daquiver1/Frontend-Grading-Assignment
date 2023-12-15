@@ -1,0 +1,21 @@
+.dashboard{
+    text-align: center;
+}
+
+.overview{
+    margin-top: 10px;
+}
+
+.overview > p{
+    font-size: 20px;
+
+}
+
+.missingGrades > p{
+    font-size: 20px ;
+}
+
+.missingGrades > h1 {
+    color: red;
+    margin-top: 25px;
+}
