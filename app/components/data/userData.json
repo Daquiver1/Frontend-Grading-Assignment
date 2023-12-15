@@ -1,0 +1,132 @@
+[
+  {
+    "id": 1,
+    "userId": "1234",
+    "userPin": "4321",
+    "username": "Raphael Mensah",
+    "programme": "Computer Science and Math",
+    "grade": 3.9,
+    "courses": [
+      {
+        "code": "DCIT101",
+        "name": "Introduction to computer science",
+        "credits": 3
+      },
+      {
+        "code": "DCIT101",
+        "name": "Introduction to computer science",
+        "credits": 3
+      },
+      {
+        "code": "DCIT101",
+        "name": "Introduction to computer science",
+        "credits": 3
+      }
+    ]
+  },
+  {
+    "userId": "1111",
+    "userPin": "222233"
+  },
+  {
+    "id": "ac37a8e0-2db8-4cf8-b315-f393a160e0de",
+    "userId": "0000",
+    "userPin": "1111",
+    "username": "Prince Asiedu",
+    "programme": "Agricultural Engineering",
+    "grade": 3.5203616559060134,
+    "courses": [
+      {
+        "code": "DCIT101",
+        "name": "Introduction to computer science",
+        "credits": 3
+      },
+      {
+        "code": "DCIT101",
+        "name": "Introduction to computer science",
+        "credits": 3
+      },
+      {
+        "code": "DCIT101",
+        "name": "Introduction to computer science",
+        "credits": 3
+      },
+      null
+    ]
+  },
+  {
+    "id": "509b137d-15d6-4bc2-9709-b81747813c9c",
+    "userId": "0000",
+    "userPin": "1111",
+    "username": "Prince Asiedu",
+    "programme": "Agricultural Engineering",
+    "grade": 0.22487808482296856,
+    "courses": [
+      {
+        "code": "DCIT101",
+        "name": "Introduction to computer science",
+        "credits": 3
+      },
+      {
+        "code": "DCIT101",
+        "name": "Introduction to computer science",
+        "credits": 3
+      },
+      {
+        "code": "DCIT101",
+        "name": "Introduction to computer science",
+        "credits": 3
+      }
+    ]
+  },
+  {
+    "id": "2559a992-e967-4c75-b03a-02e606b49d3c",
+    "userId": "000012",
+    "userPin": "11113",
+    "username": "Prince Asiedu",
+    "programme": "Agricultural Engineering",
+    "grade": 2.7580053204047443,
+    "courses": [
+      {
+        "code": "DCIT101",
+        "name": "Introduction to computer science",
+        "credits": 3
+      },
+      {
+        "code": "DCIT101",
+        "name": "Introduction to computer science",
+        "credits": 3
+      },
+      {
+        "code": "DCIT101",
+        "name": "Introduction to computer science",
+        "credits": 3
+      }
+    ]
+  },
+  {
+    "id": "7d543ba3-a1c1-4ba3-8658-0e539f8a3ea6",
+    "userId": "7272",
+    "userPin": "1111",
+    "username": "Paa Okyere",
+    "programme": "Agricultural Engineering",
+    "grade": "2.67",
+    "courses": [
+      {
+        "code": "DCIT101",
+        "name": "Introduction to computer science",
+        "credits": 3
+      },
+      {
+        "code": "DCIT101",
+        "name": "Introduction to computer science",
+        "credits": 3
+      },
+      {
+        "code": "DCIT101",
+        "name": "Introduction to computer science",
+        "credits": 3
+      }
+    ]
+  }
+]

@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1,
+    "userId": "1234",
+    "userPin": "4321",
+    "username": "Raphael Mensah",
+    "programme": "Computer Science and Math",
+    "grade": 3.9,
+    "courses": [
+      {
+        "code": "DCIT101",
+        "name": "Introduction to computer science",
+        "credits": 3
+      },
+      {
+        "code": "DCIT101",
+        "name": "Introduction to computer science",
+        "credits": 3
+      },
+      {
+        "code": "DCIT101",
+        "name": "Introduction to computer science",
+        "credits": 3
+      }
+    ]
+  },
+  {
+    "userId": "1111",
+    "userPin": "2222"
+  },
+  {
+    "userId": "1111",
+    "userPin": "222233"
+  }
+]
