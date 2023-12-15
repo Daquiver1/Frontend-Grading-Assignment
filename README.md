@@ -30,8 +30,8 @@ The application consists of 7 main pages:
 To set up the project locally, follow these steps:
 
 ```bash
-git clone https://github.com/your-github-username/DCIT_205_ASSIGNGMENT1.git
-cd repo-name
+git clone https://github.com/frankmawuli/Frontend-Grading-Assignment.git
+cd frankMau
 npm install
 npm start
 ```
@@ -41,6 +41,74 @@ This will start the application on `localhost` at the default port.
 ## Usage
 
 Describe how to use the application, highlighting key functionalities such as logging in, viewing grades, reporting missing grades, and contacting instructors.
+# Grading System Application
+
+## Getting Started
+
+### Logging In
+- Navigate to the application's login page.
+- Enter your credentials (username and password).
+- Click the "Login" button.
+
+Upon successful login, you'll be redirected to the dashboard.
+
+## Dashboard
+
+The dashboard provides an overview of your current grades and alerts for missing grades. Key features include:
+
+- A list of courses with respective grades.
+- Alerts for any missing grades.
+- Quick assessment of academic progress.
+
+## Grade Report
+
+Access the Grade Report page to view a detailed breakdown of grades for each course. Features include:
+
+- Semester filter for viewing grades by academic period.
+- A table or list displaying courses and grades.
+- Ability to track performance over different semesters.
+
+## Reporting Missing Grades
+
+- Identify missing grades on the dashboard or grade report.
+- Navigate to the specific course or grade with the issue.
+- Use the reporting mechanism to notify instructors.
+- Provide additional details or comments when reporting.
+
+## Contacting Instructors
+
+- Utilize the contact feature for communication with instructors.
+- Find the contact section, accessible from the dashboard or a dedicated page.
+- Select the course or instructor for communication.
+- Compose messages for concerns, inquiries, or clarification regarding grades.
+
+## Navigation and User Interface
+
+- Intuitive navigation between sections.
+- User-friendly interface with clear labels, buttons, and visual cues.
+
+## Security and Privacy
+
+- Encrypted user credentials during login.
+- Optional two-factor authentication for enhanced security.
+- Privacy measures for protecting sensitive student data.
+
+## Help and Support
+
+- Help or support section for issue resolution.
+- FAQs, documentation, or a support ticket system.
+
+## Accessibility
+
+- Design considerations for accessibility, ensuring inclusivity.
+- Alternative text for images and keyboard navigation.
+
+## Logout
+
+Always log out of the application when done to secure personal information.
+
+
+
 
 ## Contribution
 

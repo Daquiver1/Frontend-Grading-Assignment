@@ -1,3 +1,4 @@
+// GradeReportPage.js
 
 import React, { useState } from 'react';
 import CourseTable from './CourseTable';
