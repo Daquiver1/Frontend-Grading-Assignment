@@ -17,6 +17,7 @@ The application consists of 7 main pages:
 
 - **Dashboard:** Displays an overview of the student’s current grades and alerts for missing grades.
 - 
+![Web capture_15-12-2023_63158_localhost](https://github.com/machadop1407/ecommerce-mern-tutorial/assets/148434566/0dda33e4-cfc4-43c9-a93e-10a6567c66dc)
 
 
 
@@ -24,11 +25,14 @@ The application consists of 7 main pages:
 
 - **Grade Report:** Shows a detailed view of the student's grades filtered by semester or academic year.
 - 
+![Web capture_15-12-2023_94355_localhost](https://github.com/machadop1407/ecommerce-mern-tutorial/assets/148434566/ee7a4ac2-aba6-42c2-9073-4f7433afac4d)
+
+- 
 - **Missing Grade Form:** Enables students to report missing grades.
 - ![Web capture_13-12-2023_94131_localhost](https://github.com/machadop1407/ecommerce-mern-tutorial/assets/148434566/079c1d1c-2de7-40d3-a424-186644cca610)
 
 - **Instructor Contact Page:** Lists instructors' contact information with a simulated email feature.
-- ![Web capture_13-12-2023_94228_localhost](https://github.com/machadop1407/ecommerce-mern-tutorial/assets/148434566/197e3eba-df96-4432-bf61-29d6cabb867b)
-- 
+-![Web capture_15-12-2023_91819_localhost](https://github.com/machadop1407/ecommerce-mern-tutorial/assets/148434566/e2ca9037-bb1d-494c-833a-1ba6bf439716)
+
 - **Help and Support:** Provides FAQs and a mock support contact form.
-![Web capture_13-12-2023_94021_localhost](https://github.com/machadop1407/ecommerce-mern-tutorial/assets/148434566/5f20e166-5b5b-409e-a07e-f67e2e07de36)
+![Web capture_15-12-2023_94743_localhost](https://github.com/machadop1407/ecommerce-mern-tutorial/assets/148434566/848e7f8b-301d-4b18-88ba-9279b5162912)
