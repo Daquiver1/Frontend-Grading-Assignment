@@ -2,7 +2,7 @@ import React from "react";
 import './styles.css';
 import Header from './Header';
 import { useNavigate } from 'react-router-dom';
-
+import Footer from "./footer";
 function Overview(){
     const navigate = useNavigate();
     navigate('/login');
@@ -97,7 +97,7 @@ function Overview(){
     </section>
     </div>
 
-
+<Footer />
 
  </div>  
     )

@@ -10,7 +10,7 @@ function Dashboard() {
     { courseName: 'DCIT 103', grade: 'C+', gradePoint: 7.5},
     { courseName: 'DCIT 105', grade: 'N/A', gradePoint: 6},
     { courseName: 'DCIT 205', grade: 'B+', gradePoint: 10.5},
-    { courseName: 'DCIT 207', grade: '', gradePoint: 12},
+    { courseName: 'DCIT 207', grade: '', gradePoint: ''},
     { courseName: 'DCIT 201', grade: 'B+', gradePoint: 10.5},
     { courseName: 'DCIT 203', grade: 'B', gradePoint: 9,},
     { courseName: 'DCIT 201', grade: 'A', gradePoint: 12},

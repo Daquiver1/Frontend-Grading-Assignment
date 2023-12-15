@@ -1,3 +1,4 @@
+# 11126606_YAOVI PRAISE SELASI
 # Student Grade Reporting System Frontend
 
 ## Project Overview
@@ -47,5 +48,37 @@ To contribute to this project, please follow these guidelines:
 2. Create a new branch for your feature.
 3. Commit your changes and push them to your branch.
 4. Submit a pull request for review.
+# Missing Grade Reporting System Website
+Welcome to the Missing Grade Reporting System! This web application is designed to assist students in tracking and reporting grades that may be missing from their academic profiles.
+ The goal is to provide an interactive and user-friendly platform for students to view their grades, report missing grades, and communicate with their instructors or academic administration.
+## Features
 
-Please adhere to the project's coding standards and provide clear and detailed pull request descriptions.
+### Efficient Reporting
+
+- **Empowering Students:** Take control of your academic journey by easily tracking and reporting missing grades. This feature puts the power in the hands of students to ensure a complete and accurate academic record.
+
+- **Enhancing Education:** By providing a user-friendly interface, this system aims to enhance the overall educational experience. Access your grades, report missing ones, and stay informed, contributing to a more streamlined and effective learning environment.
+
+### Securing Your Academic Identity
+
+- **Your Academic Compass:** Navigate through your academic information with confidence. This system acts as your academic compass, helping you stay on course by providing a comprehensive overview of your grades and ensuring no important information is missing.
+# SCREENSHOTS
+![Alt text](<./missing-grades/src/IMGE/image1.png>)
+![Alt text](<./missing-grades/src/IMGE/image2.png>)
+![Alt text](<./missing-grades/src/IMGE/image3.png>)
+![Alt text](<./missing-grades/src/IMGE/image4.png>)
+![Alt text](<./missing-grades/src/IMGE/image5.png>)
+![Alt text](<./missing-grades/src/IMGE/image6.png>)
+![Alt text](<./missing-grades/src/IMGE/image7.png>)
+![Alt text](<./missing-grades/src/IMGE/image8.png>)
+![Alt text](<./missing-grades/src/IMGE/image9.png>)
+![Alt text](<./missing-grades/src/IMGE/image10.png>)
+![Alt text](<./missing-grades/src/IMGE/image11.png>)
+![Alt text](<./missing-grades/src/IMGE/image12.png>)
+![Alt text](<./missing-grades/src/IMGE/image13(1).png>)
+![Alt text](<./missing-grades/src/IMGE/image13.png>)
+![Alt text](<./missing-grades/src/IMGE/image14.png>)
+![Alt text](<./missing-grades/src/IMGE/image15.png>)
+![Alt text](<./missing-grades/src/IMGE/image16.png>)
+
+
