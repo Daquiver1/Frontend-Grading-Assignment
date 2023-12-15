@@ -57,7 +57,7 @@ Please adhere to the project's coding standards and provide clear and detailed p
 
 ![Homepage Screenshot](assets/homepage.png)
 
-# ** This is a screenshot of the login page.**
+# **This is a screenshot of the login page.**
 
 ![Loginpage Screenshot](assets/loginpage.png)
 
