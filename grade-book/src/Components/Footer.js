@@ -1,10 +1,14 @@
 
 import React from 'react';
 import '../Styles/Footer.css';
+import logo from "../Images/logo.jpg";
 
 const Footer = () => {
  return (
     <footer className="footer">
+       <div className="logo-container">
+        <img src={logo} alt="Logo" className="logo" />
+      </div>
       <div className="footer-content">
         <h3>Contact Us</h3>
         <p>Phone: +233 541614808</p>

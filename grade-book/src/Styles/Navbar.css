@@ -31,3 +31,17 @@
 .navbar ul li a:hover {
     color: #b6975d;
 }
+.logo-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    height: 90px; 
+    margin-right: 20px;
+    margin-left: 40px;
+    width: 150px;
+  }
+  
+
+  

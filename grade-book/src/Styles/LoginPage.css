@@ -3,11 +3,11 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: #00357a;
+  background-color: #0056b3;
 }
 
 .login-page {
-  padding: 20px;
+  padding: 30px;
   box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
   background-color: aliceblue;
 }
@@ -23,7 +23,7 @@
 
 .login-page input {
   margin-bottom: 20px;
-  padding: 5px;
+  padding: 10px;
 }
 
 .login-page button {
