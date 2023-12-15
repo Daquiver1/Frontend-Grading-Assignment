@@ -1,11 +1,13 @@
 ### DCIT_205_IA
 
 
-# UNIVERSITY OF GHANA, LEGON.
+# <div align="center">UNIVERSITY OF GHANA, LEGON.</div>
 ## <div align="center"><p>GRADE REPORT SYSTEM.</p></div>
+
 
 ### Description
 The Student Academic Portal is a user-friendly platform designed to empower students with easy access to their academic grades, provide insights into missing grades, and offer a streamlined process to address any errors or discrepancies in the grading system.
+
 
 ## Key Features
 ### 1. Grade Overview.
@@ -38,21 +40,23 @@ The Student Academic Portal is a user-friendly platform designed to empower stud
 - Empowers students to take control of their academic progress.
 - Facilitates quick identification and resolution of missing or incorrect grades.
 - Enhances communication between students and academic administrators.
+  
 
 ## Target Audience:
 - College and university students seeking a transparent and efficient way to manage their academic grades.
+
 
 ## Future Enhancements:
 - Integration with academic advisors for personalized guidance.
 - Gamification elements to motivate students towards academic goals.
 - Compatibility with additional grading systems and educational institutions.
 
-<br>
+
 
 The Student Academic Portal aims to foster a proactive and collaborative environment where students can actively engage with their academic progress, ensuring accurate and up-to-date information.
 
-## Missing Grade Report - Walkthrough
 
+## Missing Grade Report - Walkthrough
 This walkthrough video will guide you through the key features and functionalities of the portal.
 
 ### 1. Landing Page
