@@ -37,7 +37,21 @@ This will start the application on `localhost` at the default port.
 
 ## Usage
 
-Describe how to use the application, highlighting key functionalities such as logging in, viewing grades, reporting missing grades, and contacting instructors.
+
+1. Logging In
+To login the application provide the details asked on the page
+## The left pane of the website allows easy navigation between webpages
+2. Dashboard
+It diplays the course name,course id,academic year,semester and grade for the current semester.
+3. Missing Grade Form
+It helps students to alert lecturers when their expected grade for a course is not being displayed on the website.
+4. Instructors
+On this page information about lecturers is provided.
+5. Help and Support
+On this page frequently asked questions are displayed with their solutions to help students solve their issues
+6. Contact Us
+The University information is displayed as well as a technical support forum for askking for help pertaining to problems on the website.
+
 
 ## Contribution
 
