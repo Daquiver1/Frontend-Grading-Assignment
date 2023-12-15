@@ -14,8 +14,7 @@ This project is a web application designed for students to manage their academic
 
 ## Technologies Used
 - **React:** For building the user interface.
-- **CSS/Bootstrap/Tailwind:** For styling and responsive design.
-- **Vite (Optional):** Enhanced development experience.
+- **CSS/Bootstrap:** For styling and responsive design.
 
 ## Setup and Installation
 To set up this project locally:
@@ -35,10 +34,10 @@ Contributions are welcome! Please follow these steps:
 5. Submit a pull request.
 
 ## Contact
-For queries or feedback, please contact [Your Email].
+For queries or feedback, please contact [bhellos732@gmail.com].
 
 ## Acknowledgments
 Special thanks to all contributors and users of this application.
 
 ## License
-This project is licensed under [License Name].
+This project is licensed under [esec].
