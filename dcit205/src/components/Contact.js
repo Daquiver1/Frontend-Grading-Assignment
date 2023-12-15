@@ -30,21 +30,7 @@ const Contact = () => {
                       </div>
                       <h3> MR. MICHEAL AGBO TETTEY SOLI</h3>
                       <p>Senior Software Engineer | Lecturer</p>
-                      <p>Email: agbotettey@gmail.com</p>
-                      <div class="icons">
-                          <a href="#">
-                              <i class="fab fa-twitter"></i>
-                          </a>
-                          <a href="#">
-                              <i class="fab fa-linkedin"></i>
-                          </a>
-                          <a href="#">
-                              <i class="fab fa-github"></i>
-                          </a>
-                          <a href="#">
-                              <i class="fas fa-envelope"></i>
-                          </a>
-                      </div>
+                      <p>Email: agbotettey@gmail.com</p>     
                   </div>
               </div>
               <div class="column">
@@ -54,21 +40,7 @@ const Contact = () => {
                       </div>
                       <h3>MR. DWUMFOUR ABDULAI AZIZ</h3>
                       <p>Lecturer</p>
-                      <p>Email: adwumfour@ug.edu.gh</p>
-                      <div class="icons">
-                          <a href="#">
-                              <i class="fab fa-twitter"></i>
-                          </a>
-                          <a href="#">
-                              <i class="fab fa-linkedin"></i>
-                          </a>
-                          <a href="#">
-                              <i class="fab fa-github"></i>
-                          </a>
-                          <a href="#">
-                              <i class="fas fa-envelope"></i>
-                          </a>
-                      </div>
+                      <p>Email: adwumfour@ug.edu.gh</p>      
                   </div>
               </div>
             <div class="column">
@@ -78,21 +50,7 @@ const Contact = () => {
                 </div>
                 <h3> MR. PAUL NII AMMAH TACKIE</h3>
                 <p>Lecturer</p>
-                <p>Email: pammah@ug.edu.gh</p>
-                <div class="icons">
-                  <a href="#">
-                    <i class="fab fa-twitter"></i>
-                  </a>
-                  <a href="#">
-                    <i class="fab fa-linkedin"></i>
-                  </a>
-                  <a href="#">
-                    <i class="fab fa-github"></i>
-                  </a>
-                  <a href="#">
-                    <i class="fas fa-envelope"></i>
-                  </a>
-                </div>
+                <p>Email: pammah@ug.edu.gh</p>                
               </div>
             </div>
           </div>
@@ -107,20 +65,6 @@ const Contact = () => {
                   <h3> DR. EBENEZER OWUSU</h3>
                   <p>Lecturer</p>
                   <p>Email: ebeowusu@ug.edu.gh</p>
-                  <div class="icons">
-                    <a href="#">
-                      <i class="fab fa-twitter"></i>
-                    </a>
-                    <a href="#">
-                      <i class="fab fa-linkedin"></i>
-                    </a>
-                    <a href="#">
-                      <i class="fab fa-github"></i>
-                    </a>
-                    <a href="#">
-                      <i class="fas fa-envelope"></i>
-                    </a>
-                  </div>
                 </div>
               </div>
               <div class="column">
@@ -131,20 +75,6 @@ const Contact = () => {
                   <h3>MR. JULIUS YAW LUDU</h3>
                   <p>Lecturer</p>
                   <p>Email: mcclyconsult@gmail.com</p>
-                  <div class="icons">
-                    <a href="#">
-                      <i class="fab fa-twitter"></i>
-                    </a>
-                    <a href="#">
-                      <i class="fab fa-linkedin"></i>
-                    </a>
-                    <a href="#">
-                      <i class="fab fa-github"></i>
-                    </a>
-                    <a href="#">
-                      <i class="fas fa-envelope"></i>
-                    </a>
-                  </div>
                 </div>
               </div>
               <div class="column">
@@ -155,20 +85,6 @@ const Contact = () => {
                   <h3> MR. MARK ATTA MENSAH</h3>
                   <p>Lecturer</p>
                   <p>Email: mamensah@ug.edu.gh</p>
-                  <div class="icons">
-                    <a href="#">
-                      <i class="fab fa-twitter"></i>
-                    </a>
-                    <a href="#">
-                      <i class="fab fa-linkedin"></i>
-                    </a>
-                    <a href="#">
-                      <i class="fab fa-github"></i>
-                    </a>
-                    <a href="#">
-                      <i class="fas fa-envelope"></i>
-                    </a>
-                  </div>
                 </div>
               </div>
             </div>
@@ -183,20 +99,6 @@ const Contact = () => {
                 <h3> DR. JUSTICE KWAME APPATI</h3>
                 <p>Senior Lecturer</p>
                 <p>Email: jkappati@ug.edu.gh</p>
-                <div class="icons">
-                  <a href="#">
-                    <i class="fab fa-twitter"></i>
-                  </a>
-                  <a href="#">
-                    <i class="fab fa-linkedin"></i>
-                  </a>
-                  <a href="#">
-                    <i class="fab fa-github"></i>
-                  </a>
-                  <a href="#">
-                    <i class="fas fa-envelope"></i>
-                  </a>
-                </div>
               </div>
             </div>
               <div class="column">
@@ -207,20 +109,6 @@ const Contact = () => {
                   <h3>DR. EDWARD DANSO ANSONG</h3>
                   <p>Senior Lecturer</p>
                   <p>Email: edansong@ud.edu.gh</p>
-                  <div class="icons">
-                    <a href="#">
-                      <i class="fab fa-twitter"></i>
-                    </a>
-                    <a href="#">
-                      <i class="fab fa-linkedin"></i>
-                    </a>
-                    <a href="#">
-                      <i class="fab fa-github"></i>
-                    </a>
-                    <a href="#">
-                      <i class="fas fa-envelope"></i>
-                    </a>
-                  </div>
                 </div>
               </div>
               <div class="column">
@@ -231,20 +119,6 @@ const Contact = () => {
                   <h3> MRS. MATILDA WILSON</h3>
                   <p>Lecturer</p>
                   <p>Email: mwilaon@ug.edu.gh</p>
-                  <div class="icons">
-                    <a href="#">
-                      <i class="fab fa-twitter"></i>
-                    </a>
-                    <a href="#">
-                      <i class="fab fa-linkedin"></i>
-                    </a>
-                    <a href="#">
-                      <i class="fab fa-github"></i>
-                    </a>
-                    <a href="#">
-                      <i class="fas fa-envelope"></i>
-                    </a>
-                  </div>
                 </div>
             </div>
           </div>
