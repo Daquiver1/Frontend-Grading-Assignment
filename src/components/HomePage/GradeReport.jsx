@@ -2,6 +2,7 @@ import React from 'react';
 import './GradeReport.css';
 import Navbar from '../navigation';
 import { useState } from 'react';
+import Footer from './Footer';
 
 const GradeReport = () => {
   const [grades, setGrades] = useState([
@@ -15,8 +16,9 @@ const GradeReport = () => {
   ]);
 
   return (
+    <div>
+      <Navbar/>
     <div className="grade-report">
-        <Navbar/>
       <h2>Grade Report</h2>
       <table>
         <thead>
@@ -34,6 +36,10 @@ const GradeReport = () => {
           ))}
         </tbody>
       </table>
+      <div>
+        <Footer/>
+      </div>
+    </div>
     </div>
   );
 };

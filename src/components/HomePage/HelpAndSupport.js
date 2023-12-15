@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
 import './HelpAndSupport.css';
-import  Navbar from '../navigation';
+import Navbar from '../navigation';
 import backgroundImage from '../Images/help-and-support.jpg';
+import Footer from './Footer';
+
 const HelpAndSupport = () => {
   const [contactFormData, setContactFormData] = useState({
     name: '',
@@ -27,6 +29,8 @@ const HelpAndSupport = () => {
   };
 
   return (
+    <div>
+      <Navbar/>
     <div className="help-and-support">
       <navigation/>
       <div className="background-container"></div>
@@ -76,6 +80,10 @@ const HelpAndSupport = () => {
         </form>
         {confirmation && <p className="confirmation">{confirmation}</p>}
       </div>
+    </div>
+    <div>
+      <Footer/>
+    </div>
     </div>
   );
 };

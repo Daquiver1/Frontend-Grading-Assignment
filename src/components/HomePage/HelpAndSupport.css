@@ -19,13 +19,13 @@
   }
   
   ul {
-    list-style-type: none; /* Remove default list styles */
-    padding: 0; /* Remove default padding */
+    list-style-type: none; 
+    padding: 0; 
   }
 
   li {
     color: black;
-    margin-bottom: 10px; /* Add some spacing between list items */
+    margin-bottom: 10px; 
   }
   
   li {

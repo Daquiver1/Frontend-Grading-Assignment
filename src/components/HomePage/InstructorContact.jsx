@@ -1,6 +1,7 @@
 import React,{useState} from 'react';
 import './InstructorContact.css';
 import  Navbar from '../navigation';
+import Footer from './Footer';
 
 
 
@@ -30,6 +31,8 @@ const InstructorContact = () => {
   };
 
   return (
+    <div>
+      <Navbar/>
     <div className="instructor-contact">
         <navigation/>
       <h2>Contact the Instructor</h2>
@@ -63,6 +66,10 @@ const InstructorContact = () => {
         <button type="submit">Send Email</button>
       </form>
       {confirmation && <p className="confirmation">{confirmation}</p>}
+    </div>
+    <div>
+      <Footer/>
+    </div>
     </div>
   );
 };

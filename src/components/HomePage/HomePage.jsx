@@ -4,8 +4,10 @@ import React from 'react';
 import './HomePage.css';
 import backgroundImage from '../Images/landing.png'; 
 import Navbar from '../navigation';
+import Footer from './Footer';
 const HomePage = () => {
   return (
+    
     <div className="home-page">
       <Navbar/>
       <div className="background-container">
@@ -18,8 +20,11 @@ const HomePage = () => {
           </div>
         </div>
       </div>
-    
+    <div>
+      <Footer/>
     </div>
+    </div>
+    
   );
 };
 

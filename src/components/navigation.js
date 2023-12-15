@@ -1,12 +1,13 @@
 import React from 'react';
 import './nav.css'; 
 import { Link } from 'react-router-dom';
+
 const Navbar = () => {
   return (
     <nav className="navbar">
       
       <div className="nav-links">
-      &nbsp;<Link to="/LoginPage.js">LoginPage</Link>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      &nbsp;<Link to="/login">LoginPage</Link>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <Link to="/dashboard">Dashboard</Link>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <Link to="/grade-report">Grade Report</Link>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <Link to="/missing-grade-form">Missing Grade Form</Link>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;

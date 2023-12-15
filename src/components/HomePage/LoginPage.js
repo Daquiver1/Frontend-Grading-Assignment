@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import './LoginPage.css';
+import Navbar from '../navigation';
+import Footer from './Footer';
 
 const LoginForm = () => {
   const navigate = useNavigate();
@@ -10,13 +12,15 @@ const LoginForm = () => {
   const handleLogin = () => {
     // Validate the username and password (add your validation logic here)
     if (username && password) {
-      navigate('/HomePage'); // Redirect to the HomePage component
+      navigate('/Dashboard'); // Redirect to the HomePage component
     } else {
       alert('Please enter both username and password.');
     }
   };
 
   return (
+    <div>
+      <Navbar/>
     <div className="container">
       <h2>Login</h2>
       <label>
@@ -38,6 +42,10 @@ const LoginForm = () => {
       </label>
       <br />
       <button onClick={handleLogin}>Login</button>
+    </div>
+    <div>
+      <Footer/>
+    </div>
     </div>
   );
 };

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './MissingGradeForm.css';
-import Navigation from '../navigation.js';
 import Footer from './Footer.js';
+import Navbar from '../navigation.js';
 
 
 
@@ -28,10 +28,11 @@ const MissingGrade = () => {
       
       console.log('Form submitted:', formData);
     };
-  <Footer/>
+ 
     return (
+      <div>
+        <Navbar/>
       <div className="missing-grade-form-container">
-        <Navigation/>
         <h2>Missing Grade Form</h2>
         <form onSubmit={handleSubmit}>
           <label htmlFor="studentName" className='lb'> Name:</label>
@@ -91,18 +92,14 @@ const MissingGrade = () => {
           <button type="submit">Submit</button>
         </form>
   
-        <div> 
-          
-      
-      </div>
-  
-  
+        <div>
+        <Footer/>
+        </div>
   
       </div>
-      
+      </div>
       
     );
   };
-  <Footer/>
   export default MissingGrade;
   
