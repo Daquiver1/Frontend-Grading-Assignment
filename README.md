@@ -11,8 +11,7 @@ This project is a front-end web application for a Student Grade Reporting System
 The application consists of 7 main pages:
 
 - **Homepage:** Introduction to the system and its purpose.
-- **Login Page:** Mock login interface for student authentication.
-- **Registration:** Page: Allows new users to sign up to use the system
+- **Login Page:** Mock login interface for student authentication and a Registration Page that allows new users to sign up to use the system
 - **Dashboard:** Displays an overview of the student’s current grades and alerts for missing grades.
 - **Grade Report:** Shows a detailed view of the student's grades filtered by semester or academic year.
 - **Missing Grade Form:** Enables students to report missing grades.
@@ -22,7 +21,7 @@ The application consists of 7 main pages:
 ## Technical Details
 
 - **Framework/Technology Used:** [React]
-- **Responsive Design:** Implemented using [CSS Flexbox/Grid, Bootstrap, Tailwind CSS].
+- **Responsive Design:** Implemented using [CSS , Bootstrap].
 - **JavaScript Functionality:** Used for form validations, dynamic content rendering, and simulating interactions.
 
 ## Setup and Installation
