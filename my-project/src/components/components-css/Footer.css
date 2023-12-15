@@ -1,0 +1,87 @@
+.footer {
+  background-color: #201e40;
+  /* Dark blue background */
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  /* Adjust to "center" if desired */
+  border-top: 1px solid #ddd;
+  width: 100%
+}
+
+.social-links {
+  display: flex;
+  align-items: flex-end;
+  /* Align icons with newsletter signup */
+  justify-content: flex-end;
+  margin-top: 10px;
+  /* Add space between newsletter signup and icons */
+}
+
+.social-links a {
+  font-size: 1.2em;
+  margin-left: 20px;
+  border-radius: 5px;
+  color: aqua;
+
+  /* Rounded corners */
+  /* Add icon styles here (e.g., font-awesome, svg icons) */
+}
+
+.newsletter-signup {
+  display: flex;
+  align-items: center;
+  margin-right: 100px;
+  width: 100%;
+
+}
+
+.newsletter-signup input {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 0.8em;
+  background-color: #f5f5f5;
+  width: 200px;
+  /* Adjust width as needed */
+  margin-right: 100px;
+  margin-bottom: 20px;
+  color: #000;
+
+}
+
+.copyright {
+  font-size: 1rem;
+  margin-top: 10px;
+  text-align: right;
+  color: #f5f5f5;
+  align-items: flex-start;
+  margin-bottom: 3px
+}
+
+.hr {
+  border-top: 1px solid #ddd;
+  margin: 1px 0;
+  width: 100%
+    /* Add space above and below */
+}
+
+a.contact {
+  color: white;
+}
+
+.footer-info {
+  color: whitesmoke;
+  font-size: 1.2rem;
+
+
+}
+
+.footer-info p {
+  padding: 10px;
+  width: 100%;
+  margin-left: 10px;
+  color: white;
+
+}

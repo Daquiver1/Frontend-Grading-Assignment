@@ -1,0 +1,64 @@
+
+.help-and-support-page {
+  padding: 2rem;
+  font-family: sans-serif;
+  background-image:url(../components-images/gty5.jpg);
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+p {
+  margin-bottom: 1rem;
+  line-height: 1.5;
+}
+
+.faq-list {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 2rem;
+}
+
+.faq-list li {
+  margin-bottom: 1rem;
+}
+
+.faq-list h4 {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+form label {
+  margin-bottom: 0.5rem;
+}
+
+form input,
+form textarea {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+}
+
+form button {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  border: 1px solid #ccc;
+  background-color: #00df9a;
+  color: #fff;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+  form {
+    width: 100%;
+  }
+}

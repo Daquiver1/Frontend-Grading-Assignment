@@ -1,0 +1,12 @@
+.filter {
+  margin-bottom: 20px;
+}
+
+label {
+  margin-right: 10px;
+}
+
+select {
+  padding: 8px;
+  font-size: 16px;
+}

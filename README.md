@@ -1,4 +1,24 @@
 # Student Grade Reporting System Frontend
+<p>Name:<br> Melissa Otoo</p>
+<p>ID: 11263472</p>
+
+<h3>How to clone the website</h3>
+<ul>
+  <li>Get the Repository URL: https://github.com/LunaStarrr10/11263472_DCIT205_Assignment1.git
+</li>
+<li>Navigate to the Directory Where You Want to Clone the Project: cd path/to/your/directory
+</li>
+<li>Clone the Repository: git clone https://github.com/LunaStarrr10/11263472_DCIT205_Assignment1.git
+</li>
+<l>Navigate into the Cloned Directory: cd repo (11263472_DCIT205_Assignment1) (cd my-project)
+</li>
+<li>
+  Install Dependencies: npm install
+</li>
+<li>Run the Project: npm start</li>
+  
+</ul>
+
 
 ## Project Overview
 
