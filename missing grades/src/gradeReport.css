@@ -1,0 +1,34 @@
+
+.mb-4 {
+    margin-bottom: 20px;
+}
+
+.form-label {
+    font-weight: bold;
+}
+
+.form-select {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+}
+
+.table {
+    width: 100%;
+    margin-top: 20px;
+    
+}
+
+.table th,
+.table td {
+    padding: 12px;
+    text-align: left;
+}
+
+.table-and-content {
+    background-color: #ffffff;
+    padding: 20px;
+        
+}
+

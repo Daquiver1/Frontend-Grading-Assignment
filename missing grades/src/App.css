@@ -1,0 +1,59 @@
+
+
+body {
+  background: linear-gradient(to bottom, #02353c, #449342);
+  color: white;
+}
+
+.missingGrades {
+  
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 50px;
+}
+
+.missingGrades .lead {
+  color: white;
+}
+
+.missingGrades h1 {
+  text-align: left;
+}
+
+.app-buttons {
+  background-color: transparent;
+  align-self: left;
+  border-color: #2eaf7d;
+  margin-bottom: 200px;
+}
+
+.app-buttons: hover {
+  background-color: transparent;
+  align-self: left;
+  border-color: #3fdco9;
+  
+}
+
+
+.nav-list {
+height: 120px;
+border-bottom: 1px solid #2eaf7d;
+font-size: 20px;
+background-color: #02353c;
+}
+
+.text-center{
+  align-content: left;
+}
+
+.header-text {
+  margin-right: 10px;
+  margin-top: 27px;
+}
+
+.login {
+margin-left: 200px;
+margin-top: 27px;
+border-radius: 200px;
+
+}

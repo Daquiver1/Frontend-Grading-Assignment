@@ -1,0 +1,14 @@
+
+.navi {
+  background-color: white !important;
+  border-top: 1px solid #2eaf7d;
+  height: 100px;
+}
+
+.text-muted {
+  color: #02353c !important;
+}
+
+.text-muted:hover {
+  color: #08464f !important;
+}

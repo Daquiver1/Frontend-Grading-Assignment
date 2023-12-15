@@ -1,0 +1,57 @@
+.containerrr {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+.mb-4 {
+    margin-bottom: 20px;
+}
+
+.form-label {
+    font-weight: bold;
+}
+
+.form-select {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+}
+
+.table {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.table th,
+.table td {
+    padding: 12px;
+    text-align: left;
+}
+
+.selected-instructor-details{
+color: black;
+transition: 1s;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+padding: 20px;
+border-radius: 20px;
+margin-bottom: 30px;
+}
+
+.simulated-btn {
+    background-color: 2eaf7d;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Hover effect for the button */
+.simulated-btn:hover {
+    background-color: 2eaf7d;
+    transition: 1s;
+}
