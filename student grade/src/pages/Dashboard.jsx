@@ -4,6 +4,7 @@ import account from '../assets/images/account.png'
 import Footer from "../components/footer";
 import Grades from "./Grades1";
 import { NavLink } from "react-router-dom";
+import { FiAlertTriangle } from 'react-icons/fi';
 
 const DashboardPage = () => {
     return(
@@ -158,7 +159,14 @@ const DashboardPage = () => {
             </div>
           </div>
         </section>
-        
+        <div className="bg-white rounded-md p-6 shadow-md max-w-md" style={{marginLeft:'400px'}}>
+      <h4 className="text-2xl font-semibold text-gray-800">Missing Grades</h4>
+      <p className="text-4xl font-bold text-blue-500 mt-2">1</p>
+      <div className="flex items-center mt-4">
+        <FiAlertTriangle className="w-6 h-6 text-red-500 mr-2" />
+        <p className="text-red-500">Some grades are missing</p>
+      </div>
+    </div>
           <section>
             <Grades />
           </section>

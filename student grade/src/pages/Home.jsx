@@ -2,6 +2,7 @@ import React from "react";
 import backgroundImage from '../assets/images/home.jpg'
 import Header2 from "../components/header2";
 import logo from '../assets/images/logo.png'
+import { NavLink } from "react-router-dom";
 
 const HomePage = () => {
   return(
@@ -17,13 +18,20 @@ const HomePage = () => {
          Welcome to our Grading System – a dedicated platform committed to fostering academic excellence, providing insightful assessments, and empowering students on their educational journey by transforming grades into stepping stones for continuous growth and success
         </p>
         <h4 style={{ fontStyle: 'italic', fontSize: '1.5rem', fontWeight: 'normal', marginTop:'20px' }}>
-        Grades That Reflect Your Potential
+        Grades That Reflect Your Potential!!!
         </h4>
-        <div class="mt-10 flex items-center justify-center gap-x-6">
-          <a href="#" class="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Get started</a>
-          <a href="#" class="text-sm font-semibold leading-6 text-gray-900">Learn more <span aria-hidden="true">→</span></a>
-        </div>
+        <div className="mt-10 flex items-center justify-center gap-x-6">
+          <NavLink
+            to="/login"
+            className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+            activeClassName="bg-indigo-500"
+            exact 
+          >
+            Get started
+          </NavLink>
+          <a href="#" className="text-sm font-semibold leading-6 text-gray-900">Learn more <span aria-hidden="true">→</span></a>
       </div>
+    </div>
     </div>
           </main>
       </div>
