@@ -29,7 +29,7 @@ const ContactPage = () => {
         <h1 className="acc-head">Instructor Contact Page</h1>
         <div className="login-div">
         <Col md={4}>
-          <h2 className="message">Instructors</h2>
+          <h2 className="acc-head">Instructors</h2>
           {instructors.map((instructor) => (
             <Card key={instructor.id} className="mb-3">
               <Card.Body>
