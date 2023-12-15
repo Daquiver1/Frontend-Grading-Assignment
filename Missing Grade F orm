@@ -1,0 +1,12 @@
+import React from 'react';
+
+const MissingGradeForm = () => {
+  return (
+    <div>
+      <h2>Missing Grade Form</h2>
+      {/* Form to report a missing grade */}
+    </div>
+  );
+};
+
+export default MissingGradeForm;
