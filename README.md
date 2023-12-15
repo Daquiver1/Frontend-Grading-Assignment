@@ -4,7 +4,7 @@ Missing Grades Reporting System.
 
 # Application Usage
 
-Welcome to my application! This section provides a guide on how to use the various functionalities of the application.
+Welcome to our application! This section provides a guide on how to use the various functionalities of the application.
 
 ## Logging In
 
