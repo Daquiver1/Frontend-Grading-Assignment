@@ -44,11 +44,15 @@ export const Instructor_Contact = () => {
   return (
     <>
       <div className="container mx-auto w-full h-screen mt-8">
-        <h1 className="l font-bold my-20 text-5xl">Instructor Contact Page</h1>
+        <h1 className="l font-bold my-20 md:text-5xl text-3xl">
+          Instructor Contact Page
+        </h1>
         <div className="grid grid-cols-2 gap-4">
           <div>
-            <h2 className="text-4xl font-semibold mb-4">Instructors</h2>
-            <ul className="space-y-7 text-2xl">
+            <h2 className="md:text-4xl font-semibold mb-4 text-2xl">
+              Instructors
+            </h2>
+            <ul className="space-y-7 md:text-2xl text-xl">
               {instructors.map((instructor) => (
                 <li
                   key={instructor.id}
@@ -66,7 +70,9 @@ export const Instructor_Contact = () => {
 
           {selectedInstructor && (
             <div>
-              <h2 className=" font-semibold mb-4 text-4xl">Contact Details</h2>
+              <h2 className=" font-semibold mb-4 md:text-4xl text-2xl">
+                Contact Details
+              </h2>
               <div className="leading-10 text-xl">
                 <p>Name: {selectedInstructor.name}</p>
                 <p>Email: {selectedInstructor.email}</p>
@@ -81,7 +87,7 @@ export const Instructor_Contact = () => {
                   onChange={(e) => setEmailContent(e.target.value)}
                 />
                 <button
-                  className="mt-2 mb-2 px-4 py-2 bg-blue-500 text-white rounded-md"
+                  className="mt-2 mb-2 px-4 py-2 bg-teal-500 text-white rounded-md"
                   onClick={handleSendEmail}>
                   Send Email
                 </button>
@@ -89,7 +95,7 @@ export const Instructor_Contact = () => {
             </div>
           )}
         </div>
-        <div>
+        <div className="mt-20">
           <FooterComponent />
         </div>
       </div>

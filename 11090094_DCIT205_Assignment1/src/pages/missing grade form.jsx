@@ -9,7 +9,7 @@ export const Missing_Grade_Form = () => {
 
   return (
     <>
-      <div className="container mx-auto mt-8">
+      <div className="container mx-auto mt-12">
         <form onSubmit={handleSubmit} className="max-w-md mx-auto">
           <h2 className="text-4xl font-bold text-black text-center mb-6">
             MISSING GRADES?
@@ -19,7 +19,7 @@ export const Missing_Grade_Form = () => {
               <em>Fill out the form below to report missing grades</em>
             </small>
           </p>
-          <div className="mt-8 space-y-4">
+          <div className="mt-16 space-y-4 ">
             <div>
               <label
                 htmlFor="courses"
@@ -33,7 +33,7 @@ export const Missing_Grade_Form = () => {
                 <option value="05">DCIT 205</option>
                 <option value="07">DCIT 207</option>
                 <option value="09">DCIT 209</option>
-                <option value="20">CBAS 210</option>
+                <option value="10">CBAS 210</option>
               </select>
             </div>
             <div>
@@ -84,15 +84,15 @@ export const Missing_Grade_Form = () => {
             <div>
               <button
                 type="submit"
-                className="bg-blue-500 text-white py-2 px-4 rounded-md hover:bg-blue-600 focus:outline-none focus:shadow-outline-blue active:bg-blue-800">
+                className="bg-blue-500 text-white py-2 px-4 rounded-md hover:bg-teal-500 focus:outline-none focus:shadow-outline-blue active:bg-teal-500">
                 Submit
               </button>
             </div>
           </div>
         </form>
-        <div>
-          <FooterComponent />
-        </div>
+      </div>
+      <div className="mt-32">
+        <FooterComponent />
       </div>
     </>
   );

@@ -1,12 +1,14 @@
 import React from "react";
 import FooterComponent from "../components/FooterComponent";
+import { Outlet, Link } from "react-router-dom";
 export const Login = () => {
   return (
     <>
-      <div className="h-[300] w-full">
-        <div className="bg-gray-800 flex flex-col justify-center">
-          <form className="max-w-[400px] h-[300] w-full mx-auto mt-40 py-20 px-10 rounded-lg">
+      <div className=" w-full">
+        <div className="bg-gray-800 h-screen flex flex-col justify-center">
+          <form className="max-w-[400px]  w-full mx-auto mt-40 py-20 px-10 rounded-lg">
             <h2 className="text-4xl text-white font-bold text-center">LOGIN</h2>
+
             <div className="flex flex-col text-gray-400 py-4 ">
               <label>Student ID</label>
               <input
@@ -14,6 +16,7 @@ export const Login = () => {
                 type="text"
               />
             </div>
+
             <div className="flex flex-col text-gray-400">
               <label>Student Pin</label>
               <input
@@ -21,9 +24,12 @@ export const Login = () => {
                 type="password"
               />
             </div>
-            <button className="w-full my-5 py-2 bg-teal-500 shadow-lg shadow-teal-500/50 hover:shadow-teal-500/40 text-white font-semibold rounded-lg">
-              Login
-            </button>
+
+            <Link to="/dashboard">
+              <button className="w-full my-5 py-2 bg-teal-500 shadow-lg shadow-teal-500/50 hover:shadow-teal-500/40 text-white font-semibold rounded-lg">
+                Login
+              </button>
+            </Link>
           </form>
         </div>
       </div>
