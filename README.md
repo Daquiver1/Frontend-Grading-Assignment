@@ -1,6 +1,6 @@
 # React + Vite
 
-Certainly! Below is an example README file for your ReactJS project built with Vite. This README provides instructions on setting up the project, navigating through the pages, and performing specific tasks.
+
 
 ---
 
