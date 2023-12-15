@@ -4,7 +4,6 @@ import { Link } from "react-router-dom";
 import reportedGrade from "../assets/data/ReportedGrade";
 
 function Reports() {
-  console.log(reportedGrade);
   return (
     <div className="w-full px-3 mt-5">
       <h1 className=" text-3xl font-bold text-primary_blue">
@@ -18,9 +17,14 @@ function Reports() {
           This is your grades report. Theses are the grades that are recorded in
           your academic profile. If you find any missing grades, please report
           them using the
-          <Link className=" text-blue-700 underline font-bold" to={"../add-missing-grade"}>Report Missing Grade</Link> option.
-          You can see your course name with code, Grade, GPA, Credit hours and
-          Instructor name.
+          <Link
+            className=" text-blue-700 underline font-bold"
+            to={"../add-missing-grade"}
+          >
+            Report Missing Grade
+          </Link>{" "}
+          option. You can see your course name with code, Grade, GPA, Credit
+          hours and Instructor name.
         </span>
       </p>
 
@@ -98,9 +102,9 @@ function Reports() {
                   scope="row"
                   class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap "
                 >
-                 {r.courseName}
+                  {r.courseName}
                 </th>
-                  <td class="px-6 py-4">{r.courseCode}</td>
+                <td class="px-6 py-4">{r.courseCode}</td>
                 <td class="px-6 py-4">{r.grade}</td>
                 <td class="px-6 py-4">{r.gpa}</td>
                 <td class="px-6 py-4 text-center">{r.creditHours}</td>

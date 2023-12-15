@@ -1,11 +1,19 @@
-import { NavLink } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 import navlinks from "../../assets/data/navLinks";
 import { MdLogout } from "react-icons/md";
 import { HiOutlineChevronDoubleLeft } from "react-icons/hi";
-
 import Logo from "../../assets/images/student_avater.png";
 
 function SideBar({ handleClick }) {
+  const navigate = useNavigate();
+
+  const handleLogout = (e) => {
+    e.preventDefault();
+    window.localStorage.setItem("isAuth", null);
+    window.localStorage.removeItem("user");
+    navigate("/login");
+  };
+
   return (
     <div className="side_bar z-[99] border-r-4 border-r-[#23255941] overflow-y-auto py-5 px-3 relative flex flex-col">
       <div className=" text-[30px] font-bold text-primary_blue w-full flex flex-row justify-between">
@@ -49,7 +57,10 @@ function SideBar({ handleClick }) {
         ))}
       </div>
 
-      <button className="mt-10 px-1 w-full flex justify-center bg-secondary items-center gap-2 font-bold h-[1cm] rounded-md text-white py-2">
+      <button
+        onClick={(e) => handleLogout(e)}
+        className="mt-10 px-1 w-full flex justify-center bg-secondary items-center gap-2 font-bold h-[1cm] rounded-md text-white py-2"
+      >
         <span className=" text-xl flex justify-center items-center">
           <MdLogout />
         </span>
