@@ -7,8 +7,6 @@ import Dashboard from "./Pages/Dashboard";
 import HelpSupportPage from "./Pages/HelpSupportPage";
 import LandingPage from "./Pages/Landing page";
 import Footer from "./Components/Footer";
-
-
 function App() {
   return (
         <React.Fragment>
