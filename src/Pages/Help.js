@@ -1,8 +1,19 @@
 import React from "react";
+import LandingHeader from "../Components/pageheader";
+import LandingFooter from "../Components/pagefooter";
 
 function Help(){
     return (
-        <h1>hhbccb</h1>
+        <div>
+            <div>
+                 <LandingHeader/>
+            </div>
+            
+            <div>
+            <LandingFooter/>
+            </div>
+        </div>
+       
     )
 }
 

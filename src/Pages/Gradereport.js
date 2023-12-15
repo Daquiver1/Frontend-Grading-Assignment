@@ -1,8 +1,18 @@
 import React from "react";
+import LandingFooter from "../Components/pagefooter";
+import LandingHeader from "../Components/pageheader";
 
 function Gradereport(){
     return (
-        <h1>hhbccb</h1>
+        <div>
+            <div>
+                 <LandingHeader/>
+            </div>
+            
+            <div>
+            <LandingFooter/>
+            </div>
+        </div>
     )
 }
 

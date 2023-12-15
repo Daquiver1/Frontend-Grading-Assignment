@@ -37,13 +37,8 @@ function Login(){
                         </div>
                         <div className="flex mt-3">
                         <Link to="/Landingpage">
-                        <button className="mt-[20px] bg-[#37377c] rounded-md text-purple-50 text-[14pt] p-[5px] ml-[47px]">
+                        <button className="mt-[20px] bg-[#37377c] w-[130px] rounded-md text-purple-50 text-[14pt] p-[5px] ml-[47px]">
                             Log In
-                        </button>
-                        </Link>
-                        <Link to ="/Help">
-                        <button className="mt-[20px] bg-[#3e3e91] rounded-md text-purple-50 text-[14pt] p-[5px] ml-[13px]">
-                            Help
                         </button>
                         </Link>
                         </div>
