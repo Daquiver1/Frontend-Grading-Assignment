@@ -1,75 +1,62 @@
-.Login{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  
+.d-flex {
+  min-height: 100vh;
 }
 
-.LoginBox{
-  margin-top: 8rem;
-  width: 350px;
-  height: 450px;
-  background-color: rgb(151, 105, 50);
+.LoginBox {
+  background-color: #3b09af;
   border-radius: 10px;
-  margin-bottom: 50px;
-  margin-top: 60px;
+  box-shadow: 0 0 10px rgba(3, 3, 3, 0.1);
+  padding: 30px;
+  text-align: center;
+  width: 500px;
+  height: 550px;
 }
 
-
-.LoginHeader{
-  font-size: xx-large;
-  font-weight: bolder;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-
-
-.id{
-  width: 80%;
-  height: 40px;
-  border-radius: 6px;
-  border-width: 1;
+.LoginHeader {
+  font-size: 35px;
+  font-weight: bold;
   margin-bottom: 20px;
-  margin-left: 30px;
-  
+  color: #ffffff;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-.email{
-  width: 80%;
-  height: 40px;
-  border-radius: 6px;
-  border-width: 1;
-  margin-left: 30px;
+.inputs {
+  margin-bottom: 20px;
+}
+
+.title {
+  font-size: 15px;
+  font-weight: bold;
   margin-top: 10px;
-
+  color: #eeeb56;
+  font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
-.password{
-  width: 80%;
-  height: 40px;
-  border-radius: 6px;
-  border-width: 1;
-  margin-left: 30px;
-  margin-top: 10px;
+.id,
+.password,
+.email {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.submitbutton{
-  width: 100px;
-  height: 40px;
-  margin-top: 30px;
-  background-color: rgb(32, 16, 177);
-  color: white;
-  border-radius: 6px;
+.submitbutton {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
 }
 
-.submitbutton:hover{
-  background-color: rgb(255, 255, 255);
+.submitbutton:hover {
+  background-color: #ffffff;
   color: black;
 }
 
-.title{
-  margin-left: 5px;
-  padding: 0.25rem 0;
-}
+

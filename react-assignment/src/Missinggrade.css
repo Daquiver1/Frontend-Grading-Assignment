@@ -1,70 +1,81 @@
-.missing-grade{
-  text-align: center;
+.b {
+  background-color: #f9f9f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.form {
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+.missing-grade {
+  font-size: 24px;
   font-weight: bold;
-  font-size: 33px;
-  color: white;
-  font-family: 'Times New Roman', Times, serif;
-}
-
-.stu-details{
-  display: block;
-  font-size: 20px;
-  font-family: 'Times New Roman', Times, serif;
-}
-
-.b{
-  padding: 50px 50px 50px 50px ;
-  padding-top: 100px;
-}
-
-.form{
-  width: 800px;
-  margin-inline: auto;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
-  background-color: rgba(0, 8, 121, 0.705);
-  padding: 50px 50px 50px 50px ;
-  border-radius: 20px;
-}
-
-.box{
-  width: 300px;
-  height: 40px;
-  font-family: 'Times New Roman', Times, serif;
-
-}
-
-.box .box-name:hover{
-  border-color: #00357a;
-}
-
-.box-name{
-  width: 300px;
-  margin-right: 50px;
-  height: 40px;
-  font-family: 'Times New Roman', Times, serif;
-
-}
-
-textarea{
-  width: 450px;
-  height: 300px;
-  font-family: 'Times New Roman', Times, serif;
-
-}
-
-.Submit{
-  display: block;
-  background-color:  #00357a;
-  color: white;
-  border-radius: 12px;
   text-align: center;
-  margin-inline: auto;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
-  margin-top: 50px;
-  font-family: 'Times New Roman', Times, serif;
-
+  margin-bottom: 20px;
 }
+
+hr {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.stu-details {
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+.box,
+.box-name,
+.text-aarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.text-aarea {
+  height: 80px;
+}
+
+.Submit {
+  background-color: #0056b3 ;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 100%;
+}
+
+.Submit:hover {
+  background-color:#007bff;
+}
+
+.required {
+  color: red;
+  margin-left: 4px;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .form {
+    max-width: 100%;
+  }
+}
+
+
+
+
+

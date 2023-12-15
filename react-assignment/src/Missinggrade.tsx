@@ -8,6 +8,8 @@ function Missinggrade() {
   const [email, setEmail] = useState('');
   const [subjects, setSubjects] = useState('');
 
+
+
   const handleSubmit = (event: React.FormEvent) => {
     event.preventDefault();
 
@@ -41,6 +43,7 @@ function Missinggrade() {
             <p className='missing-grade'>Missing Grade Form</p>
             <hr />
             <label className='stu-details'> Student name:</label>
+            <span className="required">*</span>
             <br />
             <input
               className='box-name'
@@ -49,6 +52,7 @@ function Missinggrade() {
               onChange={(e) => setFirstName(e.target.value)}
               required
             />
+            
             <input
               className='box-name'
               placeholder='Last name'
@@ -58,6 +62,7 @@ function Missinggrade() {
             />
             <br />
             <label className='stu-details'>Student ID:</label>
+            <span className="required">*</span>
             <br />
             <input
               className='box'
@@ -68,6 +73,7 @@ function Missinggrade() {
               required
             />
             <label className='stu-details'>Student Email: </label>
+            <span className="required">*</span>
             <br />
             <input
               className='box'
@@ -75,8 +81,10 @@ function Missinggrade() {
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               required
+              
             />
             <label className='stu-details'>Missing Grade Subject(s):</label>
+            <span className="required">*</span>
             <br />
             <textarea
               title='Text Area'
@@ -97,3 +105,4 @@ function Missinggrade() {
 }
 
 export default Missinggrade;
+

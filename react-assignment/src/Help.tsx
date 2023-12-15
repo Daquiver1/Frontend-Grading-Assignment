@@ -1,5 +1,3 @@
-// HelpPage.tsx
-
 import React from 'react';
 import './Help.css';
 
@@ -29,7 +27,9 @@ const Help: React.FC = () => {
           </p>
         </div>
       </div>
+      
     </div>
+     
   );
 };
 

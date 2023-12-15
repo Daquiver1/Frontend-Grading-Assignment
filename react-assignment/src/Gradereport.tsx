@@ -40,7 +40,7 @@ function Gradereport() {
     },
     {
         id: 2,
-        Subject: "DCIT105 Mathematics For IT Professionals ",
+        Subject: "DCIT 105 Mathematics For IT Professionals ",
         Grade: "A",
         Cumlative: "12"
     },
@@ -88,25 +88,25 @@ function Gradereport() {
     },
     {
         id: 9,
-        Subject: "ECON102 Introduction to Economics II",
+        Subject: "ECON 102 Introduction to Economics II",
         Grade: "N/A", 
         Cumlative: "N/A"
     },
     {
         id: 10,
-        Subject: "Computer Hardware Fundamentals And Circuits",
+        Subject: "DCIT 102 Computer Hardware Fundamentals And Circuits",
         Grade: "A",
         Cumlative: "12"
     },
     {
         id: 11,
-        Subject: "DCIT104 Programming Fundamentals ",
+        Subject: "DCIT 104 Programming Fundamentals ",
         Grade: "A",
         Cumlative: "12"
     },
     {
         id: 12,
-        Subject: "STAT112 Introduction to Statistics And Probability II",
+        Subject: "STAT 112 Introduction to Statistics And Probability II",
         Grade: "B+",
         Cumlative: "6"
     },
@@ -116,31 +116,31 @@ function Gradereport() {
   const level200FirstSemesterData: Row[] = [
     {
       id: 1,
-      Subject: " CBAS210 Academic Writing I",
+      Subject: " CBAS210 Academic Writing II",
       Grade: "B",
       Cumlative: "7.5",
     },
     {
       id: 2,
-      Subject: "Programming I",
+      Subject: "DCIT 201 Programming I",
       Grade: "B+",
       Cumlative: "10.5",
     },
     {
       id: 3,
-      Subject: "Digital and Logic System Design",
+      Subject: "DCIT 203 Digital and Logic System Design",
       Grade: "N/A",
       Cumlative: "N/A",
     },
     {
       id: 2,
-      Subject: "Multi Media and Web Design",
+      Subject: "DCIT 205 Multi Media and Web Design",
       Grade: "A",
       Cumlative: "12",
     },
     {
       id: 2,
-      Subject: "Computer Organization & Architecture",
+      Subject: "DCIT 207 Computer Organization & Architecture",
       Grade: "C+",
       Cumlative: "6",
     },
@@ -149,31 +149,31 @@ function Gradereport() {
   const level200SecondSemesterData: Row[] = [
     {
       id: 7,
-      Subject: "DCIT 301	Operating Systems",
+      Subject: "DCIT 204	Operating Systems",
       Grade: "N/A",
       Cumlative: "N/A",
     },
     {
       id: 8,
-      Subject: " DCIT 303	Computer Networks",
+      Subject: " DCIT 206	Computer Networks",
       Grade: "N/A",
       Cumlative: "N/A",
     },
     {
       id: 8,
-      Subject: " DCIT 305	Database Fundamentals",
+      Subject: " DCIT 208	Database Fundamentals",
       Grade: "N/A",
       Cumlative: "N/A",
     },
     {
       id: 8,
-      Subject: " DCIT 313	Introduction to Artificial Intelligence",
+      Subject: " DCIT 210	Introduction to Artificial Intelligence",
       Grade: "N/A",
       Cumlative: "N/A",
     },
     {
       id: 8,
-      Subject: " DCIT 317	IT Project Management",
+      Subject: " DCIT 215	IT Project Management",
       Grade: "N/A",
       Cumlative: "N/A",
     },
