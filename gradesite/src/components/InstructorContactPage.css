@@ -1,0 +1,141 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: url('./img/landing-page-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.page-body {
+    margin-top: 150px;
+    text-align: center;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.instructor-contact {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    width: 500px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: 0.5s
+}
+
+.instructor-contact:hover {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 10);
+}
+
+.instructor-contact-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.welcome {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+    color: black
+}
+
+.submit-button {
+    font-family: 'Poppins', sans-serif;
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    text-decoration: none;
+    background-color: rgb(0, 123, 255);
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+    background-color: rgb(0, 86, 179);
+}
+
+.textbox {
+    flex: 1;
+    margin: 20px;
+    padding: 8px;
+    font-family: 'Poppins', sans-serif;
+    width: 300px;
+    background-color: aliceblue;
+    border: none;
+}
+
+.textarea {
+    margin: 20px 0;
+    padding: 8px;
+    font-family: 'Poppins', sans-serif;
+    background-color: aliceblue;
+    border: none;
+    width: 300px;
+    height: 150px
+}
+
+h2 {
+    color: black
+}
+
+.contact {
+    background-color: #fff;
+    padding: 20px;
+    width: 500px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: 0.5s
+}
+
+.contact:hover {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 10);
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 8px;
+    cursor: pointer;
+    color: black
+}
+
+li:hover {
+    text-decoration: underline;
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+
+button {
+    background-color: rgb(52, 152, 219);
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(32, 117, 197);
+}
+
+.subject-textbox,
+.body-textbox,
+.submit-button-area {
+    flex: 1
+}

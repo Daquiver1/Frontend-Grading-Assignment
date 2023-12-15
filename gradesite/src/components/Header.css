@@ -1,0 +1,24 @@
+header {
+    background-color: white;
+    color: rgb(42, 63, 88);
+    font-weight: bold;
+    padding: 28px;
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+    opacity: 0.96;
+}
+
+.logo-section {
+    flex: 100px;
+    margin-left: 10px;
+}
+
+.header-text {
+    flex: 2;
+    text-align: right;
+}

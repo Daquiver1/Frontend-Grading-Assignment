@@ -1,0 +1,15 @@
+.footer-area {
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    text-align: center;
+    background-color: aliceblue;
+    padding: 4px;
+    width: 532px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+    color: rgb(42, 63, 88);
+}
