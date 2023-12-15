@@ -35,6 +35,9 @@
 }
 .welcome-text1{
     color: rgb(34, 34, 132);
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
 }
 
 .cover1{
@@ -62,4 +65,4 @@
     display: flex;
     justify-content: space-around;
 
-}
+ }

@@ -46,41 +46,53 @@ const Dashboard=()=>{
             
              <div className="student">
                <h1 className="ui teal inverted segment">  STUDENT ID: 11056149</h1>
+               
+            </div>
+            <div className="welcome">
+                <button className="ui teal inverted segment" onClick={notify}>Notifications</button>
             </div>
             <section className="arrangement">
             <p>
             <div className="courses">
+                  <div className="position">
                  <h3 className="welcome-text">Webdesign and Multimedia (DCIT 205)</h3>
-                 <p className="welcome-text">Welcome to the exciting world of Web Design and Multimedia! This course is designed to provide 
+                 <p className="welcome-text1">Welcome to the exciting world of Web Design and Multimedia! This course is designed to provide 
                  students with a comprehensive understanding of the principles and practices involved in creating visually stunning, 
                  interactive, and engaging content for the web.</p>
+                 </div>
             </div>
             </p>
             <p>
             <div className="courses">
+            <div className="position">
                  <h3 className="welcome-text">Calculus II (Math 223)</h3>
-                 <p className="welcome-text">Welcome to the exciting world of Web Design and Multimedia! This course is designed to provide 
+                 <p className="welcome-text1">Welcome to the exciting world of Web Design and Multimedia! This course is designed to provide 
                  students with a comprehensive understanding of the principles and practices involved in creating visually stunning, 
                  interactive, and engaging content for the web.</p>
+             </div>
             </div>
             </p>
             <p>
             <div className="courses">
+            <div className="position">
                  <h3 className="welcome-text">Programming one (DCIT 201)</h3>
-                 <p className="welcome-text">Welcome to the exciting world of Web Design and Multimedia! This course is designed to provide 
+                 <p className="welcome-text1">Welcome to the exciting world of Web Design and Multimedia! This course is designed to provide 
                  students with a comprehensive understanding of the principles and practices involved in creating visually stunning, 
                  interactive, and engaging content for the web.</p>
             </div>
-            </p>
-            <div className="welcome">
-                <button className="ui teal inverted segment" onClick={notify}>Notifications</button>
             </div>
+            </p>
+            
+            
             
                 
                  
                 
             
-            </section> 
+            </section>
+            {/* <section className="arrangement"></section> */}
+            
+
             
             <div className="ui raised very padded text container segment "> 
                  <h3 className="welcome1">Missing Grades Analysis</h3>
@@ -104,8 +116,26 @@ const Dashboard=()=>{
           <Line type="monotone" dataKey="value" stroke="#8884d8" activeDot={{ r: 8 }} />
         
         </LineChart>
+
          
+
+        <div > 
+            <div className="welcome">
+                <h2 >Grades</h2>
+                <h3 className="ui button">Level 200</h3>
+                <p>Webdesign - N/A</p>
+                <p>Vector Geometry - A</p>
+                <p> Algebra and Geometry- A</p>
+                <p> Introduction to Statistics I- A</p>
+                <p> Calculus II- A</p>
+                <p>Programming I - N/A</p>
+
+             </div> 
             </div>
+            </div>
+            {/* <section/> */}
+            
+
             
         </div>
 

@@ -21,11 +21,11 @@ function App() {
          <div className="App-header">
       
     
-         
+      <ToastContainer/>
          <BrowserRouter>
         
          
-          
+        
             <Navbar  />
            
             <Routes >
@@ -43,7 +43,7 @@ function App() {
           
         
       
-        <ToastContainer/>
+       
         {/* <Footer/> */}
       </div>
       
