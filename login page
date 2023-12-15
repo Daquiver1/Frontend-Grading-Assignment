@@ -1,0 +1,24 @@
+// Each of these components will follow a similar structure but will contain content specific to the respective pages.
+// Make sure to import necessary React and other libraries as needed.
+
+// Example for LoginPage.js:
+
+import React from 'react';
+
+const LoginPage = () => {
+  return (
+    <div className="container">
+      <header>
+        <h1>Login</h1>
+      </header>
+      <section>
+        {/* Your login form goes here */}
+      </section>
+      <footer>
+        <p>&copy; 2023 Your University</p>
+      </footer>
+    </div>
+  );
+}
+
+export default LoginPage;
