@@ -77,11 +77,11 @@ export const GradeReport = () => {
         },
         {
           title: "Digital and Logic System Design",
-          grade: "A",
+          grade: "N/A",
         },
         {
           title: "Multimedia and Web Design",
-          grade: "A",
+          grade: "N/A",
         },
         {
           title: "Computer Organization and Architecture",
