@@ -1,0 +1,29 @@
+.dashboard-content {
+  margin-top: 0; /* Set margin-top to 0 or adjust as needed */
+}
+
+
+.dashboard {
+  padding: 10px;
+}
+
+.dashboard-content {
+  margin-top: 20px; 
+  color: #000;
+}
+
+.dashboard-content h1 {
+  position: relative;
+}
+
+.dashboard-content h1::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  width: 10%;
+  height: 5px;
+  background-color: #000;
+  transform: translateX(-50%);
+  border-radius: 8px;
+}

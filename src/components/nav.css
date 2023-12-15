@@ -1,0 +1,23 @@
+navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 20px;
+  background-color: #f0f0f0;
+  overflow: hidden;
+}
+*{
+  text-decoration: none;
+  color: #f0f0f0;
+}
+.nav-links{
+  background-color: rgb(10, 43, 39);
+  width: 100%;
+  float: left;
+  display: flex;
+  padding: 50px;
+  white-space: pre-wrap;
+}
+Link{
+  text-decoration: none;
+}

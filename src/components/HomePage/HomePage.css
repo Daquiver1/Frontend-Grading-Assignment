@@ -1,0 +1,52 @@
+/* HomePage.css */
+
+.home-page {
+    display: grid;
+    grid-template-rows:  1fr 1fr; 
+    height: 100vh;
+  }
+  .button{
+    background-color: #843527;
+    
+  }
+  
+  .background-container {
+    position: relative;
+  }
+  
+  .background-image {
+    background-size: cover;
+    height: 100vh;
+    width: vw;
+    background-image: url(../Images/landing.png);
+    position: relative;
+  }
+  
+  .overlay {
+    background-color: rgba(0, 0, 0, 0.5); 
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+  }
+  
+  .overlay a {
+    color: #ffd700; 
+  }
+  
+  .red {
+    background-color: #843527; 
+  }
+  
+  .green {
+    background-color: #10ef99; 
+  }
+  
+  .blue {
+    background-color: #136d91; 
+  }
+  
+  
