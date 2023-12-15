@@ -5,8 +5,10 @@ import Footer from  './Footer'
 const InstructorContact = () => {
   // Mock data for instructors with contact details
   const instructors = [
-    { id: 1, name: 'John Doe', email: 'john.doe@example.com', phone: '123-456-7890' },
-    { id: 2, name: 'Jane Smith', email: 'jane.smith@example.com', phone: '987-654-3210' },
+    { id: 1, name: 'Raymond Dwamena-Akenten', email: 'raymond.da@example.com', phone: '123-456-7890' },
+    { id: 2, name: 'Bettina Walters', email: 'bettina.walters@example.com', phone: '987-654-3210' },
+    { id: 3, name: 'Korsah Yankah', email: 'korsahyankah@example.com', phone: '987-654-3210' },
+
     // Add more instructors with their contact details
   ];
 

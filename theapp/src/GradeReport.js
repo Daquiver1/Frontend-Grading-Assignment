@@ -8,7 +8,13 @@ const GradeReport = () => {
   const courses = [
     { id: 1, name: 'Mathematics', grade: 'A', semester: 'Spring 2023' },
     { id: 2, name: 'Science', grade: 'B+', semester: 'Spring 2023' },
-    { id: 3, name: 'History', grade: 'A-', semester: 'Fall 2022' },
+    { id: 3, name: 'Geography', grade: 'A', semester: 'Fall 2022' },
+    { id: 3, name: 'History', grade: 'A', semester: 'Fall 2022' },
+    { id: 3, name: 'Physics', grade: 'C+', semester: 'Fall 2022' },
+    { id: 3, name: 'Chemistry', grade: 'B', semester: 'Fall 2022' },
+    { id: 3, name: 'Maths', grade: 'A', semester: 'Fall 2022' },
+
+   
     // Add more courses with respective grades and semesters
   ];
 

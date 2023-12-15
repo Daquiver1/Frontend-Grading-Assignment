@@ -8,13 +8,17 @@ const Dashboard = () => {
   const studentGrades = [
     { subject: 'Math', grade: 'A' },
     { subject: 'Science', grade: 'B+' },
-    { subject: 'History', grade: 'A-' },
-    // Add more subjects and grades as needed
+    { subject: 'History', grade: 'D' },
+    { subject: 'Geography', grade: 'D+' },
+    { subject: 'Physics', grade: 'C' },
+    { subject: 'Chemistry', grade: 'B' },
+    { subject: 'Biology', grade: 'A' },
+
   ];
 
   const missingGrades = [
     { subject: 'English', message: 'Grade not yet recorded' },
-    { subject: 'Physics', message: 'Grade missing for assignment 3' },
+    { subject: 'ElectiveMaths', message: 'Grade missing for assignment 3' },
     // Add more missing grades with corresponding messages
   ];
 
