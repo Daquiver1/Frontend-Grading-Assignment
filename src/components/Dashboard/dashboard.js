@@ -88,8 +88,8 @@ const state2 = {
 export default function Dashboard(){
 
   const grade = [
-    {subject:"Course One",credit:4, assessment:30,term:60,total:90,result:"Pass",grade:"A+",semester:"Semester One",date:"2021/2022"},
-    {subject:"Course two",credit:4, assessment:25,term:60,total:85,result:"Pass",grade:"A",semester:"Semester Two",date:"2022/2023"},
+    {subject:"Course One",credit:4, assessment:30,term:60,total:90,result:"Pass",grade:"A+",semester:"Semester One",year:"2021/2022"},
+    {subject:"Course two",credit:4, assessment:25,term:60,total:85,result:"Pass",grade:"A",semester:"Semester Two",year :"2022/2023"},
  ];
 
   return(
@@ -121,7 +121,7 @@ export default function Dashboard(){
                     <td className="whitespace-nowrap px-6 py-4">{data.result}</td>
                     <td className="whitespace-nowrap px-6 py-4">{data.grade}</td>
                     <td className="whitespace-nowrap px-6 py-4">{data.semester}</td>
-                    <td className="whitespace-nowrap px-6 py-4">{data.date}</td>
+                    <td className="whitespace-nowrap px-6 py-4">{data.year}</td>
                   </tr>
                   ))
                 }
