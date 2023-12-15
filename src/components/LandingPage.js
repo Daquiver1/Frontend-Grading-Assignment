@@ -31,9 +31,9 @@ const LandingPage = ()=>{
                     </div>
                 </div>
 
-                <div className="">
-                    <img src={laptop} alt="girl typing"
-                    style={{height: '450px', width: '400px', marginTop:'100px', marginLeft:'100px'}}/>
+                <div >
+                    <img src={laptop} alt="girl typing" className="shadow-xl"
+                    style={{height: '450px', width: '400px', marginTop:'100px', marginLeft:'100px', borderRadius:'5px'}}/>
                 </div>
             </div>
             <div className="text-3xl text-center" style={{marginTop:'200px'}}>
@@ -42,22 +42,22 @@ const LandingPage = ()=>{
             <div className="grid lg:grid-cols-4 md:grid-cols-2 gap-5 mt-11  text-xl">
                 <div className="ml-12 pr-1">
                     <img src={course} alt="girl typing"
-                    style={{height: '300px', width: '245px', paddingRight: '0px'}}/>
+                    style={{height: '300px', width: '245px', paddingRight: '0px', borderRadius:'5px'}}/>
                     <p className="mt-2">Course Grades</p>
                 </div>
                 <div className="pl-7">
                     <img src={assessment} alt="assessment on laptop"
-                    style={{height: '300px', width: '245px' }}/>
+                    style={{height: '300px', width: '245px', borderRadius:'5px' }}/>
                     <p className="mt-2">Assessment Grades</p>
                 </div>
                 <div className="pl-5">
                     <img src={laptop} alt="laptop"
-                    style={{height: '300px', width: '245px'}}/>
+                    style={{height: '300px', width: '245px', borderRadius:'5px'}}/>
                     <p className="mt-2">Assignment Grades</p>
                 </div>
                 <div className="mr-12 pl-5">
                     <img src={overall} alt="overall picture"
-                    style={{height: '300px', width: '245px'}}/>
+                    style={{height: '300px', width: '245px', borderRadius:'5px'}}/>
                     <p className="mt-2">Overall Grades</p>
                 </div>
             </div>
@@ -73,25 +73,25 @@ const LandingPage = ()=>{
                     <button className=" mt-16 mb-2  px-4 ml-4" style={{ border: '1px solid gray', height: '30px'}}>View all</button>
                 </div>
                 <div>
-                    <img src={quality} alt="Accurate grades" style={{height: '250px'}}/>
+                    <img src={quality} alt="Accurate grades" style={{height: '250px', borderRadius:'5px'}}/>
                     <p className="pt-3">Even-handed and candid procedures in grading.</p>
                 </div>
                 <div>
-                    <img src={scheme} alt="Good grading system" style={{height: '250px', width: '250px'}}/>
+                    <img src={scheme} alt="Good grading system" style={{height: '250px', width: '250px', borderRadius:'5px'}}/>
                     <p className="pt-3"></p>Our equitable and precise grading system ensures fairness.
                 </div>
                 <div>
-                    <img src={grade} alt="Good scores" style={{height: '250px', width:'250px'}}/>
+                    <img src={grade} alt="Good scores" style={{height: '250px', width:'250px', borderRadius:'5px'}}/>
                     <p className="pt-3">Transparent, unprejudiced grading with clarity.</p>
                 </div>
             </div>
             <div className="grid lg:grid-cols-2 md:grid-cols-1 gap-7 mx-12 " style={{marginTop: "200px"}}>
                 <div>
-                    <img src={track} alt="Tracking effectively" style={{marginBottom: '20px'}}/>
+                    <img src={track} alt="Tracking effectively" style={{marginBottom: '20px', borderRadius:'5px'}}/>
                     <a href="" className="text-black text-lg" >How to track your grades effectively</a>
                 </div>
                 <div>
-                    <img src={analysis} alt="Analysing grades" style={{marginBottom: '20px'}}/>
+                    <img src={analysis} alt="Analysing grades" style={{marginBottom: '20px', borderRadius:'5px'}}/>
                     <a href="" className="text-black text-lg">How to analyze your grades and improve</a>
                 </div>
             </div>

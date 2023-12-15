@@ -1,5 +1,5 @@
 import React from 'react'
-import { Fragment, useState, useEffect, useRef  } from 'react'
+import { Fragment, useState} from 'react'
 import { Dialog, Menu, Transition } from '@headlessui/react'
 import {
   Bars3Icon,
@@ -25,9 +25,9 @@ const navigation = [
   { name: 'Help', href: '/HelpPage', icon: QuestionMarkCircleIcon, current: false },
 ]
 const teams = [
-  { id: 1, name: 'Heroicons', href: '#', initial: 'H', current: false },
-  { id: 2, name: 'Tailwind Labs', href: '#', initial: 'T', current: false },
-  { id: 3, name: 'Workcation', href: '#', initial: 'W', current: false },
+  { id: 1, name: 'Assignments', href: '#', initial: 'A', current: false },
+  { id: 2, name: 'Labs Sessions', href: '#', initial: 'L', current: false },
+  { id: 3, name: 'Tests & Quizzes', href: '#', initial: 'T', current: false },
 ]
 const userNavigation = [
   { name: 'Your profile', href: '#' },
@@ -120,7 +120,7 @@ export default function Example() {
                           </ul>
                         </li>
                         <li>
-                          <div className="text-xs font-semibold leading-6 text-gray-400">Your teams</div>
+                          <div className="text-xs font-semibold leading-6 text-gray-400">Activities</div>
                           <ul role="list" className="-mx-2 mt-2 space-y-1">
                             {teams.map((team) => (
                               <li key={team.name}>
@@ -193,7 +193,7 @@ export default function Example() {
                   </ul>
                 </li>
                 <li>
-                  <div className="text-xs font-semibold leading-6 text-gray-400">Your teams</div>
+                  <div className="text-xs font-semibold leading-6 text-gray-400">Activities</div>
                   <ul role="list" className="-mx-2 mt-2 space-y-1">
                     {teams.map((team) => (
                       <li key={team.name}>
