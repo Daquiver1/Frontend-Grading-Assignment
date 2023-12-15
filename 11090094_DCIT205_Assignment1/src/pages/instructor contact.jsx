@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import FooterComponent from "../components/FooterComponent";
+
 export const Instructor_Contact = () => {
   const [instructors] = useState([
     {
@@ -29,16 +30,23 @@ export const Instructor_Contact = () => {
     },
   ]);
 
-  const [selectedInstructor, setSelectedInstructor] = useState(instructors[0]);
-  const [emailContent, setEmailContent] = useState("");
+  const [selectInstructor, setSelectInstructor] = useState(instructors[0]);
+  const [emailInfo, setEmailInfo] = useState("");
+  const [emailError, setEmailError] = useState("");
 
   const handleInstructorClick = (instructor) => {
-    setSelectedInstructor(instructor);
-    setEmailContent("");
+    setSelectInstructor(instructor);
+    setEmailInfo("");
+    setEmailError("");
   };
 
   const handleSendEmail = () => {
-    alert(`Email Sent to ${selectedInstructor.name}:\n${emailContent}`);
+    if (!emailContent.trim()) {
+      setEmailError("Email content cannot be empty");
+    } else {
+      alert(`Email Sent to ${selectedInstructor.name}:\n${emailContent}`);
+      setEmailError("");
+    }
   };
 
   return (
@@ -57,7 +65,7 @@ export const Instructor_Contact = () => {
                 <li
                   key={instructor.id}
                   className={`cursor-pointer ${
-                    selectedInstructor?.id === instructor.id
+                    selectInstructor?.id === instructor.id
                       ? "text-teal-500"
                       : ""
                   }`}
@@ -68,14 +76,14 @@ export const Instructor_Contact = () => {
             </ul>
           </div>
 
-          {selectedInstructor && (
+          {selectInstructor && (
             <div>
               <h2 className=" font-semibold mb-4 md:text-4xl text-2xl">
                 Contact Details
               </h2>
               <div className="leading-10 text-xl">
-                <p>Name: {selectedInstructor.name}</p>
-                <p>Email: {selectedInstructor.email}</p>
+                <p>Name: {selectInstructor.name}</p>
+                <p>Email: {selectInstructor.email}</p>
               </div>
 
               <div className="mt-4">
@@ -83,12 +91,16 @@ export const Instructor_Contact = () => {
                 <textarea
                   className="w-full border p-2 h-40"
                   placeholder="Enter your email content..."
-                  value={emailContent}
-                  onChange={(e) => setEmailContent(e.target.value)}
+                  value={emailInfo}
+                  onChange={(e) => setEmailInfo(e.target.value)}
                 />
+                {emailError && (
+                  <p className="text-red-500 text-sm mt-2">{emailError}</p>
+                )}
                 <button
                   className="mt-2 mb-2 px-4 py-2 bg-teal-500 text-white rounded-md"
-                  onClick={handleSendEmail}>
+                  onClick={handleSendEmail}
+                  disabled={emailError !== ""}>
                   Send Email
                 </button>
               </div>
