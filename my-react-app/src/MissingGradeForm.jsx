@@ -1,5 +1,5 @@
-// MissingGradeForm.jsx
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import './MissingGradeForm.css';
 
 function MissingGradeForm() {
@@ -26,6 +26,17 @@ function MissingGradeForm() {
 
   return (
     <div className="missing-grade-form-container">
+      <div className="dropdown">
+        <button className="dropdown-button">Menu</button>
+        <div className="dropdown-content">
+          <Link to="/" className="dropdown-item">Landing</Link>
+          <Link to="/dashboard" className="dropdown-item">Dashboard</Link>
+          <Link to="/GradeReport" className="dropdown-item">Grade Report</Link>
+          <Link to="/MissingGradeForm" className="dropdown-item">Missing Grade Form</Link>
+          <Link to="/InstructorContactPage" className="dropdown-item">Instructor Contact</Link>
+          <Link to="/HelpAndSupport" className="dropdown-item">Help and Support</Link>
+        </div>
+      </div>
       <h1 className="form-title">Missing Grade Report</h1>
       <form className="grade-form" onSubmit={handleSubmit}>
         <div className="form-group">
