@@ -2,10 +2,7 @@ import React, { useState, useEffect } from "react";
 import "./Dashboard.css";
 import Navbar from "./component/Navbar";
 import Footer from "./component/footer";
-function Dashboard () {
-    
-
-    //Returning the date to the date display session
+function Dashboard() {
     const [dateDisplay, setDateDisplay] = useState('');
 
     useEffect(() => {
@@ -13,12 +10,15 @@ function Dashboard () {
         let day = dateObject.getDate();
         let month = dateObject.getMonth() + 1;
         let year = dateObject.getFullYear();
-        
+
         const formattedDate = `${day} / ${month} / ${year}`
         setDateDisplay(formattedDate);
     }, []);
 
-
+    // Function to simulate missing grades alert
+    const handleMissingGradesAlert = () => {
+        alert("You have missing grades. Please check your grade reports.");
+    };
 
     return(
         <div className="dashboard">
@@ -62,36 +62,37 @@ function Dashboard () {
                         </div>
                     </div>
                 </div>
+              
+
+
+
                 <div className="tab-2-right">
                     <h2 className="card-title">Courses Taken</h2>
-                    <div className="course-card">
+                    <div className="course-card" onClick={handleMissingGradesAlert}>
                         <p>Statistics</p>
-                        <i class="fi fi-rs-book-open-cover"></i>
+                        <i className="fi fi-rs-book-open-cover"></i>
                     </div>
-                    <div className="course-card">
+                    <div className="course-card" onClick={handleMissingGradesAlert}>
                         <p>Introduction to computer science</p>
-                        <i class="fi fi-rs-book-open-cover"></i>
+                        <i className="fi fi-rs-book-open-cover"></i>
                     </div>
-                    <div className="course-card">
+                    <div className="course-card" onClick={handleMissingGradesAlert}>
                         <p>Programming 1</p>
-                        <i class="fi fi-rs-book-open-cover"></i>
+                        <i className="fi fi-rs-book-open-cover"></i>
                     </div>
-                    <div className="course-card">
+                    <div className="course-card" onClick={handleMissingGradesAlert}>
                         <p>Data structures and algorithms</p>
-                        <i class="fi fi-rs-book-open-cover"></i>
+                        <i className="fi fi-rs-book-open-cover"></i>
                     </div>
-                    <div className="course-card">
+                    <div className="course-card" onClick={handleMissingGradesAlert}>
                         <p>Graded Quiz - Computer Systems</p>
-                        <i class="fi fi-rs-book-open-cover"></i>
+                        <i className="fi fi-rs-book-open-cover"></i>
                     </div>
                 </div>
             </div>
-            <Footer/>
+            <Footer />
         </div>
     );
-
-
 }
 
 export default Dashboard;
-

@@ -12,5 +12,5 @@ CSS
 ![Alt text](<FireShot Capture 003 - React App - localhost.png>)
 ![Alt text](<FireShot Capture 004 - React App - localhost.png>)
 ![Alt text](<FireShot Capture 005 - React App - localhost.png>)
-![Alt text](<FireShot Capture 006 - React App - localhost.png>)
 ![Alt text](<FireShot Capture 007 - React App - localhost.png>)
+[Title](<FireShot Capture 008 - React App - localhost.png>)
