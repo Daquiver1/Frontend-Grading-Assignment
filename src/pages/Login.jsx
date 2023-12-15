@@ -39,6 +39,7 @@ const Login = () => {
               </div>
               <div className="mt-2">
                 <input
+                  type="password"
                   maxLength={5}
                   required
                   className="block w-full rounded-md border-0 p-3 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 outline-none sm:text-sm sm:leading-6"

@@ -1,7 +1,10 @@
+
 import { NavLink } from "react-router-dom";
 import logo from "../assets/images/logo.png";
 
 const Header = () => {
+  
+
   return (
     <div className="Header">
       <div className="logo">
@@ -30,8 +33,8 @@ const Header = () => {
         </ul>
       </nav>
       <div className="btn">
-        <NavLink to="/login">
-          <button type="button" className="btn">
+        <NavLink to="/Login">
+          <button type="button" className="btn" >
             LOGOUT
           </button>
         </NavLink>

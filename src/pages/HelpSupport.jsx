@@ -68,11 +68,11 @@ const help = () =>{
             <form  onSubmit={handleSubmit}>
               <div class="form-group">
                 <label for="name">Name</label>
-                <input type="text" id="name" name="name" required />
+                <input type="text" id="name" name="name" placeholder='Full Name' required />
               </div>
               <div class="form-group">
                 <label for="email">Email</label>
-                <input type="email" id="email" name="email" placeholder="@stu.edu.gh" required />
+                <input type="email" id="email" name="email" placeholder="@stu.ug.edu.gh" required />
               </div>
               <div class="form-group">
                 <label for="message">Message</label>
