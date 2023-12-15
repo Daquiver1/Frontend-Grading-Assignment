@@ -191,12 +191,13 @@ const GradeForm = () => {
               </div>
 
               <div className="d-grid">
-                <button
+                <a
+                href='abc@gmail.com'
                   type="submit"
                   className="btn btn-outline-info fw-bold shadow mt-3 fs-4 mb-4"
                 >
                   SUBMIT REPORT
-                </button>
+                </a>
               </div>
             </form>
           </div>
