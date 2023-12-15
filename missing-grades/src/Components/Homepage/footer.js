@@ -8,7 +8,6 @@ const Footer = () => {
    
       
         <div className="cont-change0">
-          <h2>Contact Us</h2>
         </div>
         <div className="footyMargin">
           <div className="footContainer-col1">
