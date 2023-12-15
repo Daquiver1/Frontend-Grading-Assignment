@@ -1,0 +1,28 @@
+/* Navigation.css */
+nav{
+    align-content:space-between ;
+    width: 40%;
+    display: flex;
+margin-left: 50%;}
+.navigation-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px; /* Add margin for spacing */
+    padding: 10px;
+  }
+  
+  .navigation-buttons button {
+    padding: 30px;
+    margin-right: 10px; /* Add margin between buttons */
+    background-color: #007bff;
+    margin-right: 30px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+align-content: space-between;  
+margin-right: 20px;}
+  
+  .navigation-buttons button:last-child {
+    margin-right: 10px; /* Remove margin for the last button */
+  }
+  
