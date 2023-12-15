@@ -2,6 +2,8 @@ import { useState } from "react";
 import Header from "./header";
 import LoginFooter from "./LoginFooter";
 import "../../Styles/utils.css";
+import MinFooter from "./MinFooter";
+import Bars from "../Bars";
 
 const Instructor = () => {
   const [showLecturerDetails, setShowLecturerDetails] = useState(null);
@@ -55,9 +57,10 @@ const Instructor = () => {
 
   return (
     <>
+      <Bars></Bars>
       <Header></Header>
       <div className="container">
-        <div className="flex justify-center mb-5 slide-text">
+        <div className="flex justify-center mb-5 xl:slide-text">
           <p className="italic text-red-600 text-xl mb-5">
             Simply click on a lecturer&apos;s contact detail to send message
             <br />
@@ -87,7 +90,7 @@ const Instructor = () => {
         </div>
         <form>
           <div className="flex justify-center flex-col place-items-center gap-5">
-            <p className="italic text-red-600 text-xl mb-5 slide-text">
+            <p className="italic text-red-600 text-xl mb-5 slide-text -z-40">
               Cannot find lecturer name in the list above? Manually send Email
               below
             </p>
@@ -113,6 +116,7 @@ const Instructor = () => {
           </div>
         </form>
       </div>
+      <MinFooter></MinFooter>
       <LoginFooter></LoginFooter>
     </>
   );

@@ -15,7 +15,7 @@ const TopBar = () => {
           />
           <p className="our-name text-3xl text-blue-300">Pep&apos;s Grade Report System</p>
         </div>
-        <div className="right-side flex place-items-center gap-5">
+        <div className="right-side flex place-items-center gap-5 max-xl:flex-col">
           <button className="notification text-blue-400">
             <svg
               xmlns="http://www.w3.org/2000/svg"

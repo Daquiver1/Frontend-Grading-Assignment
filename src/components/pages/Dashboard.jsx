@@ -3,7 +3,8 @@ import Header from "./header";
 import TopBar from "./TopBar";
 import { Link } from "react-router-dom";
 import Footer from "./Footer";
-
+import MinFooter from "./MinFooter";
+import Bars from "../Bars";
 const Dashboard = () => {
   const [madeReport, setMadeReport] = useState(true); //State defined for report status
   const [totalReportsMade, setTotalReportsMade] = useState(2);
@@ -95,6 +96,7 @@ const Dashboard = () => {
   };
   return (
     <>
+      <Bars></Bars>;
       <Header />
       <TopBar />
       {defineMember()}
@@ -110,7 +112,9 @@ const Dashboard = () => {
         {getCourseOverview()}
         {getCourseOverview()}
       </div>
-      <Footer className="hidden md:block"></Footer>
+
+      <Footer></Footer>
+      <MinFooter></MinFooter>
     </>
   );
 };

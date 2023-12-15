@@ -2,6 +2,8 @@ import { useEffect, useState } from "react";
 import Footer from "./Footer";
 import Header from "./header";
 import "../../Styles/utils.css";
+import Bars from "../Bars";
+import MinFooter from "./MinFooter";
 
 const MissingGrade = () => {
   const [getUserInput, setGetUserInput] = useState({
@@ -61,6 +63,7 @@ const MissingGrade = () => {
   })
   return (
     <>
+      <Bars></Bars>
       <Header></Header>
       <div className="container">
         <form onSubmit={fetchData} className="form-style">
@@ -191,6 +194,7 @@ const MissingGrade = () => {
           </thead>
         </table>
       </div>
+      <MinFooter></MinFooter>
       <Footer></Footer>
     </>
   );

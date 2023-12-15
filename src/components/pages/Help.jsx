@@ -1,7 +1,9 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import LoginFooter from "./LoginFooter";
 import Header from "./header";
+import LoginFooter from "./LoginFooter";
+import MinFooter from "./MinFooter";
+import Bars from "../Bars";
 //This is the help and support page to assist users of the site on how to surf the site
 
 const Help = () => {
@@ -66,9 +68,10 @@ const Help = () => {
 
   return (
     <>
+      <Bars></Bars>
       <Header></Header>
-      <div className="container relative left-44 bg-white bg-opacity-10">
-        <div className="place-items-center flex flex-col justify-center relative">
+      <div className="container relative left-44 bg-white bg-opacity-5 max-xl:top-20">
+        <div className="place-items-center flex flex-col justify-center relative -z-40">
           <p className="custom-header font-black">
             NEED HELP, YOU ARE AT THE RIGHT PLACE...
           </p>
@@ -184,7 +187,6 @@ const Help = () => {
             </ul>
           </div>
         </div>
-        <LoginFooter></LoginFooter>
         {inputShown()}
         <div className="absolute right-0 text-red-500 mt-24">
           <button
@@ -208,6 +210,8 @@ const Help = () => {
           </button>
         </div>
       </div>
+      <MinFooter></MinFooter>
+      <LoginFooter></LoginFooter>
     </>
   );
 };

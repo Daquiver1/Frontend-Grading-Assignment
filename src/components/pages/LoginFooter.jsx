@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import Bars from "../Bars";
 
 const LoginFooter = () => {
   const dateValue = new Date();
@@ -6,7 +7,7 @@ const LoginFooter = () => {
 
   return (
     <>
-      <div className="container max-xl:hidden xl:flex place-items-center bg-blue-800 w-full justify-center fixed bottom-0">
+      <div className="container max-xl:hidden xl:flex place-items-center bg-blue-800 w-full justify-center absolute bottom-0">
         {/*Specify position whn using directions like right, left etc*/}
         <div className="left- flex place-items-center gap-5">
           <img className="rounded-full w-16 h-16" src="/coat-arms.jpg" alt="" />

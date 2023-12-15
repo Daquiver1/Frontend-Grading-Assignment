@@ -3,6 +3,8 @@ import "../../Styles/customStyles/LandPage.css";
 import { Link } from "react-router-dom";
 import Header from "./header";
 import LoginFooter from "./LoginFooter";
+import Bars from "../Bars";
+import MinFooter from "./MinFooter";
 
 const LoginPage = () => {
   // const [isNext, setIsNext] = useState(false);
@@ -31,6 +33,7 @@ const LoginPage = () => {
   };
   return (
     <>
+       <Bars></Bars>
       <Header></Header>
       <div className="flex justify-around place-items-center mt-56">
         <div className="flex gap-5 justify-center place-items-center">
@@ -84,6 +87,7 @@ const LoginPage = () => {
           </p>
         </div>
       </div>
+      <MinFooter></MinFooter>
       <LoginFooter></LoginFooter>
     </>
   );

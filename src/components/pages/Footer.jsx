@@ -6,7 +6,7 @@ const Footer = () => {
 
   return (
     <>
-      <div className="container flex place-items-center bg-blue-800 w-full justify-center relative bottom-0"> {/*Specify position when using directions like right, left etc*/}
+      <div className="container max-xl:hidden flex place-items-center bg-blue-800 w-full justify-center relative bottom-0"> {/*Specify position when using directions like right, left etc*/}
         <div className="left- flex place-items-center gap-5">
           <img
             className="rounded-full w-16 h-16"

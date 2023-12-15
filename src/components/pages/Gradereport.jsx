@@ -2,7 +2,8 @@ import { useEffect, useState } from "react";
 import Footer from "./Footer";
 import TopBar from "./TopBar";
 import Header from "./header";
-
+import MinFooter from "./MinFooter";
+import Bars from "../Bars";
 const Gradereport = () => {
   //Define states for the form data and the table data for user data and input
   const [inputData, setInputData] = useState({
@@ -44,11 +45,12 @@ const Gradereport = () => {
 
   return (
     <>
+      <Bars></Bars>
       <TopBar></TopBar>
       <Header></Header>
       <div className="container">
         <div className="flex justify-center flex-col place-items-center">
-          <p className="text-4xl italic text-blue-900 slide-text">
+          <p className="text-4xl italic text-blue-900 xl:slide-text">
             Fill the form below for a review of your courses
           </p>
           <p className="text-red-500 text-4xl">(Your data will be saved)</p>
@@ -168,6 +170,7 @@ const Gradereport = () => {
           </table>
         </div>
       </div>
+      <MinFooter></MinFooter>
       <Footer></Footer>
     </>
   );
