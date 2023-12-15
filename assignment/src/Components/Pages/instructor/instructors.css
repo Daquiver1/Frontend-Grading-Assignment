@@ -1,0 +1,35 @@
+.container_instruct {
+  display: inline;
+}
+.container_instruct img{
+  width: 150px;
+  height: 150px;
+  border-radius: 20px;
+}
+.textarea_instruct {
+  border-radius: 20px;
+}
+.textarea_instruct_2 {
+  border-radius: 20px;
+}
+.container_instruct span{
+  font-size: 15px;
+}
+.text_instruct {
+  color: goldenrod;
+  font-size: 48px;
+  white-space: nowrap;
+}
+.text_2_instruct {
+  color: goldenrod;
+  font-size: 24px;
+  white-space: nowrap;
+}
+.submit_instruct,
+ .submit_instruct_2 {
+  width: 100px;
+  height: 50px;
+  border-radius: 25px;
+  font-size: larger;
+  font-weight: bold;
+}
