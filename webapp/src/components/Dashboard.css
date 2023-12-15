@@ -30,20 +30,6 @@
     font-family: 'Poppins', sans-serif;
     text-align: center;
 }
-.grades{
-    background-color: white;
-    width: 20cm;
-    height: 10cm;
-    position:50%;
-    margin-top: 5%;
-    /* border-radius: cm; */
-    box-shadow: 0 0.188cm 1.550cm rgb(152, 148, 148);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-      font-family: 'Poppins', sans-serif;
-}
 .position{
     padding: 2% 1%;
 }

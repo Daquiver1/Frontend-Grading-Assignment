@@ -35,7 +35,7 @@ const Navbar=()=>{
             <NavLink to="/Login">Login</NavLink>
             </li>
             <li>
-            <NavLink to="/About">About</NavLink>
+            <NavLink to="/About">Missing Grade</NavLink>
             </li>
             <li>
             <NavLink to="/InstructorContact">InstructorContact</NavLink>
@@ -47,7 +47,7 @@ const Navbar=()=>{
             <NavLink to="/GradeReport">GradeReport</NavLink>
             </li>
             <li>
-            <NavLink to="/Contact">Contact</NavLink>
+            <NavLink to="/help_and_support">Help and Support</NavLink>
             </li>
             
         
