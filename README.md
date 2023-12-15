@@ -87,13 +87,13 @@ https://github.com/Daquiver1/Frontend-Grading-Assignment/assets/151379914/3457c6
 ## Set Up
 Clone this repository to your desired folder
  ```sh
-   cd Assignment https://github.com/Overdoz/DCIT_205_IA
+   cd 11012578-DCIT205 https://github.com/Daquiver1/Frontend-Grading-Assignment.git
 
   ```
   ## Install
   Install this project with:
   ```
-    cd Assignment
+    cd 11012578-DCIT205
     npm install
 
   ```
