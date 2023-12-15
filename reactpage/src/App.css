@@ -1,0 +1,12 @@
+.NavBoard {
+    display: flex;
+}
+
+.Navbar {
+    margin-top: 30px;
+}
+
+.Dashboard {
+    margin-top: 30px;
+    margin-left: 100px;
+}

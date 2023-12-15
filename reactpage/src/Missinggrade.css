@@ -1,0 +1,91 @@
+.dash {
+    font-family: 'Arial', sans-serif;
+    color: #001f3f;
+   }
+   
+   .dashboard-container {
+    border: 2px solid #001f3f;
+    padding: 20px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 50px;
+    background-color: #f5f5f5;
+   }
+   
+   .dashboard-button-contents {
+    text-align: center;
+    margin-top: 20px;
+   }
+   
+   .dashboard-button {
+    background-color: #001f3f;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 10px;
+   }
+   
+   .dashboard-button:hover {
+    background-color: #00152b;
+   }
+
+   /* Reset some default styles */
+body,
+button,
+input,
+select,
+textarea {
+ font-family: 'Roboto', sans-serif;
+ color: #4a4a4a;
+}
+
+section {
+ background-color: #ffffff;
+ border-radius: 10px;
+ box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+ padding: 30px;
+}
+
+h2 {
+ color: #4a4a4a;
+ margin-bottom: 20px;
+}
+
+label {
+ display: block;
+ margin-bottom: 5px;
+}
+
+input[type='text'],
+textarea {
+ width: 100%;
+ padding: 10px;
+ margin-bottom: 20px;
+ border: 1px solid #ddd;
+ border-radius: 5px;
+ outline: none;
+ font-size: 16px;
+}
+
+button[type='submit'] {
+ background-color: #4a4a4a;
+ color: #ffffff;
+ padding: 10px 20px;
+ border: none;
+ border-radius: 5px;
+ cursor: pointer;
+ font-size: 18px;
+}
+
+button[type='submit']:hover {
+ background-color: #333;
+}
+
+/* Display a success message after form submission */
+p.success {
+ color: #4a4a4a;
+ font-size: 18px;
+ text-align: center;
+}

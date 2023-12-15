@@ -1,0 +1,22 @@
+.nav-link1 {
+    color: white;
+    text-decoration: none;
+    margin-left: 7px;
+}
+
+.nav-item {
+    list-style: none;
+}
+
+.nav-list {
+    display: flex;
+    margin-left: 50px;
+    margin-top: 0px;
+
+}
+
+
+.ugtext {
+    align-items: 'left';
+    margin-left: auto;
+}

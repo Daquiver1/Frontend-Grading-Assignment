@@ -1,0 +1,52 @@
+.nav-list {
+    list-style: none;
+    display: flex;
+    margin-left: 2000px;
+    
+    
+}
+
+.nav-item {
+    margin-top: 26px;
+    margin-left: 20px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: white;
+}
+
+
+.Overview {
+    text-align: center;
+    font-family: calibri;
+    font-style: oblique;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: black;
+    font-size: x-large;
+}
+
+.OverviewHeading {
+    font-family: Calibri;
+    text-align: center;
+    color: #BD9C6C;
+    font-size: xxx-large;
+}
+
+.Body {
+    margin-top: 70px;
+    color: black;
+}
+
+
+.button1 {
+    margin-left: 530px;
+    margin-top: 80px;
+    font-family: calibri;
+    font-size: xx-large;
+}
+
+.button1:hover {
+    background-color: rgb(18, 18, 36);
+}
