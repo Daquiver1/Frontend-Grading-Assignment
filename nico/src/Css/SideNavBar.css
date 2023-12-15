@@ -1,0 +1,60 @@
+.side-nav {
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 180px;
+  padding-top: 20px;
+  margin: 3px;
+  background-color: #3498db;
+  transition: 0.5s;
+  overflow-y: auto;
+}
+
+.toggle-btn {
+  position: fixed;
+  left: 20px;
+  top: 20px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.toggle-btn span {
+  display: block;
+  height: 3px;
+  width: 25px;
+  margin: 5px 0;
+  background-color: #fff;
+  transition: 0.5s;
+}
+
+.side-nav nav {
+  padding-top: 20px;
+}
+
+.side-nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+.side-nav a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  display: block;
+  padding: 10px;
+  transition: 0.3s;
+  border: none; /* Add this line to remove any borders */
+  outline: none; /* Add this line to remove any outlines */
+}
+
+.side-nav a:hover {
+  background-color: #2980b9;
+}
+
+/* Additional style to remove potential box */
+.side-nav a:last-child {
+  margin-bottom: 0;
+}

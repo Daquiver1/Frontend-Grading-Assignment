@@ -1,0 +1,56 @@
+/* Dashboard.css */
+
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+}
+
+.dashboard-container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h1 {
+  color: #3498db;
+}
+
+h2 {
+  color: #333;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+
+.missing-grade-entry, .status-entry {
+  background-color: #fff;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.missing-grade-entry p, .status-entry p {
+  margin: 10px 0;
+}
+
+/* Add more styles as needed */
