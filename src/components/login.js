@@ -23,7 +23,7 @@ export default function Login() {
 
   const handleBtn = () =>{
 
-    console.log(post.password)
+    console.log(post.password) 
 
 
       navigate('/dashboard')
