@@ -1,0 +1,69 @@
+
+
+.Cover{
+    box-sizing: border-box;
+    max-width: 75%;
+    margin: auto;
+}
+
+
+.Cover > h1 {
+    margin: 1.5rem 0;
+    margin-top: 100px;
+    text-align: center;
+}
+
+
+
+.button-1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    background-color: rgb(2, 2, 51);
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    width: 100%;
+    outline: none;
+    transition: 0.5s;
+    padding: 10px 2.5px;
+    border: none;
+}
+
+.button-1 i{
+    font-size: 20px;
+}
+
+.active, .button-1:hover{
+    background-color: white;
+    color: rgb(2, 2, 51);
+}
+
+.answer{
+    padding-right: 10px;
+    padding-left: 20px;
+    background-color: white;
+    overflow: hidden;
+    background-color:rgb(224, 172, 0);
+   
+}
+.answer p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+    color: black;
+}
+
+.faq{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: solid;
+    border-width: 1px;
+    border-color: black;
+}
+
+.faq,.active{
+    border: none;
+    
+}
