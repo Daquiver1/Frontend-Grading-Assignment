@@ -1,0 +1,64 @@
+.block-faqPage{
+    overflow: hidden;
+}
+
+.heading h2 {
+    color: #ff6347;
+    font-size: 55px;
+    text-align: center;
+    margin-top: 35px;
+}
+
+.heading h4 {
+    color: #573d39;
+    text-align: center;
+    margin-top: 35px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:90%;
+    margin:65px auto;
+}
+
+.contact-form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 8px;
+}
+
+input,
+textarea {
+  padding: 8px;
+  margin-bottom: 16px;
+}
+
+.buttons {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+}
+
+.buttons:hover {
+    background-color: #0056b3;
+}
+
+.contact-form-container h2 {
+    font-size: 55px;
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 50px;
+}
