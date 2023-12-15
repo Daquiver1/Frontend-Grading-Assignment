@@ -1,0 +1,32 @@
+
+.grade-overview {
+  width: 80%;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+}
+
+.grade-overview h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.grade-overview table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.grade-overview th {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+}
+
+.grade-overview td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+.grade-overview tr:nth-child(even) {
+  background-color: #f0f0f0;
+}

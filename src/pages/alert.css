@@ -1,0 +1,35 @@
+
+.missing-grades-alert {
+  width: 80%;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+}
+
+.missing-grades-alert h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.alert-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.alert-card {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: #fff3cd;
+  color: #856404;
+}
+
+.alert-icon {
+  margin-right: 10px;
+}
+
+.alert-icon i {
+  font-size: 24px;
+}
