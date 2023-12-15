@@ -11,22 +11,22 @@ function GradeReport() {
           student: [
             {
               id: 1,
-              courseName: "Web Design Development",
-              courseCode: "DCIT 205",
+              courseName: " Office Productivity tools",
+              courseCode: "DCIT 103",
               score: "E",
               grade: "1.0",
             },
             {
               id: 2,
-              courseName: "Web Design Development",
-              courseCode: "DCIT 205",
+              courseName: "Introduction to Compueter Science ",
+              courseCode: "DCIT 101",
               score: "E",
               grade: "1.0",
             },
             {
               id: 3,
-              courseName: "Web Design Development",
-              courseCode: "DCIT 205",
+              courseName: "Mathematics for IT Profesionals",
+              courseCode: "DCIT 105",
               score: "E",
               grade: "1.0",
             },
@@ -39,15 +39,15 @@ function GradeReport() {
         student: [
           {
             id: 4,
-            courseName: "Database Management",
-            courseCode: "DCIT 210",
+            courseName: "Programming Fundamentals",
+            courseCode: "DCIT 104",
             score: "A",
             grade: "4.0",
           },
           {
             id: 5,
-            courseName: "Database Management",
-            courseCode: "DCIT 210",
+            courseName: "Computer Hardware Fundamentals",
+            courseCode: "DCIT 102",
             score: "A",
             grade: "4.0",
           },
@@ -66,21 +66,21 @@ function GradeReport() {
         student: [
           {
             id: 1,
-            courseName: "Web Design Development",
+            courseName: " Multimedia and Web Design Development",
             courseCode: "DCIT 205",
             score: "E",
             grade: "1.0",
           },
           {
             id: 2,
-            courseName: "Web Design Development",
+            courseName: "Programming 1",
             courseCode: "DCIT 205",
             score: "E",
             grade: "1.0",
           },
           {
             id: 3,
-            courseName: "Web Design Development",
+            courseName: "E-Business Architecture",
             courseCode: "DCIT 205",
             score: "E",
             grade: "1.0",
@@ -101,7 +101,7 @@ function GradeReport() {
         },
         {
           id: 5,
-          courseName: "Database Management",
+          courseName: "Software Engineering",
           courseCode: "DCIT 210",
           score: "A",
           grade: "4.0",

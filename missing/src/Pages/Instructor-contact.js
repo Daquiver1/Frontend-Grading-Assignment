@@ -6,26 +6,38 @@ function Instructor() {
 
     const instructors = [
         {
-          name: 'John Doe',
-          phoneNumber: '123-456-7890',
+          name: 'Aziz Abdulai Dzumfour',
+          phoneNumber: '233-456-7890',
           roomNumber: 'A101',
-          email: 'john.doe@example.com',
+          email: 'ad.aziz@example.com',
         },
         {
-          name: 'Jane Smith',
-          phoneNumber: '987-654-3210',
+          name: 'Mark Atta Mensah',
+          phoneNumber: '233-654-3210',
           roomNumber: 'B203',
-          email: 'jane.smith@example.com',
+          email: 'ma.mensah@example.com',
         },
         {
-            name: 'John Doe',
-            phoneNumber: '123-456-7890',
+            name: 'Solomon Mensah',
+            phoneNumber: '233-456-7890',
             roomNumber: 'A101',
-            email: 'john.doe@example.com',
+            email: 'm.solomon@example.com',
+          },
+          {
+            name: 'Michael Soli',
+            phoneNumber: '233-654-3210',
+            roomNumber: 'B203',
+            email: 's.michael@example.com',
+          },
+          {
+            name: 'Bright Benuwa',
+            phoneNumber: '233-456-7890',
+            roomNumber: 'A101',
+            email: 'b.benuwa@example.com',
           },
           {
             name: 'Jane Smith',
-            phoneNumber: '987-654-3210',
+            phoneNumber: '233-654-3210',
             roomNumber: 'B203',
             email: 'jane.smith@example.com',
           },
@@ -36,22 +48,10 @@ function Instructor() {
             email: 'john.doe@example.com',
           },
           {
-            name: 'Jane Smith',
+            name: 'Paul  Tackie Ammah',
             phoneNumber: '987-654-3210',
             roomNumber: 'B203',
-            email: 'jane.smith@example.com',
-          },
-          {
-            name: 'John Doe',
-            phoneNumber: '123-456-7890',
-            roomNumber: 'A101',
-            email: 'john.doe@example.com',
-          },
-          {
-            name: 'Jane Smith',
-            phoneNumber: '987-654-3210',
-            roomNumber: 'B203',
-            email: 'jane.smith@example.com',
+            email: 'pt.ammah@example.com',
           },
         
       ];

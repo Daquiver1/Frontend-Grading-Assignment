@@ -83,60 +83,36 @@ function Dashboard() {
                 </div>
                 <div className="grid grid-cols-2 gap-4">
                     <div className="items-center justify-center p-4 rounded bg-gray-50 h-48 dark:bg-violet-100">
-                        <h2 class="mb-2 text-lg font-semibold text-gray-900">Number of missing grades:</h2>
+                        <h2 class="mb-2 text-lg font-semibold text-gray-900">Missing Grade Summary:</h2>
                         <ul class="max-w-md space-y-1 text-gray-700 list-disc list-inside dark:text-gray-500">
                             <li>
-                                At least 10 characters (and up to 100 characters)
+                            Total Missing Grades: [X]
                             </li>
                             <li>
-                                At least one lowercase character
+                            Recent Submissions without Grades: [Y]
                             </li>
                             <li>
-                                Inclusion of at least one special character, e.g., ! @ # ?
+                            Pending Grade Review Requests: [Z]
                             </li>
                         </ul> 
                     </div>
                     <div className="items-center justify-center p-4 rounded bg-gray-50 h-48 dark:bg-green-100">
-                        <h2 class="mb-2 text-lg font-semibold text-gray-900">Password requirements:</h2>
-                        <ul class="max-w-md space-y-1 text-gray-700 list-disc list-inside dark:text-gray-500">
-                            <li>
-                                At least 10 characters (and up to 100 characters)
-                            </li>
-                            <li>
-                                At least one lowercase character
-                            </li>
-                            <li>
-                                Inclusion of at least one special character, e.g., ! @ # ?
-                            </li>
-                        </ul> 
+                        <h2 class="mb-2 text-lg font-semibold text-gray-900">Upcoming Deadlines:</h2>
+                        <p class="max-w-md space-y-1 text-gray-700 list-disc list-inside dark:text-gray-500">
+                        Stay ahead of your assignments and exams. View a calendar of upcoming deadlines and submission dates.
+                        </p> 
                     </div>
                     <div className="items-center justify-center p-4 rounded bg-gray-50 h-48 dark:bg-yellow-100">
-                        <h2 class="mb-2 text-lg font-semibold text-gray-900">Password requirements:</h2>
-                        <ul class="max-w-md space-y-1 text-gray-700 list-disc list-inside dark:text-gray-500">
-                            <li>
-                                At least 10 characters (and up to 100 characters)
-                            </li>
-                            <li>
-                                At least one lowercase character
-                            </li>
-                            <li>
-                                Inclusion of at least one special character, e.g., ! @ # ?
-                            </li>
-                        </ul> 
+                        <h2 class="mb-2 text-lg font-semibold text-gray-900">Important Announcements::</h2>
+                        <p class="max-w-md space-y-1 text-gray-700 list-disc list-inside dark:text-gray-500">
+                        Check for any important announcements from your instructors or the academic department regarding grading policies, system updates, or scheduled maintenance.
+                        </p> 
                     </div>
                     <div className="items-center justify-center p-4 rounded bg-gray-50 h-48 dark:bg-blue-100">
-                        <h2 class="mb-2 text-lg font-semibold text-gray-900">Number of Resits:</h2>
-                        <ul class="max-w-md space-y-1 text-gray-700 list-disc list-inside dark:text-gray-500">
-                            <li>
-                                At least 10 characters (and up to 100 characters)
-                            </li>
-                            <li>
-                                At least one lowercase character
-                            </li>
-                            <li>
-                                Inclusion of at least one special character, e.g., ! @ # ?
-                            </li>
-                        </ul> 
+                        <h2 class="mb-2 text-lg font-semibold text-gray-900">Need Help?:</h2>
+                        <p class="max-w-md space-y-1 text-gray-700 list-disc list-inside dark:text-gray-500">
+                        If you encounter any issues or have questions about the Missing Grade Report Dashboard, feel free to reach out to our support team at [support@academicaffairs.com] for assistance.
+                        </p> 
                     </div>
                 </div>
             </div>

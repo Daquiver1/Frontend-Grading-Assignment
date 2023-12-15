@@ -6,6 +6,8 @@ import Dashboard from "./Pages/Dashboard";
 import GradeReport from "./Pages/Grade-report";
 import GradeForm from "./Pages/GradeForm";
 import Instructor from "./Pages/Instructor-contact";
+import Support from "./Pages/Support";
+
 function App() {
   return (
     <div className="">
@@ -19,6 +21,7 @@ function App() {
             <Route path="/dashboard/grade-report" element={<GradeReport />} />
             <Route path="/dashboard/gradeform" element={<GradeForm />} />
             <Route path="/dashboard/instructor" element={<Instructor />} />
+            <Route path="/Support" element={<Support />} />
         </Routes>
 
         </BrowserRouter>
