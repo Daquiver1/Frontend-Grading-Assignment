@@ -6,6 +6,7 @@ import img1 from '../assets/img1.jpg'
 import HelpAndSupport from './HelpAndSupport';
 import InstructorContact from './InstructorContact';
 
+
 function Index() {
   const [width, setWidth] = useState(window.innerWidth)
 
@@ -108,7 +109,7 @@ function Index() {
 
   return (
     <div>
-      {window.innerWidth < 750 ? <div> <Navbar/>  <InstructorContact /> </div> : 
+      {window.innerWidth < 750 ? <div> <Navbar/></div> : 
       <nav className='w-full items-center flex text-3xl font-bold text-[#00df94]  top-0 h-[60px] fixed left-0 right-0  z-20 justify-end pr-[5%] py-[20px] bg-[white] '>
         <h1 className='flex'>
           <MdCastForEducation className='mr-3 flex self-center' />Grade Report Form

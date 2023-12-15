@@ -1,22 +1,30 @@
 import { useState } from "react";
 import { MdCastForEducation } from "react-icons/md";
-import MissingGradeForm from "./MissingGradeForm";
-import HelpAndSupport from "./HelpAndSupport";
-import InstructorContact from "./InstructorContact";
 
-function Navbar() {
+import LogIn from './LogIn';
+import Navbar from './Navbar';
+import HelpAndSupport from './HelpAndSupport'
+import InstructorContact from "./InstructorContact";
+import MissingGradeForm from "./MissingGradeForm";
+import GradeReport from "./GradeReport";
+import { NavLink } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Dashboard from "./Dashboard";
+
+function SideBar() {
   const [open, setOpen] = useState(true);
   const Menus = [
-    { title: "Dashboard", src: "Chart_fill"},
-    { title: "Grade Report Form", src: "form" , gap: true},
-    { title: "Missing Grade Form ", src: "form2" },
-    { title: "Instructor Contact ", src: "contact" },
-    { title: "Help and Support ", src: "faq", gap: true },
-    { title: "Profile", src: "User", gap: false }
+    { title: "Dashboard", href: "/Dashboard" , src: "Chart_fill"},
+    { title: "Grade Report Form", href: "/GradeReport", src: "form" , gap: true},
+    { title: "Missing Grade Form ", href: "/MissingGradeForm", src: "form2" },
+    { title: "Instructor Contact ", href: "InstructorContact", src: "contact" },
+    { title: "Help and Support ", href: "/HelpAndSupport" ,src: "faq", gap: true },
+    { title: "Profile", src: "User", href: "Profile" , gap: false }
   ];
 
   return (
     <div className="flex">
+      <BrowserRouter>
       <nav className='w-full items-center flex text-3xl font-bold text-[#00df94]  top-0 h-[60px]  fixed left-0 right-0  z-20   justify-end pr-[5%] py-[20px] bg-dark-purple'>
         <h1 className='flex'>
           <MdCastForEducation className='mr-3 flex self-center' />Grade Report Form
@@ -53,18 +61,22 @@ function Navbar() {
         </div>
         <ul className="pt-6">
           {Menus.map((Menu, index) => (
-            <li
+            <NavLink
               key={index}
-              className={`flex  rounded-md p-2 cursor-pointer hover:bg-light-white text-gray-300 text-sm items-center gap-x-4 
-              ${Menu.gap ? "mt-9" : "mt-2"} ${
-                index === 0 && "bg-light-white"
-              } `}
+              to={Menu.href}
+              className={({isActive}) => {
+                return `flex   p-2 cursor-pointer hover:bg-light-white text-gray-300 text-sm items-center gap-x-4 
+                ${Menu.gap ? "mt-9" : "mt-2"} ${
+                  index === 0 && "bg-light-white"
+                }`  +
+                (!isActive ? 'text-gray-300 hover:bg-gray-700 hover:text-white rounded-md ' : 'bg-gray-900 text-white bg-light-white rounded-md');
+              }}
             >
               <img src={`./src/assets/${Menu.src}.png`} />
               <span className={`${!open && "hidden"} origin-left duration-200`}>
                 {Menu.title}
               </span>
-            </li>
+            </NavLink>
           ))}
         </ul>
       </div>
@@ -73,12 +85,21 @@ function Navbar() {
 
       
       <div className="h-screen flex-1  mt-[60px]">
-        {/* <MissingGradeForm /> */}
-        {/* <HelpAndSupport /> */}
-        <InstructorContact />
+        <Routes>
+          <Route path='/helpAndSupport' element={<HelpAndSupport />}></Route>
+          <Route path='/logIn' element={<LogIn />}></Route>
+          <Route path='/Navbar' element={<Navbar />}></Route>
+          <Route path='/HelpAndSupport' element={<HelpAndSupport />}></Route>
+          <Route path='/MissingGradeForm' element={<MissingGradeForm />}></Route>
+          <Route path='/GradeReport' element={<GradeReport />}></Route>
+          <Route path='/InstructorContact' element={<InstructorContact />}></Route>
+          <Route path='/Dashboard' element={<Dashboard />}></Route>
+        </Routes>
+      
       </div>
+      </BrowserRouter>
     </div>
   );
 };
 
-export default Navbar;
+export default SideBar;
