@@ -1,0 +1,36 @@
+.container.content{
+    position: relative;
+    
+    }
+    .info{
+        position: absolute;
+        top: 170px;left: 40px;
+        width: 500px;
+        text-align: justify;
+      }
+     .info h1{
+      font-size:70px ;
+     }
+     .info button{
+      height: 45px;
+      width: 150px;
+      background-color: black;
+      outline: none;
+      border: none;
+      margin-top: 20px;
+     }
+     .info button:hover{
+      opacity: 7;
+      transition:2s ;
+      cursor:pointer;
+     }
+     .info button a{
+      text-decoration: none;
+      color: white;
+     }
+     .info p{
+      color: #333;
+      font-size: 19px;
+     }
+   
+    

@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'poppins',sans-serif;
+}
+
+
+.container{
+    margin: 0 40px;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+   
+    
+}
+.container1{
+    margin: 10px 40px;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.container h1{
+    color: #333;
+}
+.container1 .tab{
+    position: relative;
+    background: #fff;
+    padding: 0 20px 20px;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+    overflow: hidden;
+
+}
+.container1 .tab input{
+    appearance: none;
+}
+.container1 .tab label{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.container1 .tab label::after{
+    content: '+';
+    position: absolute;
+    right: 20px;
+    font-size: 2em;
+    color: gray;
+    transition: transform 1s;
+}
+.container1 .tab:hover label::after{
+   color:black ;
+}
+.container1 .tab input:checked~label::after{
+    transform: rotate(136deg);
+}
+.container1 .tab label h2{
+    width: 40px;
+    height: 40px;
+    background: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 1.25em;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.container1 .tab label h3{
+    position: relative;
+    font-weight: 500;
+    color: #333;
+    z-index:10;
+}
+.container1 .tab .content{
+    max-height: 0;
+    transition: 1s;
+    overflow:hidden;
+    
+}
+.container1 .tab input:checked~.content{
+    max-height: 100vh;
+
+}
+.wrapper{
+    width: 350px;
+    height: 400px;
+    background: #fff;
+    padding: 10px;
+    margin: 100px auto;
+    box-shadow: 0px 10px 5px rgba(0, 0, 0, 0.1);
+    border-bottom-right-radius: 80px;
+    border-top-left-radius: 80px;
+    border: 1px solid black;
+}
+form{
+    width: 260px;
+    margin: 20px 37px;
+    text-align: center;
+}
+.con{
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+input,textarea{
+    width: 100%;
+    padding: 7px;
+    display: block;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+button{
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 10px;
+    color:white;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 7px;
+    background: black;
+}
+button:hover{
+    background: gray;
+}
+
+
+

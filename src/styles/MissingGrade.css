@@ -1,0 +1,53 @@
+.complaint-form h1{
+    color: black;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 60px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+ }
+ .complaint-form input{
+     background-color: #fff;
+     width: 450%;
+     margin-left: 12%;
+     font-size: 20px;
+     padding: 16px 16px;
+     border-radius: 10px;
+     border-color: black;
+     margin-bottom: 20px;
+ }
+ .complaint-form textarea{
+     background-color: #fff;
+     width: 450%;
+     margin-left: 12%;
+     font-size: 20px;
+     padding: 16px 16px;
+     border-radius: 10px;
+     border-color: black;
+     margin-bottom: 25px;
+     font-family:  -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ 
+ }
+ .complaint-form input:focus-within{
+     outline: none;
+     border-color: gray;
+     border-width: 3px;
+ }
+ .complaint-form textarea:focus-within{
+     outline: none;
+     border-color: black;
+     border-width: 3px;   
+ }
+ .complaint-form button{
+     background-color: gray ;
+     border-radius: 20px;
+     border-color: black;
+     font-size: 22px;
+     padding: 10px 18px;
+     display: flex;
+     
+     
+ }
+ .complaint-form button:hover{
+     opacity: 80%;
+     cursor: pointer;
+ }
