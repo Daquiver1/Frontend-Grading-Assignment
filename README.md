@@ -1,5 +1,10 @@
 # Student Grade Reporting System Frontend
 
+
+##Student ID and Name 
+11293982 
+Joel Ayensu Techie-Menson
+
 ## Project Overview
 
 This project is a front-end web application for a Student Grade Reporting System. It simulates a real-world application where students can view, report, and manage their academic grades. This system addresses the issue of missing or unrecorded grades in a student's profile.
