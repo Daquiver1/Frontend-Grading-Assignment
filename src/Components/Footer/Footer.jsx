@@ -16,7 +16,7 @@ const footer = () => {
         <li>PRIVACY & SECURITY:<br/> <span> Missing Grade Report System v1.2. Available to all students of this institution, your student credentials are required to get an account. </span></li>
        </ul>
        <ul className="footer-links">
-        <li>ACCESSIBILITY:<br/> <span>This system is designed to be accessible to users. If you encounter any accessibility issues, please contact: mensaherskine@gmail.com.</span></li>
+        
         <li>CONTACT US:<br/> <span>For more enquiries or any issue encoutered during the usage of this system contact us using the following platforms:</span></li>
        </ul>
        <div className="footer-social-icon">
