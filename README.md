@@ -36,7 +36,7 @@ npm install
 npm start
 ```
 
-This will start the application on `localhost` at the default port.
+This will start the application on `localhost` at the default port(3000).
 
 ## Usage
 
