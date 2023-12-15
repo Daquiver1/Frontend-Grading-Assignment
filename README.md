@@ -55,3 +55,22 @@ To contribute to this project, please follow these guidelines:
 4. Submit a pull request for review.
 
 Please adhere to the project's coding standards and provide clear and detailed pull request descriptions.
+
+## Application Structure
+ 
+
+The application consists of seven main pages, each serving a specific purpose:
+
+- **Homepage:** Introduces users to the system and outlines its objectives.
+- **Login Page:** Simulates a student authentication interface for logging in.
+- **Dashboard:** Provides an overview of the student's current grades and alerts for any missing grades.
+- **Grade Report:** Offers a detailed view of the student's grades, with the ability to filter by semester or academic year.
+- **Missing Grade Form:** Allows students to report any missing grades.
+- **Instructor Contact Page:** Displays contact information for instructors, including a simulated email feature.
+- **Help and Support:** Includes FAQs and a mock support contact form.
+
+## Technical Details
+
+- **Framework/Technology Used:** Developed using React.
+- **Responsive Design:** Implemented with CSS Flexbox/Grid, Bootstrap, and Tailwind CSS to ensure compatibility with various devices.
+- **JavaScript Functionality:** Leveraged for form validations, dynamic content rendering, and simulating user interactions.
