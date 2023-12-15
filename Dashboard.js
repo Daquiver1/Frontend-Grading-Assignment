@@ -28,11 +28,11 @@ const DashboardPage = () => {
         ],
     };
 
-    // Mock data for recent assignments
+
     const recentAssignments = [
         { name: 'Assignment 4', course: 'Math', dueDate: '2023-03-15' },
         { name: 'Assignment 3', course: 'History', dueDate: '2023-03-10' },
-        // Add more data as needed
+
     ];
 
     return (
