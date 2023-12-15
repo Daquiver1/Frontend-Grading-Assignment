@@ -30,7 +30,7 @@ const Login = () => {
   return (
     <div>
         <Navigation />
-        <Footer />
+       
     <div className="container mt-5">
       {isLoggedIn ? (
         <div>
@@ -73,6 +73,7 @@ const Login = () => {
         </form>
       )}
     </div>
+    <Footer />
     </div>
   );
 };

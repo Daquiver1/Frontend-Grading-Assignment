@@ -1,7 +1,7 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navigation from './Navigation';
-import Footer from './Footer';
+import Footer from './Footer_02';
 
 const Dashboard = () => {
   // Mock data for student's grades and missing grades

@@ -26,7 +26,7 @@ const InstructorContact = () => {
   return (
     <div>
         <Navigation />
-        <Footer />
+        
     <div className="container mt-4">
       <h1>Instructor Contact</h1>
 
@@ -84,8 +84,12 @@ const InstructorContact = () => {
             <p>Select an instructor to view contact details and send an email.</p>
           )}
         </div>
+        
       </div>
-    </div></div>
+      
+    </div>
+    <Footer />
+    </div>
 
   );
 };

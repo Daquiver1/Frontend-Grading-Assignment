@@ -33,7 +33,7 @@ const GradeReport = () => {
   return (
     <div>
         <Navigation />
-        <Footer />
+        
     <div className="container mt-4">
       <h1>Grade Report</h1>
 
@@ -73,6 +73,7 @@ const GradeReport = () => {
         </tbody>
       </table>
     </div>
+    <Footer />
     </div>
   );
 };

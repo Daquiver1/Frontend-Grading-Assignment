@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navigation from './Navigation';
-//import Footer from './Footer'
+import Footer from './Footer'
 
 const HelpAndSupport = () => {
   // Mock FAQ data regarding grade reporting
@@ -124,6 +124,7 @@ const HelpAndSupport = () => {
           </form>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };
