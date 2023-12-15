@@ -21,7 +21,7 @@ CSS: Styling and layout are implemented using a combination of CSS for a modern 
 
 ## Getting Started
 1. Clone the repository: git clone https://github.com/seanadeti/11015523_DCIT205_Assignment1.git
-2. Navigate to the project directory: cd [project-directory]
+2. Navigate to the project directory: cd dcit205
 3. Install dependencies: npm install
 4. Start the development server: npm start
 
