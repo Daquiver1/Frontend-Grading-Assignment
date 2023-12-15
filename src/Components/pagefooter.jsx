@@ -1,6 +1,6 @@
 import React from "react";
 
-const Landing_footer = () => {
+const LandingFooter = () => {
     return(
         <footer className="bg-[#4c4c4e] w-[1350px] mt-4 p-3 -ml-9 text-[13pt] text-white">
            <div className="flex">
@@ -45,4 +45,4 @@ const Landing_footer = () => {
     )
 }
 
-export default Landing_footer;
+export default LandingFooter;

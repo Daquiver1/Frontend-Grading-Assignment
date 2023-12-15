@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "./Navbar";
 import { Link } from "react-router-dom";
 
-const Landing_header = () => {
+const LandingHeader = () => {
     return (
         <div className="flex mr-0 shadow-md">
             <img src="/Media_Files/unilogo.png" alt="University Logo" className=" w-52 h-auto mr-[10px] "></img>
@@ -25,4 +25,4 @@ const Landing_header = () => {
     
 }
 
-export default Landing_header;
+export default LandingHeader;

@@ -6,7 +6,7 @@ import Dashboard from '../Pages/Dashboard';
 import Help from '../Pages/Help';
 import Instructorcontact from '../Pages/Instructorcontact';
 
-const Landing_cards = () => {
+const LandingCards = () => {
     return (
             <div className="flex flex-wrap mt-3">
                 <Link to ="/Gradereport">
@@ -73,4 +73,4 @@ const Landing_cards = () => {
     )
 }
 
-export default Landing_cards
+export default LandingCards
