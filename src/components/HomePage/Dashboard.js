@@ -33,7 +33,7 @@ const Dashboard = () => {
   });
 
   const [level200Semester2, setLevel200Semester2] = useState({
-    course1: 'Course 1',
+    course1: 'DCIT205',
     course2: 'Course 2',
     course3: 'Course 3',
     course4: 'Course 4',
@@ -61,29 +61,30 @@ const Dashboard = () => {
 
         <div className="semester-results">
           <h2>Level 100 - Semester 1</h2>
-          {/* Display course information for level 100, semester 1 */}
-          {/* Add your JSX code here */}
+          <p>Course1: course1</p>
+          <p>Course1: course2</p>
+            
           <p>GPA: {calculateGPA(level100Semester1)}</p>
         </div>
 
         <div className="semester-results">
           <h2>Level 100 - Semester 2</h2>
-          {/* Display course information for level 100, semester 2 */}
-          {/* Add your JSX code here */}
+          
+          
           <p>GPA: {calculateGPA(level100Semester2)}</p>
         </div>
 
         <div className="semester-results">
           <h2>Level 200 - Semester 1</h2>
-          {/* Display course information for level 200, semester 1 */}
-          {/* Add your JSX code here */}
+          
+          
           <p>GPA: {calculateGPA(level200Semester1)}</p>
         </div>
 
         <div className="semester-results">
           <h2>Level 200 - Semester 2</h2>
-          {/* Display course information for level 200, semester 2 */}
-          {/* Add your JSX code here */}
+          
+          
           <p>GPA: {calculateGPA(level200Semester2)}</p>
         </div>
       </div>

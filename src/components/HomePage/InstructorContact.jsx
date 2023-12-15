@@ -37,7 +37,7 @@ const InstructorContact = () => {
         <navigation/>
       <h2>Contact the Instructor</h2>
       <form onSubmit={handleSubmit}>
-        <label>
+        <label className='la'>
           Name:
           <input
             type="text"
@@ -46,7 +46,7 @@ const InstructorContact = () => {
             onChange={handleChange}
           />
         </label>
-        <label>
+        <label className='la'>
           Email:
           <input
             type="email"
@@ -55,7 +55,7 @@ const InstructorContact = () => {
             onChange={handleChange}
           />
         </label>
-        <label>
+        <label  className='la'>
           Message:
           <textarea
             name="message"

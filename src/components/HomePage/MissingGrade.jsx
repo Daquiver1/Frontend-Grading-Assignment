@@ -95,10 +95,8 @@ const MissingGrade = () => {
         <div>
         <Footer/>
         </div>
-  
-      </div>
-      </div>
-      
+        </div>
+        </div>
     );
   };
   export default MissingGrade;

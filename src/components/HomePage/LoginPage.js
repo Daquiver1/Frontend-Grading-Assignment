@@ -23,7 +23,7 @@ const LoginForm = () => {
       <Navbar/>
     <div className="container">
       <h2>Login</h2>
-      <label>
+      <label  className='ll'>
         Username:
         <input
           type="text"
@@ -32,7 +32,7 @@ const LoginForm = () => {
         />
       </label>
       <br />
-      <label>
+      <label className='ll'>
         Password:
         <input
           type="password"
