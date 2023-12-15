@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.headline-text{
+  @apply mt-6 my-6 text-center text-2xl font-bold leading-9 tracking-normal text-gray-800
+}
+
+.headline-text2{
+  @apply text-3xl font-bold tracking-tight text-gray-900
+}
+
+.outline-btn{
+  @apply mt-6 sm:mt-0 w-full sm:w-max py-1.5 px-2 rounded-lg ring-1 ring-inset ring-gray-300 text-gray-900 bg-pink-50/40
+}
+
+th,td{
+  @apply p-1.5 text-gray-800
+}
+
+.avg-flex{
+  @apply flex gap-2 items-center justify-center
+}
+
+.body-text{
+  @apply mt-6 text-lg leading-8 text-gray-600
+}
