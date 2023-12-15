@@ -102,6 +102,8 @@ Describe how to use the application, highlighting key functionalities such as lo
 1. Click on the Instructor contact 
 2. Contact your instructor using the email provided.
 
+## This website is designed to help student track and report grades that are not recorded in their academic profile, it has a friendly user interface and allows student to communicate with their instructors.
+
 
 
 
