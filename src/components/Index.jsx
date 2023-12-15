@@ -1,25 +1,12 @@
 import { useState , useEffect} from 'react';
 import Navbar from './Navbar';
-import MissingGradeForm from './MissingGradeForm';
 import { MdCastForEducation } from "react-icons/md";
 import Sidebar from './Sidebar';
 import img1 from '../assets/img1.jpg'
 
 function Index() {
   const [width, setWidth] = useState(window.innerWidth)
-  function SideBar(){
-    return (
-      <div className='fixed left-0 top-[61px] w-[300px] border-r h-[600px] bg-transparent text-white ease-in-out duration-500 border'>
-        <ul className='uppercase '>
-          <li className='p-4 border-b border-gray-600'>Dashboard</li>
-          <li className='p-4 border-b border-gray-600'>Grade Report</li>
-          <li className='p-4 border-b border-gray-600'>Missing Grade Form</li>
-          <li className='p-4 border-b border-gray-600'>Instructor Contact Page</li>
-          <li className='p-4 '>Help and Support Page</li>
-        </ul>
-      </div>
-    )
-  }
+
 
   function Below1000(){
     const [formData, setFormData] = useState({
@@ -125,6 +112,7 @@ function Index() {
           <MdCastForEducation className='mr-3 flex self-center' />Grade Report Form
         </h1>
       </nav> }
+
       {window.innerWidth > 750 && <Sidebar/>}
       
     </div>
