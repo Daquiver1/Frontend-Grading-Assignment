@@ -1,42 +1,41 @@
 .header {
-    background-color: #333; 
-    height: 100px;
-  }
+  background-color: #333; 
+  height: 100px;
+}
 
-  .logo{
-    font-size: 20px;
-    font-weight: bold;
-    color: rgb(10, 10, 50);
-    padding-top: 10px;
-    margin-top: 15px;
-    text-align:left
-  }
-  
-  nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: end;
-  }
-  
-  nav ul li {
-    margin-right: 20px;
-  }
-  
-  nav ul li.login {
-    margin-right: 0; 
-  }
-  
-  nav a {
-    text-decoration: none;
-    color: white;
-  }
-  
-  .login a {
-    background-color: #4CAF50; 
-    padding: 10px 20px;
-    border-radius: 5px;
-    color: white;
-  }
-  
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(10, 10, 50);
+  padding-top: 10px;
+  margin-top: 15px;
+  text-align: left;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: flex-end; /* Corrected: align to the end */
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li.login {
+  margin-right: 0; 
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+.login a {
+  background-color: #4CAF50; 
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: white;
+}

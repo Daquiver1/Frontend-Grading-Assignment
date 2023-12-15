@@ -7,6 +7,8 @@
     color: #191717;
     border-radius: 10px;
     padding: 30px 40px;
+    justify-content: center;
+    padding-top: 20%;
 }
 
 .wrapper h1{
@@ -73,7 +75,7 @@
     border: none;
     outline: none;
     border-radius: 40px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, -1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     cursor: pointer;
     font-size: 16px;
     color: #333;

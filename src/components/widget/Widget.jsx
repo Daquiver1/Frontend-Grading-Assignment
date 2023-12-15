@@ -9,7 +9,7 @@ const Widget = ({ type }) => {
         <div className="widget">
             <div className="left">
                 <span className="titles">User</span>
-                <span className="counter">Noting to show</span>
+                <span className="counter">Notting to show</span>
                 <span className="link">see all students</span>
             </div>
             <div className="right">

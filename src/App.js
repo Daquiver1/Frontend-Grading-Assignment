@@ -5,6 +5,8 @@ import Faq from "./components/pages/FAQ/Faq";
 import Overview from "./components/pages/dashboard/Overview/Overview";
 import Report from "./components/pages/dashboard/Report_Missing_Grade/Report";
 import Alert from "./components/pages/dashboard/Missing_Grade_alert/Alert";
+import Landing_page from "./components/landing page/Landing_page";
+
 
 import{
   BrowerRouter,
@@ -25,6 +27,7 @@ function App() {
           <Route path="Login" element={<Login />} />
           <Route path="contact">
             <Route index element={<Contact />} />
+            <Route path="landingpage" element={<Landing_page />} />
             <Route path="FAQ" element={<Faq />} />
           </Route>
           <Route path="dashboard">
