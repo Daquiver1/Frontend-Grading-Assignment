@@ -5,7 +5,8 @@ import NotFound from './pages/404';
 import Login from './pages/login';
 import GradeReportPage from './pages/GradeReportPage';
 import MissingGradeForm from './pages/MissingGradePage';
-import InstructorContact from './pages/InstructorContactPage';
+import InstructorContactPage from './pages/InstructorContactPage';
+import HelpAndSupportPage from './pages/HelpAndSupportPage';
 
 
 
@@ -20,7 +21,8 @@ function App() {
             <Route path="/*" element={<NotFound />} />
             <Route path="/dashboard/missing-grade-form" element={<MissingGradeForm />}/>
             <Route path="/dashboard/grade-report" element={<GradeReportPage />}/>
-            <Route path="/dashboard/instructor-contact" element={<InstructorContact />}/>
+            <Route path="/dashboard/instructor-contact" element={<InstructorContactPage />}/>
+            <Route path="/dashboard/help and support" element={<HelpAndSupportPage />}/>
             
          </Routes>
       </>
