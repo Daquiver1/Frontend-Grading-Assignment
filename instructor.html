@@ -1,0 +1,82 @@
+<!-- instructor_contact_page.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Instructor Contact - Missing Grade Reporting System</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+
+        .instructor-contact-container {
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Include Navbar -->
+<!-- Replace the URL with the correct path based on your file structure -->
+<div class="include-navbar"><?php include('navbar.html'); ?></div>
+
+<!-- Instructor Contact Container -->
+<div class="container instructor-contact-container">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <h2 class="text-center mb-4">Instructor Contact</h2>
+            
+            <!-- List of Instructors -->
+            <ul class="list-group">
+                <!-- Instructor 1 -->
+                <li class="list-group-item">
+                    <h5>Instructor Name 1</h5>
+                    <p>Email: instructor1@example.com</p>
+                </li>
+
+                <!-- Instructor 2 -->
+                <li class="list-group-item">
+                    <h5>Instructor Name 2</h5>
+                    <p>Email: instructor2@example.com</p>
+                </li>
+
+                <!-- Instructor 3 -->
+                <li class="list-group-item">
+                    <h5>Instructor Name 3</h5>
+                    <p>Email: instructor3@example.com</p>
+                </li>
+            </ul>
+
+            <!-- Simulated Email Form -->
+            <form class="mt-4">
+                <div class="form-group">
+                    <label for="recipient">Select an Instructor:</label>
+                    <select class="form-control" id="recipient">
+                        <option value="instructor1">Instructor Name 1</option>
+                        <option value="instructor2">Instructor Name 2</option>
+                        <option value="instructor3">Instructor Name 3</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="emailContent">Email Content:</label>
+                    <textarea class="form-control" id="emailContent" rows="4" placeholder="Compose your message"></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-primary">Send Email</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- Bootstrap JS and dependencies -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+</body>
+</html>
