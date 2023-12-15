@@ -1,0 +1,99 @@
+
+.dropdown{
+  display: inline-block;
+ 
+}
+
+#dropdown-basic{
+  margin: 20px;
+
+}
+
+.dashboard-content {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: flex-end;
+
+  
+}
+
+.th{
+  border: width 100px; ;
+}
+.btn.btn-primary{
+  margin-top: 20px;
+}
+
+
+
+form{
+  margin-top: 20px;
+}
+
+img{
+  display: inline-block;
+}
+
+footer > p {
+  display: inline-block;
+}
+
+span{
+  font-size: large;
+  font-weight: bold;
+  color: #061c99;
+}
+
+.footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #040404;
+  color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 16px;
+  margin-left: 5px;
+}
+
+a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.previous {
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.previous:hover {
+  background-color: #0d6efd;
+  color: #000000;
+}
+
+.next {
+  color: white;
+  cursor: pointer;
+}
+
+.next:hover {
+  background-color: #0d6efd;
+}
+
+.round {
+  border-radius: 10%;
+}
+
+.dash > .btn.btn-primary.mt-2{
+  margin-bottom: 20px;
+  margin-left: 1100px;
+  background-color: #fe0000;
+  border-color: #fe0000;
+
+}

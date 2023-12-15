@@ -27,8 +27,8 @@ The application consists of 7 main pages:
 To set up the project locally, follow these steps:
 
 ```bash
-git clone https://github.com/your-github-username/DCIT_205_ASSIGNGMENT1.git
-cd repo-name
+git clone https://github.com/gene-999/11310591_DCIT205_Assignment1.git
+cd  11310591_DCIT205_Assignment1
 npm install
 npm start
 ```
@@ -38,6 +38,14 @@ This will start the application on `localhost` at the default port.
 ## Usage
 
 Describe how to use the application, highlighting key functionalities such as logging in, viewing grades, reporting missing grades, and contacting instructors.
+
+1. First login to the page by providing a StudentID and PIN
+2. You are the redirected to the dashboard
+3. There is a navbar where you can access other pages
+4. You can also naviagate across pages using the buttons in the footer section
+5. In the grade page, you have access to all your grades. There is an option to filter by year and or semester
+6. There is also a page where you can make complaints about your grade. You provide a course code, instructor name and expected grade.
+7. In the contact page, you can send an email to a lecturer to expedite the process if need be.
 
 ## Contribution
 
