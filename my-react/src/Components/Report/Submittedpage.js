@@ -5,7 +5,7 @@ const Submittedpage = () => {
     return ( <div className="">
         <div className="z-[10rem] pt-24 flex items-center justify-center  w-screen h-screen ">
            <div className="">
-           <div className="image">
+           <div className="image w-[20rem] md:w-full">
                 <img src={image} alt="" />
             </div>
             <div className="flex items-center justify-center pt-8">

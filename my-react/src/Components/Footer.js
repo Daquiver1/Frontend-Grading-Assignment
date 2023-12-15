@@ -6,10 +6,15 @@ import facebook from './images/facebookicon.jpg';
 const Footer = () => {
     return ( 
         <div className="">
+<<<<<<< HEAD
             <div className="footer w-full mt-15 px-4 pb-6 bg-[#f39c12]">
                 <div className=" text-center  pb-2"><h2 className=" uppercase mt-15 px-4 font-bold text-xl">contact us</h2></div>
+=======
+            <div className="footer md:w-full pb-6 bg-[#f39c12]">
+                <div className=" text-center pb-2"><h2 className=" uppercase font-bold md:text-4xl text-2xl">contact us</h2></div>
+>>>>>>> 06b347391f2612774d57bb7a2c618c69cc6076c4
                 
-                <div className="flex px-8 w-[65%] mx-auto justify-between">
+                <div className="flex px-8 md:w-[65%] mx-auto justify-between">
                     <div className="left space-y-4">
                         {/* one */}
                         <div className="one flex items-center gap-x-2">
