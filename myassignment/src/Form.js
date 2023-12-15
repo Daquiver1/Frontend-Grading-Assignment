@@ -1,6 +1,8 @@
+import './CSS/form.css'
+
 const Form  = () => {
     return (
-        <div className="form1">
+        <div className="forma">
             <h1>Missing grade form page</h1>
             <form action="POST">
                 <label htmlFor="courseName">course name: </label>
@@ -36,7 +38,8 @@ const Form  = () => {
                     
                 </datalist>
 
-                 <textarea name="explanation" id="explanation" cols="20" rows="10" placeholder="What is your explanation?"></textarea>
+                 <textarea name="explanation" className="explanation" cols="20" rows="10" placeholder="What is your explanation?"></textarea>
+                 <input type="submit" className='submitq'/>
 
             </form>
         </div>
