@@ -20,13 +20,14 @@ The application consists of 7 main pages:
 - **Help and Support:** Provides FAQs and a mock support contact form.
 
 ## Technical Details
-
+React & Vite: Fast & efficient development.
+Responsive Design: Flexbox & Grid for any screen.
+TypeScript: Secure forms, dynamic content, and smooth interactions.
 - **Framework/Technology Used:** [React],[Vite]
-- **Responsive Design:** Implemented using [CSS Flexbox/Grid, Bootstrap, Tailwind CSS].
-- **JavaScript Functionality:** Used for form validations, dynamic content rendering, and simulating interactions.
+- **Responsive Design:** Implemented using [CSS Flexbox/Grid]
+- **TypeScript Functionality:** Used for secure forms, dynamic content, and smooth interactions.
 
 ## Setup and Installation
-
 To set up the project locally using SSH, follow these steps:
 
 ```bash
