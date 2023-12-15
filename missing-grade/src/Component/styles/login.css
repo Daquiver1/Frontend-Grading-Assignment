@@ -39,7 +39,7 @@
 }  
 
 .form-position {
-  position: absolute;
+  position:absolute;
   top: 20%;
   left: 20%;
   width: 60%;
@@ -71,7 +71,7 @@ label{
     font-weight: 500;
 }
 input{
-    display: block;
+    display:block;
     height: 50px;
     width: 100%;
     background-color:#fe9e0d;
@@ -81,7 +81,22 @@ input{
     font-size: 14px;
     font-weight: 300;
 }
-
+.login-button{
+  padding: 0.5rem 1.5rem;
+    background-color: #fe9e0d;
+    outline: none;
+    border: none;
+    border-radius: 2rem;
+    font-size: 1.1rem;
+    cursor: pointer;
+    font-weight: 600;
+    color: white;
+    transition: 0.2s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
 
 
 .social{

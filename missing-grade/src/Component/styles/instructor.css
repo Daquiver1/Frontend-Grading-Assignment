@@ -1,18 +1,19 @@
 /* styles/InstructorList.css */
 
-.instructor-list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    color: white;
-  }
-  
-  .instructor-list li {
-    padding: 10px;
-    border-bottom: 1px solid #ccc;
-    cursor: pointer;
-  }
-  
-  .instructor-list li:hover {
-    background-color:  #fe9e0d;}
+.instructors-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+ }
+ 
+ .instructor {
+  background-color:#fe9e0d;;
+  padding: 1rem;
+  border-radius: 5px;
+  width: 300px;
+ }
+ 
+ .instructor h2 {
+  margin-top: 0;
+ }
   

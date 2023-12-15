@@ -3,7 +3,6 @@ import "./styles/Contactus.css";
 import InstructorList from "./instructorlist";
 import ContactBackground from "../Assets/contactus.avif";
 
-
 const Contact = () => {
   const [selectedInstructor, setSelectedInstructor] = useState(null);
   const [emailContent, setEmailContent] = useState("");
@@ -14,14 +13,16 @@ const Contact = () => {
 
   const handleEmailSubmit = () => {
     // Simulate sending an email (you can implement this based on your needs)
-    alert(`Simulating email sent to ${selectedInstructor.name} with content: ${emailContent}`);
+    alert(
+      `Simulating email sent to ${selectedInstructor.name} with content: ${emailContent}`
+    );
   };
 
   return (
-       <div className="contact-section-container">
-  <div className="contact-background-image-container">
-    <img src={ContactBackground} alt="" />
-  </div>
+    <div className="contact-section-container">
+      <div className="contact-background-image-container">
+        <img src={ContactBackground} alt="" />
+      </div>
       <div className="contact-page-wrapper">
         <h1 className="primary-heading">Have a Question in Mind?</h1>
         <h1 className="primary-heading">Let Us Help You</h1>

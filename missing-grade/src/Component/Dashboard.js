@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect } from "react";
 import "./styles/Dashboard.css";
 import {
   LineChart,
@@ -11,7 +11,7 @@ import {
 } from "recharts";
 import { ResponsiveContainer } from "recharts";
 import { BarChart, Bar } from "recharts";
-import StudentImage from '../Assets/login.avif'; // This is correct
+import StudentImage from "../Assets/login.avif"; // This is correct
 
 function Dashboard() {
   const studentData = [
@@ -69,14 +69,14 @@ function Dashboard() {
           <strong> Alert!</strong> You have missing grades.
         </div>
       )}
-  <div className="main-title">
+      <div className="main-title">
         <h1>STUDENT DASHBOARD</h1>
       </div>
 
       <div className="main-cards">
         <div className="card">
           <div className="card-inner">
-          <img src={StudentImage} alt="" />
+            <img src={StudentImage} alt="" />
           </div>
         </div>
       </div>
@@ -90,10 +90,8 @@ function Dashboard() {
         </div>
       </div>
 
-      
-
       <div className="table-container">
-      <table className="student-table">
+        <table className="student-table">
           <thead>
             <tr>
               <th>Subject</th>
@@ -157,19 +155,12 @@ function Dashboard() {
               dataKey="score"
               stroke="#8884d8"
               activeDot={{ r: 8 }}
-              />
-              </LineChart>
-            </ResponsiveContainer>
-          </div>
-        </main>
-      );
-    }
-    
-    export default Dashboard;
+            />
+          </LineChart>
+        </ResponsiveContainer>
+      </div>
+    </main>
+  );
+}
 
-
-
-    
-    
-  
-
+export default Dashboard;

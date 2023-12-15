@@ -1,24 +1,40 @@
 import React from "react";
 import "./styles/instructor.css";
 
-
-const instructors = [
-  { id: 1, name: "Instructor 1", email: "instructor1@example.com", office: "Office 1" },
-  { id: 2, name: "Instructor 2", email: "instructor2@example.com", office: "Office 2" },
-  { id: 3, name: "Instructor 3", email: "instructor3@example.com", office: "Office 3" },
-  // Add more instructors as needed
+const instructorlist = [
+ {
+    id: 1,
+    name: "Michael Agbo Tettey Soli",
+    email: "magbo@st.ug.edu.gh",
+    office: "Office 1",
+ },
+ {
+    id: 2,
+    name: "Abdul Aziz Dwumfour",
+    email: "adwumfour@ug.edu.gh",
+    office: "Office 2",
+ },
+ {
+    id: 3,
+    name: "Mark Atta Mensah",
+    email: "mamensah@ug.edu.gh",
+    office: "Office 3",
+ },
+ // Add more instructors as needed
 ];
 
-const InstructorList = ({ onSelect }) => {
-  return (
-    <ul className="instructor-list">
-      {instructors.map((instructor) => (
-        <li key={instructor.id} onClick={() => onSelect(instructor)}>
-          {instructor.name}
-        </li>
+function Instructor() {
+ return (
+    <div className="instructors-list">
+      {instructorlist.map((instructor) => (
+        <div className="instructor" key={instructor.id}>
+          <h2>{instructor.name}</h2>
+          <p>Email: {instructor.email}</p>
+          <p>Office: {instructor.office}</p>
+        </div>
       ))}
-    </ul>
-  );
-};
+    </div>
+ );
+}
 
-export default InstructorList;
+export default Instructor;

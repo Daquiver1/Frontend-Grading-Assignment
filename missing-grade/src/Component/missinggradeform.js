@@ -1,7 +1,6 @@
-
 import React from "react";
 import MissingBackground from "../Assets/forms.avif";
-import "./styles/missinggade.css"; 
+import "./styles/missinggade.css";
 
 const MissinggradeForm = () => {
   return (
@@ -16,13 +15,17 @@ const MissinggradeForm = () => {
           Fill out the form to report a missing grade
         </p>
 
-        
         <form className="missing-grade-form">
           <label htmlFor="courseName">Course Name:</label>
           <input type="text" id="courseName" name="courseName" required />
 
           <label htmlFor="instructorName">Instructor Name:</label>
-          <input type="text" id="instructorName" name="instructorName" required />
+          <input
+            type="text"
+            id="instructorName"
+            name="instructorName"
+            required
+          />
 
           <label htmlFor="expectedGrade">Expected Grade:</label>
           <input type="text" id="expectedGrade" name="expectedGrade" required />

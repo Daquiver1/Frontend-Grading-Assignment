@@ -61,33 +61,6 @@ nav {
 
 
 
-.footer-wrapper {
-  display:flex;
-  justify-content: center;
-  width: 100%;
-  background-color:beige;
-  margin-top: 16rem;
- }
- 
- .footer-section-two {
-  flex: 1;
-  display: flex;
-  justify-content: flex-end;
- }
- 
- .footer-section-columns {
-  display: flex;
-  flex-direction: column;
-  min-width: 190px;
- }
- 
- .footer-section-columns span {
-  margin: 0.25rem 0rem;
-  font-weight: 600;
-  color: black;
-  cursor: pointer;
- }
-
 @media (max-width: 1000px) {
   .navbar-links-container a {
     margin-right: 1rem;

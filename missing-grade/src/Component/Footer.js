@@ -1,39 +1,65 @@
+// Footer.js
+
 import React from "react";
-import  TwitterIcon from "@mui/icons-material/Twitter";
-import  LinkedinIcon from "@mui/icons-material/LinkedIn";
-import YoutubeIcon from "@mui/icons-material/YouTube";
-import  FacebookIcon from "@mui/icons-material/Facebook";
+import { IconButton } from "@mui/material";
+import { Facebook, Twitter, Instagram, LinkedIn } from "@mui/icons-material";
+import "./styles/footer.css";
 
 const Footer = () => {
   return (
-    <div className="footer-wrapper">
-      <div className="footer-section-one">
-        
-        <div className="footer-icons">
-          <TwitterIcon />
-          <LinkedinIcon />
-          <YoutubeIcon />
-          <FacebookIcon />
+    <div className="footer">
+      <div className="main-footer">
+        {/* Location */}
+        <div className="footer-inner-content">
+          <h2>Location</h2>
+          <p>
+            Legon first,
+            <br />
+            East Legon, Accra
+            <br />
+            GK-01586-008.
+          </p>
+        </div>
+
+        {/* Our Services */}
+        <div className="footer-inner-content">
+          <h2>Our Services</h2>
+          <p>
+            Security Services
+            <br />
+            Computing Services
+          </p>
+        </div>
+
+        {/* Contact */}
+        <div className="footer-inner-content">
+          <h2>Contact</h2>
+          <p>
+            Tel: +233-501 382 035 <br />
+            Email: dcs@ug.edu.gh
+          </p>
+        </div>
+
+        {/* Social Icons */}
+        <div className="footer-inner-content social-icons">
+          <h2>Follow Us</h2>
+          <IconButton aria-label="Facebook">
+            <Facebook />
+          </IconButton>
+          <IconButton aria-label="Twitter">
+            <Twitter />
+          </IconButton>
+          <IconButton aria-label="Instagram">
+            <Instagram />
+          </IconButton>
+          <IconButton aria-label="LinkedIn">
+            <LinkedIn />
+          </IconButton>
         </div>
       </div>
-      <div className="footer-section-two">
-        <div className="footer-section-columns">
-          <span>Qualtiy</span>
-          <span>Help</span>
-          <span>Share</span>
-          
-        </div>
-        <div className="footer-section-columns">
-          <span>244-5333-7783</span>
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
-        <div className="footer-section-columns">
-          <span>Terms & Conditions</span>
-          <span>Privacy Policy</span>
-        </div>
-      </div>
+
+      {/* Additional content */}
+      <div className="text-container"></div>
     </div>
   );
 };
