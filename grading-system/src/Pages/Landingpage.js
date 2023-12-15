@@ -3,6 +3,7 @@ import Navbar from '../Component/Navbar'
 import Hero from '../Component/Hero'
 import Footer from '../Component/Footer'
 
+
 function Landingpage() {
   return (
     <div>
@@ -11,6 +12,7 @@ function Landingpage() {
     <Navbar />
     <Hero />
     <Footer />
+    
 
     </div>
   )
