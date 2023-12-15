@@ -19,7 +19,12 @@ display: flex;
 width:1500px;
 align-items: center;
 }
-
+@media screen and (max-width: 768px) {
+  .tabs-container {
+    flex-direction: column;
+    text-align: center;
+  }
+}
 .nav-link{
   color:aliceblue !important;
   
