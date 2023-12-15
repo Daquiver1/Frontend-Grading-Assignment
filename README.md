@@ -59,7 +59,7 @@ Please adhere to the project's coding standards and provide clear and detailed p
 ![Dashboard 2](Screenshots/Screenshot178.png)
 ![Dashboard 3](Screenshots/Screenshot179.png)
 ![Grade Report 1](Screenshots/Screenshot180.png)
-![Grade Report 2](/Frontend-Grading-Assignment/missing-grade-reporting-system/Screenshots/Screenshot%20(181).png)
+![Grade Report 2](/missing-grade-reporting-system/Screenshots/Screenshot181.png)
 ![Grade Report 3](Screenshots/Screenshot182.png)
 ![Help and Support 1](Screenshots/Screenshot183.png)
 ![Help and Support 2](Screenshots/Screenshot184.png)
