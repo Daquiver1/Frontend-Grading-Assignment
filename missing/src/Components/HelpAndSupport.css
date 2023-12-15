@@ -1,0 +1,109 @@
+body{
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url('./img/landing-page-bg.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:2000px
+}
+
+.page-body{
+  margin-top: 50px;
+}
+
+.FAQs{
+  display:flex;
+  font-family: 'Poppins',sans-serif;
+  padding: 40px;
+}
+
+.faq-head{
+  color:rgb(42, 63, 88);
+  font-size: 26px;
+  text-align: center;
+}
+
+.faq-field{
+  flex:1;
+  font-size: 14px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition:0.5s
+}
+.welcome{
+  text-align: center;
+  font-size: 50px;
+  font-weight:700 ;
+  color: white;
+}
+
+.contact-tech-support{
+  display:flex;
+  font-family: 'Poppins',sans-serif;
+  padding: 40px;
+}
+
+section{
+  display: flex;
+  align-items: center;
+}
+
+.technical-support-form{
+  flex:1;
+  text-align: center;
+  background-color: #fff;
+  padding: 20px;
+  width: 500px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition:0.5s
+}
+.technical-support-form:hover{
+  box-shadow: 0 0 5px rgba(0, 0, 0, 10);
+} 
+.tech-text-box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.textbox{
+  flex:1;
+  margin:20px 0;
+  padding:8px;
+  font-family: 'Poppins',sans-serif;
+  width:270px;
+  background-color: aliceblue;
+  border:none;
+}
+
+.textarea{
+  margin:20px 0;
+  padding:8px;
+  font-family: 'Poppins',sans-serif;
+  background-color: aliceblue;
+  border:none;
+  width: 300px;
+  height: 150px
+}
+
+.submit-button{
+  font-family: 'Poppins',sans-serif;
+  display: inline-block;
+  padding: 10px 20px;
+  margin-top: 20px;
+  text-decoration: none;
+  background-color: rgb(0, 123, 255);
+  color: #fff;
+  border:none;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+.submit-button:hover{
+  background-color: rgb(0, 86, 179);
+}

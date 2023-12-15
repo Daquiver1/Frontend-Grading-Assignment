@@ -1,13 +1,9 @@
-import logo from './logo.svg';
-import './App.css';
-import LoginSignup from './Components/LoginSignup/LoginSignup';
+import Login from "./components/loginform";
 
 function App() {
-  return (
-    <div>
-      <LoginSignup/>
+  return(
+    <div className="page">
+      <LoginForm />
     </div>
-  );
+  )
 }
-
-export default App;
