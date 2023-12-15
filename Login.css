@@ -1,0 +1,73 @@
+.loginbox{
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    image-resolution: 1000dpi;
+}
+
+
+.loginbox{
+    width: 380px;
+    height: 420px;
+    background: rgb(25, 39, 25);
+    color: #fff;
+    top: 20%;
+    left: 40%;
+    position: absolute;
+    transform: (-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+   
+}
+.h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.log{
+    border: none;
+    outline: darkslategrey;
+    height: 40px;
+    border-radius: 10px;
+    color:green;
+    width: 20px;
+    padding-left: 20px;
+    padding-right: 15px;
+    padding-bottom: 40px;
+    background-color: rgb(4, 59, 41);
+    font-style: italic;
+    text-align: justify;
+    font-size: 1.5rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+.log:hover{
+    cursor: pointer;
+    background: hsl(80, 91%, 5%);
+    color:#fff;
+}
+.form1 input{
+    width: 250px;
+    text-align: start;
+    color: #fff;
+    padding-right: 10px ;
+    margin-left: 0px;
+    padding: 9px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom-color: #2f1414;
+    border-color: solid #141313; 
+    background-color: rgb(12, 15, 15);  
+  
+}
+.form1 p{
+    margin-left: 10px;
+}
