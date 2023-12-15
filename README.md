@@ -2,6 +2,9 @@
 
 ## Project Overview
 
+ID: 11065950 
+NAME: OJI NANA AKPAABE-ADESSA
+
 This project is a front-end web application for a Student Grade Reporting System. It simulates a real-world application where students can view, report, and manage their academic grades. This system addresses the issue of missing or unrecorded grades in a student's profile.
 
 ## Application Structure
