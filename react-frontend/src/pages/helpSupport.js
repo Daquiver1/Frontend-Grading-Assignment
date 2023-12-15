@@ -18,27 +18,33 @@ class helpSupport extends Component {
             </p>
           </div>
           <div className="FAQItem">
-            <h3>How does grade reporting work?</h3>
+            <h3>What happens if my grade is recorded incorrectly?</h3>
             <p>
-              Grade reporting in the application allows users to access and
-              manage their academic grades. This feature enables students to
-              easily monitor their performance and progress over time.
+              If an incorrect grade is recorded, notify your instructor
+              immediately. They will initiate the process for grade correction
+              or rectification. Maintain documentation or evidence supporting
+              your claim to facilitate the resolution.
             </p>
           </div>
           <div className="FAQItem">
-            <h3>How does grade reporting work?</h3>
+            <h3>How can I access my course grades online?</h3>
             <p>
-              Grade reporting in the application allows users to access and
-              manage their academic grades. This feature enables students to
-              easily monitor their performance and progress over time.
+              Access to course grades might vary based on the learning
+              management system (LMS) used by your institution. Log in to the
+              designated platform and navigate to the grade or assessment
+              section to view your current grades. If you encounter issues, seek
+              technical support from your institution's IT department
             </p>
           </div>
           <div className="FAQItem">
-            <h3>How does grade reporting work?</h3>
+            <h3>
+              How long does it take for grades to be updated in the system?
+            </h3>
             <p>
-              Grade reporting in the application allows users to access and
-              manage their academic grades. This feature enables students to
-              easily monitor their performance and progress over time.
+              Grades are typically updated within a specified timeframe by the
+              instructor after an assessment. However, the exact duration can
+              vary. If you have concerns about a specific grade, consult your
+              course guidelines or contact your instructor for more information.
             </p>
           </div>
         </div>
