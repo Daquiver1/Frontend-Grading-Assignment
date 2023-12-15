@@ -1,3 +1,4 @@
+11124173
 # Student Grade Reporting System Frontend
 
 ## Project Overview
@@ -49,3 +50,18 @@ To contribute to this project, please follow these guidelines:
 4. Submit a pull request for review.
 
 Please adhere to the project's coding standards and provide clear and detailed pull request descriptions.
+
+![Screenshot 2023-12-15 214635](https://github.com/Aaron-yeboah/report-system/assets/149178829/56a3b552-5865-4f59-a1bb-bf089d520b06)
+
+![Screenshot 2023-12-15 214707](https://github.com/Aaron-yeboah/report-system/assets/149178829/3ae25327-c94c-4770-99e0-e1f052331603)
+
+![Screenshot 2023-12-15 214728](https://github.com/Aaron-yeboah/report-system/assets/149178829/1649b5bc-0aa1-4845-b86d-5c98bdc1acd0)
+
+![Screenshot 2023-12-15 214744](https://github.com/Aaron-yeboah/report-system/assets/149178829/d1288ee8-2cfc-406f-b535-657fb9cf738f)
+
+![Screenshot 2023-12-15 214757](https://github.com/Aaron-yeboah/report-system/assets/149178829/c46eb579-be15-4af0-ba4d-b485d87c05da)
+
+![Screenshot 2023-12-15 214811](https://github.com/Aaron-yeboah/report-system/assets/149178829/57e7f7f6-8197-4698-9c87-92d3285a7303)
+
+![Screenshot 2023-12-15 214829](https://github.com/Aaron-yeboah/report-system/assets/149178829/56ca62b5-b588-432c-853b-0bfbfcac3761)
+
