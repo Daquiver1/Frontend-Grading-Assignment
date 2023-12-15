@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Header.css';
 
 const Header = () => {
@@ -11,25 +12,25 @@ const Header = () => {
       <nav className="nav">
         <ul className="nav-list">
           <li className="nav-item">
-            <a href="./home.js" className="nav-link">Home</a>
+            <Link to="/" className="nav-link">Home</Link>
           </li>
           <li className="nav-item">
-            <a href="./missinggrade.js" className="nav-link">Missing Grade</a>
+            <Link to="/missinggrade" className="nav-link">Missing Grade</Link>
           </li>
           <li className="nav-item">
-            <a href="./gradereport.js" className="nav-link">Grade Report</a>
+            <Link to="/gradereport" className="nav-link">Grade Report</Link>
           </li>
           <li className="nav-item">
-            <a href="./Contacts.js" className="nav-link">Contact</a>
+            <Link to="/Contacts" className="nav-link">Contact</Link>
           </li>
           <li className="nav-item">
-            <a href='./signup.js' className="nav-link sign">Sign In</a>
+            <Link to='/signup' className="nav-link sign">Sign In</Link>
           </li>
           <li className="nav-item">
-            <a href='./help.js' className="nav-link">Help</a>
+            <Link to='/help' className="nav-link">Help</Link>
           </li>
           <li className="nav-item">
-            <a href='./Dashboard.js' className="nav-link">Dashboard</a>
+            <Link to='/Dashboard' className="nav-link">Dashboard</Link>
           </li>
         </ul>
       </nav>
