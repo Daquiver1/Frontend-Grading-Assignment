@@ -12,6 +12,9 @@ function NavBar() {
         <>
             <div className="lg:hidden block absolute top-16 w-full left-0 right-0 bg-rich-black transition">
                 <ul className="text-center tet-xl p-20">
+                <Link to="Home">
+                        <li className = "my-4 py-4 border-b border-rich-black hover:bg-rich-black hover:rounded ">Home</li>
+                    </Link>
                     <Link to="Login">
                         <li className = "my-4 py-4 border-b border-rich-black hover:bg-rich-black hover:rounded ">Login</li>
                     </Link>
