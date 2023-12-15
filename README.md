@@ -2,6 +2,7 @@
 
 ## Details
 **Name"** Saeeda Sanusi Tofa
+
 **ID:** 11352339
 
 ## Project Overview
@@ -53,3 +54,26 @@ To contribute to this project, please follow these guidelines:
 4. Submit a pull request for review.
 
 Please adhere to the project's coding standards and provide clear and detailed pull request descriptions.
+
+## Screenshots
+![Alt text](src/assets/home.png)
+
+![Alt text](src/assets/login.png)
+
+![Alt text](src/assets/dashboard.png)
+
+![Alt text](src/assets/grade-report.png)
+
+![Alt text](src/assets/missing-grade.png)
+
+![Alt text](src/assets/instructor-contact.png)
+
+![Alt text](<src/assets/help and support.png>)
+
+
+
+
+
+
+
+
