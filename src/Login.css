@@ -12,11 +12,11 @@
 .login-form {
   width: 300px;
   padding: 20px;
-  border: 1px solid #a21010;
+  border: 1px solid #0b0404;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   
-  background-color: rgb(212, 180, 33); /* Add a background color */
+  background-color: rgb(233, 193, 14); /* Add a background color */
 }
 
 label {
@@ -31,9 +31,9 @@ input {
   box-sizing: border-box;
 }
 
-button {
-  background-color: #007BFF;
-  color: white;
+.h-button {
+  background-color: hsl(211, 89%, 39%);
+  color: #c92929;
   padding: 10px;
   border: none;
   border-radius: 5px;
@@ -68,5 +68,9 @@ body:not(header) {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+}
+
+h2{
+  color: #000;
 }
 

@@ -22,7 +22,17 @@ const Layout = ({ children }) => (
     <div className="content">{children}</div>
 
     <footer>
-      <p>&copy; 2023 Your Website. All rights reserved.</p>
+      <div className="footer-content">
+        <div className="footer-section">
+          <h3>Contact Information</h3>
+          <p>Email: Dcs@ug.edu.gh</p>
+          <p>Phone: +233 541398926</p>
+        </div>
+       
+      </div>
+      <div className="copyright">
+        <p>&copy; 2023 University of Ghana . All rights reserved.</p>
+      </div>
     </footer>
 
 

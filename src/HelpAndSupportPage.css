@@ -1,0 +1,60 @@
+/* src/HelpAndSupportPage.css */
+.help-support-container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background-color: hwb(0 96% 2%);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid hwb(0 7% 91%); /* Black border */
+  }
+  
+  h2 {
+    color: hsl(2, 100%, 45%); /* Yellow color for the header */
+  }
+  
+  .faq-section h3,
+  .contact-form h3 {
+    color: #100f0e; /* Yellow color for section headers */
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    border: 1px solid #000; /* Black border */
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px 0;
+  }
+  
+  .contact-form form {
+    margin-top: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+  }
+  
+  button {
+    background-color: hsl(12, 100%, 45%); /* Yellow color for the button */
+    color: white;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #d46f00; /* Darker shade on hover */
+  }
+  
