@@ -1,34 +1,35 @@
 .login-btn {
-    display: flex;
-    align-items: center;
-    gap: 45px;
-  }
-  
-  .login-btn button {
-    width: 145px;
-    height: 50px;
-    outline: none;
-    border: 2px solid rgb(57, 57, 227);
-    border-radius: 78px;
-    color: rgb(57, 57, 227);
-    font-size: 20px;
-    font-weight: 500;
-    background: white;
-    cursor: pointer;
-  }
-  
-  .login-btn button:active {
-    background: rgb(57, 57, 227);
-    color: white;
-  }
-  .login-btn {
-    flex-direction: column;
-    gap: 10px;
-    margin-top: 10px;
-  }
+  display: flex;
+  align-items: center;
+  gap: 45px;
+}
 
-  .login-btn button {
-    width: 300px;
-    max-width: 200px;
-    font-size: 16px;
-  }
+.login-btn button {
+  width: 145px;
+  height: 50px;
+  outline: none;
+  border: 2px solid rgb(57, 57, 227);
+  border-radius: 78px;
+  color: rgb(57, 57, 227);
+  font-size: 20px;
+  font-weight: 500;
+  background: white;
+  cursor: pointer;
+}
+
+.login-btn button:active {
+  background: rgb(57, 57, 227);
+  color: white;
+}
+
+.login-btn {
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.login-btn button {
+  width: 300px;
+  max-width: 200px;
+  font-size: 16px;
+}
