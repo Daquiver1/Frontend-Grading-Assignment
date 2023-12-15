@@ -7,8 +7,8 @@
 
 ### Description
 The Student Academic Portal is a user-friendly platform designed to empower students with easy access to their academic grades, provide insights into missing grades, and offer a streamlined process to address any errors or discrepancies in the grading system.
-<b>
-<b>
+
+
 ## Key Features
 ### 1. Grade Overview.
 - Students can effortlessly view their comprehensive academic grades at a glance.
