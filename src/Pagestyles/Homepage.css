@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=poppins:wght@400;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+  font-family: "Poppins",sans-serif;;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+p{
+  font-size: 1rem;
+}
+h2{
+  font-size: 2rem;
+  font-weight: 700;
+}
+h1{
+  font-size: 2rem;
+  font-weight: 900;
+  color: white;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.flexColumn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+  }
+.main{
+    width:100%;
+}
+.container{
+    width: 100%;
+}
+.firstBar{
+    width: 100%;
+    background-color: #8c1515;
+    border-bottom: 1px solid #f4f4f4;
+}
+.bars{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    scroll-behavior: smooth;
+}
+.uglogo{
+    padding: 5px 20px;
+}
+.uglogo>img{
+    border-radius: 5px;
+}
+.uglogo>p{
+    float: right;
+    color: white;
+}
+.secondBar{
+    width: 100%;
+    background-color:  #8c1515;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.secondBar>input{
+    padding: 0px 10px;
+    width: 20%;
+    border-radius: 25px;
+    font-style: italic;
+    font-weight: 600;
+    color: rgb(169, 167, 167);
+    border: none;
+}
+.flexRow{
+    width: 100%;
+    margin: auto;
+    background-color: #8c1515;
+    position: relative;
+}
+.flexRow>ul{
+    display: flex;
+    width: 100%;
+    background-color:#969595;
+    align-items: center;
+    
+    
+}
+.flexRow>ul>li{
+    width: calc(100%/6);
+        box-shadow: 0 0 0 1px #e0e0e0; /* Adjust the color and spread to control thickness */
+        padding: 20px;
+        transition: .2s ease;
+        display: flex;
+    justify-content: space-between;
+      }
+      .flexRow>ul>li:hover{
+        background-color: white;
+        cursor: pointer;
+        color: #8c1515;
+      }
+      
+.flexRow>ul>li>a{
+color: rgb(35, 35, 35);
+font-weight: 600;
+
+}
+.flexRow>section{
+    position: absolute;
+    top: 20vh;
+}
+   
+.dropdown>ul>li{
+    width: 15vw;
+    padding: 20px;
+}
+.dropdown>ul{
+    background-color: pink;
+    
+}
+.maindrop{
+    width:90%;
+    display: flex;
+    gap: 1rem;
+}
+.purpose{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: auto;
+    padding: 30px 0px;
+    gap: 2rem;
+    margin-top: 23vh;
+}
+.leftpanel{
+    width: 70%;
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 10px;
+    border-color: #969595;
+    border-radius: 5px;
+    background-color:  #f4f4f4;
+}
+.leftform{
+    border: none;
+    height: 50vh;
+    
+}
+.leftform>textarea{
+    border: 2px solid silver;
+    outline: none;
+    padding: 10px;
+    resize: none;
+    border-radius: 10px;
+}
+.leftlinks{
+    width: 100%;
+    padding: 50px 0px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    
+}
+.leftlinks>ul{
+    line-height: 5vh;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+.leftlinks>ul>li>a{
+    color: #969595;
+}
+.leftlinks>ul>li{
+    padding: 2px;
+    text-align: center;
+    border-radius: 5px;
+}
+.leftlinks>ul>li:hover{
+    background-color: #4a4848;
+    color: white;
+}
+.leftlinks>ul>li:hover a{
+    text-decoration: underline;
+    color: white;
+}
+.img{
+    display: flex;
+    justify-content: center;
+}
+
+.navbtn{
+    padding: 15px;
+    font-size: 14px;
+    font-family: 600;
+    border-radius: 5px;
+    border: 2px solid black;
+    width: 80%;
+    color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: space-between;
+    transition:.1s ease;
+    border-color: #e82d2d;
+    background-color: #ea1119;
+}
+.navbtn:hover{
+    cursor: pointer;
+    width:82%;
+}
+
+
+.directives{
+    display: flex;
+    flex-direction: column;
+    padding:50px 10px;
+}
+.directives>h3{
+    color: #8c1515;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.directives>p{
+    color: #4a4848;
+}
+.directives>ol{
+    display: flex;
+    gap: 3rem;
+    flex-direction: column;
+}
+.directives>ol>li{
+    color: #4a4848;
+}

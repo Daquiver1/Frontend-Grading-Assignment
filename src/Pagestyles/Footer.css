@@ -1,0 +1,33 @@
+.footer{
+    width: 100%;
+    margin: auto;
+    background-color: #8c1515;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 30px;
+    gap: 2rem;
+}
+
+.footerbox{
+    height: 40vh;
+    width: 30%;
+    padding: 10px;
+}
+.footerbox>h3{
+    color: white;
+
+}
+h4{
+    color: rgb(132, 132, 133);
+}
+.footerbox>p>a{
+color: white;
+}
+.footerbox>p,.footer>p>a{
+    padding-top:20px;
+     border-bottom: 1px solid silver;
+     margin-bottom: 5px;
+    
+}
+
