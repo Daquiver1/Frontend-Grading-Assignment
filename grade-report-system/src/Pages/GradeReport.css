@@ -1,0 +1,45 @@
+
+  
+  h1, h2 {
+    text-align: center;
+    color: #333;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  .gradelabel {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    color: white;
+    font-size: 20px;
+    background-color: rgb(224, 172, 0);
+  }
+  
+  select {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 80%;
+    margin-left: 60px;
+    height: 40px;
+    margin-top: 10px;
+  }
+  
+  .gradelist{
+    list-style-type: none;
+    padding: 0;
+    color: white;
+    background-color: rgb(224, 172, 0) ;
+  }
+  
+  .list {
+    background-color: rgba(2, 2, 51);
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  

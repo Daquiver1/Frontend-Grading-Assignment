@@ -95,6 +95,7 @@ span{
  margin-top: 30px;
   padding: 20px;
   background-color: rgb(2, 2, 51);
+  z-index: 300;
   border-radius: 20px
 }
 
