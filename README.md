@@ -1,8 +1,9 @@
 # Student Grade Reporting System Frontend
 
-## Project Overview
+# Nyabledzi Theophila Etornam_11333260
 
-This project is a front-end web application for a Student Grade Reporting System. It simulates a real-world application where students can view, report, and manage their academic grades. This system addresses the issue of missing or unrecorded grades in a student's profile.
+## Project Overview
+This undertaking involves developing a web application's front-end dedicated to a Student Grade Reporting System. It emulates a real-world scenario, enabling students to access, report, and oversee their academic grades. The primary focus is resolving the problem of missing or unrecorded grades within a student's profile.
 
 ## Application Structure
 
@@ -37,7 +38,37 @@ This will start the application on `localhost` at the default port.
 
 ## Usage
 
-Describe how to use the application, highlighting key functionalities such as logging in, viewing grades, reporting missing grades, and contacting instructors.
+To navigate and maximize the application's utility, follow these key steps:
+
+Logging In:
+
+Begin by logging into the system using your designated credentials.
+Enter your username and password in the login interface to gain access.
+
+Viewing Grades:
+
+Once logged in, navigate to the grades section to view your academic performance.
+Grades for various courses should be displayed clearly, providing a comprehensive overview.
+
+Reporting Missing Grades:
+
+If you notice any discrepancies or missing grades, use the designated reporting feature.
+Locate the option for reporting missing grades within the application interface.
+Follow the prompts to input the necessary details, such as the course and specific grade concern.
+
+Contacting Instructors:
+
+For further clarification or communication with instructors, explore the communication module.
+Look for an option to contact instructors or initiate communication within the application.
+Utilize the provided messaging system to send inquiries or requests for additional information.
+
+Additional Features:
+
+Explore any additional features or functionalities provided by the application.
+Familiarize yourself with tools for tracking academic progress, setting notifications, or accessing relevant resources.
+
+By following these steps, users can seamlessly navigate the application, ensuring efficient utilization of its key functionalities, including logging in, viewing grades, reporting missing grades, and contacting instructors.
+
 
 ## Contribution
 
