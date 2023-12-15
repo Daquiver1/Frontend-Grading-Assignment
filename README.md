@@ -1,3 +1,5 @@
+# 11210385
+# ASSIGNMENT ONE
 # Student Grade Reporting System Frontend
 
 ## Project Overview
@@ -19,7 +21,7 @@ The application consists of 7 main pages:
 ## Technical Details
 
 - **Framework/Technology Used:** [React]
-- **Responsive Design:** Implemented using [CSS Flexbox/Grid, Bootstrap, Tailwind CSS].
+- **Responsive Design:** Implemented using [CSS Flexbox/Grid, Tailwind CSS].
 - **JavaScript Functionality:** Used for form validations, dynamic content rendering, and simulating interactions.
 
 ## Setup and Installation
@@ -27,7 +29,7 @@ The application consists of 7 main pages:
 To set up the project locally, follow these steps:
 
 ```bash
-git clone https://github.com/your-github-username/DCIT_205_ASSIGNGMENT1.git
+git clone https://github.com/doreen09/11210385_DCIT205_ASSIGNMENT
 cd repo-name
 npm install
 npm start
@@ -36,8 +38,8 @@ npm start
 This will start the application on `localhost` at the default port.
 
 ## Usage
+ The system once opened takes the user to the Landing page. The Landing page has all the navigations to the Login, Dashboard, Grade Reports and Help pages. An overview of user's performance can be found on the Dashboard whereas the Grade Reports Page provides a detailed view of courses and respective grades. A link provided on the Grade Reports page provides the user with a Missing Grade Report Form, where the user can make complaints about missing grades. The Help & Suppot page also has a link to the Instructors Page, which enables the user to get acquianted with instructors and also, communicate with them.
 
-Describe how to use the application, highlighting key functionalities such as logging in, viewing grades, reporting missing grades, and contacting instructors.
 
 ## Contribution
 
