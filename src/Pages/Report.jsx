@@ -18,6 +18,8 @@ const Report = () => {
             <Nav className="me-1">
               <Nav.Link href="/" className="active">Home</Nav.Link>
               <Nav.Link href="/dashboard" >Dashboard</Nav.Link>
+              <Nav.Link href="/grade" >Grade</Nav.Link>
+
               <Nav.Link href="/report">Report</Nav.Link>
               <Nav.Link href="/contact">Instructor's Contact</Nav.Link>
               <Nav.Link href="/help">FAQ & Support</Nav.Link>

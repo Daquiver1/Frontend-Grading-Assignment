@@ -17,6 +17,8 @@ function Dashboard() {
               <Nav.Link href="/" className="active">Home</Nav.Link>
               <Nav.Link href="/dashboard" >Dashboard</Nav.Link>
               <Nav.Link href="/report">Report</Nav.Link>
+              <Nav.Link href="/grade" >Grade</Nav.Link>
+
               <Nav.Link href="/contact">Instructor's Contact</Nav.Link>
               <Nav.Link href="/help">FAQ & Support</Nav.Link>
               <Nav.Link href="/login">LogOut</Nav.Link>
