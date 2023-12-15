@@ -1,20 +1,28 @@
+
+# Student ID: 11056149
+
 # Student Grade Reporting System Frontend
 
 ## Project Overview
 
-This project is a front-end web application for a Student Grade Reporting System. It simulates a real-world application where students can view, report, and manage their academic grades. This system addresses the issue of missing or unrecorded grades in a student's profile.
+This project is a front-end web application for a Student Grade Reporting System.
+ ## Prerequisites
 
+- **Before you begin, make sure the following tools installed on your machine.**:Node.js -javaScript runtime
+  npm-Node.js package manager(usually comes with Node.js)
+  
 ## Application Structure
-
-The application consists of 7 main pages:
 
 - **Homepage:** Introduction to the system and its purpose.
 - **Login Page:** Mock login interface for student authentication.
+  
 - **Dashboard:** Displays an overview of the student’s current grades and alerts for missing grades.
 - **Grade Report:** Shows a detailed view of the student's grades filtered by semester or academic year.
 - **Missing Grade Form:** Enables students to report missing grades.
+  
 - **Instructor Contact Page:** Lists instructors' contact information with a simulated email feature.
-- **Help and Support:** Provides FAQs and a mock support contact form.
+
+- **Help and Support:** Provides FAQs and a mock support contact form.-
 
 ## Technical Details
 
