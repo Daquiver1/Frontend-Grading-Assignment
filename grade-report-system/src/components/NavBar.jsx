@@ -45,7 +45,11 @@ function NavBar() {
 
                     <div className="flex-10">
                         <ul className="flex gap-8 mr-16 text-[18px]">
-                            <Link spy = {true} smooth = {true} to="./Login">
+
+                        <Link spy = {true} smooth = {true} to="Home">
+                                <li className = "hover:text-honolulu-blue transition   hover:border-b-2 border-honolulu-blue  cursor-pointer">Home</li>
+                            </Link>
+                            <Link spy = {true} smooth = {true} to="/Login">
                                 <li className = "hover:text-honolulu-blue transition   hover:border-b-2 border-honolulu-blue  cursor-pointer">Login</li>
                             </Link>
 

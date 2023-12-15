@@ -1,0 +1,27 @@
+/* HeroSection.css */
+
+#heroSection {
+    position: relative;
+  }
+  
+  #heroSection img {
+    width: 100%;
+    height: auto;
+  }
+
+  img{
+    width: 100%;
+    height: auto;
+  }
+  
+  #imageText {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 2em;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+  }
+  

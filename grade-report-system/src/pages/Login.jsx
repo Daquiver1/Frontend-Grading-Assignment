@@ -1,8 +1,15 @@
-function Login(){
-    return(
-<>
-login mate
-</>
+import React from 'react'
+import Footer from '../components/Footer'
+import NavBar from '../components/NavBar.jsx'
+function Login() {
+    return (
+        <>
+        <NavBar/>
+        <div>
+            Brrr
+        </div>
+        <Footer/>
+        </>
     )
 }
 
