@@ -10,10 +10,10 @@ const GradeReportPage = () => {
     { id: 4, name: 'CDIT442', grade: 'A', year: 2022 },
     { id: 5, name: 'GYAL442', grade: 'B+', year: 2022 },
     { id: 6, name: 'MATH123', grade: 'A', year: 2022 },
-    // Add more courses as needed
+  
   ];
 
-  // Calculate GPA
+  
   const calculateGPA = () => {
     const gradePoints = {
       'A': 4.0,
