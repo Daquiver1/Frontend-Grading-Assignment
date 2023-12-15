@@ -1,51 +1,82 @@
-# Student Grade Reporting System Frontend
+# DCIT 205 Assignment 1 - Missing Grade Reporting System
 
-## Project Overview
+## Overview
 
-This project is a front-end web application for a Student Grade Reporting System. It simulates a real-world application where students can view, report, and manage their academic grades. This system addresses the issue of missing or unrecorded grades in a student's profile.
+This project is my submission for Assignment 1 of the DCIT 205 course. The goal is to create a 7-page website serving as the front end for a "Missing Grade Reporting System." The system helps students track and report grades that are not recorded in their academic profiles.
 
-## Application Structure
+## Features
 
-The application consists of 7 main pages:
+- Responsive website design.
+- Landing Page: Overview of the system with navigation links.
+- Login Page: Secure login form for students (simulated authentication).
+- Dashboard Page: Overview of the student’s current grades with alerts for missing grades.
+- Grade Report Page: Detailed view of all courses and respective grades, with filtering options.
+- Missing Grade Form Page: Form to report a missing grade with confirmation message (no real submission).
+- Instructor Contact Page: List of instructors with contact details and option to send simulated emails.
+- Help and Support Page: FAQ section regarding grade reporting and a contact form for technical support (mock-up).
 
-- **Homepage:** Introduction to the system and its purpose.
-- **Login Page:** Mock login interface for student authentication.
-- **Dashboard:** Displays an overview of the student’s current grades and alerts for missing grades.
-- **Grade Report:** Shows a detailed view of the student's grades filtered by semester or academic year.
-- **Missing Grade Form:** Enables students to report missing grades.
-- **Instructor Contact Page:** Lists instructors' contact information with a simulated email feature.
-- **Help and Support:** Provides FAQs and a mock support contact form.
+## Technologies Used
 
-## Technical Details
-
-- **Framework/Technology Used:** [React]
-- **Responsive Design:** Implemented using [CSS Flexbox/Grid, Bootstrap, Tailwind CSS].
-- **JavaScript Functionality:** Used for form validations, dynamic content rendering, and simulating interactions.
-
-## Setup and Installation
-
-To set up the project locally, follow these steps:
-
-```bash
-git clone https://github.com/your-github-username/DCIT_205_ASSIGNGMENT1.git
-cd repo-name
-npm install
-npm start
-```
-
-This will start the application on `localhost` at the default port.
+- React
+- CSS
+- Vite
 
 ## Usage
 
-Describe how to use the application, highlighting key functionalities such as logging in, viewing grades, reporting missing grades, and contacting instructors.
+To run the project locally, follow these steps:
 
-## Contribution
+1. Clone the repository.
+2. Navigate to the project directory.
+3. Run `npm install` to install dependencies.
+4. Run `npm start` to start the development server.
 
-To contribute to this project, please follow these guidelines:
+## Pages
 
-1. Fork the repository.
-2. Create a new branch for your feature.
-3. Commit your changes and push them to your branch.
-4. Submit a pull request for review.
+1. **Home Page:**
 
-Please adhere to the project's coding standards and provide clear and detailed pull request descriptions.
+   - Overview of the system.
+   - Navigation links to other pages.
+
+2. **Login Page:**
+
+   - Secure login form for students (Student ID and PIN).
+   - Authentication simulation (no real backend, just a mock-up).
+
+3. **Dashboard Page:**
+
+   - Overview of the student’s current grades.
+   - Alerts or notifications for any missing grades.
+
+4. **Grade Report Page:**
+
+   - Detailed view of all courses and respective grades.
+   - Option to filter by semester/academic year.
+
+5. **Missing Grade Form Page:**
+
+   - Form to report a missing grade.
+   - Fields: Course name, Instructor name, Expected grade, Explanation field.
+   - Submit button to report (no real submission, just a confirmation message).
+
+6. **Instructor Contact Page:**
+
+   - List of instructors with contact details.
+   - Option to send a simulated email to the instructor (no real email, just a mock-up).
+
+7. **Help and Support Page:**
+   - FAQ section regarding grade reporting.
+   - Contact form for technical support (mock-up).
+
+## Navigation
+
+- Navbar/sidebar for easy navigation.
+- Footer with necessary information.
+
+## Responsiveness
+
+The website is designed to be responsive using CSS.
+
+## Author
+
+- Name: Anti Bright Gyeadu
+- StudentID: 11340436
