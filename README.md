@@ -64,6 +64,12 @@ This is a webapp that acts as the front for a "Missing Grade Reporting System". 
 
 <!-- LIVE DEMO -->
 
+## Screenshots
+
+![Screenshot from 2023-12-15 22-50-57](https://github.com/Owusu-Desmond/Frontend-Grading-Assignment/assets/92303891/1d63666b-067d-4f00-ae49-3ed779073ee7)
+![Screenshot from 2023-12-15 22-52-25](https://github.com/Owusu-Desmond/Frontend-Grading-Assignment/assets/92303891/850bbf56-1fbd-44ae-b033-65c0b04789c1)
+
+
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 - [Live Demo Link](https://ugcs-gpa-system.netlify.app/)
