@@ -1,8 +1,8 @@
-import React from 'react'
+import React, {useState} from 'react';
 import Chart from "react-apexcharts";
 import './dashboard.css'
 
-function dashboard() {
+function Dashboard() {
  const options = {
     chart: {
       id: "basic-bar"
@@ -11,7 +11,6 @@ function dashboard() {
       categories: ["Course1", "Course2", "Course3", "Course4", "Course5", "Course6"]
     }
  };
-
  const series = [
     {
       name: "1st Sem",
@@ -23,44 +22,55 @@ function dashboard() {
       }
  ];
  
+ const [sidebarOpen, setSidebarOpen] = useState(false);
+
+ const toggleSidebar = () => {
+    setSidebarOpen(!sidebarOpen);
+ };;
+ 
  return (
     <div className='chart'>
         <h1 className='hhh'>Dashboard</h1>
-        <p>This is the analysis on your first and second semester courses</p>
+        <p className='parag'>This is the analysis on your first and second semester courses</p>
         <div className="row1">
-            <div className="col-4">
-            <Chart
-              options={options}
-              series={series}
-              type="bar"
-              width="500"
-            />
-            </div>
-            <div className="col-4">
-            <Chart
-              options={options}
-              series={series}
-              type="area"
-              width="500"
-            />
-            </div>
-        </div>
+    <div className="col-4">
+        <Chart
+            options={options}
+            series={series}
+            type="bar"
+            width="500"
+            className="float-right" 
+        />
+    </div>
+    <div className="col-4">
+        <Chart
+            options={options}
+            series={series}
+            type="area"
+            width="500"
+            className="float-right" 
+        />
+    </div>
+</div>
         <div className="text-area">
             <ul>
-                <li><strong>Total Marks : 85/100</strong></li>
+                <li className="float-right"><strong>Total Marks : 85/100</strong></li>
             </ul>
         </div>
-        <div className='container1'>
-        <div class="sidebar">
-            <h2>Menu</h2>
-             <a href="/dashboard">Dashboard</a>
-             <a href="/gradepage">Grade Page</a>
-             <a href="/contact">Lecturer Contact</a>
-             <a href="/help">Help and Support</a>
-        </div>
-        </div>
+        <div className="sidebar">
+
+        <button onClick={toggleSidebar}>Menu</button>
+      <div id="sidebar" className={sidebarOpen ? 'sidebar open' : 'sidebar'}>
+        <ul>
+        <li><a href="/dashboard">Dashboard Page</a></li>
+        <li><a href="/gradepage">Grade Page</a></li>
+        <li><a href="/contact">Lecturer Contact</a></li>
+        <li><a href="/help">Help and Support</a></li>
+        </ul>
+      </div>
     </div>
+    </div>
+    
  );
 };
-
-export default dashboard;
+export default Dashboard;

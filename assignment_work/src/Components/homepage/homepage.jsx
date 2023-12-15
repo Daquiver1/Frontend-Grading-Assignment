@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 const Home = () => {
   return (
-    
+    <div className='main' id='root'>
     <div className="container-home">
         <div className="nav-login">
             <Link to= '/loginpage'><button>Login</button></Link>
@@ -18,6 +18,7 @@ const Home = () => {
       <footer>
         <p>&copy; 2023 Missing Report Grade System</p>
       </footer>
+    </div>
     </div>
   );
 };

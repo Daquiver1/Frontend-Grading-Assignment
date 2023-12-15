@@ -2,6 +2,7 @@
 
 import React, { useState } from 'react';
 import './LoginPage.css';
+import { Link } from 'react-router-dom';
 
 const Login = () => {
   const [studentId, setStudentId] = useState('');
@@ -11,9 +12,7 @@ const Login = () => {
   
   const handleLogin = (e) => {
     e.preventDefault();
-    // Simulated authentication logic (replace with actual authentication logic)
     if (studentId === '0000' && pin === '0000') {
-      // Redirect to Dashboard or perform other actions on successful login
       console.log('Login successful');
     } else {
       setError('Invalid credentials. Please try again. ID:0000 Password:0000');
@@ -44,8 +43,10 @@ const Login = () => {
             required
           />
         </div>
+        <Link to="/dashboard">
         <button className='btn-login' type="submit">Login</button>
         {error && <p className="error-message">{error}</p>}
+        </Link>
       </form>
     </div>
   );
