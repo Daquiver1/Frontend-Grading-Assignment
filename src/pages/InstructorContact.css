@@ -240,7 +240,7 @@ button.primary3.ghost3 {
 	padding: 7px;
 }
 
-.card2-container2 {
+.card4-container4 {
 	background-color: #231E39;
 	border-radius: 5px;
 	box-shadow: 0px 10px 20px -10px rgba(0,0,0,0.75);
@@ -253,7 +253,7 @@ button.primary3.ghost3 {
 	text-align: center;
 }
 
-.card2-container2 .pro2 {
+.card4-container4 .pro4 {
 	color: #231E39;
 	background-color: #FEBB0B;
 	border-radius: 3px;
@@ -265,13 +265,13 @@ button.primary3.ghost3 {
 	left: 30px;
 }
 
-.card2-container2 .round2 {
+.card4-container4 .round4 {
 	border: 1px solid #03BFCB;
 	border-radius: 50%;
 	padding: 7px;
 }
 
-button.primary2 {
+button.primary4 {
 	background-color: #03BFCB;
 	border: 1px solid #03BFCB;
 	border-radius: 3px;
@@ -281,25 +281,25 @@ button.primary2 {
 	padding: 10px 25px;
 }
 
-button.primary2.ghost2 {
+button.primary4.ghost4 {
 	background-color: transparent;
 	color: #02899C;
 }
 
-.skills2 {
+.skills4 {
 	background-color: #1F1A36;
 	text-align: left;
 	padding: 15px;
 	margin-top: 30px;
 }
 
-.skills2 ul {
+.skills4 ul {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
 }
 
-.skills2 ul li {
+.skills4 ul li {
 	border: 1px solid #2D2747;
 	border-radius: 2px;
 	display: inline-block;
@@ -308,7 +308,7 @@ button.primary2.ghost2 {
 	padding: 7px;
 }
 
-.card2-container2 {
+.card5-container5 {
 	background-color: #231E39;
 	border-radius: 5px;
 	box-shadow: 0px 10px 20px -10px rgba(0,0,0,0.75);
@@ -321,7 +321,7 @@ button.primary2.ghost2 {
 	text-align: center;
 }
 
-.card2-container2 .pro2 {
+.card5-container5 .pro5 {
 	color: #231E39;
 	background-color: #FEBB0B;
 	border-radius: 3px;
@@ -333,13 +333,13 @@ button.primary2.ghost2 {
 	left: 30px;
 }
 
-.card2-container2 .round2 {
+.card5-container5 .round5 {
 	border: 1px solid #03BFCB;
 	border-radius: 50%;
 	padding: 7px;
 }
 
-button.primary2 {
+button.primary5 {
 	background-color: #03BFCB;
 	border: 1px solid #03BFCB;
 	border-radius: 3px;
@@ -349,25 +349,25 @@ button.primary2 {
 	padding: 10px 25px;
 }
 
-button.primary2.ghost2 {
+button.primary5.ghost5 {
 	background-color: transparent;
 	color: #02899C;
 }
 
-.skills2 {
+.skills5 {
 	background-color: #1F1A36;
 	text-align: left;
 	padding: 15px;
 	margin-top: 30px;
 }
 
-.skills2 ul {
+.skills5 ul {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
 }
 
-.skills2 ul li {
+.skills5 ul li {
 	border: 1px solid #2D2747;
 	border-radius: 2px;
 	display: inline-block;
@@ -376,7 +376,7 @@ button.primary2.ghost2 {
 	padding: 7px;
 }
 
-.card2-container2 {
+.card6-container6 {
 	background-color: #231E39;
 	border-radius: 5px;
 	box-shadow: 0px 10px 20px -10px rgba(0,0,0,0.75);
@@ -389,7 +389,7 @@ button.primary2.ghost2 {
 	text-align: center;
 }
 
-.card2-container2 .pro2 {
+.card6-container6 .pro6 {
 	color: #231E39;
 	background-color: #FEBB0B;
 	border-radius: 3px;
@@ -401,13 +401,13 @@ button.primary2.ghost2 {
 	left: 30px;
 }
 
-.card2-container2 .round2 {
+.card6-container6 .round6 {
 	border: 1px solid #03BFCB;
 	border-radius: 50%;
 	padding: 7px;
 }
 
-button.primary2 {
+button.primary6 {
 	background-color: #03BFCB;
 	border: 1px solid #03BFCB;
 	border-radius: 3px;
@@ -417,29 +417,44 @@ button.primary2 {
 	padding: 10px 25px;
 }
 
-button.primary2.ghost2 {
+button.primary6.ghost6 {
 	background-color: transparent;
 	color: #02899C;
 }
 
-.skills2 {
+.skills6 {
 	background-color: #1F1A36;
 	text-align: left;
 	padding: 15px;
 	margin-top: 30px;
 }
 
-.skills2 ul {
+.skills6 ul {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
 }
 
-.skills2 ul li {
+.skills6 ul li {
 	border: 1px solid #2D2747;
 	border-radius: 2px;
 	display: inline-block;
 	font-size: 12px;
 	margin: 0 7px 7px 0;
 	padding: 7px;
+}
+
+.card-row {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+  }
+  .card-container,
+.card2-container2,
+.card3-container3,
+.card4-container4,
+.card5-container5,
+.card6-container6 {
+  margin-bottom: 30px; /* Add space between rows */
+  margin-right: 30px;
 }

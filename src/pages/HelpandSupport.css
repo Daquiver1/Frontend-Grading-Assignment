@@ -1,0 +1,95 @@
+.dashboard {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start; /* Align items to the start of the cross axis */
+    justify-content: center;
+    background-color: rgb(90, 125, 143);
+  }
+  
+  .tab2,
+  .tab3 {
+    width: 475px; /* Adjusted width for both tabs */
+    margin: 30px;
+    padding: 20px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    background-color: white;
+    border-radius: 30px;
+    background-image: linear-gradient(90deg, rgb(7, 110, 225), purple);
+    color: white;
+  }
+  
+  .tab3 {
+    margin-left: 10px; /* Add margin between the two tabs */
+  }
+  
+  .help-support-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .faq-section {
+    margin-bottom: 30px;
+  }
+  
+  .faq-list {
+    display: grid;
+    gap: 20px;
+  }
+  
+  .faq-item {
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .contact-section {
+    text-align: center;
+  }
+  
+  .contact-buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .contact-button {
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .contact-button:hover {
+    background: #eee;
+  }
+  
+  .contact-button.email {
+    background: #3498db;
+    color: #fff;
+  }
+  
+  .contact-button.twitter {
+    background: #55acee;
+    color: #fff;
+  }
+  
+  .contact-button.facebook {
+    background: #3b5998;
+    color: #fff;
+  }
+  
+  .contact-button.telephone {
+    background: #27ae60;
+    color: #fff;
+  }
+  
+
+.form{width:340px;height:440px;background:#e6e6e6;border-radius:8px;box-shadow:0 0 40px -10px #000;margin:calc(50vh - 220px) auto;padding:20px 30px;max-width:calc(100vw - 40px);box-sizing:border-box;font-family:'Montserrat',sans-serif;position:relative}
+input{width:100%;padding:10px;box-sizing:border-box;background:none;outline:none;resize:none;border:0;font-family:'Montserrat',sans-serif;transition:all .3s;border-bottom:2px solid #bebed2}
+input:focus{border-bottom:2px solid #78788c}
+p:before{content:attr(type);display:block;margin:28px 0 0;font-size:14px;color:#5a5a5a}
+span{margin:0 5px 0 15px}

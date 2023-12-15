@@ -114,7 +114,7 @@ body .hero {
   }
   
   .hero .overlay1 .content .button1 {
-    background-color: #4CAF50; /* Green background */
+    background-color: purple; /* Green background */
     color: white;
     padding: 10px 20px;
     text-align: center;
@@ -123,11 +123,11 @@ body .hero {
     font-size: 16px;
     margin-right: 10px; /* Adjust the margin between buttons */
     border-radius: 5px;
+    border-color: purple;
   }
-  
   .additional-section {
     background-color: purple;
-    padding: 64px 0;
+    padding: 8vw 0;
   }
   
   .section-container {
@@ -137,48 +137,44 @@ body .hero {
   }
   
   .subtitle {
-    color: #7000ff;
-    font-size: 24px;
-    line-height: 26px;
-    margin-bottom: 8px;
+    color: white;
+    font-size: 4vw; /* Adjusted font size for responsiveness */
+    line-height: 5vw; /* Adjusted line height for responsiveness */
+    margin-bottom: 2vh;  
+    margin-top: 0.1vh;
   }
   
   h2 {
-    font-size: 50px;
-    line-height: 75px;
-    margin-bottom: 32px;
+    font-size: 2.5vw; /* Adjusted font size for responsiveness */
+    line-height: 4vw; /* Adjusted line height for responsiveness */
+    margin-bottom: 3vh;
     color: #000;
   }
   
   .two-column {
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    flex-direction: column; /* Adjusted to column layout on smaller screens */
   }
   
   .col-left,
   .col-right {
-    flex-basis: calc(50% - 16px);
+    flex-basis: 100%; /* Adjusted to full width on smaller screens */
   }
   
   .col-left p,
   .col-right p {
-    font-size: 18px;
-    line-height: 26px;
+    font-size: 1.5vw; /* Adjusted font size for responsiveness */
+    line-height: 2vw; /* Adjusted line height for responsiveness */
     color: #000;
   }
   
-  .col-right p a {
-    color: #7000ff;
-  }
-  
   .primary-button {
-    background-color: #7000ff;
-    color: #fff;
+    background-color: white;
+    color: purple;
     border: none;
-    border-radius: 40px;
-    padding: 8px 16px;
-    font-size: 16px;
+    border-radius: 2vw; /* Adjusted border radius for responsiveness */
+    padding: 1vw 2vw; /* Adjusted padding for responsiveness */
+    font-size: 2vw; /* Adjusted font size for responsiveness */
     cursor: pointer;
     transition: background-color 0.3s ease;
     display: flex;
@@ -191,63 +187,61 @@ body .hero {
   }
   
   .primary-button img {
-    margin-left: 8px;
+    margin-left: 1vw; /* Adjusted margin-left for spacing */
   }
   
   .additional-section .section-container .button-container {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px; /* Adjust the margin as needed */
+    margin-top: 5vw; /* Adjusted margin-top for spacing */
   }
-  /* Add more styles as needed */
   
-
   .testimonial-container {
     text-align: center;
   }
   
   .testimonial {
-    max-width: 70%;
+    max-width: 90%; /* Adjusted max-width for responsiveness */
     background: #ffca52;
-    padding: 2em 1.5em;
+    padding: 2vw 1.5vw; /* Adjusted padding for responsiveness */
     display: flex;
-    align-items: flex-end;
-    left: 240px;
+    flex-direction: column; /* Adjusted to column layout on smaller screens */
     position: relative;
-    box-shadow: 0 2px 2px hsl(0deg 0% 0%/.075), 0 3px 3px hsl(0deg 0% 0%/.075), 0 5px 5px hsl(0deg 0% 0%/.075), 0 9px 9px hsl(0deg 0% 0%/.075), 0 17px 17px hsl(0deg 0% 0%/.075);
-    position: relative;
+    box-shadow: 0 2px 2px hsl(0deg 0% 0%/.075),
+                0 3px 3px hsl(0deg 0% 0%/.075),
+                0 5px 5px hsl(0deg 0% 0%/.075),
+                0 9px 9px hsl(0deg 0% 0%/.075),
+                0 17px 17px hsl(0deg 0% 0%/.075);
   }
   
   .testimonial:after {
     content: "";
     border: 6px solid navy;
-    border-radius: 25px;
+    border-radius: 2vw; /* Adjusted border radius for responsiveness */
     width: 85%;
     height: 120%;
     position: absolute;
     z-index: -1;
-    left: 1.5em;
-    top: -1em;
+    left: 1.5vw;
+    top: -1vw;
   }
   
   .testimonial:before {
     content: "";
     position: absolute;
-    bottom: -4.2em;
-    left: 2.5em;
+    bottom: -4.2vw;
+    left: 2.5vw;
     z-index: 1;
     width: 0;
     height: 0;
     border-style: solid;
-    border-width: 35px 50px 0 0;
+    border-width: 3.5vw 5vw 0 0; /* Adjusted border width for responsiveness */
     border-color: navy transparent transparent transparent;
   }
   
   .quote {
     position: absolute;
-    font-size: 2em;
-    width: 30px;
-    height: 30px;
+    font-size: 2vw; /* Adjusted font size for responsiveness */
+    width: 3vw; /* Adjusted width for responsiveness */
+    height: 3vw; /* Adjusted height for responsiveness */
     background: navy;
     color: #fff;
     text-align: center;
@@ -268,7 +262,7 @@ body .hero {
     width: 60%;
     display: inline-block;
     font-weight: bold;
-    font-size: 1em;
+    font-size: 1.5vw; /* Adjusted font size for responsiveness */
   }
   
   .source {
@@ -280,72 +274,73 @@ body .hero {
   .source span {
     display: inline-block;
     font-weight: bold;
-    font-size: 0.9em;
+    font-size: 1.2vw; /* Adjusted font size for responsiveness */
     position: relative;
-    margin-left: 1rem;
+    margin-left: 1vw; /* Adjusted margin-left for spacing */
     text-align: right;
   }
   
   .source span:before {
     content: "\2014";
     display: inline;
-    margin-right: 5px;
+    margin-right: 0.5vw; /* Adjusted margin-right for spacing */
   }
   
   .testimonial .image {
     transform: rotate(-5deg);
     position: absolute;
-    top: 0.5em;
-    right: 1.5em;
+    top: 0.5vw;
+    right: 1.5vw;
   }
   
   .testimonial .image img {
-    border: 6px solid #fff;
+    border: 0.3vw solid #fff; /* Adjusted border width for responsiveness */
     margin: 0;
     padding: 0;
     max-width: 100%;
   }
   
   .testimonial .image .clip {
-    border: 2px solid #222;
+    border: 0.15vw solid #222; /* Adjusted border width for responsiveness */
     border-right: none;
-    height: 50px;
-    width: 15px;
+    height: 2vw; /* Adjusted height for responsiveness */
+    width: 0.75vw; /* Adjusted width for responsiveness */
     position: absolute;
-    right: 30%;
-    top: -10%;
-    border-radius: 15px;
+    right: 5vw; /* Adjusted right position for responsiveness */
+    top: -1vw; /* Adjusted top position for responsiveness */
+    border-radius: 1.5vw; /* Adjusted border radius for responsiveness */
   }
   
   .testimonial .image .clip:before {
     content: "";
     position: absolute;
-    top: -1px;
+    top: -0.05vw;
     right: 0;
-    height: 8px;
-    width: 12px;
-    border: 2px solid #222;
+    height: 0.4vw; /* Adjusted height for responsiveness */
+    width: 0.6vw; /* Adjusted width for responsiveness */
+    border: 0.15vw solid #222; /* Adjusted border width for responsiveness */
     border-bottom: none;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
+    border-top-left-radius: 1.5vw; /* Adjusted border radius for responsiveness */
+    border-top-right-radius: 1.5vw; /* Adjusted border radius for responsiveness */
     z-index: 99;
   }
   
   .testimonial .image .clip:after {
     content: "";
     position: absolute;
-    bottom: -1px;
+    bottom: -0.05vw;
     right: 0;
-    height: 30px;
-    width: 12px;
-    border: 2px solid #222;
+    height: 1.5vw; /* Adjusted height for responsiveness */
+    width: 0.6vw; /* Adjusted width for responsiveness */
+    border: 0.15vw solid #222; /* Adjusted border width for responsiveness */
     border-top: none;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 1.5vw; /* Adjusted border radius for responsiveness */
+    border-bottom-right-radius: 1.5vw; /* Adjusted border radius for responsiveness */
     z-index: 99;
   }
-
+  
   .Testtitle {
+    font-size: 2.5vw; /* Adjusted font size for responsiveness */
+    margin-bottom: 2vw; /* Adjusted margin-bottom for spacing */
     text-align: center;
-    font-size: 29px;
   }

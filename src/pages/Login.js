@@ -1,34 +1,60 @@
-import React from 'react';
-import { useHistory } from 'react-router-dom'; // Import useHistory from react-router-dom
-import './Login.css';
-import LogUserImage from '../LogUser.jpg';
+import React, { useState } from "react";
+import Dashboard from "./Dashboard";
+import "./Login.css";
 
 function Login() {
-  const history = useHistory(); // Get the history object
+  const [id, setID] = useState("");
+  const [pin, setPIN] = useState("");
+  const [isLoggedIn, setIsLoggedIn] = useState(false);
 
-  const handleSignIn = () => {
-    // Perform any authentication logic here
-    // For now, let's just navigate to the Dashboard
-    history.push('/dashboard');
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    const testID = '11253339';
+    const testPIN = '45678';
+
+    if (id === testID && pin === testPIN) {
+      setIsLoggedIn(true);
+    } else {
+      alert('Invalid Details. Please check your inputs and try again.');
+    }
   };
+
+  if (isLoggedIn) {
+    return <Dashboard />;
+  }
 
   return (
     <div>
-      <h2>Login Form</h2><br></br><br></br>
-      <div className="container" id="container">
-        <div className="form-container sign-in-container">
-          <form>
-            <h1>Login</h1>
-            <label htmlFor="email-signin">Student ID</label>
-            <input type="email" id="email-signin" placeholder="ID" />
-            <label htmlFor="password-signin">Student PIN</label>
-            <input type="password" id="password-signin" placeholder="PIN" />
-            <a href="#">Forgot your password?</a>
-            <button type="button" onClick={handleSignIn}>Sign In</button>
+      <br />
+      <div className="login-page">
+        <div className="login-tab">
+          <h1 className="title">WELCOME BACK!</h1>
+          <h3 className="sub-text">Login to continue</h3>
+          <form className="form" onSubmit={handleSubmit}>
+            <input
+              className="input"
+              placeholder="Student ID"
+              type="text"
+              value={id}  
+              onChange={(e) => setID(e.target.value)}
+            />
+            <input
+              className="input"
+              placeholder="Password"
+              type="password"
+              value={pin}  
+              onChange={(e) => setPIN(e.target.value)}
+            />
+            <button className="submit" type="submit">
+              Submit
+            </button>
+
+            <p className="forgot">Forgot password?</p>
           </form>
         </div>
       </div>
-      <img src={LogUserImage} alt="LogUser" className="login2" />
+      <br />
     </div>
   );
 }

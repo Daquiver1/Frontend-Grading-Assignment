@@ -1,19 +1,7 @@
-
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
 
 * {
 	box-sizing: border-box;
-}
-
-body .container {
-	background: white;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: column;
-	font-family: 'Montserrat', sans-serif;
-	height: 100vh;
-	margin: -20px 0 50px;
 }
 
 h1 {
@@ -21,8 +9,8 @@ h1 {
 	margin: 0;
 }
 
-h2 {
-	text-align: center;
+h3 {
+	text-align: center; /* Changed from h2 to h3 based on your provided structure */
 }
 
 p {
@@ -70,7 +58,7 @@ button.ghost {
 	border-color: #FFFFFF;
 }
 
-form {
+.form {
 	background-color: blue;
 	display: flex;
 	align-items: center;
@@ -81,7 +69,7 @@ form {
 	text-align: center;
 }
 
-input {
+.input {
 	background-color: #eee;
 	border: none;
 	padding: 12px 15px;
@@ -89,7 +77,7 @@ input {
 	width: 100%;
 }
 
-.container {
+.login-page {
   background-color: blue;
   border-radius: 10px;
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
@@ -98,39 +86,21 @@ input {
   max-width: 600px; /* Set your desired fixed width */
   margin: auto; /* Center the container horizontally */
   min-height: 480px;
-  left: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: 'Montserrat', sans-serif;
+  height: 100vh;
+  width: 90%; /* Adjust the width as needed */
+  margin: 0 auto; /* This centers the container horizontally */
 }
 
-
-.form-container {
+.form-container8 {
 	position: absolute;
 	top: 0;
 	height: 100%;
 	transition: all 0.6s ease-in-out;
-}
-
-.sign-in-container {
-	left: 0;
-	width: 50%;
-	z-index: 2;
-}
-
-.container.right-panel-active .sign-in-container {
-	transform: translateX(100%);
-}
-
-.sign-up-container {
-	left: 0;
-	width: 50%;
-	opacity: 0;
-	z-index: 1;
-}
-
-.container.right-panel-active .sign-up-container {
-	transform: translateX(100%);
-	opacity: 1;
-	z-index: 5;
-	animation: show 0.6s;
 }
 
 @keyframes show {
@@ -145,7 +115,7 @@ input {
 	}
 }
 
-.overlay-container {
+.overlay-container8 {
 	position: absolute;
 	top: 0;
 	left: 50%;
@@ -156,7 +126,7 @@ input {
 	z-index: 100;
 }
 
-.container.right-panel-active .overlay-container{
+.login-page.right-panel-active .overlay-container8 {
 	transform: translateX(-100%);
 }
 
@@ -172,12 +142,12 @@ input {
 	left: -100%;
 	height: 100%;
 	width: 200%;
-  	transform: translateX(0);
+	transform: translateX(0);
 	transition: transform 0.6s ease-in-out;
 }
 
-.container.right-panel-active .overlay {
-  	transform: translateX(50%);
+.login-page.right-panel-active .overlay {
+	transform: translateX(50%);
 }
 
 .overlay-panel {
@@ -199,7 +169,7 @@ input {
 	transform: translateX(-20%);
 }
 
-.container.right-panel-active .overlay-left {
+.login-page.right-panel-active .overlay-left {
 	transform: translateX(0);
 }
 
@@ -208,11 +178,9 @@ input {
 	transform: translateX(0);
 }
 
-.container.right-panel-active .overlay-right {
+.login-page.right-panel-active .overlay-right {
 	transform: translateX(20%);
 }
-
-
 
 .login2 {
     max-width: 60%; /* Ensure the image doesn't exceed the width of its container */
@@ -221,4 +189,4 @@ input {
     top: 264px; /* Adjust the top value as needed */
     left: 700px; /* Position the image on the right */
     max-height: 60%; /* Ensure the image doesn't exceed the height of its container */
-  }
+}

@@ -2,8 +2,23 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './Landing.css';
 import OfficeImage from '../Office.jpg';
+import { useAuth } from './AuthContextProvider'; // Import the useAuth hook
+
+
 
 function Landing() {
+  const { isLoggedIn } = useAuth(); // Access the login state
+
+  const handleButtonClick = () => {
+    if (isLoggedIn) {
+      // User is logged in, perform the desired action
+      alert("Exploring Now!");
+    } else {
+      // User is not logged in, show login alert
+      alert("Please log in first!");
+    }
+  };
+
   return (
     <div>
       <section className="hero">
@@ -38,30 +53,31 @@ function Landing() {
             </div>
           </div>
           <div className="button-container">
-          <Link to="/dashboard">
-            <button className="primary-button with-icon">
+            <button className="primary-button with-icon" onClick={handleButtonClick}>
               Explore now
               <img src="assets/arrow-right-light.svg" alt="" />
             </button>
-          </Link>
           </div>
         </div>
       </section>
+
+      {/* Testimonial Section */}
       <section>
-      <br></br><h1 className='Testtitle'>Testimonial</h1><br></br><br></br>
-      <div className="testimonial">
-	  <span className="open quote">“</span>
-	<div className="image">
-		<div className="clip"></div>
-		<img src="https://placehold.co/100" />
-	</div>
-	<p>"DaTech Grade Tracker has simplified my academic life. With a user-friendly interface and real-time alerts, it keeps me on top of my grades. A must-have for any student focused on success!"</p>
-	<div className="source">		
-		<span>Racheal Chuuks</span>
-	</div>
-	<span className="close quote">”</span>
-</div>
-      </section><br></br><br></br><br></br><br></br><br></br>
+        <br></br><h1 className='Testtitle'>Testimonial</h1><br></br><br></br>
+        <div className="testimonial">
+          <span className="open quote">“</span>
+          <div className="image">
+            <div className="clip"></div>
+            <img src="https://placehold.co/100" alt=''/>
+          </div>
+          <p>"DaTech Grade Tracker has simplified my academic life. With a user-friendly interface and real-time alerts, it keeps me on top of my grades. A must-have for any student focused on success!"</p>
+          <div className="source">
+            <span>Racheal Chuuks</span>
+          </div>
+          <span className="close quote">”</span>
+        </div>
+      </section>
+      <br></br><br></br><br></br><br></br><br></br><br></br>
     </div>
   );
 }

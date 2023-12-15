@@ -10,16 +10,15 @@ function Footer() {
           <h4>Quick Links</h4>
           <ul>
           <li><Link to="/">Home</Link></li>
-            <li><Link to="/dashboard">Dashboard</Link></li>
             <li><Link to="/missing-grade">Report Missing Grade</Link></li>
-            <li><Link to="/instructor-contact">Contact Us</Link></li>
-          </ul>
+            <li><Link to="/help">Contact Us</Link></li>
+          </ul> 
         </div>
 
         <div className="footer-section">
           <h4>Resources</h4>
           <ul>
-            <li><a href="#faq">FAQs</a></li>
+            <li><a href="/help">FAQs</a></li>
             <li><a href="#privacy">Privacy Policy</a></li>
             <li><a href="#terms">Terms of Service</a></li>
           </ul>

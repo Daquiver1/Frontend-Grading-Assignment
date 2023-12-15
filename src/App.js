@@ -1,5 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { AuthContextProvider } from './pages/AuthContextProvider';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Landing from './pages/Landing';
@@ -12,7 +13,8 @@ import HelpandSupport from './pages/HelpandSupport';
 
 function App() {
   return (
-    <Router>
+    <AuthContextProvider>
+       <Router>
       <div className="App">
         <Navbar />
         <Switch>
@@ -27,6 +29,8 @@ function App() {
         <Footer />
       </div>
     </Router>
+    </AuthContextProvider>
+   
   );
 }
 
