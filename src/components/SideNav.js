@@ -4,7 +4,8 @@ import undraw_rocket from "../assets/icons/undraw_rocket.svg";
 import { StudentContext } from "../StudentContext";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHome, faTachometerAlt, faTable, faExclamationTriangle, faSignInAlt, faPhone, faQuestionCircle } from "@fortawesome/free-solid-svg-icons";
-
+// hide sidebar arrow icon
+import { faArrowAltCircleLeft } from "@fortawesome/free-regular-svg-icons";
 const SideNar = () => {
   const { student } = useContext(StudentContext);
   const isLogin = student.studentId !== "" ? true : false;
@@ -77,7 +78,9 @@ const SideNar = () => {
       <hr className="sidebar-divider d-none d-md-block" />
 
       <div className="text-center d-none d-md-inline">
-        <button className="rounded-circle border-0" id="sidebarToggle"></button>
+        <button className="rounded-circle border-0" id="sidebarToggle">
+          <FontAwesomeIcon icon={faArrowAltCircleLeft} />
+        </button>
       </div>
 
       <div className="sidebar-card d-none d-lg-flex">

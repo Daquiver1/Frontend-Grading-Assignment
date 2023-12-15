@@ -56,15 +56,15 @@ const Dashboard = () => {
            
 
             {/* academic performance area chart */}
-            <div class="row">
-                <div class="col-xl-8 col-lg-7">
+            <div className="row">
+                <div className="col-xl-8 col-lg-7">
                     {/* Illustrations */}
-                    <div class="card shadow mb-4">
-                        <div class="card-header py-3">
-                            <h4 class="m-0 font-weight-bold text-success">Academic Performance</h4>
+                    <div className="card shadow mb-4">
+                        <div className="card-header py-3">
+                            <h4 className="m-0 font-weight-bold text-success">Academic Performance</h4>
                         </div>
-                        <div class="card-body">
-                            <div class="chart-area">
+                        <div className="card-body">
+                            <div className="chart-area">
                                 <Line
                                     data={chartData} 
                                     options={{
@@ -95,14 +95,14 @@ const Dashboard = () => {
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-4 col-lg-5">
+                <div className="col-xl-4 col-lg-5">
                     {/* Illustrations */}
-                    <div class="card shadow mb-4">
-                        <div class="card-header py-3">
-                            <h4 class="m-0 font-weight-bold text-success">Academic Performance</h4>
+                    <div className="card shadow mb-4">
+                        <div className="card-header py-3">
+                            <h4 className="m-0 font-weight-bold text-success">Academic Performance</h4>
                         </div>
-                        <div class="card-body">
-                            <div class="chart-pie pt-4 pb-2">
+                        <div className="card-body">
+                            <div className="chart-pie pt-4 pb-2">
                                 <Pie
                                     data={chartData} 
                                     options={{

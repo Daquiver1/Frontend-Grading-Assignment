@@ -17,3 +17,14 @@
 .navbar-nav.sidenav {
     background-color: #2c2956;
 }
+
+.nav-link svg {
+    margin-right: 10px;
+}
+
+.rounded-circle svg {
+    color: #fff;
+    font-size: 20px;
+    margin-top: 10px;
+
+}
