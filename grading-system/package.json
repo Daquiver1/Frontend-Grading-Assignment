@@ -1,5 +1,5 @@
 {
-  "homepage": "http://aduuuna.github.io/11341365_DCIT205_Assignment1",
+  "homepage": "http://aduuuna.github.io/11341365_DCIT205_Assignment1/grading-system",
   "name": "grading-system",
   "version": "0.1.0",
   "private": true,
@@ -18,7 +18,7 @@
   "scripts": {
     "start": "react-scripts start",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -b master -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
