@@ -6,8 +6,7 @@ import { useEffect, useState } from "react";
 import Login from "./Login";
 
 const Overview = ({login}) => {
-
-        const [toggle, setToggle] = useState(true)
+        const [toggle, setToggle] = useState(false)
         const [loginForm, setLoginForm] = useState(false)
         const [innerWidth, setInnerWidth] = useState(window.innerWidth)
         useEffect(() => {
@@ -28,9 +27,9 @@ const Overview = ({login}) => {
             }
         },[innerWidth])
         
-    console.log(login)
     return (
-        <>  {loginForm === true ? <Login login={login} closeLogin={setLoginForm}/> : null}
+        <>  
+        {loginForm === true ? <Login login={login} closeLogin={setLoginForm}/> : null}
             <div className="overviewPage">
                 <div className="navbar">
                     <div className="logo">

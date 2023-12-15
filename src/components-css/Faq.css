@@ -1,0 +1,122 @@
+.Faq {
+    min-height: 100dvh;
+    padding: 20px;
+    font-size: 1em;
+}
+
+.pageTitle {
+    font-size: 2em;
+    font-weight: 600;
+    width: 100%;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgb(168, 168, 168);
+}
+
+.question {
+    display: flex;
+    padding: 10px 20px 10px 20px;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    min-height: 70px;
+    background: #fff;
+    border: 1px solid rgb(179, 179, 179);
+    color: black;
+    margin: 10px 0 10px 0;
+    border-radius: 10px;
+}
+
+.question-asked {
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+.question-asked .caretDown {
+    transition: 0.3s linear;
+}
+
+.answer {
+    transition: 0.2s ease-out;
+    padding: 0 10px 0 10px;
+    height: 0;
+    overflow: hidden;
+    background: #eeeeee;
+    border-radius: 5px;
+}
+
+.answer span {
+    color: #585858;
+    font-size: 0.9em;
+}
+
+.open .question-asked .caretDown {
+    transform: rotateZ(180deg);
+    transition: 0.2s linear;
+}
+
+.open .answer {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: 0.2s ease-in;
+    height: 100%;
+}
+
+.form .answer {
+    width: 100%;
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.form .input {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+.answer-submit {
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 0.88em;
+    width: 100px;
+    background: #2a2ad8;
+    height: 40px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.answer-submit span {
+    color: #fff;
+}
+
+.input input {
+    height: 50px;
+    outline: none;
+    border: none;
+    border: 1px solid rgb(184, 184, 184);
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+.input label {
+    margin-top: 20px;
+    font-size: 0.97em;
+    color: #4b4b4b;
+}
+
+.textarea {
+    border-radius: 5px;
+    padding: 10px;
+    outline: none;
+    border: none;
+    font-size: 1.1em;
+    color: #424242;
+    border: 1px solid rgb(184, 184, 184);
+}

@@ -1,0 +1,66 @@
+.ContactIntructor .container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 0 0 40px 0;
+  font-size: 1em;
+}
+
+.ContactIntructor header {
+  color: #141414;
+  padding: 10px 0 5px 0;
+  text-align: center;
+}
+
+.ContactIntructor .section {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  background-color: #fff;
+  margin-top: 20px;
+}
+
+.ContactIntructor h2 {
+  color: #1b1b1b;
+  font-weight: 600;
+  font-size: 1.5em
+}
+
+.ContactIntructor label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #2c2c2c;
+}
+
+.ContactIntructor input,
+.ContactIntructor textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.ContactIntructor button {
+  background-color: #151594;
+  color: #fff;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.ContactIntructor button:hover {
+  background-color: #0c0c6d;
+}
+
+.ContactIntructor ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.ContactIntructor li {
+  margin-bottom: 8px;
+  color: #424242;
+} 
