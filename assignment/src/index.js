@@ -11,6 +11,7 @@ import DashboardPage from './Pages/Dashboard';
 import Footer from './Components/Footer';
 import GradeReportPage from './Pages/GradeReport';
 import MissingGradeFormPage from './Pages/MissingGradeReport';
+import InstructorContactPage from './Pages/InstructorContactPage';
 
 
 
@@ -27,6 +28,7 @@ root.render(
         <Route path="/GradeReport" element={<GradeReportPage/>} />
         <Route path='/MissingGradeReport' element={<MissingGradeFormPage/>}/>
         <Route path='/HelpSupportPage' element = {<HelpSupportPage/>} />
+        <Route path='/InstructorContactPage' element={<InstructorContactPage/>}/>
       </Routes>
     </BrowserRouter>
 

@@ -1,5 +1,6 @@
 // src/pages/GradeReportPage.js
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import Navbar from '../Components/Navbar';
 import Footer from '../Components/Footer';
 
@@ -65,10 +66,18 @@ const GradeReportPage = () => {
               ))}
             </tbody>
           </table>
+          <section>
+            <p className='text-align:center'>Can't find your grades? click here</p>
+          <Link to="/MissingGradeReport">
+          <button className="bg-indigo-500 text-white px-6 py-3 rounded-md hover:bg-indigo-700">Get Started</button>
+        </Link>
+        </section>
         </section>
       </div>
+      
       <Footer />
     </div>
+    
   );
 };
 

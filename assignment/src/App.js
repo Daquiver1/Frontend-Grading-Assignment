@@ -12,7 +12,7 @@ import InstructorContactPage from "./Pages/InstructorContactPage";
 function App() {
   return (
         <React.Fragment>
-          <LandingPage/>
+          <Footer/>
         </React.Fragment>
   );
 }
