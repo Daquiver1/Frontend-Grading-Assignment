@@ -1,0 +1,58 @@
+* {
+    background-color: black;
+    color: #fff;
+  }
+  
+  .help-page {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  h1 {
+    color: #1f2c43;
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 2rem;
+  }
+  p {
+    margin-bottom: 2rem;
+  }
+  li {
+    line-height: 30px;
+  }
+  .report-form {
+    margin-top: 20px;
+  }
+  
+  .report-form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .report-form input,
+  .report-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 2px solid grey;
+    border-radius: 5px;
+  }
+  
+  .report-form textarea {
+    resize: vertical;
+  }
+  
+  .report-form button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  
+  .report-form button:hover {
+    background-color: #0056b3;
+  }
+  

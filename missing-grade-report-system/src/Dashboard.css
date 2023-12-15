@@ -1,0 +1,46 @@
+* {
+    background-color: #1f2c43;
+  }
+  h1 {
+    text-align: center;
+    font-size: 35px;
+    color: white;
+  }
+  h2 {
+    color: white;
+  }
+  .dashboard-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .grades-section,
+  .missing-grades-section {
+    margin-bottom: 30px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  th,
+  td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  td {
+    color: white;
+  }
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
