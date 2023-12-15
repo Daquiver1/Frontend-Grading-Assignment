@@ -1,0 +1,53 @@
+.main-pic{
+    width: 1263px;
+    height: 500px;
+    
+}
+.page-info{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    justify-content: space-between;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+h1{
+    font-family: 'Impact, Haettenschweiler';
+    color: #00357a;
+    text-align: center;
+}
+h2{
+    color: #00357a;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+.introduction-div{
+    border: none solid gray;
+    margin-right: 10px;
+    padding: 10px;
+    transition: 0.4s;
+}
+.introduction-div:hover{
+    border: 1px solid gray;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15);
+}
+.purpose-div{
+    border: none solid gray;
+    margin-right: 10px;
+    padding: 10px;
+    transition: 0.4s;
+}
+.purpose-div:hover{
+    border: 1px solid gray;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15);
+}
+.grding-div{
+    border: none solid gray;
+    padding: 15px;
+    transition: 0.4s;
+}
+.grading-div:hover{
+    border: 1px solid gray;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15);
+}

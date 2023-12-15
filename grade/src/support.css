@@ -1,0 +1,58 @@
+.faq-pic{
+    width: 1263px;
+    height: 500px;
+    object-fit: cover;
+}
+.main-content{
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    align-self: auto;
+}
+h1{
+    font-family: 'Impact, Haettenschweiler';
+    color: #00357a;
+    text-align: center;
+}
+h3{
+    color: #00357a;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.contact-form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+  
+.form-group {
+    margin-bottom: 20px;
+}
+  
+label {
+    display: block;
+    color: #555;
+    margin-bottom: 5px;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 600px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+select {
+  width: 140px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+button[type="submit"] {
+    background-color: #00357a;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
