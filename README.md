@@ -55,9 +55,10 @@ Please adhere to the project's coding standards and provide clear and detailed p
 ![Capture2](https://github.com/LouisaEco/Frontend-Grading-Assignment/assets/147488916/0e2fadb2-0679-4f75-b19e-0e19a7b5a6df)
 ##Login Page
 ![Capture3](https://github.com/LouisaEco/Frontend-Grading-Assignment/assets/147488916/73c998ad-6ad5-44ee-a167-3cee8ff15873)
-
-
-
+##Dashboard
+![Capture4](https://github.com/LouisaEco/Frontend-Grading-Assignment/assets/147488916/5bfe0465-da0b-4e0b-a10b-1ec5bc69c7f4)
+![Capture5](https://github.com/LouisaEco/Frontend-Grading-Assignment/assets/147488916/3643923b-34d2-47dd-ab5f-5be58a10d3fc)
+##
 
 
 
