@@ -1,12 +1,12 @@
-import React from 'react'
-import Msgform from '../Components/Msgform/Msgform'
+import React from "react";
+import Msgform from "../Components/Msgform/Msgform";
 
 const Missinggradeform = () => {
   return (
     <div>
-      <Msgform/>
+      <Msgform />
     </div>
-  )
-}
+  );
+};
 
-export default Missinggradeform
+export default Missinggradeform;

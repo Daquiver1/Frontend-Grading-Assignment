@@ -1,14 +1,12 @@
-import React from 'react'
-import TranscriptComponent from '../Components/TranscriptComponent/TranscriptComponent'
-
-
+import React from "react";
+import TranscriptComponent from "../Components/TranscriptComponent/TranscriptComponent";
 
 const GradeReportpage = () => {
   return (
     <div>
-      <TranscriptComponent/> 
+      <TranscriptComponent />
     </div>
-  )
-}
+  );
+};
 
-export default GradeReportpage
+export default GradeReportpage;
