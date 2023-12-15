@@ -156,10 +156,11 @@ form{
   box-shadow: #116d65;
   margin: 40px auto;
   max-width: 400px;
-  max-height: 700px;
+  max-height: 800px;
   padding: 20px 40px;
   border-color: #116d65;
   color: black;
+  padding-bottom: 60px;
 }
 
 form input, textarea {
