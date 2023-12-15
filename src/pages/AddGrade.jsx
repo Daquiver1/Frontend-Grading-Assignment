@@ -13,7 +13,7 @@ function AddGrade() {
           <LabelInput label={"Instructor Name"} isRequired={true} />
           <LabelInput label={"Expected Grade"} isRequired={true} />
           <textarea
-            placeholder="Message"
+            placeholder="Explaination"
             col
             required
             className=" focus:border-primary_blue border-[2px] outline-none px-2 py-1 rounded-md border-gray-400"
