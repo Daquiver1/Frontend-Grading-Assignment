@@ -16,7 +16,6 @@ function App() {
     <Router>
       <div id="wrapper">
         <Header />
-
         <div id="content-wrapper" class="d-flex flex-column">
           <div id="content">
             <div class="container-fluid">
@@ -43,10 +42,7 @@ function App() {
 
           <Footer />
         </div>
-      </div>
-      <Routes>
-        <Route path="/" element={<LandingPage />} />
-      </Routes>
+      </div> 
     </Router>
   );
 }
