@@ -1,4 +1,7 @@
 # Student Grade Reporting System Frontend
+# Author
+## Name : Edward Sefah Koranteng
+## ID : 11137631
 
 ## Project Overview
 
@@ -37,7 +40,71 @@ This will start the application on `localhost` at the default port.
 
 ## Usage
 
-Describe how to use the application, highlighting key functionalities such as logging in, viewing grades, reporting missing grades, and contacting instructors.
+ 
+
+User Flow:
+Landing Page:
+
+Upon visiting the site, users are greeted with an overview of the system.
+Navigation links are provided to guide users to different sections.
+Login Page:
+
+Users access the system by entering their Student ID and PIN.
+The secure login form validates user credentials.
+Dashboard:
+
+After successful login, users land on the dashboard.
+The dashboard provides an overview of the student's current grades.
+Alerts or notifications highlight any missing grades.
+Grade Report Page:
+
+Users can navigate to the Grade Report page to view detailed information on all courses and respective grades.
+Options to filter grades by semester/academic year are available.
+Missing Grade Form Page:
+
+If a student identifies a missing grade, they can visit the Missing Grade Form page.
+The form includes fields for Course name, Instructor name, Expected grade, and an Explanation field.
+Users submit the form to report the missing grade.
+Instructor Contact Page:
+
+The system provides a list of instructors with contact details.
+Users have the option to send a simulated email to the instructor (mock-up).
+Help and Support Page:
+
+An FAQ section provides guidance on grade reporting.
+A contact form for technical support (mock-up) is available.
+Navigation:
+A navbar/sidebar is present for easy navigation.
+A footer provides additional information and copyright details.
+Key Functionalities:
+Responsive Design:
+
+The website is designed to be responsive, ensuring a seamless experience on various devices.
+Secure Login:
+
+Users access the system with a secure login form using Student ID and PIN.
+Dashboard:
+
+Users can view an overview of their current grades on the dashboard.
+Alerts notify users of any missing grades.
+Grade Report:
+
+Detailed information on all courses and respective grades is available.
+Filtering options provide flexibility to view grades based on semester/academic year.
+Missing Grade Reporting:
+
+Users can report missing grades using a form with necessary details.
+A confirmation message assures users of successful submission.
+Instructor Contact:
+
+Users can find a list of instructors with contact details.
+Simulated email functionality allows users to communicate with instructors.
+Help and Support:
+
+An FAQ section guides users on grade reporting.
+A contact form (mock-up) is available for technical support.
+This user flow and key functionalities ensure a comprehensive and user-friendly experience for students interacting with the Missing Grade Reporting System.
+
 
 ## Contribution
 
