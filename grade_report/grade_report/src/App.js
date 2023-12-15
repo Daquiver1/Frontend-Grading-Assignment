@@ -4,7 +4,7 @@ import {BrowserRouter as Router,Switch, Route} from "react-router-dom";
 import './App.css'
 import Home from './home/Home';
 import About from './components/about/About';
-import {LoginSignup} from './components/login-signup/LoginSignup';
+import LoginSignup from './components/login-signup/LoginSignup';
 
 export const App = () => {
   return (
