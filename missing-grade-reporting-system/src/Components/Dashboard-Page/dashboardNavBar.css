@@ -74,3 +74,37 @@ a:hover::after {
     bottom: -4px;
     left: 20px
 }
+#mobile {
+    display: none;
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar {
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        top: 90px;
+        right: 0px;
+        width: 300px;
+        height: 100vh;
+        background: #fff;
+        box-shadow: 2px 2px 10px rgb(0, 0, 0, 0.15);
+        padding: 40px 0 0 10px;
+    }
+
+    .nav-left,
+    .nav-right {
+      display: none;
+    }
+  
+    .hidden-on-mobile {
+      display: block !important;
+    }
+  
+    #mobile {
+      display: block;
+    }
+  }
+  

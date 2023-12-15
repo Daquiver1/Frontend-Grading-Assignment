@@ -32,7 +32,6 @@ const Dashboard = () => {
     const missingGrades = grades.filter(grade => grade.grade === 'N/A');
     setUserData(prevUserData => ({
       ...prevUserData,
-      missingGradesCount: missingGrades.length,
     }));
   }, [grades]);
 
@@ -69,17 +68,10 @@ const Dashboard = () => {
             <th>Course Name</th>
             <th>Grades</th>
           </tr>
-          {grades.map((grade, index) => (
-            <tr key={index} className={grade.grade === 'N/A' ? 'blinking-red' : ''}>
-            <td>{grade.course}</td>
-            <td>{grade.courseName}</td>
-            <td>{grade.grade === 'N/A' ? <span className="missing-grade">N/A</span> : grade.grade}</td>
-          </tr>
-          ))}
           <tr>
             <td>DCIT 101</td>
             <td>Introduction to Computer Science</td>
-            <td>N/A</td>
+            <td><a href="/grade-report#report-section1">N/A</a></td>
           </tr>
           <tr>
             <td>DCIT 105</td>
@@ -104,7 +96,7 @@ const Dashboard = () => {
           <tr>
             <td>UGRC 110</td>
             <td>Academic Writing I</td>
-            <td>N/A</td>
+            <td><a href="/grade-report#report-section1">N/A</a></td>
           </tr>
         </table>
       </div>
@@ -125,7 +117,7 @@ const Dashboard = () => {
           <tr>
             <td>DCIT 104</td>
             <td>Programming Fundamentals</td>
-            <td>N/A</td>
+            <td><a href="/grade-report#report-section1">N/A</a></td>
           </tr>
           <tr>
             <td>MATH 122</td>
@@ -170,32 +162,32 @@ const Dashboard = () => {
           <tr>
             <td>DCIT 201</td>
             <td>Programming I</td>
-            <td>A</td>
+            <td>___</td>
           </tr>
           <tr>
             <td>DCIT 203</td>
             <td>Digital & Logic Systems Design</td>
-            <td>N/A</td>
+            <td>___</td>
           </tr>
           <tr>
             <td>DCIT 205</td>
             <td>Multimedia & Web Design</td>
-            <td>A</td>
+            <td>___</td>
           </tr>
           <tr>
             <td>DCIT 207</td>
             <td>Computer Organization & Architecture</td>
-            <td>N/A</td>
+            <td>___</td>
           </tr>
           <tr>
             <td>DCIT 209</td>
             <td>E-Business Architectures</td>
-            <td>A</td>
+            <td>___</td>
           </tr>
           <tr>
             <td>CBAS 210</td>
             <td>Academic Writing II</td>
-            <td>B+</td>
+            <td>___</td>
           </tr>
         </table>
       </div>
