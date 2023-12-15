@@ -1,0 +1,14 @@
+.tl{
+    font-style: italic;
+}
+
+.stats {
+    width: 300px;
+    border-radius: 3px;
+    margin-left: 50px;
+    margin-top: -20px;
+    float: right;
+    
+    
+}
+

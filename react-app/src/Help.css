@@ -1,0 +1,40 @@
+.help {
+    margin-inline: auto;
+    justify-content: center;
+     align-items: center ;
+     width: 250px;
+     margin-top: -30px;
+    display: inline-block;
+    margin-left: 200px;
+    border-radius: 5px;
+    background-color: rgba(6, 94, 227, 0.963);
+    color: white;
+
+}
+.help-pic {
+    margin-inline: auto;
+    margin-bottom: 130px;
+    height: 500px;
+}
+.headie {
+    font-style: italic;
+    background-color: rgba(6, 94, 227,0.963);
+    color: white;
+}
+.labs {
+    margin-bottom: 40px;
+    align-items: center;
+    margin-left: 10px;
+}
+.button {
+    margin-left: 40px;
+    border-radius: 4px;
+    color: rgba(6, 94, 227,0.963);
+    background-color: white;
+    transition: background-color 0.3s ease, opacity 0.3s ease;
+}
+.button:hover {
+    background-color:  rgba(6, 94, 227,0.963);
+    color: white;
+    opacity: 0.8;
+}
