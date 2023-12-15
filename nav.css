@@ -1,0 +1,11 @@
+
+.ten {
+    background-color: blue;
+    border-radius: 20px;
+    
+}
+
+.mr-auto {
+    display: flex;
+   text-align: right;
+}
