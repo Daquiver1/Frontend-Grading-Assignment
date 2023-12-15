@@ -23,7 +23,7 @@ function Navbar() {
   return (
     <div>
       <nav className="nav">
-        <a href="#" className="nav__brand">UG</a>
+        <h1 className="nav__brand">UG</h1>
         <ul className={active}>
           <li className="nav__item"><a href="./Home.js" className="nav__link">Home</a></li>
           <li className="nav__item"><a href="./loginform.js" className="nav__link">Login</a></li>
