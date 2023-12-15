@@ -1,0 +1,117 @@
+.loginbox{
+    margin-top: 40px;
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    image-resolution: 1000dpi;
+}
+
+
+.loginbox{
+    width: 600px;
+    height: 500px;
+    background: rgb(15, 15, 48);
+    color: #fff;
+    top: 60%;
+    left: 10%;
+    position: relative;
+    transform: (-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+   
+}
+.avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -40px;
+    left: calc(50% - 50px);
+}
+.h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+.log{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: rgb(235, 235, 33) ;
+    border-radius: 10px;
+    color:#fff;
+    width: 20px;
+    padding-left: 20px;
+    padding-right: 15px;
+    padding-bottom: 40px;
+    
+}
+.log:hover{
+    cursor: pointer;
+    background: rgb(15, 15, 48);
+    color:#fff;
+}
+.form1 input{
+    width: 250px;
+    text-align: start;
+    color: #fff;
+    padding-right: 10px ;
+    margin-left: 0px;
+    padding: 9px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom-color: #fff;
+    border-color: solid #fff;   
+    background-color: transparent;
+}
+.form1 p{
+    margin-left: 10px;
+}
+
+
+h1{
+    background-color: rgb(15, 15, 48);
+    width:500px;
+    margin-top: 20px;
+}
+
+.edit{
+    display:flex;
+    margin-top: 10px;
+    justify-content:center;
+    align-items: center;
+}
+
+.newform{
+    background-color:rgb(15, 15, 48);
+    height:40px;
+}
+
+.bss{
+    margin:10px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight:bold;
+    font-size:15px;
+}
+
+
+.aspan{
+    background-color: rgb(15, 15, 48);
+    margin-top:10px;
+    height:30px;
+    padding-top:9 ,9,9,px;
+    padding-bottom:9px;
+}
+
+.aspan1{
+margin-left:200px;
+font-family:serif;
+font-size:25px;
+}
