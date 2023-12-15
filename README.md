@@ -1,51 +1,56 @@
-# Student Grade Reporting System Frontend
+# Project Name
+Missing Grades Reporting System.
 
-## Project Overview
 
-This project is a front-end web application for a Student Grade Reporting System. It simulates a real-world application where students can view, report, and manage their academic grades. This system addresses the issue of missing or unrecorded grades in a student's profile.
+# Application Usage
 
-## Application Structure
+Welcome to my application! This section provides a guide on how to use the various functionalities of the application.
 
-The application consists of 7 main pages:
+## Logging In
 
-- **Homepage:** Introduction to the system and its purpose.
-- **Login Page:** Mock login interface for student authentication.
-- **Dashboard:** Displays an overview of the student’s current grades and alerts for missing grades.
-- **Grade Report:** Shows a detailed view of the student's grades filtered by semester or academic year.
-- **Missing Grade Form:** Enables students to report missing grades.
-- **Instructor Contact Page:** Lists instructors' contact information with a simulated email feature.
-- **Help and Support:** Provides FAQs and a mock support contact form.
+To access the application, follow these steps:
 
-## Technical Details
+1. Open the application in your web browser.
+2. Navigate to the login page.
+3. Enter your credentials (username and password) and click the "Login" button.
 
-- **Framework/Technology Used:** [React]
-- **Responsive Design:** Implemented using [CSS Flexbox/Grid, Bootstrap, Tailwind CSS].
-- **JavaScript Functionality:** Used for form validations, dynamic content rendering, and simulating interactions.
+## Viewing Grades
 
-## Setup and Installation
+Once logged in, you can view your current grades by visiting the "Dashboard" page. The dashboard displays a list of your current grades for each course.
 
-To set up the project locally, follow these steps:
+1. Click on the "Dashboard" link in the navigation menu.
+2. Review the list of courses along with their corresponding grades.
 
-```bash
-git clone https://github.com/your-github-username/DCIT_205_ASSIGNGMENT1.git
-cd repo-name
-npm install
-npm start
-```
+## Reporting Missing Grades
 
-This will start the application on `localhost` at the default port.
+If you have missing grades, the application provides a convenient way to report them. Follow these steps:
 
-## Usage
+1. Navigate to the "Missing Grades" section on the dashboard.
+2. Identify the courses with missing grades.
+3. Click on the option to report missing grades.
+4. Provide any additional information or comments if required.
 
-Describe how to use the application, highlighting key functionalities such as logging in, viewing grades, reporting missing grades, and contacting instructors.
+An alert will notify you if there are missing grades, prompting you to take action.
 
-## Contribution
+## Contacting Instructors
 
-To contribute to this project, please follow these guidelines:
+Need assistance or have questions about your grades? The application allows you to contact instructors easily:
 
-1. Fork the repository.
-2. Create a new branch for your feature.
-3. Commit your changes and push them to your branch.
-4. Submit a pull request for review.
+1. Visit the "Contact Instructors" page or find a specific course on the dashboard.
+2. Look for the contact information or a messaging option associated with each course or instructor.
+3. Reach out with your inquiries or concerns.
 
-Please adhere to the project's coding standards and provide clear and detailed pull request descriptions.
+Feel free to explore other sections of the application and familiarize yourself with additional features and functionalities. If you encounter any issues or have further questions, refer to the documentation or reach out to our support team.
+
+Enjoy using our application, and best of luck with your studies!
+
+
+## Student Information
+
+- **Name:** Mensah Francis
+- **Student ID:** 11355994
+
+
+
+
+
