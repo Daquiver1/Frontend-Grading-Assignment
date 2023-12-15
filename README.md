@@ -7,8 +7,6 @@ Wornor Believe  11246331
 # SET-UP FOR MY PROJECT
 ## Node.js and npm:
 Make sure Node.js and npm (Node Package Manager) are installed on your machine. You can download and install them from https://nodejs.org/.
-## Create React App:
-For simplicity, we'll use Create React App to set up the project quickly. If you haven't installed it, you can do so using the following command:
 
 # SCREENSHOTS OF MY REACT WEBSITE
 ## Homepage
@@ -32,7 +30,9 @@ For simplicity, we'll use Create React App to set up the project quickly. If you
 ## Login-page
 ![Screenshot (17)](https://github.com/Believe-wr/Frontend-Grading-Assignment/assets/151064445/09e08159-7d0f-45b2-8d08-e13b2e5e74cf)
 
-# WHAT I LARNED 
+# WHAT I LEARNED
+## React fundamentals
+
 
 
 
