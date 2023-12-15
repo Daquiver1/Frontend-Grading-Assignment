@@ -70,10 +70,10 @@ const InstructorPage = () => {
                 </p>
                 <p className="text-right">
                     <select className="instructors w-60 h-20">
-                        <option></option>
-                        <option></option>
-                        <option></option>
-                        <option></option>
+                        <option  value="" disabled selected> Select an Instructor mail</option>
+                        <option>markatta@gmail.com</option>
+                        <option>ghansah@gmail.com</option>
+                        <option>paul@gmail.com</option>
                     </select>
                 </p>
             </div>
