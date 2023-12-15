@@ -35,6 +35,10 @@ a {
     font-weight: bold;
 }
 
+.nav__brand:hover {
+    cursor: pointer;
+}
+
 .nav__menu {
     display: flex;
     align-items: center;
