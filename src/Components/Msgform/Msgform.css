@@ -1,0 +1,65 @@
+/* Add your existing styles here */
+
+.contact-col {
+    flex-basis: 48%;
+    margin-bottom: 30px;
+    background-image: url('../Assets/BG.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+  }
+  .contact-col h2{
+    font-size: 40px;
+    font-weight: 900;
+    text-align: center;
+  }
+  
+  .contact-col p{
+    font-size: 28px;
+    color: rgb(15, 15, 132);
+    text-align: center;
+    border: gray;
+  }
+  .btns{
+    border-radius: 18px;
+    background-color: lightskyblue;
+    padding-left: 65px;
+    padding-right: 65px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-size: 20px;
+    cursor: pointer;
+    border-color: navy;
+  }
+  .btns:hover{
+    color: whitesmoke;
+    border: none;
+  }
+  .btns:active{
+    color: white;
+    background-color: navy;
+  }
+  
+  .contact-col input,
+  .contact-col textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 17px;
+    outline: none;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-left: 10px;
+  }
+   
+
+  
+  
+  /* Add responsive styles here */
+  @media (max-width: 768px) {
+    .contact-col {
+      flex-basis: 100%;
+      background-size: contain;
+      height: auto;
+    }
+  }
+  
