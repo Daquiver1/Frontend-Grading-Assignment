@@ -1,16 +1,17 @@
 import React, { useState, useEffect } from 'react';
 import "../components-css/Dash.css";
 
+
 // Sample student data
 const studentData = {
   name: 'John Doe',
   grades: {
-    math: 85,
-    science: 90,
-    english: 78,
-    history: 88,
+    DCIT205: 95,
+    DCIT201: 90,
+    DCIT209: 78,
+    DCIT203: 88,
   },
-  missingGrades: ['chemistry'],
+  missingGrades: ['CBAS'],
 };
 
 function DashboardPage() {
@@ -22,9 +23,9 @@ function DashboardPage() {
     setTimeout(() => {
       setStudentGrades({
         ...studentGrades,
-        history: 92, // Update a grade for demo purposes
+        DCIT205: 92, // Update a grade for demo purposes
       });
-      setMissingGrades(['chemistry', 'french']); // Update missing grades for demo
+      setMissingGrades(['CBAS', 'french']); // Update missing grades for demo
     }, 2000);
   }, [studentGrades]);
 
@@ -35,9 +36,10 @@ function DashboardPage() {
       </li>
     ));
   };
+ 
 
   const renderMissingGradesAlert = () => {
-    if (missingGrades.length) {
+    if (missingGrades.length < 60 ) { // Change 'length > 0' to check for actual data existence
       return (
         <div className="alert alert-warning">
           Missing grades for: {missingGrades.join(', ')}
@@ -46,9 +48,14 @@ function DashboardPage() {
     }
     return null;
   };
-
+  
   return (
-    <div className="dashboard-container">
+    <div className="dashboard-container" style={
+      {
+        
+        backgroundImage: 'url(../components-images/gty3.jpg")'
+      }
+    }> 
       <h1>{studentData.name}'s Dashboard</h1>
       <h2>School Performance</h2>
       <p>Overall GPA: 84.5 (based on current grades)</p>

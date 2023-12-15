@@ -1,6 +1,9 @@
 .dashboard-container {
-  font-family: sans-serif;
-  margin: 50px;
+    font-family: sans-serif;
+    background-image: url(../components-images/gty3.jpg);
+    background-size: cover;
+    background-position: center center; /* or background-position: top left; */
+  
 }
 
 h1,
@@ -14,6 +17,7 @@ h2 {
   border: 1px solid #ddd;
   border-radius: 5px;
 }
+
 
 .grade-card li {
   margin-bottom: 5px;

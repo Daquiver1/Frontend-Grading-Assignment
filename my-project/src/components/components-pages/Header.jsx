@@ -12,10 +12,9 @@ function Header() {
         <Navbar/>
         <div className="name">
            <h1><span>Welcome to the Grading System</span>Check your Grades with ease!</h1>
-             <p className="details" >Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Deserunt perspiciatis molestiae in quidem.
-               Id repudiandae delectus accusamus veniam alias!
-                Ea rerum, adipisci dolor provident vitae nesciunt ut ducimus nihil id.</p>
+             <p className="details" >Welcome to our website, where we revolutionize the grading system.
+              Say goodbye to traditional methods and embrace a fair and efficient way of evaluating performance.
+</p>
                 <a href="/Login" className="cv-btn">Login Here!!</a>
         </div>
     </div>

@@ -12,9 +12,11 @@ function Feature () {
       return (
          <div id="features">
             <div className="a-container">
-               <FeatureBox image={kids} title="Grade Center" content="Unique content for Box 1" />
-               <FeatureBox image={edu} title="Grade Form" content="This website uses forms as a means to communicate or report issues" />
-               <FeatureBox image={confused} title="Dashboard" content="Unique content for Box 1" />
+               <FeatureBox image={kids} title="Grades Center" content="Effortlessly track your grades, feedback, and resources, all in one central hub. 
+               Your gateway to academic success." />
+               <FeatureBox image={edu} title="Grade Form" content="Digital forms to the rescue! No more grading woes, just simplified grading and personalized feedback." />
+               <FeatureBox image={confused} title="Dashboard" content="Lost in the grade maze? We're your map! Check grades, track progress, and tackle any issue with ease. 
+            " />
               
 
             </div>

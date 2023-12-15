@@ -27,10 +27,6 @@ const Login = () => {
     <img src={user_icon} alt=""/>
     <input placeholder="Student ID" type="pin" />
   </div>
-  {/* <div className="input">
-    <img src={email_icon} alt=""/>
-    <input placeholder="Email" type="email" />
-  </div> */}
   <div className="input">
     <img src={password_icon} alt=""/>
     <input placeholder="Pin" type="password" />
