@@ -8,7 +8,7 @@ const MissingGrade = () => {
     alert("The email address and password are " + instructor + " and " + course + " respectively.");
 };
   return (
-    <div className="h-[100vh]">
+    <div className="">
       <div className="border-solid border-2 border-slate-600 rounded sm:w-[450px] w-[75%] min-w-[300px] mx-auto mt-[5%]">
             <h1 className="text-3xl py-3 text-center font-semibold">Missing Grade</h1>
             <hr className="bg-slate-700 mb-3 h-[2px]"/>

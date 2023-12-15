@@ -90,7 +90,7 @@ export const records = [
     },
     {
       code: "STAT112",
-      title: "NTRODUCTION TO STATISTICS AND PROBABILITY II",
+      title: "INTRODUCTION TO STATISTICS AND PROBABILITY II",
       credit: 3,
       grade: "A",
       gpt: 12,
@@ -105,5 +105,63 @@ export const records = [
       gpt: 12,
       year:"2022/23",
       sem: 2,
+    },
+  ]
+
+
+  export const records3 = [
+    {
+      code:"DCIT201",
+      title:"PROGRAMMING I",
+      credit: 3,
+      grade:"N/A",
+      gpt:"N/A",
+      year:"2023/24",
+      sem:1,
+    },
+    {
+      code: "DCIT203",
+      title: "DIGITAL AND LOGIC SYSTEMS DESIGN",
+      credit: 3,
+      grade: "N/A",
+      gpt:"N/A",
+      year:"2023/24",
+      sem: 1,
+    },
+    {
+      code: "DCIT205",
+      title: "MULTI MEDIA AND WEB DESIGN ",
+      credit: 3,
+      grade: "N/A",
+      gpt: "N/A",
+      year:"2023/24",
+      sem: 1,
+    },
+    {
+      code: "DCIT207",
+      title: "COMPUTER ORGANIZATION & ARCHITECTURE",
+      credit: 3,
+      grade: "N/A",
+      gpt: "N/A",
+      year:"2023/24",
+      sem: 1,
+    },
+    {
+      code: "STAT112",
+      title: "INTRODUCTION TO STATISTICS AND PROBABILITY II",
+      credit: 3,
+      grade: "N/A",
+      gpt: "N/A",
+      year:"2022/23",
+      sem: 2,
+    },
+    {
+      code: "MATH223",
+      title: "CALCULUS II",
+      credit: 3,
+      grade: "N/A",
+      gpt: "N/A",
+      year:"2023/24",
+      sem: 1,
     },
   ]
