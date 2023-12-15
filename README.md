@@ -1,4 +1,7 @@
 # Student Report System
+### Name: Michael Bansah
+### ID : 11020103
+
 This is a website that help students track their grades, missing grades, contact an Instructor if they have any issue, and comes with an FAQ section where most of the most ask qustions are answered. The design was made based on giving all students a simple and calming navigation of the website.
 
 ## Pages
@@ -20,4 +23,26 @@ This is a website that help students track their grades, missing grades, contact
 - React.js
 - Google font(Roboto)
 - Fontawesome(Icons)
+
+## Screenshots
+### Overview Page
+<img src="./readme files/Overview-Page.png" alt="screenshort"/>
+
+### Login Form
+<img src="./readme files/Login-Form.png" alt="screenshort"/>
+
+### Dashboard Page
+<img src="./readme files/Dashboard.png" alt="screenshort"/>
+
+### Grade Report Page
+<img src="./readme files/Grade Report.png" alt="screenshort"/>
+
+### Missing Grade Page
+<img src="./readme files/Missing-Grade.png" alt="screenshort"/>
+
+### Instructor Contact Page
+<img src="./readme files/Instructor-Contact.png" alt="screenshort"/>
+
+### FAQ Page
+<img src="./readme files/FAQ.png" alt="screenshort"/>
 
