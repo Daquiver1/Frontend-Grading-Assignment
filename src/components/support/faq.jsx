@@ -21,13 +21,13 @@ export function FAQ() {
                     clipRule="evenodd"
                   ></path>
                 </svg>
-                What do you mean by "Figma assets"?
+                What is the purpose of the Missing Report Grading System
+                website?
               </h3>
               <p className="text-gray-500 dark:text-gray-400">
-                You will have access to download the full Figma project
-                including all of the pages, the components, responsive pages,
-                and also the icons, illustrations, and images included in the
-                screens.
+                The Missing Report Grading System website is designed to
+                streamline the process of reporting and tracking missing
+                assignments, facilitating efficient grading for educators.
               </p>
             </div>
             <div className="mb-10">
@@ -44,12 +44,13 @@ export function FAQ() {
                     clipRule="evenodd"
                   ></path>
                 </svg>
-                What does "lifetime access" exactly mean?
+                How do I report a missing assignment on the system?
               </h3>
               <p className="text-gray-500 dark:text-gray-400">
-                Once you have purchased either the design, code, or both
-                packages, you will have access to all of the future updates
-                based on the roadmap, free of charge.
+                To report a missing assignment, log in to your account, navigate
+                to the reporting section, and fill out the required information,
+                including the student's details, assignment details, and any
+                additional comments
               </p>
             </div>
             <div className="mb-10">
@@ -66,12 +67,16 @@ export function FAQ() {
                     clipRule="evenodd"
                   ></path>
                 </svg>
-                How does support work?
+                Can students view their missing assignments on the system?
               </h3>
               <p className="text-gray-500 dark:text-gray-400">
-                We're aware of the importance of well qualified support, that is
-                why we decided that support will only be provided by the authors
-                that actually worked on this project.
+                Absolutely. We believe in fostering transparency and
+                accountability in education. Students can log in to their
+                accounts to access a comprehensive list of missing assignments.
+                This feature empowers them to take ownership of their academic
+                responsibilities, encouraging a proactive approach to completing
+                outstanding work and improving their overall academic
+                performance.
               </p>
               <p className="text-gray-500 dark:text-gray-400">
                 Feel free to{" "}
@@ -100,14 +105,13 @@ export function FAQ() {
                     clipRule="evenodd"
                   ></path>
                 </svg>
-                I want to build more than one project. Is that allowed?
+                How does the grading system work for missing assignments?
               </h3>
               <p className="text-gray-500 dark:text-gray-400">
-                You can use Windster for an unlimited amount of projects,
-                whether it's a personal website, a SaaS app, or a website for a
-                client. As long as you don't build a product that will directly
-                compete with Windster either as a UI kit, theme, or template,
-                it's fine.
+                The grading system automatically categorizes and prioritizes
+                missing assignments based on factors such as due date and
+                course, helping educators efficiently manage and grade
+                outstanding work.
               </p>
               <p className="text-gray-500 dark:text-gray-400">
                 Find out more information by{" "}
@@ -136,18 +140,18 @@ export function FAQ() {
                     clipRule="evenodd"
                   ></path>
                 </svg>
-                What does "free updates" include?
+                Is the Missing Report Grading System compatible with other
+                educational platforms?
               </h3>
               <p className="text-gray-500 dark:text-gray-400">
-                The free updates that will be provided is based on the{" "}
+                Yes, our system is designed to integrate seamlessly with popular{" "}
                 <a
                   href="#"
                   className="font-medium underline text-primary-600 dark:text-primary-500 hover:no-underline"
                 >
-                  roadmap
+                  learning management system
                 </a>{" "}
-                that we have laid out for this project. It is also possible that
-                we will provide extra updates outside of the roadmap as well.
+                ensuring a smooth experience for both educators and students.
               </p>
             </div>
             <div className="mb-10">
@@ -164,23 +168,17 @@ export function FAQ() {
                     clipRule="evenodd"
                   ></path>
                 </svg>
-                What does the free version include?
+                Can parents access the Missing Report Grading System to monitor
+                their child's academic performance?
               </h3>
               <p className="text-gray-500 dark:text-gray-400">
-                The{" "}
-                <a
-                  href="#"
-                  className="font-medium underline text-primary-600 dark:text-primary-500 hover:no-underline"
-                >
-                  free version
-                </a>{" "}
-                of Windster includes a minimal style guidelines, component
-                variants, and a dashboard page with the mobile version alongside
-                it.
+                Yes, parents can create accounts to access a simplified view of
+                their child's missing assignments and overall academic progress.
               </p>
               <p className="text-gray-500 dark:text-gray-400">
-                You can use this version for any purposes, because it is
-                open-source under the MIT license.
+                This feature encourages open communication between educators,
+                students, and parents, fostering a collaborative educational
+                environment.
               </p>
             </div>
             <div className="mb-10">
@@ -197,18 +195,19 @@ export function FAQ() {
                     clipRule="evenodd"
                   ></path>
                 </svg>
-                What is the difference between Windster and Tailwind UI?
+                How can educators customize the grading criteria for missing
+                assignments?
               </h3>
               <p className="text-gray-500 dark:text-gray-400">
-                Although both Windster and Tailwind UI are built for integration
-                with Tailwind CSS, the main difference is in the design, the
-                pages, the extra components and UI elements that Windster
-                includes.
+                Educators can tailor the grading criteria by accessing the
+                system's settings, allowing them to define parameters such as
+                late submission policies, point deductions, and weighting for
+                different assignment types.
               </p>
               <p className="text-gray-500 dark:text-gray-400">
-                Additionally, Windster is a project that is still in
-                development, and later it will include both the application,
-                marketing, and e-commerce UI interfaces.
+                This flexibility allows educators to tailor the grading criteria
+                to align with their specific teaching methodologies and
+                institutional guidelines.
               </p>
             </div>
             <div className="mb-10">
@@ -225,17 +224,19 @@ export function FAQ() {
                     clipRule="evenodd"
                   ></path>
                 </svg>
-                Can I use Windster in open-source projects?
+                What security measures are in place to protect sensitive student
+                data on the system?
               </h3>
               <p className="text-gray-500 dark:text-gray-400">
-                Generally, it is accepted to use Windster in open-source
-                projects, as long as it is not a UI library, a theme, a
-                template, a page-builder that would be considered as an
-                alternative to Windster itself.
+                We prioritize the security of student data through robust
+                encryption protocols, secure login procedures, and adherence to
+                privacy regulations, ensuring that sensitive information is
+                safeguarded at all times.
               </p>
               <p className="text-gray-500 dark:text-gray-400">
-                With that being said, feel free to use this design kit for your
-                open-source projects.
+                Our stringent security measures provide users with the assurance
+                that their information is handled with the utmost care and
+                diligence.
               </p>
               <p className="text-gray-500 dark:text-gray-400">
                 Find out more information by{" "}
