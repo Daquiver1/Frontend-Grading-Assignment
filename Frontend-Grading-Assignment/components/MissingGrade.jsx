@@ -5,7 +5,7 @@ const MissingGrade = () => {
   const [course, setCourse] = useState("");
   const handleFormSubmit = (e) => {
     e.preventDefault();
-    alert("The email address and password are " + instructor + " and " + course + " respectively.");
+    alert("Submitted Successfully.");
 };
   return (
     <div className="">

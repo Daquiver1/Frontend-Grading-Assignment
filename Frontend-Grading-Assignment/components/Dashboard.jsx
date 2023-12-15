@@ -13,7 +13,7 @@ const Dashboard = () => {
                 <p className="text-md font-semibold">CCT</p>
                 <p className="text-md font-semibold">CGPA</p>
               </li>
-              <li className="text-sm grid grid-cols-[7%_34%_5%_5%_5%] border-solid border-slate-500 border-b-2">
+              <li className="text-sm grid lg:grid-cols-[7%_34%_5%_5%_5%] grid-cols-[15%_50%_10%_10%_10%] border-solid border-slate-500 border-b-2">
                 <p className="">Code</p>
                 <p className="">Course Title</p>
                 <p className="">Credit</p>
@@ -22,7 +22,7 @@ const Dashboard = () => {
               </li>
               
             {records3.map((record) => (
-              <li key={record.code} className="text-sm grid grid-cols-[7%_35%_5%_5%_5%]">
+              <li key={record.code} className="text-sm grid lg:grid-cols-[7%_34%_5%_5%_5%] grid-cols-[15%_50%_10%_10%_10%]">
                 <p className="">{record.code}</p>
                 <p className="">{record.title}</p>
                 <p className="">{record.credit}</p>
@@ -36,9 +36,11 @@ const Dashboard = () => {
                 <p className="text-2xl p-4">FGPA:</p>
                 <p className="text-2xl p-4">3.00</p>
               </div>
-              <div className="m-4 border-2 border-slate-500 rounded">
+              <div className="m-4 p-4 border-2 border-slate-500 rounded">
                 <p>Missing Grades</p>
-
+                <div>
+                  <p>Grades for <span className="text-red-500">STAT223</span> not found</p>
+                </div>
               </div>
           </div>
     </div>

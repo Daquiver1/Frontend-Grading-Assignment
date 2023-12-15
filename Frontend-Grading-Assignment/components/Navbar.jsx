@@ -3,16 +3,16 @@ import { useState } from 'react';
 
 const navLinks = [
   {
-    id: "home",
+    id: "/",
     title: "Home",
   },
   {
-    id: "features",
-    title: "Features",
+    id: "/MainContent",
+    title: "Dashboard",
   },
   {
-    id: "howItWorks",
-    title: "How It Works",
+    id: "/HelpAndSupport",
+    title: "Help and Support",
   },
 ];
 
@@ -24,7 +24,7 @@ const Navbar = () => {
 
   return (
     <header className='bg-slate-500 text-white p-3 flex justify-between fixed w-full'>
-      <h1>GradeBook</h1>
+      <h1>Grade Reporter</h1>
       <nav>
         <div className='sm:hidden'>
           <div onClick={() => setToggle(!toggle)}>
@@ -33,7 +33,7 @@ const Navbar = () => {
           <ul className={`absolute left-0 bg-slate-500 w-full px-3 py-1 ${toggle ? 'block' : 'hidden'}`}>
             {navLinks.map((nav, index) => (
               <li key={nav.id} className={`block hover:bg-slate-400 rounded px-1 ${active === 'nav.title'?'text-white': 'text-dimWhite'} ${index === navLinks.length - 1 ? 'mb-0': 'mb-4'}`} onClick = {() => setActive(nav.title)}>
-                <a href={`#${nav.id}`}>{nav.title}</a>
+                <a href={nav.id}>{nav.title}</a>
               </li>
             ))}
           </ul> 
@@ -48,7 +48,7 @@ const Navbar = () => {
                 } ${index === navLinks.length - 1 ? "mr-0" : "mr-10"}`}
                 onClick={() => setActive(nav.title)}
               >
-                <a href={`#${nav.id}`}>{nav.title}</a>
+                <a href={`${nav.id}`}>{nav.title}</a>
               </li>
           ))}
           </ul>

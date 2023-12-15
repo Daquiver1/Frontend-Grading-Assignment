@@ -8,6 +8,7 @@ import {
 import "./index.css";
 import SignIn from '../components/SignIn.jsx';
 import MainContent from '../components/MainContent.jsx';
+import HelpAndSupport from '../components/HelpAndSupport.jsx';
 
 const router = createBrowserRouter([
   {
@@ -22,6 +23,10 @@ const router = createBrowserRouter([
   path:"/MainContent",
   element: <MainContent />,
 },
+{
+  path:"/HelpAndSupport",
+  element: <HelpAndSupport/>,
+}
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
