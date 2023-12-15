@@ -1,51 +1,60 @@
-# Student Grade Reporting System Frontend
+# React Missing Grade Reporting System
 
-## Project Overview
+The React Missing Grade Reporting System is a web application developed using React.js to empower students in tracking and reporting missing grades efficiently. The system provides a user-friendly interface with features like a dashboard overview, detailed grade reports, a form for reporting missing grades, instructor contact information, and a help and support section.
 
-This project is a front-end web application for a Student Grade Reporting System. It simulates a real-world application where students can view, report, and manage their academic grades. This system addresses the issue of missing or unrecorded grades in a student's profile.
+## Table of Contents
 
-## Application Structure
+- [Introduction](#introduction)
+- [Features](#features)
+- [Project Structure](#project-structure)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Pages](#pages)
+- [Components](#components)
+- [API Integration](#api-integration)
+- [Contributing](#contributing)
+- [License](#license)
 
-The application consists of 7 main pages:
+## Introduction
 
-- **Homepage:** Introduction to the system and its purpose.
-- **Login Page:** Mock login interface for student authentication.
-- **Dashboard:** Displays an overview of the student’s current grades and alerts for missing grades.
-- **Grade Report:** Shows a detailed view of the student's grades filtered by semester or academic year.
-- **Missing Grade Form:** Enables students to report missing grades.
-- **Instructor Contact Page:** Lists instructors' contact information with a simulated email feature.
-- **Help and Support:** Provides FAQs and a mock support contact form.
+The Missing Grade Reporting System is designed to streamline the process of tracking and reporting missing grades for students. The application is built using React.js, providing a responsive and dynamic user interface. It includes various pages for different functionalities, allowing users to view current grades, submit missing grade reports, contact instructors, and seek help and support.
 
-## Technical Details
+## Features
 
-- **Framework/Technology Used:** [React]
-- **Responsive Design:** Implemented using [CSS Flexbox/Grid, Bootstrap, Tailwind CSS].
-- **JavaScript Functionality:** Used for form validations, dynamic content rendering, and simulating interactions.
+- **Dashboard Overview:**
+  - Provides a quick overview of current grades.
+  - Alerts users about any missing grades that need attention.
 
-## Setup and Installation
+- **Grade Report Details:**
+  - Displays a detailed view of all courses and respective grades.
+  - Allows filtering by semester or academic year for a streamlined academic history.
 
-To set up the project locally, follow these steps:
+- **Report Missing Grades:**
+  - Simple form to report missing grades.
+  - Fields include course name, instructor name, expected grade, and explanation.
 
-```bash
-git clone https://github.com/your-github-username/DCIT_205_ASSIGNGMENT1.git
-cd repo-name
-npm install
-npm start
-```
+- **Instructor Contact:**
+  - Presents a list of instructors with their contact details.
+  - Simulates sending emails directly through the platform.
 
-This will start the application on `localhost` at the default port.
+- **Help & Support:**
+  - Comprehensive FAQ section addressing common questions about grade reporting.
+  - Contact form for technical support.
 
-## Usage
+## Project Structure
 
-Describe how to use the application, highlighting key functionalities such as logging in, viewing grades, reporting missing grades, and contacting instructors.
+The project is organized into various components and pages, ensuring modularity and maintainability. Key components include Navbar, Footer, and individual pages for different features.
 
-## Contribution
+- **Components:**
+  - `Navbar`: Navigation bar with links to different sections of the application.
+  - `Footer`: Footer with system information, contact details, and quick links.
 
-To contribute to this project, please follow these guidelines:
+- **Pages:**
+  - `LandingPage`: Welcome message, system overview, and key features.
+  - `LoginPage`: Form for entering student ID and PIN with authentication logic.
+  - `Dashboard`: Displays current grades and missing grades retrieved from mock API endpoints.
+  - `GradeReport`: Allows filtering courses by academic year and displays a table with course details.
+  - `MissingGradeForm`: Form to report missing grades with fields for course name, instructor name, expected grade, and explanation.
+  - `InstructorContact`: Lists instructors with contact details and simulates sending emails.
+  - `HelpAndSupport`: Features FAQ section and a contact form for technical support.
 
-1. Fork the repository.
-2. Create a new branch for your feature.
-3. Commit your changes and push them to your branch.
-4. Submit a pull request for review.
-
-Please adhere to the project's coding standards and provide clear and detailed pull request descriptions.
