@@ -1,0 +1,27 @@
+/* GradeReportPage.css */
+.grade-report-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #221f1f;
+  }
+  
+  .filter-section {
+    margin-bottom: 20px;
+  }
+  
+  .grades-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #242020;
+  }
+  

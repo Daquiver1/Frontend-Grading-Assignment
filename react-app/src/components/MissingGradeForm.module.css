@@ -1,0 +1,73 @@
+/* MissingGradeForm.module.css */
+
+/* Apply background image to the body */
+body {
+  margin: 0;
+  padding: 0;
+  
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  overflow: hidden; /* Prevent default margin/padding on body */
+}
+
+.missingGradeFormContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Use the full viewport height */
+  max-width: 1000px; /* Adjust as needed */
+  margin: 0 auto; /* Center the container horizontally */
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.missingGradeFormTitle {
+  text-align: center;
+  color: #333;
+}
+
+.missingGradeForm {
+  max-width: 600px; /* Adjust as needed */
+  width: 100%; /* Occupy 100% of the available width */
+  margin-left: auto; /* Push the form to the right */
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.missingGradeFormLabel {
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.missingGradeFormInput,
+.missingGradeFormExplanationInput {
+  padding: 10px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+}
+
+.missingGradeFormExplanationInput {
+  resize: vertical;
+}
+
+.missingGradeFormSubmitButton {
+  padding: 8px 12px;
+  font-size: 14px;
+  width: auto; /* Adjust the width automatically based on content */
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100px;
+}
+
+.missingGradeFormSubmitButton:hover {
+  background-color: #45a049;
+}
