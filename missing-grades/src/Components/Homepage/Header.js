@@ -1,6 +1,6 @@
 import React from "react";
 import './styles.css';
-
+import { Link } from 'react-router-dom';
 function Header() {
     return (
 <header id="header">
@@ -14,11 +14,11 @@ function Header() {
             <div>
                 <nav className="navbar">
                     <ul >
-                        <li className="navbar-item"><a href="" className="navbar-link">MIS<span></span></a></li>
-                        <li className="navbar-item"><a href=""className="navbar-link">SAKAI<span></span></a></li>
-                        <li className="navbar-item"><a href=""className="navbar-link">DASHBOARD<span></span></a></li>
-                        <li className="navbar-item"><a href=""className="navbar-link">HELP & SUPPORT<span></span></a></li>
-                        <li className="navbar-item"><a href=""className="navbar-link">LOGIN<span></span></a></li>
+                        <li className="navbar-item"><a href="https://ienabler.ug.edu.gh/pls/prodi41/w99pkg.mi_login" className="navbar-link">MIS<span></span></a></li>
+                        <li className="navbar-item"><a href="https://sakai.ug.edu.gh/portal/relogin"className="navbar-link">SAKAI<span></span></a></li>
+                        <li className="navbar-item"><Link to="/dashboard" className="navbar-link">DASHBOARD<span></span></Link></li>
+                        <li className="navbar-item"><Link to="/helpsupport" className="navbar-link">HELP & SUPPORT<span></span></Link></li>
+                        <li className="navbar-item"><Link to="/login" className="navbar-link">LOGIN<span></span></Link></li>
                     </ul>
                 </nav>
             </div>

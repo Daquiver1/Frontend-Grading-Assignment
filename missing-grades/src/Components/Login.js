@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './Login.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUserCircle, faUnlockAlt } from '@fortawesome/free-solid-svg-icons';
+import { useNavigate } from 'react-router-dom';
 
 const Login = () => {
   const [studentId, setStudentId] = useState('');
@@ -9,6 +10,7 @@ const Login = () => {
   const [selectedRole, setSelectedRole] = useState('student');
   const [loginStatus, setLoginStatus] = useState('');
 
+  const navigate = useNavigate();
   const handleLogin = () => {
     if (
       (selectedRole === 'student' && studentId === '12345' && pin === '12345') ||
@@ -18,6 +20,7 @@ const Login = () => {
     } else {
       setLoginStatus('Incorrect ID or PIN. Please try again.');
     }
+    navigate('/dashboard');
   };
 
   return (

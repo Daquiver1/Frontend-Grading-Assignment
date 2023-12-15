@@ -117,6 +117,9 @@
     text-align: justify;
     margin-right: 30px;
 }
+.welcomeText H1{
+    color: white;
+}
 @keyframes flyInText {
     from {
         transform: translateX(100%);

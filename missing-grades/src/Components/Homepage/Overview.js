@@ -1,8 +1,15 @@
 import React from "react";
 import './styles.css';
+import Header from './Header';
+import { useNavigate } from 'react-router-dom';
+
 function Overview(){
+    const navigate = useNavigate();
+    navigate('/login');
     return(
+      
         <div className="homepage">
+              <Header />
         <div className="introImageContainer">
         <div className="introImageOverlay"></div>
             <img
@@ -11,7 +18,7 @@ function Overview(){
                 className="introImage"
             />
             <div className="welcomeText">
-                <h1>Welcome to the Missing Grade Reporting System!</h1>
+                <h1 className="H1">Welcome to the Missing Grade Reporting System!</h1>
 
             <h3>At the heart of every academic journey lies the pursuit of knowledge, growth, and success.<br />
             Here at our Missing Grade Reporting System, we recognize the importance of a seamless academic

@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import './dashboard.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUserCircle, faExclamationCircle } from '@fortawesome/free-solid-svg-icons';
+import { Link } from 'react-router-dom';
 
 function Dashboard() {
   const [isNavActive, setNavActive] = useState(false);
@@ -30,11 +31,11 @@ function Dashboard() {
           <div className={`sidenav ${isNavActive ? 'active' : ''}`}>
               <ul className="sideList">
                 <li className="navbar-item"><a href="www.sakai ug.edu.gh" className="navbar-link">SAKAI<span></span></a></li>
-                <li className="navbar-item"><a href="#" className="navbar-link">HOMEPAGE<span></span></a></li>
-                <li className="navbar-item"><a href="#" className="navbar-link">MISWEB<span></span></a></li>
-                <li className="navbar-item"><a href="#" className="navbar-link">GRADE REPORT<span></span></a></li>
-                <li className="navbar-item"><a href="#" className="navbar-link">MISSING GRADE<span></span></a></li>
-                <li className="navbar-item"><a href="#" className="navbar-link">HELP & SUPPORT<span></span></a></li>
+                <li className="navbar-item"><Link to="/" className="navbar-link">HOMEPAGE<span></span></Link></li>
+                <li className="navbar-item"><a href="https://ienabler.ug.edu.gh/pls/prodi41/w99pkg.mi_login" className="navbar-link">MIS<span></span></a></li>
+                <li className="navbar-item"><Link to="/gradereport" className="navbar-link">GRADE REPORT<span></span></Link></li>
+                <li className="navbar-item"><Link to="/gradeform" className="navbar-link">MISSING GRADE<span></span></Link></li>
+                <li className="navbar-item"><Link to="/helpsupport" className="navbar-link">HELP & SUPPORT<span></span></Link></li>
               </ul>
             </div>
             <nav className="navbar">
