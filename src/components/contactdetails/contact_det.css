@@ -18,16 +18,17 @@
 
 .row {
     display: flex;
-    justify-content: space-around; /* Adjust as needed */
+    justify-content: space-around;
   }
   
   .instructors {
     text-align: center;
+    padding-bottom: 280px;
   }
   
   .image {
-    width: 100px; /* Adjust the width as needed */
-    height: auto; /* Maintain aspect ratio */
+    width: 100px; 
+    height: auto; 
   }
 
   

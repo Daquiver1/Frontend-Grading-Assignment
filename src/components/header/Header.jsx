@@ -1,9 +1,13 @@
 import React from 'react';
 import './header.css'
 
+
 const Header = () => {
   return (
     <header>
+        <div className="logo">
+            <p>UNIVERSITY OF  GHANA</p>
+        </div>
       <nav>
         <ul>
           <li><a href="#">Home</a></li>
