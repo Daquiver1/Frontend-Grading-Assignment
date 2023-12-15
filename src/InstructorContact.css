@@ -1,0 +1,51 @@
+/* InstructorContact.css */
+.instructor-list-section {
+    margin-bottom: 30px;
+  }
+  
+  .instructor-list-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .instructor-list-section li {
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .instructor-list-section li:hover {
+    background-color: #ecf0f1;
+  }
+  
+  .selected-instructor-section {
+    margin-bottom: 20px;
+  }
+  
+  .email-section textarea {
+    width: 100%;
+    height: 150px;
+    margin-bottom: 15px;
+  }
+  
+  .email-section button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+  }
+  
+  .email-section button:hover {
+    background-color: #2980b9;
+  }
+  
+  .email-section .confirmation-message {
+    color: #2ecc71;
+    margin-top: 15px;
+  }
+  

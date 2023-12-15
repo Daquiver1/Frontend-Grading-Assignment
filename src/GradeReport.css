@@ -1,0 +1,26 @@
+/* GradeReport.css */
+.filter-section, .course-list-section {
+    margin-bottom: 30px;
+  }
+  
+  .filter-section select {
+    padding: 10px;
+  }
+  
+  .course-list-section table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .course-list-section th, .course-list-section td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .course-list-section th {
+    background-color: #3498db;
+    color: #fff;
+  }
+  
