@@ -30,6 +30,9 @@ function Dashboard() {
         <div className="w-full py-2 min-h-full bg-slate-50">
           <Outlet />
         </div>
+        <footer className=" px-3 text-center font-bold text-gray-500 border-t-2 flex py-2 w-full bg-white justify-center items-center">
+              Computer Science: Missing Grade Reporting System
+        </footer>
       </div>
     </div>
   );
