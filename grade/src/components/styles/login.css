@@ -1,0 +1,93 @@
+/* AppLogin.css */
+
+.gradient-form {
+    background: linear-gradient(to right, #8d2cbd, #00f2fe);
+  }
+  
+  .app-icon {
+    color: #fff;
+    font-size: 3rem;
+  }
+  
+  .motivational-text {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Style the black-colored container */
+  .gradient-custom-2 {
+    background: black;
+    width: 80%; /* Adjust the width as needed */
+    margin: 0 auto; /* Center the container */
+    padding: 20px;
+    border-radius: 10px; /* Add border-radius for rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add box shadow for a subtle effect */
+  
+    /* Responsive styles */
+    @media (max-width: 768px) {
+      width: 90%; /* Adjust for smaller screens */
+    }
+  
+    @media (max-width: 576px) {
+      width: 95%; /* Further adjust for smaller screens */
+    }
+  }
+  
+  .d-flex.flex-column.justify-content-center.gradient-custom-2.h-100.mb-4 {
+    margin-top: 20px;
+  }
+  
+  /* Responsive font sizes */
+  @media (max-width: 768px) {
+    .app-icon {
+      font-size: 2rem;
+    }
+  
+    .motivational-text {
+      font-size: 0.8rem;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .app-icon {
+      font-size: 1.5rem;
+    }
+  
+    .motivational-text {
+      font-size: 0.6rem;
+    }
+  }
+  
+
+  .login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin: 10px 0;
+  }
+  
+  input {
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
