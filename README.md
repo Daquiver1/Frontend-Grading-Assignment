@@ -76,3 +76,4 @@ CONTACT
 HELP
 [HELP](../missing-grades/src/assets/screenshots/hp.png) 
 
+[HELP](screenshots/hp.png)
