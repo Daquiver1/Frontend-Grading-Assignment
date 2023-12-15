@@ -1,0 +1,32 @@
+// LandingPage.js
+
+import React from 'react';
+import { Link } from 'react-router-dom';
+
+const LandingPage = () => {
+  return (
+    <div className="container">
+      <header>
+        <h1>Missing Grade Reporting System</h1>
+      </header>
+      <nav>
+        <ul>
+          <li><Link to="/login">Login</Link></li>
+          <li><Link to="/dashboard">Dashboard</Link></li>
+          <li><Link to="/grade-report">Grade Report</Link></li>
+          <li><Link to="/missing-grade-form">Missing Grade Form</Link></li>
+          <li><Link to="/instructor-contact">Instructor Contact</Link></li>
+          <li><Link to="/help-and-support">Help and Support</Link></li>
+        </ul>
+      </nav>
+      <section>
+        <p>Welcome to the Missing Grade Reporting System. This system is designed to help students track and report grades that are not recorded in their academic profiles.</p>
+      </section>
+      <footer>
+        <p>&copy; 2023 Your University</p>
+      </footer>
+    </div>
+  );
+}
+
+export default LandingPage;
