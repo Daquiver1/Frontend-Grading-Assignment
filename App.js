@@ -10,6 +10,9 @@ import HomePage from './Pages/HomePage';
 import InstructorContact from './Pages/InstructorContact';
 import LoginSignup from './Pages/LoginSignup';
 import MissingGrade from './Pages/MissingGrade';
+import Response from './Pages/response';
+
+
 
 function App() {
   return (
@@ -22,7 +25,8 @@ function App() {
       <Route path='/Instructor' element={<InstructorContact/>} />
       <Route path='/Login' element={<LoginSignup/>} />
       <Route path='/MissingGrade' element={<MissingGrade/>} />
-
+      <Route path='/response' element={<Response/>}/>
+      
       </Routes>
     </Router>
   );

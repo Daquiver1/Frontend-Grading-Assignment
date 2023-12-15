@@ -1,16 +1,30 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
-import MainLayout from '../Layouts/MainLayout'
+
 
 function HomePage() {
   return (
-    <MainLayout>
-        <div className='bg-light p-5 mt-4 rounded-4'>
-                    <h1 style={{textAlign:'center'}}>Welcome.</h1>
-                    <p>Here you can check your grades, report missing grades and contact your instructors.</p>
-                    <Link to='/Login' className='btn btn-primary'>Click here to login and check your grades.</Link>
+    <div>
+        <header>
+        <nav className="navbar navbar-light bg-primary">
+            <div className="container-fluid ">
+            <Link to="/" className="navbar-brand">Home</Link>
+            
+        </div>
+        </nav>
+        </header>
+        <main>
+            <div className='container mt-3'>
+                <div>
+                    <h1>Welcome</h1>
+                    <p>This is where you can check and report missing grades, contact your instructors and so on. </p>
+                    <Link to='/Login' className='btn btn-primary'>Click here to login</Link>
                 </div>
-    </MainLayout>
+            
+            </div>
+
+        </main>
+    </div>
   )
 }
 
