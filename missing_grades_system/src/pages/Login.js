@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Navbar from '../components/Navbar'
-import '../styles/login.css'
+import '../styles/login.css';
+import Footer from '../components/Footer';
 
 function LoginPage() {
   const [studentId, setStudentId] = useState('');
@@ -30,6 +31,7 @@ function LoginPage() {
           Login
         </button>
       </form>
+      <Footer />
     </div>
   );
 }

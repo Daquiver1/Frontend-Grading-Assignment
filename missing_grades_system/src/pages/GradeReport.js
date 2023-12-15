@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import '../styles/gradereport.css';
 import Navbar from '../components/Navbar'
+import Footer from '../components/Footer';
 
 
 function GradeReport() {
@@ -78,6 +79,7 @@ function GradeReport() {
           <p>No grades available for the selected semester.</p>
         )}
       </section>
+      <Footer />
     </div>
   );
 }

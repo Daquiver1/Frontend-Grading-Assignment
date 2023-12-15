@@ -1,6 +1,7 @@
 import React from 'react';
 import '../styles/helpandsupport.css';
 import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
 
 function HelpAndSupport() {
   return (
@@ -31,6 +32,7 @@ function HelpAndSupport() {
           <button type="submit">Submit</button>
         </form>
       </div>
+      <Footer />
     </div>
   );
 }

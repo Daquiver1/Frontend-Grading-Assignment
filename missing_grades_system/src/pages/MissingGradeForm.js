@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import '../styles/MissingGradeForm.css';
 import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
 
 function MissingGradeFormPage() {
   const [courseName, setCourseName] = useState('');
@@ -58,6 +59,7 @@ function MissingGradeFormPage() {
       </form>
 
       {isSubmitted && <p>Grade report submitted successfully!</p>}
+      <Footer />
     </div>
   );
 }

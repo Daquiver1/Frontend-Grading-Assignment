@@ -38,4 +38,13 @@
     color: #28a745; 
     margin-top: 10px;
   }
+  .instructor-item {
+    display: inline-block;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .instructor-name {
+    margin-right: 10px;
+  }
   

@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import '../styles/instructorcontact.css';
-import Navbar from '../components/Navbar'
+import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
 
 function InstructorContact() {
   const [instructorName, setInstructorName] = useState('');
@@ -33,12 +34,15 @@ function InstructorContact() {
         <h2>List of Instructors</h2>
         <ul>
           {instructors.map((instructor, index) => (
-            <li key={index}>
-              {instructor.name} - {instructor.email}
-              <button onClick={() => sendEmail(instructor.email)}>
-                Send Email
-              </button>
-            </li>
+           <li key={index} className="instructor-item">
+           <div>
+             <span className="instructor-name">{instructor.name}</span>
+             <span className="instructor-email">{instructor.email}</span>
+           </div>
+           <button onClick={() => sendEmail(instructor.email)}>
+             Send Email
+           </button>
+           </li>
           ))}
         </ul>
       </div>
@@ -75,6 +79,7 @@ function InstructorContact() {
       </form>
 
       {isSubmitted && <p>Message sent successfully!</p>}
+      <Footer />
     </div>
   );
 }

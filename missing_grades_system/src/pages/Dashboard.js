@@ -1,6 +1,7 @@
 import React from 'react';
 import '../styles/dashboard.css';
 import Navbar from '../components/Navbar'
+import Footer from '../components/Footer';
 
 
 function DashboardPage() {
@@ -47,6 +48,7 @@ function DashboardPage() {
           <p>No missing grades at the moment.</p>
         )}
       </section>
+      <Footer />
     </div>
   );
 }

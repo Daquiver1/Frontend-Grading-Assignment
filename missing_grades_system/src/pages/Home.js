@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import '../styles/home.css'
 import Navbar from '../components/Navbar'
+import Footer from '../components/Footer';
 
 function Home() {
   return (
@@ -25,6 +26,7 @@ function Home() {
           dashboard to view current grades, report missing grades, and more.
         </p>
       </section>
+      <Footer />
     </div>
   );
 }
