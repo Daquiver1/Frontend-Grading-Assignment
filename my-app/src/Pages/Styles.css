@@ -1,0 +1,219 @@
+.nav{
+    background-color: blue;
+    color: antiquewhite;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 2rem;
+    padding: 0 1rem;
+    width: 100%;
+    height: 6em;
+    position: relative;
+    z-index: 1;
+}
+.nav ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    margin-top: 1em;
+    margin-right: 2000px;
+}
+.nav a{
+    color: inherit;
+    text-decoration: none;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: .25rem;
+}
+
+.image{
+    width: 20em;
+    height: 6em;
+    margin-left: 1px;
+}
+/* Container holding the image and the text */
+.container {
+    background-color: #f1f1f1;
+    padding: 20px;
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+   }
+   
+   /* Add some padding and a grey background color to the form */
+   .form-group {
+    padding: 15px;
+    margin: 0;
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+   }
+   
+   /* Inline style for form control elements */
+   .form-control {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+   }
+   
+   /* Set a style for the submit button */
+   .btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+   }
+   
+   /* Primary button */
+   .btn-primary {
+    color: #fff;
+    background-color: #4caf50;
+    border-color: #4caf50;
+   }
+   
+   /* On mouse-over, add a deep green background color */
+   .btn-primary:hover {
+    background-color: #45a049;
+    border-color: #45a049;
+   }
+   
+   /* Add some padding and a grey background color to the container */
+   .container {
+    padding: 20px;
+    background-color: #f1f1f1;
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+   }
+   body {
+    font-family: Arial, sans-serif;
+   }
+   
+   h1 {
+    text-align: center;
+    color: #4a4a4a;
+   }
+   
+   h2 {
+    color: #3f51b5;
+   }
+   
+   .instructor-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+   }
+   
+   .instructor-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    width: 300px;
+    margin: 20px;
+   }
+   
+   .email-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   }
+   
+   textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    resize: vertical;
+   }
+   
+   button[type="submit"] {
+    background-color: #3f51b5;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+   }
+   
+   button[type="submit"]:hover {
+    opacity: 0.8;
+   }
+   body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.container ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.container h1, h2 {
+    color: #333;
+}
+
+.container .form-group {
+    margin-bottom: 15px;
+}
+
+.container .form-control {
+    width: 100%;
+    padding: 6px 12px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+.container .form-control:focus {
+    border-color: #333;
+}
+
+.container .btn-primary {
+    background-color: #333;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.container .btn-primary:hover {
+    background-color: #666;
+}
+

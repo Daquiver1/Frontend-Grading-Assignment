@@ -1,3 +1,6 @@
+# STUDENT ID:11352618
+## Name: Samuel Kwesi Nyarko
+
 # Student Grade Reporting System Frontend
 
 ## Project Overview
@@ -15,6 +18,7 @@ The application consists of 7 main pages:
 - **Missing Grade Form:** Enables students to report missing grades.
 - **Instructor Contact Page:** Lists instructors' contact information with a simulated email feature.
 - **Help and Support:** Provides FAQs and a mock support contact form.
+
 
 ## Technical Details
 
