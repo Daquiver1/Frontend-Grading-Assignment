@@ -24,7 +24,7 @@ const Login = (props) => {
       <div className="Login">
         <div className="auth-form-container">
           <h2>Login</h2>
-          <form className="login-form" onSubmit={handleSubmit}>
+          <form className="register-form" onSubmit={handleSubmit}>
             <label htmlFor="ID">Student ID</label>
             <input
               value={ID}
@@ -33,7 +33,6 @@ const Login = (props) => {
               placeholder="Your Student ID"
               id="ID"
               name="ID"
-              required
             />
             <label htmlFor="PIN">PIN</label>
             <input
@@ -43,7 +42,6 @@ const Login = (props) => {
               placeholder="********"
               id="PIN"
               name="Your PIN"
-              required
             />
             <button className="Log" type="submit">
               Log In

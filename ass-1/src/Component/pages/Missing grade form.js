@@ -42,7 +42,7 @@ function MissingGradeForm() {
         <div className="missing-grade-container">
           <h2>Missing Grade Form</h2>
           {!submitted && (
-            <form onSubmit={handleSubmit}>
+            <form className="register-form" onSubmit={handleSubmit}>
               <label htmlFor="courseName">Course Name:</label>
               <input
                 type="text"
