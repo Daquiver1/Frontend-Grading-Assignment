@@ -1,0 +1,46 @@
+.help-and-support-container {
+  background: linear-gradient(to right, #3498db, #6c5ce7);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+  padding: 2rem;
+}
+
+.help-and-support-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.help-and-support-description {
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+}
+
+.contact-options {
+  margin-top: 2rem;
+  font-size: 1.2rem;
+}
+
+.faq-section {
+  margin-top: 3rem;
+}
+
+.faq-section h3 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.faq-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.faq-section li {
+  margin-bottom: 0.5rem;
+}

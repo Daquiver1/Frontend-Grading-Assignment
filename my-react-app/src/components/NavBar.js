@@ -9,18 +9,26 @@ const NavBar = () => {
         <p>GradeZone</p>
       </div>
       <nav className="navbar">
-        <Link to="/grade-report" className="GradeReport">
-          Grade Report
-        </Link>
-        <Link to="/missing-grade-form" className="nav-link">
-          Missing Grade Form
-        </Link>
-        <Link to="/instructor-contact" className="nav-link">
-          Instructor Contact
-        </Link>
-        <Link to="/help-and-support" className="nav-link">
-          Help and Support
-        </Link>
+        <button className="navs">
+          <Link to="/grade-report" className="GradeReport">
+            Grade Report
+          </Link>
+        </button>
+        <button className="navs">
+          <Link to="/missing-grade-form" className="nav-link">
+            Missing Grade Form
+          </Link>
+        </button>
+        <button className="navs">
+          <Link to="/instructor-contact" className="nav-link">
+            Instructor Contact
+          </Link>
+        </button>
+        <button className="navs">
+          <Link to="/help-and-support" className="nav-link">
+            Help and Support
+          </Link>
+        </button>
       </nav>
     </header>
   );

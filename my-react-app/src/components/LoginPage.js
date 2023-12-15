@@ -1,18 +1,18 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import "./LoginPage.css";
 
 const LoginPage = () => {
   const [studentId, setStudentId] = useState("");
   const [pin, setPin] = useState("");
   const [error, setError] = useState("");
+  const navigate = useNavigate();
 
   const handleLogin = () => {
     // Mock authentication simulation
     if (studentId === "123456" && pin === "1234") {
-      // Successful login, you can redirect to the student dashboard or any other page
-      console.log("Login successful");
-      // For a real application, use history.push('/dashboard') or some other routing mechanism
+      // Successful login, navigate to the dashboard
+      navigate("/dashboard");
     } else {
       setError("Invalid Student ID or PIN. Please try again.");
     }
