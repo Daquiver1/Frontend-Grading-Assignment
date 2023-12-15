@@ -3,7 +3,10 @@ import React, { useState } from 'react';
 
 const GradeReportPage = () => {
   // State for form inputs
+  const [lecturer, setLecturer] = useState('');
+  const [lecturer_email, setLecturerEmail] = useState(false);
   const [course, setCourse] = useState('');
+  const [expected_grade, setExpectedGrade] = useState('');
   const [SemesterTaken, setSemesterTaken] = useState('');
   const [StudentID, setStudentID] = useState('');
   const [otherInfo, setOtherInfo] = useState('');
@@ -16,7 +19,7 @@ const GradeReportPage = () => {
     e.preventDefault();
 
     // Check if all fields are filled
-    if (!course || !SemesterTaken || !StudentID || !otherInfo) {
+    if (!course || !SemesterTaken || !StudentID || !otherInfo || !lecturer || !expected_grade) {
       alert('Please fill in all fields');
       return;
     }
@@ -28,6 +31,9 @@ const GradeReportPage = () => {
     setSemesterTaken('');
     setStudentID('');
     setOtherInfo('');
+    setLecturer ('');
+    setLecturerEmail ('');
+    setExpectedGrade ('');
 
     // Display success message
     setSuccessMessage(' Request received successfully');
@@ -85,6 +91,32 @@ const GradeReportPage = () => {
                 placeholder="Enter your Student ID"
                 className="appearance-none border rounded w-full py-2 px-3 leading-tight focus:outline-none focus:shadow-outline"
             />
+
+            </div>
+
+            <div className="mb-4">
+            <label htmlFor="lecturer" className="block text-gray-700 text-sm font-bold mb-2">Lecturer Name:</label>
+            <input
+                type="text"
+                id="lecturer"
+                value={lecturer}
+                onChange={(e) => setLecturer(e.target.value)}
+                placeholder="Name of lecturer who facilitated the course"
+                className="appearance-none border rounded w-full py-2 px-3 leading-tight focus:outline-none focus:shadow-outline"
+            />
+
+            </div>
+
+            <div className="mb-4">
+            <label htmlFor="SemesterTaken" className="block text-gray-700 text-sm font-bold mb-2">Expected Grade:</label>
+            <input
+                type="text"
+                id="expected_grade"
+                value={expected_grade}
+                onChange={(e) => setExpectedGrade(e.target.value)}
+                placeholder="What grade were you expecting?"
+                className="appearance-none border rounded w-full py-2 px-3 leading-tight focus:outline-none focus:shadow-outline"
+            />
             </div>
 
             <div className="mb-6">
@@ -96,6 +128,22 @@ const GradeReportPage = () => {
                 placeholder="Enter any additional information"
                 className="appearance-none border rounded w-full py-2 px-3 leading-tight focus:outline-none focus:shadow-outline">
             </textarea>
+            </div>
+
+            <div className="mt-6 flex items-center justify-between">
+                <div className="flex items-center">
+                  <input
+                  id="Send an email to the lecturer"
+                  name="lecturer_email"
+                  type="checkbox"
+                  checked={lecturer_email}
+                  onChange={(e) => setLecturerEmail(e.target.checked)}
+                  className="h-4 w-4 text-cyan-500 focus:ring-cyan-500 border-gray-300 rounded"
+                  />
+                  <label htmlFor="remember-me" className="ml-2 mr-10 block text-sm text-gray-900">
+                  Send an email to the lecturer
+                  </label>
+                  </div>
             </div>
 
             <div className="flex items-center justify-center">

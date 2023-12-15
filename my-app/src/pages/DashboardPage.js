@@ -33,7 +33,7 @@ const Dashboard = () => {
           </input>
         </div>
           </div>
-          <div className="bg-Thistle rounded-lg p-4 bg-cover bg-no-repeat  relative" style={{ backgroundImage: `url(${bgdashboard1})` }}>
+          <div className="bg-Thistle rounded-lg p-4 bg-cover bg-no-repeat  relative" style={{ backgroundImage: `url(${bgdashboard})` }}>
               <div className="flex justify-between">
                 <div className="">
                   <h2 className="text-lg font-bold">

@@ -10,6 +10,7 @@ import Login from './pages/LoginPage';
 import GradeReport from './pages/GradeReportPage';
 import InstructorContact from './pages/InstructorContactPage';
 import HelpAndSupport from './pages/HelpAndSupportPage';
+import Footer from './components/Footer';
 
 const App = () => {
   return (
@@ -25,6 +26,7 @@ const App = () => {
             <Route path="/HelpAndSupport" exact element={<HelpAndSupport/>} />
           </Routes>
       </div>
+      <Footer />
     </Router>
   );
 };

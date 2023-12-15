@@ -1,5 +1,7 @@
 import {useState} from 'react';
+import React from 'react';
 import Sidebar from '../components/Sidebar';
+import HelpAndSupportFAQ from './HsP';
 
 
 
@@ -15,8 +17,10 @@ const HelpAndSupport = () => {
 
       
 
-      <div className="bg-gradient-to-r from-brown-500 via-gray-500 to-green-500 ">
-        <h1 className = "text-2xl font-semibold"> Welcome to Help and Support.</h1>
+      <div className=" flex-1 items-center bg-Thistle-Niagara ">
+      <h1 className="text-4xl font-bold mb-8 pl-40">Help and Support</h1>
+
+      <HelpAndSupportFAQ/>
       </div>
 
 
