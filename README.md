@@ -1,70 +1,92 @@
-# Getting Started with Create React App
+# Student Grade Reporting System Frontend
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Project Overview
 
-## Available Scripts
+This project is a front-end web application for a Student Grade Reporting System. It simulates a real-world application where students can view, report, and manage their academic grades. This system addresses the issue of missing or unrecorded grades in a student's profile.
 
-In the project directory, you can run:
+## Application Structure
 
-### `npm start`
+The application consists of 7 main pages:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Homepage: Introduction to the system and its purpose.
+- Login Page: Mock login interface for student authentication.
+- Dashboard: Displays an overview of the student’s current grades and alerts for missing grades.
+- Grade Report: Shows a detailed view of the student's grades filtered by semester or academic year.
+- Missing Grade Form: Enables students to report missing grades.
+- Instructor Contact Page: Lists instructors' contact information with a simulated email feature.
+- Help and Support: Provides FAQs and a mock support contact form.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Technical Details
 
-### `npm test`
+- Framework/Technology Used: [React]
+- Responsive Design: Implemented using [CSS Flexbox/Grid, Bootstrap, Tailwind CSS].
+- JavaScript Functionality: Used for form validations, dynamic content rendering, and simulating interactions.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Setup and Installation
 
-### `npm run build`
+To set up the project locally, follow these steps:
+1. Make sure you have the lastest version on Node js installed. (Click on this website to  download it https://nodejs.org/en/download )
+2. Download the lastest npm in your terminal
+npm install -g npm
+3. Clone the website
+git clone https://github.com/Daquiver1/Frontend-Grading-Assignment.git
+cd grade
+npm install
+4. Install dependencies
+npm install react-bootstrap bootstrap
+npm i react-router-dom
+5. View the website 
+npm start
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+This will start the application on localhost at the default port.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Usage
+## How to Use the Application
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Logging In
 
-### `npm run eject`
+1. Open the application in your web browser.
+2. Click on the "Login" button.
+3. Enter your credentials (Student ID and Pin) in the provided fields.
+4. Click the "Login" button to log in.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Viewing Grades
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Once logged in, you can access your grades through the following steps:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. Navigate to the "Grade Report" section.
+2. A list of your courses and respective grades should be displayed.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Dashboard
+If you want to find your grades that are missing head to the Dashboard. 
+Also, you can find star students here.
 
-## Learn More
+### Reporting Missing Grades
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+If you notice any missing grades, you can report them by following these steps:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. Go to the "Missing Grades Form" 
+2. Provide details about the missing grade, including the course name and any relevant information.
+3. Submit the form to report the issue.
 
-### Code Splitting
+### Contacting Instructors
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+For direct communication with instructors, use the following steps:
 
-### Analyzing the Bundle Size
+1. Navigate to the "Instructors" or "Contact" section.
+2. Find the contact information for the specific instructor.
+3. Use the provided contact details, such as email or messaging platform, to reach out.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+Describe how to use the application, highlighting key functionalities such as logging in, viewing grades, reporting missing grades, and contacting instructors.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Contribution
 
-### Advanced Configuration
+To contribute to this project, please follow these guidelines:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+1. Fork the repository.
+2. Create a new branch for your feature.
+3. Commit your changes and push them to your branch.
+4. Submit a pull request for review.
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Please adhere to the project's coding standards and provide clear and detailed pull request descriptions.
