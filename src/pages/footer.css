@@ -1,0 +1,61 @@
+/* Add these styles to your CSS file */
+footer {
+  display: flex;
+  background-color: #0e0e56;
+  width: 1550px;
+  margin-top: 4px;
+  padding: 20px;
+  margin-left: -9px;
+  font-size: 16pt;
+  color: white;
+}
+
+.footer-column {
+  flex: 1;
+  margin-left: 15px;
+  text-align: left;
+}
+
+.footer-column img {
+  max-height: 100px; /* Adjust the max height as needed */
+}
+
+.footer-column p {
+  font-size: 14pt;
+}
+
+.contact-info {
+  margin-right: 150px;
+}
+
+.follow-us {
+  margin-left: 150px;
+}
+
+.follow-us a {
+  margin-right: 10px;
+}
+
+/* Responsive styles for smaller screens */
+@media (max-width: 768px) {
+  footer {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer-column {
+    margin-left: 0;
+    margin-top: 15px;
+  }
+
+  .follow-us a {
+    margin-bottom: 10px;
+  }
+}
+.footer-column1 {
+  margin-top: 0px;
+  flex: 1;
+  margin-left: 15px;
+  text-align: left;
+}

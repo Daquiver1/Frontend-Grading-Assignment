@@ -1,0 +1,66 @@
+/* styles.css */
+
+/* Basic styling for the Contact page */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+  }
+  
+  h1 {
+    text-align: center;
+    padding: 20px 0;
+    background-color:white;
+
+    color:#2b87c5;
+    margin: 0;
+  }
+  
+  h2 {
+    margin-top: 30px;
+  }
+  
+  /* Styling for the table */
+  table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  th, td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #a67e32;
+    color: white;
+  }
+  
+  /* Styling for the "Send Email" button */
+  button {
+    background-color: #51a9c4;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Additional styling for the footer (you can customize this further) */
+  footer {
+    background-color: #010146;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  /* Add more styles as needed */
+  
