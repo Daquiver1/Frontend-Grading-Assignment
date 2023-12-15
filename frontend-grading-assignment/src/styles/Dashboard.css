@@ -1,0 +1,88 @@
+/* Container holding the image and the text */
+.container {
+  display: block;
+  position: relative;
+  color: white;
+  text-align: center;
+  padding-left: 15px;
+  padding-right: 15px;
+ }
+ 
+ /* Bottom left text */
+ .text-block {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  background-color: rgba(0, 0, 0, 0.5); 
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-weight: bold; 
+ }
+ 
+
+.course-table-container {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #34d0cd;
+  border-radius: 5px;
+  background-color: #22899e;
+ }
+ 
+ .course-table-container table {
+  width: 100%;
+  border-collapse: collapse;
+ }
+ 
+ .course-table-container th,
+ .course-table-container td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #070707;
+ }
+ 
+ .course-table-container th {
+  background-color: #000000;
+  font-weight: bold;
+ }
+
+ .text_grid{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin-bottom: 10%;
+ }
+ .m_grade{
+  margin-left: 20%;
+  width: 65%;
+ }
+
+ .db_text{
+  color: black;
+ }
+ 
+ /* Navigation Links */
+ nav ul {
+  list-style-type: none;
+  padding: 0;
+ }
+ 
+ nav li {
+  display: inline-block;
+  margin-right: 10px;
+ }
+ 
+ nav a {
+  text-decoration: none;
+  color: black;
+  padding: 10px 20px; /* Adds padding to the link */
+  background-color: #4CAF50; /* Green background color */
+  border-radius: 5px; /* Rounds the corners of the link */
+  font-weight: bold; /* Makes the text bold */
+ }
+ 
+ nav a:hover {
+  background-color: #45a049; /* Darker green background color on hover */
+  color: white; /* White text color on hover */
+ }

@@ -27,8 +27,8 @@ The application consists of 7 main pages:
 To set up the project locally, follow these steps:
 
 ```bash
-git clone https://github.com/your-github-username/DCIT_205_ASSIGNGMENT1.git
-cd repo-name
+git clone https://github.com/Pappyjedu/Frontend-Grading-Assignment.git
+cd Frontend-Grading-Assignment
 npm install
 npm start
 ```
@@ -38,7 +38,22 @@ This will start the application on `localhost` at the default port.
 ## Usage
 
 Describe how to use the application, highlighting key functionalities such as logging in, viewing grades, reporting missing grades, and contacting instructors.
-
+**Logging In:
+1. Open the application.
+2. Locate and click on the ‘Login’ button.
+3. Enter your username and password in the respective fields.
+4. Click on the ‘Login’ button.
+**Viewing Grades:
+A1. fter logging in, navigate to the ‘Dashboard’ section. 
+Here, you should see a list of your courses along with the corresponding grades.
+**Reporting Missing Grades:
+1. If you notice that a grade is missing, there should be a ‘Report’ button or similar functionality within the ‘Dashboard’ section.
+2. Click on this button and fill out any necessary information, such as the course name and the assignment/test for which the grade is missing.
+3. Submit the report. The administration should then review your report and update the grade accordingly.
+**Contacting Instructors:
+1. Navigate to the ‘Instructor Contact' section of the application.
+2. Here, you should see a list of your instructors along with their contact information.
+3. You may use the provided email address or phone number to contact them.
 ## Contribution
 
 To contribute to this project, please follow these guidelines:
