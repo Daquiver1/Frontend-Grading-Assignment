@@ -1,4 +1,5 @@
 import React from 'react';
+import {NavLink} from "react-router-dom"
 
 const Header2 = ({ logoPath }) => {
     const HandleLoginPage = () => {
@@ -13,12 +14,12 @@ const Header2 = ({ logoPath }) => {
       {/* Navigation Links */}
       <nav className="flex-grow text-center">
         {/* Add your navigation links here */}
-        <a href="#" className="text-white hover:text-gray-300 px-4">Home</a>
-        <a href="#" className="text-white hover:text-gray-300 px-4">About</a>
-        <a href="#" className="text-white hover:text-gray-300 px-4">Help&Support</a>
+        <NavLink to="/home" className="text-white hover:text-gray-300 px-4">Home</NavLink>
+        <NavLink to="/about"className="text-white hover:text-gray-300 px-4">About</NavLink>
+        <NavLink to="/help"className="text-white hover:text-gray-300 px-4">Help&Support</NavLink>
         {/* Add more links as needed */}
       </nav>
-      <button onClick={HandleLoginPage} className="text-white hover:text-gray-300 px-4">Login </button>
+      <NavLink to="/login"  className="text-white hover:text-gray-300 px-4">Login </NavLink>
     </header>
   );
 };
