@@ -1,11 +1,17 @@
 import React from "react";
+import GradeForm from "./components/Forms";
 import Nav from "./components/Navbar";
 
 const MissingGrade = () => {
     return ( 
-       <div>
-        <div><Nav/></div>
-        MISSING</div>
+       
+        <>
+        <Nav/>
+        <div className="mt-[85px]">
+         <GradeForm/>
+        </div>
+        </>
+      
      );
 }
  
