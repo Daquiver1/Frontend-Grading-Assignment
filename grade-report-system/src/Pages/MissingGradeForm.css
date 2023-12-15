@@ -1,0 +1,89 @@
+.Content{
+    background-color: rgb(224, 172, 0);
+    height:600px;
+    width: 100%;
+   z-index: 800;
+    position: relative;
+   
+    
+}
+
+.Formcover{
+    position: relative;
+    z-index: 999;
+    top: 140px;
+    left: 380px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 600px;
+    background-color: rgb(224, 172, 0);
+    width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 1.88px 15.50px rgb(2, 2, 51);
+
+
+}
+
+.Describe{
+    height: 100px;
+}
+
+input{
+    border: none;
+    height: 50px;
+    width: 80%;
+    text-align: center;
+    border-radius: 10px;
+
+}
+
+
+.SubmitButton{
+    color: white;
+    padding-top: 15px;
+    width: 30%;
+    height: 40px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.7s;
+
+}
+
+.SubmitButton:hover{
+    background-color: white;
+    color: black;
+}
+
+.main{
+    position: absolute;
+    transform: scale(0);
+}
+
+.login-popup{
+    width: 300px;
+    height: 300px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    color: white;
+    background-color: rgb(2, 2, 51);
+    transform: scale(1);
+    transform: 1.2s;
+
+}
+
+.footer-barr{
+    height: 80px;
+        width: 100%;
+        background-color: rgb(23, 23, 41);
+       margin-top: 150px;
+        bottom: 500px;
+}

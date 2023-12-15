@@ -1,0 +1,297 @@
+.top{
+     display: flex;
+     flex-direction: rows;
+     width: 1200px;
+     margin-left: 75px;
+     margin-top: 90px;
+     height: 400px;
+     background-color: rgb(224, 172, 0);
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.Account{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 350px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 50px;
+    margin-right: 100px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.Account h3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+    color: rgb(2,2,51);
+    text-align: center;
+
+}
+
+.Account button{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    margin-left: 190px;
+}
+
+.Account img{
+    height: 100px;
+    width: 100px;
+    margin-left: 190px;
+    margin-bottom: 20px;
+
+}
+
+.SemGrades{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 350px;
+    margin-top: 25px;
+    margin-right: 50px;
+    margin-bottom: 25px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.SemGrades h3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 35px;
+    color: rgb(2,2,51);
+    text-align: center;
+}
+.SemGrades img{
+    height: 100px;
+    width: 100px;
+    margin-left: 180px;
+    margin-bottom: 30px;
+}
+
+.SemGrades button{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    margin-left: 190px;
+}
+
+.down{
+    display: flex;
+    flex-direction: row;
+    width: 1200px;
+    background-color: rgb(2,2,51);
+    height: 400px;
+    margin-left: 75px;
+    margin-bottom: 0;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}   
+
+
+.Alerts{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 350px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 50px;
+    border-radius: 20px;
+    margin-right: 100px;
+    background-color: white;
+}
+
+.Alerts h3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 35px;
+    color: rgb(2,2,51);
+    text-align: center;
+    
+}
+
+.Alerts img{
+    
+
+    height: 100px;
+    width: 100px;
+    margin-left: 180px;
+    margin-bottom: 30px;
+}
+
+.Alerts button {
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    margin-left: 180px;
+
+}
+
+.Upload{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 350px;
+    margin-top: 25px;
+    margin-right: 50px;
+    margin-bottom: 25px;
+    border-radius: 20px;
+    background-color: white;
+    
+    
+}
+
+.Upload h3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 35px;
+    color: rgb(2,2,51);
+    text-align: center;
+}
+.Upload img{
+    height: 100px;
+    width: 100px;
+    margin-left: 190px;
+    margin-bottom: 30px;
+
+}
+
+.Upload button{
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    margin-left: 190px;
+
+}
+
+
+
+
+
+
+
+
+
+.Footee{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    display: flex;
+    justify-items: center;
+    align-self: center;
+    margin-top: 50px;
+}
+
+.Footee p{
+    color: azure;
+    margin-left: 530px;
+}
+
+
+.main{
+    position: absolute;
+    transform: scale(0);
+}
+
+.profile-popup{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    margin-left: 50px;
+    margin-bottom:100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    color:white;
+    background-color:black;
+    transform: scale(1);
+    transform: 1.2s;
+
+}
+
+.profile-popup p{
+    text-align: center;
+}
+
+
+.Sem-popup{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    margin-left: 50px;
+    margin-bottom:100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    color:white;
+    background-color:black;
+    transform: scale(1);
+    transform: 1.2s;
+}
+
+.mainn{
+    position: absolute;
+    transform: scale(0);
+}
+
+.mainnn{
+    position: absolute;
+    transform: scale(0);
+}
+
+
+.Alert-popup{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    margin-left: 50px;
+    margin-bottom:100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    color:white;
+    background-color:black;
+    transform: scale(1);
+    transform: 1.2s;
+}
+
+
+.mainnnn{
+    position: absolute;
+    transform: scale(0);
+}
+
+
+.Upload-popup{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    margin-left: 50px;
+    margin-bottom:100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    color:white;
+    background-color:black;
+    transform: scale(1);
+    transform: 1.2s;
+}

@@ -1,0 +1,113 @@
+/* body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+} */
+
+
+/* * {
+    margin: 0;
+    box-sizing: border-box;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}  */
+
+
+.Back{
+    position: relative;
+    top: 140px;
+    left: 480px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 450px;
+    background-color: rgb(224, 172, 0);
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 1.88px 15.50px rgb(2, 2, 51);
+    
+}
+.text{
+    position: relative;
+    bottom: 20px;
+}
+
+input:focus{
+    outline-color: rgb(2, 2, 51);
+}
+
+input{
+    border: none;
+    height: 40px;
+    width: 80%;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.CreateAccount{
+    text-align: center;
+    cursor: pointer;
+}
+
+.LoginButton{
+    color: white;
+    padding-top: 8px;
+    width: 30%;
+    height: 40px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.7s;
+}
+
+.LoginButton:hover{
+    background-color: white;
+    color: black;
+}
+
+.main{
+    position: absolute;
+    transform: scale(0);
+}
+
+.login-popup{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    color: white;
+    background-color: rgb(2, 2, 51);
+    transform: scale(1);
+    transform: 1.2s;
+
+}
+
+
+.footer-bar{
+        height: 80px;
+        width: 100%;
+        background-color: rgb(23, 23, 41);
+        position: relative;
+        top: 180px;
+}
+    .span1{
+        color: white;
+        text-align: center;
+        margin-left: 540px;
+        font-size: 25px;
+    }
+    
+    .span2{
+        color: white;
+        margin-left: 610px;
+        margin-top: 10px;
+    
+    }
