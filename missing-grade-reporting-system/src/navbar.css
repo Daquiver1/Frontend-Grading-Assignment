@@ -1,0 +1,26 @@
+.navbar {
+  /* float: right; */
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f0f0f0;
+    height: 50px;
+}
+
+.logo img {
+  height: 40px;
+}
+
+.nav-button {
+  background-color: #333;
+  color: white;
+  margin-right: 8px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+}
+
+.nav-button:hover {
+  background-color: darkblue;
+}

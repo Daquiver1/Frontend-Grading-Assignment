@@ -1,0 +1,47 @@
+.missing-grade-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.school-logo {
+  width: 450px; 
+  margin-bottom: 20px;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  max-width: 400px; 
+}
+
+label {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+input,
+textarea {
+  margin-bottom: 15px;
+  padding: 8px;
+  border: 1px solid #ddd;
+}
+
+button {
+  background-color: #4c5053;
+  color: #ffffff;
+  padding: 10px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #4c5053;
+}
