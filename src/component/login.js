@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import './login.css'; 
 import logImage from '../images/log.png';
-import login2Image from '../images/login2.jpg';
+
 
 const Login = () => {
   const [studentId, setStudentId] = useState('');
@@ -19,11 +19,7 @@ const Login = () => {
   };
 
   return (
-    <div className='beside'>
-        <div className="image-beside-form">
-        <img src={login2Image} alt="Description" />
-      
-    </div>
+    
     <div className="login-container">
       <div className="image-container">
         <img src={logImage} alt="Profile" className="profile-image" />
@@ -58,7 +54,7 @@ const Login = () => {
         <button className="google-button">Login with Google</button>
       </div>
     </div>
-    </div>
+    
   );
 };
 
