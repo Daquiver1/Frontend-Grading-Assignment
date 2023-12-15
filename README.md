@@ -1,32 +1,53 @@
-## Student Grade Reporting System
-# Overview
-Welcome to the Student Grade Reporting System, a web application designed to help students manage and monitor their academic performance. This system provides a user-friendly interface for students to view their grades, report missing grades, and stay connected with their instructors.
+# Student Grade Reporting System Frontend
 
-## Table of Contents
-Landing page
-Login Page
-Dashboard
-Grade Report
-Missing Grade Form
-Instructor Contact Page
-Help and Support
-# Landing page
-The homepage serves as an introduction to the Student Grade Reporting System. It explains the purpose of the system and its key features. Users can navigate to other pages from here.
+## Project Overview
 
-# Login Page
-The login page provides a mock authentication interface for students. Users can enter their credentials to access their personalized dashboard.
+This project is a front-end web application for a Student Grade Reporting System. It simulates a real-world application where students can view, report, and manage their academic grades. This system addresses the issue of missing or unrecorded grades in a student's profile.
 
-# Dashboard
-The dashboard offers an overview of the student's current grades. It includes graphical representations of academic performance and alerts for missing grades. Students can quickly assess their progress and take action if needed.
+## Application Structure
 
-# Grade Report
-The grade report page displays a detailed view of the student's grades. Users can filter grades by semester or academic year, helping them track their performance over time.
+The application consists of 7 main pages:
 
-# Missing Grade Form
-This page allows students to report missing grades. The form collects relevant information and notifies the appropriate instructors or administrators to address the issue promptly.
+- *Homepage:* Introduction to the system and its purpose.
+- *Login Page:* Mock login interface for student authentication.
+- *Dashboard:* Displays an overview of the student’s current grades and alerts for missing grades.
+- *Grade Report:* Shows a detailed view of the student's grades filtered by semester or academic year.
+- *Missing Grade Form:* Enables students to report missing grades.
+- *Instructor Contact Page:* Lists instructors' contact information with a simulated email feature.
+- *Help and Support:* Provides FAQs and a mock support contact form.
 
-# Instructor Contact Page
-The instructor contact page lists instructors' contact information. It may include a simulated email feature, enabling students to communicate with their instructors regarding academic matters.
+## Technical Details
 
-# Help and Support
-The help and support page provides frequently asked questions (FAQs) to address common queries. Additionally, there is a mock support contact form for students to reach out for assistance.
+- *Framework/Technology Used:* [React]
+- *Responsive Design:* Implemented using [CSS Flexbox/Grid, Bootstrap, Tailwind CSS].
+- *JavaScript Functionality:* Used for form validations, dynamic content rendering, and simulating interactions.
+
+## Setup and Installation
+
+To set up the project locally, follow these steps:
+
+bash
+git clone https://github.com/your-github-username/DCIT_205_ASSIGNGMENT1.git
+cd repo-name
+npm install
+npm start
+
+
+This will start the application on localhost at the default port.
+
+## Usage
+
+Describe how to use the application, highlighting key functionalities such as logging in, viewing grades, reporting missing grades, and contacting instructors.
+
+## Contribution
+
+To contribute to this project, please follow these guidelines:
+
+1. Fork the repository.
+2. Create a new branch for your feature.
+3. Commit your changes and push them to your branch.
+4. Submit a pull request for review.
+
+Please adhere to the project's coding standards and provide clear and detailed pull request descriptions.
+
+More Details
