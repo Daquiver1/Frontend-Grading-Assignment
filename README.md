@@ -33,7 +33,7 @@ npm install
 npm start
 ```
 
-This will start the application on `localhost` at the default port.
+Open your browser and type ```localhost:3000``` to view website project live
 
 ## Usage
 
@@ -66,7 +66,33 @@ To effectively use the application, follow these steps:
    - Use the mock support contact form for additional assistance.
 
 ## Screenshots
+
+### Home Page
 ![Screenshot 1](./frontend-grading-assignment/public/Capture.JPG)
+![Screenshot 1](./frontend-grading-assignment/public/hom.JPG)
+
+#### Login Page
+![Screenshot 1](./frontend-grading-assignment/public/Login.JPG)
+
+### Dashboard Page
+![Screenshot 1](./frontend-grading-assignment/public/dashboard.JPG)
+![Screenshot 1](./frontend-grading-assignment/public/dashboard1.JPG)
+
+### Grade Report Page
+![Screenshot 1](./frontend-grading-assignment/public/report.JPG)
+![Screenshot 1](./frontend-grading-assignment/public/report.JPG)
+
+### Missing Grade Form Page
+![Screenshot 1](./frontend-grading-assignment/public/missing.JPG)
+![Screenshot 1](./frontend-grading-assignment/public/missing1.JPG)
+
+### Instructors Page
+![Screenshot 1](./frontend-grading-assignment/public/contact.JPG)
+![Screenshot 1](./frontend-grading-assignment/public/Contact1.JPG)
+
+### Help and Support Page
+![Screenshot 1](./frontend-grading-assignment/public/help.JPG)
+![Screenshot 1](./frontend-grading-assignment/public/help1.JPG)
    
 ## Contribution
 
@@ -77,4 +103,6 @@ To contribute to this project, please follow these guidelines:
 3. Commit your changes and push them to your branch.
 4. Submit a pull request for review.
 
-Please adhere to the project's coding standards and provide clear and detailed pull request descriptions.
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
