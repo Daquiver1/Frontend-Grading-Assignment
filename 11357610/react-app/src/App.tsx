@@ -4,6 +4,8 @@ import React from "react";
 import ReactDOM from "react-dom";
 import HeaderComponent from "./components/Header";
 import IntroSectionComponent from "./components/IntroSection";
+import LoginPage from "./components/LoginPage";
+import Dashboard from "./components/Dashboard";
 
 const App: React.FC = () => {
   return (
@@ -11,9 +13,7 @@ const App: React.FC = () => {
       <title>Landing Page</title>
       {/* You can add links to external stylesheets here if needed */}
       <body>
-        <HeaderComponent />
-        <IntroSectionComponent />
-        {/* Any other components or content can be added here */}
+        <Dashboard />
       </body>
     </>
   );

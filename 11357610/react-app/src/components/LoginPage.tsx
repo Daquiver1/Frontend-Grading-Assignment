@@ -1,48 +1,21 @@
-// LoginPage.tsx
+import React from "react";
+import "./LoginPage.css"; // Import the corresponding CSS file
 
-import React, { useState } from "react";
-
-const LoginPage: React.FC = () => {
-  const [username, setUsername] = useState("");
-  const [password, setPassword] = useState("");
-
-  const handleLogin = (e: React.FormEvent<HTMLFormElement>) => {
-    e.preventDefault();
-    // Here you can perform authentication logic (e.g., send login data to a server)
-    console.log("Username:", username);
-    console.log("Password:", password);
-    // Reset the form after handling login
-    setUsername("");
-    setPassword("");
-  };
-
+const LoginPage = () => {
   return (
-    <div>
-      <h2>Login</h2>
-      <form onSubmit={handleLogin}>
-        <div>
-          <label htmlFor="username">Student ID</label>
-          <input
-            type="text"
-            id="username"
-            value={username}
-            onChange={(e) => setUsername(e.target.value)}
-            required
-          />
+    <div className="login-container">
+      <form id="login-form" action="login.php" method="post">
+        <img src="/img/CS_logo.png" className="logo" alt="" />
+        <h2>Login</h2>
+        <div className="input-group">
+          <label htmlFor="student_id">Student ID:</label>
+          <input type="text" id="student_id" name="student_id" required />
         </div>
-        <div>
-          <label htmlFor="password">Pin:</label>
-          <input
-            type="password"
-            id="password"
-            value={password}
-            onChange={(e) => setPassword(e.target.value)}
-            required
-          />
+        <div className="input-group">
+          <label htmlFor="password">PIN:</label>
+          <input type="password" id="password" name="password" required />
         </div>
-        <div>
-          <button type="submit">Login</button>
-        </div>
+        <button type="submit">Login</button>
       </form>
     </div>
   );

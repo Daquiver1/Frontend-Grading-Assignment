@@ -7,7 +7,7 @@ const HeaderComponent = () => {
       <div className="dept-logo">
         <a href="index.html">
           <img
-            src="img/CS_logo.png"
+            src="./public/img/CS_logo.png"
             className="logo"
             alt="Computer Science Department"
           />
