@@ -1,14 +1,14 @@
 import React from "react";
-import Landing_header from "../Components/pageheader";
+import LandingHeader from "../Components/pageheader";
 import Landing_cards from "../Components/landing-cards";
-import Landing_footer from "../Components/pagefooter";
+import LandingFooter from "../Components/pagefooter";
 
 
 
 function Landingpage() {
   return (
     <div className="px-6 pt-1 shadow-lg">
-      <Landing_header/>
+      <LandingHeader/>
       <p className="text-[27pt] mt-1 text-[#363636] ml-[400px] font-bold">Student Grade Report System.</p>
       <div className="flex mt-2">
         <img src="/Media_Files/landing-image.jpg" className="w-[620px] h-[390px] mt-4 rounded-lg shadow-lg" />
@@ -25,7 +25,7 @@ function Landingpage() {
       </div>
       <Landing_cards/>
       <div className="mb-[-20px]">
-         <Landing_footer/>
+         <LandingFooter/>
       </div>
       
     </div>

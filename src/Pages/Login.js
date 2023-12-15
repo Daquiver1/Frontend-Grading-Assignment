@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Route, Link, Routes, BrowserRouter } from 'react-router-dom';
 import Landingpage from './Landingpage';
 import Help from './Help';
-import Landing_footer from "../Components/pagefooter";
+import LandingFooter from "../Components/pagefooter";
 
 
 //Login authentication
@@ -22,15 +22,16 @@ function Login(){
     return (   
         <body className="bg-[#747070] bg-opacity-[0.6] h-[770px] mt-[-25px] ml-[-10px] mr-[-10px]">
         <br/>
-            <div className="items-center justify-center  shadow-2xl w-[500px] h-[300px] bg-[#fdfdfd] align-middle px-4 p-4 ml-[430px] mt-[150px]">
+            <div className="items-center justify-center  shadow-2xl w-[500px] h-[315px] bg-[#fdfdfd] align-middle px-4 p-4 ml-[430px] mt-[150px]">
                 <form>
                     <div className="ml-[120px]">
-                        <img className="h-[70px] mt-[20px]"src="/Media_Files/unilogo.png"/>
+                        <img className="h-[70px] mt-[20px]"src="/Media_Files/unilogo.png" alt="University logo"/>
+                        <p className="text-[17pt] ml-[3px]">Grade Report System.</p>
                         <div className="mt-[15px] ml-[-40px]">
                             <label className="ml-[5px] text-[15pt]" for="student-id">ID:</label>   
                             <input placeholder="Enter your Student Id..." className="border-[2px] ml-[5px] w-[260px] rounded-[12px] p-1" type="text" name="student-id" />
                         </div>
-                        <div className="mt-[5px] ml-[-40px]">
+                        <div className="mt-[1px] ml-[-40px]">
                             <label className="text-[15pt] w-[200px]" for="pin">PIN:</label>
                             <input placeholder="Enter your pin... "className="border-[2px] ml-[0px] rounded-[12px] w-[260px] p-1" type="password" name="pin" />
                         </div>
@@ -52,8 +53,8 @@ function Login(){
                         <Route path="/Landingpage" element={<Landingpage />} />
                     </Routes>
                 </form>
-                <div className="mt-[300px] ml-[-422px]">
-                    <Landing_footer/> 
+                <div className="mt-[285px] ml-[-422px]">
+                    <LandingFooter/> 
                 </div>            
             </div>
         </body>

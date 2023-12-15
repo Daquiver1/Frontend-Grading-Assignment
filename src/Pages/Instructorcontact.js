@@ -1,6 +1,6 @@
 import React from "react";
-import Landing_header from "../Components/pageheader";
-import Landing_footer from "../Components/pagefooter";
+import LandingHeader from "../Components/pageheader";
+import LandingFooter from "../Components/pagefooter";
 
 function Instructorcontact(){
     const buttonify1=() =>{
@@ -8,7 +8,7 @@ function Instructorcontact(){
 };
     return (
             <div>
-                <Landing_header/>
+                <LandingHeader/>
                 <p className="text-[30pt] font-bold text-[#232355]">Instructor Contact Page.</p>
                 <p className="text-[15pt]">                        
                     Whether you have questions, need clarifications, or seek guidance on resolving missing grade concerns,our Instructor Contact Page is your direct link to communicate with our dedicated teaching staff regarding any missing grades in your academic profile.
@@ -153,7 +153,7 @@ function Instructorcontact(){
                 <button id="sendbutton" onClick={buttonify1} className= "font-semibold text-green-50 bg-[#346754] rounded-xl ml-[210px] mt-[10px] w-[150px]">Send</button>
                 </form>
                 <div className="ml-[-336px] mb-[-15px]">
-                    <Landing_footer/>
+                    <LandingFooter/>
                 </div>
             </div> 
             </div>
