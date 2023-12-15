@@ -1,0 +1,8 @@
+.footer {
+    background-color: rgb(11, 19, 56);
+  }
+  .footer-details {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    color: white;
+  }
