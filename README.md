@@ -21,7 +21,7 @@ The application consists of 7 main pages:
 ## Technical Details
 
 - **Framework/Technology Used:** [React]
-- **Responsive Design:** Implemented using [CSS Flexbox/Grid, Tailwind CSS].
+- **Responsive Design:** Implemented using [ Tailwind CSS].
 - **JavaScript Functionality:** Used for form validations, dynamic content rendering, and simulating interactions.
 
 ## Setup and Installation
@@ -48,7 +48,5 @@ To contribute to this project, please follow these guidelines:
 2. Create a new branch for your feature.
 3. Commit your changes and push them to your branch.
 4. Submit a pull request for review.
-
- ## Screenshot of pages
  
 Please adhere to the project's coding standards and provide clear and detailed pull request descriptions.
