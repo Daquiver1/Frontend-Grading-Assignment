@@ -62,27 +62,28 @@ export default function Dashboard() {
     ));
   };
 
-  return (
-    <div className="board">
-      <div className="appear" style={{ backgroundColor: '#FFC300' }}>
-        <h1>Hello, Mr. JohnOwusu!</h1>
-        <p style={{ fontSize: '20px' }}>Welcome To MGRS</p>
-      </div>
 
-      <div className="appear" style={{ backgroundColor: '#3498DB' }}>
-        <h2>Check Your Current Semester Grades Here!</h2>
-        <p>It is displayed below</p>
-      </div>
+return (
+  <div className="board">
+    <div className="appear">
+      <h1 style={{ color: '#FFC300' }}>Hello, Mr. JohnOwusu!</h1>
+      <p style={{ color: '#FFC300', fontSize: '20px' }}>Welcome To MGRS</p>
+    </div>
 
-      <div className="appear" style={{ backgroundColor: '#2ECC71' }}>
-        <h2>To View Your Overall Grades</h2>
-        <p>
-          <a href="/form">Go to Missing Grade Form</a>
-        </p>
-      </div>
+    <div className="appear">
+      <h2 style={{ color: '#3498DB' }}>Check Your Current Semester Grades Here!</h2>
+      <p style={{ color: '#3498DB' }}>It is displayed below</p>
+    </div>
 
-      <div className="appear" style={{ backgroundColor: '#9B59B6' }}>
-        <table>
+    <div className="appear">
+      <h2 style={{ color: '#2ECC71' }}>To View Your Overall Grades</h2>
+      <p style={{ color: '#2ECC71' }}>
+        <a href="/form" style={{ color: '#2ECC71', fontWeight: 'bold' }}>Go to Missing Grade Form</a>
+      </p>
+    </div>
+
+    <div className="appear">
+    <table>
           <thead>
             <tr>
               <th>Course Name</th>
@@ -98,14 +99,12 @@ export default function Dashboard() {
         </table>
         <p>CGPA: {calculateCGPA(courses)}</p>
       </div>
-
-      <button className="gpa-button">
-        <a href="/form">Check Your Overall GPA</a>
-      </button>
     </div>
 
-    
-  )
-}
-
+    <button className="gpa-button">
+      <a href="/form" style={{ color: '#fff', fontWeight: 'bold' }}>Check Your Overall GPA</a>
+    </button>
+  </div>
+);
+};
     
