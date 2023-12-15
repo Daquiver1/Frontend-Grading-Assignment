@@ -1,4 +1,4 @@
-import Layout from "./pages/Layout"
+import Approute from "./route/Approute"
 
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
   
   return (
     <div>
-      <Layout/>
+      <Approute/>
     </div>
   )
 }
