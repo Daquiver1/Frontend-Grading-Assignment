@@ -6,11 +6,13 @@ import Homepart2 from '../Components/Homepart/Homepart2'
 import Homepart1 from '../Components/Homepart/Homepart1'
 import Hometext1 from '../Components/Homepart/Hometext1'
 import Hometext2 from '../Components/Homepart/Hometext2'
+import Signbtn from '../Components/Signbtn/Signbtn'
 
 const Home = () => {
   return (
     <div>
       <Homepart2/>
+      <Signbtn/>
       <Homepart1/>
       <Help1/>
       <Hometext1/>

@@ -38,29 +38,6 @@
     background: gold;
   }
   
-  .login-btn {
-    display: flex;
-    align-items: center;
-    gap: 45px;
-  }
-  
-  .login-btn button {
-    width: 145px;
-    height: 50px;
-    outline: none;
-    border: 2px solid rgb(1, 1, 29);
-    border-radius: 78px;
-    color: rgb(1, 1, 29);
-    font-size: 20px;
-    font-weight: 500;
-    background: white;
-    cursor: pointer;
-  }
-  
-  .login-btn button:active {
-    background: rgb(57, 57, 227);
-    color: white;
-  }
   
   /* Responsive styles for smaller screens */
   @media screen and (max-width: 768px) {
@@ -79,16 +56,5 @@
       margin-bottom: 5px;
     }
   
-    .login-btn {
-      flex-direction: column;
-      gap: 10px;
-      margin-top: 10px;
-    }
-  
-    .login-btn button {
-      width: 100%;
-      max-width: 200px;
-      font-size: 16px;
-    }
   }
   

@@ -22,9 +22,7 @@ const Navbar = () => {
          <li onClick={()=>{setMenu("Help")}}><Link style={{ textDecoration: 'none'}} to='/Help'>Help</Link>{menu==="Help"?<hr/>:<></>}</li>
          <li onClick={()=>{setMenu("Mgrade")}}><Link style={{ textDecoration: 'none'}} to='/Mgrade'>Missing Grade</Link>{menu==="Mgrade"?<hr/>:<></>}</li>
       </ul>
-      <div className="login-btn">
-        <Link to='/login'><button>Login</button></Link>
-      </div>
+      
     </div>
   )
 }
