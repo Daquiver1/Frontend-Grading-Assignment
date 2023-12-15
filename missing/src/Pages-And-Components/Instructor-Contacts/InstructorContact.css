@@ -1,0 +1,54 @@
+.instructor-contact-container {
+  padding: 20px;
+  text-align: center;
+}
+
+.instructor-list {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.instructor-list h3 {
+  margin-bottom: 10px;
+}
+
+.instructor-list ul {
+  list-style-type: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.instructor-list li {
+  margin-bottom: 5px;
+  padding: 8px;
+  background-color: #f0f0f0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.selected-instructor {
+  display: inline-block;
+  text-align: left;
+}
+
+.selected-instructor h3 {
+  margin-bottom: 10px;
+}
+
+.selected-instructor p {
+  margin: 5px 0;
+}
+
+.selected-instructor button {
+  padding: 10px;
+  background-color: #051141;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s ease-in;
+}
+
+.selected-instructor button:hover{
+  background-color: #0056b3;
+}
