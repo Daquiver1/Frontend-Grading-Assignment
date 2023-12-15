@@ -18,8 +18,8 @@ The application consists of 7 main pages:
 
 ## Technical Details
 
-- **Framework/Technology Used:** [React]
-- **Responsive Design:** Implemented using [CSS Flexbox/Grid, Bootstrap, Tailwind CSS].
+- **Framework/Technology Used:** React
+- **Responsive Design:** Implemented using  Bootstrap,CSS. 
 - **JavaScript Functionality:** Used for form validations, dynamic content rendering, and simulating interactions.
 
 ## Setup and Installation
@@ -36,8 +36,22 @@ npm start
 This will start the application on `localhost` at the default port.
 
 ## Usage
+1.Log in: Access the Scholar Grade Support app using your credentials to securely log in and personalize your experience.
 
-Describe how to use the application, highlighting key functionalities such as logging in, viewing grades, reporting missing grades, and contacting instructors.
+2.View Grades: Easily navigate to the "Grades" section to track your academic progress, view course grades, and assess your overall performance.
+
+3.Report Missing Grades: Report any missing grades swiftly by selecting the dedicated option, ensuring a proactive approach to resolving grading discrepancies.
+
+4.Contact Instructors: Initiate communication with instructors through the app's messaging feature, fostering seamless collaboration for addressing concerns or seeking clarification on coursework.
+
+5.Stay Informed: Receive real-time notifications on grade updates, announcements, and messages, keeping you informed and engaged in your academic journey.
+
+
+
+
+
+
+
 
 ## Contribution
 
