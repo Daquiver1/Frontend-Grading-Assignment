@@ -1,69 +1,97 @@
-import React from 'react';
-import DataTable from 'react-data-table-component';
-import './gradepage.css'
+import { useMemo } from 'react';
+import {
+  MaterialReactTable,
+  useMaterialReactTable,
+} from 'material-react-table';
 
-function gradepage() {
- const columns = [
-    {
-        name: 'Name',
-        selector: row => row.name,
-        sortable: true
-    },
-    {
-        name: 'Email',
-        selector: row => row.email,
-        sortable: true
-    },
-    {
-        name: 'Age',
-        selector: row => row.age,
-        sortable: true
-    },
- ];
+
 const data = [
-    {
-        id: 1,
-        name: 'Caleb',
-        email: 'email@email.com',
-        age: '22'
+  {
+    name: {
+      firstName: 'John',
+      lastName: 'Doe',
     },
-    {
-        id: 2,
-        name: 'Quansah',
-        email: 'email@email.com',
-        age: '19'
+    address: '261 Erdman Ford',
+    city: 'East Daphne',
+    state: 'Kentucky',
+  },
+  {
+    name: {
+      firstName: 'Jane',
+      lastName: 'Doe',
     },
-    {
-        id: 3,
-        name: 'Jessica',
-        email: 'email@email.com',
-        age: '20'
+    address: '769 Dominic Grove',
+    city: 'Columbus',
+    state: 'Ohio',
+  },
+  {
+    name: {
+      firstName: 'Joe',
+      lastName: 'Doe',
     },
-    {
-        id: 4,
-        name: 'Adelina',
-        email: 'email@email.com',
-        age: '21'
+    address: '566 Brakus Inlet',
+    city: 'South Linda',
+    state: 'West Virginia',
+  },
+  {
+    name: {
+      firstName: 'Kevin',
+      lastName: 'Vandy',
     },
-    {
-        id: 5,
-        name: 'Chief',
-        email: 'email@email.com',
-        age: '22'
+    address: '722 Emie Stream',
+    city: 'Lincoln',
+    state: 'Nebraska',
+  },
+  {
+    name: {
+      firstName: 'Joshua',
+      lastName: 'Rolluffs',
     },
-]
- 
- return (
-    <div className='container-mt-5'>
-        <div className='text-end'><input type='text' /></div>
-        <DataTable 
-        columns={columns}
-        data={data}
-        selectableRows
-        fixedHeader
-        ></DataTable>
-    </div>
-    
- );
+    address: '32188 Larkin Turnpike',
+    city: 'Charleston',
+    state: 'South Carolina',
+  },
+];
+
+const Gradepage = () => {
+  //should be memoized or stable
+  const columns = useMemo(
+    () => [
+      {
+        accessorKey: 'name.firstName', //access nested data with dot notation
+        header: 'First Name',
+        size: 150,
+      },
+      {
+        accessorKey: 'name.lastName',
+        header: 'Last Name',
+        size: 150,
+      },
+      {
+        accessorKey: 'address', //normal accessorKey
+        header: 'Address',
+        size: 200,
+      },
+      {
+        accessorKey: 'city',
+        header: 'City',
+        size: 150,
+      },
+      {
+        accessorKey: 'state',
+        header: 'State',
+        size: 150,
+      },
+    ],
+    [],
+  );
+
+  const table = useMaterialReactTable({
+    columns,
+    data, //data must be memoized or stable (useState, useMemo, defined outside of this component, etc.)
+  });
+
+  return <MaterialReactTable table={table} />;
 };
-export default gradepage;
+
+export default Gradepage;
