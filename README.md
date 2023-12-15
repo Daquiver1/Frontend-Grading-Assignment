@@ -1,5 +1,21 @@
 # Student Grade Reporting System Frontend
 
+# Name and ID
+Joel Djan
+11065060
+
+# Screenshots
+"C:\Users\Djan\Downloads\Web capture_15-12-2023_20273_localhost.jpeg"
+"C:\Users\Djan\Downloads\Web capture_15-12-2023_20280_localhost.jpeg"
+"C:\Users\Djan\Downloads\Web capture_15-12-2023_20291_localhost.jpeg"
+"C:\Users\Djan\Downloads\Web capture_15-12-2023_202729_localhost.jpeg"
+"C:\Users\Djan\Downloads\Web capture_15-12-2023_202834_localhost.jpeg"
+"C:\Users\Djan\Downloads\Web capture_15-12-2023_202917_localhost.jpeg"
+"C:\Users\Djan\Downloads\Web capture_15-12-2023_202936_localhost.jpeg"
+"C:\Users\Djan\Downloads\Web capture_15-12-2023_202950_localhost.jpeg"
+
+
+
 ## Project Overview
 
 This project is a front-end web application for a Student Grade Reporting System. It simulates a real-world application where students can view, report, and manage their academic grades. This system addresses the issue of missing or unrecorded grades in a student's profile.
