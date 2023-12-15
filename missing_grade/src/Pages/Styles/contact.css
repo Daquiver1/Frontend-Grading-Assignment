@@ -1,0 +1,23 @@
+.contact{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+.contact a{
+    text-decoration: none;
+    color: black;
+}
+
+.maincontact{
+    position: absolute;
+    top: 300px;
+}
+
+.contactcontainer{
+    position: absolute;
+    top: 100px;
+    width: 600px;
+    box-shadow: inset;
+}
+
