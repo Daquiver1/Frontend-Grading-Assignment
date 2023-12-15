@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&family=Play:wght@700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply font-Montserrat;
+  }
+  body {
+    background: rgb(2, 2, 43);
+  }
+  h1 {
+    @apply text-xl font-medium capitalize;
+  }
+}
+
+.link {
+  @apply p-2.5 flex rounded-md gap-6 items-center md:cursor-pointer cursor-default duration-300 font-medium;
+}
+
+.active {
+  @apply bg-blue-100 text-blue-600;
+}
+
+
+
+.dashboard-container {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+  background-color: #f2f2f2;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  
+}
+
+.grades-section {
+  margin-top: 20px;
+}
+
+.grades-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.grades-table th,
+.grades-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+.grades-table th {
+  background-color: rgb(2, 2, 43);
+  color: white;
+}
