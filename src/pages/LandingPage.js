@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 import React from "react";
 import { Link } from "react-router-dom";
+=======
+import React from 'react';
+import { Link } from 'react-router-dom';
+>>>>>>> 662660e15a81a570f74d97e68046aac253a23758
 
 const LandingPage = () => {
   return (
@@ -21,8 +26,13 @@ const LandingPage = () => {
               <p className="card-text">
                 Access your academic profile and view your current grades.
               </p>
+<<<<<<< HEAD
               <Link to="/Login" className="btn btn-primary">
                 Go to Login
+=======
+              <Link to="/dashboard" className="btn btn-primary">
+                Go to Dashboard
+>>>>>>> 662660e15a81a570f74d97e68046aac253a23758
               </Link>
             </div>
           </div>
@@ -60,7 +70,11 @@ const LandingPage = () => {
       <div className="row mt-5">
         <div className="col-md-8 offset-md-2 text-center">
           <p>
+<<<<<<< HEAD
             Need further assistance? Visit our{" "}
+=======
+            Need further assistance? Visit our{' '}
+>>>>>>> 662660e15a81a570f74d97e68046aac253a23758
             <Link to="/help-and-support">Help and Support</Link> page.
           </p>
         </div>
