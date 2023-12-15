@@ -23,7 +23,7 @@ const Header = () => {
             <a href="/contact.js" className="nav-link">Contact</a>
           </li>
           <li className="nav-item">
-            <a href="/signup.js" className="nav-link sign">Sign In</a>
+            <a href='./signup.js' className="nav-link sign">Sign In</a>
           </li>
         </ul>
       </nav>

@@ -1,15 +1,15 @@
 import React from 'react';
-import './App.css';
+import './home.css';
 import Header from './Header';
 
-function App() {
+const Home = () => {
   return (
     <div className='main'>
 
-      <div>
-      <Header />
-      <h1>Missing Grade<br/> Reporting System</h1>
-      <input type="text" className="placeHolder" placeholder="Search..." />
+        <div>
+            <Header />
+            <h1>Missing Grade<br/> Reporting System</h1>
+            <input type="text" className="placeHolder" placeholder="Search..." />
       </div>
       
       <div className='sub'>
@@ -52,6 +52,6 @@ function App() {
 
     </div>
   );
-}
+};
 
-export default App;
+export default Home;
