@@ -1,0 +1,42 @@
+/* DashboardPage.css */
+
+.dashboard-page {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.grades {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.grade {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+    width: 200px;
+}
+
+.missing-grades {
+    margin-top: 20px;
+}
+
+.missing {
+    background-color: #ffe6e6;
+    padding: 10px;
+    border-radius: 5px;
+    width: 200px;
+}
+
+/* Customize styles further based on your design preferences */
