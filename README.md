@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project is a front-end web application for a Student Grade Reporting System. It simulates a real-world application where students can view, report, and manage their academic grades. This system addresses the issue of missing or unrecorded grades in a student's profile.
+Developed as part of DCIT 205 coursework, this project presents a 7-page website aimed at assisting students in tracking and reporting grades not recorded in their academic profiles. The primary goal is to offer an interactive, user-friendly interface for students to view grades, report missing ones, and communicate with instructors or academic administration.
 
 ## Application Structure
 
@@ -22,30 +22,49 @@ The application consists of 7 main pages:
 - **Responsive Design:** Implemented using [CSS Flexbox/Grid, Bootstrap, Tailwind CSS].
 - **JavaScript Functionality:** Used for form validations, dynamic content rendering, and simulating interactions.
 
+##Restrictions
+Strictly front-end development; no backend coding is involved.
+No use of frameworks, languages, or libraries other than those specified.
+
 ## Setup and Installation
 
 To set up the project locally, follow these steps:
+Clone the Repository:
 
-```bash
-git clone https://github.com/your-github-username/DCIT_205_ASSIGNGMENT1.git
-cd repo-name
-npm install
-npm start
-```
+Use the following command to clone the project repository to your local machine:
 
-This will start the application on `localhost` at the default port.
+git clone https://github.com/fake-sage/DCIT_205_ASSIGNGMENT1.git
+
+Install Dependencies:
+
+Navigate to the cloned project directory in your terminal.
+
+Run npm install to install the required dependencies.
+
+Start the Development Server:
+
+Within the project directory, execute npm start to start the development server.
+
+The project should now be accessible at http://localhost:3000.
+
+Open and Explore:
+
+Open your web browser and navigate to http://localhost:3000 to view the project.
+
+Note: Ensure you have Node.js and npm installed on your system before starting the installation process.
 
 ## Usage
 
-Describe how to use the application, highlighting key functionalities such as logging in, viewing grades, reporting missing grades, and contacting instructors.
+This system is designed to be intuitive and user-friendly. Here are some key functionalities and how to use them:
 
-## Contribution
+Navigating the Website: Use the navbar or sidebar to move between different pages such as the Dashboard, Grade Report, and Help & Support.
 
-To contribute to this project, please follow these guidelines:
+Logging In: Access the login page from the landing page. Enter a mock Student ID and PIN to simulate logging in.
 
-1. Fork the repository.
-2. Create a new branch for your feature.
-3. Commit your changes and push them to your branch.
-4. Submit a pull request for review.
+Viewing Grades: On the Dashboard, you'll see an overview of your current grades. Missing grades will be highlighted or alerted.
 
-Please adhere to the project's coding standards and provide clear and detailed pull request descriptions.
+Reporting Missing Grades: Navigate to the Missing Grade Form to report a missing grade. Fill in the required fields and click the submit button to simulate a grade report.
+
+Contacting Instructors: Visit the Instructor Contact page to view instructor details. Use the mock-up feature to simulate sending an email.
+
+Seeking Help and Support: For any queries or technical assistance, refer to the Help and Support page where you'll find an FAQ section and a mock contact form.
