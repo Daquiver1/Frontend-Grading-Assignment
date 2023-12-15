@@ -1,5 +1,6 @@
 # Student Grade Reporting System Frontend
-
+#  Student ID 11024572
+# Author Caleb Danquah
 ## Project Overview
 
 This project is a front-end web application for a Student Grade Reporting System. It simulates a real-world application where students can view, report, and manage their academic grades. This system addresses the issue of missing or unrecorded grades in a student's profile.
@@ -9,12 +10,24 @@ This project is a front-end web application for a Student Grade Reporting System
 The application consists of 7 main pages:
 
 - **Homepage:** Introduction to the system and its purpose.
+- 
 - **Login Page:** Mock login interface for student authentication.
+- ![Login Page](https://github.com/calebdanquah1/11024572_DCIT205_Assingment-1/assets/151131950/22b5d842-49e8-409a-ae46-c81d4c253394)
+
 - **Dashboard:** Displays an overview of the student’s current grades and alerts for missing grades.
 - **Grade Report:** Shows a detailed view of the student's grades filtered by semester or academic year.
+- 
 - **Missing Grade Form:** Enables students to report missing grades.
+- ![Missing grade form](https://github.com/calebdanquah1/11024572_DCIT205_Assingment-1/assets/151131950/a1fa9985-de2f-4fe5-96e6-6fbb780ba95f)
+
 - **Instructor Contact Page:** Lists instructors' contact information with a simulated email feature.
+- ![Instructor Contact](https://github.com/calebdanquah1/11024572_DCIT205_Assingment-1/assets/151131950/7fd677a9-1de3-4430-9cf5-cf7a807cebff)
+
 - **Help and Support:** Provides FAQs and a mock support contact form.
+- ![Help and Support 1](https://github.com/calebdanquah1/11024572_DCIT205_Assingment-1/assets/151131950/70e3e924-c34e-4d5b-830b-c56575d193c3)
+- ![Help and Support 2](https://github.com/calebdanquah1/11024572_DCIT205_Assingment-1/assets/151131950/fc34b63b-8805-4c61-9013-71f5b735d7b2)
+
+
 
 ## Technical Details
 
