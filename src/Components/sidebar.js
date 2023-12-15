@@ -11,7 +11,7 @@ export default function
             <div className='bg-success col-auto col-md-2.5 min-vh-100 d-flex justify-content-between flex-column'>
                 <div>
                     <a className='text-decoration-none text-white d-none d-sm-inline d-flex align-itemcenter ms-3 mt-3'>
-                        <span className='ms-1 fs-4 d-none d-sm-inline'><h2> Missing Grades </h2> </span>
+                        <span className='text-warning ms-1 fs-4 text-center d-none d-sm-inline'><h2> SGRS </h2> </span>
                     </a>
                     <hr className='text-secondary d-none d-sm-block'/>
                     <ul class="nav nav-pills nav-tabs flex-column ">

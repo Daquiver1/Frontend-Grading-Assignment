@@ -51,7 +51,7 @@ export default function QuickContactUs() {
                                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="eg. Type your text here"></textarea>
                             </div>
                             <div class="mb-3">
-                                <a className="btn btn-primary" id="submit-btn" href="/Dashboard" role="button">Send</a>
+                                <a className="btn btn-primary" id="submit-btn" href="/Home" role="button">Send</a>
                             </div>
                         </div>
 

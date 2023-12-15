@@ -15,34 +15,38 @@ export default function ContactUs() {
                     <div class="container card text-bg-success" id="generalpgbg">
                         <div className="container" id="signinborder">
                         <h2 id="dashboardH2" >Lecturers With Their Respective Contacts</h2>
-                        <table class="table table-secondary " >
-                        <thead>
-                            <tr>
-                            <th scope="col">#</th>
-                            <th scope="col">Lecturer</th>
-                            <th scope="col">Email</th>
-                            <th scope="col">Contact</th>
+                        
+                            <div>
+                                <table class="table table-secondary " >
+                                <thead>
+                                        <tr>
+                                        <th scope="col">#</th>
+                                        <th scope="col">Lecturer</th>
+                                        <th scope="col">Email</th>
+                                        <th scope="col">Contact</th>
 
-                            
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                            <th scope="row">1</th>
-                            <td>Mr.Mark Attah</td>
-                            <td>mattah@staff.ug.edu.gh</td>
-                            <td>02078222228</td>
-                            
-                            </tr>
-                            <tr>
-                            <th scope="row">2</th>
-                            <td>Mr. Tetteh Agbo Soli</td>
-                            <td>tasoli@staff.ug.edu.gh</td>
-                            <td>0208140089</td>
-                            
-                            </tr>      
-                        </tbody>
-                    </table>
+                                        
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                        <th scope="row">1</th>
+                                        <td>Mr.Mark Attah</td>
+                                        <td>mattah@staff.ug.edu.gh</td>
+                                        <td>02078222228</td>
+                                        
+                                        </tr>
+                                        <tr>
+                                        <th scope="row">2</th>
+                                        <td>Mr. Tetteh Agbo Soli</td>
+                                        <td>tasoli@staff.ug.edu.gh</td>
+                                        <td>0208140089</td>
+                                        
+                                        </tr>      
+                                    </tbody>
+                                </table>
+                            </div>
+                        
 
                     
                     <h2 id="dashboardH2" >Email a Lecturer</h2>
