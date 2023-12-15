@@ -1,0 +1,45 @@
+.forma > h1{
+    text-align: center;
+    color: blue;
+    margin-bottom:20px ;
+}
+
+.forma > form > .courseName, .instructorName, .expectedGrade, .explanation{
+    display: block;
+    margin-left: 50vw;
+}
+
+.forma > form > label{
+    font-size: 15px;
+    color: blue;
+    margin-left: 48vw;
+}
+
+.forma > form  >input{
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.explanation{
+    margin-top: 20px;
+}
+
+.submitq{
+    margin-left: 50vw;
+    background-color: rgba(0, 0, 255, 0.4);
+    border: 1px;
+    padding: 10px;
+    border-color: blue;
+    font-size: 15px;
+}
+
+.submitq:hover{
+    background-color: rgba(0, 0, 255, 0.7);
+    cursor: pointer;
+    transition: all 0.1s ease-in-out;
+}
+
+.submitq:active {
+    transition: all 0.1s ease-in-out;
+    background-color: transparent;
+}
