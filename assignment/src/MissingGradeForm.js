@@ -1,5 +1,6 @@
 import React from "react";
 import GradeForm from "./components/Forms";
+import Footer from "./components/Footer";
 import Nav from "./components/Navbar";
 
 const MissingGrade = () => {
@@ -9,6 +10,7 @@ const MissingGrade = () => {
         <Nav/>
         <div className="mt-[85px]">
          <GradeForm/>
+         <Footer/>
         </div>
         </>
       

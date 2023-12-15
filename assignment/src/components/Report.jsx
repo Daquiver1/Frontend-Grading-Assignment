@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Footer from "./Footer";
 
 
 const Courses = [
@@ -160,29 +161,29 @@ const GradesReport = () => {
 
     return ( 
         <>
-       <div>
-        <h2 className="text-center font-bold text-2xl text-blue-700">Grade Summary</h2>
-        <div>
-            <label htmlFor="semester">Semester:</label>
-            <select name="semester" id="semester" onChange={handleSemesterChange}>
+       <div className="flex self-center">
+        <h2 className="text-center font-bold text-2xl text-blue-700 pl-5">Grade Summary</h2>
+        <div className="  text-center ">
+            <label className="font-bold " htmlFor="semester">Semester: </label>
+            <select className="bg-blue-200 text-center font-semibold rounded shadow-md mr-20" name="semester" id="semester" onChange={handleSemesterChange}>
                 <option value="">All Semesters</option>
                 <option value="First Semester">First Semester</option>
                 <option value="Second Semester">Second Semester</option>
             </select>
-            <label htmlFor="year">Academic Year</label>
-            <select name="year" id="year" onChange={handleAcademicYear}>
+            <label className="font-bold" htmlFor="year">Academic Year: </label>
+            <select className="bg-blue-200 text-center font-semibold rounded shadow-md" name="year" id="year" onChange={handleAcademicYear}>
                 <option value="">All Years</option>
                 <option value="2021">2021</option>
                 <option value="2020">2020</option>
                 <option value="2019">2019</option>
             </select>
 
-           <table>
-            <thead>Grade Summary</thead>
+           <table className="bg-blue-200 mt-16">
+            
             <thead>
-                <tr>
-                    <th>Course</th>
-                    <th scope="col">Semester</th>
+                <tr className="bg-gray-200 text-blue-700 p-5">
+                    <th scope="col">Courses</th>
+                    <th  scope="col">Semester</th>
                     <th scope="col">Year</th>
                     <th scope="col">Grade</th>
                 </tr>
@@ -192,10 +193,10 @@ const GradesReport = () => {
                 {FilteredCourses.map((courses) =>
                 (
                 <tr key={courses.id}>
-                    <td>{courses.name}</td>
-                    <td>{courses.semester}</td>
-                    <td>{courses.year}</td>
-                    <td>{courses.grade}</td>
+                    <td className="px-9 font-sans text-[16px] leading-8 font-semibold">{courses.name}</td>
+                    <td className="px-9 font-sans text-[16px] leading-8 font-semibold">{courses.semester}</td>
+                    <td className="px-9 font-sans text-[16px] leading-8 font-semibold">{courses.year}</td>
+                    <td className="px-9 font-sans text-[16px] leading-8 font-semibold">{courses.grade}</td>
 
                 </tr>
                ) )}
@@ -204,7 +205,7 @@ const GradesReport = () => {
             
         </div>
        </div>
-       
+       <Footer/>
         </>
      );
 }
