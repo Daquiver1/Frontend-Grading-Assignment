@@ -1,25 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+// src/App.js
+import './App.css'
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Navbar from './Navbar';
+import Footer from './Footer';
+import LandingPage from './component/LandingPage';
+import LoginPage from './component/LoginPage';
+import DashBoard from './component/DashBoard';
+import GradeReportPage from './component/GradeReportPage';
+import MissingGradeFormPage from './component/MissingGradeFormPage';
+import InstructorContactPage from './component/InstructorContactPage';
+import HelpSupportPage from './component/HelpSupportPage';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <Router>
+            <Navbar />
+            <Routes>
+                <Route path="/" element={<LandingPage />} />
+                <Route path="/login" element={<LoginPage />} />
+                <Route path="/dash-board" element={<DashBoard />} />
+                <Route path="/grade-report" element={<GradeReportPage />} />
+                <Route path="/missing-grade-form" element={<MissingGradeFormPage />} />
+                <Route path="/instructor-contact" element={<InstructorContactPage />} />
+                <Route path="/help-support" element={<HelpSupportPage />} />
+            </Routes>
+            <Footer />
+        </Router>
+    );
 }
 
 export default App;
