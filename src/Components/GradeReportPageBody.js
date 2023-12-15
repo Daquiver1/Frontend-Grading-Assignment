@@ -3,7 +3,7 @@ import { Container, Row, Col, Dropdown, DropdownButton } from 'react-bootstrap';
 
 const GradeReportPageBody = () => {
     // Sample data of courses and grades
-    const [grades, setGrades] = useState([
+    const [grades,] = useState([
         { id: 1, course: 'DCIT 103', grade: 'A', semester: 'L100 1st SEM' },
         { id: 2, course: 'DCIT 102', grade: 'B', semester: 'L100 1st SEM' },
         { id: 3, course: 'STAT 112', grade: 'A', semester: 'L100 1st SEM' },

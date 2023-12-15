@@ -1,5 +1,4 @@
 import Footer from "../Components/footer";
-import LoginPageBody from "../Components/loginPageBody";
 import Header from "../Components/header";
 
 export default function QuickHelpAndSupport() {
