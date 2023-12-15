@@ -81,8 +81,7 @@ const Dashboard = () => {
         <div className="main--content">
           <div className="header--wrapper">
             <div className="hearder--title">
-              <span>Hey Val kraidy,</span>
-              <h2>Bsc. Information Technology</h2>
+             
             </div>
 
             <div className="user--info">
@@ -232,7 +231,7 @@ const Dashboard = () => {
                   <tr>
                     <td>DCIT209</td>
                     <td>Enchil Ekow</td>
-                    <td>Val Kraidy</td>
+                    <td>kojo john</td>
                     <td>Friday</td>
                     <td>2:00pm</td>
                     <td>2</td>

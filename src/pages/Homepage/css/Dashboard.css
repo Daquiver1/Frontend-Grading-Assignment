@@ -21,7 +21,7 @@
     color: white;
     overflow: hidden;
     transition: all 0.5s linear;
-    background-color:#846ff7;
+    background-color:black;
 }
 .sidebar:hover{
     width: 235px;
@@ -152,7 +152,7 @@ color:white;
 
 }
 .main--title{
-    color: #846ff7;
+    color: black;
     padding-bottom:10px;
     font-size: 15px;
 
@@ -231,19 +231,19 @@ color:white;
     background:#ebe9e9;
 }
 .dark-red{
-    background:red;
+    background:rgb(77, 158, 45);
 }
 .dark-purple{
-    background:purple;
+    background:rgb(66, 0, 128);
 } 
 .dark-green{
-    background: green;
+    background: rgb(115, 128, 0);
 }
 .dark-blue{
-    background: blue;
+    background: rgb(129, 21, 35);
 }
 .dark-yellow{
-    background: yellow;
+    background: rgb(0, 195, 255);
 }
 .dark-gray{
     background: gray;
@@ -265,7 +265,7 @@ table{
     border-collapse:collapse  ;
 }
 thead{
-    background: #846ff7;
+    background: black;
     color:white
 }
 th{
@@ -303,5 +303,5 @@ tfoot td{
 .contact-instructors{
     text-align: center;
     margin: 10px;
-    color: #846ff7;
+    color:black;
 }
