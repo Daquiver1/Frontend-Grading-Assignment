@@ -13,8 +13,19 @@ function App() {
   
   return (
 
-    <div>he
-      <Contacts />
+    <div>
+      <BrowserRouter>
+        <Routes>
+        <Route path="/" element={<Overview />} />
+          <Route path="/overview" element={<Overview />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/dashboard" element={<Dashboard />} />
+          <Route path="/missing-grade-form" element={<MissingGradeForm />} />
+          <Route path="/grade-report" element={<GradeReport />} />
+          <Route path="/help-and-support" element={<HelpAndSupport />} />
+          <Route path="/contacts" element={<Contacts />} />
+        </Routes>
+      </BrowserRouter>
     </div>
 
   );
