@@ -59,16 +59,13 @@ Please adhere to the project's coding standards and provide clear and detailed p
 ![Capture4](https://github.com/LouisaEco/Frontend-Grading-Assignment/assets/147488916/5bfe0465-da0b-4e0b-a10b-1ec5bc69c7f4)
 ![Capture5](https://github.com/LouisaEco/Frontend-Grading-Assignment/assets/147488916/3643923b-34d2-47dd-ab5f-5be58a10d3fc)
 ##Grade Report Page
-
-
 ![Capture6](https://github.com/LouisaEco/Frontend-Grading-Assignment/assets/147488916/255b8755-2328-43ee-b920-957e0931f6c1)
 ![Capture7](https://github.com/LouisaEco/Frontend-Grading-Assignment/assets/147488916/e5be0d4d-7f90-4299-ae7f-3fcdf254595d)
 ![Capture8](https://github.com/LouisaEco/Frontend-Grading-Assignment/assets/147488916/002eb0f4-d932-456c-ad19-3ce6aad7d256)
 ![Capture9](https://github.com/LouisaEco/Frontend-Grading-Assignment/assets/147488916/163f77eb-6ee2-4a32-bb88-b2ddf3fa1a67)
 ![Capture10](https://github.com/LouisaEco/Frontend-Grading-Assignment/assets/147488916/822e363c-89c1-47b8-805c-2a9b8b1040bd)
-
-
-
+![Capture11](https://github.com/LouisaEco/Frontend-Grading-Assignment/assets/147488916/013d1321-77cb-4126-b343-bf64b2e7d510)
+![Capture12](https://github.com/LouisaEco/Frontend-Grading-Assignment/assets/147488916/74241898-c56d-443b-93a4-7c836beb31ee)
 
 
 
