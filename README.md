@@ -9,12 +9,26 @@ This project is a front-end web application for a Student Grade Reporting System
 The application consists of 7 main pages:
 
 - **Homepage:** Introduction to the system and its purpose.
+![Screenshot](public/screenshots/landing.png)
+
 - **Login Page:** Mock login interface for student authentication.
+![Screenshot](public/screenshots/login.png)
+
 - **Dashboard:** Displays an overview of the student’s current grades and alerts for missing grades.
+![Screenshot](public/screenshots/admin-dashboard-page.png)
+
 - **Grade Report:** Shows a detailed view of the student's grades filtered by semester or academic year.
+![Screenshot](public/screenshots/admin-grade-report-page.png)
+
 - **Missing Grade Form:** Enables students to report missing grades.
+![Screenshot](public/screenshots/admin-missing-grade-report.png)
+
 - **Instructor Contact Page:** Lists instructors' contact information with a simulated email feature.
+![Screenshot](public/screenshots/admin-instructor-contacts.png)
+
 - **Help and Support:** Provides FAQs and a mock support contact form.
+![Screenshot](public/screenshots/help-and-support.png)
+
 
 ## Technical Details
 
@@ -38,6 +52,42 @@ This will start the application on `localhost` at the default port.
 ## Usage
 
 Describe how to use the application, highlighting key functionalities such as logging in, viewing grades, reporting missing grades, and contacting instructors.
+
+**Logging In:**
+
+Logging into the Student Grade Reporting System is straightforward. Follow these steps:
+
+1. From the Landing Page or the Help and Support Page, click the "Login" button.
+2. You will be redirected to the Login Page.
+3. Provide your Student ID and PIN for authentication.
+4. If your information is verified in the database, you will be granted access to the website.
+
+### Application Functionalities
+
+Once logged in, you can explore the following key functionalities:
+
+- **Dashboard:**
+  - View an overview of your current grades.
+  - Receive alerts for any missing grades.
+
+- **Grade Report:**
+  - Access a detailed view of your grades.
+  - Filter grades by semester or academic year.
+
+- **Missing Grade Form:**
+  - Report any missing grades by filling out the provided form.
+  - Submit the form for confirmation (no actual submission, just a confirmation message).
+
+- **Instructor Contact Page:**
+  - Browse a list of instructors with their contact details.
+  - Simulate sending emails to instructors (no real emails, just a mock-up).
+
+
+  ## Challenges Faced And What I Learnt
+  - I learnt how to effectively navigate and use react native as it is a new framework to me.
+  - A challenge I faced while doing this project was getting used to the fact that react has components that help to avoid unneccessary repitition of code as this is mostly done in html.
+  - React teaches how to effectively combine functions from html, javascript and css and make them work as one seamlessly.
+  - 
 
 ## Contribution
 
