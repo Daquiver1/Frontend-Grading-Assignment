@@ -1,11 +1,9 @@
-# STUDENT ID: 11124414
-# DCIT205 ASSIGNMENT 1
+## STUDENT ID: 11124414
+## DCIT205 ASSIGNMENT 1
 
 
 
 # Student Grade Reporting System Frontend
-
-
 
 
 ## Project Overview
@@ -17,12 +15,46 @@ This project is a front-end web application for a Student Grade Reporting System
 The application consists of 7 main pages:
 
 - **Homepage:** Introduction to the system and its purpose.
+
+![Homepage Screenshot](assets/homepage.png)
+
+
+
 - **Login Page:** Mock login interface for student authentication.
+
+![Loginpage Screenshot](assets/loginpage.png)
+
+
+
 - **Dashboard:** Displays an overview of the student’s current grades and alerts for missing grades.
+
+![Dashbord Screenshot](assets/Dashboard.png)
+
+
 - **Grade Report:** Shows a detailed view of the student's grades filtered by semester or academic year.
+
+![GradeReport Screenshot](assets/GradeReport.png)
+
+
+
 - **Missing Grade Form:** Enables students to report missing grades.
+
+![MissingGradeForm Screenshot](assets/MissingGradeForm.png)
+
+
+
 - **Instructor Contact Page:** Lists instructors' contact information with a simulated email feature.
+
+![Instructor's Contact Screenshot](assets/InstructorContact.png)
+
+
+
 - **Help and Support:** Provides FAQs and a mock support contact form.
+
+![Help And Support Screenshot](assets/HelpAndSupport.png)
+
+
+
 
 ## Technical Details
 
@@ -57,41 +89,6 @@ To contribute to this project, please follow these guidelines:
 4. Submit a pull request for review.
 
 Please adhere to the project's coding standards and provide clear and detailed pull request descriptions.
-
-# **This is a screenshot of the homepage.**
-
-
-![Homepage Screenshot](assets/homepage.png)
-
-# **This is a screenshot of the login page.**
-
-![Loginpage Screenshot](assets/loginpage.png)
-
-
-# **This is a screenshot of the Dashboard page.**
-
-![Dashbord Screenshot](assets/Dashboard.png)
-
-
-# **This is a screenshot of the GradeReport Page.**
-
-![GradeReport Screenshot](assets/GradeReport.png)
-
-
-# **This is a screenshot of the Missing Grade Form Page.**
-
-![MissingGradeForm Screenshot](assets/MissingGradeForm.png)
-
-
-# **This is a screenshot of the Instructor's Contact Page.**
-
-![Instructor's Contact Screenshot](assets/InstructorContact.png)
-
-
-
-# **This is a screenshot of the Help And Support Page.**
-
-![Help And Support Screenshot](assets/HelpAndSupport.png)
 
 
 
