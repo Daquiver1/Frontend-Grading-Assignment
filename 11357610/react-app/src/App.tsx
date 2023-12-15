@@ -8,13 +8,14 @@ import Dashboard from "./components/Dashboard";
 import HelpSupport from "./components/HelpSupport";
 import ContactInstructor from "./components/ContactInstructorPag";
 import ReportMissingGrade from "./components/ReportMissingGrade";
+import Navigation from "./components/Navigation";
 
 const App: React.FC = () => {
   return (
     <>
       <title>Landing Page</title>
       <body>
-        <HeaderComponent />
+        <Navigation />
       </body>
     </>
   );
