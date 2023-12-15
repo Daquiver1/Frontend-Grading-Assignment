@@ -6,14 +6,15 @@ import HeaderComponent from "./components/Header";
 import IntroSectionComponent from "./components/IntroSection";
 import LoginPage from "./components/LoginPage";
 import Dashboard from "./components/Dashboard";
-import HelpSupport from "./components/Support";
+import HelpSupport from "./components/HelpSupport";
+import ContactInstructor from "./components/ContactInstructorPag";
 
 const App: React.FC = () => {
   return (
     <>
       <title>Landing Page</title>
       <body>
-        <HelpSupport />
+        <ContactInstructor />
       </body>
     </>
   );
