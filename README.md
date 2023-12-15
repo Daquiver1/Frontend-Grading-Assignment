@@ -1,70 +1,47 @@
-# Getting Started with Create React App
+# Missing Grade Reporting System
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The Missing Grade Reporting System is a comprehensive platform designed to assist users in viewing their grades,
+ reporting missing grades, and communicating with instructors. 
+ It provides a user-friendly interface for managing academic performance.
 
-## Available Scripts
+## Key Functionalities
 
-In the project directory, you can run:
+### Logging In
 
-### `npm start`
+- To access the website, users need to log in using their credentials (Student ID and PIN).
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Viewing Grades
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Upon logging in, users can view their grades across different courses.
+- The grades are displayed in a tabular format, showing the course names, grades, and corresponding years.
 
-### `npm test`
+### Reporting Missing Grades
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Users have the ability to report missing grades for specific courses if they encounter any discrepancies or missing information.
+- There might be a dedicated section or form where users can submit details about the missing grades.
 
-### `npm run build`
+### Contacting Instructors
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- The website facilitates communication between users and instructors.
+- Users can contact their instructors regarding grade-related queries or concerns through a messaging or emailing system.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Installation and Usage
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Prerequisites
 
-### `npm run eject`
+- Ensure you have Node.js and npm (Node Package Manager) installed on your machine.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Installation Steps
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Clone the repository.
+   ```bash
+   git clone https://github.com/StephenAgyemang/11297632_DCIT_205_Assignment1.git
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+2. Navigate to the project directory.
+ cd 11297632_DCIT_205_Assignment
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+3. Install dependencies.
+   npm install
+   npm start
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
