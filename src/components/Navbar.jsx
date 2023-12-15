@@ -4,6 +4,7 @@ import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai'
 import { MdCastForEducation } from "react-icons/md";
 
 
+
 function Navbar() {
   const [nav, setNav] = useState(true)
   const [width, setWidth] = useState(window.innerWidth)
@@ -63,7 +64,7 @@ function Navbar() {
   
 
   return (
-    <div className='text-white flex justify-between items-center h-24 max-w-[1240px] px-4 mx-auto'>
+    <div className='text-white flex justify-between items-center h-24 max-w-[1240px] px-4 mx-auto bg-dark-purple'>
       <HandleTitle />
       <ul className='hidden md:flex'>
         <li className='p-4'>Home</li>
@@ -77,7 +78,7 @@ function Navbar() {
         {!nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20}/>}
         
       </div>
-      <div className={!nav ? 'fixed left-0 top-0 w-[60%] border-r-gray-950 h-full bg-[#000300] ease-in-out duration-500': 'fixed left-[-100%] '}>
+      <div className={!nav ? 'fixed left-0 top-0 w-[60%] border-r-gray-950 h-full z-20 bg-dark-purple ease-in-out duration-500': 'fixed left-[-100%] '}>
         <HandleTitle2 />
 
         <ul className='uppercase p-4'>
