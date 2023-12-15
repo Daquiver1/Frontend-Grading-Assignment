@@ -1,0 +1,87 @@
+#report-section1 {
+    width: 1000px;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.main-report-div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.note-div h2 {
+    text-align: center;
+}
+
+#grades-section {
+    width: 1300px;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.link-color1 {
+    text-decoration: none;
+    border: 1px solid;
+    border-radius: 5px;
+    align-items: center;
+    text-align: center;
+    padding: 5px;
+    background: #920243;
+    color: #fff;
+}
+
+.link-color1:hover {
+    color: #fff;
+    background: #d76b9c;
+    transition: 0.2s ease;
+}
+
+.link-color2 {
+    text-decoration: none;
+    border: 1px solid;
+    border-radius: 5px;
+    align-items: center;
+    text-align: center;
+    padding: 5px;
+    background: #05b36a;
+    color: #fff;
+}
+
+.link-color2:hover {
+    color: #fff;
+    background: #5be9ae;
+    transition: 0.2s ease;
+}
+
+.main-grades-div {
+    text-align: center;
+}
+
+.grades-div {
+    display: flex;
+    justify-content: space-between;
+}
+
+#report-section2 {
+    width: 1000px;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#report-section2 h2 {
+    text-align: center;
+}
+
+.div-graphs {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.graph {
+    height: 800px;
+    width: 500px;
+}
