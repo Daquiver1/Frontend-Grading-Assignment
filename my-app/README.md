@@ -1,3 +1,8 @@
+ID: 11158912
+NAME: MAWUTOR KORBLA AFOH
+PROGRAMME: COMPUTER SCIENCE WITH STATISTICS
+YEAR: LEVEL 200
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
