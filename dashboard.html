@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Dashboard - Missing Grade Reporting System</title>
+  <link rel="stylesheet" href="styles2.css">
+</head>
+
+<body>
+  <header>
+    <b>MISSING GRADE REPORTING SYSTEM</b>
+  </header>
+
+  <main>
+    <section class="dashboard-section">
+      <h2>Welcome to Your Dashboard</h2>
+
+      <div class="grades-overview">
+        <h3>Grades Overview</h3>
+        <p>Your grades are currently being processed and will be available soon.</p>
+      </div>
+
+      <div class="alerts-section">
+        <h3>Alerts</h3>
+        <div class="missing-grades">
+          <p>You have <span id="missingGradesCount">3</span> missing grade(s).</p>
+          <p>Please submit your report here <a href="missing-grade-form.html">Missing Grade Form</a>.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <b> MISSING GRADE REPORTING SYSTEM BY THE 11112468Company</b>
+  </footer>
+
+  <script src="scripts.js"></script>
+  <script>
+   
+    function getMissingGradesCount() {
+     
+      return 3; // For demonstration,we are just assuming there are 3 missing grades
+    }
+
+  
+    document.getElementById('missingGradesCount').textContent = getMissingGradesCount();
+  </script>
+</body>
+
+</html>

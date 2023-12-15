@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Report Missing Grade - Missing Grade Reporting System</title>
+  <link rel="stylesheet" href="styles4.css">
+</head>
+
+<body>
+  <header>
+    <b> HAVE A MISSING GRADE? SUBMIT YOUR REPORT HERE</b>
+  </header>
+
+  <main>
+    <section class="missing-grade-form-section">
+      <h2>Report Missing Grade</h2>
+
+      <form id="missingGradeForm">
+        <div class="form-group">
+          <label for="courseName">Course Name:</label>
+          <input type="text" id="courseName" name="courseName" required>
+        </div>
+        <div class="form-group">
+          <label for="instructorName">Instructor Name:</label>
+          <input type="text" id="instructorName" name="instructorName" required>
+        </div>
+        <div class="form-group">
+          <label for="expectedGrade">Expected Grade:</label>
+          <input type="text" id="expectedGrade" name="expectedGrade" required>
+        </div>
+        <div class="form-group">
+          <label for="explanation">Explanation:</label>
+          <textarea id="explanation" name="explanation" rows="4" required></textarea>
+        </div>
+        <button type="submit">Submit</button>
+      </form>
+
+      <p id="confirmationMessage" class="hidden">Your missing grade report has been submitted!</p>
+    </section>
+  </main>
+
+  <footer>
+  <b>MISSING GRADE REPORTING SYSTEM BY THE 11112468Company</b>
+  </footer>
+
+  <script src="scripts.js"></script>
+  <script>
+    document.getElementById('missingGradeForm').addEventListener('submit', function (e) {
+      e.preventDefault();
+      showConfirmationMessage();
+    });
+
+    function showConfirmationMessage() {
+      document.getElementById('confirmationMessage').classList.remove('hidden');
+    }
+  </script>
+</body>
+
+</html>
