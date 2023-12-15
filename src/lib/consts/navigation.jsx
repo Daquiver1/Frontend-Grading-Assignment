@@ -39,15 +39,15 @@ export const DASHBOARD_SIDEBAR_LINKS = [
 	{
 		key: 'Instructor Contact',
 		label: 'Instructor Contact',
-		path: '/Instructor Contact',
+		path: '/instructor-contact',
 		icon: <HiOutlineDocumentText />
 	},
-	{
-		key: 'messages',
-		label: 'Messages',
-		path: '/messages',
-		icon: <HiOutlineAnnotation />
-	}
+	// {
+	// 	key: 'messages',
+	// 	label: 'Messages',
+	// 	path: '/messages',
+	// 	icon: <HiOutlineAnnotation />
+	// }
 ]
 
 export const DASHBOARD_SIDEBAR_BOTTOM_LINKS = [

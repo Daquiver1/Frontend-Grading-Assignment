@@ -27,7 +27,7 @@ const GradeReportPage = () => {
   };
 
   return (
-    <DashboardLayout title={"Dashboard / Grade Report"}>
+    <DashboardLayout title={"/Grade Report"}>
       <div className="p-4">
         <form className="mb-4">
           <label htmlFor="semester" className="mr-2">

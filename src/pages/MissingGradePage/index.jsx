@@ -21,7 +21,7 @@ const MissingGradeForm = () => {
  };
 
   return (
-    <DashboardLayout title={"Dashboard / Missing Grade Form"}>
+    <DashboardLayout title={"/ Missing Grade Form"}>
     <div className="min-h-screen bg-gray-100 flex items-center justify-center bg-gray-100">
     <div className="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4 w-full max-w-md">
       <h2 className="text-2xl font-bold mb-5">Report Missing Grade</h2>

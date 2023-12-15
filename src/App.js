@@ -6,7 +6,7 @@ import Login from './pages/login';
 import GradeReportPage from './pages/GradeReportPage';
 import MissingGradeForm from './pages/MissingGradePage';
 import InstructorContactPage from './pages/InstructorContactPage';
-import HelpAndSupportPage from './pages/HelpAndSupportPage';
+import Support from './pages/support';
 
 
 
@@ -22,7 +22,7 @@ function App() {
             <Route path="/dashboard/missing-grade-form" element={<MissingGradeForm />}/>
             <Route path="/dashboard/grade-report" element={<GradeReportPage />}/>
             <Route path="/dashboard/instructor-contact" element={<InstructorContactPage />}/>
-            <Route path="/dashboard/help and support" element={<HelpAndSupportPage />}/>
+            <Route path="/dashboard/support" element={<Support />}/>
             
          </Routes>
       </>
