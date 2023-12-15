@@ -1,6 +1,5 @@
 # Student Grade Reporting System Frontend
-
-# THIS WEBSITE WAS CREATED BY ASARE KWAKU OBENG (11297096)
+<h1> THIS WEBSITE WAS CREATED BY ASARE KWAKU OBENG (11297096) </h1>
 ## Project Overview
 
 This project is a front-end web application for a Student Grade Reporting System. It simulates a real-world application where students can view, report, and manage their academic grades. This system addresses the issue of missing or unrecorded grades in a student's profile.
