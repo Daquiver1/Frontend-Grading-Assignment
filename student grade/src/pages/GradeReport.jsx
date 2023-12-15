@@ -64,7 +64,7 @@ const GradeReport = () => {
                 <p className="col-span-1">CGPA:3.4</p>
             </div>
             <hr/>
-            <div className="grid grid-cols-4 font-semibold text-gray-800 gap-4">
+            <div className="grid grid-cols-4 font-semibold gap-4 text-gray-800">
             <h4>Course</h4>
                 <h4>IA</h4>
                 <h4>Exams</h4>
