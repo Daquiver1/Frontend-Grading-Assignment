@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Missing Grade Reporting System</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <style>
+    .footer {
+        background-color: #6dc8fd;
+        color: #ffffff;
+      }
+    </style>
+  </head>
+
+  <body>
+    <nav class="Four">
+      <a class="navbar-brand" href="#">Missing Grade Reporting System</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarCollapse"
+        aria-controls="navbarCollapse"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="Three" id="navbarCollapse">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="login.html">Login</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="help_and_support.html">help_and_support</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="One">
+      <div class="row">
+        <div class="col-md-6">
+          <h1>
+            Welcome to the Missing Grade Reporting Platform, where your voice
+            matters, and your missing grades are addressed with care and
+            efficiency.
+          </h1>
+          <p>
+            At our platform, we understand the importance of accurate academic
+            records and the impact that missing grades can have on your
+            educational journey. We are here to provide you with a simple and
+            efficient solution to report missing grades and ensure that your
+            academic achievements are properly recognized. Our platform is
+            designed with students like you in mind. We believe that every
+            missing grade is an opportunity for resolution and improvement. With
+            our user-friendly interface, you can easily report any missing
+            grades directly to your instructors, eliminating the hassle of
+            multiple emails or paperwork. Through streamlined communication, you
+            can ensure that your missing grades are addressed promptly and
+            effectively.
+          </p>
+          <p>
+            Embrace the power of reporting and unlock the potential of a
+            complete academic record.By using our Missing Grade Reporting
+            Platform, you become an active participant in shaping your
+            educational experience. Together, let's ensure that no missing grade
+            goes unnoticed and that every student has the opportunity to thrive.
+          </p>
+          <a href="login.html" class="btn btn-primary">Get Started</a>
+        </div>
+        <div class="col-md-6">
+          <img
+            src="glass.webp"
+            alt="Missing Grades"
+            class="img-fluid"
+          />
+        </div>
+      </div>
+    </div>
+
+    
+
+    <footer class="bg-dar text-white text-center py-3 mt-5 footer">
+
+        © 2023 Missing Grade Report System.
+        <br>All rights reserved. | Report system.
+        </p>
+        </footer>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+      // JavaScript code to handle the navigation bar toggle behavior
+      document.addEventListener("DOMContentLoaded", function () {
+        var navbarToggler = document.querySelector(".navbar-toggler");
+        var navbarCollapse = document.querySelector(".navbar-collapse");
+
+        navbarToggler.addEventListener("click", function () {
+          navbarCollapse.classList.toggle("show");
+        });
+      });
+
+      document.addEventListener("DOMContentLoaded", function () {
+        var navbarToggler = document.querySelector(".navbar-toggler");
+        var navbarCollapse = document.querySelector(".navbar-collapse");
+
+        navbarToggler.addEventListener("click", function () {
+          if (navbarCollapse.classList.contains("show")) {
+            navbarCollapse.style.maxHeight = null;
+          } else {
+            navbarCollapse.style.maxHeight = navbarCollapse.scrollHeight + "px";
+          }
+        });
+      });
+    </script>
+  </body>
+</html>
