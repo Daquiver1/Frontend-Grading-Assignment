@@ -17,6 +17,7 @@ const Sidebar = () => {
             <IoPodiumOutline size={26} /> <p>Grade</p>
           </li>
         </Link>
+    
 
         <Link to="/dashboard">
           <li className="m-[1rem] w-full p-2  hover:bg-[#232590] transition duration-300 ease-in-out  hover:text-white hover:p-2  rounded-md flex gap-3 ">

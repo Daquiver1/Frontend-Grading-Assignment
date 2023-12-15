@@ -8,7 +8,7 @@ import Sidebar from '../component/Sidebar'
 
 const Instructorpage = () => {
   return (
-    <div >
+    <div className="text-[#232590] bg-fixed  bg-cover bg-center h-full w-full" style={{ backgroundImage: 'url("/layered-waves-haikei.svg")' }} >
         <Navbar1 />
       
       <div className='flex'>

@@ -5,7 +5,7 @@ import Footer1 from "./component/Footer1";
 function App() {
   return (
      
-        <div className="text-[#232590] bg-fixed  bg-cover bg-center h-full w-full" style={{ backgroundImage: 'url("/layered-waves-haikei.svg")' }}>
+        <div className="text-[#232590] bg-fixed  bg-cover bg-center h-full w-full" style={{ backgroundImage: 'url("/layered-waves-haikei.svg")' }} >
         
         <Navbar />
        

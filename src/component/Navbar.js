@@ -4,7 +4,7 @@ import { IoMenu } from "react-icons/io5";
 
 const Navbar = () => {
   return (
-    <div className="fixed top-0 left-0 right-0 bg-white z-10">
+    <div className="fixed top-0 left-0 right-0 z-10">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 ">
         <p className="font-bold text-[1.5rem] cursor-pointer text-[#232590] ">
           GRADE<span className="text-[#cfa460]">SLEUTH</span>

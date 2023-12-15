@@ -5,8 +5,6 @@ import { FaMapLocationDot } from "react-icons/fa6";
 import { FiPhone } from "react-icons/fi";
 import { MdAlternateEmail } from "react-icons/md";
 
-
-
 const Contact = () => {
   const sectionStyle1 = {
     backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${backgroundImage})`,
@@ -30,6 +28,29 @@ const Contact = () => {
           WE'D LOVE TO HEAR <br />
           FROM YOU AGAIN
         </div>
+      </section>
+      <section className="block justify-center items-center m-[3rem]  ">
+        <h1 className="md:ml-[10rem] md:mr-[10rem] p-2 font-semibold text-lg">Enhancing User Experience with our Help Desk</h1>
+        <p className="p-2 md:ml-[10rem] md:mr-[10rem]">
+          At GradeSleuth, we understand the importance of providing timely and
+          effective support to our valued users. Our dedicated Help Desk is here
+          to ensure a seamless and enriching experience for you.
+        </p>
+        <h2 className="md:ml-[10rem] md:mr-[10rem] p-2 font-semibold text-lg">Why Choose Our Help Desk?</h2>
+        <ul className="md:ml-[10rem] md:mr-[10rem]">
+          <li className="p-2">
+            Responsive Assistance: Our team of experienced support professionals
+            is committed to responding promptly to your queries and concerns.
+            Whether you're facing technical issues, need guidance, or have
+            general inquiries, we're here to help.
+          </li>
+          <li className="p-2">
+            Responsive Assistance: Our team of experienced support professionals
+            is committed to responding promptly to your queries and concerns.
+            Whether you're facing technical issues, need guidance, or have
+            general inquiries, we're here to help.
+          </li>
+        </ul>
       </section>
 
       <section className="flex md:m-[10rem]">
@@ -130,12 +151,12 @@ const Contact = () => {
           </h1>
           <p className="mb-4">Computer Science Department</p>
           <h1 className="flex  text-3xl gap-[1rem]">
-          <FiPhone size={30} /> Phone
+            <FiPhone size={30} /> Phone
           </h1>
           <p>055-125-8689</p>
           <p className="mb-4">055-125-8689</p>
           <h1 className="flex text-3xl gp-[1rem] ">
-          <MdAlternateEmail  size={30} /> E-mail Us
+            <MdAlternateEmail size={30} /> E-mail Us
           </h1>
           <p>albertquaye735@gmail.com</p>
           <p className="mb-4">albertquaye735@gmail.com</p>

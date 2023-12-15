@@ -4,10 +4,11 @@ import Navbar1 from "../component/Navbar1";
 import Footer1 from "../component/Footer1";
 import Gradecontent from "../component/Gradecontent";
 
+
 const Grade = () => {
   return (
     <div
-      className="text-[#232590] bg-cover bg-center h-full w-full"
+      className="text-[#232590] bg-fixed bg-cover bg-center h-full w-full"
       style={{ backgroundImage: 'url("/layered-waves-haikei.svg")' }}
     >
       <Navbar1 />
