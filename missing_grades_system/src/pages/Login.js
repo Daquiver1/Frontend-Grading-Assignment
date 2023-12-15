@@ -14,8 +14,8 @@ function LoginPage() {
   return (
     <div className="login-page">
       <Navbar></Navbar>
-      <h1>Login</h1>
-      <form>
+      <h1 className='login'>Login</h1>
+      <form className='login_form'>
         <label>
           Student ID:
           <input type="text" value={studentId} onChange={(e) => setStudentId(e.target.value)} />

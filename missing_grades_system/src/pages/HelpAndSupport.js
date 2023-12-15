@@ -1,4 +1,3 @@
-// src/pages/HelpAndSupport.js
 import React from 'react';
 import '../styles/helpandsupport.css';
 import Navbar from '../components/Navbar';
@@ -14,7 +13,6 @@ function HelpAndSupport() {
         <p>1. How do I report a missing grade?</p>
         <p>2. Can I view my grades from previous semesters?</p>
         <p>3. How do I contact my instructor?</p>
-        {/* Add more FAQs as needed */}
       </div>
 
       <div className="contact-form-section">

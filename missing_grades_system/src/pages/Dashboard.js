@@ -1,11 +1,9 @@
-// src/pages/DashboardPage.js
 import React from 'react';
 import '../styles/dashboard.css';
 import Navbar from '../components/Navbar'
 
 
 function DashboardPage() {
-  // Simulated data for demonstration purposes
   const gradesData = [
     { course: 'DCIT 201', grade: 'A' },
     { course: 'DCIT 203', grade: 'B+' },
@@ -15,12 +13,10 @@ function DashboardPage() {
     { course: 'STAT 221', grade: 'A' },
     { course: 'CBASS 210', grade: 'A' },
 
-    // Add more courses as needed
   ];
 
   const missingGradesData = [
     { course: 'DCIT 102,DCIT 104', status: 'Missing' },
-    // Add more missing grades as needed
   ];
 
   return (

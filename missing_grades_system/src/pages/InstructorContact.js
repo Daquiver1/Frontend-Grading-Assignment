@@ -1,32 +1,27 @@
-// src/pages/InstructorContact.js
 import React, { useState } from 'react';
 import '../styles/instructorcontact.css';
 import Navbar from '../components/Navbar'
 
 function InstructorContact() {
-  // State for form fields
   const [instructorName, setInstructorName] = useState('');
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
   const [isSubmitted, setIsSubmitted] = useState(false);
 
-  // List of instructors with contact details
   const instructors = [
-    { name: 'Instructor 1', email: 'instructor1@example.com' },
-    { name: 'Instructor 2', email: 'instructor2@example.com' },
-    // Add more instructors as needed
+    { name: 'Dwumfour Abdullai Abdul-Aziz', email: 'adwumfour@ug.edu.gh' },
+    { name: 'Mark Atta Mensah', email: 'mamensah@ug.edu.gh' },
+    { name: 'Dr. Kenneth Dadedzi ', email: 'kdadedzi@ug.edu.gh' },
+    { name: 'Mrs. G. A. Botchway', email: 'gaantwi@ug.edu.gh' },
+
   ];
 
-  // Function to handle form submission
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Perform any necessary validation or data processing here
     setIsSubmitted(true);
   };
 
-  // Function to simulate sending an email
   const sendEmail = (instructorEmail) => {
-    // Simulate sending email (replace with actual logic if needed)
     console.log(`Simulating email to ${instructorEmail}: ${message}`);
   };
 

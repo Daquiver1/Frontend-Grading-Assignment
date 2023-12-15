@@ -1,36 +1,30 @@
-// src/pages/GradeReportPage.js
 import React, { useState } from 'react';
 import '../styles/gradereport.css';
 import Navbar from '../components/Navbar'
 
 
 function GradeReport() {
-  // Simulated data for demonstration purposes
   const gradeReportData = [
-    { course: 'MATH 223', grade: 'A', semester: 'LEVEL 200', instructor: 'Dr. Smith', credits: 3 },
-    { course: 'DCIT 203', grade: 'B+', semester: 'LEVEL 200', instructor: 'Prof. Johnson', credits: 3 },
-    { course: 'DCIT 201', grade: 'A', semester: 'LEVEL 200', instructor: 'Dr. Anderson', credits: 3 },
-    { course: 'DCIT 205', grade: 'A', semester: 'LEVEL 200', instructor: 'Dr. Anderson', credits: 3 },
-    { course: 'STAT 221', grade: 'A', semester: 'LEVEL 200', instructor: 'Dr. Anderson', credits: 3 },
-    { course: 'DCIT 223', grade: 'A', semester: 'LEVEL 200', instructor: 'Dr. Anderson', credits: 3 },
+    { course: 'MATH 223', grade: 'A', semester: 'LEVEL 200', instructor: 'Dr. R.A. Twum', credits: 3 },
+    { course: 'DCIT 203', grade: 'B+', semester: 'LEVEL 200', instructor: 'Dwumfour Abdullai Abdul-Aziz', credits: 3 },
+    { course: 'DCIT 201', grade: 'A', semester: 'LEVEL 200', instructor: 'Mark Atta Mensah ', credits: 3 },
+    { course: 'DCIT 205', grade: 'A', semester: 'LEVEL 200', instructor: 'Dr. Soli', credits: 3 },
+    { course: 'STAT 221', grade: 'A', semester: 'LEVEL 200', instructor: 'Dr. Edmund Acheampong', credits: 3 },
+    { course: 'STAT 223', grade: 'A', semester: 'LEVEL 200', instructor: 'Dr. Richard Mintah', credits: 3 },
     { course: 'DCIT 101', grade: 'A', semester: 'LEVEL 100', instructor: 'Dr. Anderson', credits: 3 },
-    { course: 'DCIT 103', grade: 'A', semester: 'LEVEL 100', instructor: 'Dr. Anderson', credits: 3 },
-    { course: 'MATH 123', grade: 'A', semester: 'LEVEL 100', instructor: 'Dr. Anderson', credits: 3 },
-    { course: 'MATH 121', grade: 'A', semester: 'LEVEL 100', instructor: 'Dr. Anderson', credits: 3 },
-    { course: 'STAT 111', grade: 'A', semester: 'LEVEL 100', instructor: 'Dr. Anderson', credits: 3 },
-    { course: 'UGRC 230', grade: 'A', semester: 'LEVEL 100', instructor: 'Dr. Anderson', credits: 3 },
+    { course: 'DCIT 103', grade: 'A', semester: 'LEVEL 100', instructor: 'Mark Atta Mensah', credits: 3 },
+    { course: 'MATH 123', grade: 'A', semester: 'LEVEL 100', instructor: 'Dr. D Adu-Gyamfi', credits: 3 },
+    { course: 'MATH 121', grade: 'A', semester: 'LEVEL 100', instructor: 'Dr. R.A. Twum', credits: 3 },
+    { course: 'STAT 111', grade: 'A', semester: 'LEVEL 100', instructor: 'Dr. Richard Mintah', credits: 3 },
+    { course: 'UGRC 230', grade: 'A', semester: 'LEVEL 100', instructor: 'Dr. Nancy Myles', credits: 3 },
 
 
-    // Add more courses as needed
   ];
 
-  // State for filtering by semester
   const [selectedSemester, setSelectedSemester] = useState('All');
 
-  // Get unique semesters for the filter dropdown
   const uniqueSemesters = Array.from(new Set(gradeReportData.map((data) => data.semester)));
 
-  // Filter the data based on selected semester
   const filteredData =
     selectedSemester === 'All'
       ? gradeReportData

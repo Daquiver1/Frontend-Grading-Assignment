@@ -1,20 +1,16 @@
-// src/pages/MissingGradeFormPage.js
 import React, { useState } from 'react';
 import '../styles/MissingGradeForm.css';
 import Navbar from '../components/Navbar';
 
 function MissingGradeFormPage() {
-  // State for form fields
   const [courseName, setCourseName] = useState('');
   const [instructorName, setInstructorName] = useState('');
   const [expectedGrade, setExpectedGrade] = useState('');
   const [explanation, setExplanation] = useState('');
   const [isSubmitted, setIsSubmitted] = useState(false);
 
-  // Function to handle form submission
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Perform any necessary validation or data processing here
     setIsSubmitted(true);
   };
 
