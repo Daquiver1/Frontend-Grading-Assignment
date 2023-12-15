@@ -1,0 +1,46 @@
+/* Container holding the image and the text */
+.container {
+  display: block;
+  position: relative;
+  color: white;
+  text-align: center;
+  padding-left: 15px;
+  padding-right: 15px;
+ }
+ 
+ /* Bottom left text */
+ .text-block {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  background-color: rgba(0, 0, 0, 0.5); /* Black background with opacity */
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-weight: bold; /* Makes the text bold */
+ }
+ 
+ /* Navigation Links */
+ nav ul {
+  list-style-type: none;
+  padding: 0;
+ }
+ 
+ nav li {
+  display: inline-block;
+  margin-right: 10px;
+ }
+ 
+ nav a {
+  text-decoration: none;
+  color: black;
+  padding: 10px 20px; /* Adds padding to the link */
+  background-color: #4CAF50; /* Green background color */
+  border-radius: 5px; /* Rounds the corners of the link */
+  font-weight: bold; /* Makes the text bold */
+ }
+ 
+ nav a:hover {
+  background-color: #45a049; /* Darker green background color on hover */
+  color: white; /* White text color on hover */
+ }

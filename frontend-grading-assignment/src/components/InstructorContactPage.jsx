@@ -1,26 +1,28 @@
 import React from 'react';
 
 function InstructorContactPage() {
- // Replace this with actual data
- const instructors = [
-    { name: 'John Doe', email: 'john.doe@example.com' },
-    { name: 'Jane Doe', email: 'jane.doe@example.com' },
-    // ...
- ];
-
- const handleEmail = (email) => {
-    alert(`Email sent to ${email}!`);
+ const handleEmail = () => {
+    // Handle email sending logic here (mock-up, no real email)
+    console.log('Simulated email sent to the instructor.');
  };
 
  return (
-    <div>
-      <h1>Instructor Contact</h1>
-      {instructors.map((instructor, index) => (
-        <div key={index}>
-          <p>{instructor.name}: {instructor.email}</p>
-          <button onClick={() => handleEmail(instructor.email)}>Email</button>
-        </div>
-      ))}
+    <div className="container">
+      <h2 className="contact-title">Instructor Contact</h2>
+      <ul className="instructor-list">
+        <li>
+          <p className="instructor-name">Instructor 1</p>
+          <p className="instructor-email">instructor1@email.com</p>
+          <button onClick={handleEmail} className="contact-button">Contact</button>
+        </li>
+        <li>
+          <p className="instructor-name">Instructor 2</p>
+          <p className="instructor-email">instructor2@email.com</p>
+          <button onClick={handleEmail} className="contact-button">Contact</button>
+        </li>
+        {/* Add more instructors here */}
+      </ul>
+      {/* Navigation links to other pages (Dashboard, Grade Report, Missing Grade Form) */}
     </div>
  );
 }

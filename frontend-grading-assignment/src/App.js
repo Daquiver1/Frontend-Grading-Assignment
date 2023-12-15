@@ -1,42 +1,49 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes, Link, useLocation } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Link, Routes } from 'react-router-dom';
 import LoginPage from './components/LoginPage';
-import HomePage from './components/HomePage';
 import GradeReportPage from './components/GradeReportPage';
 import MissingGradeFormPage from './components/MissingGradeFormPage';
-import InstructorContactPage from './components/InstructorContactPage';
-import HelpSupportPage from './components/HelpSupportPage';
-
-const PrivateRoute = ({ children, ...rest }) => {
- const location = useLocation();
- const isAuthenticated = // add your authentication logic here
- if (!isAuthenticated) {
-    return <Redirect to="/login" />;
- }
- return <Route {...rest}>{children}</Route>;
-};
+import DashboardPage from './components/DashboardPage';
+import './App.css';
 
 function App() {
  return (
     <Router>
-      <nav>
-        <ul>
-          <li><Link to="/">Home</Link></li>
-          <li><Link to="/login">Login</Link></li>
-          <li><Link to="/grade-report">Grade Report</Link></li>
-          <li><Link to="/missing-grade-form">Missing Grade Form</Link></li>
-          <li><Link to="/instructor-contact">Instructor Contact</Link></li>
-          <li><Link to="/help-support">Help & Support</Link></li>
-        </ul>
+      <nav className="navbar navbar-expand-lg navbar-light bg-light">
+        <div className="container-fluid">
+          <Link className="navbar-brand" to="/">
+            Navbar
+          </Link>
+          <button
+            className="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span className="navbar-toggler-icon"></span>
+          </button>
+          <div className="collapse navbar-collapse" id="navbarNav">
+            <ul className="navbar-nav">
+              <li className="nav-item">
+                <Link className="nav-link" to="/login">
+                 Login
+                </Link>
+              </li>
+            </ul>
+          </div>
+        </div>
       </nav>
-      <Routes>
-        <Route path="/" exact element={<HomePage />} />
+      <div className="container">
+        <Routes>
         <Route path="/login" element={<LoginPage />} />
-        <PrivateRoute path="/grade-report" element={<GradeReportPage />} />
-        <PrivateRoute path="/missing-grade-form" element={<MissingGradeFormPage />} />
-        <PrivateRoute path="/instructor-contact" element={<InstructorContactPage />} />
-        <PrivateRoute path="/help-support" element={<HelpSupportPage />} />
-      </Routes>
+        <Route path="/grade-report" element={<GradeReportPage />} />
+        <Route path="/missing-grade-form" element={<MissingGradeFormPage />} />
+        <Route path="/dashboard" element={<DashboardPage />} />
+        </Routes>
+      </div>
     </Router>
  );
 }
