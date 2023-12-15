@@ -2,8 +2,10 @@ import React from "react";
 import { FaCircleInfo } from "react-icons/fa6";
 import QuestionBox from "../components/dashboard/QuestionBox";
 import { LabelInput } from "../components/inputs/InputLabel";
+import questions from "../assets/data/faq";
 
 function Faq() {
+  console.log(questions);
   return (
     <div className="w-full px-3 mt-5">
       <h1 className=" text-3xl font-bold text-primary_blue">
@@ -22,8 +24,10 @@ function Faq() {
 
       <h1 className=" mt-10 text-2xl font-bold text-primary_blue">FAQ</h1>
 
-      <div className=" w-full py-2 flex flex-col">
-        <QuestionBox />
+      <div className=" w-full py-2 flex flex-col gap-5">
+        {questions.map((q) => (
+          <QuestionBox question={q.question} answer={q.answer} />
+        ))}
       </div>
 
       <div className=" flex justify-center items-center mt-10">
@@ -44,7 +48,7 @@ function Faq() {
               type="submit"
               className=" w-full bg-primary_blue py-2 font-medium text-white  rounded-md"
             >
-              Submit 
+              Submit
             </button>
           </div>
         </form>

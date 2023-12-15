@@ -2,7 +2,7 @@ import React from "react";
 import { useState } from "react";
 
 function QuestionBox({question, answer}) {
-  const [isOpen, setOpen] = useState(true);
+  const [isOpen, setOpen] = useState(false);
 
   return (
     <div className=" cursor-pointer bg-gray-200 px-2 rounded-md border-b border-gray-200 pb-4">
