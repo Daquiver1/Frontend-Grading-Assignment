@@ -1,11 +1,12 @@
 import React from 'react'
+import './header.css'
 
 const Head = () => {
   return (
     <>
         <section className='head'>
             <div className='container flexSB'>
-                <div className="logo">
+            <div className="logo">
                     <h1>ACADEMIA</h1>
                     <span>ONLINE EDUCATION AND LEARNING</span>
                 </div>
