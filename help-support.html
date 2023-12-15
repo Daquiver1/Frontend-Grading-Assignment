@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Help & Support - Missing Grade Reporting System</title>
+  <link rel="stylesheet" href="styles6<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Help & Support - Missing Grade Reporting System</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header>
+  <b>FAQS & TECHNICAL SUPPORT PAGE</b>
+  </header>
+
+  <main>
+    <section class="help-support-section">
+      <h2>Help & Support</h2>
+
+      <div class="faq-section">
+        <h3>Frequently Asked Questions</h3>
+        <ul class="faq-list">
+          <li>
+            <h4>How can I report a missing grade?</h4>
+            <p>You can report a missing grade by navigating to the 'MISSING GRADE FORM' page and filling out the form with the necessary details.</p>
+          </li>
+          <li>
+            <h4>Where can I view my grades?</h4>
+            <p>You can view your grades on the 'GRADE REPORT' page. It displays a detailed overview of all your course grades.</p>
+          </li>
+          
+        </ul>
+      </div>
+
+      <div class="contact-form">
+        <h3>Contact Technical Support</h3>
+        <form id="techSupportForm">
+          <div class="form-group">
+            <label for="fullName">Full Name:</label>
+            <input type="text" id="fullName" name="fullName" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="form-group">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+          </div>
+          <button type="submit">Send</button>
+        </form>
+        <p id="contactConfirmation" class="hidden">Your message has been sent to technical support!</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <b>MISSING GRADE REPORTING SYSTEM BY THE 11112468Company</b>
+  </footer>
+
+  <script src="scripts.js"></script>
+  <script>
+    document.getElementById('techSupportForm').addEventListener('submit', function (e) {
+      e.preventDefault();
+      showConfirmationMessage();
+    });
+
+    function showConfirmationMessage() {
+      document.getElementById('contactConfirmation').classList.remove('hidden');
+      setTimeout(() => {
+        document.getElementById('contactConfirmation').classList.add('hidden');
+      }, 3000); 
+    }
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Login - Missing Grade Reporting System</title>
+  <link rel="stylesheet" href="styles1.css">
+</head>
+
+<body>
+  <header>
+    <b>LOGIN HERE TO ACCESS THE SYSTEM</b>
+  </header>
+
+  <main>
+    <section class="login-section">
+      <h2>Enter Your Student ID(11112468) and PIN(1234) to Login...</h2>
+      <form id="loginForm">
+        <div class="form-group">
+          <label for="studentID">Student ID:</label>
+          <input type="text" id="studentID" name="studentID" required>
+        </div>
+        <div class="form-group">
+          <label for="pin">PIN:</label>
+          <input type="password" id="pin" name="pin" required>
+        </div>
+        <button type="submit">Login</button>
+        <p id="loginMessage"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <b>MISSING GRADE REPORTING SYSTEM BY THE 11112468Company</b>
+  </footer>
+
+  <script src="scripts.js"></script>
+  <script>
+    // Mock authentication as requested in assignment
+    document.getElementById('loginForm').addEventListener('submit', function (e) {
+      e.preventDefault();
+      const studentID = document.getElementById('studentID').value;
+      const pin = document.getElementById('pin').value;
+
+      
+      if (studentID === '11112468' && pin === '1234') {
+        document.getElementById('loginMessage').innerHTML = 'Login successful! Redirecting...';
+        setTimeout(() => {
+          window.location.href = 'dashboard.html'; // the program will Redirect to dashboard upon successful login
+        }, 1500);
+      } else {
+        document.getElementById('loginMessage').innerHTML = 'Invalid credentials. Please try again.';
+      }
+    });
+  </script>
+</body>
+
+</html>
