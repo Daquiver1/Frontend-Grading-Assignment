@@ -13,129 +13,129 @@ const GradeReport = () => {
         course: "DCIT101",
         title: "INTRODUCTION TO COMPUTER SCIENCE",
         grade: "A",
-        semester: "FIRST SEMESTRE",
-        academicYear: "FIRST YEAR (L100)",
+        semester: "FIRST SEMESTER",
+        academicYear: "2022/2023",
       },
       {
         course: "DCIT103",
         title: "OFFICE PRODUCTIVITY TOOLS",
         grade: "B",
-        semester: "FIRST SEMESTRE",
-        academicYear: "FIRST YEAR (L100)",
+        semester: "FIRST SEMESTER",
+        academicYear: "2022/2023",
       },
       {
         course: "DCIT105",
         title: "MATHEMATICS FOR IT PROFESSIONALS",
         grade: "B",
-        semester: "FIRST SEMESTRE",
-        academicYear: "FIRST YEAR (L100)",
+        semester: "FIRST SEMESTER",
+        academicYear: "2022/2023",
       },
       {
         course: "ECON101",
         title: "INTRODUCTION TO ECONOMICS I ",
         grade: "A",
-        semester: "FIRST SEMESTRE",
-        academicYear: "FIRST YEAR (L100)",
+        semester: "FIRST SEMESTER",
+        academicYear: "2022/2023",
       },
       {
         course: "STAT111",
         title: " INTRODUCTION TO STATISTICS AND PROBABILITY",
         grade: "A",
-        semester: "FIRST SEMESTRE",
-        academicYear: "FIRST YEAR (L100)",
+        semester: "FIRST SEMESTER",
+        academicYear: "2022/2023",
       },
       {
         course: "UGRC150",
         title: " CRITICAL THINKING AND PRACTICAL REASONING ",
         grade: "A",
-        semester: "FIRST SEMESTRE",
-        academicYear: "FIRST YEAR (L100)",
+        semester: "FIRST SEMESTER",
+        academicYear: "2022/2023",
       },
 
       {
         course: "DCIT102",
         title: "COMPUTER HARDWARE FUNDAMENTALS AND CIRCUITS",
         grade: "A",
-        semester: "SECOND SEMESTRE",
-        academicYear: "FIRST YEAR (L100)",
+        semester: "SECOND SEMESTER",
+        academicYear: "2022/2023",
       },
       {
         course: "DCIT104",
         title: "PROGRAMMING FUNDAMENTALS",
         grade: "B",
-        semester: "SECOND SEMESTRE",
-        academicYear: "FIRST YEAR (L100)",
+        semester: "SECOND SEMESTER",
+        academicYear: "2022/2023",
       },
       {
         course: "ECON102",
         title: "INTRODUCTION TO ECONOMICS II ",
         grade: "A",
-        semester: "SECOND SEMESTRE",
-        academicYear: "FIRST YEAR (L100)",
+        semester: "SECOND SEMESTER",
+        academicYear: "2022/2023",
       },
       {
         course: "STAT112",
         title: " STAT112 INTRODUCTION TO STATISTICS AND PROBABILITY II ",
         grade: "A",
-        semester: "SECOND SEMESTRE",
-        academicYear: "FIRST YEAR (L100)",
+        semester: "SECOND SEMESTER",
+        academicYear: "2022/2023",
       },
       {
         course: "MATH122",
         title: "CALCULUS I",
         grade: "A",
-        semester: "SECOND SEMESTRE",
-        academicYear: "FIRST YEAR (L100)",
+        semester: "SECOND SEMESTER",
+        academicYear: "2022/2023",
       },
       {
         course: "UGRC110",
         title: "ACADEMIC WRITING I",
         grade: "A",
-        semester: "SECOND SEMESTRE",
-        academicYear: "FIRST YEAR (L100)",
+        semester: "SECOND SEMESTER",
+        academicYear: "2022/2023",
       },
 
       {
         course: "CBAS210",
         title: "ACADEMIC WRITING II",
         grade: "A",
-        semester: "FIRST SEMESTRE",
-        academicYear: "SECOND YEAR (L200)",
+        semester: "FIRST SEMESTER",
+        academicYear: "2023/2024",
       },
       {
         course: "DCIT201",
         title: "PROGRAMMING I",
         grade: "B",
         semester: "FIRST SEMESTRE",
-        academicYear: "SECOND YEAR (L200)",
+        academicYear: "2023/2024",
       },
       {
         course: "DCIT203",
         title: "DIGITAL AND LOGIC SYSTEMS DESIGN",
         grade: "C",
-        semester: "FIRST SEMESTRE",
-        academicYear: "SECOND YEAR (L200)",
+        semester: "FIRST SEMESTER",
+        academicYear: "2023/2024",
       },
       {
         course: "DCIT205",
         title: "MULTIMEDIA AND WEB DESIGN",
         grade: "A",
-        semester: "FIRST SEMESTRE",
-        academicYear: "SECOND YEAR (L200)",
+        semester: "FIRST SEMESTER",
+        academicYear: "2023/2024",
       },
       {
         course: "DCIT207",
         title: "COMPUTER ORGANIZATION & ARCHITECTURE",
         grade: "B",
         semester: "FIRST SEMESTRE",
-        academicYear: "SECOND YEAR (L200)",
+        academicYear: "2023/2024",
       },
       {
         course: "DCIT209",
         title: "E-BUSINESS ARCHITECTURES",
         grade: "A",
-        semester: "FIRST SEMESTRE",
-        academicYear: "SECOND YEAR (L200)",
+        semester: "FIRST SEMESTER",
+        academicYear: "2023/2024",
       },
     ];
 
@@ -167,10 +167,10 @@ const GradeReport = () => {
           </label>
           <select id="gradeFilter" onChange={handleFilterChange}>
             <option value="All">All</option>
-            <option value="FIRST SEMESTRE">First Semestre</option>
-            <option value="SECOND SEMESTRE">Second Semestre</option>
-            <option value="FIRST YEAR (L100)">First Year (L100)</option>
-            <option value="SECOND YEAR (L200)">Second Year (L200)</option>
+            <option value="FIRST SEMESTER">First Semester</option>
+            <option value="SECOND SEMESTER">Second Semester</option>
+            <option value="2022/2023">2022/2023 </option>
+            <option value="2023/2024">2023/2024</option>
           </select>
         </div>
 
