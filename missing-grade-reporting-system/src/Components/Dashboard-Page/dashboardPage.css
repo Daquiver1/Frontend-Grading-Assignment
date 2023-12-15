@@ -1,0 +1,57 @@
+.dashboard-container {
+  padding-top: 10px;
+  width: 1300px;
+  margin: auto;
+  text-align: center;
+}
+
+#level100-section {
+  margin-top: 50px;
+}
+
+.level200-section {
+  margin-top: 90px;
+}
+
+.level100-div,
+.level200-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.level200-div table {
+  margin-right: 100px;
+  margin-left: 100px;
+  justify-content: space-between;
+}
+
+.level100-div table {
+  margin-right: 100px;
+  margin-left: 100px;
+  justify-content: space-between;
+}
+
+.level100-div .semester-table {
+  margin-bottom: 20px; /* Adjust the margin as needed */
+}
+
+
+.blinking-red {
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  50% {
+    background-color: red;
+    color: white;
+  }
+}
+
+.missing-grade {
+  display: inline-block;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: red;
+  color: white;
+}

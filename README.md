@@ -1,4 +1,6 @@
 # Student Grade Reporting System Frontend
+Student ID: 11146250
+Name: Bismark Obuobi
 
 ## Project Overview
 
@@ -49,3 +51,26 @@ To contribute to this project, please follow these guidelines:
 4. Submit a pull request for review.
 
 Please adhere to the project's coding standards and provide clear and detailed pull request descriptions.
+
+## Screenshots
+![Overview](/missing-grade-reporting-system/Screenshots/Screenshot175.png)
+![Login](/missing-grade-reporting-system/Screenshots/Screenshot176.png)
+![Dashboard 1](/missing-grade-reporting-system/Screenshots/Screenshot177.png)
+![Dashboard 2](/missing-grade-reporting-system/Screenshots/Screenshot178.png)
+![Dashboard 3](/missing-grade-reporting-system/Screenshots/Screenshot179.png)
+![Grade Report 1](/missing-grade-reporting-system/Screenshots/Screenshot180.png)
+![Grade Report 2](/missing-grade-reporting-system/Screenshots/Screenshot181.png)
+![Grade Report 3](/missing-grade-reporting-system/Screenshots/Screenshot182.png)
+![Help and Support 1](/missing-grade-reporting-system/Screenshots/Screenshot183.png)
+![Help and Support 2](/missing-grade-reporting-system/Screenshots/Screenshot184.png)
+![Help and Support 3](/missing-grade-reporting-system/Screenshots/Screenshot185.png)
+![Instructor Contact 1](/missing-grade-reporting-system/Screenshots/Screenshot186.png)
+![Instructor Contact 2](/missing-grade-reporting-system/Screenshots/Screenshot187.png)
+![Instructor Contact 3](/missing-grade-reporting-system/Screenshots/Screenshot188.png)
+![Missing Grades Form](/missing-grade-reporting-system/Screenshots/Screenshot189.png)
+
+
+
+## Details
+Student ID: 11146250
+Name: Bismark Obuobi
