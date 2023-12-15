@@ -1,0 +1,81 @@
+.form{
+  background: url('src/background-image.jpeg') center/cover fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.form input[type="file"] {
+  color: #fff;
+  cursor: pointer;
+}
+.h1-text{
+  display: flex;
+  justify-content: center;
+  color: #fff;
+}
+h2{
+  color: #fff;
+  margin: 30%;
+  width: 100%;
+}
+.f-info{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  backdrop-filter: blur(20px);
+  width: fit-content;
+  margin:  0 3rem;
+  border-left: 2px solid rgba(255,255,255,0.5);
+  border-right: 2px solid rgba(255,255,255,0.5);
+  height: fit-content;
+}
+div label{
+  color: #fff;
+}
+.butt{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: large;
+  font-weight: bold;
+  font-family: sans-serif;
+  font-style: italic;
+  cursor: pointer;
+  color: #fff;
+  height: 50px;
+  width: 300px;
+  border: none;
+  border-radius: 16px;
+  background: linear-gradient(to right, black, white);
+  transition: 2s ease;
+  margin: 2rem;
+}
+.butt:hover {
+  background: linear-gradient(to left, black, white);
+}
+input {
+  width: 300px;
+  height: 75px;
+  padding: 20px;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 10px;
+  margin: 0.5rem;
+}
+
+input[type="file"]{
+  margin: -1rem;
+}
+label{
+  font-size: larger;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: #fff;
+}
+form{
+  border: none;
+  border-radius: 16px;
+}
