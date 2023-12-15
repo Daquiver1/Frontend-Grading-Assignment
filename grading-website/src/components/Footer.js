@@ -66,6 +66,11 @@ function Footer() {
             </a>
           </div>
         </div>
+        <div className="copyright-container">
+          <p>Copyright</p>
+          <img src={process.env.PUBLIC_URL + "./images/copyright-icon.png"} />
+          <p>All rights reserved</p>
+        </div>
       </div>
     </>
   );
