@@ -2,9 +2,6 @@ import React, { useState, useEffect } from "react";
 import "./loginform.css";
 import { FaCheckCircle } from 'react-icons/fa';
 import {Routes, Route, useNavigate} from 'react-router-dom';
-import { Button } from "antd";
-import MainPage from "./MainPage";
-import AppRoutes from "./AppRoutes";
 
 
 const LoginForm = () => {

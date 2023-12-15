@@ -1,7 +1,6 @@
 import { Space, Table, Typography } from "antd";
 import './Mail.css'
 import AppHeader from '../../components/AppHeader';
-import PageContent from '../../components/PageContent';
 import SideMenu from '../../components/SideMenu';
 import AppFooter from "../../components/AppFooter";
 

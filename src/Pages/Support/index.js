@@ -1,11 +1,8 @@
 import React, { useState } from "react";
 import { Space, Typography } from "antd";
-import Faq from "./Faq";
 import './faq.css'
-import Dash from "../final";
 
 import AppHeader from '../../components/AppHeader';
-import PageContent from '../../components/PageContent';
 import SideMenu from '../../components/SideMenu';
 import AppFooter from "../../components/AppFooter";
 
@@ -81,13 +78,6 @@ function Support(){
                                     <h2>{faq.question}</h2>
                                     <span>{selected === index ? '-' : '+'}</span>
                                 </div>
-                                {/* <div>
-                                    {faqs === index ? (
-                                        <span className="verticle">-</span>
-                                    ) : (
-                                        <span className="verticle">+</span>
-                                    )}
-                                </div> */}
                                 <div className={selected === index ? 'content show' : 'content'}>
                                     <p>{faq.answer}</p>
                                 </div>
