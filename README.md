@@ -1,6 +1,6 @@
 
-## DCIT205 ASSIGNMENT 1
-### STUDENT ID: 11124414
+# DCIT205 ASSIGNMENT 1
+## STUDENT ID: 11124414
 
 
 
@@ -95,24 +95,13 @@ Describe how to use the application, highlighting key functionalities such as lo
 
 ###  Reporting missing grades
 1. To report your missing grade click on the "Missing Grade Form".
-2. Provide detail about the course ie. the course name, instructos name, expected grade and explanation.
+2. Provide detail about the course ie. the course name, instructors name, expected grade and explanation.
 3. Click on the submit button to send it to your instructor.
 
 ### Contacting Instructor
 1. Click on the Instructor contact 
 2. Contact your instructor using the email provided.
 
-
-## Contribution
-
-To contribute to this project, please follow these guidelines:
-
-1. Fork the repository.
-2. Create a new branch for your feature.
-3. Commit your changes and push them to your branch.
-4. Submit a pull request for review.
-
-Please adhere to the project's coding standards and provide clear and detailed pull request descriptions.
 
 
 
