@@ -46,31 +46,25 @@ Describe how to use the application, highlighting key functionalities such as lo
    - Input your credentials, typically comprising a username and password.
    - Some systems may offer alternative login methods, like single sign-on through institutional credentials.
 
-2. Dashboard/Homepage
-   - Upon successful login, you'll likely be directed to your dashboard or a homepage.
-   - The dashboard may provide an overview of current grades, any missing grades, and pertinent information.
 
-3. Viewing Grades:
-   - Navigate to the "Grades" or "Transcripts" section of the application.
-   - Review a list of your courses with corresponding grades.
-   - Some systems might furnish additional details, such as assignment scores, attendance, or instructor feedback.
 
-4. Reporting Missing Grades:
+
+2. Reporting Missing Grades:
    - Find a designated section, labeled as "Report Missing Grades" or similar.
    - Select the course or assignment with the suspected missing grade.
    - Input necessary details, such as assignment name, date, or any pertinent information supporting your claim.
 
-5.  Contacting Instructors:
+ 3. Contacting Instructors:
    - Check for a section like "Contact Instructors" or "Communicate with Faculty."
    - Identify the relevant course or instructor.
    - Some systems may offer an internal messaging system, while others might direct you to use your institutional email.
    - Draft a message outlining your concern about the missing grade, including supporting information.
 
-6.  Notifications and Updates:
+4.  Notifications and Updates:
    - Look for a feature providing notifications or updates on the status of your reported missing grades.
    - This could include automated emails, in-app notifications, or updates on your dashboard.
 
-7.  Help/Support Center:
+5.  Help/Support Center:
    - Explore the help or support center for additional guidance.
    - This section may contain FAQs, tutorials, or guides to assist you in effectively using the application's features.
 ## Contribution
