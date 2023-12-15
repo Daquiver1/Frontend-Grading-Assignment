@@ -6,7 +6,7 @@ import Form from './Pages/help_page/missing_grade/form';
 import Contact from './Components/contact_page/contact';
 import Help from './Pages/help_page/help'
 import Dashboard from './Components/dashboardpage/dashboard'
-import Gradepage from './Components/gradepage/gradepage'
+import Gradepoint from './Components/gradepage/gradepoint'
 function App() {
   return (
     <Routes>
@@ -17,7 +17,7 @@ function App() {
       <Route path="/contact" element={<Contact />} />
       <Route path="/help" element={<Help />} />
       <Route path="/dashboard" element={<Dashboard />} />
-      <Route path="/gradepage" element={<Gradepage />} />
+      <Route path="/gradepoint" element={<Gradepoint />} />
       </Route>
     </Routes>
   );

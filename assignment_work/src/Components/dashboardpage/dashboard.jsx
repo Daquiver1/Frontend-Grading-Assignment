@@ -63,7 +63,7 @@ function Dashboard() {
       <div id="sidebar" className={sidebarOpen ? 'sidebar open' : 'sidebar'}>
         <ul>
         <li><a href="/dashboard">Dashboard Page</a></li>
-        <li><a href="/gradepage">Grade Page</a></li>
+        <li><a href="/gradepoint">Grade Page</a></li>
         <li><a href="/contact">Lecturer Contact</a></li>
         <li><a href="/help">Help and Support</a></li>
         </ul>
