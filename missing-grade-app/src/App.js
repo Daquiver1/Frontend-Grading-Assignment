@@ -9,6 +9,7 @@ import Dashboard from './components/Pages/DashboardPage';
 import InstructorContactPage from './components/Pages/InstructorContactPage';
 import GradeReportPage from './components/Pages/GradeReportPage';
 import MissingGrade from './components/Pages/MissingGrade';
+import HelpAndSupportPage from './components/Pages/Help&SupportPage';
 
 function App() {
   const styles = {
@@ -31,6 +32,7 @@ function App() {
           <Route path="/grade-report" element={<GradeReportPage />} />
             <Route path="/missing-grade" element={<MissingGrade />} />
           <Route path="/instructor-contact" element={<InstructorContactPage />} />
+          <Route path="/help-support" element={<HelpAndSupportPage/>} />
         </Routes>
         <Footer /> 
       </main>          
