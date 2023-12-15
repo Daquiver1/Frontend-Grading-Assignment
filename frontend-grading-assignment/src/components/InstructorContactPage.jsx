@@ -1,28 +1,32 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import '../App.css'
+import '../styles/Dashboard.css'
 
 function InstructorContactPage() {
- const handleEmail = () => {
-    // Handle email sending logic here (mock-up, no real email)
-    console.log('Simulated email sent to the instructor.');
- };
+ 
 
  return (
-    <div className="container">
-      <h2 className="contact-title">Instructor Contact</h2>
+    <div className="inst_container">
+      <h1 className="contact-title">Get in touch </h1>
       <ul className="instructor-list">
         <li>
-          <p className="instructor-name">Instructor 1</p>
-          <p className="instructor-email">instructor1@email.com</p>
-          <button onClick={handleEmail} className="contact-button">Contact</button>
+          <h2 className="instructor-name">Dr. Nyamekye Gyedu</h2>
+          <h4 className="instructor-email">gyedunyam@email.com</h4>
+          <h4 className="contact-button">Phone:0543377892 </h4>
         </li>
         <li>
-          <p className="instructor-name">Instructor 2</p>
-          <p className="instructor-email">instructor2@email.com</p>
-          <button onClick={handleEmail} className="contact-button">Contact</button>
+          <h2 className="instructor-name">Charles Brentford</h2>
+          <h4 className="instructor-email">brentcharles@email.com</h4>
+          <h4 className="contact-button">Phone:0234455672 </h4>
         </li>
-        {/* Add more instructors here */}
+        
       </ul>
-      {/* Navigation links to other pages (Dashboard, Grade Report, Missing Grade Form) */}
+    <nav>
+      <li><Link to="/grade-report">Grade Report</Link></li>
+          <li><Link to="/missing-grade-form">Report Missing Grade</Link></li>
+          <li><Link to="/instructor-contact-page">Instructor Contact</Link></li>
+          </nav>
     </div>
  );
 }

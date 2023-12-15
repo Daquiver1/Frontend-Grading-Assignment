@@ -72,7 +72,7 @@ function DashboardPage() {
         <ul>
           <li><Link to="/grade-report">Grade Report</Link></li>
           <li><Link to="/missing-grade-form">Report Missing Grade</Link></li>
-          <li><Link to="/instructor-contact">Instructor Contact</Link></li>
+          <li><Link to="/instructor-contact-page">Instructor Contact</Link></li>
         </ul>
       </nav>
     </div>
