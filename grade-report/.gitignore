@@ -8,7 +8,7 @@
 # testing
 /coverage
 
-# production
+# productiongrade-report/node_modules
 /build
 
 # misc

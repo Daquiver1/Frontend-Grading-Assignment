@@ -50,8 +50,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 90vh;
-    background: green;
-    /* add a background url and delete the seagreen */
+    background: #453e3e;
 }
 
 .login-container {
@@ -122,7 +121,7 @@ body {
 
 /* missing grade form */
 .missing-grade-body {
-    background: slateblue;
+    background: #ddd;
     min-height: 90vh;
     display: flex;
     align-items: center;
@@ -163,7 +162,7 @@ body {
 
 /* contact instructor page */
 .contact-instructor-body {
-    background: slateblue;
+    background: #ddd;
     min-height: 90vh;
     display: flex;
     align-items: center;
@@ -288,4 +287,23 @@ th, td {
 th {
     background-color: #f2f2f2;
 }
+
+/* grades page */
+.grades-container {
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.filter-container {
+    margin-bottom: 20px;
+}
+
+.filter-label {
+    margin-right: 10px;
+}
+
+.filter-select {
+    padding: 8px;
+}
+
 

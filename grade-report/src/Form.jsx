@@ -1,7 +1,10 @@
 import Nav from './Nav';
-import Footer from './Footer';
 
 const Form = () => {
+    const handleClick = () => {
+        console.log("Submitted");
+    }
+
     return (
         <>
         <Nav />
@@ -14,12 +17,11 @@ const Form = () => {
                         <input type="text" placeholder="Name of Instructor" />
                         <input type="text" placeholder="Expected Grade" />
                         <textarea name="message" id="" cols="30" rows="10" placeholder="Enter explanation..."/>
-                        <button type="submit">Submit</button>  
+                        <button type="submit" onClick={handleClick}>Submit</button>  
                     </div>
                 </form>
             </div>
         </main>
-        <Footer />
         </>
     
     )
