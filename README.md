@@ -96,6 +96,8 @@ Clone this repository to your desired folder
   ## Install
   Install this project with:
   ```
+    run a new terminal
+    git clone https://github.com/0verdoz/11012578-DCIT205.git
     cd 11012578-DCIT205
     npm install
 
