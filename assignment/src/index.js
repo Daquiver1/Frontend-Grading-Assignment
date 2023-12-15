@@ -6,9 +6,9 @@ import { reportWebVitals } from './reportWebVitals';
 import { BrowserRouter, Route, Routes  } from 'react-router-dom'
 import Login from './Pages/Login';
 import LandingPage from './Pages/Landing page';
+import Footer from './Components/Footer';
 import HelpSupportPage from './Pages/HelpSupportPage';
 import DashboardPage from './Pages/Dashboard';
-import Footer from './Components/Footer';
 import GradeReportPage from './Pages/GradeReport';
 import MissingGradeFormPage from './Pages/MissingGradeReport';
 import InstructorContactPage from './Pages/InstructorContactPage';

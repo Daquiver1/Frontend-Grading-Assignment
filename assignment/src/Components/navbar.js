@@ -18,7 +18,7 @@ function Navbar(){
                 <Link to="/">Home</Link>
                 <Link to="/login">Login</Link>
                 <Link to ="/Dashboard">Dashboard</Link>
-                <Link to= "/Instructor"> Instructor </Link>
+                <Link to= "/InstructorContactPage"> Instructor </Link>
                 <Link to ="/HelpSupportPage">Contact</Link>
                 <button className="nav-btn nav close-btn" onClick={showNavbar}>
                         <FaTimes />

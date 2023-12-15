@@ -1,4 +1,3 @@
-// src/components/HelpSupportPage.jsx
 import React, { useState } from 'react';
 import Navbar from '../Components/Navbar';
 
@@ -7,19 +6,16 @@ const HelpSupportPage = () => {
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
 
-  // Function to handle form submission
+  
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    // Perform any desired actions with the form data
-    // For now, we'll just log the form data to the console
+
     console.log({
       name,
       email,
       message,
     });
-
-    // Reset form fields
     setName('');
     setEmail('');
     setMessage('');
@@ -32,21 +28,21 @@ const HelpSupportPage = () => {
       <div className="container mx-auto p-8">
         <h1 className="text-4xl font-bold mb-4">Help and Support</h1>
 
-        {/* FAQ Section */}
+        
         <div className="mb-8">
           <h2 className="text-2xl font-bold mb-2">Frequently Asked Questions</h2>
-          {/* Your FAQ content goes here */}
+         
           <p>Q: How can I report a missing grade?</p>
           <p>A: You can report a missing grade using the Missing Grade Form on the respective page.</p>
-          {/* Add more FAQ items as needed */}
+          
         </div>
 
-        {/* Contact Form */}
+        
         <div>
           <h2 className="text-2xl font-bold mb-2">Contact Technical Support</h2>
-          {/* Contact form */}
+          
           <form onSubmit={handleSubmit} className="max-w-md">
-            {/* Name */}
+            
             <div className="mb-4">
               <label htmlFor="name" className="block text-sm font-medium text-gray-600">
                 Your Name
@@ -61,7 +57,7 @@ const HelpSupportPage = () => {
               />
             </div>
 
-            {/* Email */}
+           
             <div className="mb-4">
               <label htmlFor="email" className="block text-sm font-medium text-gray-600">
                 Your Email
@@ -90,14 +86,12 @@ const HelpSupportPage = () => {
               />
             </div>
 
-            {/* Submit Button */}
             <button type="submit" className="bg-blue-500 text-white p-2 rounded-md">
               Submit
             </button>
           </form>
         </div>
       </div>
-      {/* Footer Component */}
     </div>
     </>
   );

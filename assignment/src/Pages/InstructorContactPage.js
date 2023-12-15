@@ -2,7 +2,6 @@
 
 import React, { useState } from 'react';
 import Navbar from '../Components/Navbar';
-import Footer from '../Components/Footer';
 
 const InstructorContactPage = () => {
   const [selectedInstructor, setSelectedInstructor] = useState(null);
@@ -32,7 +31,7 @@ const InstructorContactPage = () => {
       <div className="container mx-auto p-4">
         <section className="mb-8 text-center">
           <h1 className="text-4xl font-bold mb-4 text-purple-600">Instructor Contact</h1>
-          <p className="text-lg text-gray-600">Contact your instructors and send them a simulated email.</p>
+          <p className="text-lg text-gray-600">Contact your instructors and send them an email.</p>
         </section>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
@@ -54,7 +53,7 @@ const InstructorContactPage = () => {
 
         {selectedInstructor && (
           <div className="mt-8">
-            <h2 className="text-2xl font-bold mb-4 text-purple-600">Send Simulated Email</h2>
+            <h2 className="text-2xl font-bold mb-4 text-purple-600">Send Email</h2>
             <textarea
               value={emailContent}
               onChange={handleEmailChange}
@@ -75,7 +74,6 @@ const InstructorContactPage = () => {
           <div className="mt-8 p-4 bg-green-100 text-green-700 rounded-md">{confirmationMessage}</div>
         )}
       </div>
-      <Footer />
     </div>
   );
 };

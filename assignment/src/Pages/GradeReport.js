@@ -2,7 +2,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import Navbar from '../Components/Navbar';
-import Footer from '../Components/Footer';
 
 const GradeReportPage = () => {
   const [filter, setFilter] = useState('All'); // Default filter value is 'All'
@@ -38,10 +37,10 @@ const GradeReportPage = () => {
             className="p-2 border border-gray-300 rounded-md focus:outline-none focus:border-blue-500"
           >
             <option value="All">All</option>
-            <option value="Fall 2023">Fall 2023</option>
-            <option value="Spring 2024">Spring 2024</option>
-            <option value="Summer 2024">Summer 2024</option>
-            {/* Add more options as needed */}
+            <option value="Fall 2023">1st Semester 2023</option>
+            <option value="Spring 2024">2nd Semester 2023</option>
+            <option value="Summer 2024">1st Semester 2024</option>
+            <option value="Winter 2024">2nd Semester 2024</option>
           </select>
         </div>
 
@@ -67,15 +66,14 @@ const GradeReportPage = () => {
             </tbody>
           </table>
           <section>
-            <p className='text-align:center'>Can't find your grades? click here</p>
+            <p className='text-2xl font-bold mb-4 text-teal-700'>Can't find your grades? click here</p>
           <Link to="/MissingGradeReport">
-          <button className="bg-indigo-500 text-white px-6 py-3 rounded-md hover:bg-indigo-700">Get Started</button>
+          <button className="bg-indigo-500  py-3 rounded-md hover:bg-indigo-700 md:flex md:justify-between md:items-center sm:px-12 px-7">Missing Grades</button>
         </Link>
         </section>
         </section>
       </div>
       
-      <Footer />
     </div>
     
   );

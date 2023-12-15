@@ -1,7 +1,6 @@
 // src/pages/MissingGradeFormPage.js
 import React, { useState } from 'react';
 import Navbar from '../Components/Navbar';
-import Footer from '../Components/Footer';
 
 const MissingGradeFormPage = () => {
   const [formData, setFormData] = useState({
@@ -20,8 +19,6 @@ const MissingGradeFormPage = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Simulate form submission logic (you can replace this with your actual API call)
-    // For demonstration purposes, we'll just set a confirmation message
     setConfirmationMessage('Grade report submitted successfully!');
   };
 
@@ -30,7 +27,7 @@ const MissingGradeFormPage = () => {
       <Navbar />
       <div className="container mx-auto p-4">
         <section className="mb-8 text-center">
-          <h1 className="text-4xl font-bold mb-4 text-red-600">Report Missing Grade</h1>
+          <h1 className="text-4xl font-bold mb-4 text-teal-600">Report Missing Grade</h1>
           <p className="text-lg text-gray-600">Please fill in the details below to report a missing grade.</p>
         </section>
 
@@ -93,7 +90,6 @@ const MissingGradeFormPage = () => {
           </div>
         )}
       </div>
-      <Footer />
     </div>
   );
 };
