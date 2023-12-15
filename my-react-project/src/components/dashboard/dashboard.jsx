@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 
 
 function Dashboard() {
-  <div></div>
+  
   const [grades, setGrades] = useState([
     { subject: 'CBAS 210', grade: 'A' },
     { subject: 'DCIT 201', grade: 'B+' },
