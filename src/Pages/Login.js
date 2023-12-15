@@ -28,11 +28,11 @@ function Login(){
                         <img className="h-[70px] mt-[20px]"src="/Media_Files/unilogo.png"/>
                         <div className="mt-[15px] ml-[-40px]">
                             <label className="ml-[5px] text-[15pt]" for="student-id">ID:</label>   
-                            <input className="border-[2px] ml-[5px] w-[260px] rounded-[12px] p-1" type="text" name="student-id" />
+                            <input placeholder="Enter your Student Id..." className="border-[2px] ml-[5px] w-[260px] rounded-[12px] p-1" type="text" name="student-id" />
                         </div>
                         <div className="mt-[5px] ml-[-40px]">
                             <label className="text-[15pt] w-[200px]" for="pin">PIN:</label>
-                            <input className="border-[2px] ml-[0px] rounded-[12px] w-[260px] p-1" type="password" name="pin" />
+                            <input placeholder="Enter your pin... "className="border-[2px] ml-[0px] rounded-[12px] w-[260px] p-1" type="password" name="pin" />
                         </div>
                         <div className="flex mt-3">
                         <Link to="/Landingpage">
