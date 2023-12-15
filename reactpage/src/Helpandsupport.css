@@ -1,8 +1,8 @@
 body {
     font-family: Arial, sans-serif;
-   }
-   
-   .help-and-support {
+}
+
+.help-and-support {
     width: 100%;
     max-width: 800px;
     margin: 0 auto;
@@ -10,50 +10,63 @@ body {
     background-color: #f9f9f9;
     border: 1px solid #ddd;
     border-radius: 5px;
-   }
-   
-   h2 {
+}
+
+h2 {
     font-size: 24px;
     margin-bottom: 20px;
-   }
-   
-   h3 {
+}
+
+h3 {
     font-size: 20px;
     margin-bottom: 10px;
-   }
-   
-   ul {
+}
+
+ul {
     list-style-type: none;
     padding: 0;
-   }
-   
-   li {
+}
+
+li {
     margin-bottom: 10px;
-   }
-   
-   form {
+}
+
+/* Different styling for questions */
+.QA li {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #007bff; /* Change the color of questions */
+}
+
+/* Different styling for answers */
+.QA p {
+    margin-bottom: 15px;
+    color: #495057; /* Change the color of answers */
+}
+
+form {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     margin-top: 20px;
-   }
-   
-   label {
+}
+
+label {
     margin-bottom: 5px;
-   }
-   
-   input[type="text"],
-   select,
-   textarea {
+}
+
+input[type="text"],
+select,
+textarea {
     width: 100%;
     padding: 10px;
     box-sizing: border-box;
     border: 1px solid #ddd;
     border-radius: 4px;
     margin-bottom: 10px;
-   }
-   
-   button[type="submit"] {
+}
+
+button[type="submit"] {
     padding: 10px 20px;
     background-color: #007bff;
     color: white;
@@ -61,22 +74,18 @@ body {
     border-radius: 4px;
     cursor: pointer;
     transition: background-color 0.3s ease;
-   }
-   
-   button[type="submit"]:hover {
+}
+
+button[type="submit"]:hover {
     background-color: #0056b3;
-   }
-   
-   .confirmation-message {
+}
+
+.confirmation-message {
     color: green;
     font-weight: bold;
-   }
+}
 
-   .help-and-support {
-    margin-left: 70px;
-   }
-
-   .QA {
-    color: black;
-    text-align: left;
-   }
+/* Adjusted margin-left for better alignment */
+.help-and-support {
+    margin-left: 20px;
+}

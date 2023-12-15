@@ -1,68 +1,74 @@
-/* Instructorcontact.css */
-
-.all {
-    max-width: 600px;
-    margin: auto;
+/* General Styles */
+.instructor-contact {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+  }
+  
+  .instructor-list,
+  .contact-form {
+    flex: 1;
     padding: 20px;
-    background-color: #f5f5f5;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin-left: 200px;
   }
   
-  h2 {
-    color: #001f3f;
+  .instructor-list h2,
+  .contact-form h2 {
+    color: #333;
+    text-align: center;
   }
   
-  ul {
-    list-style: none;
+  /* Instructor List Styles */
+  .instructor-list ul {
+    list-style-type: none;
     padding: 0;
   }
   
-  li {
-    margin-bottom: 10px;
+  .instructor-list li {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   }
   
-  label {
-    display: block;
-    margin-bottom: 5px;
+  /* Contact Form Styles */
+  .sent {
+    color: green;
+    text-align: center;
+  }
+  
+  .contact-form form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .contact-form label {
+    margin-bottom: 10px;
     font-weight: bold;
   }
   
-  select,
-  input,
-  textarea {
+  .contact-form select,
+  .contact-form input,
+  .contact-form textarea {
     width: 100%;
-    padding: 8px;
+    padding: 10px;
     margin-bottom: 15px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    box-sizing: border-box;
   }
   
-  button {
-    background-color: #007bff;
+  .contact-form button {
+    background-color: #4caf50;
     color: #fff;
-    padding: 10px 20px;
+    padding: 10px 15px;
     border: none;
-    border-radius: 5px;
+    border-radius: 3px;
     cursor: pointer;
-    transition: background-color 0.3s ease;
   }
   
-  button:hover {
-    background-color: #0056b3;
+  .contact-form button:hover {
+    background-color: #45a049;
   }
   
-  p {
-    text-align: center;
-    color: white;
-  }
-  
-  .instructor-contact {
-    margin-left: 280px;
-    text-align: justify;
-  }
-  
-  .sent {
-    color: green;
-  }
