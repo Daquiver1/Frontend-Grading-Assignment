@@ -49,3 +49,24 @@ To contribute to this project, please follow these guidelines:
 4. Submit a pull request for review.
 
 Please adhere to the project's coding standards and provide clear and detailed pull request descriptions.
+
+
+![Capture1](https://github.com/LouisaEco/Frontend-Grading-Assignment/assets/147488916/697ba703-58ad-4456-b86f-ede853dc8d7a)
+
+
+
+![Capture2](https://github.com/LouisaEco/Frontend-Grading-Assignment/assets/147488916/0e2fadb2-0679-4f75-b19e-0e19a7b5a6df)
+
+
+![Capture3](https://github.com/LouisaEco/Frontend-Grading-Assignment/assets/147488916/73c998ad-6ad5-44ee-a167-3cee8ff15873)
+
+
+
+
+
+
+
+
+
+
+
