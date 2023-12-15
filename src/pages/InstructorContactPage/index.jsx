@@ -3,8 +3,8 @@ import React, { useState } from 'react';
 import DashboardLayout from '../../components/shared/DashboardLayout';
 
 const instructors = [
-  { id: 1, name: 'John Doe', email: 'john.doe@example.com' },
-  { id: 2, name: 'Jane Smith', email: 'jane.smith@example.com' },
+  { id: 1, name: 'Mark Atta', email: 'mark.atta@gmail.com' },
+  { id: 2, name: 'Mr Solly', email: 'solly.smith@gmail.com' },
   // Add more instructors as needed
 ];
 
@@ -17,7 +17,6 @@ const InstructorContactPage = () => {
 
   const handleSendEmail = () => {
     if (selectedInstructor) {
-      // Simulate sending email (replace with your desired logic)
       alert(`Email sent to ${selectedInstructor.name} (${selectedInstructor.email})`);
     }
   };
@@ -26,6 +25,7 @@ const InstructorContactPage = () => {
     <DashboardLayout title={"/Instructor Contact"}>
     <div className="container mx-auto mt-8">
       <h1 className="text-2xl font-bold mb-4">Instructor Contact Page</h1>
+      <p>click lecturer's name to send email</p>
       <div className="grid grid-cols-3 gap-4">
         <div className="col-span-2">
           <ul>
