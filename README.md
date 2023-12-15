@@ -1,3 +1,10 @@
+Student ID - 11283519
+Michael Adadey
+
+Use student ID - 11283519
+password - bigbang
+to login to website
+
 # Student Grade Reporting System Frontend
 
 ## Project Overview

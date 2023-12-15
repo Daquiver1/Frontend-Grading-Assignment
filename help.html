@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Help</title>
+    <link rel="stylesheet" href="css/help.css">
+
+    <header>
+        <div class="navbar">
+            <div class="logo"><a href="home.html"><img src="resources/UoG_CoA_2017.svg.png" height=30px ></a></div>
+            <ul class="links">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="dashboard.html">Dashboard</a></li>
+                <li><a href="grades.html">Grades</a></li>
+                <li><a href="contact.html">Instructor contact</a></li>
+                <li><a href="missinggrade.html">Missing grade</a></li>
+                <li><a href="help.html">Help</a></li>
+            </ul>
+            <a href="login.html" class="action_btn">Log out</a>
+            <div class="toggle_tbn">
+                <i class="fa-solid fa-bars"></i>
+            </div> 
+        </div>
+        <div class="dropdown_menu ">
+            <li><a href="home.html">Home</a></li>
+                <li><a href="dashboard.html">Dashboard</a></li>
+                <li><a href="grade.html">Grade</a></li>
+                <li><a href="contact.html">Instructor contact</a></li>
+                <li><a href="missinggreade.html">Missing grade</a></li>
+                <li><a href="help.html">Help</a></li>
+                <a href="login.html" class="action_btn">Log out</a>
+        </div>
+
+        <script>
+            const toggleBtn = document.querySelector('.toggle_btn')
+            const toggleBtnIcon = document.querySelector('.toggle_btn i')
+            const dropDownMenu = document.querySelector('.dropdown_menu')
+    
+            toggleBtn.onclick = function () {
+                dropDownMenu.classList.toggle('open')
+                const isOpen = dropDownMenu.classList.contains('open')
+    
+                toggleBtnIcon.classList = isOpen
+                    ? 'fa-solid fa-xmark'
+                    : 'fa-solid fa-bars'
+            }
+        </script>
+    </header>
+</head>
+<body>
+    <div class="content-area">
+        <h1>Help Page</h1>
+        <h3>FAQ</h3>
+        <ul>
+            <li>
+                Have grades been released?
+            </li>
+            <li>
+                When will results be released?
+            </li>
+            <li>
+                How can i get a remark of my paper?
+            </li>
+            <li>
+                How do i contact a lecturer?
+            </li>
+            <li>
+                why is my grade not showing?
+            </li>
+            <li>
+                How can i get a resit?
+            </li>
+        </ul>
+    </div>
+
+    <div class="lower-info">
+        <p>If you have these or any such complain and would like to contact a lecturer click <a href=contact.html><i>here</i></a></p>
+    </div>
+    
+</body>
+
+<footer class="footsy">
+    <div class="row">
+        <div class="col-3 mobileStack" >
+            <ul><li>
+            Built and designed by the UG Computer science department
+        </li></ul>
+        <ul><li>
+            <img src="resources/comScience_logo.png" height="30px">
+        </li></ul>
+        </div>
+
+</footer>
+</html>
