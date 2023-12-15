@@ -109,7 +109,7 @@ const LandingMainSection = () => {
 
 
                                             <div class="text-center link-horizontal">
-                                                <a class=" btn btn-default back-white text-uppercase border-not" href="/login">Login
+                                                <a class="btn-login back-white text-uppercase border-not" href="/login">Login
                                                     Here</a>
                                             </div>
                                         </div>

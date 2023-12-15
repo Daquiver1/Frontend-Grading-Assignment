@@ -1,5 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import { Fragment } from "react";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCaretDown } from '@fortawesome/free-solid-svg-icons';
 import logo from '../../assets/images/logo/main-logo-1.png';
 
 
@@ -29,20 +31,20 @@ const LandingHeader = ({showLogin}) => {
                                         <li>
                                             <a href="/">home</a>
                                         </li>
-                                        <li>
-                                            <a class="dropdown" href="/help-and-support">Help and Support</a>
-                                            <ul>
-                                                <li><a href="faq.html">FAQ</a></li>
-                                                <li><a href="collection.html">Contact</a></li>
+                                        <li id="dropdown-li"> 
+                                            <a class="dropdown" href="/help-and-support">
+                                                Help and Support &nbsp;
+                                                <FontAwesomeIcon icon={faCaretDown} />
+                                                </a>
+                                            <ul id="dropdown-ul">
+                                                <li><a href="/help-and-support#faq">FAQ</a></li>
+                                                <li><a href="/help-and-support#contact">Contact</a></li>
                                             </ul>
                                         </li>
-                                        <li></li>
-                                        <li></li>
-                                        <li></li>
                                         {showLogin && 
                                             <li className="mega-menu">
                                                 <div className="text-center link-horizontal">
-                                                    <a className=" btn btn-default back-white text-uppercase border-not"
+                                                    <a className="btn-login back-white text-uppercase border-not"
                                                         href="/login">Login</a>
                                                 </div>
                                             </li>

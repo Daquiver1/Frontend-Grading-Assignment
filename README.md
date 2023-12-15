@@ -9,10 +9,10 @@ This project is a front-end web application for a Student Grade Reporting System
 The application consists of 7 main pages:
 
 - **Homepage:** Introduction to the system and its purpose.
-![Screenshot](public/screenshots/)
+![Screenshot](public/screenshots/landing.png)
 
 - **Login Page:** Mock login interface for student authentication.
-![Screenshot](public/screenshots/)
+![Screenshot](public/screenshots/login.png)
 
 - **Dashboard:** Displays an overview of the student’s current grades and alerts for missing grades.
 ![Screenshot](public/screenshots/admin-dashboard-page.png)
@@ -27,7 +27,7 @@ The application consists of 7 main pages:
 ![Screenshot](public/screenshots/admin-instructor-contacts.png)
 
 - **Help and Support:** Provides FAQs and a mock support contact form.
-![Screenshot](public/screenshots/)
+![Screenshot](public/screenshots/help-and-support.png)
 
 
 ## Technical Details

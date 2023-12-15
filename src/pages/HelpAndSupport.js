@@ -17,24 +17,9 @@ const HelpAndSupport = () => {
     return (
         <Fragment>
             
-            <div className="loader-wrapper">
-                <div className="loader">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                </div>
-            </div>
-
            <LandingHeader showLogin={true}/>
 
-
-           <section class="event header" id="home">
+           <section class="event header" id="faq">
                 <div class="header3 bg">
                     <div class="event-content">
                         <div class="container">
@@ -42,7 +27,12 @@ const HelpAndSupport = () => {
                                 <div class="col-xl-8 offset-xl-2 col-md-10 offset-md-1">
                                     <div class="center-text">
                                         <div class="text-center w-100">
-                                            
+                                            <br></br><br></br><br></br>
+                                            <div class="h1-margin">
+                                                <h1>Missing Grade Report System
+                                                </h1>
+                                            </div>
+
                                             <div class="wedding-time">
                                                 <div class="row  col-sm-8 offset-sm-2">
 
@@ -116,7 +106,7 @@ const HelpAndSupport = () => {
             </section>
 
             {/* <!-- header Start--> */}
-            <section class="event header" id="home">
+            <section class="event header" id="contact">
                 <div class="header3 bg">
                     <div class="event-content">
                         <div class="container">
@@ -124,10 +114,6 @@ const HelpAndSupport = () => {
                                 <div class="col-xl-8 offset-xl-2 col-md-10 offset-md-1">
                                     <div class="center-text">
                                         <div class="text-center w-100">
-                                            <div class="h1-margin">
-                                                <h1>Missing Grade Report System
-                                                </h1>
-                                            </div>
                                             <div class="wedding-time">
                                                 <div class="row col-sm-8 offset-sm-2">
 

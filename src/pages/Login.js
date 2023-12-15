@@ -21,22 +21,7 @@ const Login = () => {
     return (
         <Fragment>
             
-            <div className="loader-wrapper">
-                <div className="loader">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                </div>
-            </div>
-
            <LandingHeader/>
-
 
             {/* <!-- header Start--> */}
             <section class="event header" id="home">
@@ -67,7 +52,7 @@ const Login = () => {
                                                                 <div class="form-group">
                                                                     <label for="studentId">Student ID</label>
                                                                     <input 
-                                                                        type="number" 
+                                                                        type="text" 
                                                                         class="form-control" 
                                                                         name="studentId" 
                                                                         aria-describedby="emailHelp" 
@@ -95,7 +80,7 @@ const Login = () => {
                                                             
                                                             <br></br>
                                                             <FormGroup>
-                                                                <Button size="lg" className="btn-block col-lg-6 login-rounded" type="submit" color="primary">
+                                                                <Button size="lg" className="col-lg-6" type="submit" color="primary">
                                                                     Sign In
                                                                 </Button>
                                                             </FormGroup>

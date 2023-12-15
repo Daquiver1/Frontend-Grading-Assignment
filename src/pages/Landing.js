@@ -7,21 +7,7 @@ const Landing = () => {
     
     return (
         <Fragment>
-            
-            <div className="loader-wrapper">
-                <div className="loader">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                </div>
-            </div>
-
+          
             <LandingHeader showLogin={true}/>
 
             <LandingMainSection/>

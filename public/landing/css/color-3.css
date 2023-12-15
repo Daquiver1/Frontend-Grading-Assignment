@@ -12,6 +12,15 @@
     border-radius: 30px;
 }
 
+
+#dropdown-ul {
+    display: none;
+  }
+  
+#dropdown-li:hover #dropdown-ul {
+    display: block;
+}
+
 body {
     font-family: 'Poppins', sans-serif;
     position: relative;
@@ -858,6 +867,19 @@ section {
 }
 
 .btn-default {
+    padding: 14px 35px;
+    font-size: calc(13px + (16 - 13) * ((100vw - 300px) / (1920 - 300)));
+    font-weight: 500;
+    border: 2px solid;
+    text-transform: capitalize;
+    border-radius: 50px;
+    color: #fff !important;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    letter-spacing: 0
+}
+
+.btn-login {
     padding: 14px 35px;
     font-size: calc(13px + (16 - 13) * ((100vw - 300px) / (1920 - 300)));
     font-weight: 500;
@@ -15502,11 +15524,11 @@ header nav ul .dropdown:before {
     top: 50%;
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
-    content: "\f105"
+    /* content: "\f105" */
 }
 
 header nav ul .dropdown:before {
-    content: "\f0d7"
+    /* content: "\f0d7" */
 }
 
 header nav ul ul {
@@ -15598,78 +15620,11 @@ header nav .menu-arrow {
     font-size: 10px
 }
 
-header.music {
-    position: absolute
-}
-
-header.resume nav ul li a:hover {
-    color: #262626
-}
-
-header.wedding .logo-abs {
-    position: absolute;
-    top: 0;
-    left: 50%;
-    -webkit-transform: translateX(-50%);
-    transform: translateX(-50%)
-}
-
-header.wedding.header-rel {
-    background-color: rgba(255, 255, 255, 0.75);
-    border-bottom: 1px dashed #e3154f
-}
-
-header.yoga .logo-abs {
-    position: absolute;
-    top: 22%;
-    left: 50%;
-    -webkit-transform: translateX(-50%);
-    transform: translateX(-50%)
-}
-
-header.portfolio-metro nav .responsive-btn a:hover {
-    color: #000;
-    opacity: 0.7
-}
-
-header.portfolio-metro nav ul li>a {
-    color: #000
-}
-
-header.portfolio-metro nav ul li>a:hover {
-    color: #000
-}
-
-header.wedding nav ul li>a:hover {
-    color: #e3154f
-}
-
-header.dark {
-    position: absolute
-}
-
-header.dark nav .responsive-btn a:hover {
-    color: #000;
-    opacity: 0.7
-}
-
-header.dark nav ul li>a {
-    color: #000
-}
-
-header.dark nav ul li>a:hover {
-    color: #000
-}
-
 footer.app2 h5 {
     color: #fff;
     padding-bottom: 55px
 }
 
-footer.gym h5 {
-    color: #fff;
-    padding-bottom: 55px
-}
 
 footer.saas1 h5 {
     color: #fff;
@@ -17826,15 +17781,6 @@ footer.saas1 h5 {
     margin-left: 5px
 }
 
-.rtl .portfolio-creative .head-text:before {
-    right: 50%;
-    left: unset
-}
-
-.rtl .portfolio-creative.creative3 .portfolio-text .head-text:before {
-    right: 0;
-    left: unset
-}
 
 .rtl .typography_section .typography-box .typo-content.input_button label {
     padding-right: 5px
@@ -19973,9 +19919,6 @@ body.dark .product-pagination .product-search-count-bottom h5 {
     color: #dee2e6
 }
 
-body.dark .portfolio-section .portfolio-text .head-sub-text {
-    color: #cfd4da
-}
 
 body.dark .team-sec.team-grid .employee {
     background: #1c2440;
@@ -20013,17 +19956,6 @@ body.dark .schedule .cal-time.events .timing .event-time.active {
     color: #cfd4da
 }
 
-body.dark .portfolio-detail h5 {
-    color: #dee2e6
-}
-
-body.dark .portfolio-detail .detail-head {
-    color: #cfd4da
-}
-
-body.dark .portfolio-detail .detail-container {
-    border-bottom: 1px solid rgba(255, 255, 255, 0.08)
-}
 
 body.dark .form-control {
     border: 1px solid rgba(255, 255, 255, 0.08);
@@ -20675,31 +20607,7 @@ body.dark .icon-collection .about-icon a img {
         height: unset
     }
 
-    .gym .portfolio-creative .head-sub-text,
-    .yoga .portfolio-creative .head-sub-text {
-        padding: 0 50px;
-        letter-spacing: 0
-    }
-
-    .gym .trainers-slider.owl-carousel .owl-stage-outer,
-    .yoga .trainers-slider.owl-carousel .owl-stage-outer {
-        min-height: 375px !important
-    }
-
-    .yoga.testimonial .testimonial-info {
-        margin-top: 30px
-    }
-
-    .yoga.event .event-container {
-        margin-bottom: 50px
-    }
-
-    .yoga.event .event-container .event-info .address,
-    .yoga.event .event-container .event-info .time {
-        margin-bottom: 5px;
-        line-height: 1.8
-    }
-
+   
     .section-404 .box_astronaut {
         top: 65%;
         right: 15%
