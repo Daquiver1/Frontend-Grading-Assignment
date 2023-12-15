@@ -25,8 +25,8 @@ The application consists of 7 main pages:
 ## Setup and Installation
 
 To set up the project locally, follow these steps:
-1. Make sure you have the lastest version on Node js installed. (Click on this website to  download it https://nodejs.org/en/download )
-2. Download the lastest npm in your terminal
+1. Make sure you have the latest version of Node js installed. (Click on this website to  download it https://nodejs.org/en/download )
+2. Download the latest npm in your terminal
 npm install -g npm
 3. Clone the website
 git clone https://github.com/Daquiver1/Frontend-Grading-Assignment.git
