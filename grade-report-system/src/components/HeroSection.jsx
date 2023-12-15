@@ -3,7 +3,7 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import image1 from '../assets/bg-image-4.jpg';
-import image2 from '../assets/bg-image-2.jpg';
+import image2 from '../assets/bg-image-5.jpg';
 import './herosection.css';
 
 const images = [image1, image2];
