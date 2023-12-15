@@ -1,16 +1,16 @@
 import { PhotoIcon, UserCircleIcon } from "@heroicons/react/24/solid";
 
-export default function MissingGrade() {
+export default function MissingGradeForm() {
   return (
     <div className="flex flex-col items-center  justify-center  h-screen">
-      <div className="w-1/2 flex justify-center items-center border border-stone-900 py-10 rounded-md shadow-2xl">
+      <div className="w-1/2 flex justify-center items-center border border-stone-900 bg-gray-100 p-10 rounded-md shadow-2xl">
         <form className="">
                 
           <div className="space-y-12 sm:space-y-16">
                     
             <div>
                         
-              <h2 className="text-base font-semibold leading-7 text-gray-900">
+              <h2 className="text-3xl font-semibold text-center leading-7 text-gray-900 mb-3">
                 Report Missing Grade
               </h2>
                         
@@ -118,7 +118,7 @@ export default function MissingGrade() {
                     htmlFor="street-address"
                     className="block text-sm font-medium leading-6 text-gray-900 sm:pt-1.5"
                   >
-                                    Street address               
+                                  Explanation         
                   </label>
                                 
                   <div className="mt-2 sm:col-span-2 sm:mt-0">

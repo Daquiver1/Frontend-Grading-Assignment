@@ -1,17 +1,19 @@
 import { useState, useEffect } from "react";
 import balme from "../assets/balme.jpg";
-import { useNavigate } from "react-router-dom";
+import { useLocation, useNavigate } from "react-router-dom";
 import { EyeSlash, Eye } from "iconsax-react";
 import "../styles/login.css";
 
 const Login = () => {
-  //   const navigate = useNavigate();
+  const navigate = useNavigate();
 
   const [showPassword, setShowPassword] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
 
-  const onSubmit = () => {
-    setTimeout(() => setIsLoading(true), 3000);
+  const onSubmit = (e) => {
+    e.preventDefault();
+    setIsLoading(true);
+    setTimeout(() => navigate("/dashboard"), 3000);
   };
 
   return (
@@ -31,7 +33,7 @@ const Login = () => {
           </div>
 
           <div className="mt-10 sm:mx-auto sm:w-full sm:max-w-sm">
-            <form className="space-y-6" onSubmit={onSubmit}>
+            <form className="space-y-6" onSubmit={(e) => onSubmit(e)}>
               <div>
                 <label
                   htmlFor="email"
