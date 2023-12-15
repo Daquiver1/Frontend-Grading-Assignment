@@ -1,0 +1,41 @@
+.help-and-support {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.help-and-support h3 {
+    margin-top: 0;
+}
+
+.help-and-support label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.help-and-support input,
+.help-and-support textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+.help-and-support button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.help-and-support button:hover {
+    background-color: #45a049;
+}
+
+.help-and-support p {
+    margin-top: 15px;
+}

@@ -1,0 +1,38 @@
+.instructor-contact {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.instructor-contact label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.instructor-contact select,
+.instructor-contact input,
+.instructor-contact textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+.instructor-contact button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.instructor-contact button:hover {
+    background-color: #45a049;
+}
+
+.instructor-contact p {
+    margin-top: 15px;
+}
