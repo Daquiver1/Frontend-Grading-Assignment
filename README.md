@@ -1,3 +1,7 @@
+##Kelly Bediako Buabeng
+## 11180171
+
+
 # Student Grade Reporting System Frontend
 
 ## Project Overview
@@ -18,22 +22,21 @@ The application consists of 7 main pages:
 
 ## Technical Details
 
-- **Framework/Technology Used:** [React]
-- **Responsive Design:** Implemented using [CSS Flexbox/Grid, Bootstrap, Tailwind CSS].
-- **JavaScript Functionality:** Used for form validations, dynamic content rendering, and simulating interactions.
+- **I used the REACT Framework
+- **I also used Javascript in making some functionalities
 
 ## Setup and Installation
 
 To set up the project locally, follow these steps:
 
 ```bash
-git clone https://github.com/your-github-username/DCIT_205_ASSIGNGMENT1.git
+git clone https://github.com/kelly-buabeng/1sreact.site.git
 cd repo-name
 npm install
 npm start
 ```
 
-This will start the application on `localhost` at the default port.
+This will start the application on `localhost` at the default port(3000).
 
 ## Usage
 
