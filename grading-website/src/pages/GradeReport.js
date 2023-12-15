@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Navbar from "../components/Navbar";
 import HeroSection from "../components/HeroSection";
 import LevelContainer from "../components/LevelContainer";
@@ -216,14 +216,33 @@ function GradeReport() {
       ],
     },
   ];
-
+  const [selectedLevel, setSelectedLevel] = useState(null);
+  const filteredLevels = selectedLevel
+    ? levels.filter((level) => level.level === selectedLevel)
+    : levels;
   const pageContent = (
     <>
       <div className="grade-report-header">
         <h1>Grade Report</h1>
       </div>
+      {/* Dropdown to select the level */}
+      <label className="dropdown-container">
+        <div class="level-filter">Filter By Level:</div>
+        <select
+          className="options"
+          value={selectedLevel || ""}
+          onChange={(e) => setSelectedLevel(e.target.value)}
+        >
+          <option value="">All Levels</option>
+          {filteredLevels.map((level) => (
+            <option key={level.level} value={level.level}>
+              {level.level}
+            </option>
+          ))}
+        </select>
+      </label>
       <div className="grade-report-container">
-        {levels.map((levelData, index) => (
+        {filteredLevels.map((levelData, index) => (
           <LevelContainer key={index} levelData={levelData} />
         ))}
       </div>
