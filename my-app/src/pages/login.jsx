@@ -13,21 +13,17 @@ const LoginPage = () => {
     if (id === '123456' && pin === '7890') {
       alert('Login successful!');
       setError('');
-      navigate('/dashboard'); // Redirect to the dashboard page after successful login
+      navigate('/dashboard');
     } else {
       setError('Invalid ID or PIN');
     }
 
-    // Clear input fields after login attempt
     setId('');
     setPin('');
   };
 
   const handleForgotPin = () => {
-    // Handle the action for the "Forgot PIN?" link
-    // For example, show a modal or navigate to a password reset page
-
-    // Placeholder code to show an alert
+   
     alert('Forgot PIN link clicked');
   };
 

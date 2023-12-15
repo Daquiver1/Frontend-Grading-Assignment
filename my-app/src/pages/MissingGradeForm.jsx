@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Navbar from './NavBar';
 
 const MissingGradeForm = () => {
   const [courseName, setCourseName] = useState('');
@@ -8,7 +9,7 @@ const MissingGradeForm = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    
+
     console.log({
       courseName,
       instructorName,
@@ -25,6 +26,7 @@ const MissingGradeForm = () => {
 
   return (
     <div>
+      <Navbar />
       <h1>Missing Grade Form</h1>
       <form onSubmit={handleSubmit}>
         <div>

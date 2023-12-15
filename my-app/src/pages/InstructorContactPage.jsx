@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import NavBar from './NavBar';
 
 const InstructorContactPage = () => {
   const [selectedInstructor, setSelectedInstructor] = useState(null);
@@ -30,6 +31,7 @@ const InstructorContactPage = () => {
 
   return (
     <div>
+      <NavBar />
       <h1>Instructor Contact Page</h1>
       <div>
         <h2>Instructors:</h2>

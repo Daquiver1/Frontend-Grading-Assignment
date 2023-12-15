@@ -1,6 +1,14 @@
-import React from 'react';
+import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 
-const SidebarNav = () => {
+const Navbar = () => {
+  const [dropdownOpen, setDropdownOpen] = useState(false);
+  const navigate = useNavigate();
+
+  const toggleDropdown = () => {
+    setDropdownOpen(!dropdownOpen);
+  };
+
   const pages = [
     { path: '/Dashboard', name: 'Dashboard' },
     { path: '/GradeReportPage', name: 'Grade Report' },
@@ -9,28 +17,52 @@ const SidebarNav = () => {
     { path: '/MissingGradeForm', name: 'Missing Grade Form' },
   ];
 
-  const handleNavigation = (path) => {
-    window.history.pushState(null, '', path);
-    window.dispatchEvent(new Event('popstate'));
+  const handlePageClick = (path) => {
+    navigate(path); // Use the navigate function to open the specified path
+    setDropdownOpen(false); // Close the dropdown if it's open
   };
 
   return (
-    <nav className="fixed top-0 left-0 w-1/6 h-screen overflow-y-auto bg-gray-800" style={{ boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)' }}>
-      <ul className="flex flex-col items-start py-8">
-        {pages.map((page) => (
-          <li key={page.path} className="py-4">
+    <nav className="flex items-center justify-between px-4 py-2 bg-gray-800">
+      <ul className="flex">
+        {pages.map((page, index) => (
+          <li key={page.path} className={index === 0 ? 'mr-auto' : 'ml-4'}>
             <button
               type="button"
-              className="px-3 py-2 text-gray-300 transition duration-300 rounded-md hover:text-white"
-              onClick={() => handleNavigation(page.path)}
+              className="text-gray-300 hover:text-white"
+              onClick={() => handlePageClick(page.path)}
             >
               {page.name}
             </button>
           </li>
         ))}
+        <li className="relative ml-4">
+          <button
+            type="button"
+            className="text-gray-300 hover:text-white"
+            onClick={toggleDropdown}
+          >
+            More
+          </button>
+          {dropdownOpen && (
+            <ul className="absolute left-0 py-4 mt-2 bg-gray-800">
+              {pages.map((page) => (
+                <li key={page.path}>
+                  <button
+                    type="button"
+                    onClick={() => handlePageClick(page.path)}
+                    className="block px-4 py-2 text-gray-300 hover:text-white"
+                  >
+                    {page.name}
+                  </button>
+                </li>
+              ))}
+            </ul>
+          )}
+        </li>
       </ul>
     </nav>
   );
 };
 
-export default SidebarNav;
+export default Navbar;

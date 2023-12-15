@@ -1,6 +1,6 @@
 import React from 'react';
 import NavBar from './NavBar';
-import Nav from './nav'
+
 
 const DashboardPage = () => {
   return (
@@ -14,7 +14,7 @@ const DashboardPage = () => {
         </nav>
       </header>
       <NavBar />
-      <Nav />
+
       <main className="container py-12 mx-auto">
         <h1 className="mb-4 text-4xl font-bold">Welcome to Your Dashboard!</h1>
         <div className="grid grid-cols-1 gap-6 md:grid-cols-2">

@@ -25,7 +25,7 @@ const GradeReportPage = () => {
 
   return (
     <div className="container px-4 py-8 mx-auto">
-        <NavBar />
+      <NavBar />
       <h1 className="mb-4 text-2xl font-bold">Grade Report Page</h1>
 
       <div className="mb-4">

@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import NavBar from './NavBar';
 
 const HelpSupportPage = () => {
   const [contactForm, setContactForm] = useState({
@@ -19,6 +20,7 @@ const HelpSupportPage = () => {
 
   return (
     <div className="container px-4 py-8 mx-auto">
+      <NavBar />
       <h1 className="mb-4 text-2xl font-bold">Help and Support Page</h1>
 
       <h2 className="mb-4 text-xl font-bold">Frequently Asked Questions (FAQ)</h2>
