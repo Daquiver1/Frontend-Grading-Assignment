@@ -18,11 +18,12 @@ function Footer() {
             </div>
             <div class="ibs2">
                 <p>Help and Support</p>
+                
             </div>
-        </div>
-        <p id="text00">
+            <p id="text00">
             University of Ghana @2023
-        </p>
+            </p>
+        </div>
        </div>
   )
 }

@@ -13,6 +13,7 @@ import GradeReport from './Pages/GradeReport';
 import HelpandSupport from './Pages/HelpandSupport';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import MissingGradeForm from './Pages/MissingGradeForm';
+import InstructorContact from './Pages/InstructorContact';
 
  
 
@@ -38,6 +39,9 @@ root.render(
         </Route>
         <Route path="/Dashboard">
         <Dashboard />
+        </Route>
+        <Route path="/Ins">
+        <InstructorContact />
         </Route>
       </Switch>
     </Router>

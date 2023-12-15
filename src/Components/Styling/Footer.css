@@ -1,19 +1,31 @@
+
+
+@media screen and (max-width:450px) {
+    
+
 .ibottomSection {
-    justify-content: center;
-    align-items: center;
-    top: 620px;
-    position: absolute;
-  background-color: #0000ff7e;
-  height: 200px;
-  width: 100vw;
-  display: flex;
-  flex-direction: column;
-  }
-  
-  .ibottomSectionmain {
-      gap: 170px;
-      padding: 20px;
-      width: 590px;
-      display: flex;
-      flex-direction: row;
-  }
+    background-color: #eee;
+
+}
+
+.ibottomSectionmain {
+    margin: 20px;
+    
+}
+
+}
+
+
+@media screen and (max-width:800px) {
+    
+
+    .ibottomSection {
+        background-color: #eee;
+    
+    }
+    
+    .ibottomSectionmain {
+        margin: 20px;
+    }
+    
+    }

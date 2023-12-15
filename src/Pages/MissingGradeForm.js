@@ -2,7 +2,7 @@ import React from 'react'
 import comScience_logo from "../Images/comScience_logo.png"
 import data from "../Data/Simulated";
 import BottomNavbar from '../Components/BottomNavbar';
-import "../Styling/Missing.css"
+import Footer from '../Components/footer';
 
 
 function MissingGradeForm() {
@@ -38,9 +38,12 @@ function MissingGradeForm() {
                  <button id='submit'>Submit</button>
           </form>
          </div>
-         <div>
-            <BottomNavbar />
-            </div>
+         <div id="navbar">
+          <BottomNavbar />
+        </div>
+        <div id="footer">
+         <Footer />
+        </div>
     <div className='bottom'>
        <text>University of Ghana @2023</text>
     </div>
