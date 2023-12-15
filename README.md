@@ -36,8 +36,25 @@ npm start
 This will start the application on `localhost` at the default port.
 
 ## Usage
+# Logging In:
+Open the Missing Grade Reporting System application in your web browser.
+You will be greeted with a landing page providing information about the system.
+Locate the "Login" link in the navigation or any login button on the landing page.
+Click on the "Login" link, which should take you to the login page.
+Enter your credentials, such as username and password, to log in to the system.
+After successful login, you will be redirected to your dashboard or another landing page.
 
-Describe how to use the application, highlighting key functionalities such as logging in, viewing grades, reporting missing grades, and contacting instructors.
+# Viewing Grades:
+On the dashboard or relevant page after logging in, look for an option to view your grades.
+Click on the "Grades" or similar link to access a page displaying your current grades.
+Explore the interface to view detailed information about each course, including grades for assignments, exams, etc.
+
+# Reporting Missing Grades:
+Navigate to the "Report Missing Grades" section, usually accessible from the dashboard or a dedicated menu item.
+Look for a form or button that allows you to report a missing grade.
+Fill in the necessary information, such as the course name, assignment details, and any additional comments.
+Submit the form to report the missing grade.
+The system may provide a confirmation message, and the reported missing grade will be recorded for further action.
 
 ## Contribution
 
