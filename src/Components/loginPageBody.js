@@ -4,7 +4,7 @@ export default function LoginPageBody() {
     return(
         <>
         <form>
-        <div class="container card text-bg-dark" id="signuppagebg">
+        <div class="container card text-bg-success" id="signuppagebg">
             <div className="container" id="signinborder"> 
                 <img src={UgLogo} className="d-grid gap-2 col-2 mx-auto" alt="uglogo" ></img>
             <   h1 className="text-center ">PLease Sign Into Your Account</h1>

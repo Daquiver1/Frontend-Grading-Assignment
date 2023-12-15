@@ -11,10 +11,12 @@ export default function GradeReport() {
         <Sidebar/>
     </div>
 
-    <div id="sidebarContentPositioning">
-        
-        <GradeReportPageBody/>
-        <Footer/>    
+    <div id="sidebarContentPositioning">      
+            <div class="container card text-bg-success" id="generalpgbg" >
+                <GradeReportPageBody/>
+                  
+            </div>
+            <Footer/> 
     </div>
 
 </div>

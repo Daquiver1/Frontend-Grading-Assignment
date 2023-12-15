@@ -8,7 +8,7 @@ export default function
     <>
     <div className='container' id="sidebarDiv">
         <div className='row'>
-            <div className='bg-dark col-auto col-md-2.5 min-vh-100 d-flex justify-content-between flex-column'>
+            <div className='bg-success col-auto col-md-2.5 min-vh-100 d-flex justify-content-between flex-column'>
                 <div>
                     <a className='text-decoration-none text-white d-none d-sm-inline d-flex align-itemcenter ms-3 mt-3'>
                         <span className='ms-1 fs-4 d-none d-sm-inline'><h2> Missing Grades </h2> </span>

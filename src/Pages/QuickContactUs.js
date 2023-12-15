@@ -1,12 +1,13 @@
 
 import Footer from "../Components/footer"
+import Header from "../Components/header"
 
 export default function QuickContactUs() {
     return(
         <>
 
-
-                    <div class="container card text-bg-dark" id="signuppagebg">
+                    <Header/>
+                    <div class="container card text-bg-success" id="QuickHelpAndSuppportbg">
                         <div className="container" id="signinborder">
                         <h2 id="dashboardH2" >Lecturers With Their Respective Contacts</h2>
                     <table class="table table-secondary " >

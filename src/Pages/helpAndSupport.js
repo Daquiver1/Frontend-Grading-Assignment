@@ -12,7 +12,7 @@ export default function HelpAndSupport() {
           </div>
 
           <div id="sidebarContentPositioning">
-            <div class="container card text-bg-dark" id="helpandsupportbg">
+            <div class="container card text-bg-success" id="helpandsupportbg">
                 <div className="container" >
                     <h1>FAQ section regarding grade reporting.</h1>
                     <div class="accordion" id="accordionExample">
@@ -31,7 +31,7 @@ export default function HelpAndSupport() {
                         <div class="accordion-item">
                             <h2 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                            How can I access my grades?
+                            <strong>How can I access my grades?</strong>
                             </button>
                             </h2>
                             <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
@@ -45,7 +45,7 @@ export default function HelpAndSupport() {
                         <div class="accordion-item">
                             <h2 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                            What if I see an error in my grade report?
+                            <strong>What if I see an error in my grade report?</strong>
                             </button>
                             </h2>
                             <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
@@ -59,7 +59,7 @@ export default function HelpAndSupport() {
                         <div class="accordion-item">
                             <h2 class="accordion-header">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                Will my grades affect my academic standing?
+                                <strong>Will my grades affect my academic standing?</strong>
                                 </button>
                             </h2>
                             <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
@@ -73,7 +73,7 @@ export default function HelpAndSupport() {
                         <div class="accordion-item">
                             <h2 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                            Can I request a grade review or appeal?
+                            <strong>Can I request a grade review or appeal?</strong>
                             </button>
                             </h2>
                             <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">

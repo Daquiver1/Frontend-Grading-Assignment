@@ -2,7 +2,7 @@ export default function Header() {
     return(
         <>
   
-        <nav className="navbar navbar-expand-sm fixed-top navbar-dark bg-dark"> 
+        <nav className="navbar navbar-expand-sm fixed-top navbar-dark bg-success"> 
     
             <button 
             type = "button"
@@ -35,7 +35,7 @@ export default function Header() {
                     </a>
                 </li>
                 <li className="nav-item active">
-                    <a href="/HelpAndSupport" className="nav-link">
+                    <a href="/QuickHelpAndSupport" className="nav-link">
                     Help And Support
                     </a>
                 </li>

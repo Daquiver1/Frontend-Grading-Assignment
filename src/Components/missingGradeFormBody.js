@@ -4,7 +4,7 @@ export default function MissingGradeFormBody() {
     return(
         <>
         
-        <div class="container card text-bg-dark" id="generalpgbg">
+        <div class="container card text-bg-success" id="generalpgbg">
             <div className="container" id="signinborder"> 
         <form>
                 <img src={UgLogo} className="d-grid gap-2 col-1" alt="uglogo" ></img>

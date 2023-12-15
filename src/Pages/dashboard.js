@@ -14,13 +14,13 @@ export default function Dashboard() {
             </div>
 
                     <div id="sidebarContentPositioning">
-                        <div class="container card text-bg-dark" id="generalpgbg" >
+                        <div class="container card text-bg-success" id="generalpgbg" >
                         <div class="alert alert-warning alert-dismissible fade show" role="alert" id="alert">
                             <strong>Alert!</strong> You have <strong>1</strong> missing grade. Check Subject and fill <strong>Grade Report Form!</strong>.<strong> Thank You</strong>
                             <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
                         </div>
                 
-                        <h1 id="dashboardH2" >Your Grade Overview</h1>
+                        <h1 className="" id="dashboardH2" >Your Grade Overview</h1>
                         <hr className='text-secondary '/>
                         <h2 id="dashboardH2" >Personal Information</h2>
                         <p id="dashboardp"><strong>Name:</strong> John Doe</p>

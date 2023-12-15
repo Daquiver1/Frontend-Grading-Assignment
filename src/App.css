@@ -40,6 +40,16 @@
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+#QuickHelpAndSuppportbg{
+  margin-top: 70px;
+  width: 97%;
+  padding-top: 5px;
+  padding-bottom: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
 #submit-btn {
   margin-bottom: 10px;
 }
@@ -71,8 +81,6 @@
   margin-left: 250px;
 }
 
-#sidebarFooterPositioning {
-}
 
 body {
   font-family: Arial, sans-serif;
