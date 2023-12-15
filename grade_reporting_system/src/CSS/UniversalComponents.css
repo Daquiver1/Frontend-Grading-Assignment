@@ -1,0 +1,41 @@
+
+.universal-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content-container {
+  display: flex;
+  flex: 1; 
+}
+
+main {
+  flex: 1; 
+  padding: 20px;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+}
+
+aside {
+  width: 200px;
+  background-color: #ddd;
+  padding: 10px;
+}
+
+
+footer {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  margin-top: auto; 
+}
+
+h1, h2, h3, h4{
+  color: rgb(90, 38, 38);
+}
