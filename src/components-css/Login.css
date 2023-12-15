@@ -1,0 +1,77 @@
+:root {
+    --colorOne: #DCECFC;
+    --colorTwo: #142E5F;
+    --colorThree: #324D90;
+}
+
+.Login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.548);
+}
+
+.login-form {
+    padding: 20px;
+    background: #fff;
+    border-radius: 20px;
+}
+
+.title-and-inputs {
+    font-size: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-title {
+    font-size: 1.5em;
+    font-weight: 500;
+    color: var(--colorTwo);
+}
+
+.login-inputs {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-inputs input {
+    margin: 20px 0 10px 0;
+    padding-left: 6px;
+    font-size: 0.88em;
+    width: 240px;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    background: #dcecfc81;
+    border-bottom: 2px solid #324d90a9;
+}
+
+.login-btn {
+    margin-top: 15px;
+    width: fit-content;
+    border-radius: 7px;
+    color: white;
+    padding: 8px 20px 8px 20px;
+    background: var(--colorThree);
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.forgotten-pass {
+    font-size: 0.8em;
+}
+
+.Xmark {
+    cursor: pointer;
+    left: 222px;
+    position: relative;
+    font-size: 1.3em;
+    color: #142E5F;
+}

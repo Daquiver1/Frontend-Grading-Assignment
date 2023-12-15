@@ -1,0 +1,122 @@
+.Calender {
+    display: flex;
+    min-height: fit-content;
+}
+ 
+.calendar-container {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #fff;
+    height: 100%;
+    width: 400px;
+    border-radius: 10px;
+    background: #fff;
+    border: 1px solid rgb(182, 182, 182);
+}
+ 
+.calendar-container header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ 
+header .calendar-navigation {
+    display: flex;
+}
+ 
+/* header .calendar-navigation span {
+    height: 38px;
+    width: 38px;
+    margin: 0 1px;
+    cursor: pointer;
+    text-align: center;
+    line-height: 38px;
+    border-radius: 50%;
+    user-select: none;
+    color: #aeabab;
+    font-size: 1.9rem;
+} */
+ 
+.calendar-navigation span:last-child {
+    margin-right: -10px;
+}
+ 
+header .calendar-navigation span:hover {
+    background: #f2f2f2;
+}
+ 
+header .calendar-current-date {
+    font-weight: 500;
+    font-size: 1.28em;
+    font-weight: 500;
+}
+ 
+.calendar-body {
+    padding: 10px;
+}
+ 
+.calendar-body ul {
+    padding: 0;
+    list-style: none;
+    flex-wrap: wrap;
+    display: flex;
+    text-align: center;
+}
+ 
+.calendar-body .calendar-dates {
+    margin-bottom: 20px;
+}
+ 
+.calendar-body li {
+    width: calc(100% / 7);
+    font-size: 0.8em;
+    color: #414141;
+}
+ 
+.calendar-body .calendar-weekdays li {
+    cursor: default;
+    font-weight: 600;
+}
+ 
+.calendar-body .calendar-dates li {
+    margin-top: 25px;
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
+}
+ 
+.calendar-dates li.inactive {
+    color: #aaa;
+}
+ 
+.calendar-dates li.activeDay {
+    color: #fff;
+}
+ 
+.calendar-dates li::before {
+    position: absolute;
+    content: "";
+    z-index: -1;
+    top: 50%;
+    left: 50%;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+}
+ 
+.calendar-dates li.activeDay::before {
+    background: #6332c5;
+}
+ 
+.calendar-dates li:not(.activeDay):hover::before {
+    background: #e4e1e1;
+}
+
+@media only screen and (max-width: 800px) {
+    .calendar-container {
+        width: 100%;
+    }
+}

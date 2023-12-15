@@ -1,51 +1,48 @@
-# Student Grade Reporting System Frontend
+# Student Report System
+### Name: Michael Bansah
+### ID : 11020103
 
-## Project Overview
+This is a website that help students track their grades, missing grades, contact an Instructor if they have any issue, and comes with an FAQ section where most of the most ask qustions are answered. The design was made based on giving all students a simple and calming navigation of the website.
 
-This project is a front-end web application for a Student Grade Reporting System. It simulates a real-world application where students can view, report, and manage their academic grades. This system addresses the issue of missing or unrecorded grades in a student's profile.
+## Pages
+- Overview Page
+- Login Page
+- Dashboard Page
+- Grade Report Page
+- Missing Grade Page
+- Instructor Contact Page
+- FAQ Page
 
-## Application Structure
+## How to Navigate the Website
+- Firstly, in the Overview page click on Login to bring forth the login Form
+- Secondly, provide an ID and password(no authentication done)
+- Thirdly,  in the dashboard try clicking all links one by one to understand how the wedsite works
 
-The application consists of 7 main pages:
 
-- **Homepage:** Introduction to the system and its purpose.
-- **Login Page:** Mock login interface for student authentication.
-- **Dashboard:** Displays an overview of the student’s current grades and alerts for missing grades.
-- **Grade Report:** Shows a detailed view of the student's grades filtered by semester or academic year.
-- **Missing Grade Form:** Enables students to report missing grades.
-- **Instructor Contact Page:** Lists instructors' contact information with a simulated email feature.
-- **Help and Support:** Provides FAQs and a mock support contact form.
+## Technologies
+- React.js
+- Google font(Roboto)
+- Fontawesome(Icons)
 
-## Technical Details
+## Screenshots
+### Overview Page
+<img src="./readme files/Overview-Page.png" alt="screenshort"/>
 
-- **Framework/Technology Used:** [React]
-- **Responsive Design:** Implemented using [CSS Flexbox/Grid, Bootstrap, Tailwind CSS].
-- **JavaScript Functionality:** Used for form validations, dynamic content rendering, and simulating interactions.
+### Login Form
+<img src="./readme files/Login-Form.png" alt="screenshort"/>
 
-## Setup and Installation
+### Dashboard Page
+<img src="./readme files/Dashboard.png" alt="screenshort"/>
 
-To set up the project locally, follow these steps:
+### Grade Report Page
+<img src="./readme files/Grade Report.png" alt="screenshort"/>
 
-```bash
-git clone https://github.com/your-github-username/DCIT_205_ASSIGNGMENT1.git
-cd repo-name
-npm install
-npm start
-```
+### Missing Grade Page
+<img src="./readme files/Missing-Grade.png" alt="screenshort"/>
 
-This will start the application on `localhost` at the default port.
+### Instructor Contact Page
+<img src="./readme files/Instructor-Contact.png" alt="screenshort"/>
 
-## Usage
+### FAQ Page
+<img src="./readme files/FAQ.png" alt="screenshort"/>
 
-Describe how to use the application, highlighting key functionalities such as logging in, viewing grades, reporting missing grades, and contacting instructors.
-
-## Contribution
-
-To contribute to this project, please follow these guidelines:
-
-1. Fork the repository.
-2. Create a new branch for your feature.
-3. Commit your changes and push them to your branch.
-4. Submit a pull request for review.
-
-Please adhere to the project's coding standards and provide clear and detailed pull request descriptions.

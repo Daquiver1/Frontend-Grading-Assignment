@@ -1,0 +1,55 @@
+
+.gradeReport .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0 0 40px 0;
+    font-size: 1em;
+  }
+  
+.gradeReport header {
+    color: #141414;
+    padding: 10px 0 5px 0;
+    text-align: center;
+  }
+  
+.gradeReport .section {
+    display: flex;
+    gap: 40px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #fff;
+    margin-top: 20px;
+  }
+  
+.gradeReport h2 {
+    color: #1b1b1b;
+    font-weight: 600;
+    font-size: 1.5em
+}
+
+.gradeReport .cardStyle {
+    width: 400px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    color: #151594;
+}
+
+.gradeReport {
+    min-height: 100dvh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.gradeReport .academicTable {
+    background: #fff;
+    padding: 50px;
+    margin-top: 40px;
+    width: 95%;
+    border-radius: 5px;
+}
