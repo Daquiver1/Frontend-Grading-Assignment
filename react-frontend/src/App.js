@@ -6,7 +6,7 @@ import Landing from "./pages/landing";
 import Dashboard from "./pages/dashboard";
 import Missing from "./pages/missingGrade";
 import Help from "./pages/helpSupport";
-
+import gradeReport from "./pages/gradeReport";
 import instructorContact from "./pages/instructorContact";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
@@ -19,7 +19,7 @@ function App() {
           <Route path="/" exact Component={Landing} />
           <Route path="login" exact Component={Login} />
           <Route path="dashboard" exact Component={Dashboard} />
-
+          <Route path="gradeReport" exact Component={gradeReport} />
           <Route path="instructorContact" exact Component={instructorContact} />
           <Route path="missingGrade" exact Component={Missing} />
           <Route path="helpSupport" exact Component={Help} />
