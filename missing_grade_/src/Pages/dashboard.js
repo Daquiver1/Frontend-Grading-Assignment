@@ -22,10 +22,10 @@ function Dashboard () {
 
 
     return(
-        <div className="total">
+        <div className="dashboard">
             <Navbar />
            
-            <div className="tab-2">
+            <div className="tab2">
                 <div className="tab-2-left">
                     <div className="greeting-and-time">
                         <h1>Welcome back, Keren!</h1>
