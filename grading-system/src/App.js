@@ -12,6 +12,8 @@ import Instructors from './Pages/instructors';
 
 import SignOut from './Pages/signout';
 
+import Help from './Pages/help';
+
 
 function App() {
   return (
@@ -24,6 +26,7 @@ function App() {
         <Route path="/dashboard/gradereport" element={<GradeReport />} />
         <Route path="/dashboard/instructors" element={<Instructors />} />
         <Route path="/signout" element={<SignOut />} />
+        <Route path="/help" element={<Help />} />
       </Routes>
     </Router>
   );
