@@ -24,8 +24,8 @@ The application consists of 7 main pages:
 
 ## Setup and Installation
 ```bash
-git clone https://github.com/your-github-username/DCIT_205_ASSIGNGMENT1.git
-cd repo-name
+git clone https://github.com/Orpxollem/Frontend-Grading-Assignment.git
+cd Frontend-Grading-Assignment
 npm create-react-app .
 npm install
 npm start
