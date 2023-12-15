@@ -551,3 +551,13 @@ button{
 button:hover{
   cursor: pointer;
 }
+.hot{
+  text-align:justify;
+}
+.hot p{
+  color: black;
+}
+.hot li{
+  list-style: none;
+  color: #000;
+}
