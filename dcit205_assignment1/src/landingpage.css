@@ -1,0 +1,31 @@
+.landingpage{
+    position: absolute;
+    top: 50px;
+    left: 590px;
+}
+
+
+.landingpage h3{
+    
+font-weight: bold;
+font-size: 35px;
+text-align: center;
+position: relative;
+top: 70px;
+text-decoration: underline;
+}
+
+.landingpage h4{
+    text-align: center;
+    position: relative;
+    top: 75px;
+    font-size: 20px;
+}
+
+.landingpage p {
+    text-align: center;
+position: relative;
+font-size: 20px;
+top: 75px;
+
+}

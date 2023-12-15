@@ -1,0 +1,26 @@
+.Aider{
+position: absolute;
+left:450px ;
+top: 150px;
+
+}
+
+.Aider .title{
+    position: absolute;
+left:4px ;
+top: -50px;
+
+
+
+}
+
+.Aider h1{
+    text-decoration: underline;
+}
+
+
+.inside{
+    position: relative;
+    left: -400px;
+    
+}
