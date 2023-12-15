@@ -1,0 +1,107 @@
+
+.help-support-container {
+  width: 80%;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+}
+
+.faq-container {
+  margin-bottom: 20px;
+}
+
+.faq-container h3 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.faq-list {
+  list-style: none;
+  border: 1px solid #ccc;
+}
+
+.faq-item {
+  border-bottom: 1px solid #ccc;
+}
+
+.faq-question {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.faq-question h4 {
+  margin: 0;
+}
+
+.faq-toggle {
+  border: none;
+  background: none;
+  color: #333;
+  transition: all 0.3s ease-in-out;
+}
+
+.faq-toggle:hover {
+  color: #555;
+}
+
+.faq-toggle i {
+  font-size: 18px;
+}
+
+.faq-answer {
+  padding: 10px;
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+  border: 1px solid #333; /* add a border to the answer */
+  border-radius: 5px; /* add some border radius to the answer */
+}
+
+.faq-answer.hide {
+  max-height: 0;
+  opacity: 0;
+}
+
+.faq-answer.show {
+  max-height: 200px;
+  opacity: 1;
+}
+
+.contact-form-container {
+  margin-bottom: 20px;
+}
+
+.contact-form-container h3 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-input {
+  width: 80%;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact-button {
+  width: 40%;
+  margin: 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #333;
+  color: white;
+  cursor: pointer;
+}
+
+.contact-button:hover {
+  background-color: #555;
+}

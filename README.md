@@ -1,51 +1,42 @@
-# Student Grade Reporting System Frontend
+# INTRODUCTION
+Welcome to the Missing Grade Report Portal, a responsive web application designed to provide students with a user-friendly interface for accessing and managing their academic information. This document provides an overview of the system, navigation details, and information about each page.
 
-## Project Overview
+# NAME AND STUDENT ID
+Wornor Believe  11246331
 
-This project is a front-end web application for a Student Grade Reporting System. It simulates a real-world application where students can view, report, and manage their academic grades. This system addresses the issue of missing or unrecorded grades in a student's profile.
+# SET-UP FOR MY PROJECT
+## Node.js and npm:
+Make sure Node.js and npm (Node Package Manager) are installed on your machine. You can download and install them from https://nodejs.org/.
 
-## Application Structure
+# SCREENSHOTS OF MY REACT WEBSITE
+## Homepage
+![Screenshot (11)](https://github.com/Believe-wr/Frontend-Grading-Assignment/assets/151064445/10c4b9bb-ed26-4409-a303-4cdb545e334c)
 
-The application consists of 7 main pages:
+## GradeReport-page
+![Screenshot (12)](https://github.com/Believe-wr/Frontend-Grading-Assignment/assets/151064445/8cc48cb3-8a2c-4706-a00c-33a304e4bfce)
 
-- **Homepage:** Introduction to the system and its purpose.
-- **Login Page:** Mock login interface for student authentication.
-- **Dashboard:** Displays an overview of the student’s current grades and alerts for missing grades.
-- **Grade Report:** Shows a detailed view of the student's grades filtered by semester or academic year.
-- **Missing Grade Form:** Enables students to report missing grades.
-- **Instructor Contact Page:** Lists instructors' contact information with a simulated email feature.
-- **Help and Support:** Provides FAQs and a mock support contact form.
+## Dashboard-page
+![Screenshot (13)](https://github.com/Believe-wr/Frontend-Grading-Assignment/assets/151064445/c8c57a51-140a-437d-ba50-c7ed7787ee0a)
 
-## Technical Details
+## GradeForm-page
+![Screenshot (14)](https://github.com/Believe-wr/Frontend-Grading-Assignment/assets/151064445/0641736e-d9ce-4418-8da3-9cde868e5b8e)
 
-- **Framework/Technology Used:** [React]
-- **Responsive Design:** Implemented using [CSS Flexbox/Grid, Bootstrap, Tailwind CSS].
-- **JavaScript Functionality:** Used for form validations, dynamic content rendering, and simulating interactions.
+## InstructorContact-page
+![Screenshot (15)](https://github.com/Believe-wr/Frontend-Grading-Assignment/assets/151064445/c0ca2b9a-97f7-4786-a30c-f39f42f0958b)
 
-## Setup and Installation
+## HelpandSupport-page
+![Screenshot (16)](https://github.com/Believe-wr/Frontend-Grading-Assignment/assets/151064445/3fcd0d12-da04-45af-93ee-17908fe1ba92)
 
-To set up the project locally, follow these steps:
+## Login-page
+![Screenshot (17)](https://github.com/Believe-wr/Frontend-Grading-Assignment/assets/151064445/09e08159-7d0f-45b2-8d08-e13b2e5e74cf)
 
-```bash
-git clone https://github.com/your-github-username/DCIT_205_ASSIGNGMENT1.git
-cd repo-name
-npm install
-npm start
-```
+# WHAT I LEARNED
+## React fundamentals
 
-This will start the application on `localhost` at the default port.
 
-## Usage
 
-Describe how to use the application, highlighting key functionalities such as logging in, viewing grades, reporting missing grades, and contacting instructors.
 
-## Contribution
 
-To contribute to this project, please follow these guidelines:
 
-1. Fork the repository.
-2. Create a new branch for your feature.
-3. Commit your changes and push them to your branch.
-4. Submit a pull request for review.
 
-Please adhere to the project's coding standards and provide clear and detailed pull request descriptions.
+
