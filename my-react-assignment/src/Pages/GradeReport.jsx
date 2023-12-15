@@ -8,6 +8,7 @@ const GradeReport = () => {
     { course: 'DCIT203', grade: 'B', year: '2023' },
     { course: 'DCIT201', grade: 'B+', year: '2022' },
     { course: 'DCIT207', grade: 'B+', year: '2022' },
+    { course: 'DCIT209', grade: 'B+', year: '2022' },
     // Add more courses and grades as needed
   ];
 
@@ -17,7 +18,7 @@ const GradeReport = () => {
 
   return (
     <div className="min-h-screen">
-      <header className="bg-blue-400 text-black text-center py-4">
+      <header className="text-black text-center py-4">
         <h1 className="text-3xl font-extrabold">Grade Report</h1>
       </header>
 

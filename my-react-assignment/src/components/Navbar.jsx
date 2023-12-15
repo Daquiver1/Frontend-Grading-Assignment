@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
-import logo from "../assets/grading icon.png"
+import logo from "../assets/grading icon1.png"
 //  const DesktopMenus = [
 // {
 //     name: "Home",
@@ -20,7 +20,7 @@ import logo from "../assets/grading icon.png"
 // }
 // ]
 const Navbar = () => {
-return <header className='bg-gray-300/80 shadow-lg'>
+return <header className='bg-blue-300/80 shadow-lg'>
 <div className="container">
     <nav className='flex justify-between items-center'> 
 <a href="#" className='text-gray-800 font-bold text-3xl'>

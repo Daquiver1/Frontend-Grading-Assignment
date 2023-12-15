@@ -37,7 +37,7 @@ const InstructorContact = () => {
 
   return (
     <div>
-      <header className="bg-blue-400 text-black text-center py-4">
+      <header className="text-black text-center py-4">
         <h1 className="text-3xl font-extrabold">Instructors</h1>
       </header>
 

@@ -17,7 +17,9 @@ function App() {
        
           <Routes>
             {/* <Route index element={<Home />} /> */}
+            
             <Route path="/home" element={<Home />} />
+            
             <Route path="/dashboard" element={<Dashboard />} />
             <Route path="/missinggrade" element={<MissingGrade />} />
             <Route path="/gradereport" element={<GradeReport />} />
@@ -25,7 +27,7 @@ function App() {
             <Route path="/login" element={<Login />} />
             {/* <Login setAuthenticated={setAuthenticated} /> */}
             <Route path="/instructorcontact" element={<InstructorContact />} />
-           
+            {/* <Redirect from="/" to="/login" /> */}
           </Routes>
           <Footer />
         </BrowserRouter>

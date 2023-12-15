@@ -27,7 +27,7 @@ const MissingGrade = () => {
     // <div className="bg-gray-100 min-h-screen">
     <div>
       <div className="min-h-screen">
-        <header className="bg-blue-400 text-white text-center py-4">
+        <header className=" text-black text-center py-4">
           <h1 className="text-3xl font-extrabold">Report Missing Grade</h1>
         </header>
         <div className="container mx-auto p-6">

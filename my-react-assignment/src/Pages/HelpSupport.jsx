@@ -45,8 +45,8 @@ const HelpSupport = () => {
   };
 
   return (
-    <div className="container mx-auto p-6">
-      <h2 className="text-2xl font-bold mb-4">Help and Support</h2>
+    <div className="container mx-auto p-6 ">
+      <h2 className="text-2xl font-bold mb-4 text-center py-4">Help and Support</h2>
 
       {/* FAQ Section */}
       <div className="mb-8">

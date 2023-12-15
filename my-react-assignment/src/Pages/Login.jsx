@@ -18,7 +18,7 @@ const Login = () => {
   const handleLogin = (e) => {
     e.preventDefault();
     // Simulated authentication logic
-    if (formData.studentId === '11564738' && formData.pin === '57345') {
+    if (formData.studentId === '11564738' && formData.pin === '6789') {
       setIsAuthenticated(true);
     } else {
       setIsAuthenticated(false);
@@ -27,12 +27,12 @@ const Login = () => {
   };
 
   return (
-    <div className='min-h-screen flex items-center justify-center'>
-      <div className="bg-white p-8 rounded-lg shadow-md w-full sm:w-96">
+    <div>
+      <div className="bg-white p-8 rounded-lg shadow-md w-full sm:w-96 justify-center">
         <h2 className="text-3xl font-extrabold mb-6 text-center">Student Login</h2>
 
         {isAuthenticated ? (
-          <div className="text-blue-300 font-semibold mb-6 text-center">Login Successful!</div>
+          <div className="text-green-600 font-semibold mb-6 text-center">Login Successful!</div>
         ) : (
           <form onSubmit={handleLogin}>
             <div className="mb-4">
