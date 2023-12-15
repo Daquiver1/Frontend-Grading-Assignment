@@ -1,6 +1,10 @@
 import './CustomDashboard.css'
+import { useEffect } from 'react'
 
 const Dashboard = () => {
+    useEffect(() => {
+         window.alert("Some grades are not available now, Report an issue on the missing grade page")
+    }, [])
       
     return (
         <div>
