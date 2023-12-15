@@ -41,7 +41,7 @@ const Navbar = () => {
 </div>
 
 <div className=" bg-[#56c1ad]  px-4 rounded-full flex items-center justify-center">
-<NavLink  to='/dashboard:id'>Dashboard</NavLink>
+<NavLink  to='/dashboard'>Dashboard</NavLink>
 </div>
 
 <div className=" bg-[#56c1ad]  px-4 rounded-full flex items-center justify-center">
