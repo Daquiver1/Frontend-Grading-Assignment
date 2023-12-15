@@ -66,15 +66,11 @@ Please adhere to the project's coding standards and provide clear and detailed p
 ![Capture10](https://github.com/LouisaEco/Frontend-Grading-Assignment/assets/147488916/822e363c-89c1-47b8-805c-2a9b8b1040bd)
 ![Capture11](https://github.com/LouisaEco/Frontend-Grading-Assignment/assets/147488916/013d1321-77cb-4126-b343-bf64b2e7d510)
 ![Capture12](https://github.com/LouisaEco/Frontend-Grading-Assignment/assets/147488916/74241898-c56d-443b-93a4-7c836beb31ee)
-
-
-
-
-
-
-
-
-
-
+##Missing Grade Form
+![Capture13](https://github.com/LouisaEco/Frontend-Grading-Assignment/assets/147488916/57dc3a54-eb2a-452c-ae43-d34ea657b527)
+##Instructor's Contact Form
+![Capture14](https://github.com/LouisaEco/Frontend-Grading-Assignment/assets/147488916/e96dfcae-0a7e-40ea-8a36-d18c1ae8e2d5)
+![Capture15](https://github.com/LouisaEco/Frontend-Grading-Assignment/assets/147488916/789789f2-bafe-4600-ba29-8f9d49d080ea)
+![Capture16](https://github.com/LouisaEco/Frontend-Grading-Assignment/assets/147488916/90c9ad4a-ef30-4f21-9b53-3db8d042d413)
 
 
