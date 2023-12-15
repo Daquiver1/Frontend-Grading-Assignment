@@ -1,6 +1,7 @@
 import React from "react";
 import "./Contacts.css";
 import Header from './Header';
+import Footer from './Footer.js';
 
 
 const Home = () => {
@@ -54,6 +55,7 @@ const Home = () => {
         </div>
         
       </div>
+      <Footer />
     </div>
   );
 };

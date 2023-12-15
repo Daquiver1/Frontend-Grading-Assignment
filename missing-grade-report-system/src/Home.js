@@ -1,6 +1,7 @@
 import React from 'react';
 import './home.css';
 import Header from './Header';
+import Footer from './Footer.js';
 
 const Home = () => {
   return (
@@ -49,7 +50,7 @@ const Home = () => {
         Acts as a platform for students to engage with instructors regarding grade-related concerns or inquiries.</p>
       </div>
       </div>
-
+      <Footer />
     </div>
   );
 };

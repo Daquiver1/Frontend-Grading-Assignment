@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./missing.css";
 import Header from './Header';
-
+import Footer from './Footer.js';
 
 const MissingGradeForm = () => {
   const [courseName, setCourseName] = useState("");
@@ -69,6 +69,7 @@ const MissingGradeForm = () => {
           </form>
         )}
       </div>
+      <Footer />
     </div>
   );
 };

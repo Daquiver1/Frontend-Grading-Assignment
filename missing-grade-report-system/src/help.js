@@ -1,7 +1,7 @@
 import React from "react";
 import "./help.css";
 import Header from './Header';
-
+import Footer from './Footer.js';
 
 const HelpAndSupportPage = () => {
   return (
@@ -30,6 +30,7 @@ const HelpAndSupportPage = () => {
 
         <button type="submit">Submit</button>
       </form>
+      <Footer />
     </div>
   );
 };

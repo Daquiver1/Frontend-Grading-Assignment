@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./login.css";
 import Header from './Header';
+import Footer from './Footer.js';
 
 const LoginPage = () => {
   const [username, setUsername] = useState("");
@@ -36,6 +37,7 @@ const LoginPage = () => {
       />
       <br />
       <button onClick={handleLogin}>Login</button>
+      <Footer />
     </div>
   );
 };
