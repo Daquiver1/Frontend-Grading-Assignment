@@ -43,6 +43,10 @@
   color:#fff;
 
 }
+.Header .Navigation ul li a:active{
+  text-decoration: underline;
+  color: #fff;
+}
 
 .Header .Navigation ul li a {
   text-decoration: none;
@@ -150,6 +154,13 @@
   justify-content: flex-start;
   flex-direction: column;
   color: rgb(171, 117, 47);
+  transition: opacity, color 0.15s;
+}
+.sb_footer-links_div p:hover{
+  color:rgb(171, 117, 47)
+}
+.sb_footer-links_div p:active{
+  opacity: 0.7;
 }
 
 a {
