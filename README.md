@@ -27,11 +27,13 @@ The application consists of 7 main pages:
 To set up the project locally, follow these steps:
 
 ```bash
-git clone https://github.com/your-github-username/DCIT_205_ASSIGNGMENT1.git
-cd repo-name
+git clone https://github.com/JooKuu-Jnr/Frontend-Grading-Assignment.git
+cd 11259806-assignment
 npm install
 npm start
 ```
+
+NB: To login to the website, the credentials are 11259806 and Pin: 1234
 
 This will start the application on `localhost` at the default port.
 
