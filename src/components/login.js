@@ -26,7 +26,7 @@ export default function Login() {
     console.log(post.password) 
 
 
-      navigate('/dashboard')
+      navigate('/dashboard') 
   }
 
   return (
