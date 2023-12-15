@@ -60,4 +60,9 @@ To contribute to this project, please follow these guidelines:
 3. Commit your changes and push them to your branch.
 4. Submit a pull request for review.
 
-
+### Overview of the Assignment
+Working with git has been a really great struggle. Very confusing tool for me, most definitely because I am a beginner.
+I was able to come up with something in the end.
+This has thought me that computer scientists sit behind their computers for long hours with one thing in mind... Get the job done.
+This project has improved upon my research skills, thus, how to look for information and it has made me do a lot of reading.
+I have learnt so much form this assignment. I am a better programmer.
