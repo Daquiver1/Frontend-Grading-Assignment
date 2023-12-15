@@ -1,0 +1,35 @@
+.dashboard-page {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.dashboard-page h1 {
+  color: #3498db;
+}
+
+.dashboard-page section {
+  margin-top: 20px;
+}
+
+.dashboard-page h2 {
+  color: #3498db; 
+}
+
+.dashboard-page ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.dashboard-page li {
+  margin-bottom: 10px;
+}
+
+strong {
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.dashboard-page p {
+  color: black; 
+}
