@@ -15,7 +15,7 @@ const HelpAndSupportPage = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Handle form submission logic or display confirmation message here
+  
     console.log('Support Form submitted!');
   };
 
