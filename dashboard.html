@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard - Missing Grade Reporting System</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+
+<body>
+  <nav class="B ">
+    <a class="navbar-brand" href="#">Missing Grade Reporting System</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle B">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="D">
+          <a class="H" href="index.html">Home</a>
+        </li>
+        <li class="D">
+          <a class="H" href="grade_report.html">Grade Report</a>
+        </li>
+        <li class="D">
+          <a class="H" href="missing_grade.html">Report Missing Grade</a>
+        </li>
+        <li class="D">
+          <a class="H" href="instructor.html">Instructor Contact</a>
+        <li class="D">
+          <a class="H" href="help_and_support.html">Help And Support</a>
+        </li>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+
+
+  <div class="C">
+    <div class="row">
+      <div class="col-md-8 offset-md-2">
+        <h2 class="text-center mb-4">Dashboard</h2>
+        <div class="alert alert-info">
+          <strong>Alert:</strong> A missing grade. Please report to your admin immediately.
+        </div>
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th>Course</th>
+              <th>Grade</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Statistics</td>
+              <td>F-</td>
+            </tr>
+            <tr>
+              <td>DCIT 203</td>
+              <td></td> <!-- Leave blank for missing grade -->
+            </tr>
+            <tr>
+              <td>CBAS</td>
+              <td>A+</td>
+            </tr>
+            
+            <!-- Add more Gs for other courses -->
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+    <!---Footer-->
+    <footer class="bg-dark text-white text-center py-5 mt-5" id="my-footer">
+        <div class="E">
+          <div class="row">
+            <div class="col-md-6">
+              <h3>About the Missing Grade Reporting System</h3>
+              <p>
+                The Missing Grade Reporting System is a cutting-edge platform that revolutionizes how students manage and report missing grades. It offers a seamless and efficient solution to ensure accurate academic records and foster transparent communication between students and educational institutions.
+              </p>
+            </div>
+            <div class="col-md-6">
+              <h3>Contact Information</h3>
+              <p>
+                For any inquiries or support, please reach out to our team:
+              </p>
+              <ul class="list-unstyled">
+                <li>Email: studmis@gmail.com</li>
+                <li>Phone: +1-123-456-7890</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+    
+      </footer>
+    
+  </div>
+
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script>
+    // JavaScript code to handle the B bar toggle behavior
+    document.addEventListener('DOMContentLoaded', function () {
+      var navbarToggler = document.querySelector('.navbar-toggler');
+      var navbarCollapse = document.querySelector('.navbar-collapse');
+
+      navbarToggler.addEventListener('click', function () {
+        navbarCollapse.classList.toggle('show');
+      });
+    });
+  </script>
+</body>
+
+</html>
