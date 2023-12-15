@@ -5,7 +5,7 @@ import "../../Styles/utils.css";
 const MobileNav = () => {
   return (
     <>
-      <div className=" flex flex-col gap-5 place-items-center absolute right-24 text-xl bg-blue-900 w-screen rounded-md sliding-semi-text text-black hover:bg-slate-500 hover:text-blue-900 hover:cursor-pointer">
+      <div className=" flex flex-col gap-5 place-items-center right-24 text-xl bg-blue-900 w-screen rounded-md sliding-semi-text text-black hover:bg-slate-500 hover:text-blue-900 hover:cursor-pointer">
         <div className="">
           <img
             className="rounded-full w-20"
