@@ -1,4 +1,8 @@
 # Student Grade Reporting System Frontend
+# DETAILS:
+ DZIFA ESI DOTSE 
+ ID: 11253112
+ COURSE: DCIT 205 (Assignment)
 
 ## Project Overview
 
