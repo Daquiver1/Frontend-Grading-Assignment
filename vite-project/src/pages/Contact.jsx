@@ -8,7 +8,7 @@ const Contact = () => {
 
       <div className="contact">
 
-        <h1>Contact Us</h1>
+        <h1 className="contact">Contact Us</h1>
         <ul>
           <li>
             <input type="text" placeholder="email" />
@@ -45,21 +45,7 @@ const Contact = () => {
 
     </div>
 
-    <div className="contact-info">
-        <h1>How may we help you</h1>
-        <ul>
-          <li>I want to retake a quiz
-
-          </li>
-          <li>I want to talk to th HOD</li>
-          <li>I have issues with my grades </li>
-          <li>I have log in issues</li>
-          <li>Grades not calculating proply</li>
-          <li>Slow system performance</li>
-
-        </ul>
-
-      </div>
+    
     </div>
     <section>
       <img src="" alt="" />

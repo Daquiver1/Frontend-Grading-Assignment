@@ -10,12 +10,18 @@ a {
 
 .navigation {
   box-sizing: border-box;
-  width: 250px;
+  width: 150px;
   height: auto;
   display: inline-block;
   box-shadow: 0 4px 8px rgba(33, 150, 243, 0.3); /* Box shadow */
   margin-top: 50px;
   border-right: #73AD21 2px solid;
+  background-color: rgb(5, 5, 155);
+  
+  
+}
+.navigation a {
+  color: #fff;
 }
 
 h1 img {
@@ -32,6 +38,7 @@ h1 img {
   padding: 25px;
   margin-left: 10px;
   list-style: none;
+
 }
 
 .Header-container {
@@ -39,7 +46,6 @@ h1 img {
   justify-content: space-between;
   position: fixed;
   width: 100%;
-  background-color: #d9e2dee5;
   
   
   
@@ -297,11 +303,98 @@ button img{
   height: 24px;
 
 }
-button {
-  border-radius: 5px;
+
+
+.checkBox{
+  margin-left: 0px;
+  position: relative;
+  right: 135px;
+}
+.cover p{
+  position: relative;
+  left: 175px;
+  bottom: 30px;
+  right: 0px;
+  
+}
+.pl{
+  position: relative;
+  
+}
+.sign-btn{
+  margin-left: 70px;
+  margin-top: 10px;
+  text-align: center;
+  background-color: #3183c5;
   border: none;
-  background-color: #fff;
-
-
+  height: 50px;
+  border-radius: 10px;
+  color: #fff;
+  box-shadow: 4px 4px 4px rgb(196, 193, 193);
+  
+  
+  
+}
+.fpass{
+  display: relative;
+  top: 20px;
+  
 }
 
+.help-menu{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+.help-menu  p{
+  background-color: rgba(255, 255, 255, 0.8);
+  font-size: 15px;
+  text-align: center;
+  margin: 10px;
+  box-shadow: 0 4px 8px rgba(33, 150, 243, 0.3); /* Box shadow */
+  text-align: center;
+  padding: 10px;
+}
+.srch input{
+  height: 40px;
+  width: 600px;
+  border: 1px solid;
+  border-radius: 20px;
+  position: relative;
+  left: 200px;
+  top: 100px;
+}
+.about-page{
+  margin-top: 50px;
+}
+.can-we{
+  margin-top: 50px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  background-image: url('https://i.pinimg.com/236x/9a/3a/4d/9a3a4dba26def32fdadc2479ec9e3379.jpg');  
+}
+.can-we h1{
+  text-align: center;
+}
+.dashboard{
+  display: grid;
+  grid-template-columns: auto auto auto ;
+  margin-top: 100px;
+  width: 100%;
+  margin-left: 15%;
+  align-items: center;
+}
+.dashboard img{
+  width: 300px;
+  height: 200px;
+}
+.dashboard div{
+  width: 100%;
+  margin: 10px;
+}
+
+.dashboard h1{
+  font-size: 20px;
+}

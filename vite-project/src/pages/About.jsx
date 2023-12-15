@@ -4,7 +4,7 @@ const About = () => {
       <div>
         <h1>About Us</h1>
         <p>
-          Welcome to <strong>[School Name] Grading System</strong>! At [School Name], we believe in the power of education to transform lives, and we understand the importance of a transparent and efficient grading system in supporting student success. Our online grading platform has been designed with the student, parents, and educators in mind, providing a comprehensive and user-friendly experience.
+          Welcome to <strong>UG Grading System</strong>! At UG, we believe in the power of education to transform lives, and we understand the importance of a transparent and efficient grading system in supporting student success. Our online grading platform has been designed with the student, parents, and educators in mind, providing a comprehensive and user-friendly experience.
         </p>
         <img src="https://cdn-icons-png.flaticon.com/128/3815/3815523.png" alt="" />
       </div>
@@ -44,8 +44,8 @@ const About = () => {
 
       <div>
         <h2>Contact Us</h2>
-        <p>Have questions or need assistance? Our support team is here to help. Reach out to us at <strong>[Contact Email or Phone Number]</strong>.</p>
-        <p>Thank you for choosing <strong>[School Name] Grading System</strong>! Together, let's create a learning environment that inspires and empowers every student.</p>
+        <p>Have questions or need assistance? Our support team is here to help. Reach out to us at <strong>ug.edu.gh</strong>.</p>
+        <p>Thank you for choosing <strong>UG Grading System</strong>! Together, let's create a learning environment that inspires and empowers every student.</p>
         <img src="https://cdn-icons-png.flaticon.com/128/4370/4370113.png" alt="" />
 
       </div>
