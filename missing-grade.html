@@ -1,0 +1,72 @@
+<!-- missing_grade_form.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Missing Grade Form - Missing Grade Reporting System</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+
+        .missing-grade-form-container {
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Include Navbar -->
+<!-- Replace the URL with the correct path based on your file structure -->
+<div class="include-navbar"><?php include('navbar.html'); ?></div>
+
+<!-- Missing Grade Form Container -->
+<div class="container missing-grade-form-container">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <h2 class="text-center mb-4">Report Missing Grade</h2>
+            
+            <!-- Missing Grade Form -->
+            <form>
+                <!-- Course Name -->
+                <div class="form-group">
+                    <label for="courseName">Course Name:</label>
+                    <input type="text" class="form-control" id="courseName" placeholder="Enter Course Name">
+                </div>
+
+                <!-- Instructor Name -->
+                <div class="form-group">
+                    <label for="instructorName">Instructor Name:</label>
+                    <input type="text" class="form-control" id="instructorName" placeholder="Enter Instructor Name">
+                </div>
+
+                <!-- Expected Grade -->
+                <div class="form-group">
+                    <label for="expectedGrade">Expected Grade:</label>
+                    <input type="text" class="form-control" id="expectedGrade" placeholder="Enter Expected Grade">
+                </div>
+
+                <!-- Explanation Field -->
+                <div class="form-group">
+                    <label for="explanationField">Explanation:</label>
+                    <textarea class="form-control" id="explanationField" rows="4" placeholder="Enter Explanation"></textarea>
+                </div>
+
+                <!-- Submit Button -->
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- Bootstrap JS and dependencies -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+</body>
+</html>
