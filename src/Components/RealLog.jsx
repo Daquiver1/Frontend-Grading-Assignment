@@ -1,7 +1,7 @@
 import propTypes from 'prop-types';
 import { useState } from "react";
 import { FaUser } from "react-icons/fa";
-import { Footer } from "./Footer";
+// import { Footer } from "./Footer";
 
 export const Reallog = ({setshowLog}) => {
     
@@ -88,7 +88,7 @@ export const Reallog = ({setshowLog}) => {
     </form>
 </div>
 
-<Footer />
+{/* <Footer /> */}
 </main>
    )
 }

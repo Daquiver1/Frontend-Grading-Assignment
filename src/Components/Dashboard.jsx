@@ -12,6 +12,7 @@ import { Report } from './GradeReport';
 import { Homepage } from './Homepage';
 
 export const Dashboard = () => {
+    const [currentpage, setCurrentPage] = useState('dashboard');
     // const [selectedLevel, setSelectedLevel] = useState('All');
     // const [selectedSemester, setSelectedSemester] = useState('All');
 
@@ -44,8 +45,7 @@ export const Dashboard = () => {
         { reference: 'instructor', id: 5, link: 'Instructor' },
         { reference: 'Faqs', id: 6, link: 'Help and support' },
     ]
-
-    const [currentpage, setCurrentPage] = useState('dashboard');
+   
   const renderComponent = () => {
     switch (currentpage) {
       case 'home':  
@@ -63,7 +63,8 @@ export const Dashboard = () => {
       default:
         return '';
     }
-  };
+  };    
+
     const Realdash = () => {
         return(
             <div className="containerr">
