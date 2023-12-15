@@ -93,7 +93,8 @@ The Hard Stuff:
 
 1. Making Things Work Together:
 
-It was tough to get my project to work considering the duration and how much we’ve been taught so i had to learn more on my own.
+Eventhough my laptop got faulty so i had to  continue on a friends pc, i managed to pull it through.
+It was also tough to get my project to work considering the short duration and how much we’ve been taught so i had to learn more on my own.
 
 2. Keeping the Project on Track:
 
