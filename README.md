@@ -37,7 +37,7 @@ This will start the application on `localhost` at the default port.
 
 ## Usage
 
-Describe how to use the application, highlighting key functionalities such as logging in, viewing grades, reporting missing grades, and contacting instructors.
+The website serves as a grade report system where students can also report missing grades which are not appearing on the website. To begin using the website, you have to click the login button on the landing page which will take you  to the login and sign up page where students can signup(first timers) and login(regular students) to view their grades. the side bar displays the dashboard which contains various report on registered courses and also report grades which are not appearing after being released by the lecturer. navigation through this website is smooth and very simple. the appearance in the website is quite simple with less colours but appears appealing to the eye
 
 ## Contribution
 
