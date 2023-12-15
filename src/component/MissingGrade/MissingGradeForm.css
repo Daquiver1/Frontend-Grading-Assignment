@@ -1,0 +1,26 @@
+/* MissingGradeForm.css */
+.container {
+    max-width: 800px;
+  }
+  
+  .form-container {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  /* Style form labels as section headers */
+  .form-section h2 {
+    color: #007bff;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Style form controls */
+  .form-control {
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+  }
+  
+  /* Add any additional styling as needed */
+  
