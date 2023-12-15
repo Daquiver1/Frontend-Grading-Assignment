@@ -1,0 +1,21 @@
+
+
+.containe {
+    margin-top: 20px;
+    font-family: 'Poppins', sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    color: rgb(8, 8, 66);
+}
+
+.form-input {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.error-message {
+    color: #ff0000;
+}
