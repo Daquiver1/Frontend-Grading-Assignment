@@ -1,0 +1,267 @@
+html {
+    margin-left: 30px;
+    margin-right: 30px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+body{
+    height: 100vh;
+    background-color: #000;
+    background-size: cover;
+    background-position: center;
+}
+
+li {
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+
+}
+
+a:hover {
+    color: orange;
+}
+
+header{
+    position: relative;
+    padding: 0 2rem;
+}
+
+.navbar {
+    width: 100%;
+    height: 60px;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .logo a {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.navbar .links {
+    display: flex;
+    gap: 2rem;
+}
+
+
+.navbar .toggle_btn {
+    color: #fff;
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: none;
+}
+
+.action_btn {
+    background-color: orange;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: scale .2 ease;
+}
+
+.action_btn:hover {
+    scale: 1.05;
+    color: #fff;
+}
+
+.action_btn:active {
+    scale: 0.95;
+}
+
+
+/* DROPDOWN MENU */
+.dropdown_menu {
+    display: none;
+    position: absolute;
+    right: 2rem;
+    top: 60px;
+    width: 300px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: height .2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+
+.dropdown_menu .open {
+    height: 240px;
+}
+
+.dropdown_menu .action_btn {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.dropdown_menu li {
+    padding: 0.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+    background-color:brown;
+    border-radius: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.calendar, .clock {
+    text-align: center;
+    color: #fff;
+ 
+}
+
+.calendar {
+    scale: 0.8;
+    margin: 50px;
+    margin-left: 5%;
+    border: 4px solid #fff;
+    border-radius: 30px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    border: 1px solid #fff;
+    padding: 8px;
+}
+
+#clockDisplay {
+    font-size: 28px;
+    margin-top: 10px;
+}
+
+.clock {
+    background-image: url('resources/ug back.jpg');
+    background-size: cover;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    color: white;
+    padding: 40px;
+    margin-top: 60px;
+    border: 10px solid #fff;
+    
+}
+
+
+.release-dates {
+    color: white;
+    width: 92%;
+    background-color: brown;
+    margin-top: 0px;
+    margin-left: 55px;
+    border-radius: 15px;
+    text-align: center; 
+    margin-bottom: 40px;
+
+}
+
+.release-dates th.middle {
+    border-right: none;
+    border-left: none;
+}
+
+.release-dates th.left {
+    border-right: none;
+} 
+
+.release-dates th.right {
+    border-left: none;
+} 
+
+.release-dates th {
+    font-size: 24px;
+}
+
+
+.release-dates td {
+    border: 1px solid black;
+}
+
+
+
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+.row {
+    display: flex;
+    width: 100%;
+    flex-wrap: wwrap;
+    align-items: center;
+}
+
+footer.footsy {
+    background-color: #666;
+    padding-left: 10%;
+
+}
+
+footer.footsy h1 {
+    color: #fff;
+    font-size: 35px;
+    
+}
+
+footer.footsy ul {
+    list-style: none;
+    text-align: left;
+    padding-left: 0px;
+
+}
+
+footer.footsy ul li {
+    color: #fff;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+div.mobileStack {
+    width: 50%;
+    display: block;
+    
+}
+
+
+

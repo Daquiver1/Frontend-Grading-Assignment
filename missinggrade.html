@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/missinggrade.css">
+    <title>Missing grade</title>
+
+    <header>
+        <div class="navbar">
+            <div class="logo"><a href="home.html"><img src="resources/UoG_CoA_2017.svg.png" height=30px ></a></div>
+            <ul class="links">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="dashboard.html">Dashboard</a></li>
+                <li><a href="grades.html">Grades</a></li>
+                <li><a href="contact.html">Instructor contact</a></li>
+                <li><a href="missinggrade.html">Missing grade</a></li>
+                <li><a href="help.html">Help</a></li>
+            </ul>
+            <a href="login.html" class="action_btn">Log out</a>
+            <div class="toggle_tbn">
+                <i class="fa-solid fa-bars"></i>
+            </div> 
+        </div>
+        <div class="dropdown_menu ">
+            <li><a href="home.html">Home</a></li>
+                <li><a href="dashboard.html">Dashboard</a></li>
+                <li><a href="grade.html">Grade</a></li>
+                <li><a href="contact.html">Instructor contact</a></li>
+                <li><a href="missinggreade.html">Missing grade</a></li>
+                <li><a href="help.html">Help</a></li>
+                <a href="login.html" class="action_btn">Log out</a>
+        </div>
+    </header>
+
+    <script>
+        const toggleBtn = document.querySelector('.toggle_btn')
+        const toggleBtnIcon = document.querySelector('.toggle_btn i')
+        const dropDownMenu = document.querySelector('.dropdown_menu')
+
+        toggleBtn.onclick = function () {
+            dropDownMenu.classList.toggle('open')
+            const isOpen = dropDownMenu.classList.contains('open')
+
+            toggleBtnIcon.classList = isOpen
+                ? 'fa-solid fa-xmark'
+                : 'fa-solid fa-bars'
+        }
+    </script>
+</head>
+<body>
+    <div class="content">
+        <h1>Report Missing Grades</h1>
+        <p class="reports">Course Name</p>
+        <input>
+        <p class="reports">Course lecturer</p>
+        <input>
+        <p class="reports">Exam date</p>
+        <input type="date">
+        <br>
+        <button>Submit</button>
+
+        <h1>Report Inaccurate Grades</h1>
+        <p class="reports">Course Name</p>
+        <input>
+        <p class="reports">Course lecturer</p>
+        <input>
+        <p class="reports">Exam date</p>
+        <input type="date">
+        
+        <p class="reports">Expected Grade</p>
+        <input>
+        <p class="reports">Defense</p>
+        <input class="explaination">
+        <br>
+        <button>Submit</button>
+    </div>
+</body>
+
+<footer class="footsy">
+    <div class="row">
+        <div class="col-3 mobileStack" >
+            <ul><li>
+            Built and designed by the UG Computer science department
+        </li></ul>
+        <ul><li>
+            <img src="resources/comScience_logo.png" height="30px">
+        </li></ul>
+        </div>
+
+</footer>
+
+</html>
