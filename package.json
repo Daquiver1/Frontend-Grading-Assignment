@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "bootstrap": "^5.3.2",
+    "react-data-table-component": "^7.5.4",
+    "react-router-dom": "^6.20.1"
+  }
+}
