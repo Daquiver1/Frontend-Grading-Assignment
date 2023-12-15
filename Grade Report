@@ -1,0 +1,12 @@
+import React from 'react';
+
+const GradeReport = () => {
+  return (
+    <div>
+      <h2>Grade Report</h2>
+      {/* Detailed view of courses and grades */}
+    </div>
+  );
+};
+
+export default GradeReport;

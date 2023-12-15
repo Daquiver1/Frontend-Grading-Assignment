@@ -1,0 +1,12 @@
+import React from 'react';
+
+const LandingPage = () => {
+  return (
+    <div className="mt-4">
+      <h1>Welcome to the Missing Grade Reporting System</h1>
+      {/* Overview of the system */}
+    </div>
+  );
+};
+
+export default LandingPage;

@@ -1,0 +1,12 @@
+import React from 'react';
+
+const HelpAndSupport = () => {
+  return (
+    <div>
+      <h2>Help and Support</h2>
+      {/* FAQ section and contact form for technical support */}
+    </div>
+  );
+};
+
+export default HelpAndSupport;
