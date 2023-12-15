@@ -3,3 +3,6 @@
     color: white;
     cursor: pointer;
 }
+.sideNav{
+    display: flex;
+}

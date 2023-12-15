@@ -9,6 +9,9 @@ import { BrowserRouter as Router, Routes, Route , Switch, Link , Redirect  } fro
 import Login from './Pages/Login';
 import Support from './Pages/Support';
 import Dashboard from './Pages/Dashboard';
+import GradeReport from './Pages/GradeReport';
+import MissingGrade from './Pages/MissingGrade';
+import ContactInstructor from './Pages/ContactInstructor';
 
 
 
@@ -27,7 +30,12 @@ root.render(
     
   </Route>
   <Route path='/Pages/Support' element={<Support />}></Route>
-  <Route path='/Pages/Dashboard' element={<Dashboard />}></Route>
+    <Route path='/Pages/Dashboard' element={<Dashboard />}></Route>
+    <Route path='/Pages/GradeReport' element={<GradeReport />}></Route>
+    <Route path='/Pages/MissingGrade' element ={<MissingGrade />}></Route>
+    <Route path='/Pages/ContactInstructor' element ={<ContactInstructor />}></Route>
+
+
  </Routes>
  </Router>
 );

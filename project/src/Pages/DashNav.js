@@ -27,7 +27,7 @@ const DashNav = () =>{
     </ReactBootStrap.NavDropdown> */}
                     </ReactBootStrap.Nav>
                     <ReactBootStrap.Nav>
-                    <ReactBootStrap.Nav.Link href="">Logout</ReactBootStrap.Nav.Link>
+                    <ReactBootStrap.Nav.Link href="/Pages/Login">Logout</ReactBootStrap.Nav.Link>
                     <ReactBootStrap.Nav.Link eventKey={2} href="/Pages/Support">
                         Support
                     </ReactBootStrap.Nav.Link>

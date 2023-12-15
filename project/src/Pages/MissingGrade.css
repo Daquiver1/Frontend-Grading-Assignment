@@ -1,0 +1,20 @@
+.formContainer{
+    position: relative;
+    top: 100px;
+}
+
+.labels{
+    color: white;
+    font-size: 20px;
+}
+.feedback{
+    color: blue;
+    font-size: larger;
+}
+.paragraph1{
+    color: rgb(6, 68, 182);
+    font-size: 45px;
+    text-align: center;
+    margin-bottom: 35px;
+    font-weight: bolder;
+}
