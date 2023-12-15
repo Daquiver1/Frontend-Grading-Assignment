@@ -1,0 +1,128 @@
+.root {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0rem;
+    text-align: center;
+    background-color: rgba(167, 167, 167, 0);
+    border-radius: 0px;
+    opacity: 0.9;
+    opacity: 1;
+    width: 100%;
+}
+
+.logo {
+    padding: 1.25em;
+    will-change: filter;
+    transition: filter 300ms;
+}
+
+.logo:hover {
+    filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+.logo.react:hover {
+    filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+.logo.ts:hover {
+    filter: drop-shadow(0 0 2em #3178c6aa);
+}
+
+.logo.scss:hover {
+    filter: drop-shadow(0 0 2em #cc6698aa);
+}
+
+@keyframes logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    a:nth-of-type(2) .logo {
+        animation: logo-spin infinite 20s linear;
+    }
+}
+
+.card {
+    padding: 2em;
+}
+
+.read-the-docs {
+    color: #888;
+}
+
+.NAVBAR {
+    margin: 1px;
+}
+
+.landingPg {
+    margin-top: 0px;
+    height: 100vh;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-origin: padding-box;
+    background-clip: border-box;
+    background-position: 50% center;
+    background-size: cover;
+    background-attachment: scroll;
+    background-image: url('https://wallpaper-house.com/data/out/9/wallpaper2you_319527.jpg');
+}
+
+.intro {
+    margin-left: 61px;
+    height: 100vh;
+    width: 92.5%;
+    background-color: white;
+    text-align: center;
+}
+
+.overview {
+    background-color: #1f2225;
+    margin-left: 0px;
+    margin-top: -10px;
+    margin-right: -5px;
+    max-width: none;
+    height: 100vh;
+    width: 100%;
+    background-image: none;
+    background-position: 0% 0%;
+    background-size: auto auto;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-origin: padding-box;
+    background-clip: border-box;
+    border-top: 2px solid #B1B1B1;
+}
+
+.h2 {
+    margin-top: 10px;
+    font-size: 35px;
+    text-align: start;
+    color: #FFFFFF;
+    padding-left: 120px;
+    padding-top: 30px;
+}
+
+.h3 {
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: justify;
+    color: #D7D7D7;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding-right: 100px;
+    padding-left: 10px;
+    border: 0px solid #B1AEAE;
+    margin-left: 110px;
+    font-weight: 400;
+    border-left: 2px solid #B1AEAE;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    margin-right: 100px;
+    border-right: 2px solid #B1AEAE;
+}
