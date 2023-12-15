@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: #080710;
+  background-color: #b2aae7;
 }
 
 .background {
@@ -34,7 +34,7 @@ body {
 
 .shape:last-child {
   background: linear-gradient(to right,
-      #161330,
+      #1a09b3,
       #1b1831);
   right: -30px;
   bottom: -80px;

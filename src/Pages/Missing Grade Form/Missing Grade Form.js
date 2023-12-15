@@ -1,5 +1,5 @@
 import React from 'react'
-import "./Missing Grade Report.css"
+import ".//Missing Grade Report.css"
 
 
 const MissingGradeReport= () => {

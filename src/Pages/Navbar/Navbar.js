@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import ".//Navbar.css"
 import { BsCart2 } from "react-icons/bs";
 import { HiOutlineBars3 } from "react-icons/hi2";
 import { Link } from 'react-router-dom';
@@ -15,6 +16,7 @@ import HomeIcon from "@mui/icons-material/Home";
 import InfoIcon from "@mui/icons-material/Info";
 import CommentRoundedIcon from "@mui/icons-material/CommentRounded";
 import PhoneRoundedIcon from "@mui/icons-material/PhoneRounded";
+
 
 const Navbar = () => {
   const [openMenu, setopenMenu] = useState(false);
