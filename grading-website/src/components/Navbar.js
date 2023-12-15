@@ -30,7 +30,10 @@ function Navbar() {
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link --bs-body-bg-rgb" href="#">
+                <a
+                  className="nav-link --bs-body-bg-rgb"
+                  href="http://localhost:3000/dashboard"
+                >
                   Dashboard
                 </a>
               </li>
