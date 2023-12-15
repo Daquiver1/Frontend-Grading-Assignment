@@ -9,13 +9,13 @@ const DashboardData = [
     color: "gray",
     title: "Courses",
     icon: AcademicCapIcon,
-    description: "8+ Courses",
+    description: "6+ Courses",
   },
   {
     color: "blue",
     title: "CGPA",
     icon: TrophyIcon,
-    description: "3.00",
+    description: "3.60",
   },
   {
     color: "gray",

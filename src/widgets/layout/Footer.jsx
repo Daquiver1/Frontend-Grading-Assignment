@@ -65,7 +65,7 @@ export function Footer({ title, description, menus, copyright }) {
 Footer.defaultProps = {
   title: "Grade Report System",
   description:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+    "Students are now able to access and report any grades that are inadvertently omitted from their academic profiles.",
   menus: [
     {
       name: "useful links",

@@ -15,7 +15,7 @@ export const Instructors = () => {
               <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow">
                 <a href="#">
                   <img
-                    className="rounded-t-lg object-cover w-full h-40" // Set a fixed height (e.g., h-40) for consistent proportions
+                    className="rounded-t-lg object-fit w-full h-40" // Set a fixed height (e.g., h-40) for consistent proportions
                     src={imageUrl}
                     alt=""
                   />

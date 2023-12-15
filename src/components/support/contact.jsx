@@ -15,9 +15,14 @@ export function Contact() {
                   GET IN TOUCH WITH US
                 </h2>
                 <p className="mb-9 text-base leading-relaxed text-body-color ">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eius tempor incididunt ut labore e dolore magna aliqua. Ut
-                  enim adiqua minim veniam quis nostrud exercitation ullamco
+                  Encountered a missing grade? Your academic success is our
+                  priority. Connect with the us to address any grade
+                  discrepancies promptly. Whether you need clarification,
+                  assistance with reporting, or have general inquiries, we're
+                  here to help. Utilize the provided contact information, and
+                  let's work together to ensure your academic records are
+                  accurate and reflect your achievements. Get in touch – because
+                  every grade matters, and so does your success!
                 </p>
                 <div className="mb-8 flex w-full max-w-[370px]">
                   <div className="mr-6 flex h-[60px] w-full max-w-[60px] items-center justify-center overflow-hidden rounded bg-primary/5 text-primary sm:h-[70px] sm:max-w-[70px]">
@@ -39,7 +44,7 @@ export function Contact() {
                       Our Location
                     </h4>
                     <p className="text-base text-body-color :text--6">
-                      99 S.t Jomblo Park Pekanbaru 28292. Indonesia
+                      Left wing of the Registry, Close to the Great Hall.
                     </p>
                   </div>
                 </div>
@@ -79,7 +84,7 @@ export function Contact() {
                       Phone Number
                     </h4>
                     <p className="text-base text-body-color :text--6">
-                      (+62)81 414 257 9980
+                      Tel: +233 302500395
                     </p>
                   </div>
                 </div>
@@ -104,7 +109,7 @@ export function Contact() {
                       Email Address
                     </h4>
                     <p className="text-base text-body-color :text--6">
-                      info@yourdomain.com
+                      admissions@ug.edu
                     </p>
                   </div>
                 </div>

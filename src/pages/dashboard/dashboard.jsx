@@ -39,11 +39,14 @@ const Dashboard = () => {
               Grade System Report{" "}
             </h1>
 
-            <p className="font-bold text-lg text-black">Latest News</p>
+            <p className="font-bold text-lg text-black">
+              New Feature Alert: Grade Notifications!
+            </p>
 
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae
-              iure adipisci, ipsum vel magni explicabo deserunt eos sapiente nam
+              Our innovative functionality alerts you to missing grades
+              instantly. Receive timely reminders to resolve problems and update
+              academic records.
             </p>
 
             <p className="pt-5 font-semibold text-blue-400">Read more</p>
@@ -52,7 +55,7 @@ const Dashboard = () => {
           <div>
             <img
               className="rounded-md"
-              src="https://img.freepik.com/free-photo/african-woman-teaching-children-class_23-2148892563.jpg?w=1060&t=st=1702332834~exp=1702333434~hmac=8c4d1af40d323cfb747946f076a395152540dbb671382941ae9e61f222e3f04c"
+              src="https://img.freepik.com/premium-photo/online-banking-finance-banking-e-banking-concept_166258-42.jpg?size=626&ext=jpg&ga=GA1.1.188659820.1702060780&semt=ais"
             />
           </div>
         </div>
@@ -63,11 +66,14 @@ const Dashboard = () => {
               Grade System Report{" "}
             </h1>
 
-            <p className="font-bold text-lg text-black">Latest News</p>
+            <p className="font-bold text-lg text-black">
+              Enhanced Filtering Options Now Available
+            </p>
 
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae
-              iure adipisci, ipsum vel magni explicabo deserunt eos sapiente nam
+              We added powerful filtering to the Grade Report page. Sort grades
+              by semester or academic year for a more efficient and personalised
+              experience.
             </p>
 
             <p className="pt-5 font-semibold text-blue-400">Read more</p>
@@ -76,57 +82,7 @@ const Dashboard = () => {
           <div>
             <img
               className="rounded-md"
-              src="https://img.freepik.com/free-photo/african-woman-teaching-children-class_23-2148892563.jpg?w=1060&t=st=1702332834~exp=1702333434~hmac=8c4d1af40d323cfb747946f076a395152540dbb671382941ae9e61f222e3f04c"
-            />
-          </div>
-        </div>
-      </section>
-
-      <section className="flex flex-row  justify-between space-x-4 mx-auto max-w-screen-2xl container p-8">
-        <div className="rounded-lg bg-white p-5 w-full flex flex-row justify-between space-x-5">
-          <div className="max-w-sm space-y-1 ">
-            <h1 className="font-semibold text-gray-700">
-              Grade System Report{" "}
-            </h1>
-
-            <p className="font-bold text-lg text-black">Latest News</p>
-
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae
-              iure adipisci, ipsum vel magni explicabo deserunt eos sapiente nam
-            </p>
-
-            <p className="pt-5 font-semibold text-blue-400">Read more</p>
-          </div>
-
-          <div>
-            <img
-              className="rounded-md"
-              src="https://img.freepik.com/free-photo/african-woman-teaching-children-class_23-2148892563.jpg?w=1060&t=st=1702332834~exp=1702333434~hmac=8c4d1af40d323cfb747946f076a395152540dbb671382941ae9e61f222e3f04c"
-            />
-          </div>
-        </div>
-
-        <div className="rounded-lg bg-white p-5 w-full flex flex-row justify-between space-x-5">
-          <div className="max-w-sm space-y-1 ">
-            <h1 className="font-semibold text-gray-700">
-              Grade System Report{" "}
-            </h1>
-
-            <p className="font-bold text-lg text-black">Latest News</p>
-
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae
-              iure adipisci, ipsum vel magni explicabo deserunt eos sapiente nam
-            </p>
-
-            <p className="pt-5 font-semibold text-blue-400">Read more</p>
-          </div>
-
-          <div>
-            <img
-              className="rounded-md"
-              src="https://img.freepik.com/free-photo/african-woman-teaching-children-class_23-2148892563.jpg?w=1060&t=st=1702332834~exp=1702333434~hmac=8c4d1af40d323cfb747946f076a395152540dbb671382941ae9e61f222e3f04c"
+              src="https://img.freepik.com/free-photo/upgrade-update-new-version-better-graphics-concept_53876-132183.jpg?size=626&ext=jpg&ga=GA1.1.188659820.1702060780&semt=ais"
             />
           </div>
         </div>
@@ -139,11 +95,14 @@ const Dashboard = () => {
               Grade System Report{" "}
             </h1>
 
-            <p className="font-bold text-lg text-black">Latest News</p>
+            <p className="font-bold text-lg text-black">
+              Important Update: Revised Missing Grade Form
+            </p>
 
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae
-              iure adipisci, ipsum vel magni explicabo deserunt eos sapiente nam
+              Your input counts! We simplified the Missing Grade Form for
+              reporting. See how the updated style and features make reporting
+              missing grades easier.
             </p>
 
             <p className="pt-5 font-semibold text-blue-400">Read more</p>
@@ -152,7 +111,7 @@ const Dashboard = () => {
           <div>
             <img
               className="rounded-md"
-              src="https://img.freepik.com/free-photo/african-woman-teaching-children-class_23-2148892563.jpg?w=1060&t=st=1702332834~exp=1702333434~hmac=8c4d1af40d323cfb747946f076a395152540dbb671382941ae9e61f222e3f04c"
+              src="https://img.freepik.com/free-photo/student-id-card-identification-data-information-education-concept_53876-132190.jpg?size=626&ext=jpg&ga=GA1.1.188659820.1702060780&semt=ais"
             />
           </div>
         </div>
@@ -163,11 +122,14 @@ const Dashboard = () => {
               Grade System Report{" "}
             </h1>
 
-            <p className="font-bold text-lg text-black">Latest News</p>
+            <p className="font-bold text-lg text-black">
+              Instructor Contact: Simulated Email Feature Live!
+            </p>
 
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae
-              iure adipisci, ipsum vel magni explicabo deserunt eos sapiente nam
+              Our Instructor Contact page's simulated email lets you easily
+              communicate with instructors. It's not email, but it's useful for
+              communicating and clarifying grades.
             </p>
 
             <p className="pt-5 font-semibold text-blue-400">Read more</p>
@@ -176,7 +138,63 @@ const Dashboard = () => {
           <div>
             <img
               className="rounded-md"
-              src="https://img.freepik.com/free-photo/african-woman-teaching-children-class_23-2148892563.jpg?w=1060&t=st=1702332834~exp=1702333434~hmac=8c4d1af40d323cfb747946f076a395152540dbb671382941ae9e61f222e3f04c"
+              src="https://img.freepik.com/free-photo/medium-shot-smiley-woman-recording-herself_23-2149272201.jpg?size=626&ext=jpg&ga=GA1.1.188659820.1702060780&semt=ais"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section className="flex flex-row  justify-between space-x-4 mx-auto max-w-screen-2xl container p-8">
+        <div className="rounded-lg bg-white p-5 w-full flex flex-row justify-between space-x-5">
+          <div className="max-w-sm space-y-1 ">
+            <h1 className="font-semibold text-gray-700">
+              Grade System Report{" "}
+            </h1>
+
+            <p className="font-bold text-lg text-black">
+              Tech Support at Your Fingertips
+            </p>
+
+            <p>
+              Need assistance? Our Help and Support page includes a contact form
+              for technical support. Reach out with any questions and our
+              support team will get back to you.
+            </p>
+
+            <p className="pt-5 font-semibold text-blue-400">Read more</p>
+          </div>
+
+          <div>
+            <img
+              className="rounded-md"
+              src="https://img.freepik.com/free-photo/ethnic-businessman-pointing-up_23-2147768611.jpg?size=626&ext=jpg&ga=GA1.1.188659820.1702060780&semt=ais"
+            />
+          </div>
+        </div>
+
+        <div className="rounded-lg bg-white p-5 w-full flex flex-row justify-between space-x-5">
+          <div className="max-w-sm space-y-1 ">
+            <h1 className="font-semibold text-gray-700">
+              Grade System Report{" "}
+            </h1>
+
+            <p className="font-bold text-lg text-black">
+              Coming Soon: Mobile App for On-the-Go Access
+            </p>
+
+            <p>
+              Great news! We're finishing the Missing Grade Report System
+              smartphone app. Soon, you may check grades, missing grade reports,
+              and more on your phone.
+            </p>
+
+            <p className="pt-5 font-semibold text-blue-400">Read more</p>
+          </div>
+
+          <div>
+            <img
+              className="rounded-md"
+              src="https://img.freepik.com/free-photo/schedule-time-management-planner-concept_53876-121130.jpg?size=626&ext=jpg&ga=GA1.1.188659820.1702060780&semt=ais"
             />
           </div>
         </div>

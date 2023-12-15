@@ -31,7 +31,7 @@ const MissingGradeReport = () => {
                 />
                 <input
                   className="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
-                  type="number"
+                  type="grades"
                   placeholder="Expected Grade*"
                 />
                 <input
@@ -59,10 +59,11 @@ const MissingGradeReport = () => {
                   Drop in our office
                 </h1>
                 <p className="text-gray-400">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Aliquam tincidunt arcu diam, eu feugiat felis fermentum id.
-                  Curabitur vitae nibh viverra, auctor turpis sed, scelerisque
-                  ex.
+                  Please visit our office if your course grades are missing. Get
+                  personalised help, discuss your problems, and verify your
+                  academic records. We're here to help you succeed. Join us
+                  today to quickly and efficiently resolve missing grade
+                  reports.
                 </p>
 
                 <div className="flex my-4 w-2/3 lg:w-1/2">
@@ -72,7 +73,7 @@ const MissingGradeReport = () => {
                   <div className="flex flex-col">
                     <h2 className="text-2xl">Main Office</h2>
                     <p className="text-gray-400">
-                      5555 Tailwind RD, Pleasant Grove, UT 73533
+                      Left wing of the Registry, Close to the Great Hall.
                     </p>
                   </div>
                 </div>
@@ -83,8 +84,8 @@ const MissingGradeReport = () => {
                   </div>
                   <div className="flex flex-col">
                     <h2 className="text-2xl">Call Us</h2>
-                    <p className="text-gray-400">Tel: xxx-xxx-xxx</p>
-                    <p className="text-gray-400">Fax: xxx-xxx-xxx</p>
+                    <p className="text-gray-400">Tel: +233 302500395</p>
+                    <p className="text-gray-400">Tel: +233 531100065</p>
                   </div>
                 </div>
 
