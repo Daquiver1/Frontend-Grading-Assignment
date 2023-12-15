@@ -2,6 +2,7 @@ import React from "react";
 import "./Home.css"
 import SideBar from "../../sidebar/SideBar";
 import NavBar from "../../navbar/NavBar";
+import Widget from "../../widget/Widget";
 
 const Home =() => {
     return(
@@ -9,7 +10,11 @@ const Home =() => {
             <SideBar />
             <div className="homeContainer">
                 <NavBar />
-                navbar container
+                <div className="widgets">
+                    <Widget />
+                    <Widget />
+                    <Widget />
+                </div>
             </div>
         </div>
     );

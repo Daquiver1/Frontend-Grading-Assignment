@@ -4,7 +4,7 @@ import SearchOutlinedIcon from '@mui/icons-material/SearchOutlined';
 import LanguageOutlinedIcon from '@mui/icons-material/LanguageOutlined';
 import ChatOutlinedIcon from '@mui/icons-material/ChatOutlined';
 import ListAltOutlinedIcon from '@mui/icons-material/ListAltOutlined';
-
+import profile from '../asserts/blank-profile-picture-973460_960_720.webp';
 
 const NavBar = () => {
     return(
@@ -14,7 +14,7 @@ const NavBar = () => {
                     <input type="text" placeholder="Search" />
                     <SearchOutlinedIcon />
                 </div>
-                <div className="iterm">
+                <div className="items">
                     <div className="item">
                         <LanguageOutlinedIcon />
                         English
@@ -26,6 +26,9 @@ const NavBar = () => {
                     <div className="item">
                         <ListAltOutlinedIcon  />
                         Lists
+                    </div>
+                    <div className="item">
+                        <img src= {profile} alt=" " className="avatar" />
                     </div>
                 </div>
             </div>
