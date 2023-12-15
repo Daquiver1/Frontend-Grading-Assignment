@@ -16,12 +16,12 @@ const LoginForm = () => {
   };
 
   const handleForgotUsername = () => {
-    console.log('Forgot Username');
+    console.log('Forgot StudentID');
     // Implement logic for handling forgot username
   };
 
   const handleForgotPassword = () => {
-    console.log('Forgot Password');
+    console.log('Forgot Pin');
     // Implement logic for handling forgot password
   };
 
@@ -29,11 +29,12 @@ const LoginForm = () => {
     e.preventDefault();
     if (showSignup) {
       console.log('Signing up...');
-      // Implement logic for signup
+      // Simulated logic for signup (would involve backend API call in a real setup)
+      navigate('/dashboard'); // Redirect to dashboard after successful signup
     } else {
       console.log('Logging in...');
-      // Redirect to the dashboard upon successful login
-      navigate('/dashboard');
+      // Simulated logic for login (would involve backend API call in a real setup)
+      navigate('/dashboard'); // Redirect to dashboard after successful login
     }
   };
 
@@ -43,7 +44,7 @@ const LoginForm = () => {
         <h2>Login</h2>
         <form onSubmit={handleSubmit}>
           <div className="input-container">
-            <input type="text" placeholder="Username" />
+            <input type="text" placeholder="Student ID" />
             <button
               type="button"
               className="forgot-button"
@@ -55,7 +56,7 @@ const LoginForm = () => {
           <div className="input-container relative">
             <input
               type={showPassword ? 'text' : 'password'}
-              placeholder="Password"
+              placeholder="Pin"
             />
             <button
               type="button"
