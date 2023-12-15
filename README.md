@@ -1,5 +1,8 @@
 # Student Grade Reporting System Frontend
 
+# Name: Bayat Osman
+# Student ID: 11288689
+
 ## Project Overview
 
 This project is a front-end web application for a Student Grade Reporting System. It simulates a real-world application where students can view, report, and manage their academic grades. This system addresses the issue of missing or unrecorded grades in a student's profile.
@@ -37,7 +40,42 @@ This will start the application on `localhost` at the default port.
 
 ## Usage
 
-Describe how to use the application, highlighting key functionalities such as logging in, viewing grades, reporting missing grades, and contacting instructors.
+1. **Logging In**
+Open the application in your web browser.
+Navigate to the login page.
+Enter your student credentials (ID and pin).
+Click the "Login" button to access the dashboard.
+
+2. **Dashboard**
+Upon successful login, you will be redirected to the dashboard.
+The dashboard provides an overview of your current grades and highlights any missing grades.
+Use the navigation menu to explore different sections of the application.
+
+3. **Grade Report**
+To view detailed information about your grades, go to the "Grade Report" page.
+You can filter grades by semester or academic year to get a comprehensive view of your academic performance.
+Click on each grade entry to see additional details.
+
+4. **Missing Grade Form**
+If you notice any missing grades, navigate to the "Missing Grade Form" page.
+Fill out the form with the necessary details, including the course name, instructor, and any supporting information.
+Submit the form to report the missing grade.
+
+5. **Instructor Contact Page**
+Visit the "Instructor Contact Page" to find contact information for your instructors.
+If needed, you can simulate sending an email to your instructors directly from the application.
+
+6. **Help and Support**
+If you have any questions or encounter issues, check the "Help and Support" page.
+Browse through the FAQs for common queries.
+Use the mock support contact form to submit specific inquiries or problems not covered in the FAQs.
+
+**Note*
+Ensure that your browser has JavaScript enabled for the application to function correctly.
+For the best experience, use the latest version of modern web browsers like Chrome, Firefox, or Safari.
+
+**Feedback*
+Your feedback is valuable. If you encounter any bugs or have suggestions for improvements, please submit them through the "Help and Support" page or contribute directly by following the guidelines in the "Contribution" section.
 
 ## Contribution
 
