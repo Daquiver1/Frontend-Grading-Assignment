@@ -28,10 +28,10 @@ const LoginPage = () => {
   };
 
   return (
-< div className='log-ground'>
+<body>
     <div className= 'joint-container'>
       <div className='login-container'> 
-     <  div className="login-header"> <h2 className='login-text' >Login Page</h2></div> 
+     <  div className="login-header"> <h2 className='login-text' >LOGIN</h2></div> 
           <form>
             <div className='box'>
           
@@ -60,7 +60,7 @@ const LoginPage = () => {
         </div>
       <div className="ei"></div>
   </div>
-</div>
+  </body>
   );
 };
 

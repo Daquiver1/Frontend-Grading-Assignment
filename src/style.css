@@ -41,10 +41,6 @@
 }
 /*LOGINPAGE*/
 
-.log-ground{
-background-image: linear-gradient(90deg, );
-}
-
 .container{
     display:flex;
     align-items: center;
@@ -88,7 +84,8 @@ a.nav-link{
     background-image: url(./icons/login.png);
     background-size: 450px 450px;
     background-repeat: no-repeat;
-    background-position: ;
+    border: 1.5px solid lightblue;
+    
 }
 
 
@@ -105,7 +102,7 @@ a.nav-link{
 
 
 .login-text{
-    color:rgb(23, 23, 103);
+    color: whitesmoke;
     font-size: 30px;
     font-style:inherit;
     font-weight:bolder;
@@ -123,10 +120,10 @@ a.nav-link{
     margin-right: 50px;
     width:350px;
     height: 40px;
-    background-color: beige;
+    background-color: whitesmoke;
     border-radius: 6px;
     border: none;
-    border-bottom: 1px solid;
+    border-bottom: 1px solid rgb(23, 23, 103);
     margin-top: 60px;
     margin-left: 45px;
 }
@@ -136,21 +133,32 @@ a.nav-link{
     align-items: center;
     width: 350px;
     height: 40px;
-    background-color: beige;
+    background-color: whitesmoke;
     border: none;
     border-radius: 6px;
-    border-bottom: 1px solid;
+    border-bottom: 1px solid rgb(23, 23, 103);
     margin-top: 80px;
     
 }
 
 .loginbutton{background-color: aliceblue;
-    margin-top: 50px;
+    margin-top: 30px;
     border: solid 1px rgb(23, 23, 103);
     padding: 5px 30px 5px 30px;
     border-radius: 40px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    
+    color: rgb(23, 23, 103);
+    transition: 0.5s;
+}
+
+.loginbutton:hover{
+    color:aliceblue;
+    border:solid 1px aliceblue ;
+    background-color:rgb(23, 23, 103);
+    padding-left: 20px;
+    padding-right: 20px;
+
+
 }
 
 .forgot-password{
