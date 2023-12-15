@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import './LoginPage.css';
-import '../components/Sidebar.css';
 
 const LoginPage = () => {
   const [studentId, setStudentId] = useState('');
@@ -40,12 +39,7 @@ const LoginPage = () => {
         <h2>Welcome to the Student Portal</h2>
         <p>Please enter your credentials to log in.</p>
 
-        <img
-          src="https://example.com/your-image-url.jpg"
-          alt="Student Portal Illustration"
-          className="portal-image"
-        />
-
+      
         <form onSubmit={handleSubmit}>
           <label>
             Student ID:
