@@ -5,6 +5,7 @@ import './App.css'
 import Home from './home/Home';
 import About from './components/about/About';
 import LoginSignup from './components/login-signup/LoginSignup';
+import Help from './components/help/Help';
 
 export const App = () => {
   return (
@@ -15,6 +16,7 @@ export const App = () => {
           <Route path = '/' exact component = {Home}/> 
           <Route path = '/about' exact component = {About}/> 
           <Route path = '/login-signup' exact component = {LoginSignup}/> 
+          <Route path = '/help' exact component = {Help}/> 
         </Switch>
       </Router>
 
@@ -23,4 +25,4 @@ export const App = () => {
 }
 
 
-export default App;
+export default App
