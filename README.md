@@ -1,4 +1,5 @@
 # Student Grade Reporting System Frontend
+![Frontendgradingsytem](./Frontendgradingsystem.png)
 
 ## Project Overview
 
@@ -19,7 +20,7 @@ The application consists of 7 main pages:
 ## Technical Details
 
 - **Framework/Technology Used:** [React]
-- **Responsive Design:** Implemented using [CSS Flexbox/Grid, Bootstrap, Tailwind CSS].
+- **Responsive Design:** Implemented using [CSS Flexbox/Grid, Bootstrap].
 - **JavaScript Functionality:** Used for form validations, dynamic content rendering, and simulating interactions.
 
 ## Setup and Installation
@@ -33,19 +34,54 @@ npm install
 npm start
 ```
 
-This will start the application on `localhost` at the default port.
+This will start the application on `localhost` at the default port: **[3000]**.
+
+## Alternative Setup, Installation, Deployment and Packaging
+
+### Docker
+Ensure that __[Docker](https://www.docker.com/)__ is installed on the host machine and the follow the steps below to start up the application 
+
+### Step 1: Build the Docker 
+Open the project folder in the terminal. Make sure you are in the directory where the **Dockerfile** is located. In this case the project root directory. Run the following command to build the Docker image:
+```bash
+      docker build -t your-react-app .
+```
+Replace ```your-react-app``` with a suitable name for your Docker Image.
+
+### Step2: Run the Docker Container
+After the image is built, you can ran the Docker container using the following command:
+```bash
+   docker run -p 3000:3000 -d your-react-app
+```
+Replace ```your-react-app``` with the name you gave to your Docker Image
+
+Now your React application should be accessible at ```http://localhost:3000/``` in your browser.
+
+### Stop Docker container
+* List all running containers by running the command ```docker ps```
+* Identify the container you want to stop and copy the container ID 
+* Run the command ```docker stop ``` followed by the container ID. Eg. ``` docker stop [container_id or name ]```
+
 
 ## Usage
+Our application allows students to view their grades, report any missing grades, view thier course history over time and contact instructors regarding any issues. The application also provides the feature of contact IT service for support if incase the application is down or experiencing some lantency. For students to view grades or submit a missing grade request, they must be signed in to do so. This ensures that the requests submitted by the students are tracked in a user session. There is not real backed to track user session for this project scope, however I did simulate an authentication user session process by utilizing the browser's localstorage feature to keep track of user's information.
 
-Describe how to use the application, highlighting key functionalities such as logging in, viewing grades, reporting missing grades, and contacting instructors.
+```To authenticate user, use the following studentID and Password/PIN to login into the application.
+* Student ID: 11076489
+* Password/PIN: 12345
+```
 
-## Contribution
+## Testing
+For testing the application, __[Enzyme](https://airbnb.io/enzyme/)__ was used for the client React application. The following is an example of testing a basic component:
 
-To contribute to this project, please follow these guidelines:
+```javascript
+   describe("Rendering Error alert", () => {
+  it("Renders Error without crashing", () => {
+    const div = document.createElement("div");
 
-1. Fork the repository.
-2. Create a new branch for your feature.
-3. Commit your changes and push them to your branch.
-4. Submit a pull request for review.
-
-Please adhere to the project's coding standards and provide clear and detailed pull request descriptions.
+    ReactDOM.render(<Error />, div);
+    ReactDOM.unmountComponentAtNode(div);
+  });
+});
+```
+The component is tested to make sure it can rendered properly and without any errors.
