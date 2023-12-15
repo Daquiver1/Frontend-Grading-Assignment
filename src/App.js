@@ -8,6 +8,7 @@ import Grade from './pages/Grade Report';
 //import Navbar from './components/Navbar';
 import Dashboard from './pages/Dashboard';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Home from './pages/Home';
 
 function App(){
   return(
@@ -15,6 +16,7 @@ function App(){
     <Router>
   <Routes>
   <Route path="/"index element = {<Login />} />
+  <Route path='/Home' element = {<Home />} />
      <Route path='/Dashboard' element = {<Dashboard />} />
      <Route path='/Help and Support' element = {< Help and Support />} />
      <Route path='/Contact Instructor' element = {< Contact Instructor />} />

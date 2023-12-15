@@ -1,4 +1,6 @@
-
+body{
+  background-color: #fff;
+}
 .loginDesign {
   display: flex;
   flex-direction: column;

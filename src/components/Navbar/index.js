@@ -22,6 +22,10 @@ const Navbar = () => {
         <NavLink to="/Login" activeStyle>
             Login
             </NavLink>
+            <NavLink to="/Home" activeStyle>
+            Home
+            </NavLink>
+
           <NavLink to="/Dashboard" activeStyle>
             Dashboard
           </NavLink>

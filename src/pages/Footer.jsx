@@ -13,6 +13,7 @@ const Landing = () => {
               University of Ghana, Legon<br />
               Opposite the Mathematics department,<br />
               Adjacent to the RIPS building.
+                                          
             </p>
           </div>
         </div>

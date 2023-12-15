@@ -11,8 +11,6 @@ export const Login = () => {
 
       <Navbar />
       <div>
-        <img src='https://www.google.com/url?sa=i&url=https%3A%2F%2Fadmission.ug.edu.gh%2F&psig=AOvVaw3wzMcmJU3u_6mEznl7kTYC&ust=1702620087999000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCNiMnqCgjoMDFQAAAAAdAAAAABAI'></img>
-        <br></br>
         <p style={{ fontFamily: "arial, sans-serif", backgroundImage: "linear-gradient(-90deg, #DCCA9C 0%, #2E4975 100%)", textAlign: "center", boxSizing: "border-box", padding: "20px" }}>UNIVERSITY OF GHANA</p>
         <div className="loginDesign">
           <form className="login-form">
