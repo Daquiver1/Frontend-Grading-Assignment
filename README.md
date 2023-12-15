@@ -1,51 +1,81 @@
-# Student Grade Reporting System Frontend
+## Frontend-Grading
 
-## Project Overview
+### Table of Contents
 
-This project is a front-end web application for a Student Grade Reporting System. It simulates a real-world application where students can view, report, and manage their academic grades. This system addresses the issue of missing or unrecorded grades in a student's profile.
+- [About the Project](#about-the-project)
+- [Author](#author)
+- [Built With](#built-with)
+- [Live demo](#live-demo)
+- [Features Implemented](#features-implemented)
+- [Getting Started](#getting-started)
+  - [Cloning the Repository](#cloning-the-repository)
+  - [Usage](#Usage)
+- [Screenshots](#screenshots)
+- [Insights and Learnings](#insights-and-learnings)
 
-## Application Structure
+### About the Project
 
-The application consists of 7 main pages:
+This project involves developing a 7-page website acting as the front for a "Missing Grade Reporting System." The main goal is to assist students in tracking and reporting grades not recorded in their academic profiles. The website prioritizes an interactive, user-friendly interface, enabling students to view grades, report missing ones, and communicate with instructors or academic administration. The development strictly adheres to the specified technologies and restrictions outlined in the project requirements.
 
-- **Homepage:** Introduction to the system and its purpose.
-- **Login Page:** Mock login interface for student authentication.
-- **Dashboard:** Displays an overview of the student’s current grades and alerts for missing grades.
-- **Grade Report:** Shows a detailed view of the student's grades filtered by semester or academic year.
-- **Missing Grade Form:** Enables students to report missing grades.
-- **Instructor Contact Page:** Lists instructors' contact information with a simulated email feature.
-- **Help and Support:** Provides FAQs and a mock support contact form.
+### Author
 
-## Technical Details
+- **Your Name:** Esther Osei
+- **Student ID:** 11352966
 
-- **Framework/Technology Used:** [React]
-- **Responsive Design:** Implemented using [CSS Flexbox/Grid, Bootstrap, Tailwind CSS].
-- **JavaScript Functionality:** Used for form validations, dynamic content rendering, and simulating interactions.
+#### Built With
 
-## Setup and Installation
+- Vite
+- React
+- Tailwind
 
-To set up the project locally, follow these steps:
+#### Live demo
 
-```bash
-git clone https://github.com/your-github-username/DCIT_205_ASSIGNGMENT1.git
-cd repo-name
-npm install
-npm start
+[Live demo of the project](https://esther-frontend-grading.vercel.app/)
+
+#### Features Implemented
+
+- **Responsive Design:** Ensured the website's responsiveness across various devices for optimal user experience.
+- **Pages:** Developed Landing, Login, Dashboard, Grade Report, Missing Grade Form, Instructor Contact, and Help & Support pages.
+- **Authentication Simulation:** Simulated a secure login form for students using mock-up authentication.
+- **Grade Overview and Alerts:** Provided an overview of current grades and notifications for missing ones on the Dashboard.
+
+### Getting Started
+
+To view this project locally, follow these steps:
+
+#### Cloning the Repository
+
+Clone this repository to your desired folder:
+
+```sh
+cd my-folder
+git clone https://github.com/OseiEsther/Frontend-Grading-Assignment.git
 ```
 
-This will start the application on `localhost` at the default port.
+### Usage
 
-## Usage
+- Navigate to the project directory.
+- Install Dependencies
 
-Describe how to use the application, highlighting key functionalities such as logging in, viewing grades, reporting missing grades, and contacting instructors.
+```sh
+ npm install
+```
 
-## Contribution
+Run Server
 
-To contribute to this project, please follow these guidelines:
+```sh
+ npm run dev
+```
 
-1. Fork the repository.
-2. Create a new branch for your feature.
-3. Commit your changes and push them to your branch.
-4. Submit a pull request for review.
+### Screenshots
 
-Please adhere to the project's coding standards and provide clear and detailed pull request descriptions.
+![Dashboard]('./src/assets/screenshots/dashboard.png')
+![]('./src/assets/screenshots/help.png')
+![]('./src/assets/screenshots/instructor.png')
+
+### Insights and Learnings
+
+- Gained proficiency in frontend development using React and CSS/Tailwind.
+- Learned about implementing authentication simulations for login forms.
+- Enhanced skills in creating responsive interfaces for various devices.
+- Discovered strategies for structuring and designing multi-page web applications.
