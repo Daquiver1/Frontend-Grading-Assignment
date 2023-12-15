@@ -1,0 +1,9 @@
+body {
+  background-image: url("../public/worry.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+
+  /* You can add more background properties here, such as background-position, etc. */
+}

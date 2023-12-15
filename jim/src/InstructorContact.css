@@ -1,0 +1,57 @@
+/* InstructorContactPage.css */
+
+/* Container styles */
+.instructor-contact-page {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Instructor card styles */
+.instructor-card {
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+/* Accordion header styles */
+.accordion-header {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: #f5f5f5;
+  cursor: pointer;
+}
+
+.accordion-header img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.accordion-header span {
+  font-size: 18px;
+}
+
+.accordion-header.active {
+  background-color: #ddd;
+}
+
+/* Accordion content styles */
+.accordion-content {
+  padding: 10px;
+  background-color: #fff;
+}
+
+/* Media query for responsiveness */
+@media (max-width: 600px) {
+  .accordion-header img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .accordion-header span {
+    font-size: 16px;
+  }
+}
