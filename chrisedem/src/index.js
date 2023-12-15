@@ -1,52 +1,52 @@
 import React from "react";
-import ReactDOM from "react-dom/client";
-import "./index.css";
-import App from "./App";
+import ReactDOM from "react-dom";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "bootstrap/dist/js/bootstrap.bundle.min.js";
+import App from "./App";
 import Home from "./Home";
 import Login from "./Login";
 import Dashboard from "./Dashboard";
-import Instructor from "./Instructor"; 
+import GradeReport from "./Grade report";
+import GradeReportForm from "./Missing Grade form";
+import Instructor from "./Instructor";
 import HelpAndSupport from "./Help and Support";
-import { createBrowserRouter, RouterProvider, Route } from "react-router-dom";
-
+import InstructorPage from "./Instructor";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
   },
-  
   {
-    path: "/",
+    path: "/home",
     element: <Home />,
   },
   {
-    path: "/Login",
+    path: "/login",
     element: <Login />,
   },
-
   {
-    path: "/Dashboard",
+    path: "/dashboard",
     element: <Dashboard />,
   },
-
   {
-    path:"/Instructor",
-    element: <Instructor/>,
+    path: "/gradereport",
+    element: <GradeReport />,
   },
   {
-    path:"/Help and Support",
-    element: <HelpAndSupport/>
-  }
-  
-
-
-  
-  
-  
+    path: "/gradereportform",
+    element: <GradeReportForm />,
+  },
+  {
+    path: "/InstructorPage",
+    element: <InstructorPage />,
+  },
+  {
+    path: "/Help and Support",
+    element: <HelpAndSupport />,
+  },
 ]);
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>

@@ -22,19 +22,32 @@ const Navbar = () => {
     <Link class="nav-link active" aria-current="page" to='/login'>Login</Link>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/Dashboard">Dashboard</a>
+        <Link class="nav-link active" to='/Dashboard' aria-current="page">Dashboard</Link>
+       
+          
         </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="/" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        <li class="nav-item">
+    <Link class="nav-link active" aria-current="page" to='/gradereport'>Grade Report</Link>
+        </li>
+        <li class="nav-item">
+    <Link class="nav-link active" aria-current="page" to="/gradereportform">Missing Grade form</Link>
+        </li>
+        <li class="nav-item">
+        <Link class="nav-link active" to='/InstructorPage' aria-current="page">Instructor</Link>
+        </li>
+        <li> <Link class="nav-link active" to='/Help and Support' aria-current="page">Help and Support</Link>
+  </li>
+        {/* <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="" role="button" data-bs-toggle="dropdown" aria-expanded="false">
            Contacts
           </a>
           <ul class="dropdown-menu" >
-            <li> <Link to='/Instructor' aria-current="page">Instructor</Link></li>
+            <li> <Link to='/InstructorPage' aria-current="page">Instructor</Link></li>
             <li> <Link to='/Help and Support' aria-current="page">Help and Support</Link>
   </li>
             
           </ul>
-        </li>
+        </li> */}
       </ul>
     </div>
   </div>
