@@ -1,13 +1,13 @@
 import Header from "../Components/header"
 import Footer from "../Components/footer"
-import HomeBody from "../Components/homeBody"
+import LandingPage from "../Components/homeBody"
 
 
 export default function Home() {
     return(
         <>
         <Header/>
-        <HomeBody/>
+        <LandingPage/>
         <Footer/>
         </>
     )    

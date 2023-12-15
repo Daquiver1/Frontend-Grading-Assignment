@@ -25,8 +25,18 @@
 }
 
 #signuppagebg {
+  margin-top: 40px;
+  width: 97%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#generalpgbg{
   margin-top: 10px;
   width: 97%;
+  padding-top: 20px;
+  padding-bottom: 20px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -70,6 +80,8 @@ body {
   padding: 0;
   background-color: #f0f0f0;
 }
+
+/*DashBoard Page Styles*/
 h1,
 h2 {
   color: #323131;
@@ -104,9 +116,18 @@ tr:nth-child(even) {
 #helpandsupportbg {
   margin-top: 10px;
   padding-top: 20px;
-padding-bottom: 20px;
+  padding-bottom: 20px;
   width: 97%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/*Contact Form for Technical Support Styles*/
+#issue {
+  width: 100%;
+}
+
+#details {
+  width: 100%;
 }
 
 /*Need tghe media Query because of the shrinkage*/

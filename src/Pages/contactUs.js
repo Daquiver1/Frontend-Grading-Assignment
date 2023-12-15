@@ -12,7 +12,7 @@ export default function ContactUs() {
 
                 <div id="sidebarContentPositioning">
                     
-                    <div class="container card text-bg-dark" id="signuppagebg">
+                    <div class="container card text-bg-dark" id="generalpgbg">
                         <div className="container" id="signinborder">
                         <h2 id="dashboardH2" >Lecturers With Their Respective Contacts</h2>
                         <table class="table table-secondary " >

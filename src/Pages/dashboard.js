@@ -14,7 +14,7 @@ export default function Dashboard() {
             </div>
 
                     <div id="sidebarContentPositioning">
-                        <div class="container card text-bg-dark" id="signuppagebg" >
+                        <div class="container card text-bg-dark" id="generalpgbg" >
                         <div class="alert alert-warning alert-dismissible fade show" role="alert" id="alert">
                             <strong>Alert!</strong> You have <strong>1</strong> missing grade. Check Subject and fill <strong>Grade Report Form!</strong>.<strong> Thank You</strong>
                             <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
@@ -27,7 +27,7 @@ export default function Dashboard() {
                         <p id="dashboardp"><strong>ID:</strong> 123456</p>
                         <p id="dashboardp"><strong>Major:</strong> Computer Science</p>
 
-                        <h2 id="dashboardH2" >Current Semester</h2>
+                        <h2 id="dashboardH2" >Current SEMester</h2>
                         <p id="dashboardp"><strong>Semester:</strong> 2nd Semester 2023</p>
 
                         <table class="table table-secondary">
@@ -50,7 +50,7 @@ export default function Dashboard() {
                                 <th scope="row">2</th>
                                 <td>DCIT 203</td>
                                 <td>Digital and Logic System Design</td>
-                                <td>Missing</td>
+                                <td>-</td>
                                 </tr>
                                 <tr>
                                 <th scope="row">3</th>

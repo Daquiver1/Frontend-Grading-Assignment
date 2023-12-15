@@ -7,7 +7,7 @@ export default function LoginPageBody() {
         <div class="container card text-bg-dark" id="signuppagebg">
             <div className="container" id="signinborder"> 
                 <img src={UgLogo} className="d-grid gap-2 col-2 mx-auto" alt="uglogo" ></img>
-            <   h1 className="text-center">PLease Sign Into Your Account</h1>
+            <   h1 className="text-center ">PLease Sign Into Your Account</h1>
                 <div class="d-grid gap-2 col-4 mx-auto">
                     <label for="exampleFormControlInput1" class="visually-hidden">ID</label>
                     <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="12345678"/>
