@@ -1,5 +1,6 @@
 import React from "react";
 import "../Styles/LandPage.css";
+import { Link } from "react-router-dom";
 
 const LandPage = () => {
   return (
@@ -16,7 +17,9 @@ const LandPage = () => {
         </p>
       </div>
       <div className="land-nav">
-        <button>Login</button>
+        <Link to="/login">
+        <button className="login-button"> Login</button>
+        </Link>
         <button>Cancel</button>
       </div>
     </div>

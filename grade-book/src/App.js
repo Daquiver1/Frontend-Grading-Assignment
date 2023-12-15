@@ -10,15 +10,43 @@ import HelpAndSupportPage from "./Components/HelpAndSupportPage";
 
 const router =createBrowserRouter([
   {
-    path: "/"
-    
-  }
-])
+    path: "/",
+    element: <LandPage/> ,  
+  },
+  {
+    path: "/home",
+    element: <HomePage/>   ,
+  },
+  {
+    path: "/dashboard",
+    element: <DashboardPage/> ,  
+  },
+  {
+    path: "/login",
+    element: <LoginPage/> ,  
+  },
+  {
+    path: "/helpandsupport",
+    element: <HelpAndSupportPage/> ,  
+  },
+  {
+    path: "/contact",
+    element: <ContactPage/> ,  
+  },
+  {
+    path: "/missinggrade",
+    element: <MissingGradePage/>,   
+  },
+  {
+    path: "/gradereport",
+    element: <GradeReportPage/> ,  
+  },
+]);
 
 
 function App() {
   return (
-  <LandPage/>
+  <RouterProvider router={router} />
   );
 }
 

@@ -28,13 +28,13 @@ const Footer = () => {
         <h3>links</h3>
         <ul className="links">
           <li>
-            <a href="HomePage.js">Home</a>
+            <a href="/Home">Home</a>
           </li>
           <li>
-            <a href="../Components/HelpAndSupportPage.js">Help</a>
+          <a href="/Dashboard">Dashboard</a>
           </li>
           <li>
-            <a href="../Components/PrivacyAndSecurityPage.js">Privacy</a>
+          <a href="/HelpAndSupport">Help</a>
           </li>
         </ul>
       </div>

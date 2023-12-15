@@ -30,7 +30,7 @@
     margin-right: auto;
    }
    
-   button {
+   .login-button {
     padding: 15px 45px;
     background-color: #00357a;
     color: white;
