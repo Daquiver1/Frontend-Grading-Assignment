@@ -31,10 +31,10 @@ const GradeForm = () => {
 
   return (
     <>
-      {/* <NavBar /> */}
+      <NavBar />
       <div className="row">
         <div className="col-md-12 col-lg-4">
-          {/* <Sidebar /> */}
+          <Sidebar />
         </div>
 
         <div className="col-md-12 col-lg-8">
@@ -202,7 +202,7 @@ const GradeForm = () => {
           </div>
         </div>
       </div>
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 };
