@@ -1,0 +1,19 @@
+.main-pic{
+    width: 1263px;
+    height: 500px;
+    object-fit: cover;
+}
+
+.tutor{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+
+}
+.pic{
+    width: 400px;
+    height: 200px;
+    object-fit: fill;
+    margin-right: 40px;
+}

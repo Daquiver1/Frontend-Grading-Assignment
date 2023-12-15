@@ -1,0 +1,22 @@
+.footer{
+    border-top-width: 1px;
+    border-top-color: rgb(234, 230, 230);
+    border-top-style:solid ;
+    background-color: #00357a;
+    
+}
+.footer-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+.footer-info > p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    text-transform: capitalize;
+    color: white;
+    padding: 20px 80px 20px 50px;
+}
