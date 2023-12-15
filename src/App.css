@@ -1,0 +1,147 @@
+#SignUp-LogIn {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+#footer {
+  margin-top: 10px;
+}
+
+#exampleFormControlInput1 {
+  margin-bottom: 10px;
+}
+
+#inputPassword2 {
+  margin-bottom: 10px;
+}
+
+#homebodybackground {
+  margin-top: 70px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 97%;
+}
+
+#signuppagebg {
+  margin-top: 40px;
+  width: 97%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#generalpgbg{
+  margin-top: 10px;
+  width: 97%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#QuickHelpAndSuppportbg{
+  margin-top: 70px;
+  width: 97%;
+  padding-top: 5px;
+  padding-bottom: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+#submit-btn {
+  margin-bottom: 10px;
+}
+
+.nav-pills li a:hover {
+  background-color: blue;
+}
+
+#sidebarDiv {
+  margin-left: 0;
+  z-index: 1;
+}
+
+/*Alert for missing grade*/
+#alert {
+  margin-top: 10px;
+}
+
+#Parent {
+  display: flex;
+}
+
+#sidebarPositioning {
+  position: fixed;
+}
+
+#sidebarContentPositioning {
+  flex-grow: 1;
+  margin-left: 250px;
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+/*DashBoard Page Styles*/
+h1,
+h2 {
+  color: #323131;
+}
+p,
+td {
+  color: #cecece;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th,
+td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+th {
+  background-color: #4caf50;
+  color: white;
+}
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#dashboardH2 {
+  margin-left: 10px;
+}
+#dashboardp {
+  margin-left: 10px;
+}
+#helpandsupportbg {
+  margin-top: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 97%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/*Contact Form for Technical Support Styles*/
+#issue {
+  width: 100%;
+}
+
+#details {
+  width: 100%;
+}
+
+/*Need tghe media Query because of the shrinkage*/
+@media (max-width: 580px) {
+  #sidebarContentPositioning {
+    flex-grow: 1;
+    margin-left: 76px;
+  }
+}

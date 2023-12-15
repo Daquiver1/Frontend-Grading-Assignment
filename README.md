@@ -19,7 +19,7 @@ The application consists of 7 main pages:
 ## Technical Details
 
 - **Framework/Technology Used:** [React]
-- **Responsive Design:** Implemented using [CSS Flexbox/Grid, Bootstrap, Tailwind CSS].
+- **Responsive Design:** Implemented using [CSS Flexbox/Grid, Bootstrap].
 - **JavaScript Functionality:** Used for form validations, dynamic content rendering, and simulating interactions.
 
 ## Setup and Installation
@@ -27,7 +27,7 @@ The application consists of 7 main pages:
 To set up the project locally, follow these steps:
 
 ```bash
-git clone https://github.com/your-github-username/DCIT_205_ASSIGNGMENT1.git
+git clone https://github.com/takyisky/11012438_DCIT205_Assignment1.git
 cd repo-name
 npm install
 npm start
@@ -37,7 +37,13 @@ This will start the application on `localhost` at the default port.
 
 ## Usage
 
-Describe how to use the application, highlighting key functionalities such as logging in, viewing grades, reporting missing grades, and contacting instructors.
+1. To use the Application you need to login first immediately you get to the landing page.
+2. After login in with the right cridentials you would find the rest simple due to the well layouted side nav bar.
+3. You can go to the missing grade section to report a missing grade.
+4. You can view all your courses with their respective grades at the grade report section.
+5. This page also allows you to automatically send an emails to any of your lecturers and this can be done at the contact section.
+6. You can also find some FAQS and assitance at the help and support section.
+
 
 ## Contribution
 
@@ -49,3 +55,17 @@ To contribute to this project, please follow these guidelines:
 4. Submit a pull request for review.
 
 Please adhere to the project's coding standards and provide clear and detailed pull request descriptions.
+
+## Screenshot of App
+![Alt text](<public/Screenshots/Screenshot (249).png>)
+![Alt text](<public/Screenshots/Screenshot (250).png>)
+![Alt text](<public/Screenshots/Screenshot (251).png>)
+![Alt text](<public/Screenshots/Screenshot (252).png>)
+![Alt text](<public/Screenshots/Screenshot (253).png>)
+![Alt text](<public/Screenshots/Screenshot (254).png>)
+![Alt text](<public/Screenshots/Screenshot (255).png>) 
+![Alt text](<public/Screenshots/Screenshot (256).png>) 
+![Alt text](<public/Screenshots/Screenshot (257).png>)
+![Alt text](<public/Screenshots/Screenshot (258).png>)
+![Alt text](<public/Screenshots/Screenshot (259).png>)
+![Alt text](<public/Screenshots/Screenshot (260).png>) 
