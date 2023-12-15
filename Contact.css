@@ -177,7 +177,7 @@ button {
   color: aliceblue;
 }
 
-body {
+.BodyMain {
   display: flex;
   justify-content: center;
   align-items:center;
