@@ -4,7 +4,7 @@
 
 This project is a front-end web application for a Student Grade Reporting System. It simulates a real-world application where students can view, report, and manage their academic grades. This system addresses the issue of missing or unrecorded grades in a student's profile.
 
-**Developer's Name:8** 
+**Developer's Name:** 
 Osei Frank Adams
 **Developer's ID:**
 11254384
@@ -21,6 +21,17 @@ The application consists of 7 main pages:
 - **Missing Grade Form:** Enables students to report missing grades.
 - **Instructor Contact Page:** Lists instructors' contact information with a simulated email feature.
 - **Help and Support:** Provides FAQs and a mock support contact form.
+
+## Screenshots
+![Home](https://github.com/Healer2003/11254384_DCIT205_ASSIGNMENT1/assets/151882972/564d346a-f85e-4138-8ef9-f05f40a7fe12)
+![Login](https://github.com/Healer2003/11254384_DCIT205_ASSIGNMENT1/assets/151882972/5f39fa26-b80f-47e5-8543-3d763c626fa3)
+![Dashboard1](https://github.com/Healer2003/11254384_DCIT205_ASSIGNMENT1/assets/151882972/c6bc49c7-ec3f-435f-9a03-b7834dacbd41)
+![Dashboard2](https://github.com/Healer2003/11254384_DCIT205_ASSIGNMENT1/assets/151882972/2169fa9f-e972-4de3-b022-60452787a5bf)
+![GradeReport](https://github.com/Healer2003/11254384_DCIT205_ASSIGNMENT1/assets/151882972/83a38ced-a436-41c5-9b33-6efbc684b9f8)
+![ContactInstructor](https://github.com/Healer2003/11254384_DCIT205_ASSIGNMENT1/assets/151882972/f36586c1-1e01-45ac-9409-c11bcc76cc6c)
+![MissingGrades](https://github.com/Healer2003/11254384_DCIT205_ASSIGNMENT1/assets/151882972/9f90cec7-2362-4847-9631-84eec0be997f)
+![HelpandSupport1](https://github.com/Healer2003/11254384_DCIT205_ASSIGNMENT1/assets/151882972/3d56cb6f-1eb6-4408-a459-5d9b7c811c37)
+![HelpandSupport2](https://github.com/Healer2003/11254384_DCIT205_ASSIGNMENT1/assets/151882972/28c36a6f-1586-4bb5-89d3-b5c2f4c9fa05)
 
 ## Technical Details
 
