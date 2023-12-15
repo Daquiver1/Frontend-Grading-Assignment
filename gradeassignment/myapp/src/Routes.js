@@ -6,12 +6,12 @@ export const Routers =() => {
   return(
     <Router>
       <Routes>
-        <Route path="./pages/LandingPage" exact>
+        <Route path="/" exact>
           <LandingPage />
         </Route>
-
+        <Route path='./pages/LoginPage'></Route>
       </Routes>
     </Router>
   )
 }
-export default Route;
+export default Routers;

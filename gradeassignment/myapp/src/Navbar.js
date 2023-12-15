@@ -1,10 +1,15 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 
 export default function Navbar() {
   return <nav className="nav"> (
     <nav>
-      {/* Navbar content */}
+      <ul>
+        <li>
+          <Link to="./pages/DashboardPage"></Link>
+        </li>
+      </ul>
     </nav>
   );
  
