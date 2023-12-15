@@ -69,7 +69,7 @@ To effectively use the application, follow these steps:
 
 ### Home Page
 ![Screenshot 1](./frontend-grading-assignment/public/Capture.JPG)
-![Screenshot 1](./frontend-grading-assignment/public/hom.JPG)
+![Screenshot 1](./frontend-grading-assignment/public/home.JPG)
 
 #### Login Page
 ![Screenshot 1](./frontend-grading-assignment/public/Login.JPG)
@@ -80,7 +80,7 @@ To effectively use the application, follow these steps:
 
 ### Grade Report Page
 ![Screenshot 1](./frontend-grading-assignment/public/report.JPG)
-![Screenshot 1](./frontend-grading-assignment/public/report.JPG)
+![Screenshot 1](./frontend-grading-assignment/public/report1.JPG)
 
 ### Missing Grade Form Page
 ![Screenshot 1](./frontend-grading-assignment/public/missing.JPG)
@@ -88,7 +88,7 @@ To effectively use the application, follow these steps:
 
 ### Instructors Page
 ![Screenshot 1](./frontend-grading-assignment/public/contact.JPG)
-![Screenshot 1](./frontend-grading-assignment/public/Contact1.JPG)
+![Screenshot 1](./frontend-grading-assignment/public/contact1.JPG)
 
 ### Help and Support Page
 ![Screenshot 1](./frontend-grading-assignment/public/help.JPG)
