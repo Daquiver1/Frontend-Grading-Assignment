@@ -1,4 +1,4 @@
-import { useContext, useEffect } from "react";
+import { useContext, useEffect, useState } from "react";
 import $ from "jquery";
 import "jquery/dist/jquery.min.js";
 import "datatables.net-bs4/js/dataTables.bootstrap4.min.js";
@@ -6,9 +6,16 @@ import "datatables.net-bs4/css/dataTables.bootstrap4.min.css";
 
 import { NavLink } from "react-router-dom";
 import { StudentContext } from "../StudentContext";
-import reportData from "../data/ReportData";
+import allReportData from "../data/ReportData";
 
 const Grades = () => {
+    const [filter, setFilter] = useState("2020/2021");
+    let [reportData, setReportData] = useState(allReportData.filter((data) => data.accademicYear === filter));
+
+    const handleFilter = (e) => {
+        setFilter(e.target.value);
+        setReportData(allReportData.filter((data) => data.accademicYear === e.target.value));
+    };
 
     useEffect(() => {
         $(document).ready(function () {
@@ -45,6 +52,21 @@ const Grades = () => {
                 <div className="card-header py-3">
                     <h4 className="m-0 font-weight-bold text-primary">Grades Report</h4>
                 </div>
+                {/* Option to filter by academic year. */}
+                <div className="card-header py-3">
+                    <div className="row">
+                        <div className="col-md-6">
+                            <h6 className="m-0 font-weight-bold text-primary">Filter by Academic Year</h6>
+                        </div>
+                        <div className="col-md-6">
+                            <select className="form-control" onChange={(e) => handleFilter(e)}>
+                                <option value="2020/2021">2020/2021</option>
+                                <option value="2019/2020">2019/2020</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
                 <div className="card-body">
                     <div className="table-responsive">
                         <table id="gradesTable" className="table table-bordered table-striped table-hover" width="100%" cellSpacing="0">

@@ -5,7 +5,8 @@ export default [
         grade: "B+",
         gpa: "3.3",
         creditHours: 4,
-        instructorName: "Prof. Robert Williams"
+        instructorName: "Prof. Robert Williams",
+        accademicYear: "2020/2021",
     },
     {
         courseName: "Data Structures and Algorithms",
@@ -13,7 +14,8 @@ export default [
         grade: "A",
         gpa: "4.0",
         creditHours: 3,
-        instructorName: "Dr. Mark Attah"
+        instructorName: "Dr. Mark Attah",
+        accademicYear: "2020/2021",
     },
     {
         courseName: "Multimedia and Web Design",
@@ -21,7 +23,8 @@ export default [
         grade: "B+",
         gpa: "3.3",
         creditHours: 3,
-        instructorName: "Dr. Soli Michael"
+        instructorName: "Dr. Soli Michael",
+        accademicYear: "2020/2021",
     },
     {
         courseName: "Literature and Composition",
@@ -29,7 +32,8 @@ export default [
         grade: "A",
         gpa: "3.7",
         creditHours: 3,
-        instructorName: "Dr. Sarah Thompson"
+        instructorName: "Dr. Sarah Thompson",
+        accademicYear: "2020/2021",
     },
     {
         courseName: "History of Art",
@@ -37,7 +41,8 @@ export default [
         grade: "B",
         gpa: "3.0",
         creditHours: 3,
-        instructorName: "Prof. Michael Davis"
+        instructorName: "Prof. Michael Davis",
+        accademicYear: "2020/2021",
     },
     {
         courseName: "Introduction to Psychology",
@@ -45,7 +50,8 @@ export default [
         grade: "A+",
         gpa: "4.0",
         creditHours: 3,
-        instructorName: "Dr. Amanda Johnson"
+        instructorName: "Dr. Amanda Johnson",
+        accademicYear: "2020/2021",
     },
     {
         courseName: "Introduction to Computer Science",
@@ -53,7 +59,8 @@ export default [
         grade: "A",
         gpa: "4.0",
         creditHours: 3,
-        instructorName: "Dr. Amanda Johnson"
+        instructorName: "Dr. Amanda Johnson",
+        accademicYear: "2019/2020",
     },
     {
         courseName: "Literature and Composition",
@@ -61,7 +68,8 @@ export default [
         grade: "A-",
         gpa: "3.7",
         creditHours: 3,
-        instructorName: "Dr. Sarah Thompson"
+        instructorName: "Dr. Sarah Thompson",
+        accademicYear: "2019/2020",
     },
     {
         courseName: "Introduction to Computer Science",
@@ -69,7 +77,8 @@ export default [
         grade: "A",
         gpa: "4.0",
         creditHours: 3,
-        instructorName: "Dr. Amanda Johnson"
+        instructorName: "Dr. Amanda Johnson",
+        accademicYear: "2019/2020",
     },
     {
         courseName: "Calculus I",
@@ -77,7 +86,8 @@ export default [
         grade: "B+",
         gpa: "3.3",
         creditHours: 4,
-        instructorName: "Prof. Robert Williams"
+        instructorName: "Prof. Robert Williams",
+        accademicYear: "2019/2020",
     },
     {
         courseName: "History of Art",
@@ -85,7 +95,8 @@ export default [
         grade: "B",
         gpa: "3.0",
         creditHours: 3,
-        instructorName: "Prof. Michael Davis"
+        instructorName: "Prof. Michael Davis",
+        accademicYear: "2019/2020",
     },
     {
         courseName: "Introduction to Psychology",
@@ -93,7 +104,8 @@ export default [
         grade: "A+",
         gpa: "4.0",
         creditHours: 3,
-        instructorName: "Dr. Amanda Johnson"
+        instructorName: "Dr. Amanda Johnson",
+        accademicYear: "2019/2020",
     },
     {
         courseName: "Introduction to Computer Science",
@@ -101,7 +113,8 @@ export default [
         grade: "A",
         gpa: "4.0",
         creditHours: 3,
-        instructorName: "Dr. Amanda Johnson"
+        instructorName: "Dr. Amanda Johnson",
+        accademicYear: "2019/2020",
     },
     {
         courseName: "Calculus I",
@@ -109,7 +122,8 @@ export default [
         grade: "B+",
         gpa: "3.3",
         creditHours: 4,
-        instructorName: "Prof. Robert Williams"
+        instructorName: "Prof. Robert Williams",
+        accademicYear: "2020/2021",
     },
     {
         courseName: "Literature and Composition",
@@ -117,6 +131,7 @@ export default [
         grade: "A-",
         gpa: "3.7",
         creditHours: 3,
-        instructorName: "Dr. Sarah Thompson"
+        instructorName: "Dr. Sarah Thompson",
+        accademicYear: "2020/2021",
     },
 ];

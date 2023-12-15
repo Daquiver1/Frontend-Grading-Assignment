@@ -53,6 +53,25 @@ const Dashboard = () => {
                 ))}
             </div>
             
+            {/* Alerts or notifications for any missing grades. */}
+
+            <div className="container-fluid">
+                <div className="d-sm-flex align-items-center justify-content-between mb-4">
+                    <h4 className="h3 my-4 font-weight-bold text-success">Alerts</h4>
+                </div>
+                <div className="row">
+                    <div className="bg-warning text-white col-xl-12 col-md-12 mb-4">
+                        <div className="card-body">
+                            <h4 className="h3 my-4 font-weight-bold text-white">Missing Grades</h4>
+                            <p className="text-white">You have 2 missing grades. Please contact your instructor.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        
+
+
            
 
             {/* academic performance area chart */}
