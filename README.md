@@ -35,9 +35,25 @@ npm start
 
 This will start the application on `localhost` at the default port.
 
-## Usage
+# Usage
+## Logging In:
+Open the Missing Grade Reporting System application in your web browser.
+You will be greeted with a landing page providing information about the system.
+Locate the "Login" link from the side bar.
+Click on the "Login" link, which should take you to the login page.
+Enter your credentials, such as username and password, to log in to the system.
 
-Describe how to use the application, highlighting key functionalities such as logging in, viewing grades, reporting missing grades, and contacting instructors.
+## Viewing Grades:
+On the dashboard, from the sidebar to view your current grades and gives your alert when there is missing grade
+The grade reportpage unable you to view the all the grades from every semester and also helps you to filter out semesters.
+
+## Contacting Instructors:
+Explore the sidebar to find the "Instructors Contact".
+Click on the "Instructors Contact" link to access a page with a list of instructors.
+Find the instructor you want to contact and click on their name or an associated link.
+The system may their  email for internal messaging.
+Compose your message, including details about the missing grade or any other inquiry.
+Send the message, and the instructor will be notified.
 
 ## Contribution
 
@@ -49,3 +65,29 @@ To contribute to this project, please follow these guidelines:
 4. Submit a pull request for review.
 
 Please adhere to the project's coding standards and provide clear and detailed pull request descriptions.
+
+##Home Page
+![Capture1](https://github.com/LouisaEco/Frontend-Grading-Assignment/assets/147488916/697ba703-58ad-4456-b86f-ede853dc8d7a)
+![Capture2](https://github.com/LouisaEco/Frontend-Grading-Assignment/assets/147488916/0e2fadb2-0679-4f75-b19e-0e19a7b5a6df)
+##Login Page
+![Capture3](https://github.com/LouisaEco/Frontend-Grading-Assignment/assets/147488916/73c998ad-6ad5-44ee-a167-3cee8ff15873)
+##Dashboard
+![Capture4](https://github.com/LouisaEco/Frontend-Grading-Assignment/assets/147488916/5bfe0465-da0b-4e0b-a10b-1ec5bc69c7f4)
+![Capture5](https://github.com/LouisaEco/Frontend-Grading-Assignment/assets/147488916/3643923b-34d2-47dd-ab5f-5be58a10d3fc)
+##Grade Report Page
+![Capture6](https://github.com/LouisaEco/Frontend-Grading-Assignment/assets/147488916/255b8755-2328-43ee-b920-957e0931f6c1)
+![Capture7](https://github.com/LouisaEco/Frontend-Grading-Assignment/assets/147488916/e5be0d4d-7f90-4299-ae7f-3fcdf254595d)
+![Capture8](https://github.com/LouisaEco/Frontend-Grading-Assignment/assets/147488916/002eb0f4-d932-456c-ad19-3ce6aad7d256)
+![Capture9](https://github.com/LouisaEco/Frontend-Grading-Assignment/assets/147488916/163f77eb-6ee2-4a32-bb88-b2ddf3fa1a67)
+![Capture10](https://github.com/LouisaEco/Frontend-Grading-Assignment/assets/147488916/822e363c-89c1-47b8-805c-2a9b8b1040bd)
+![Capture11](https://github.com/LouisaEco/Frontend-Grading-Assignment/assets/147488916/013d1321-77cb-4126-b343-bf64b2e7d510)
+![Capture12](https://github.com/LouisaEco/Frontend-Grading-Assignment/assets/147488916/74241898-c56d-443b-93a4-7c836beb31ee)
+##Missing Grade Form
+![Capture13](https://github.com/LouisaEco/Frontend-Grading-Assignment/assets/147488916/57dc3a54-eb2a-452c-ae43-d34ea657b527)
+##Instructor's Contact Form
+![Capture14](https://github.com/LouisaEco/Frontend-Grading-Assignment/assets/147488916/e96dfcae-0a7e-40ea-8a36-d18c1ae8e2d5)
+![Capture15](https://github.com/LouisaEco/Frontend-Grading-Assignment/assets/147488916/789789f2-bafe-4600-ba29-8f9d49d080ea)
+![Capture16](https://github.com/LouisaEco/Frontend-Grading-Assignment/assets/147488916/90c9ad4a-ef30-4f21-9b53-3db8d042d413)
+##Help and Support Page
+![Capture17](https://github.com/LouisaEco/Frontend-Grading-Assignment/assets/147488916/bdac749c-e0b0-414c-adf4-b9f8beca49ee)
+

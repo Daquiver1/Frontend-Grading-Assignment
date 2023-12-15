@@ -1,0 +1,60 @@
+.dashboard-container {
+  padding: 20px;
+}
+
+.dashboard-title {
+  color: #333;
+}
+
+.dashboard-content {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.grade-overview,
+.missing-grades-alerts {
+  background-color: #f5f5f5;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  flex: 1;
+}
+
+.grade-overview h3,
+.missing-grades-alerts h3 {
+  color: #333;
+  margin-bottom: 10px; /* Add margin to separate heading from content */
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px; /* Add margin to separate table from heading */
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #ddd;
+}
+
+.alert-item {
+  margin-bottom: 10px;
+  padding: 8px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.alert-type {
+  color: red;
+  margin-right: 5px;
+}
+
+.table-content {
+  font-size: 10px;
+}

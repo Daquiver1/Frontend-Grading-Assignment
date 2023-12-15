@@ -1,0 +1,22 @@
+/* Landingpage.css */
+.landing-page-container {
+  padding: 20px;
+  text-align: justify;
+}
+
+.additional-content {
+  margin-top: 20px;
+}
+
+
+.image-section img {
+  max-width: 50%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.footer {
+  margin-top: 20px;
+  text-align: center;
+  color: #666;
+}

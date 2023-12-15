@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Missing Grade Reporting System</title>
+    <!-- Add your CSS link for styling -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- Navigation Bar -->
+<nav>
+    <ul>
+        <li><a href="landing.html">Home</a></li>
+        <li><a href="#login">Login</a></li>
+        <li><a href="#dashboard">Dashboard</a></li>
+        <li><a href="#grade-report">Grade Report</a></li>
+        <li><a href="#missing-grade-form">Missing Grade Form</a></li>
+        <li><a href="#instructor-contact">Instructor Contact</a></li>
+        <li><a href="#help-support">Help and Support</a></li>
+        <!-- Add other navigation links as needed -->
+    </ul>
+</nav>
+
+<!-- Login Page Content -->
+<section id="login">
+    <div class="login-container">
+        <h1>Welcome to the Missing Grade Reporting System</h1>
+        <p>
+            Log in to your account to access your grades, report missing grades, and communicate with your instructors.
+        </p>
+
+        <!-- Add error message display if needed -->
+        <form action="#" method="post" id="login-form">
+            <label for="student-id">Student ID:</label>
+            <input type="text" id="student-id" name="student-id" placeholder="Enter your Student ID" required>
+
+            <label for="pin">PIN:</label>
+            <input type="password" id="pin" name="pin" placeholder="Enter your PIN" required>
+
+            <button type="submit">Login</button>
+        </form>
+
+        <!-- Password recovery link -->
+        <p class="forgot-password"><a href="#forgot-password">Forgot your PIN?</a></p>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer>
+    <p>&copy; 2023 Missing Grade Reporting System. All rights reserved.</p>
+    <!-- Add more footer content and links as needed -->
+</footer>
+
+</body>
+</html>
