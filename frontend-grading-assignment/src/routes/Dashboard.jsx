@@ -4,7 +4,114 @@ const Dashboard = () => {
       
     return (
         <div>
-            <h2 className="text-center mt-5 fw-bolder">ACADEMIC RECORDS</h2>
+            <div className="row mt-3 px-3">
+                    <div className="col-12 col-md-4">
+                        <div className="card bg-secondary py-3">
+                            <div className="card-body py-2 text-white d-flex justify-content-around">
+                                <div>
+                                    <span className="fs-1 fw-bolder me-2">
+                                        4
+                                    </span> <br />
+                                    <span>Levels</span>
+                                </div>
+                                <div>
+                                    <p className="fs-1">
+                                    <i class="bi bi-database"></i>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-12 col-md-4">
+                        <div className="card bg-warning py-3">
+                            <div className="card-body py-2 text-white d-flex justify-content-around">
+                                <div>
+                                    <span className="fs-1 fw-bolder me-2">
+                                        6
+                                    </span> <br />
+                                    <span>Faculties</span>
+                                </div>
+                                <div>
+                                    <p className="fs-1">
+                                    <i class="bi bi-building"></i>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-12 col-md-4">
+                        <div className="card bg-danger py-3">
+                            <div className="card-body py-2 text-white d-flex justify-content-around">
+                                <div>
+                                    <span className="fs-1 fw-bolder me-2">
+                                        0
+                                    </span> <br />
+                                    <span>Failed No.</span>
+                                </div>
+                                <div>
+                                    <p className="fs-1">
+                                    <i class="bi bi-x-circle-fill"></i>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+
+            <div className="row mt-5 px-3">
+                    <div className="col-12 col-md-4">
+                        <div className="card bg-blue py-3">
+                            <div className="card-body py-2 text-white d-flex justify-content-around">
+                                <div>
+                                    <span className="fs-1 fw-bolder me-2">
+                                        1
+                                    </span> <br />
+                                    <span>Least Credit Hour</span>
+                                </div>
+                                <div>
+                                    <p className="fs-1">
+                                    <i class="bi bi-arrow-down-circle"></i>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-12 col-md-4">
+                        <div className="card bg-success py-3">
+                            <div className="card-body py-2 text-white d-flex justify-content-around">
+                                <div>
+                                    <span className="fs-1 fw-bolder me-2">
+                                        3
+                                    </span> <br />
+                                    <span>Highest Credit Hours</span>
+                                </div>
+                                <div>
+                                    <p className="fs-1">
+                                    <i class="bi bi-arrow-up-circle"></i>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-12 col-md-4">
+                        <div className="card bg-info py-3">
+                            <div className="card-body py-2 text-white d-flex justify-content-around">
+                                <div>
+                                    <span className="fs-1 fw-bolder me-2">
+                                        0
+                                    </span> <br />
+                                    <span>Passed No.</span>
+                                </div>
+                                <div>
+                                    <p className="fs-1">
+                                    <i class="bi bi-check-circle"></i>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <h2 className="text-center mt-5 bg-blue fw-bolder py-5 mx-3">RICHMOND's ACADEMIC RECORDS</h2>
             <div classNmae="container">
                 <div className="d-flex justify-content-around p-4 mt-5">
                     <p className='fw-bold'>

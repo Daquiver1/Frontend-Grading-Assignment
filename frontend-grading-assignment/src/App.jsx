@@ -112,9 +112,9 @@ const App = () => {
 
           <section>
             <footer>
-              <div className="container-fluid py-5 bg-blue">
-                 <div className="container">
-                    <div className="row text-center align-items-end">
+              <div className="container-fluid py-4 bg-blue">
+                 <div className="container py-3">
+                    {/* <div className="row text-center align-items-end">
                       <div className="col-sm-6 col-md-6 col-xl-3">
                         <p className="py-2 text-start">Copyright ©2023</p>
                         <p className="text-start">Developed with 
@@ -122,8 +122,25 @@ const App = () => {
                           by Richmond Andoh
                         </p>
                       </div>
-                    </div>
+                      {/* <div className="col-sm-6 col-md-6">
+                        <div className="container">
+                          <form action="">
+                            <span>
+                              <input type="email" name="personaEmail" id="email" className="form-control" />
+                            </span>
+                            <span>
+                              <button type="submit" className="btn btn-warning bbtn-md">Subscribe</button>
+                            </span>
+                          </form>
+                        </div>
+                      </div> 
+                    </div> */}
+                    
                  </div>
+                 <p className="text-center"> 
+                      Copyright ©2023 | Dveloped with <span><i className="bi bi-balloon-heart-fill text-danger px-2"></i></span>
+                      by Richmond Andoh
+                    </p>
               </div>
             </footer>
           </section>

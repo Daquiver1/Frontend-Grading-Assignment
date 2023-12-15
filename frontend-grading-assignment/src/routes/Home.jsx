@@ -99,34 +99,60 @@ const Home = () => {
                     </div>
                 </div>
                 
-                <div className="row mt-3">
-                    <div className="col-12 col-md-6">
-                        <div className="card bg-blue">
-                            <div className="card-body py-2 text-white">
-                                <p className="fs-1">
-                                    <i className="bi bi-people"></i>
-                                </p>
-                                <span className="fs-1 fw-bolder me-2">
-                                    {count}
-                                </span> <br />
-                                <span>Students</span>
+                {/* <div className="row mt-3 px-3">
+                    <div className="col-12 col-md-4">
+                        <div className="card bg-danger py-3">
+                            <div className="card-body py-2 text-white d-flex justify-content-around">
+                                <div>
+                                    <span className="fs-1 fw-bolder me-2">
+                                        4
+                                    </span> <br />
+                                    <span>Levels</span>
+                                </div>
+                                <div>
+                                    <p className="fs-1">
+                                    <i class="bi bi-database"></i>
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div className="col-12 col-md-6">
-                        <div className="card bg-blue">
-                            <div className="card-body py-2 text-white">
-                                <p className="fs-1">
-                                    <i className="bi bi-people"></i>
-                                </p>
-                                <span className="fs-1 fw-bolder me-2">
-                                    {count}
-                                </span> <br />
-                                <span>Students</span>
+                    <div className="col-12 col-md-4">
+                        <div className="card bg-warning py-3">
+                            <div className="card-body py-2 text-white d-flex justify-content-around">
+                                <div>
+                                    <span className="fs-1 fw-bolder me-2">
+                                        6
+                                    </span> <br />
+                                    <span>Faculties</span>
+                                </div>
+                                <div>
+                                    <p className="fs-1">
+                                    <i class="bi bi-building"></i>
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
+                    <div className="col-12 col-md-4">
+                        <div className="card bg-secondary py-3">
+                            <div className="card-body py-2 text-white d-flex justify-content-around">
+                                <div>
+                                    <span className="fs-1 fw-bolder me-2">
+                                        6
+                                    </span> <br />
+                                    <span>Faculties</span>
+                                </div>
+                                <div>
+                                    <p className="fs-1">
+                                    <i class="bi bi-building"></i>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> */}
+
                  <section>
                         <div className="container bg-white mt-5">
                             <div className="row">

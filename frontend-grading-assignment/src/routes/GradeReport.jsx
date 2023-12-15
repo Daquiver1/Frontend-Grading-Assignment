@@ -11,10 +11,10 @@ const GradeReport = () => {
     
     return(
         <div>
-            <div className="container my-5 py-4 px-4 bg-white" style={{boxShadow: "0px 4px 8px 0px #757575"}}>
+            <div className="container my-5 py-4 px-4 bg-blue" style={{boxShadow: "0px 4px 8px 0px #757575"}}>
                 <div className="row">
                     <div className="col-md-6">
-                        <p>Welcome <span>Richmond Manu Andoh</span></p>
+                        <p>Welcome: <span>Richmond Manu Andoh</span></p>
                         <p>Student Number: <span>11254304</span></p>
                     </div>
                     <div className="col-md-6">

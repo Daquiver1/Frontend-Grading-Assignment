@@ -44,7 +44,7 @@ const Login = () => {
                                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQ8ddM1QIfpYGCah6V6xY3dsQ_mS6JPMGPng&usqp=CAU" className="img-fluid float-center" alt="" />
                                     </div>
                                 </div>
-                                <form>
+                                <form method="POST" action="/login">
 
                                     <div className="form-floating mb-3 mt-3">
                                         <input type="text" value={studentId} onChange={e => setStudentId(e.target.value)} className="form-control mt-2" name="studentId" id="floatingInputText" placeholder="1211282" />
