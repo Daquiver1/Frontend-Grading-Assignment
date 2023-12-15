@@ -3,7 +3,10 @@ import LandingFooter from "../Components/pagefooter";
 import LandingHeader from "../Components/pageheader";
 
 
-function Gradereport(){      
+function Gradereport(){   
+    const buttonify2=() =>{
+        alert('Report Filtered!');
+};   
     return(    
                 <div>
                     <LandingHeader/>
@@ -13,7 +16,18 @@ function Gradereport(){
                         <div  className="flex text-[23pt]">
                         <p>John Doe Jnr</p>
                         <p className="ml-[50px]">Level 200</p>
-                        <p className="ml-[50px]">Computer Science</p>
+                        <p className="ml-[50px]">Computer Science </p>
+                        <form  className="ml-[50px]">
+        <label>
+            <input type="radio" name="level" value="100" /> Level 100
+        </label>
+
+        <label className="ml-[50px]">
+            <input type="radio" name="level" value="200" /> Level 200
+        </label>
+
+        <button onClick={buttonify2} className="ml-[45px] text-green-50 rounded-lg bg-[#5f5fdf]" id="submit">Filter</button>
+    </form>
                         </div>
                         <hr/>
                     </div>
@@ -174,7 +188,7 @@ function Gradereport(){
             </tbody>
         </table>
                     </div>
-                    <div>
+                    <div className="ml-[25px] mb-[-10px]">
                         <LandingFooter/>
                     </div>
                 </div>
