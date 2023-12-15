@@ -1,5 +1,6 @@
 import React from 'react';
 import './gradeReportNavBar.css'
+import { Link } from 'react-router-dom';
 
 import gradesreport_logo from '../Assests/gradesReportLogo.png'
 
@@ -17,13 +18,13 @@ const GradesReportNavBar = () => {
     <nav className="navbar">
       <ul className='nav-left'>
         <li><img src={gradesreport_logo} alt="" className='dashboardLogo' /></li>
-        <li className='li-border'><a href="/overview"><img src={home_icon} alt="" className='nav-icons' /> Home </a></li>
-        <li className='li-border'><a href="/dashboard"><img src={dashboard_icon} alt="" className='nav-icons' /> Dashboard </a></li>
-        <li className='li-border'><a href="/gradeReport"><img src={grades_icon} alt="" className='nav-icons' /> Grades Report </a></li>
+        <li className='li-border'><Link to="/overview"><img src={home_icon} alt="" className='nav-icons' /> Home </Link></li>
+        <li className='li-border'><Link to="/dashboard"><img src={dashboard_icon} alt="" className='nav-icons' /> Dashboard </Link></li>
+        <li className='li-border'><Link to="/grade-report"><img src={grades_icon} alt="" className='nav-icons' /> Grades Report </Link></li>
       </ul>
       <ul className='nav-right'>
-        <li className='li-border'><a href="/helpSupport"><img src={helpsupport_icon} alt="" className='nav-icons' /> Help & Support </a></li>
-        <li className='li-border'><a href="/instructorContact"><img src={contacts_icon} alt="" className='nav-icons' /> Contacts </a></li>
+        <li className='li-border'><Link to="/help-and-support"><img src={helpsupport_icon} alt="" className='nav-icons' /> Help & Support </Link></li>
+        <li className='li-border'><Link to="/contacts"><img src={contacts_icon} alt="" className='nav-icons' /> Contacts </Link></li>
       </ul>
     </nav>
   );
