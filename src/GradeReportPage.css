@@ -1,0 +1,20 @@
+.grade-report-page {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    margin: 2rem auto;
+    max-width: 800px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .grade-report-page .filter-section {
+    margin-bottom: 2rem;
+  }
+  
+  .grade-report-page .grade-details .semester-report {
+    margin-bottom: 1rem;
+  }
+  
+  .grade-report-page .course-grade-item {
+    margin-bottom: 0.5rem;
+  }

@@ -1,0 +1,38 @@
+.missing-grade-form-page {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    margin: 2rem auto;
+    max-width: 600px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .missing-grade-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .missing-grade-form .form-group {
+    margin-bottom: 1rem;
+  }
+  
+  .missing-grade-form label {
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+  }
+  
+  .missing-grade-form input,
+  .missing-grade-form textarea {
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .missing-grade-form button.submit-btn {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .missing-grade-form button.submit-btn:hover {
+    background-color: #0056b3;
+  }
