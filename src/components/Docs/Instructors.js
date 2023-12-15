@@ -3,10 +3,10 @@ import Layout from "../Layout/layout";
 
 const contacts =[
 
-  {name:"Instructor one",phone:'0240000000',email:'email@example1'},
-  {name:"Instructor two",phone:'0240007777',email:'email@example2'},
-  {name:"Instructor three",phone:'0241234567',email:'email@example3'},
-  {name:"Instructor four",phone:'0249990009',email:'email@example4'},
+  {name:"Instructor One",phone:'0240000000',email:'email@example1'},
+  {name:"Instructor Two",phone:'0240007777',email:'email@example2'},
+  {name:"Instructor Three",phone:'0241234567',email:'email@example3'},
+  {name:"Instructor Four",phone:'0249990009',email:'email@example4'},
 
 ];
 
@@ -25,8 +25,8 @@ export default function Dashboard(){
           <thead class="border-b font-medium dark:border-neutral-500">
             <tr>
               <th scope="col" class="px-6 py-4">Instructors</th>
-              <th scope="col" class="px-6 py-4">contacts</th>
-              <th scope="col" class="px-6 py-4">email</th>
+              <th scope="col" class="px-6 py-4">Contacts</th>
+              <th scope="col" class="px-6 py-4">Email</th>
             </tr>
           </thead>
           <tbody>
