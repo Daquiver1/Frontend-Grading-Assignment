@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const LNavbar = () => {
+const Navbar = () => {
         return (
             <div className="ml-[100px] mt-[6.7px]">
                 <nav className="flex justify-between">
@@ -31,4 +31,4 @@ const LNavbar = () => {
         )
         
     }   
-export default LNavbar;
+export default Navbar;
