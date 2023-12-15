@@ -52,3 +52,16 @@ To contribute to this project, please follow these guidelines:
 4. Submit a pull request for review.
 
 Please adhere to the project's coding standards and provide clear and detailed pull request descriptions.
+
+
+## Screenshots of the Project
+![Landing page](<src/Screenshots/Screenshot (64).png>);
+![Footer](<src/Screenshots/Screenshot (65).png>);
+![Signin Page](<src/Screenshots/Screenshot (66).png>)
+![Dashboard](<src/Screenshots/Screenshot (67).png>);
+![Grade Report Form](<src/Screenshots/Screenshot (68).png>);
+![Missig Grade form](<src/Screenshots/Screenshot (69).png>)
+![Instructors' Contact](<src/Screenshots/Screenshot (70).png>)
+![FAQ & Support](<src/Screenshots/Screenshot (71).png>)
+![Email](<src/Screenshots/Screenshot (72).png>)
+![Grade Chart](<src/Screenshots/Screenshot (73).png>)
