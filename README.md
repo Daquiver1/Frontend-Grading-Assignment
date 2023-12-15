@@ -1,7 +1,4 @@
 # React + Vite
-
-
-
 ---
 
 # Report Missing System
