@@ -21,11 +21,11 @@ const Overview = () => {
 
       <div id='flex-div'>
         <div className='report1'>
-        <a href=""><div>View your academic results report and missing grades</div></a>
+        <a href="/dashboard"><div>View your academic results report and missing grades</div></a>
       </div> 
 
       <div className='report2'>
-        <a href=""><div>Check your overraw performance and lectures report</div></a>
+        <a href="/grade-report#report-section2"><div>Check your overraw performance and lectures report</div></a>
       </div>
 
       <div className='report3'>
