@@ -1,0 +1,39 @@
+.containerr h2{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.containerr label{
+    color: black;
+}
+
+.containerr{
+    margin-left: 60%;
+    padding: 30px;
+    width: 500px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2)
+}
+
+.containerr ::placeholder{
+    color: rgba(53, 162, 235, 0.5);
+}
+
+.containerr input, textarea{
+    font-style: italic;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    padding: 10px;
+    margin: 8px 0;
+}
+
+
+.containerr button{
+    background-color: rgba(53, 162, 235, 5);
+    color: white;
+    padding: 10px 18px;
+    border: none;
+    cursor: pointer;
+    width: 90%;
+}

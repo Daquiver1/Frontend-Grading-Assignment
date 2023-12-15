@@ -1,0 +1,75 @@
+/*Calendar Css*/
+@import url("https://cdn.syncfusion.com/ej2/material.css");
+
+/* Landing Page Styling */
+.wrapper{
+    background: linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.7)), url('./images/bg.jpg');
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.hero-btn {
+    padding: 7px 14px;
+    font-size: 0.85rem;
+    color: white;
+    font-weight: 600;
+    background: none;
+    text-transform: uppercase;
+    border: 1px solid gray;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.hero-btn:hover {
+    background: gray;
+    color:black;
+}
+
+.centered{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 350px;
+}
+
+
+.centered p{
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+
+/* Dashboard Styling */
+
+.AppHeader{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px 20px 4px 12px;
+    border-bottom: 1px solid rgba(0,0,0,.5);
+}
+
+.AppFooter{
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-top: 1px solid rgba(0,0,0,.15);
+}
+
+.SideMenuAndPageContent{
+    display: flex;
+    flex-direction: row;
+    height: calc(100vh - 100px);
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.PageContent{
+    padding: 12px;
+    font-weight: bold;
+}

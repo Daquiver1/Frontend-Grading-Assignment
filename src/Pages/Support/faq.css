@@ -1,0 +1,33 @@
+.faqs{
+    width: 400px;
+}
+
+.faq-item{
+    background: whitesmoke;
+    margin-bottom: 5px;
+    padding: 10px 20px;
+}
+
+.title{
+    color: rgba(53, 162, 235, 1);
+    font-size: 13px;
+    padding-bottom: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.content{
+    color: #000;
+    font-size: 13px;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.5s cubic-bezier(0, 1, 0, 1);
+}
+
+.content.show{
+    max-height: 9999px;
+    height: auto;
+    transition: all 0.5s cubic-bezier(1, 0, 1, 0);
+}

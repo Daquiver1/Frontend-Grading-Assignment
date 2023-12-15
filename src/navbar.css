@@ -1,0 +1,87 @@
+*, *::after, *::before {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html {
+  font-size: 80.5%;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: darkgray;
+}
+
+.nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 8vh;
+  background: linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.7));
+}
+
+.nav-logo{
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.nav-menu{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 3rem;
+  transition: 0.4s ease-in;
+}
+
+.nav-toggle div{
+  width: 2.7rem;
+  height: 0.2rem;
+  margin: 0.4rem;
+  background: darkgray;
+  transition: 0.4s ease-in;
+}
+
+.nav-toggle{
+  cursor: pointer;
+  display: none;
+}
+
+@media screen and (max-width: 768px){
+  .nav-toggle{
+    display: block;
+  }
+
+  .nav-menu{
+    position: fixed;
+    top: 7vh;
+    right: 0;
+    width: 50%;
+    height: 93vh;
+    background: linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.7));
+    flex-direction: column;
+    transform: translateX(100%);
+  }
+}
+
+.nav-menu li a:hover{
+  color: white;
+}
+
+
+.nav-active{
+  transform: translateX(0);
+}
+
+.toggle .nav-toggle-bar1{
+  transform: rotate(-45deg) translate(-5px, 4px);
+}
+.toggle .nav-toggle-bar2{
+  opacity: 0;
+}
+.toggle .nav-toggle-bar3{
+  transform: rotate(45deg) translate(-6px, -5px);
+}

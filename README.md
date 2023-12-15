@@ -23,12 +23,10 @@ The application consists of 7 main pages:
 - **JavaScript Functionality:** Used for form validations, dynamic content rendering, and simulating interactions.
 
 ## Setup and Installation
-
-To set up the project locally, follow these steps:
-
 ```bash
 git clone https://github.com/your-github-username/DCIT_205_ASSIGNGMENT1.git
 cd repo-name
+npm create-react-app .
 npm install
 npm start
 ```
