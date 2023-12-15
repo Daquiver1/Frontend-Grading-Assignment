@@ -44,8 +44,7 @@ function Navbar() {
         <Link to="/Help" class="nav-link active">Help</Link>
         </li>
         
-        
-
+       
       </ul>
       
     </div>
