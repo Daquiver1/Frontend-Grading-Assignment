@@ -1,0 +1,45 @@
+.navbar{
+width:1600px;
+height:50px;
+display: flex;
+flex-direction: row;
+z-index:100;
+}
+.navbar-container{
+  background-color: rgb(44, 42, 42);
+  position:fixed;
+  width:1600px;
+height:50px;
+}
+.tabs-container{
+position:absolute;
+left:500px;
+top:0px;
+display: flex;
+width:1500px;
+align-items: center;
+}
+@media screen and (max-width: 768px) {
+  .tabs-container {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+.nav-link{
+  color:aliceblue !important;
+  
+}
+
+.school-logo{
+  display:flex;
+  width:180px;
+  height: 50px;
+  margin-left:90px;
+  margin-top:10px;
+}
+.school-logo img{
+  width: 80%;
+  height:80%;
+  object-fit:contain;
+}
+

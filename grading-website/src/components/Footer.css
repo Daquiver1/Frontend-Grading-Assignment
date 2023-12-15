@@ -1,0 +1,127 @@
+.footer-container{
+  position: relative;
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+ height: 450px;
+ background-color:rgb(33, 33, 33);
+ bottom:-1400px;
+ right:0px;
+ left:0px;
+ border:1px solid;
+ border-color:white;
+}
+
+.quick-links-container{
+display:flex;
+flex-direction: column;
+position: absolute;
+left:100px;
+top:10px;
+}
+.quick-links-container h4,
+.contact-us-container h4,
+.newsletter-container,
+.social-media-container h4{
+  color:aliceblue;
+}
+.quick-links-container a,
+.contact-container,
+.mail-container,
+.location-container,
+.social-media a{
+  color:white !important;
+  text-decoration: none;
+  margin-left:30px;
+  margin-bottom:5px;
+}
+.quick-links-container a:hover{
+  color:rgb(131, 94, 27) !important;
+}
+.contact-us-container{
+  display:flex;
+flex-direction: column;
+position: absolute;
+left:600px;
+top:10px;
+}
+.contact-container,
+.mail-container{
+  display:flex;
+  flex-direction: row;
+}
+.contact-container img,
+.mail-container img{
+  width: 20px;
+  height: 20px;
+}
+
+.newsletter-container{
+  left:400px;
+  margin-top:20px;
+}
+.latest-container{
+  left:400px;
+  color:rgb(231, 172, 61)
+}
+.enter-email-container{
+  display: flex;
+  flex-direction: row;
+}
+.enter-email-container input{
+  height: 30px;
+  border:none;
+  padding-left: 20px;
+}
+.arrow-container img{
+  position: absolute;
+  left:8px;
+  top:5px;
+  width: 20px;
+}
+.arrow-container{
+  position: relative;
+  width:40px;
+  background-color: rgb(152, 118, 53);
+}
+.social-media-container{
+  position: absolute;
+  top:10px;
+  left:1200px;
+  display:flex;
+  flex-direction: column;
+}
+.social-media{
+  display: flex;
+  flex-direction: row;
+}
+.social-media img{
+  width: 20px;
+  height: 20px;
+  margin-top:20px;
+}
+.social-media a{
+  margin-top: 20px;
+}
+.social-media a:hover{
+  color:rgb(202, 158, 77) !important;
+  cursor:pointer;
+}
+.copyright-container{
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  left:1000px;
+  top:300px;
+  justify-content: center;
+  align-items: center;
+}
+.copyright-container p{
+  color:white;
+  font-size: 18px;
+}
+.copyright-container img{
+  width: 20px;
+  height: 20px;
+}

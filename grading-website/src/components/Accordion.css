@@ -1,0 +1,8 @@
+.accordion{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin-top:-400px;
+  margin-left: 200px;
+  width: 600px;
+}
