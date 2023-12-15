@@ -11,7 +11,7 @@ function Login ()  {
  
 
   const handleLogin = () => {
-    if (id === 'student123') {
+    if (id === '123456') {
       setIdSuccess('ID validated!');
       setIdError('');
     } else {
@@ -19,7 +19,7 @@ function Login ()  {
       setIdSuccess('');
     }
 
-    if (pin === '1234') {
+    if (pin === '7890') {
       setPinSuccess('PIN validated!');
       setPinError('');
     } else {
@@ -27,7 +27,7 @@ function Login ()  {
       setPinSuccess('');
     }
 
-    if (id === 'student123' && pin === '1234') {
+    if (id === '123456' && pin === '7890') {
         setTimeout(() => {
           alert('Login successful!');
         }, 500); 
