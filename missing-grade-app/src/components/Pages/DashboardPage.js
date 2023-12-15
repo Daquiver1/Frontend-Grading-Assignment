@@ -30,7 +30,7 @@ const Dashboard = () => {
 
   return (
     <div className="bg-white flex flex-col justify-center items-left ">
-      <h1 className="mb-5 text-5xl font-bold text-gray-700 dark:text-[#788480] group-hover:text-white bg-black py-3 px-6 rounded-md text-center transition-colors duration-300 hover:text-white cursor-pointer inline-block">Dashboard</h1>
+      <h1 className="mb-5 text-5xl font-bold text-gray-700 dark:text-[#788480] group-hover:text-white bg-black py-3 px-6 text-center transition-colors duration-300 hover:text-white cursor-pointer inline-block">Dashboard</h1>
 
       {showAlert && (
         <div className="mt-0 ml-15 flex space-x-2">

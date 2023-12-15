@@ -2,7 +2,7 @@
 
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './LandingPage.css';
+import '../LandingPage.css';
 import mckay from '../images/mckay.jpg'; 
 import nunana from '../images/nunana.jpeg';
 import henry from '../images/henry.jpeg';
