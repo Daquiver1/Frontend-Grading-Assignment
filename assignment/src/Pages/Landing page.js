@@ -1,5 +1,5 @@
-// src/pages/LandingPage.js
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Navbar from '../Components/Navbar';
 import Footer from '../Components/Footer';
 
@@ -44,19 +44,19 @@ const LandingPage = () => {
             {/* Testimonial 1 */}
             <div className="bg-indigo-100 p-4 rounded-md shadow-md">
               <p className="italic mb-2 text-gray-700">"The Missing Grade Reporting System made it so much easier for me to keep track of my grades and report any discrepancies."</p>
-              <p className="font-semibold text-teal-700">- Jane Doe, Student</p>
+              <p className="font-semibold text-teal-700">- Christian Abrokwa, Student</p>
             </div>
 
             {/* Testimonial 2 */}
             <div className="bg-indigo-100 p-4 rounded-md shadow-md">
               <p className="italic mb-2 text-gray-700">"I love how user-friendly and efficient the system is. It saved me a lot of time!"</p>
-              <p className="font-semibold text-indigo-700">- John Smith, Student</p>
+              <p className="font-semibold text-indigo-700">- Ataa Ayi, Student</p>
             </div>
 
             {/* Testimonial 3 */}
             <div className="bg-indigo-100 p-4 rounded-md shadow-md">
               <p className="italic mb-2 text-gray-700">"The Missing Grade Reporting System is a must-have tool for every student. It's reliable and easy to use."</p>
-              <p className="font-semibold text-indigo-700">- Mary Johnson, Student</p>
+              <p className="font-semibold text-indigo-700">- Mark Mensah</p>
             </div>
           </div>
         </section>
@@ -64,7 +64,9 @@ const LandingPage = () => {
         <section className="text-center">
           <h2 className="text-2xl font-bold mb-4 text-indigo-600">Get Started Today</h2>
           <p className="text-lg mb-4 text-gray-600">Don't let missing grades go unnoticed. Report them easily and keep your academic record up to date.</p>
+          <Link to="/GradeReport">
           <button className="bg-indigo-500 text-white px-6 py-3 rounded-md hover:bg-indigo-700">Get Started</button>
+        </Link>
         </section>
       </div>
       <Footer />

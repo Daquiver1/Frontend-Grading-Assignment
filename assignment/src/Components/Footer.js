@@ -1,8 +1,8 @@
 import React from "react";
 
 
-
-const Footer =() => {
+function Footer () {
+const Footer = () => {
    
         <footer className="bg-gray-900 text-white">
     <div className="md:flex md:justify-between md:items-center sm:px-12 px-7">
@@ -12,11 +12,16 @@ const Footer =() => {
          <div>
             <input type="text" placeholder="Enter phone number" className="text-gray-800
             sm:w-72 w-full sm:mr-5 lg:mb-4 py-2.5 rounded px-2 focus:outline-none" />
+            <button className="bg-teal-400 hover:bg-teal-500 duration-300 px-5 py-2.5 font-[Poppins]
+            rounded-md text-white md:w-auto w-full">Have fun
+             </button>
+
          </div>
          </div>
 
 </footer>
     
 
+}
 }
 export default Footer

@@ -9,6 +9,8 @@ import LandingPage from './Pages/Landing page';
 import HelpSupportPage from './Pages/HelpSupportPage';
 import DashboardPage from './Pages/Dashboard';
 import Footer from './Components/Footer';
+import GradeReportPage from './Pages/GradeReport';
+import MissingGradeFormPage from './Pages/MissingGradeReport';
 
 
 
@@ -22,6 +24,9 @@ root.render(
         <Route path='/Login' element={<Login/>} />
         <Route path='/Contact' element={<HelpSupportPage/>} />
         <Route path='/Dashboard' element={<DashboardPage/>} />
+        <Route path="/GradeReport" element={<GradeReportPage/>} />
+        <Route path='/MissingGradeReport' element={<MissingGradeFormPage/>}/>
+        <Route path='/HelpSupportPage' element = {<HelpSupportPage/>} />
       </Routes>
     </BrowserRouter>
 

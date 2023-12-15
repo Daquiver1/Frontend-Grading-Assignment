@@ -13,9 +13,11 @@ function Navbar(){
             <h3>Grade Repo</h3>
             <nav ref={navRef}>
                 <Link to="/">Home</Link>
-                <a href="/Dashboard">Dashboard</a>
-                <a href="/Contact">Contact </a>
+                <Link to= "/HelpSupport"> Contact </Link>
                 <Link to="/login">Login</Link>
+                <Link to ="/Dashboard">Dashboard</Link>
+                <Link to ="/MissingGradeReport"></Link>
+                <Link to ="/HelpSupportPage">Contact</Link>
                 <button className="nav-btn nav close-btn" onClick={showNavbar}>
                         <FaTimes />
                 </button>

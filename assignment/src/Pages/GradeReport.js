@@ -7,9 +7,12 @@ const GradeReportPage = () => {
   const [filter, setFilter] = useState('All'); // Default filter value is 'All'
 
   const gradesData = [
-    { id: 1, course: 'Mathematics', instructor: 'Dr. Smith', grade: 'A', semester: 'Fall 2023' },
-    { id: 2, course: 'History', instructor: 'Prof. Johnson', grade: 'B+', semester: 'Fall 2023' },
-    { id: 3, course: 'Physics', instructor: 'Dr. Williams', grade: 'A-', semester: 'Fall 2023' },
+    { id: 1, course: 'CBAS 210', instructor: 'Dr Mark Atta', grade: 'A', semester: '1st' },
+    { id: 2, course: 'DCIT 201', instructor: 'DR. Elon Musk', grade: 'B+', semester: '1st' },
+    { id: 3, course: 'DCIT 203', instructor: 'Dr. Aziz', grade: 'A-', semester: '1st' },
+    { id: 4, course: 'DCIT 205', instructor: 'Dr. Soli', grade: 'A', semester: '1st' },
+    { id: 5, course: 'DCIT 207', instructor: 'Dr. Gates', grade: 'A-', semester: '1st' },
+    { id: 6, course: 'MATH 223', instructor: 'Dr. Sehba', grade: 'A+', semester: '1st' },
     
     // Add more data as needed
   ];
