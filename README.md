@@ -29,8 +29,6 @@ To set up the project locally, follow these steps:
 ```bash
 git clone https://github.com/mubarakck/DCIT_205_ASSIGNGMENT1.git
 cd missing-grades
-git clone https://github.com/your-github-username/DCIT_205_ASSIGNGMENT1.git
-cd repo-name
 npm install
 npm start
 ```
@@ -51,3 +49,30 @@ To contribute to this project, please follow these guidelines:
 4. Submit a pull request for review.
 
 Please adhere to the project's coding standards and provide clear and detailed pull request descriptions.
+
+here are the pictures of the pages;
+LANDING PAGE
+[LANDING PAGE](../missing-grades/src/assets/screenshots/landing.png) 
+
+LOGIN PAGE
+[LOGIN PAGE](../missing-grades/src/assets/screenshots/login.png) 
+
+DASHBOARD PAGE
+[DASHBOARD PAGE](../missing-grades/src/assets/screenshots/dashboard1.png) 
+[DASHBOARD PAGE](../missing-grades/src/assets/screenshots/dashboard2.png) 
+
+GRADE REPORT
+[GRADE REPORT](../missing-grades/src/assets/screenshots/gr.png) 
+[GRADE REPORT](../missing-grades/src/assets/screenshots/gr2.png) 
+[GRADE REPORT](../missing-grades/src/assets/screenshots/gr3.png) 
+
+MISSING GRADE
+[MISSING GRADE](../missing-grades/src/assets/screenshots/ms.png) 
+
+CONTACT
+[CONTACT](../missing-grades/src/assets/screenshots/ct.png) 
+[CONTACT](../missing-grades/src/assets/screenshots/ct2.png) 
+
+HELP
+[HELP](../missing-grades/src/assets/screenshots/hp.png) 
+
