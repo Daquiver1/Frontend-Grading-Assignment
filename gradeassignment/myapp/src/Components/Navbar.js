@@ -1,27 +1,34 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import './Navbar.css'
-import { Fabars, FaTimes} from "react-icons"
+import React ,{useRef}from 'react';
+import '../styles/Navbar.css'
+import { FaBars, FaTimes} from "react-icons/fa"
+
+
  function Navbar() {
+  
+  const navRef = useRef();
+  const Navbar = {toggle(){console.log("Navbar toggled");}}
+  const showNavbar =() => {
+    if(Navbar){
+    navRef.current.classlist.Navbar.toggle("responsive_nav");
+  }
+}
   return (
     <header>
-      <nav>
-        <a href='/#'>Home</a>
-        <a href='/#'>Home</a>
-        <a href='/#'>Home</a>
-        <a href='/#'>Home</a>
-        <a href='/#'>Home</a>
-        <button>
+      <nav ref={navRef}>
+        <a href='./LandingPage'>Home</a>
+        <a href='/DashboardPage'>Dashboard</a>
+        <a href='/#'>GradeReport</a>
+        <a href='/#'>Form</a>
+        <a href='/#'>contact</a>
+        <button className='nav-btn nav-close-btn' onClick={showNavbar}>
         <FaTimes/>
         </button>
       </nav>
-      <button>
-        <Fabars/>
+      <button className='nav-btn' onClick={showNavbar}>
+        <FaBars/>
       </button>
     </header>
-  )
-  ;
- 
-  </nav>
+  );
 }
-
+ 
+export default Navbar;
