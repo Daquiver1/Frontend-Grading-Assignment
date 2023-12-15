@@ -1,9 +1,10 @@
-## STUDENT ID: 11124414
+
 ## DCIT205 ASSIGNMENT 1
+### STUDENT ID: 11124414
 
 
 
-## Student Grade Reporting System Frontend
+## STUDENT GRADE REPORTING SYSTEM FRONTEND
 
 
 ## Project Overview
@@ -79,23 +80,25 @@ This will start the application on `localhost` at the default port.
 
 Describe how to use the application, highlighting key functionalities such as logging in, viewing grades, reporting missing grades, and contacting instructors.
 
-Logging in
+### Logging in
 1. Open the application in your prefered browser.
 2. Click on the login button.
 3. Input your credentials (Student ID and pin) in the fields provided
 4. click on the submit button.
 
-Viewing grades
+
+### Viewing grades
 1. Click the "Grade Report" to view your grades 
 2. The dashboard section also allows you to view your current grades and missing grade
 
 
-Reporting missing grades
+
+###  Reporting missing grades
 1. To report your missing grade click on the "Missing Grade Form".
 2. Provide detail about the course ie. the course name, instructos name, expected grade and explanation.
 3. Click on the submit button to send it to your instructor.
 
-Contacting Instructor
+### Contacting Instructor
 1. Click on the Instructor contact 
 2. Contact your instructor using the email provided.
 
