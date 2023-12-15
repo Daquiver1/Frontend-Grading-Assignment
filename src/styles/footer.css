@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.footer{
+    background-color: black;
+    margin-top: 40%;
+    margin-bottom: -250px;
+    
+}
+
+.footer ul{
+    list-style: none;
+    text-align: center;
+    padding-bottom: 40px;
+}
+.footer ul li{
+    display: inline-block;
+    padding: 10px 15px;
+}
+.footer ul li a{
+    text-decoration: none;
+    color: white;
+}
+.copy-right{
+    text-align: center;
+    padding-bottom: 30px;
+    color: white;
+}
+.footer ul li a:hover{
+    color: skyblue;
+    
+}

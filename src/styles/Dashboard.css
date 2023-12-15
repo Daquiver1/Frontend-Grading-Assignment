@@ -1,0 +1,33 @@
+
+.dashboard-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .current-grades ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .alert-container {
+    background-color: #ffe6e6;
+    padding: 10px;
+    margin-top: 20px;
+  }
+  
+  /* Responsive styles */
+  @media screen and (max-width: 600px) {
+    .dashboard-container {
+      padding: 10px;
+    }
+  
+    .current-grades ul {
+      font-size: 14px;
+    }
+  
+    .alert-container {
+      padding: 8px;
+    }
+  }
+  

@@ -1,38 +1,70 @@
-# Student Grade Reporting System Frontend
+# Getting Started with Create React App
 
-## Project Overview
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-This project is a front-end web application for a Student Grade Reporting System. It simulates a real-world application where students can view, report, and manage their academic grades. This system addresses the issue of missing or unrecorded grades in a student's profile.
+## Available Scripts
 
-## Application Structure
+In the project directory, you can run:
 
-The application consists of 7 main pages:
+### `npm start`
 
-- **Homepage:** Introduction to the system and its purpose.
- ![Web capture_13-12-2023_93947_localhost](https://github.com/machadop1407/ecommerce-mern-tutorial/assets/148434566/b3c434ba-fe35-4b36-a663-81aa5b528d37)
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-- **Login Page:** Mock login interface for student authentication.
-![Web capture_13-12-2023_9407_localhost](https://github.com/machadop1407/ecommerce-mern-tutorial/assets/148434566/6f0ebc58-099a-4a90-841a-7202b9a41718)
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
+### `npm test`
 
-- **Dashboard:** Displays an overview of the student’s current grades and alerts for missing grades.
-- 
-![Web capture_15-12-2023_63158_localhost](https://github.com/machadop1407/ecommerce-mern-tutorial/assets/148434566/0dda33e4-cfc4-43c9-a93e-10a6567c66dc)
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
+### `npm run build`
 
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-![Web capture_15-12-2023_61849_localhost](https://github.com/machadop1407/ecommerce-mern-tutorial/assets/148434566/8337360c-9846-4b99-89d6-9cbaadda4934)
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-- **Grade Report:** Shows a detailed view of the student's grades filtered by semester or academic year.
-- 
-![Web capture_15-12-2023_94355_localhost](https://github.com/machadop1407/ecommerce-mern-tutorial/assets/148434566/ee7a4ac2-aba6-42c2-9073-4f7433afac4d)
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-- 
-- **Missing Grade Form:** Enables students to report missing grades.
-- ![Web capture_13-12-2023_94131_localhost](https://github.com/machadop1407/ecommerce-mern-tutorial/assets/148434566/079c1d1c-2de7-40d3-a424-186644cca610)
+### `npm run eject`
 
-- **Instructor Contact Page:** Lists instructors' contact information with a simulated email feature.
--![Web capture_15-12-2023_91819_localhost](https://github.com/machadop1407/ecommerce-mern-tutorial/assets/148434566/e2ca9037-bb1d-494c-833a-1ba6bf439716)
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-- **Help and Support:** Provides FAQs and a mock support contact form.
-![Web capture_15-12-2023_94743_localhost](https://github.com/machadop1407/ecommerce-mern-tutorial/assets/148434566/848e7f8b-301d-4b18-88ba-9279b5162912)
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
