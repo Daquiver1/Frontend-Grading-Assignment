@@ -13,13 +13,13 @@ function App() {
     <BrowserRouter>
       <div>
         <Routes>
-          <Route path="/" element={<LandingPage />} />
+          <Route index element={<LandingPage />} />
           <Route path="/login" element={<Login />} />
-          <Route path="/dashboard" element={<DashboardPage />} />
-          <Route path="/grade-report" element={<GradeReportPage />} />
-          <Route path="/missing-grade" element={<MissingGradeForm />} />
-          <Route path="/help-support" element={<HelpSupportPage />} />
-          <Route path="/instructor-contact" element={<InstructorContactPage />} />
+          <Route path="/Dashboard" element={<DashboardPage />} />
+          <Route path="/GradeReport" element={<GradeReportPage />} />
+          <Route path="/Missinggradeform" element={<MissingGradeForm />} />
+          <Route path="/HelpSupportPage" element={<HelpSupportPage />} />
+          <Route path="/InstructorContactPage" element={<InstructorContactPage />} />
         </Routes>
       </div>
     </BrowserRouter>
