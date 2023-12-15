@@ -10,13 +10,14 @@ function AppDashboard() {
     courses: [
       { name: 'DCIT 201', grade: 'A' },
       { name: 'DCIT 203', grade: 'B' },
-      { name: 'DCIT 207', grade: 'A-' },
-      { name: 'DCIT 206', grade: 'B+' },
+      { name: 'DCIT 207', grade: 'A' },
+      { name: 'DCIT 206', grade: '' },
+      { name: 'DCIT 205', grade: 'A' },
       { name: 'MATH 223', grade: 'A' },
       { name: 'CBAS 210', grade: '' }, // Simulating a missing grade
     ],
     achievements: [
-      'Highest Grade in DCIT 207',
+      'The Highest Grade so far is DCIT 205',
       'Perfect Attendance for the Semester',
     ],
     recentActivity: 'Attended a Guest Lecture on Cybersecurity.',

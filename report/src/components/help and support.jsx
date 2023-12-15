@@ -1,311 +1,152 @@
 import React from 'react';
+import { Container, Accordion, Card, Button, Form } from 'react-bootstrap';
+import './styles/FAQs.css'
 
-const AppHelpandSupport = () => {
+function AppHelp() {
   return (
-    <div className="accordion w-100" id="gradeReportAccordion">
-      <div className="accordion-item">
-        <h2 className="accordion-header" id="gradeReportHeadingOne">
-          <button
-            className="accordion-button collapsed"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#gradeReportAccordionCollapseOne"
-            aria-expanded="false"
-            aria-controls="gradeReportCollapseOne"
-          >
-            How can I view my grades?
-          </button>
-        </h2>
-        <div
-          id="gradeReportAccordionCollapseOne"
-          className="accordion-collapse collapse"
-          aria-labelledby="gradeReportHeadingOne"
-          data-bs-parent="#gradeReportAccordion"
-        >
-          <div className="accordion-body">
-            You can view your grades by logging into your account and navigating to the Dashboard section.
-          </div>
-        </div>
-      </div>
+    <Container className="my-5">
+      <h2 className="text-center mb-4">Frequently Asked Questions</h2>
 
-      <div className="accordion-item">
-        <h2 className="accordion-header" id="gradeReportHeadingTwo">
-          <button
-            className="accordion-button collapsed"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#gradeReportAccordionCollapseTwo"
-            aria-expanded="false"
-            aria-controls="gradeReportCollapseTwo"
-          >
-            What do I do if I have missing grades?
-          </button>
-        </h2>
-        <div
-          id="gradeReportAccordionCollapseTwo"
-          className="accordion-collapse collapse"
-          aria-labelledby="gradeReportHeadingTwo"
-          data-bs-parent="#gradeReportAccordion"
-        >
-          <div className="accordion-body">
-            If you have missing grades, please contact your instructor or use the Missing Grade Form to report the issue.
-          </div>
-        </div>
-      </div>
+      <Accordion defaultActiveKey="0">
+      <Card>
+          <Accordion.Item eventKey="0">
+            <Accordion.Header>Q: How do I access my grade report?</Accordion.Header>
+            <Accordion.Body>
+              A: You can access your grade report by logging into the student portal and navigating to the
+              "Grade Report" section.
+            </Accordion.Body>
+          </Accordion.Item>
+        </Card>
 
-      <div className="accordion-item">
-        <h2 className="accordion-header" id="gradeReportHeadingThree">
-          <button
-            className="accordion-button collapsed"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#gradeReportAccordionCollapseThree"
-            aria-expanded="false"
-            aria-controls="gradeReportCollapseThree"
-          >
-            Can I change my password?
-          </button>
-        </h2>
-        <div
-          id="gradeReportAccordionCollapseThree"
-          className="accordion-collapse collapse"
-          aria-labelledby="gradeReportHeadingThree"
-          data-bs-parent="#gradeReportAccordion"
-        >
-          <div className="accordion-body">
-            Yes, you can change your password by going to the Account Settings page and following the instructions.
-          </div>
-        </div>
-      </div>
+        {/* FAQ 2 */}
+        <Card>
+          <Accordion.Item eventKey="1">
+            <Accordion.Header>Q: When are grade reports typically released?</Accordion.Header>
+            <Accordion.Body>
+              A: Grade reports are typically released at the end of each semester. The exact dates may vary, so
+              please check the academic calendar for specific information.
+            </Accordion.Body>
+          </Accordion.Item>
+        </Card>
 
-      {/* Additional FAQ Entries */}
-      <div className="accordion-item">
-        <h2 className="accordion-header" id="gradeReportHeadingFour">
-          <button
-            className="accordion-button collapsed"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#gradeReportAccordionCollapseFour"
-            aria-expanded="false"
-            aria-controls="gradeReportCollapseFour"
-          >
-            How do I reset my password?
-          </button>
-        </h2>
-        <div
-          id="gradeReportAccordionCollapseFour"
-          className="accordion-collapse collapse"
-          aria-labelledby="gradeReportHeadingFour"
-          data-bs-parent="#gradeReportAccordion"
-        >
-          <div className="accordion-body">
-            To reset your password, click on the "Forgot Password" link on the login page and follow the instructions sent to your email.
-          </div>
-        </div>
-      </div>
+        {/* FAQ 3 */}
+        <Card>
+          <Accordion.Item eventKey="2">
+            <Accordion.Header>Q: How are grades calculated?</Accordion.Header>
+            <Accordion.Body>
+              A: Grades are calculated based on a combination of assignments, exams, and other assessment
+              criteria specified by each course instructor. Refer to the course syllabus for details.
+            </Accordion.Body>
+          </Accordion.Item>
+        </Card>
 
-      <div className="accordion-item">
-        <h2 className="accordion-header" id="gradeReportHeadingFive">
-          <button
-            className="accordion-button collapsed"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#gradeReportAccordionCollapseFive"
-            aria-expanded="false"
-            aria-controls="gradeReportCollapseFive"
-          >
-            Is the platform mobile-friendly?
-          </button>
-        </h2>
-        <div
-          id="gradeReportAccordionCollapseFive"
-          className="accordion-collapse collapse"
-          aria-labelledby="gradeReportHeadingFive"
-          data-bs-parent="#gradeReportAccordion"
-        >
-          <div className="accordion-body">
-            Yes, the platform is designed to be fully responsive and accessible on various devices, including mobile phones and tablets.
-          </div>
-        </div>
-      </div>
+        {/* FAQ 4 */}
+        <Card>
+          <Accordion.Item eventKey="3">
+            <Accordion.Header>Q: Can I request a re-evaluation of my grades?</Accordion.Header>
+            <Accordion.Body>
+              A: Yes, you can request a re-evaluation of your grades. Please follow the grade appeal process
+              outlined in the academic policies.
+            </Accordion.Body>
+          </Accordion.Item>
+        </Card>
 
-      <div className="accordion-item">
-        <h2 className="accordion-header" id="gradeReportHeadingSix">
-          <button
-            className="accordion-button collapsed"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#gradeReportAccordionCollapseSix"
-            aria-expanded="false"
-            aria-controls="gradeReportCollapseSix"
-          >
-            What browsers are supported?
-          </button>
-        </h2>
-        <div
-          id="gradeReportAccordionCollapseSix"
-          className="accordion-collapse collapse"
-          aria-labelledby="gradeReportHeadingSix"
-          data-bs-parent="#gradeReportAccordion"
-        >
-          <div className="accordion-body">
-            The platform is optimized for the latest versions of Chrome, Firefox, Safari, and Edge. Please ensure your browser is up to date for the best experience.
-          </div>
-        </div>
-      </div>
+        {/* FAQ 5 */}
+        <Card>
+          <Accordion.Item eventKey="4">
+            <Accordion.Header>Q: Where can I find my GPA on the grade report?</Accordion.Header>
+            <Accordion.Body>
+              A: Your GPA is usually displayed on the grade report. It reflects your overall academic
+              performance based on the grades you've earned in your courses.
+            </Accordion.Body>
+          </Accordion.Item>
+        </Card>
 
-      <div className="accordion-item">
-        <h2 className="accordion-header" id="gradeReportHeadingSeven">
-          <button
-            className="accordion-button collapsed"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#gradeReportAccordionCollapseSeven"
-            aria-expanded="false"
-            aria-controls="gradeReportCollapseSeven"
-          >
-            Can I download my grade reports?
-          </button>
-        </h2>
-        <div
-          id="gradeReportAccordionCollapseSeven"
-          className="accordion-collapse collapse"
-          aria-labelledby="gradeReportHeadingSeven"
-          data-bs-parent="#gradeReportAccordion"
-        >
-          <div className="accordion-body">
-            Yes, you can download your grade reports in PDF format from the Reports section of your dashboard.
-          </div>
-        </div>
-      </div>
+        {/* FAQ 6 */}
+        <Card>
+          <Accordion.Item eventKey="5">
+            <Accordion.Header>Q: What does an incomplete (I) grade mean?</Accordion.Header>
+            <Accordion.Body>
+              A: An incomplete grade (I) is given when a student is unable to complete the required coursework
+              within the semester. Check with your instructor for details on completing the remaining work.
+            </Accordion.Body>
+          </Accordion.Item>
+        </Card>
 
-      <div className="accordion-item">
-        <h2 className="accordion-header" id="gradeReportHeadingEight">
-          <button
-            className="accordion-button collapsed"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#gradeReportAccordionCollapseEight"
-            aria-expanded="false"
-            aria-controls="gradeReportCollapseEight"
-          >
-            How do I contact support?
-          </button>
-        </h2>
-        <div
-          id="gradeReportAccordionCollapseEight"
-          className="accordion-collapse collapse"
-          aria-labelledby="gradeReportHeadingEight"
-          data-bs-parent="#gradeReportAccordion"
-        >
-          <div className="accordion-body">
-            You can contact our support team through the "Contact Us" page on the platform, or email support@gradereport.com.
-          </div>
-        </div>
-      </div>
+        {/* FAQ 7 */}
+        <Card>
+          <Accordion.Item eventKey="6">
+            <Accordion.Header>Q: How can I appeal a grade decision?</Accordion.Header>
+            <Accordion.Body>
+              A: If you believe there was an error in the grading process, you can follow the grade appeal
+              process outlined in the university's academic policies.
+            </Accordion.Body>
+          </Accordion.Item>
+        </Card>
 
-      <div className="accordion-item">
-        <h2 className="accordion-header" id="gradeReportHeadingNine">
-          <button
-            className="accordion-button collapsed"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#gradeReportAccordionCollapseNine"
-            aria-expanded="false"
-            aria-controls="gradeReportCollapseNine"
-          >
-            How often are grades updated?
-          </button>
-        </h2>
-        <div
-          id="gradeReportAccordionCollapseNine"
-          className="accordion-collapse collapse"
-          aria-labelledby="gradeReportHeadingNine"
-          data-bs-parent="#gradeReportAccordion"
-        >
-          <div className="accordion-body">
-            Grade updates vary by instructor but are typically done weekly. You will receive notifications when new grades are available.
-          </div>
-        </div>
-      </div>
+        {/* FAQ 8 */}
+        <Card>
+          <Accordion.Item eventKey="7">
+            <Accordion.Header>Q: Can I view my grade report online?</Accordion.Header>
+            <Accordion.Body>
+              A: Yes, you can view your grade report online through the student portal. The grade report is
+              usually available shortly after grades are finalized.
+            </Accordion.Body>
+          </Accordion.Item>
+        </Card>
 
-      <div className="accordion-item">
-        <h2 className="accordion-header" id="gradeReportHeadingTen">
-          <button
-            className="accordion-button collapsed"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#gradeReportAccordionCollapseTen"
-            aria-expanded="false"
-            aria-controls="gradeReportCollapseTen"
-          >
-            Are my personal details secure?
-          </button>
-        </h2>
-        <div
-          id="gradeReportAccordionCollapseTen"
-          className="accordion-collapse collapse"
-          aria-labelledby="gradeReportHeadingTen"
-          data-bs-parent="#gradeReportAccordion"
-        >
-          <div className="accordion-body">
-            Yes, we prioritize the security of your personal information. Our platform uses industry-standard encryption and security measures to protect your data.
-          </div>
-        </div>
-      </div>
+        {/* FAQ 9 */}
+        <Card>
+          <Accordion.Item eventKey="8">
+            <Accordion.Header>Q: Are there any consequences for academic probation?</Accordion.Header>
+            <Accordion.Body>
+              A: Academic probation may result in restrictions on course registration or other academic
+              consequences. It's essential to consult with academic advisors to address any probation-related
+              concerns.
+            </Accordion.Body>
+          </Accordion.Item>
+        </Card>
 
-      <div className="accordion-item">
-        <h2 className="accordion-header" id="gradeReportHeadingEleven">
-          <button
-            className="accordion-button collapsed"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#gradeReportAccordionCollapseEleven"
-            aria-expanded="false"
-            aria-controls="gradeReportCollapseEleven"
-          >
-            Can I customize my dashboard?
-          </button>
-        </h2>
-        <div
-          id="gradeReportAccordionCollapseEleven"
-          className="accordion-collapse collapse"
-          aria-labelledby="gradeReportHeadingEleven"
-          data-bs-parent="#gradeReportAccordion"
-        >
-          <div className="accordion-body">
-            Yes, you can customize your dashboard by rearranging widgets and choosing the information you want to see.
-          </div>
-        </div>
-      </div>
+        {/* FAQ 10 */}
+        <Card>
+          <Accordion.Item eventKey="9">
+            <Accordion.Header>Q: How long does it take for grades to be posted?</Accordion.Header>
+            <Accordion.Body>
+              A: Grades are typically posted within a few days after the end of the semester. Delays may occur
+              during peak periods, such as finals week.
+            </Accordion.Body>
+          </Accordion.Item>
+        </Card>
 
-      <div className="accordion-item">
-        <h2 className="accordion-header" id="gradeReportHeadingTwelve">
-          <button
-            className="accordion-button collapsed"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#gradeReportAccordionCollapseTwelve"
-            aria-expanded="false"
-            aria-controls="gradeReportCollapseTwelve"
-          >
-            What do I do if I forget my username?
-          </button>
-        </h2>
-        <div
-          id="gradeReportAccordionCollapseTwelve"
-          className="accordion-collapse collapse"
-          aria-labelledby="gradeReportHeadingTwelve"
-          data-bs-parent="#gradeReportAccordion"
-        >
-          <div className="accordion-body">
-            If you forget your username, you can recover it by providing the email associated with your account. Instructions will be sent to your email.
-          </div>
-        </div>
-      </div>
+        {/* Repeat the above structure for each FAQ item */}
+      </Accordion>
 
-    </div>
+      <Container className="mt-5">
+        <h2 className="text-center mb-4">Contact Us</h2>
+        <Form>
+          <Form.Group controlId="formName">
+            <Form.Label>Name:</Form.Label>
+            <Form.Control type="text" placeholder="Enter your name" required />
+          </Form.Group>
+
+          <Form.Group controlId="formEmail">
+            <Form.Label>Email:</Form.Label>
+            <Form.Control type="email" placeholder="Enter your email" required />
+          </Form.Group>
+
+          <Form.Group controlId="formMessage">
+            <Form.Label>Message:</Form.Label>
+            <Form.Control as="textarea" rows={4} placeholder="Enter your message" required />
+          </Form.Group>
+            <div className='spacer'>
+          <Button variant="primary" type="submit" > 
+            Submit
+          </Button>
+          </div>
+        </Form>
+      </Container>
+    </Container>
   );
-};
+}
 
-export default AppHelpandSupport;
+export default AppHelp;
