@@ -1,6 +1,65 @@
-.products {
+.background {
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0, 0, 0, 0.8)), url(/public/assets/images/Landing-bg.webp) center center/cover no-repeat;
     height: 100vh;
     width: 100%;
-    background: black;
+    object-fit: cover;
+  }
+  
+  .login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--font-family);
+    position: absolute;
+    top: 50%;
+    left: 38%;
+    height: 50vh;
+    width: 50vh;
+    transform: translateY(-50%);
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .login-container h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-weight: 900;
+  }
+  
+  .login-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+ .input-box{
+    border-bottom: 1px solid #000000;
+    margin: 2px;
+ }
+  
+  .login-container input {
+    padding: 8px;
+    margin-bottom: 16px;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  .login-container button {
+    padding: 10px;
+    background-color: #4caf50;
     color: #fff;
-}
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 3rem;
+  }
+  
+  .login-container button:hover {
+    background-color: #45a049;
+  }
+
+
+  
