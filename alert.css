@@ -1,0 +1,20 @@
+/* MissingGradesAlert.css */
+.missing-grades-alert {
+    margin-top: 20px;
+    padding: 20px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+    
+  .course-name {
+    font-weight: bold;
+  }
+  
+  .alert {
+    color: #ff6347; /* Tomato color */
+  }
+  
