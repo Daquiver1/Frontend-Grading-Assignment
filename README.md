@@ -1,3 +1,7 @@
+# NAME: EDUSEI DERRICK AKUAMOAH
+
+# STUDENT ID : 11115682
+
 # Student Grade Reporting System Frontend
 
 ## Project Overview
