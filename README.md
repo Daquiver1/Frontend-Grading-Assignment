@@ -1,4 +1,4 @@
-STUDENT ID:1113593 Name:David Kwaku Boateng
+<p>STUDENT ID:1113593 Name:David Kwaku Boateng</p>
 The application consists of 7 main pages:
 
 Homepage: Introduction to the system and its purpose.![HomepageScreenshot](https://github.com/davidboateng451/11135953_DCIT205_Assignment1/assets/151746606/b8d4a473-ab43-4794-b132-77c0a19850dc)
