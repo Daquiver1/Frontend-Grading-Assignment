@@ -29,7 +29,7 @@ To set up the project locally, follow these steps:
 ```bash
 git clone https://github.com/Stan1-0/Frontend-Grading-Assignment.git
 cd react-frontend
-npm instalL
+npm install
 npm start
 ```
 
