@@ -1,5 +1,5 @@
 import React from 'react';
-import { Navbar, Nav, Container, Button } from 'react-bootstrap';
+import { Navbar, Nav, Container} from 'react-bootstrap';
 import Computer from "../Pics/Computer.jpeg";
 
 function Home() {

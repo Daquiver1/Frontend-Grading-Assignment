@@ -4,7 +4,7 @@ import { Navbar, Nav, Container, Table, Card, Alert } from 'react-bootstrap';
 
 const Help = () => {
   return (
-    <div>
+    <>
        <Navbar expand="lg" bg="success">
         <Container>
           <Navbar.Brand>
@@ -18,6 +18,7 @@ const Help = () => {
             <Nav className="me-1">
               <Nav.Link href="/" className="active">Home</Nav.Link>
               <Nav.Link href="/dashboard" >Dashboard</Nav.Link>
+              <Nav.Link href="/grade" >zGrade</Nav.Link>
               <Nav.Link href="/report">Report</Nav.Link>
               <Nav.Link href="/contact">Instructor's Contact</Nav.Link>
               <Nav.Link href="/help">FAQ & Support</Nav.Link>
@@ -26,8 +27,197 @@ const Help = () => {
           </Navbar.Collapse>
         </Container>
       </Navbar>
-    </div>
-  )
-}
+
+
+      <h2>HELP AND SUPPORT</h2>
+      <div className='mt-5'>      
+        <div className="accordion" id="accordionExample">
+              <div className="accordion-item">
+                <h2 className="accordion-header">
+                  <button
+                    className="accordion-button"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseOne"
+                    aria-expanded="true"
+                    aria-controls="collapseOne"
+                  >
+                    Q1: When are grades typically released?
+                  </button>
+                </h2>
+                <div
+                  id="collapseOne"
+                  className="accordion-collapse collapse show"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div className="accordion-body">
+                    <strong>ANSWER:</strong> Grade release dates vary by
+                    educational institution and the specific course. However, in
+                    many cases, grades are typically released shortly after the
+                    completion of final exams or assignments. Check with your
+                    institution or instructor for specific timelines.
+                  </div>
+                </div>
+              </div>
+              <div className="accordion-item">
+                <h2 className="accordion-header">
+                  <button
+                    className="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="collapseTwo"
+                  >
+                    Q2: How can I access my grades?
+                  </button>
+                </h2>
+                <div
+                  id="collapseTwo"
+                  className="accordion-collapse collapse"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div className="accordion-body">
+                    <strong>ANSWER: </strong>Most educational institutions
+                    provide an online portal or system where students can access
+                    their grades. This portal is usually accessible through the
+                    institution's website, and you may need to log in with your
+                    student credentials to view your grades.
+                  </div>
+                </div>
+              </div>
+              <div className="accordion-item">
+                <h2 className="accordion-header">
+                  <button
+                    className="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree"
+                    aria-expanded="false"
+                    aria-controls="collapseThree"
+                  >
+                    Q3: What if I can't find my grades online?
+                  </button>
+                </h2>
+                <div
+                  id="collapseThree"
+                  className="accordion-collapse collapse"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div className="accordion-body">
+                    <strong>ANSWER:</strong> If you're having trouble finding
+                    your grades, first ensure that you are checking the correct
+                    online portal designated by your institution. If the issue
+                    persists, reach out to your instructor or the academic
+                    support office for assistance.
+                  </div>
+                </div>
+              </div>
+              <div className="accordion-item">
+                <h2 className="accordion-header">
+                  <button
+                    className="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseFour"
+                    aria-expanded="false"
+                    aria-controls="collapseFour"
+                  >
+                    Q4: Can I request a review of my grades?
+                  </button>
+                </h2>
+                <div
+                  id="collapseFour"
+                  className="accordion-collapse collapse"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div className="accordion-body">
+                    <strong>ANSWER:</strong> Yes, many institutions have a grade
+                    review or appeal process. If you believe there is an error
+                    in the grading of an assignment or exam, contact your
+                    instructor to discuss the matter. Each institution will have
+                    its own procedures for grade appeals.
+                  </div>
+                </div>
+              </div>
+              <div className="accordion-item">
+                <h2 className="accordion-header">
+                  <button
+                    className="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseFive"
+                    aria-expanded="false"
+                    aria-controls="collapseFive"
+                  >
+                    Q5: What do the different grade symbols mean (e.g., A, B, C,
+                    etc.)?
+                  </button>
+                </h2>
+                <div
+                  id="collapseFive"
+                  className="accordion-collapse collapse"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div className="accordion-body">
+                    <strong>ANSWER:</strong> A: Grade symbols vary between
+                    institutions, but generally, they follow a standard letter
+                    grading system. A is often the highest grade, followed by B,
+                    C, D, and F. Some institutions may also use plus (+)
+                    modifiers to indicate variations within each letter grade.
+                  </div>
+                </div>
+              </div>
+              <div className="accordion-item">
+                <h2 className="accordion-header">
+                  <button
+                    className="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseSix"
+                    aria-expanded="false"
+                    aria-controls="collapseSix"
+                  >
+                    Q6: How can I calculate my GPA?
+                  </button>
+                </h2>
+                <div
+                  id="collapseSix"
+                  className="accordion-collapse collapse"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div className="accordion-body">
+                    <strong>ANSWER:</strong> GPA (Grade Point Average) is
+                    calculated based on the grades you receive in your courses.
+                    Each letter grade is assigned a numerical value (e.g.,
+                    A=4.0, B=3.0, etc.), and the GPA is the average of these
+                    values. Your institution's registrar's office or academic
+                    support services can provide guidance on GPA calculation.
+                  </div>
+                </div>
+              </div>
+              
+                <div
+                  id="collapseSeven"
+                  className="accordion-collapse collapse"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div className="accordion-body">
+                    <strong>ANSWER:</strong> Many institutions allow students to
+                    retake courses to improve their grades. However, policies
+                    regarding retakes vary. Some institutions may replace the
+                    previous grade with the new one, while others may calculate
+                    an average of the two grades. Check with your institution's
+                    academic policies for specific information.
+                  </div>
+                </div>
+                </div>
+                </div>
+
+       </>       
+                
+    );
+  }
+  
 
 export default Help
