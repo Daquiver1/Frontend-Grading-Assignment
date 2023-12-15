@@ -17,14 +17,3 @@
     opacity: 1;
   }
   
-.footer-content {
-  
-    display: flex;
-    align-items: center;
-  }
-  
-  .contact-info {
-    text-align: left;
-    margin-right: 20px;
-  }
-  

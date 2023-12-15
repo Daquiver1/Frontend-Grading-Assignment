@@ -44,7 +44,7 @@ const Layout = ({ children }) => {
       <div className="content">{children}</div>
 
       <footer className="footer">
-        <p>&copy; 2023 Your Website. All rights reserved.</p>
+        <p>&copy; 2023 Missing Grade Reporting System</p>
       </footer>
     </div>
   );

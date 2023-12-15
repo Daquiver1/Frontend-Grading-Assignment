@@ -1,0 +1,65 @@
+/* src/DashboardPage.css */
+.dashboard-container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    min-height: 100vh;
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+  .grades-section,
+  .missing-grades-section {
+    margin-bottom: 20px;
+  }
+  
+  h3 {
+    color: hwb(0 4% 96% / 0.945);
+  }
+  
+  .grades-list,
+  .missing-grades-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .grades-list li,
+  .missing-grades-list li {
+    margin-bottom: 10px;
+  }
+  
+  .course {
+    font-weight: bold;
+    margin-right: 5px;
+  }
+  
+  .grade {
+    color: hsl(220, 11%, 5%); /* Blue color for grades */
+    font-weight: bold;
+  }
+  
+  .grades-table,
+  .missing-grades-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+  }
+  
+  .grades-table th,
+  .missing-grades-table th,
+  .grades-table td,
+  .missing-grades-table td {
+    border: 1px solid hsl(208, 52%, 51%);
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .grades-table th,
+  .missing-grades-table th {
+    background-color: hsl(196, 88%, 44%);
+  }
+  
