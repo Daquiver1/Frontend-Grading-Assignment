@@ -1,0 +1,36 @@
+
+body {
+
+    height: 100vh;  
+  }
+
+
+
+footer {
+    background-color: #343a40;
+    color: #ffffff;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+  }
+
+  .Card {
+    height: 90%;
+    max-height: 100%;
+  }
+
+  #active{
+    color:  #cd8c2a;
+   
+  }
+
+  #loginbtn{
+    background-color: #cd8c2a;
+    color: white;
+  }
+
+  #btn{
+    background-color: #cd8c2a;
+    color: white;
+  }
