@@ -1,0 +1,72 @@
+.hero {
+  background-color: #f8f8f8;
+  padding: 5px 0;
+  text-align: center;
+  margin: 10px;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+.hero h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.2em;
+  color: #777;
+}
+
+.home-container {
+  max-width: 80%;
+  margin: 0 auto;
+  padding: 5px;
+}
+
+.main-mainbus, .submainbus {
+  margin-bottom: 40px;
+  background-color: #153d6f;
+}
+
+.main-mainbus h2,
+.submainbus h3 {
+  padding-top: 10px;
+  color: #bd9c6c;
+  font-size: 1.8em;
+  margin-bottom: 15px;
+}
+
+.main-mainbus p,
+.submainbus p {
+  padding: 10px;
+  font-size: 1.1em;
+  line-height: 1.6;
+  color: #fff;
+}
+
+.hero-section {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url('../images/4.jpeg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.hero-section .MH {
+  font-size: 4em;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.hero-section .MP {
+  font-size: 2.0em;
+  text-align: center;
+  padding-top: 10px;
+  color: #bd9c6c;
+  background-color: #0a0a0a95;
+}
