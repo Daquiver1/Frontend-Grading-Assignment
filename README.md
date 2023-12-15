@@ -37,7 +37,15 @@ This will start the application on `localhost` at the default port.
 
 ## Usage
 
-Describe how to use the application, highlighting key functionalities such as logging in, viewing grades, reporting missing grades, and contacting instructors.
+1. On the home page click on login and provide you ID and pin this will open the dashboad.
+2. On the dashboard page you can view a summary of your grade report.
+3. You can click on the Grade report link in the nav bar to view in  a detailed form.
+4. The grades can be filtered by semester or year , scroll down to check for any notification on a missig grade.
+5. If there is one click on the Report button to report the issue.
+6. Fill the form provided and hit on the submit button.
+7. You can contact any Instuctor on the Instructor page by simply clicking on the nav bar.
+8. You can click on the Help & Support button on the navbar if you need for infomation
+
 
 ## Contribution
 

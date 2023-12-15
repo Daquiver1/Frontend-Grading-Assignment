@@ -1,0 +1,117 @@
+
+
+.help_container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 250px;
+}
+
+.help_container_item_1{
+    background-color: bisque;
+    text-align: center;
+    color: blue;
+    font-size: 24px;
+    padding: 50px;
+}
+
+.help_container_item_2{
+    background-color: blue;
+    color: white;
+    padding: 30px;
+    
+}
+
+.fqa_container{
+    padding: 50px;
+    display: grid;
+    grid-template-columns: 250px;
+    grid-template-rows: 30px 70px 70px 70px;
+    font-family: sans-serif;
+    color: rgb(115, 84, 6);
+
+}
+
+.flex_container{
+    background-color: rgb(245, 240, 240);
+    display: flex;
+}
+
+.faqs_item:hover{
+    cursor: pointer;
+    opacity: 0.7;
+
+}
+
+.contact_form{
+    background-color: #fffff4;
+    width: 600px;
+    margin-top: 150px;
+    margin-left: 100px;
+    border-radius: 20px;
+
+}
+
+.csLogo_img{
+    width: 100%;
+    margin-left: 200px;
+    padding: 10px;
+    
+
+}
+
+.log{
+    width: 40%;
+    height: 60px;
+}
+
+.container_form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+  }
+
+  .container h2 {
+    text-align: center;
+    background-color: aliceblue;
+  }
+
+  .label {
+    display: block;
+    margin-bottom: 5px;
+    color: rgb(80, 60, 10);
+  }
+
+
+#name, #email{
+    width: 100%;
+    padding: 8px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+  }
+
+  #message{
+    resize: vertical;
+    height: 100px;
+    width: 320px;
+  }
+
+  #submit{
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    width: 320px;
+    
+  }
+  #help{
+    width: 550px;
+    height: 635px;
+    position: absolute;
+    top: 49%;
+    left: 51%;
+  }
+

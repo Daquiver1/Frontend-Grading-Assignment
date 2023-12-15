@@ -1,0 +1,50 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.header_container{
+    display: grid;
+    grid-template-columns: 40% 50%;
+    grid-template-rows: 80px;
+    column-gap: 10%;
+    background-color: azure;
+    color: blue;
+    
+}
+
+.logo{
+    width: 40%;
+    padding: 15px;
+    
+}
+
+.logo_img:hover{
+    cursor: pointer;
+}
+
+.logo_img{
+    width: 100%;
+}
+
+.menu{
+    display: grid;
+    grid-template-columns: 70px 120px 120px 160px 150px;
+    column-gap: 5px;
+    grid-template-rows: 30px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.menu_item{
+    text-decoration: none;
+  
+    border-radius: 5px;
+}
+
+.menu_item:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
+
