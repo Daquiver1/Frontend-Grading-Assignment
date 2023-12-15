@@ -1,0 +1,86 @@
+.dashboard-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.dashboard-container:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.performance-chart,
+.assignments-chart,
+.recent-assignments {
+    margin-bottom: 30px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+canvas {
+    width: 100% !important;
+    height: auto !important;
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+canvas:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 15px rgba(0, 123, 255, 0.5);
+}
+
+h3 {
+    color: #007bff;
+    transition: color 0.3s ease;
+}
+
+h3:hover {
+    color: #0056b3;
+}
+
+.recent-assignments {
+    padding: 20px;
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.recent-assignments:hover {
+    background-color: #e2e6ea;
+}
+
+
+.performance-chart,
+.assignments-chart {
+    position: relative;
+}
+
+canvas::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: radial-gradient(circle, transparent 0%, rgba(0, 123, 255, 0.2) 80%, transparent 100%);
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+canvas:hover::before {
+    opacity: 1;
+}
