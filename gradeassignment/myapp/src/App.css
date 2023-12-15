@@ -1,0 +1,41 @@
+h1{
+  font-size: 60px;
+  font-family:'Times New Roman', Times, serif;
+  text-align: left;
+  margin-top: 300px;
+  margin-left: 350px;
+}
+
+p{
+  font-family:'Times New Roman', Times, serif;
+  font-size: 30px;
+  text-align: left;
+  
+  margin-left: 350px;
+}
+
+
+.login button {
+  margin-left: 350px;
+  padding-top: 2rem;
+  font-size: 20px;
+  font-weight: bolder;
+  padding: 2rem;
+}
+ 
+button{
+  height: 50px;
+  width: 150px;
+  border-radius: 40px;
+  background-color: rgb(35, 120, 210);
+  color: white;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+  font-weight: bolder;
+  margin-left: 350px;
+  
+}
+ button:hover{
+  background-color: rgb(73, 152, 236);
+}
