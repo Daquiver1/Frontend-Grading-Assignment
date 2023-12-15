@@ -1,4 +1,6 @@
+# Student ID: 11020486
 # Student Grade Reporting System Frontend
+
 
 ## Project Overview
 
@@ -39,13 +41,37 @@ This will start the application on `localhost` at the default port.
 
 Describe how to use the application, highlighting key functionalities such as logging in, viewing grades, reporting missing grades, and contacting instructors.
 
-## Contribution
+## Logging In
++ Open the application in your preferred web browser.
++ Click on "Get Started"
++ Enter your credentials (username and password) in the provided fields.
++ Click the  "Login" button to access your account.
 
-To contribute to this project, please follow these guidelines:
+## Viewing Grades
+Once logged in, follow these steps to view your grades:
 
-1. Fork the repository.
-2. Create a new branch for your feature.
-3. Commit your changes and push them to your branch.
-4. Submit a pull request for review.
++ Navigate to the "Grade Report" section in the application.
++ A list of your courses and corresponding grades will be displayed.
++ Click on a specific course to view detailed grade information, including assignments and assessments.
++ Feel free to use the "filter by semester" option to be semester-specific while viewing grades.
 
-Please adhere to the project's coding standards and provide clear and detailed pull request descriptions.
+## Reporting Missing Grades
+
+If you notice any missing grades, follow these steps to report the issue:
+
++ Navigate to the "Missing Grade Form".
++ Provide details about the missing grades, including the course name  and other relevant information.
++ Submit the form to report the issue to the system administrators and instructors.
+
+## Contacting Instructors
+
+For any inquiries or communication with instructors, use the following steps:
+
++ Navigate to the "Instructor Contact" section.
++ Find the contact information for the relevant instructor.
++ Use the provided contact details to reach out with your questions or concerns.
+
+Feel free to explore other sections of the application to discover additional features and functionalities. If you encounter any issues or have further questions, refer to the "Support" section or contact the technical support team.
+
+
+
