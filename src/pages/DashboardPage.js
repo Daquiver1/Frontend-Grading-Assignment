@@ -5,10 +5,11 @@ import { Link } from "react-router-dom";
 const DashboardPage = () => {
   // Placeholder data for grades and alerts
   const gradesData = [
-    { subject: "Math", grade: "A" },
-    { subject: "English", grade: "B" },
-    { subject: "Science" },
-    // Add more subjects and grades as needed
+    { subject: "Multi Media and Web Design", sem: "L200 Second Semester", grade: "A" },
+    { subject: "Computer Architecture & Organisation", sem: "L200 Second Semester", grade: "B" },
+    { subject: "E-Business Architectures",sem: "L200 Second Semester", },
+    { subject: "Programming I",  sem: "L200 Second Semester", grade: "B" },
+    { subject: "Academic Writing II", sem: "L200 Second Semester", },
   ];
   const currentGPA = 3.8;
   const studentID = "11140508";
@@ -17,7 +18,12 @@ const DashboardPage = () => {
   const alertsData = [
     {
       type: "Missing Grades",
-      message: "You have missing grades in Science.",
+      message: "You have missing grade in Academic Writing II.",
+      color: "danger",
+    },
+    {
+      type: "Missing Grades",
+      message: "You have missing grade in E-Business Architectures.",
       color: "danger",
     },
     {
@@ -78,6 +84,7 @@ const DashboardPage = () => {
                     <tr>
                       <th scope="col">Subject</th>
                       <th scope="col">Grade</th>
+                      <th scope="col">Semester</th>
                     </tr>
                   </thead>
                   <tbody>
@@ -85,6 +92,7 @@ const DashboardPage = () => {
                       <tr key={index}>
                         <td>{data.subject}</td>
                         <td>{data.grade}</td>
+                        <td>{data.sem}</td>
                       </tr>
                     ))}
                   </tbody>

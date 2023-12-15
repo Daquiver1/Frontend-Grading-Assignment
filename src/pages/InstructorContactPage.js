@@ -8,8 +8,8 @@ const InstructorContactPage = () => {
 
   // Sample instructor data
   const instructors = [
-    { id: 1, name: 'John Doe', email: 'john.doe@example.com' },
-    { id: 2, name: 'Jane Smith', email: 'jane.smith@example.com' }, 
+    { id: 1, name: 'Mr. Fendnan Desmon', email: 'fendna.desmond@ug.edu.gh' },
+    { id: 2, name: 'Mr. Mark Atta Mensah', email: 'markatta.mensah@ug.edu.gh' }, 
   ];
 
   const handleSelectInstructor = (instructor) => {
