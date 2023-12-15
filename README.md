@@ -1,6 +1,5 @@
 ### DCIT_205_IA
 
-<a name="readme-top"></a>
 
 # UNIVERSITY OF GHANA, LEGON.
 ## <div align="center"><p>GRADE REPORT SYSTEM.</p></div>
@@ -87,7 +86,7 @@ https://github.com/Daquiver1/Frontend-Grading-Assignment/assets/151379914/3457c6
 ## Set Up
 Clone this repository to your desired folder
  ```sh
-   cd 11012578-DCIT205 https://github.com/Daquiver1/Frontend-Grading-Assignment.git
+   cd 11012578-DCIT205 https://github.com/0verdoz/11012578-DCIT205.git
 
   ```
   ## Install
@@ -98,18 +97,16 @@ Clone this repository to your desired folder
 
   ```
   ## Usage
-  Execute the command below to rn this project.
+  Execute the command below to run this project.
   ```
   npm start
   ```
-  or
-  ```
-  yarn start
-  ```
-  But I built this project using <b><u>npm.</u></b>
+  <b><u>NPM</u></b> is simply <b>Node Package Manager</b> for <b>Node JS.</b>
+  It helps in installing and uninstalling packages, check npm versions, run package scripts and 
+  so much more.
 
 
-# What I learnt.
+# Insights.
 ### 1. Enhanced Development Speed with React:
 Engaging with React significantly boosted my project's pace by eliminating redundant coding tasks. The framework's component-based structure allowed for streamlined development, reducing the need to repeat code blocks. This not only enhanced efficiency but also contributed to a more maintainable and scalable codebase. The modular nature of React components facilitated code reuse, creating a smoother development experience.
 
