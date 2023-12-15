@@ -35,26 +35,25 @@ npm start
 
 This will start the application on `localhost` at the default port.
 
-## Usage
-# Logging In:
+# Usage
+## Logging In:
 Open the Missing Grade Reporting System application in your web browser.
 You will be greeted with a landing page providing information about the system.
-Locate the "Login" link in the navigation or any login button on the landing page.
+Locate the "Login" link from the side bar.
 Click on the "Login" link, which should take you to the login page.
 Enter your credentials, such as username and password, to log in to the system.
-After successful login, you will be redirected to your dashboard or another landing page.
 
-# Viewing Grades:
-On the dashboard or relevant page after logging in, look for an option to view your grades.
-Click on the "Grades" or similar link to access a page displaying your current grades.
-Explore the interface to view detailed information about each course, including grades for assignments, exams, etc.
+## Viewing Grades:
+On the dashboard, from the sidebar to view your current grades and gives your alert when there is missing grade
+The grade reportpage unable you to view the all the grades from every semester and also helps you to filter out semesters.
 
-# Reporting Missing Grades:
-Navigate to the "Report Missing Grades" section, usually accessible from the dashboard or a dedicated menu item.
-Look for a form or button that allows you to report a missing grade.
-Fill in the necessary information, such as the course name, assignment details, and any additional comments.
-Submit the form to report the missing grade.
-The system may provide a confirmation message, and the reported missing grade will be recorded for further action.
+## Contacting Instructors:
+Explore the sidebar to find the "Instructors Contact".
+Click on the "Instructors Contact" link to access a page with a list of instructors.
+Find the instructor you want to contact and click on their name or an associated link.
+The system may their  email for internal messaging.
+Compose your message, including details about the missing grade or any other inquiry.
+Send the message, and the instructor will be notified.
 
 ## Contribution
 
