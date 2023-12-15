@@ -2,10 +2,16 @@ import Nav from './Nav';
 
 const Home = () => {
     return (
-        <div>
+        <main className="home-body">
             <Nav />
-            <h1>Home</h1>
-        </div>
+            <div className="home-container">
+                <div className="article">
+                    <h1>Welcome To The Grade Report</h1>
+                    <a href="http://localhost:3000/Login" className="btn">Log In To Continue</a>
+                </div>
+            </div>
+            
+        </main>
     )
 }
 
