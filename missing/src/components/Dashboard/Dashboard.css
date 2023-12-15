@@ -1,0 +1,36 @@
+.dashboard-container {
+    max-width: 9000px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #2d17ce;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+    align-items: center;
+}
+
+h2 {
+    color: black;
+    text-align: center;
+}
+
+h3 {
+    color: rgb(223, 18, 18);
+}
+
+.grades-section,
+.alerts-section {
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+p {
+    color: black;
+}
