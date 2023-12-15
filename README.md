@@ -40,7 +40,7 @@ Establishing Grading Criteria:
 Educators begin by defining clear and transparent grading criteria. These criteria may include specific learning objectives, knowledge mastery, problem-solving skills, creativity, participation, and other relevant factors.Different assessments carry varying levels of importance in determining the final grade
 ## Help and Support:
 
-Provides FAQs and a mock support contact form.
+Provides FAQs and a mock support contact forms.
 # Experience:
 As the developer of this Grading Report Website, I aimed to create a user-friendly and efficient system for both students and instructors. The dashboard provides a quick snapshot of a student's academic performance, while the detailed grade report allows for a more in-depth analysis. The missing grade form ensures that students can easily communicate any discrepancies, fostering transparency in the grading process.
 
