@@ -22,7 +22,7 @@ export const Missing = () => {
                   <input type="text"  name="Instructor Name" id="" placeholder='Instructor Name' />
                   <input type="Text"  name="Expected Grade" id="" placeholder='Expected Grade:example, B+'/>
                   <textarea  style={{height:"260px"}} name="message" id="" cols="30" rows="10" placeholder='type here .......'/>
-                  {isSent && <p style={{ color: 'green', textAlign: 'center' }}>Sent successfully!</p>}
+                  {isSent && <p style={{ color: 'blue', textAlign: 'center' }}>Sent successfully!</p>}
                    <button style={{marginLeft:"50px", marginTop:"10px" ,padding:"8px", width:"90px",fontFamily:"arial,sans-serif;",fontSize:"15px",alignItems:"center",border:"none", backgroundColor: "rgb(29 185 237)",color:"#fff"}} type='button'onClick={handleButtonClick}>send</button>
                    
                  </div>

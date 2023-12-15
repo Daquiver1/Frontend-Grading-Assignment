@@ -1,10 +1,10 @@
 import React from  'react'
 import './App.css';
-import {Help} from './pages/Help and Support';
+import {Help} from  './pages/Help and Support';
 import { Login } from './pages/Login';
 import {Contact} from './pages/Contact Instructor'
 import {Missing} from './pages/Missing Grade';
-import {Grade, grade} from './pages/Grade Report';
+import Grade from './pages/Grade Report';
 //import Navbar from './components/Navbar';
 import Dashboard from './pages/Dashboard';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';

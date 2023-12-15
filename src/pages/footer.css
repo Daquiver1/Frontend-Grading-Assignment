@@ -1,0 +1,31 @@
+/* LandingFooter.css */
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #007bff; /* Blue background color */
+    padding: 20px;
+    color: white;
+  }
+  
+  .logo-container img {
+    width: 100px; /* Adjust the width as needed */
+  }
+  
+  .contact-info,
+  .follow-us {
+    margin-left: 20px;
+  }
+  
+  .contact-info p,
+  .follow-us p {
+    margin: 0;
+  }
+  
+  .follow-us img {
+    width: 50px; /* Adjust the width as needed */
+    margin: 5px; /* Adjust the margin as needed */
+    border-radius: 50%;
+  }
+  
