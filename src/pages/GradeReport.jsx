@@ -24,7 +24,7 @@ const navigation = [
 
   {
     name: "Missing Grade Form",
-    href: "/missing-grade-form",
+    href: "/missing-grade",
     icon: CalendarIcon,
     current: true,
   },

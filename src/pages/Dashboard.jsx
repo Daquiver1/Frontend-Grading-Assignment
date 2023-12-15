@@ -4,6 +4,7 @@ import Header from "../components/Header";
 import { Disclosure } from "@headlessui/react";
 import { ChevronRightIcon } from "@heroicons/react/20/solid";
 import { useNavigate } from "react-router-dom";
+import Board from "../components/Board";
 import {
   CalendarIcon,
   ChartPieIcon,
@@ -16,7 +17,7 @@ import {
 } from "@heroicons/react/24/outline";
 
 const navigation = [
-  { name: "Dashboard", href: "/dashboard", icon: HomeIcon, current: false },
+  { name: "Dashboard", href: "/dashboard", icon: HomeIcon, current: true },
   {
     name: "Grade Report",
     href: "/grade-report",
@@ -28,7 +29,7 @@ const navigation = [
     name: "Missing Grade Form",
     href: "/missing-grade-form",
     icon: CalendarIcon,
-    current: true,
+    current: false,
   },
   {
     name: "Instructor Contact page",
@@ -146,7 +147,7 @@ export default function Dashboard() {
 
       <div className="w-[80vw]">
         <Header />
-        <MissingGradeForm />
+        <Board />
       </div>
     </div>
   );

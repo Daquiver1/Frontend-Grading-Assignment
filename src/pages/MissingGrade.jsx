@@ -26,7 +26,7 @@ const navigation = [
 
   {
     name: "Missing Grade Form",
-    href: "/missing-grade-form",
+    href: "/missing-grade",
     icon: CalendarIcon,
     current: true,
   },
@@ -49,7 +49,7 @@ function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
 }
 
-export default function Dashboard() {
+export default function MissingGrade() {
   const navigate = useNavigate();
   return (
     <div className="w-screen h-screen flex">

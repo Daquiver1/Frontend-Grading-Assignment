@@ -10,12 +10,29 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@faker-js/faker": "^8.3.1",
     "@headlessui/react": "^1.7.17",
     "@heroicons/react": "^2.0.18",
+    "@iconify/react": "^4.1.1",
+    "@mui/lab": "^5.0.0-alpha.156",
+    "@mui/material": "^5.15.0",
+    "@mui/styled-engine-sc": "^6.0.0-alpha.8",
+    "chart.js": "^4.4.1",
+    "date-fns": "^2.30.0",
+    "flowbite": "^2.2.1",
+    "flowbite-react": "^0.7.2",
     "iconsax-react": "^0.0.8",
+    "lodash": "^4.17.21",
+    "numeral": "^2.0.6",
     "react": "^18.2.0",
+    "react-apexcharts": "^1.4.1",
+    "react-chartjs-2": "^5.2.0",
     "react-dom": "^18.2.0",
-    "react-router-dom": "^6.20.1"
+    "react-router-dom": "^6.20.1",
+    "simplebar-react": "^3.2.4",
+    "styled-components": "^6.1.1"
   },
   "devDependencies": {
     "@tailwindcss/forms": "^0.5.7",
