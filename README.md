@@ -63,3 +63,12 @@ src/
 |-- pages
 |-- screenshots
 
+
+## Contributing
+
+If you'd like to contribute to the project, please follow the guidelines in [CONTRIBUTING.md](CONTRIBUTING.md).
+
+## License
+
+This project is licensed under the [Web Dev Prince Kay](LICENSE).
+
