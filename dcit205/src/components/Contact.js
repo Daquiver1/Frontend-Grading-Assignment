@@ -226,7 +226,7 @@ const Contact = () => {
               <div class="column">
                 <div class="card">
                   <div class="img-container">
-                    <img src={matilda} />
+                    <img src={matilda} alt=""/>
                   </div>
                   <h3> MRS. MATILDA WILSON</h3>
                   <p>Lecturer</p>
