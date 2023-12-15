@@ -79,7 +79,12 @@ To clone and set up the project, follow these steps:
 
 ## Screenshots
 Here are some screenshots of each page of the website:
-![screenshot1](C:\Users\winna\Desktop\dcit work\frontend-grading-assignment\React App and 5 more pages - Personal - Microsoft​ Edge 12_14_2023 10_45_18 AM.png)
+(https://github.com/selormbb/DCIT_205/assets/151979478/42d6e310-e114-4a5d-b875-ca2f25b56698)
+(https://github.com/selormbb/DCIT_205/assets/151979478/7dbbc165-c7d0-4ffc-ba32-4d951f2e8f90)
+(https://github.com/selormbb/DCIT_205/assets/151979478/177ea26a-c77d-4ca8-bc0b-425e0b3481a1)
+(https://github.com/selormbb/DCIT_205/assets/151979478/6dcedec5-14cb-4d50-898f-53e1ab3df3f0)
+(https://github.com/selormbb/DCIT_205/assets/151979478/4c787374-183a-4b83-ad38-73fde223e587)
+(https://github.com/selormbb/DCIT_205/assets/151979478/46a0fe17-f43e-4031-91c9-66104b2e44aa)
 
 
 ## what i have learnt
