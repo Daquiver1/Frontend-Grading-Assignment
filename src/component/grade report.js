@@ -1,58 +1,51 @@
+// GradeReport.js
 import React, { useState } from 'react';
-import GradeList from './gradelist';
-import './grade.css'
+import GradeList from './gradelist'; // Update the path if necessary
+import './grade.css';
+import coursedata from './coursedata';
 
 const GradeReport = () => {
   const [selectedSemester, setSelectedSemester] = useState('All');
-  const [selectedYear, setSelectedYear] = useState('All');
+  const [selectedLevel, setSelectedLevel] = useState('All');
 
-  // Mock data of courses and grades
-  const courses = [
-    { name: 'Course 1', grade: 'A', semester: 'First Semester', year: '100' },
-    { name: 'Course 2', grade: 'B', semester: 'Second Semester', year: '100' },
-    // More course objects
-  ];
+  const semesters = Object.keys(coursedata);
+  const levels = selectedSemester ? Object.keys(coursedata[selectedSemester] || {}) : [];
 
-  // Filter courses by selected semester and year
-  const filteredCourses = courses.filter(course => {
-    return (
-      (selectedSemester === 'All' || course.semester === selectedSemester) &&
-      (selectedYear === 'All' || course.year === selectedYear)
-    );
-  });
+  const handleSemesterChange = (semester) => {
+    setSelectedSemester(semester);
+    setSelectedLevel('All'); // Reset selected level when changing the semester
+  };
+
+  const filteredCourses = selectedSemester && selectedLevel ? coursedata[selectedSemester]?.[selectedLevel] || [] : [];
 
   return (
-    <div>
+    <div className="grade-report-container">
       <h1>Grade Report</h1>
-      <div>
+      <div className="filters">
         <label htmlFor="semesterFilter">Select Semester:</label>
         <select
           id="semesterFilter"
           value={selectedSemester}
-          onChange={(e) => setSelectedSemester(e.target.value)}
+          onChange={(e) => handleSemesterChange(e.target.value)}
         >
           <option value="All">All Semesters</option>
-          <option value="First Semester">First Semester</option>
-          <option value="Second Semester">Second Semester</option>
-          {/* Add more options for different semesters */}
+          {semesters.map((semester) => (
+            <option key={semester} value={semester}>{semester}</option>
+          ))}
         </select>
-      </div>
-      <div>
-        <label htmlFor="yearFilter">Select Level:</label>
+        <label htmlFor="levelFilter">Select Level:</label>
         <select
-          id="yearFilter"
-          value={selectedYear}
-          onChange={(e) => setSelectedYear(e.target.value)}
+          id="levelFilter"
+          value={selectedLevel}
+          onChange={(e) => setSelectedLevel(e.target.value)}
         >
-          <option value="All">Level</option>
-          <option value="100">100</option>
-          <option value="200">200</option>
-          <option value="300">300</option>
-          <option value="400">400</option>
-          {/* Add more options for different years */}
+          <option value="All">All Levels</option>
+          {levels.map((level) => (
+            <option key={level} value={level}>{level}</option>
+          ))}
         </select>
       </div>
-      <GradeList courses={filteredCourses} />
+      <GradeList grades={filteredCourses} />
     </div>
   );
 };
