@@ -20,7 +20,7 @@ function Navbar () {
         <ul className={active}>
             <li className='nav_item'><a href="Login" className='nav_link'>Login</a></li>
             <li className='nav_item'><a href="Dashboard" className='nav_link'>Dashboard</a></li>
-            <li className='nav_item'><a href="GradeReport" className='nav_link'>Report</a></li>
+            <li className='nav_item'><a href="GradeReport" className='nav_link'>Grade Report</a></li>
             <li className='nav_item'><a href="/HelpPage" className='nav_link'>Help and Support</a></li>
         </ul>
         <div onClick={navToggle} className={toggleIcon}>
