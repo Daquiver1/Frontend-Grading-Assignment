@@ -8,16 +8,14 @@ function LandingPage() {
   return (
     <div className="landing-page" style={{ backgroundColor: '#f0f0f0', minHeight: '100vh' }}>
       <Navigation />
-      <h1>Welcome to Grade Assessment</h1>
+      <h1 className='acc-head'>Welcome to Grade Assessment</h1>
       <div className="landing-heading">
-        <p>
-          This platform offers powerful tools for assessing grades, enabling educators to streamline the grading process.
-        </p>
+       
         </div>
 
         <div className="features">
           <div className="features1">
-          <h2>Features and Services</h2>
+          <h2 className="land-head">Features and Services</h2>
           </div>
           <ul>
             <li><FaCheckCircle /> Customizable grading criteria</li>
@@ -29,7 +27,7 @@ function LandingPage() {
       <Container>
         <div className="benefits">
           <div className="benefits1">
-          <h2>Benefits</h2>
+          <h2 className="land-head">Benefits</h2>
           </div>
           <p>
             Our platform empowers educators and institutions to enhance learning outcomes by simplifying the grading process.
@@ -37,7 +35,7 @@ function LandingPage() {
         </div>
         <div className="benefits">
         <div className="benefits1">
-          <h2>Testimonials</h2>
+          <h2 className="land-head">Testimonials</h2>
           </div>
           <p>
             "Using this platform has significantly improved our grading efficiency and allowed us to focus more on teaching."
@@ -46,7 +44,7 @@ function LandingPage() {
         </div>
         <div className="benefits">
         <div className="benefits1">
-          <h2>Pricing</h2>
+          <h2 className="land-head">Pricing</h2>
           </div>
           <p>
             Get started for free! Check out our subscription plans for more advanced features.
@@ -54,7 +52,7 @@ function LandingPage() {
         </div>
         <div className="benefits">
         <div className="benefits1">
-          <h2>Contact Us</h2>
+          <h2 className="land-head">Contact Us</h2>
           </div>
           <p>
             Have questions? Reach out to our support team at <FaEnvelope /> support@gradeassessment.com

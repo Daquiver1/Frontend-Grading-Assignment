@@ -7,6 +7,7 @@ import LoginPage from './login';
 import LandingPage from './landingpage';
 import  MissingGradeForm from'./gradereportform';
 import HelpAndSupportPage from'./help';
+import ContactPage from './contact';
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
 
 
@@ -21,6 +22,7 @@ function App() {
     <Route path='/landingpage' element={<LandingPage/>} ></Route>
     <Route path='/gradereportform' element={<MissingGradeForm/>} ></Route>
     <Route path='/help' element={< HelpAndSupportPage/>} ></Route>
+    <Route path='/contact' element={< ContactPage/>} ></Route>
     </Routes>
     </div>
     </BrowserRouter>

@@ -3,7 +3,6 @@ import Navigation from './Navigation';
 import Accordion from 'react-bootstrap/Accordion';
 import Footer from './footer';
 
-
 const HelpAndSupportPage = () => {
   const [searchQuery, setSearchQuery] = useState('');
 
@@ -61,9 +60,14 @@ const HelpAndSupportPage = () => {
         </Accordion.Body>
       </Accordion.Item>
     </Accordion>
+    
     </div>
     <div className="contact-support">
+       <div className="tt"><h2 className='acc-head'>Talk to an expert</h2>
+      <h3 className='acc-head'> We are hear to help</h3>
+       </div> 
       <button className="contact-support-btn">Contact Support</button>
+
       </div>
       <Footer/>
     </div>

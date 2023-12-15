@@ -1,87 +1,157 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
+import { Container, Row, Col, Table } from 'react-bootstrap';
 import Navigation from './Navigation';
-import './style.css'
-import Footer from './footer';
-
 
 const GradeReportPage = () => {
-  const [allGrades, setAllGrades] = useState([]);
-  const [filteredGrades, setFilteredGrades] = useState([]);
-  const [selectedYear, setSelectedYear] = useState(''); 
+  const courses = [
+    { id: 1, name: 'MATH002', grade: 'A', year: 2022 },
+    { id: 2, name: 'UGRC150', grade: 'B', year: 2022 },
+    { id: 3, name: 'DCIT201', grade: 'C', year: 2022 },
+    { id: 4, name: 'CDIT442', grade: 'A', year: 2022 },
+    { id: 5, name: 'GYAL442', grade: 'B+', year: 2022 },
+    { id: 6, name: 'MATH123', grade: 'A', year: 2022 },
+    // Add more courses as needed
+  ];
 
-  useEffect(() => {
-    const fetchAllGrades = () => {
-      setTimeout(() => {
-        const fetchedGrades = [
-          { course: 'MATH121', grade: 'A', year: '2022' },
-          { course: 'UGRC150', grade: 'A', year: '2022' },
-          { course: 'DCIT101', grade: 'C', year: '2022' },
-          { course: 'MATH123', grade: 'A', year: '2022' },
-          { course: 'STAT111', grade: 'A', year: '2022' },
-          { course: 'DCT103', grade: 'A', year: '2022' },
-         
-        ];
-        setAllGrades(fetchedGrades);
-        setFilteredGrades(fetchedGrades); 
-      }, 1000); 
+  // Calculate GPA
+  const calculateGPA = () => {
+    const gradePoints = {
+      'A': 4.0,
+      
+      'B+': 3.3,
+      'B': 3.0,
+      'C': 2.0,
+      
     };
 
-    fetchAllGrades();
-  }, []);
+    const totalCourses = courses.length;
+    let totalGradePoints = 0;
 
-  const handleYearFilterChange = (event) => {
-    const selectedYear = event.target.value;
-    setSelectedYear(selectedYear);
+    courses.forEach((course) => {
+      totalGradePoints += gradePoints[course.grade];
+    });
 
-    const filtered = allGrades.filter((grade) => grade.year === selectedYear);
-    setFilteredGrades(filtered);
+    const gpa = totalGradePoints / totalCourses;
+    return gpa.toFixed(2); 
+  };
+
+
+  const calculateAveragePerformance = () => {
+    const totalCourses = courses.length;
+    let totalGrades = 0;
+
+    courses.forEach((course) => {
+      totalGrades += parseInt(course.grade); 
+    });
+
+    const averagePerformance = totalGrades / totalCourses;
+    return averagePerformance.toFixed(2); 
   };
 
   return (
-    <div>
-      <Navigation/>
-      <h2>Grade Report</h2>
-      <div>
-        <label htmlFor="yearFilter">Filter by Year:</label>
-        <select id="yearFilter" value={selectedYear} onChange={handleYearFilterChange}>
-          <option value="">All</option>
-          {/* Replace with your list of available years */}
-          <option value="2023">2023</option>
-          <option value="2022">2022</option>
-          {/* Add more options as needed */}
-        </select>
-      </div>
-      <h3>Detailed View of Courses and Grades:</h3>
-      <div className="gradetable">
-      <table>
-        <thead>
-          <tr>
-            <th className='report-headers'>Course</th>
-            <th className='report-headers'>Grade</th>
-            <th className='report-headers'>Year</th>
-          </tr>
-        </thead>
-        <tbody>
-          {filteredGrades.map((grade, index) => (
-            <tr key={index}>
-              <td className='report-headers'>{grade.course}</td>
-              <td className='report-headers'>
-                {grade.grade === 'A' && 'A'}
-                {grade.grade === 'B' && 'B'}
-                {grade.grade === 'C' && 'C'}
-                {grade.grade === 'D' && 'D'}
-                {grade.grade === 'F' && 'F'}
-                {/* Add more conditions for different letter grades */}
-              </td>
-              <td className='report-headers'>{grade.year}</td>
-            </tr>
-          ))}
-        </tbody>
-      </table>
-      </div>
-      <Footer/>
+    <div className="report" >
+      <Navigation />
+      <h1 className="mb-4">Grade Report</h1>
+      <Container className="mt-5">
+        
+        
+          <Col>
+            <Table striped bordered hover>
+              <thead>
+                <tr>
+                  <th>Course</th>
+                  <th>Grade</th>
+                  <th>Year</th>
+                </tr>
+              </thead>
+              <tbody>
+                {courses.map((course) => (
+                  <tr key={course.id}>
+                    <td>{course.name}</td>
+                    <td>{course.grade}</td>
+                    <td>{course.year}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </Table>
+          </Col>
+        
+        <Row className="mt-4">
+          
+        </Row>
+      </Container>
+      <Col>
+            <h4>GPA: {calculateGPA()}</h4>
+            <h4>Average Performance: {calculateAveragePerformance()}</h4>
+          </Col>
+
+          <Container className="mt-5">
+        
+        
+          <Col>
+            <Table striped bordered hover>
+              <thead>
+                <tr>
+                  <th>Course</th>
+                  <th>Grade</th>
+                  <th>Year</th>
+                </tr>
+              </thead>
+              <tbody>
+                {courses.map((course) => (
+                  <tr key={course.id}>
+                    <td>{course.name}</td>
+                    <td>{course.grade}</td>
+                    <td>{course.year}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </Table>
+          </Col>
+        
+        <Row className="mt-4">
+          
+        </Row>
+      </Container>
+      <Col>
+            <h4>GPA: {calculateGPA()}</h4>
+            <h4>Average Performance: {calculateAveragePerformance()}</h4>
+          </Col>
+
+
+          <Container className="mt-5">
+        
+        
+          <Col>
+            <Table striped bordered hover>
+              <thead>
+                <tr>
+                  <th>Course</th>
+                  <th>Grade</th>
+                  <th>Year</th>
+                </tr>
+              </thead>
+              <tbody>
+                {courses.map((course) => (
+                  <tr key={course.id}>
+                    <td>{course.name}</td>
+                    <td>{course.grade}</td>
+                    <td>{course.year}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </Table>
+          </Col>
+        
+        <Row className="mt-4">
+          
+        </Row>
+      </Container>
+      <Col>
+            <h4>GPA: {calculateGPA()}</h4>
+            <h4>Average Performance: {calculateAveragePerformance()}</h4>
+          </Col>
     </div>
-    
   );
 };
 

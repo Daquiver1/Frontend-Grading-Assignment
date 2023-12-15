@@ -34,7 +34,7 @@ const DashboardPage = () => {
                <h2 className="text-center2"><FaBook/> Course 1: A</h2> <ProgressBar className='progress-bar2' now={100} label="81%" />
                <h2 className="text-center2"><FaBook/> Course 1: B+</h2> <ProgressBar className='progress-bar3'now={100} label="79%" />
               <h2 className="text-center2"> <FaBook/> Course 1: B+</h2> <ProgressBar className='progress-bar4' now={100} label="77%" />
-              <h2 className="text-center2"><FaBook/> Course 1: A</h2> <ProgressBar className='progress-bar5' now={100} label="83%" />
+              <h2 className="text-center2"><FaBook/> DCIT 101: N/A</h2> <ProgressBar className='progress-bar5' now={100} label="N/A" />
               <h2 className="text-center2"><FaBook/> Course 1: B</h2> <ProgressBar className='progress-bar6' now={100} label="70%" />
             </Card.Body>
           </Card>

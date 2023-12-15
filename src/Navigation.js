@@ -12,7 +12,7 @@ function Navigation() {
 <div>
     <Navbar expand="lg" bg="dark" variant="dark" sticky="top" >
     <Container>
-    /<img
+    <img
               alt=""
               src={Trinity}
               width="70"
@@ -26,6 +26,7 @@ function Navigation() {
           <Nav.Link href="/gradereport">Grade Report</Nav.Link>
           <Nav.Link href="/gradereportform">Missing Grade Form</Nav.Link>
           <Nav.Link href="/help">Help and Support</Nav.Link>
+          <Nav.Link href="/contact">Contact</Nav.Link>
           <Nav.Link href="/login">Log Out</Nav.Link>
         </Nav>
       </Navbar.Collapse>

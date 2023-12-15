@@ -1,6 +1,8 @@
 import React, {useState } from 'react';
 import Navigation from './Navigation';
 import './style.css'
+import Footer from './footer';
+
 
 
 function MissingGradeForm(){
@@ -119,6 +121,7 @@ function MissingGradeForm(){
             </form>
         </div>
         </div>
+        <Footer/>
         </body>
     );
 }

@@ -1,3 +1,44 @@
+/*LANDINGPAGE*/
+.features{
+    width: 650px;
+    margin:auto;
+    border-radius: 10px;
+    margin-top: 60px;
+    background-color: rgb(51, 166, 128);
+    
+}
+
+.features1{
+    width: 650px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    background-color: rgb(4, 4, 98);
+
+}
+.benefits{
+    width:300px;
+    border-radius: 10px;
+    height: 280px;
+    margin-top: 100px;
+    margin-left: 45px;
+    background-color: rgb(51, 166, 128);
+}
+.benefits1{
+    width:300px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    background-color: rgb(4, 4, 98);
+
+}
+
+
+.land-con{
+    margin:auto;
+}
+
+.land-head{
+    color: white
+}
 /*LOGINPAGE*/
 .container{
     display:flex;
@@ -86,20 +127,18 @@ a.nav-link{
 
 /*GRADEREPORT*/
 
-.gradetable{
-    margin-left: 650px;
-    width: 100%;
+.mt-5{
+    margin-left: 50px;
 }
 
-
-.report-headers{
-    margin-left: 60px;
+.report{
+    background-color: rgb(51, 166, 128) ;
 }
-
 
 /*MISSINGGRADE*/
 .missinggrade form label{
     text-align: justify;
+    color: #fff;
 }
 
 .namebox{
@@ -114,8 +153,8 @@ a.nav-link{
     margin-right: 50px;
     width: 300px;
     border:none;
-    border-bottom: 1px solid ;
-    background-color: azure;
+    border-bottom: 1px solid white ;
+    background-color: rgb(51, 166, 128);;
     }
 
 
@@ -123,8 +162,8 @@ a.nav-link{
         margin:auto;
         width: 650px;
         border:none;
-    border-bottom: 1px solid ;
-    background-color: azure;
+    border-bottom: 1px solid white ;
+    background-color: rgb(51, 166, 128);
         
     
     }
@@ -133,8 +172,8 @@ a.nav-link{
         margin:auto;
         width: 650px;
         height: 80px;
-        border:1px solid;
-    background-color: azure;
+        border:1px solid white;
+    background-color:rgb(51, 166, 128);
         
     
     }
@@ -144,7 +183,7 @@ a.nav-link{
     flex-direction: column;
     margin: auto;
     margin-top: 70px;
-    background-color:azure;
+    background-color:rgb(51, 166, 128);
     padding-bottom: 30px;
     width: 800px;
     border-radius: 15px;
@@ -156,7 +195,7 @@ a.nav-link{
 .form-title{
     border-bottom: 1px solid;
     height: 80px;
-    background-color: rgb(7, 7, 45);
+    background-color:rgb(4, 4, 98);;
     border-top-right-radius: 15px;
     border-top-left-radius: 15px;
 }
@@ -204,7 +243,6 @@ a.nav-link{
 }
 
 
-
 .search-bar{
     margin-top: 20px;
     
@@ -222,26 +260,56 @@ a.nav-link{
 }
 
 .contact-support{
-    margin-top: 50px;
-    border: 1px solid;
+    
     width:800px;
     height: 150px;
+    background-color:rgba(51, 166, 128, 0.764); ;
     margin: auto;
-    margin-top:50px;
+    margin-top:80px;
     border-radius: 4px;
+    background-image: url(./icons/support-img.png);
+    background-size: 300px 150px;
+    background-repeat: no-repeat;
+    background-position: 499px ;
+    
 }
 
+
 .contact-support-btn{
-    margin-top: 110px;
-    margin-left: -590px;
     font-family: system-ui;
     font-weight: bolder;
-    color:whitesmoke ;
+    color: #fff ;
     background-color:rgb(4, 4, 98);
     transition: 0.4s;
     border:none;
     border-radius:6px;
+    margin-top:15px;
+    margin-left: -560px;
     height:35px;
+    z-index: 1
+}
+
+.contact-support-btn:hover{
+    padding-left: 15px;
+    padding-right: 15px;
+    color: rgb(4, 4, 98);
+    background-color: #fff;
+
+}
+.tt{
+    text-align: justify;
+    width: 400px;
+    margin-left: 50px;
+}
+
+.tt h3{
+    font-size: 20px;
+    color:rgb(4, 4, 98);
+}
+
+.tt h2{
+    font-size: 40px;
+    color:rgb(4, 4, 98);
 }
 
 
@@ -359,13 +427,31 @@ text-align: center;
     /*DASHBOARD*/
     .dash{
         margin-left:150px;
-        margin-top:100px;
+        margin-top:60px;
     }
     .small-grids{
     display:grid;
      width: 300px;
      margin-bottom:36px;
     }
+
+    .small-grids2{
+        display:grid;
+         width: 300px;
+         margin-bottom:36px;
+        }
+
+    .text-center3{
+        color:red;
+        font-size:41px;
+    }
+    
+
+    .text-center4{
+        color:red;
+        font-size:22px;
+    }
+        
 
     .progress-bar1{
         width: 80%;
@@ -382,7 +468,8 @@ text-align: center;
         width: 77%;
     }
     .progress-bar5{
-        width: 83%;
+        width: 100%;
+        color: RED;
     }
     .progress-bar6{
         width: 70%;
@@ -417,6 +504,72 @@ text-align: center;
         color:rgb(4, 4, 98);
         font-size:17px;
         text-align: justify;
+    }
+
+    /*CONTACTPAGE*/
+    .banku{
+        margin-left: 600px;
+        margin-top: -800px;
+        position: fixed;
+    }
+
+    .banku Form{
+        height: 300px;
+
+    }
+
+    .banku Button{
+        margin-top: -350px;
+        margin-left: 30px;
+        background-color: rgb(4, 4, 98);
+        border: 1px solid rgb(4, 4, 98);
+        transition: 0.4s;
+
+    }
+
+    .banku Button:hover{
+        border: 1px solid rgb(4, 4, 98);
+        color: rgb(4, 4, 98) ;
+        background-color: #fff;
+    }
+
+    .mb-3 Button{
+        background-color: rgb(4, 4, 98);
+        border: 1px solid rgb(4, 4, 98);
+        transition: 0.4s;
+    }
+
+    .mb-3 Button:hover{
+        border: 1px solid rgb(4, 4, 98);
+        color: rgb(4, 4, 98) ;
+        background-color: #fff;
+    }
+    
+    
+
+
+    .message{
+        margin-left: 30px;
+        color:rgb(4, 4, 98);
+
+    }
+
+
+
+    
+
+    .e-area{
+        border: 1px solid;
+        height:350px;
+        width: 700px;
+        margin-bottom: 200px;
+
+    }
+
+
+    .background{
+        background-color: rgb(51, 166, 128);
+        
     }
 
 
