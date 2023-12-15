@@ -5,13 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Instructor Contact Page</title>
+    <title>Help Page</title>
 
-    <link rel="stylesheet" href="Contact.css">
+    <link rel="stylesheet" href="Help.css">
   </head>
 
   <body>
-    <div class="BodyMain">
+    <div>
       <div>
         <header>
           <h2 class="logo">Logo</h2>
@@ -82,11 +82,131 @@
           <br>
         </div>
       </div>
+
+      <div>
+        <p class="CourseTitle">
+          &#8226 <strong>About The Course In The First Year</strong>
+        </p>
+
+        <button type="button" class="collapsible">
+            Is The Course Hard?
+        </button>
+
+        <div class="content">
+            <p>
+              The computer science course at the University of Ghana is challenging but immensely rewarding. It requires dedication and problem-solving skills. The curriculum covers a wide range of topics, from fundamentals to advanced technologies. The department provides strong support and a collaborative learning environment. While it's demanding, the difficulty contributes to a robust skill set. Remember, overcoming challenges is part of the learning process, and your perseverance will lead to success.
+            </p>
+        </div>
+
+        <button type="button" class="collapsible">
+            Why is it called Mathemathical Science?
+        </button>
+
+        <div class="content">
+            <p>
+                Within the first year of your study as a student who wishes to pursue Computer Science, you start of as a student pursing Mathemathical Science which involves the foundational combination of Mathemathics, Economics, Geography, Statistics and all other fundamental courses required in your first year to qualify for Computer Science.
+            </p>
+        </div>
+
+        <button type="button" class="collapsible">
+            What is Placement?
+        </button>
+
+        <div class="content">
+            <p>
+              Placements refer to how you will be assigned your course based on the grades you attained in your first year of education in Mathemathical Science. You may request for 3 choices (first choice, second choice and third choice of program) and based on your grades you will be assigned a course.
+            </p>
+        </div>
+
+        <button type="button" class="collapsible">
+            How are Examinations Like?
+        </button>
+
+        <div class="content">
+            <p>
+              Examinations may vary based off the course and the preference of the lecturer in charge. Sometimes the examination is conducted online onsite, offsite, project or a physical inperson written examination
+            </p>
+          </div>
+        </div>
+
+        <div>
+            <p class="CourseTitle">
+              &#8226 <strong>About the Department</strong>
+            </p>
+
+            <button type="button" class="collapsible">
+                Is There A Lab For Practical Examination/Classes
+            </button>
+
+            <div class="content">
+                <p>
+                    Yes we do have a hardware lab at the Department of Computer Sciecne
+                </p>
+            </div>
+
+            <button type="button" class="collapsible">
+                How are The Lectureres Like?
+            </button>
+
+            <div class="content">
+                <p>
+                    Just like people, each lecturer is different but they are generally kind and helpful, a few might be considered strict but they only do so to help.
+                </p>
+            </div>
+
+            <button type="button" class="collapsible">
+                Are We Restricted in The Courses We Can Pick Each Semester?
+            </button>
+
+            <div class="content">
+                <p>
+                    We aren't exactly restricted but we do have specific courses we are required to pick from. You can choose to add non weighted courses and sometimes even weighted courses beyond the specified ones but it is not recommended. The course is already challenging and involving.
+                </p>
+            </div>
+
+            <button type="button" class="collapsible">
+                What are The Requirments To Get Computer Science as a Major?
+            </button>
+
+            <div class="content">
+                <p>
+                    Getting computer Science as a major usually means you will have to get excellent grades. Usually a B minimum in all DCIT courses and  C minimum in other courses should grat admission into the course. But it may also change depeding on the years activities and teaching.
+                </p>
+            </div>
+
+            <div class="EndingStatement">
+              <br>
+              <br>
+              <p>
+                For more enquiries, please see a TA in the Hardware lab, at the Department of Computer Science to Clarify any specific doubts.
+                <br>
+                Thank You
+              </p>
+            </div>
+      
     </div>
+
+
   
       <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
       <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 
+      <script>
+        var coll = document.getElementsByClassName("collapsible");
+        var i;
+        
+        for (i = 0; i < coll.length; i++) {
+          coll[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var content = this.nextElementSibling;
+            if (content.style.display === "block") {
+              content.style.display = "none";
+            } else {
+              content.style.display = "block";
+            }
+          });
+        }
+        </script>
 
   </body>
 </html>
