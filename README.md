@@ -1,5 +1,8 @@
 # Student Grade Reporting System Frontend
 
+- Name: Ryan Brown
+- Student ID: 11357610
+
 ## Project Overview
 
 This project is a front-end web application for a Student Grade Reporting System. It simulates a real-world application where students can view, report, and manage their academic grades. This system addresses the issue of missing or unrecorded grades in a student's profile.
@@ -17,27 +20,73 @@ The application consists of 7 main pages:
 - **Help and Support:** Provides FAQs and a mock support contact form.
 
 ## Technical Details
-
-- **Framework/Technology Used:** [React]
-- **Responsive Design:** Implemented using [CSS Flexbox/Grid, Bootstrap, Tailwind CSS].
-- **JavaScript Functionality:** Used for form validations, dynamic content rendering, and simulating interactions.
+- **Framework/Technology Used:** [React],[Vite]
+- **Responsive Design:** Implemented using [CSS Flexbox/Grid]
+- **TypeScript Functionality:** Used for secure forms, dynamic content, and smooth interactions.
 
 ## Setup and Installation
-
-To set up the project locally, follow these steps:
+To set up the project locally using SSH, follow these steps:
 
 ```bash
-git clone https://github.com/your-github-username/DCIT_205_ASSIGNGMENT1.git
-cd repo-name
+git clone git@github.com:AkweiBrown/11357610_DCIT205_Assignment1.git 
+cd 11357610
 npm install
-npm start
+npm run dev
 ```
 
 This will start the application on `localhost` at the default port.
 
-## Usage
+### Usage
 
-Describe how to use the application, highlighting key functionalities such as logging in, viewing grades, reporting missing grades, and contacting instructors.
+## Navigating with Ease: A Guide to Your Grades and More
+Our application puts your grades at your fingertips, with a user-friendly design that makes managing your academic life a breeze. Here's a quick overview of how to navigate key features:
+
+## Logging In:
+- Open the application.
+- Enter your credentials (student ID and password) in the designated fields.
+- Click "Login" and access your personalized dashboard.
+- Exploring Your Grades:
+
+## Exploring Your Grades:
+- Click the "Grades" tab.
+- Choose the course or term you're interested in.
+- Voila! Your grades for assignments, quizzes, and exams are displayed.
+- Dig deeper into any individual assignment for detailed feedback and scoring.
+- Addressing Missing Grades:
+
+## Addressing Missing Grades:
+- Head over to the "Missing Grades" tab.
+- Select the course and assignment with the missing grade.
+- Provide any relevant information (date submitted, assignment title) to help us investigate.
+- Click "Report Missing Grade" and receive a confirmation notification.
+- Sit back and relax! We'll estimate a timeframe for resolving the issue and keep you updated.
+- Connecting with Instructors:
+
+## Connecting with Instructors:
+- Navigate to the "Instructors" tab.
+- Choose the instructor you want to reach.
+- Select your preferred method: email, phone call, or the built-in messaging system.
+- Craft your message and send it directly through the application.
+- Bonus Features:
+
+## Remember:
+- Keep your application updated for optimal performance.
+- Check out the help center and FAQs for detailed instructions and troubleshooting tips.
+- Reach out to our support team if you encounter any issues.
+
+### With this guide and our user-friendly design, managing your grades and academic life becomes effortless. Dive in and experience the difference!
+
+## Project Insights: A Developer's Journey
+### Challenges & Learnings:
+Routing & Dependencies: Navigating the intricate dance of routing and interdependent components was a major learning curve. Fixing routing issues sometimes triggered cascading styling changes, requiring meticulous debugging.
+
+Styling Tweaks & Tricky Interactions: Achieving pixel-perfect UI and smooth user interactions involved constant iteration and experimentation. Mastering CSS flexbox and grid layout was key to this success.
+
+TypeScript Magic: Leveraging TypeScript for secure forms, dynamic content, and smooth interactions proved invaluable. It added a layer of confidence and robustness to the application.
+
+Overall, this project was a rewarding exercise in front-end development. It pushed me to explore new technologies, refine my problem-solving skills, and appreciate the power of clean code. I'm excited to see this project evolve and continue to learn as I build more complex web applications.
+
+Feel free to explore the code and contribute to the project!
 
 ## Contribution
 
