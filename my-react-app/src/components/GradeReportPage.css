@@ -1,0 +1,47 @@
+/* GradeReportPage.css */
+
+.grade-report-page {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 800px;
+  }
+  
+  .grade-list {
+    margin-top: 40px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    padding: 12px;
+    border: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  .filter-options {
+    margin-top: 40px;
+  }
+  
+  label {
+    margin-bottom: 8px;
+    display: block;
+  }
+  
+  select {
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
