@@ -148,3 +148,46 @@ input {
   margin: 5rem;
 
 }
+
+
+form{
+  display: block;
+  background-color: #fff;
+  box-shadow: #116d65;
+  margin: 40px auto;
+  max-width: 400px;
+  max-height: 700px;
+  padding: 20px 40px;
+  border-color: #116d65;
+  color: black;
+}
+
+form input, textarea {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 15px auto;
+  padding: 10px;
+  background-color: #bee4de;
+  border: 1px solid #fff;
+  
+}
+
+form span{
+  color: #1eb2a6;
+}
+
+form button{
+  height: 0px;
+  width: 90px;
+  padding-bottom: 30px;
+  padding-left: 5px;
+  padding-right: 5px;
+  align-items: center;
+  border: none;
+  background-color: #1eb2a6;
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+  font-size: 14px;
+}
