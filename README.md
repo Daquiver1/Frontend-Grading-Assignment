@@ -1,51 +1,169 @@
-# Student Grade Reporting System Frontend
+<a name="readme-top"></a>
 
-## Project Overview
+<div align="center">
 
-This project is a front-end web application for a Student Grade Reporting System. It simulates a real-world application where students can view, report, and manage their academic grades. This system addresses the issue of missing or unrecorded grades in a student's profile.
+  <h3><b>UG GRADE REPORTING SYSTEM</b></h3>
 
-## Application Structure
+</div>
 
-The application consists of 7 main pages:
+<!-- TABLE OF CONTENTS -->
 
-- **Homepage:** Introduction to the system and its purpose.
-- **Login Page:** Mock login interface for student authentication.
-- **Dashboard:** Displays an overview of the student’s current grades and alerts for missing grades.
-- **Grade Report:** Shows a detailed view of the student's grades filtered by semester or academic year.
-- **Missing Grade Form:** Enables students to report missing grades.
-- **Instructor Contact Page:** Lists instructors' contact information with a simulated email feature.
-- **Help and Support:** Provides FAQs and a mock support contact form.
+# 📗 Table of Contents
 
-## Technical Details
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Setup](#setup)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ (OPTIONAL)](#faq)
+- [📝 License](#license)
 
-- **Framework/Technology Used:** [React]
-- **Responsive Design:** Implemented using [CSS Flexbox/Grid, Bootstrap, Tailwind CSS].
-- **JavaScript Functionality:** Used for form validations, dynamic content rendering, and simulating interactions.
+<!-- PROJECT DESCRIPTION -->
 
-## Setup and Installation
+# 📖 UGCS <a name="about-project"></a>
 
-To set up the project locally, follow these steps:
+This is a webapp that acts as the front for a "Missing Grade Reporting System". This system is designed to help students track and report grades that are not recorded in their academic profiles. The goal is to create an interactive, user-friendly interface that enables students to view their grades, report missing grades, and communicate with their instructors or academic administration.
 
-```bash
-git clone https://github.com/your-github-username/DCIT_205_ASSIGNGMENT1.git
-cd repo-name
-npm install
-npm start
+## 🛠 Built With <a name="built-with"></a>
+
+### Tech Stack <a name="tech-stack"></a>
+
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://reactjs.org/">React.js</a></li>
+    <li><a href="https://reactrouter.com/">React Router</a></li>
+    <li><a href="https://getbootstrap.com/">Bootstrap</a></li>
+  </ul>
+</details>
+
+<!-- Features -->
+
+### Key Features <a name="key-features"></a>
+
+- Landing Page
+- Login Page
+- Dashboard Page
+- Grade Report Page
+- Missing Grade Form Page
+- Instructor Contact Page
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LIVE DEMO -->
+
+## Screenshots
+
+
+![Screenshot from 2023-12-15 22-56-10](https://github.com/Owusu-Desmond/Frontend-Grading-Assignment/assets/92303891/affec963-6550-4b4d-a4b8-50bb8a1b7fc8)
+![image](https://github.com/Owusu-Desmond/Frontend-Grading-Assignment/assets/92303891/4fa20b1d-eaff-40fa-8393-d1f9aebf3618)
+![Screenshot from 2023-12-15 22-50-57](https://github.com/Owusu-Desmond/Frontend-Grading-Assignment/assets/92303891/1d63666b-067d-4f00-ae49-3ed779073ee7)
+
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [Live Demo Link](https://ugcs-gpa-system.netlify.app/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- GETTING STARTED -->
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+To get a local copy up and running, follow these steps.
+
+### Prerequisites
+
+In order to run this project you need:
+
+### Setup
+
+Clone this repository to your desired folder:
+
+```sh
+  cd <folder>
+  git clone https://github.com/Owusu-Desmond/Frontend-Grading-Assignment
 ```
 
-This will start the application on `localhost` at the default port.
+### Install
 
-## Usage
+Install this project with:
 
-Describe how to use the application, highlighting key functionalities such as logging in, viewing grades, reporting missing grades, and contacting instructors.
+```sh
+  cd Frontend-Grading-Assignment
+  npm install
+```
 
-## Contribution
+### Usage
 
-To contribute to this project, please follow these guidelines:
+To run the project, execute the following command:
 
-1. Fork the repository.
-2. Create a new branch for your feature.
-3. Commit your changes and push them to your branch.
-4. Submit a pull request for review.
+```sh
+  npm start
+```
+--->
 
-Please adhere to the project's coding standards and provide clear and detailed pull request descriptions.
+### Deployment
+
+<!-- AUTHORS -->
+
+## 👥 Author <a name="authors"></a>
+
+👤 **Desmond Owusu Ansah**
+
+- Github [@Owusu-Desmond](https://github.com/Owusu-Desmond)
+- Twitter [@DesmondOwusuDev](https://twitter.com/DesmondOwusuDev)
+- LinkedIn [@desmond-owusu-ansah](https://www.linkedin.com/in/desmond-owusu-ansah-09274a223/)
+- Dev [@desmondowusudev](https://dev.to/desmondowusudev)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FUTURE FEATURES -->
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- SUPPORT -->
+
+## ⭐️ Show your support <a name="support"></a>
+
+If you like this project, give it a ⭐️!
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+I would like to thank CS department for giving me this opportunity to work on this project.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
