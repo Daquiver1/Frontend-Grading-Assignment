@@ -8,7 +8,7 @@ import { FaLinkedin } from "react-icons/fa";
 
 import { Link } from "react-router-dom";
 
-const Footer = () => {
+const FooterLog = () => {
   return (
     <div className="bg-indigo-100 ">
       <div className="flex-1 md:flex bg-fixed gap-[8rem] justify-center pt-3  mb-10">
@@ -19,16 +19,7 @@ const Footer = () => {
           
         </div>
 
-        <div>
-          <h1 className="font-bold text-[1.4rem] cursor-pointer text-gray-700 p-2 md:border-b border-gray-800">
-            Resources
-          </h1>
-          <ul>
-            <li className="flex gap-2 p-1">Documentation</li>
-            <li className="flex gap-2 p-1">Tutorial</li>
-          </ul>
-        </div>
-
+       
         <div>
           <h1 className="font-bold text-[1.4rem] cursor-pointer text-gray-700 p-2 md:border-b border-gray-800">
             Legal & Support
@@ -82,4 +73,4 @@ const Footer = () => {
   );
 };
 
-export default Footer
+export default FooterLog

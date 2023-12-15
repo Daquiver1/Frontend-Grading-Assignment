@@ -4,9 +4,9 @@ import {Link} from 'react-router-dom'
 const Sidebar = () => {
   return (
     <div
-      className="fixed left-0 top-0 bottom-0 w-64 bg-gray-900 text-white transition-all duration-300 ease-in-out transform translate-x-0 z-50"
+      className="fixed left-0 top-0 bottom-0 w-64 bg-indigo-100 text-white transition-all duration-300 ease-in-out transform translate-x-0 z-50"
     >
-      <div className="flex items-center justify-center h-16 bg-gray-800">
+      <div className="flex items-center justify-center h-16 bg-indigo-100">
         <h1 className="text-white text-lg">Sidebar</h1>
       </div>
       <ul className="py-4 px-2">

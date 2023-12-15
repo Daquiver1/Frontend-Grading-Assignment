@@ -1,11 +1,12 @@
 import React, { useState } from 'react'
+import Button from './Button';
 import { GiHamburgerMenu } from "react-icons/gi";
+import {Link} from 'react-router-dom'
 
 
 
 
-
-const Navbar = () => {
+const NavbarHome = () => {
   let Links = [
     { name: "Home", link: "/Home" },
     { name: "Dashboard", link: "/Dashboard" },
@@ -36,13 +37,15 @@ const Navbar = () => {
               </li>
             ))
           }
-          
+          <Link to="/Login">
+            <Button className='lg:hidden'>
+              Login
+            </Button>
+          </Link>
         </ul>
       </div>
     </div>
   )
 }
 
-export default Navbar
-
- 
+export default NavbarHome

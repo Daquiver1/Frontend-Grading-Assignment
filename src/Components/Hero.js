@@ -6,7 +6,7 @@ import {Link} from 'react-router-dom'
 const Hero = () => {
   return (
     <div>
-        <div className=' p-[5rem] bg-indigo-200 w-full py-44'> 
+        <div className=' p-[5rem] bg-white w-full py-44'> 
            <div className='max-w-[1480px] m-auto grid grid-cols-2'>
 
                <div className='pl-[2rem] pt-[2rem]'>
