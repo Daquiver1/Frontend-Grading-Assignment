@@ -11,6 +11,9 @@ const GradeForm = () => {
   const [errors, setErrors] = useState({});
 
   const gradeOptions = ['A', 'B+', 'B', 'C+', 'C', 'D+', 'D', 'E', 'F'];
+  const codeOptions = ['MATH 121', 'MATH 123','MATH 122','MATH 126','DCIT 104','DCIT 102' ,'DCIT 101', 'DCIT 103', 'UGRC 150', 'UGRC 110', 'STAT 111', 'STAT 112'];
+  
+ 
 
   const validateForm = () => {
     const newErrors = {};
@@ -70,7 +73,7 @@ const GradeForm = () => {
                 required
               >
                 <option value="">Select Course Code</option>
-                {gradeOptions.map((code) => (
+                {codeOptions.map((code) => (
                   <option key={code} value={code}>
                     {code}
                   </option>

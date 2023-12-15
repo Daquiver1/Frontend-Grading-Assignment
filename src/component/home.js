@@ -7,11 +7,17 @@ const Home = () => {
     
             <div>
             <img src={iStockImage} alt="Missing Grade Reporting System" className="img-fluid" />
-              <h1>Welcome to the Missing Grade Reporting System</h1>
+          
+            </div>
+            <pre className="Well">
+              Are You Worried About Your Grade?
+                      Are Your Grades Not showing?
+                               This Is The Best Place For You           
+            </pre>
+            <h1>Welcome to the Missing Grade Reporting System</h1>
               <p>This system is designed to help students track and report grades that are not recorded in their academic profiles.</p>
               <p>With our user-friendly interface, you can easily view your grades, report missing grades, and communicate with your instructors or academic administration.</p>
               <a href="/login" className="btn btn-primary">Get Started</a>
-            </div>
         
       <section className="features">
         <div className="container">
