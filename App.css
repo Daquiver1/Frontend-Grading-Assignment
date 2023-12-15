@@ -1,0 +1,9 @@
+.content-container {
+  display: flex;
+  justify-content: flex-start; /* Align content at the start of the main axis */
+}
+
+.main-container{
+  margin-left: 10px;
+  margin-right: 90px;
+}
