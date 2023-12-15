@@ -1,0 +1,42 @@
+.dashboard {
+    width: 100%;
+    min-height: 100dvh;
+    font-size: 1em;
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #b6b6b6;
+    height: fit-content;
+}
+
+.Logo {
+    padding: 10px;
+    font-size: 1.8em;
+    font-weight: 700;
+}
+
+.navLinks {
+    font-size: 0.9em;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    align-items: center;
+}
+
+.navLinks li {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.navLinks li:hover {
+    transform: scale(1.2);
+}
+
+.outlet {
+    min-height: 100dvh;
+}

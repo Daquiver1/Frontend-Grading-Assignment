@@ -1,0 +1,48 @@
+
+
+.instructor-contact-container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .instructor-list ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .instructor-list li {
+    cursor: pointer;
+    margin-bottom: 10px;
+    padding: 8px;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: 4px;
+  }
+  
+  .instructor-list li:hover {
+    background-color: #e2e6ea;
+  }
+  
+  .selected-instructor {
+    margin-top: 20px;
+  }
+  
+  .send-email-button {
+    margin-top: 20px;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
