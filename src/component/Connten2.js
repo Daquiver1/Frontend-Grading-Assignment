@@ -2,7 +2,7 @@ import React from 'react'
 
 const Connten2 = () => {
   return (
-    <div className='card'>
+    <div className='mt-[5rem]'>
         <div className='flex justify-center items-start h-screen mt-11'>
             <div className='bg-white shadow-md rounded-lg p-4 ' >
                 <h1 className='text-center text-[2rem] font m-5 font-bold'>Profile</h1>

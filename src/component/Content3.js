@@ -2,7 +2,7 @@ import React from "react";
 
 const Content3 = () => {
   return (
-    <div className=" ">
+    <div className="md:ml-[15rem] ">
       <div className="flex justify-center items-center ">
         <img
           src={require("./FAQs-rafiki.png")}

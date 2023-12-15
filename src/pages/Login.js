@@ -7,7 +7,7 @@ import Logs from "../component/Logs";
 const Login = () => {
   return (
     <div
-      className="text-[#232590] h-full w-full bg-cover bg-center"
+      className="text-[#232590] h-full w-full bg-fixed bg-cover bg-center"
       style={{ backgroundImage: `url(${backgroundImage})` }}
     >
       <Navbar />

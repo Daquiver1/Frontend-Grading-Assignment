@@ -2,7 +2,7 @@ import React from "react";
 
 const Gradecontent = () => {
   return (
-    <div>
+    <div className="mt-[5rem] md:ml-[15rem]">
       <div className="md:flex gap-11 mt-11">
         <div className="flex flex-col md:ml-10 mr-10 flex-1">
           <h2 className="text-[1.5rem] m-2 ">L100 First Semester</h2>

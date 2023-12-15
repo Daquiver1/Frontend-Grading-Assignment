@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Logs = () => {
   return (
-    <div>
+    <div className="mt-[5rem]">
       <div className="flex items-center justify-center h-screen">
         <div className="p-10 rounded-2xl shadow-md">
           <h2 className="text-2xl font-semibold mb-4 justify-center items-center text-center">

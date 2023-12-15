@@ -7,16 +7,16 @@ import Footer1 from "../component/Footer1";
 const Dasboard = () => {
   return (
     <div
-      className="text-[#232590] bg-cover h-full bg-center w-full"
+      className="text-[#232590] bg-cover bg-fixed h-full bg-center w-full"
       style={{ backgroundImage: 'url("/layered-waves-haikei.svg")' }}
     >
       <Navbar1 />
 
       <div className="flex">
         <Sidebar />
-        <div className="flex-1">
+        
           <Content1 />
-        </div>
+        
       </div>
 
       <Footer1 />

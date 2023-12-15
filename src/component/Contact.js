@@ -20,7 +20,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="text-[#232590]">
+    <div className="text-[#232590] md:ml-[15rem] mt-[5rem]">
       <section
         className="h-80 m-11 rounded-md md:ml-[10rem] md:mr-[10rem] mt-11 flex justify-center items-center "
         style={sectionStyle1}
