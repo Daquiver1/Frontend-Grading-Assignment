@@ -1,0 +1,10 @@
+
+.arrangement{
+    display: flex;
+    justify-content: space-around;
+   
+ }
+ .intro-header{
+    color: rgb(58, 58, 119);
+    text-align: center;
+ }

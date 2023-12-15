@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter,Route, Routes } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Home from "./components/homepage";
-import About from "./components/Aboutpage";
+import About from "./components/Missing Grade";
 import Login from "./components/login";
 import InstructorContact from "./components/Instructor Contact page";
 import Dashboard from "./components/Dashboard Page";

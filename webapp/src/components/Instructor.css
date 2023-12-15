@@ -10,7 +10,7 @@
 .cover2{
     background-color: white;
     width: 13cm;
-    height: 10cm;
+    height: 15cm;
     position: 50%;
     border-radius: 1cm;
     box-shadow: 0 0.188cm 1.550cm rgb(152, 148, 148);
@@ -18,5 +18,13 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+    margin-top: 30px;
     
 }
+
+.arrangement1{
+    display: flex;
+    justify-content: space-around;
+    /* margin-bottom: -20px; */
+
+ }

@@ -1,6 +1,7 @@
 
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
+import "./Instructor.css";
 
 const InstructorContact=()=>{
     const form = useRef();
@@ -17,9 +18,9 @@ const InstructorContact=()=>{
       });
   };
     return(
-        <div>
+        <div >
              <section className="arrangement">
-                <div className="cover">
+                <div className="cover2">
                  
                 <h3 className="welcome-text">Contact Information</h3>
                 <div className="contact-info ">
@@ -59,7 +60,7 @@ const InstructorContact=()=>{
 
                 </div>
                 </div>
-                <div className="cover">
+                <div className="cover2">
                  
                  <div className="contact-info ">
 
