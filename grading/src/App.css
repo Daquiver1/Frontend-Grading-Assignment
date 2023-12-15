@@ -51,6 +51,8 @@ body{
   }
   .back{
     object-fit: cover;
+    width: 100%;
+    height:830px ;
   }
   .overview_header{
     color:  rgb(149, 225, 248);
@@ -59,9 +61,19 @@ body{
   .overview{
     display: flex;
     flex-direction: row;
-    height: 300px;
     justify-content: space-between;
 
+  }
+  @media (max-width: 935px) {
+    .overview{
+      flex-direction: column;
+    }
+  
+  }
+  @media (min-width: 1870px) {
+    .overview{
+      flex-direction: row;
+    }
   }
   p{
    width: 500px; 
