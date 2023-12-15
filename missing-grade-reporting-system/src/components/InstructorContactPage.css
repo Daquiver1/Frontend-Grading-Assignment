@@ -1,0 +1,59 @@
+.container {
+  font-family: 'Arial, sans-serif';
+  margin: 30px;
+  align-items: center;
+}
+
+.logo {
+  max-width: 450px;
+}
+
+.form {
+  margin-top: 30px;
+  align-items: center;
+}
+
+.label {
+  margin-bottom: 5px;
+  display: block;
+}
+
+.input,
+.textarea {
+  width: 70%;
+  margin-bottom: 20px;
+}
+
+.instructor-info {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.instructor-image {
+  max-width: 100px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.contact-details {
+  list-style: none;
+  padding: 0;
+}
+
+.submit-button {
+  background-color: #777;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.submit-button:hover {
+  background-color: #777;
+}
