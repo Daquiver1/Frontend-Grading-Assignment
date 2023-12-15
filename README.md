@@ -5,6 +5,11 @@
 This project is a front-end implementation of a "Missing Grade Reporting System" for students. The goal is to provide an interactive and user-friendly interface allowing students to view their grades, report missing grades, and communicate with instructors or academic administration.
 
 ## Features
+<img src ="./1.jpg">
+<img src ="./2.jpg">
+<img src ="./3.jpg">
+<img src ="./4.jpg">
+<img src ="./5.jpg">
 
 - **Responsive Design:** The website is designed to be responsive across different devices.
   
