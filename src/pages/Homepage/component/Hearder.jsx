@@ -9,7 +9,7 @@ const Hearder = () => {
           <h1>myLogo</h1>
         </div>
         <ul className="navigation">
-          <Link to="/Herosection">
+          <Link to="/">
             <li>Home</li>
           </Link>
           <Link to="/Missinggrade">

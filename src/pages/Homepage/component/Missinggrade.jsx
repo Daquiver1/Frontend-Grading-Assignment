@@ -24,7 +24,7 @@ const missinggrade = () => {
         <input
           type="text"
           id="username"
-          placeholder=""
+          placeholder="Enter course name"
           // value={username}
           // onChange={(e) => setUserId(e.target.value)}
           required
@@ -33,7 +33,7 @@ const missinggrade = () => {
         <label htmlFor="password">Instructors name:</label>
         <input
           type="password"
-          placeholder=""
+          placeholder="Enter instructors name"
           id="password"
           // value={password}
           // onChange={(e) => setPassword(e.target.value)}
@@ -42,7 +42,7 @@ const missinggrade = () => {
           <label htmlFor="email">Expected grade:</label>
         <input
           type="text"
-          placeholder=""
+          placeholder="Enter experted grade"
           id="password"
           // value={password}
           // onChange={(e) => setPassword(e.target.value)}

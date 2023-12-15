@@ -10,7 +10,7 @@ const Herosection = () =>{
         <h1>Welcome!</h1>
         <h4> This system is designed to help students track and <br/>report grades that are  not recorded in their academic profiles... </h4>
         <button className="buttt" onClick={()=>navigate("Login")}>Log in</button>
-         <button className="butt" onClick={()=>navigate("Signup")}>Sign up</button> 
+         {/* <button className="butt" onClick={()=>navigate("Signup")}>Sign up</button>  */}
        
       </div>
         <div className="cont-img">
