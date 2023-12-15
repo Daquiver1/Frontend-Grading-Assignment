@@ -1,46 +1,68 @@
 import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import { Container, Row, Col, Card, Button } from 'react-bootstrap';
+import {Link} from 'react-router-dom'
+import './gradepoint.css'; 
 
+class GradePage extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      courses: [
+        { name: 'Course 1',assessment:'28', exam:'85', result:'Excellent', semester:'Semester One', grade: 'A', credits: '3'},
+        { name: 'Course 2',assessment:'22', exam:'75', result:'Very Good', semester:'Semester One', grade: 'B', credits: '3'},
+        { name: 'Course 3',assessment:'25', exam:'80', result:'Excellent', semester:'Semester Two', grade: 'A-', credits: '3'},
+        { name: 'Course 4',assessment:'17', exam:'66', result:'Pass'     , semester:'Semester One', grade: 'C+', credits: '3'},
+        { name: 'Course 5',assessment:'30', exam:'90', result:'Excellent', semester:'Semester Two', grade: 'A+', credits: '3'},
+        { name: 'Course 6',assessment:'20', exam:'70', result:'Good',      semester:'Semester Two', grade: 'C', credits: '3'},
+        { name: 'Course 7',assessment:'28', exam:'90', result:'Excellent', semester:'Semester One', grade: 'A+', credits: '3'},
+      ],
+    };
+  }
 
-const GradePage = () => {
- const courses = [
-    { name: 'Course 1', grade: 'A+' },
-    { name: 'Course 2', grade: 'A' },
-    { name: 'Course 3', grade: 'B+' },
-    { name: 'Course 4', grade: 'B' },
-    { name: 'Course 5', grade: 'A' },
-    { name: 'Course 6', grade: 'B+' },
- ];
-
- return (
-  <Container>
-      <Row>
-        <Col>
-          <h1 className="text-center mt-5">Grade Page</h1>
-        </Col>
-      </Row>
-      <Row className="mt-5">
-        {courses.map((course, index) => (
-          <Col key={index} md={4} className="mb-3">
-            <Card>
-              <Card.Body>
-                <Card.Title>{course.name}</Card.Title>
-                <Card.Text>
-                 Grade: <b>{course.grade}</b>
-                </Card.Text>
-              </Card.Body>
-            </Card>
-          </Col>
-        ))}
-      </Row>
-      <Row className="mt-5">
-        <Col className="text-center">
-          <Button variant="primary">Add Course</Button>
-        </Col>
-      </Row>
-    </Container>
- );
-};
+  render() {
+    return (
+      <div className="container">
+        <div className="sidebar">
+          <h2>Menu</h2>
+          <ul>
+            <li><Link to="/dashboard">Dashboard</Link></li>
+            <li><Link to="/gradepoint">Grade Page</Link></li>
+            <li><Link to="/contact">Lecturer's Contact</Link></li>
+            <li><Link to="/help">Help and Support</Link></li>
+          </ul>
+        </div>
+  
+      <div className="grade-container">
+        <h1 className='headie'>Grade Page</h1>
+        <table className="grade-table">
+          <thead>
+            <tr>
+              <th>Course</th>
+              <th>Credits</th>
+              <th>Internal Assessment</th>
+              <th>End of Term Examination</th>
+              <th>Final Result</th>
+              <th>Grade</th>
+              <th>Semester</th>
+            </tr>
+          </thead>
+          <tbody>
+            {this.state.courses.map((course, index) => (
+              <tr key={index}>
+                <td>{course.name}</td>
+                <td>{course.credits}</td>
+                <td>{course.assessment}</td>
+                <td>{course.exam}</td>
+                <td>{course.result}</td>
+                <td>{course.grade}</td>
+                <td>{course.semester}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+        </div>
+        </div> 
+    );
+  }
+}
 
 export default GradePage;
