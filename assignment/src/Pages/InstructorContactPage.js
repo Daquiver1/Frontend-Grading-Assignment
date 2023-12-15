@@ -73,11 +73,12 @@ const InstructorContactPage = () => {
 
         {confirmationMessage && (
           <div className="mt-8 p-4 bg-green-100 text-green-700 rounded-md">{confirmationMessage}</div>
-        )}
-      </div>
-      <Footer/>
-    </div>
-  );
-};
+          )}
+          </div>
+          <Footer />
+        </div>
+      );
+    };
+    
 
 export default InstructorContactPage;

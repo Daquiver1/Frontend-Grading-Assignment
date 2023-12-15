@@ -2,11 +2,13 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Navbar from '../Components/Navbar';
 import Footer from '../Components/Footer';
+import loginImg from '../assets/Univer.webp'
 
 const LandingPage = () => {
   return (
     <div>
       <Navbar />
+
       <div className="container mx-auto p-4">
         <section className="mb-8 text-center">
           <h1 className="text-4xl font-bold mb-4 text-teal-700">Welcome to the Missing Grade Reporting System</h1>

@@ -5,7 +5,7 @@ import Navbar from '../Components/Navbar';
 import Footer from '../Components/Footer';
 
 const GradeReportPage = () => {
-  const [filter, setFilter] = useState('All'); // Default filter value is 'All'
+  const [filter, setFilter] = useState('All'); 
 
   const gradesData = [
     { id: 1, course: 'CBAS 210', instructor: 'Dr Mark Atta', grade: 'A', semester: '1st' },
@@ -15,7 +15,7 @@ const GradeReportPage = () => {
     { id: 5, course: 'DCIT 207', instructor: 'Dr. Gates', grade: 'A-', semester: '1st' },
     { id: 6, course: 'MATH 223', instructor: 'Dr. Sehba', grade: 'A+', semester: '1st' },
     
-    // Add more data as needed
+    
   ];
 
   const filteredGrades =
