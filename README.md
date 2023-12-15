@@ -19,11 +19,8 @@ This project is a web application designed for students to manage their academic
 ## Setup and Installation
 To set up this project locally:
 1. Clone the GitHub repository: `git clone [repository URL]`.
-2. Navigate to the project directory: `cd [project name]`.
+2. Navigate to the project directory: `cd [my-web]`.
 3. Install dependencies: `npm install`.
-
-## Usage
-Detailed instructions on how to navigate and use the application's features.
 
 ## Contributing
 Contributions are welcome! Please follow these steps:
