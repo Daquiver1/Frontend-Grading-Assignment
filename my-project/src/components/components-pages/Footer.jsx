@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { FaFacebook, FaInstagram, FaTwitter, FaLinkedin } from "react-icons/fa";
+import "../components-css/Footer.css";
 
 const Footer = () => {
   const year = new Date().getFullYear();
@@ -26,18 +27,16 @@ const Footer = () => {
           <a href="https://www.twitter.com/your-page" target="_blank" rel="noreferrer">
             <FaTwitter className="icon" />
           </a>
-          <a href="https://www.flinkedin.com/your-page" target="_blank" rel="noreferrer">
+          <a href="https://www.linkedin.com/your-page" target="_blank" rel="noreferrer">
             <FaLinkedin className="icon" />
           </a>
           {/* ... other social media icons ... */}
         </div>
         <div className="footer-info">
-          <p>
-            <a href="/contact">Contact Us</a> |
-            <a href="/sitemap">Site Map</a>
-          </p>
+    
+           
           <div className="newsletter-signup">
-            <span>Stay updated! Sign up for our newsletterzzz:</span>
+            <span>Stay updated! Sign up for our newsletter</span>
             <form onSubmit={handleNewsletterSubmit}>
               <input
                 type="email"
@@ -45,12 +44,13 @@ const Footer = () => {
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
               />
-              <button type="submit">Subscribe</button>
+             
             </form>
           </div>
+          <hr/>
           <p className="copyright">
-            © {year} Your Website Name. All rights reserved. |
-            <a href="mailto:youremail@domain.com">Contact Us</a>
+            © {year} Grading System. All rights reserved. |
+            <a  className="contact"href="mailto:youremail@domain.com">Contact Us</a>
           </p>
         </div>
       </div>
@@ -58,4 +58,6 @@ const Footer = () => {
   );
 };
 
-export default Footer;
+export default Footer; 
+
+
