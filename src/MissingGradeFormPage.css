@@ -1,0 +1,62 @@
+/* src/MissingGradeFormPage.css */
+.missing-grade-form-container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    color: #e77f00; /* Yellow color for the header */
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin: 10px 0;
+    color: #333;
+  }
+  
+  input,
+  textarea {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    outline: none;
+  }
+  
+  button {
+    background-color: #e77f00; /* Yellow color for the button */
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #d46f00; /* Darker shade on hover */
+  }
+  
+  .confirmation-message {
+    background-color: #d4edda; /* Green background for confirmation */
+    color: #155724;
+    padding: 10px;
+    margin-top: 15px;
+    border: 1px solid #c3e6cb;
+    border-radius: 5px;
+  }
+ footer{
+    background-color: white;
+  color: rgb(14, 169, 246);
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+  position: relative; /* Add this line */
+  bottom: 0; /* Add this line */
+ }

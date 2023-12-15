@@ -1,0 +1,59 @@
+/* src/GradeReportPage.css */
+.grade-report-container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    color: #e77f00; /* Yellow color for the header */
+  }
+  
+  .filter-section {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    margin-right: 10px;
+    color: #333;
+  }
+  
+  select {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  .grades-table-section {
+    background-color: white;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    margin-top: 15px;
+  }
+  
+  .grades-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+  }
+  
+  .grades-table th,
+  .grades-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .grades-table th {
+    background-color: #f2f2f2;
+  }
+  
+footer{
+    margin-top: 20vh;
+
+} 

@@ -1,0 +1,108 @@
+nav {
+    background-color: rgb(231, 188, 36);
+    text-align: center;
+  }
+  
+  .horizontal-nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Use flexbox to make the list horizontal */
+    justify-content: center;
+  }
+  
+  .horizontal-nav li {
+    padding: 15px;
+    color: white;
+    cursor: pointer;
+
+  }
+  
+  .content {
+    padding: 50px;
+  }
+
+  header {
+    background-color: white;
+    color: rgb(14, 169, 246);
+    padding: 10px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+ 
+
+  .school-logo {
+    width: 300px; /* Adjust the width as needed */
+    margin-right: 10px; /* Adjust the margin as needed */
+  }
+
+  h1 {
+    margin-left: auto; 
+  }
+
+  .search-box {
+    display: flex;
+    align-items: center;
+    
+    
+  }
+  
+  .search-box input {
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 5px;
+    border-style: ridge;
+  }
+  
+  .search-icon {
+    width: 20px;
+    cursor: pointer;
+  }
+  body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+  }
+  
+  .content {
+    flex: 1;
+  }
+  
+  footer {
+    background-color: white;
+    color: rgb(14, 169, 246);
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .footer-section {
+    flex: 1;
+    max-width: 200px; /* Set a maximum width for each section */
+    text-align: left;
+  }
+  
+  .footer-section h3 {
+    color: rgb(231, 188, 36);
+    margin-bottom: 5px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  
+    
+  
