@@ -1,0 +1,140 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #040468;
+    background-color: #f4f4f4;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: .5em;
+}
+
+.logo{
+    height: 3em;
+    width: 18em;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar li {
+    margin: 0 15px;
+}
+
+.navbar a {
+    position: relative;
+    color: #040468;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.navbar a::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background-color: #040468;
+    transition: width 0.3s ease-in-out;
+}
+
+.navbar a:hover::after {
+    width: 100%;
+}
+
+.main-content {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.grid-item {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.grid-item h2 {
+  margin-bottom: 20px;
+  font-size: 2em;
+  color: #333;
+}
+
+.grid-item p {
+  margin-bottom: 15px;
+  color: #555;
+}
+
+.learn-more {
+    margin-top: 2em;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #bd9c6c;
+    color: white;
+    text-decoration: none;
+    border-radius: 7px;
+    transition: transform 0.3s ease-in-out;
+    z-index: 3;
+}
+
+.learn-more:hover {
+    transform: scale(1.1);
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 50em;
+  margin-bottom: 15px;
+}
+
+form label {
+  display: block;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+form button {
+  width: auto;
+  padding: 10px 24px;
+  margin-bottom: 3em;
+}
+
+footer {
+  text-align: center;
+  padding: 15px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #040468;
+  color: #fff;
+}

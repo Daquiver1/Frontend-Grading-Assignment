@@ -6,14 +6,14 @@ import HeaderComponent from "./components/Header";
 import IntroSectionComponent from "./components/IntroSection";
 import LoginPage from "./components/LoginPage";
 import Dashboard from "./components/Dashboard";
+import HelpSupport from "./components/Support";
 
 const App: React.FC = () => {
   return (
     <>
       <title>Landing Page</title>
-      {/* You can add links to external stylesheets here if needed */}
       <body>
-        <Dashboard />
+        <HelpSupport />
       </body>
     </>
   );
