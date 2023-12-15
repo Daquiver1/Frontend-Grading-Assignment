@@ -35,7 +35,7 @@ import {  useNavigate } from 'react-router-dom';
                                     <input type="password" className="form-control" placeholder="PIN" required/>
                                 </div>
                                 
-                                <input type="submit" value="Login" className="btn btn-primary text-center mt-2" onclick="window.location.href = 'https://website.com/my-account'" >
+                                <input type="submit" value="Login" className="btn btn-primary text-center mt-2" onClick="window.location.href = 'https://website.com/my-account'" >
                                 </input>
                                 
                             </div>
