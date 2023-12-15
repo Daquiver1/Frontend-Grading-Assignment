@@ -94,7 +94,7 @@ Clone this repository to your desired folder
   Install this project with:
   ```
     cd Assignment
-    git install
+    npm install
 
   ```
   ## Usage
