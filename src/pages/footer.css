@@ -1,31 +1,61 @@
-/* LandingFooter.css */
+/* Add these styles to your CSS file */
+footer {
+  display: flex;
+  background-color: #0e0e56;
+  width: 1550px;
+  margin-top: 4px;
+  padding: 20px;
+  margin-left: -9px;
+  font-size: 16pt;
+  color: white;
+}
 
-.footer-container {
-    display: flex;
-    justify-content: space-between;
+.footer-column {
+  flex: 1;
+  margin-left: 15px;
+  text-align: left;
+}
+
+.footer-column img {
+  max-height: 100px; /* Adjust the max height as needed */
+}
+
+.footer-column p {
+  font-size: 14pt;
+}
+
+.contact-info {
+  margin-right: 150px;
+}
+
+.follow-us {
+  margin-left: 150px;
+}
+
+.follow-us a {
+  margin-right: 10px;
+}
+
+/* Responsive styles for smaller screens */
+@media (max-width: 768px) {
+  footer {
+    flex-direction: column;
     align-items: center;
-    background-color: #007bff; /* Blue background color */
-    padding: 20px;
-    color: white;
+    text-align: center;
   }
-  
-  .logo-container img {
-    width: 100px; /* Adjust the width as needed */
+
+  .footer-column {
+    margin-left: 0;
+    margin-top: 15px;
   }
-  
-  .contact-info,
-  .follow-us {
-    margin-left: 20px;
+
+  .follow-us a {
+    margin-bottom: 10px;
   }
-  
-  .contact-info p,
-  .follow-us p {
-    margin: 0;
-  }
-  
-  .follow-us img {
-    width: 50px; /* Adjust the width as needed */
-    margin: 5px; /* Adjust the margin as needed */
-    border-radius: 50%;
-  }
-  
+}
+.footer-column1 {
+  margin-top: 0px;
+  flex: 1;
+  margin-left: 15px;
+  text-align: left;
+}

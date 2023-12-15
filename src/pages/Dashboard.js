@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
 import './Dashboard.css';
+import Landing from './footer';
 
 
 
@@ -33,10 +34,10 @@ export default function Dashboard (){
         <>
          <Navbar></Navbar>
         <div className="dashboard-container">
-        <h2>Your Academic Dashboard</h2>
+        <h2 style={{textAlign:"center"}}>Your Academic Dashboard</h2>
 
         <div className="grades-section">
-          <h3>Your Grades at a Glance</h3>
+          <h3>Current Results </h3>
           <table className="grades-table">
             <thead>
               <tr>
@@ -83,6 +84,7 @@ export default function Dashboard (){
           )}
         </div>
       </div>
+      <Landing />
         </>
     )
 }

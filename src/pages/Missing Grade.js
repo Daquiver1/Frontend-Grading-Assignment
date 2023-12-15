@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Navbar from '../components/Navbar'
 import './Missing Grade.css'
+import Landing from './footer';
 
 
    
@@ -16,8 +17,10 @@ export const Missing = () => {
             <>
                <Navbar></Navbar>
               <form>
+              <h2> Missing Grade? Fill the Form Below</h2>
                  <div style={{boxSizing:'border-box'}}>
                   <h1 style={{textAlign:'center'}}>Fill  <span style={{color:'rgb(29 185 237)'}}>Form</span></h1>
+                 
                   <input style={{}} type="text"  name="Course Name" id="" placeholder='Enter Course Name' />
                   <input type="text"  name="Instructor Name" id="" placeholder='Instructor Name' />
                   <input type="Text"  name="Expected Grade" id="" placeholder='Expected Grade:example, B+'/>
@@ -27,7 +30,8 @@ export const Missing = () => {
                    
                  </div>
               </form>
-              
+
+              <Landing />
           </>
     
     );

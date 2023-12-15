@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Navbar from '../components/Navbar';
 import './Grade.css';
+import Landing from './footer';
 
 const Grade = () => {
   const [selectedYear, setSelectedYear] = useState('all');
@@ -109,6 +110,7 @@ const Grade = () => {
           </tbody>
         </table>
       </div>
+      <Landing />
     </>
   );
 };
