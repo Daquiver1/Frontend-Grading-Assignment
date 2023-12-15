@@ -1,3 +1,5 @@
+**Student Grade Reporting System Frontend**
+**Project Overview**
 The Student Grade Reporting System Frontend is a web application designed to mimic a real-world system for students to manage their academic grades.
 It addresses the problem of missing or unrecorded grades in a student's profile.
 
