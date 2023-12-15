@@ -62,6 +62,7 @@ function Dashboard() {
         <button onClick={toggleSidebar}>Menu</button>
       <div id="sidebar" className={sidebarOpen ? 'sidebar open' : 'sidebar'}>
         <ul>
+          <h2>Menu</h2>
         <li><a href="/dashboard">Dashboard Page</a></li>
         <li><a href="/gradepoint">Grade Page</a></li>
         <li><a href="/contact">Lecturer Contact</a></li>
