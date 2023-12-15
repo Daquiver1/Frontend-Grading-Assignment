@@ -12,36 +12,9 @@ import Instructorcontact from './Pages/Instructorcontact';
 function App() {
   return (
     <BrowserRouter>
-      <div id="route" className='grid'>
-        <nav>
-          <ul>
-            <li>
-              <Link to="/Login">Log In</Link>
-            </li>
-            <li>
-              <Link to="/Landingpage">landingpage</Link>
-            </li>
-          </ul>
-        </nav>
-        <Link to = "/Missing_gradeform">
-          <button>Missing_gradeform</button>
-        </Link>
-        <Link to = "/Gradereport">
-          <button>gradereport</button>
-        </Link>
-        <Link to = "/Instructorcontact">
-          <button>Instructorcontact</button>
-        </Link>
-        <Link to = "/Dashboard">
-          <button>Dashboard</button>
-        </Link>
-        <Link to = "/Help">
-          <button>help</button>
-        </Link>
-      </div>
       <Routes>
           <Route path="/Landingpage" element={<Landingpage />} />
-          <Route index element={<Landingpage/>} />
+          <Route index element={<Login/>} />
           <Route path="/Login" element={<Login />} />
           <Route path="/Missing_gradeform" element={<Missing_gradeform />} />
           <Route path="/Dashboard" element={<Dashboard />} />
