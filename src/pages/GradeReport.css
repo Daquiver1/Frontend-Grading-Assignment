@@ -1,0 +1,70 @@
+.grade-report-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .filter-panel {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .filter-option label {
+    margin-right: 5px;
+  }
+  
+  .table-container {
+    width: 1000px;
+    overflow: auto;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid white;
+  }
+  
+  th {
+    background-color: purple;
+    color: white;
+  }
+  
+  td {
+    color: white;
+  }
+  
+  tr:nth-child(2n) {
+    background-color: black;
+  }
+  
+  tr:nth-child(2n-1) {
+    background-color: gray;
+  }
+  
+  td.missing-grade {
+    background-color: red; /* or any other color you want for missing grades */
+    color: white;
+  }
+
+  .tab-2{
+    width: 1150px;
+    margin: 40px;
+    padding: 20px;
+    display: flex;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.grade-report{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(94, 105, 133);
+}

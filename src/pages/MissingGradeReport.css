@@ -1,0 +1,60 @@
+
+.missing-grade-form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: purple;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-bottom: 10px;
+  }
+  
+  select, input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    background-color: purple;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #217dbb;
+  }
+  
+  .missre{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(94, 105, 133);
+}
+
+.mistab{
+    width: 1150px;
+    margin: 30px;
+    padding: 20px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    background-color: white;
+    border-radius: 30px;
+}
+  /* Optional: Add more styling as needed */
+  
