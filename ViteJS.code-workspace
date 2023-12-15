@@ -1,0 +1,13 @@
+{
+  "folders": [
+	{
+		"path": ".."
+	},
+	{
+		"path": "../../../Pictures/template folders/html5up-alpha"
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "ViteJS"
+  }
+}
