@@ -1,0 +1,69 @@
+.email-form {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    width: 100%;
+    padding: 40px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0px 2px 5px rgb(65, 65, 65);
+    background-color: #F3F3F3;
+  }
+  
+  .email-form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .email-form input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #008170;
+    border-radius: 8px;
+  }
+
+  .email-form textarea{
+    padding: 40px;
+    padding-right: 65px;
+    width: 82%;
+    margin-bottom: 10px;
+    margin-right: 50px;
+    border: 1px solid #008170;
+    border-radius: 8px;
+  }
+
+  
+  .email-form button {
+    background-color: #232D3F;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .email-form button:hover {
+    opacity: 0.8;
+
+  }
+  
+  .formsect{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+
+  @media only screen and (max-width: 480px) {
+    .email-form textarea{
+      padding: 20px;
+      margin-right: auto;
+      margin-left: auto;
+    }
+
+    .email-form{
+      width: 200px;
+      margin-right: 200px;
+    }
+  }
