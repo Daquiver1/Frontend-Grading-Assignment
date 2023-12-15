@@ -98,7 +98,7 @@ function ContactPage() {
       )}
 
       {isEmailSent && <p>{confirmationMessage}</p>}
-      
+      <Footer />
     </div>
   );
 }

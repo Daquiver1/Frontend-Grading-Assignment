@@ -180,6 +180,7 @@ function toggleNav() {
           <button type="submit">Submit</button>
         </form>
       </section>
+      <Footer />
     </div>
   );
 };

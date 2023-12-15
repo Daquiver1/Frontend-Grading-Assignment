@@ -93,7 +93,7 @@ function Dashboard() {
     ))}
   </tbody>
 </table>
-
+<Footer />
     </div>
   );
 }

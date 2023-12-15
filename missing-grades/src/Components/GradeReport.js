@@ -135,7 +135,9 @@ function GradeReport() {
           ))}
         </tbody>
       </table>
+      <Footer />
     </div>
+    
   );
 }
 
