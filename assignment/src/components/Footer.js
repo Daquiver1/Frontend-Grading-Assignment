@@ -13,16 +13,14 @@ const AppFooter = () => {
               <h5 className="text-uppercase mb-4 text-white">AcademiaTracker</h5>
               <ul className="list-unstyled mb-4">
                 <li>
-                  <a href="#!" className="text-white">About us</a>
+                  <a href="./Landing" className="text-white">Home</a>
                 </li>
                 <li>
-                  <a href="#!" className="text-white">Collections</a>
+                  <a href="./Dashboard" className="text-white">DashBoard</a>
                 </li>
+                
                 <li>
-                  <a href="#!" className="text-white">Environmental philosophy</a>
-                </li>
-                <li>
-                  <a href="#!" className="text-white">Artist collaborations</a>
+                  <a href="./Login" className="text-white">Login</a>
                 </li>
               </ul>
             </div>
@@ -32,29 +30,21 @@ const AppFooter = () => {
               <h5 className="text-uppercase mb-4 text-white">Assistance</h5>
               <ul className="list-unstyled">
                 <li>
-                  <a href="#!" className="text-white">Contact us</a>
+                  <a href="./InstructorContact" className="text-white">Contact us</a>
                 </li>
                 <li>
-                  <a href="#!" className="text-white">Size Guide</a>
+                  <a href="./MissingGradeForm" className="text-white">Missing Grade Form</a>
                 </li>
-                <li>
-                  <a href="#!" className="text-white">Shipping Information</a>
-                </li>
-                <li>
-                  <a href="#!" className="text-white">Returns & Exchanges</a>
-                </li>
-                <li>
-                  <a href="#!" className="text-white">Payment</a>
-                </li>
+              
               </ul>
             </div>
              
 
             <div className="col-lg-3 col-md-6 mb-4 mb-lg-0">
-              <h5 className="text-uppercase mb-4 text-white">Careers</h5>
+              <h5 className="text-uppercase mb-4 text-white">Questions</h5>
               <ul className="list-unstyled">
-                <li>
-                  <a href="#!" className="text-white">Jobs</a>
+              <li>
+                  <a href="./HelpAndSupport" className="text-white">FAQs</a>
                 </li>
               </ul>
             </div>
