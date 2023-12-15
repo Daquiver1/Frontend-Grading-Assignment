@@ -82,6 +82,13 @@ Once logged in, you can explore the following key functionalities:
   - Browse a list of instructors with their contact details.
   - Simulate sending emails to instructors (no real emails, just a mock-up).
 
+
+  ## Challenges Faced And What I Learnt
+  - I learnt how to effectively navigate and use react native as it is a new framework to me.
+  - A challenge I faced while doing this project was getting used to the fact that react has components that help to avoid unneccessary repitition of code as this is mostly done in html.
+  - React teaches how to effectively combine functions from html, javascript and css and make them work as one seamlessly.
+  - 
+
 ## Contribution
 
 To contribute to this project, please follow these guidelines:
