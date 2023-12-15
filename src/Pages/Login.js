@@ -3,6 +3,7 @@ import { useState } from 'react';
 import { Redirect } from 'react-router-dom/cjs/react-router-dom.min';
 import comScience_logo from "../Images/comScience_logo.png"
 import "../Styling/login.css"
+import Dashboard from './Dashboard';
 
 
 function Login(props) {
@@ -31,7 +32,7 @@ function Login(props) {
     <div className='Main'>
        {(authstate=="True")?(
 
-          <Redirect to="/Dashboard" />
+          <Dashboard  name={sid}/>
        ):(
           <div className='Main0'>  
           <div className='Form'>

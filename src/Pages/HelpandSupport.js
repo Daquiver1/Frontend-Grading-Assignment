@@ -3,10 +3,11 @@ import comScience_logo from "../Images/comScience_logo.png"
 import data from "../Data/Simulated";
 import BottomNavbar from '../Components/BottomNavbar';
 import Footer from '../Components/footer';
+import "../Styling/help.css"
 
 function HelpandSupport() {
   return (
-  <div className="Mainn">
+  <div className="Main">
   <div className="topSection">
     <img className="logo" height="50px" width="35px" src={comScience_logo} />
     <div className="title">
@@ -14,6 +15,7 @@ function HelpandSupport() {
       <div className="title1"><text>Help and Support</text></div>
     </div>
   </div>
+  <div className='middles'>
   <p>
     <h2>Frequently asked questions</h2>
     <ul>
@@ -38,6 +40,7 @@ function HelpandSupport() {
 
     </br>
     <button type='submit'>Send</button>
+    </div>
   <div id="navbar">
           <BottomNavbar />
         </div>

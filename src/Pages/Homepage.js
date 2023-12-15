@@ -63,7 +63,7 @@ function Homepage({id}) {
           </div>
         </div>
       </div>
-      <p>University of Ghana@2023</p>
+      <p style={{color:'white'}}>University of Ghana@2023</p>
     </div>
   );
 }

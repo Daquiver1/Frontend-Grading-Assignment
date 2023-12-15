@@ -8,9 +8,6 @@ function Footer() {
             <div class="ibs1">
              <p>Links</p>
              <ul>
-                <li>  <a href="./Undergraduate.html">
-                  Student
-                </a></li>
                 <li>Grade Report </li>
                 <li>Dashboard</li>
                 <li>Instructor Contact</li>
@@ -20,10 +17,15 @@ function Footer() {
                 <p>Help and Support</p>
                 
             </div>
-            <p id="text00">
-            University of Ghana @2023
+            <p>
+              Always make sure to contact your instructor if you<br></br>
+              are not sure about your grade. 
             </p>
+          
         </div>
+        <p style={{textAlign:"center"}} id="text00">
+            University of Ghana @2023
+        </p>
        </div>
   )
 }

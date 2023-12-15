@@ -3,6 +3,7 @@ import comScience_logo from "../Images/comScience_logo.png"
 import data from "../Data/Simulated";
 import BottomNavbar from '../Components/BottomNavbar';
 import Footer from '../Components/footer';
+import "../Styling/form.css"
 
 
 function MissingGradeForm() {
@@ -40,9 +41,6 @@ function MissingGradeForm() {
          </div>
          <div id="navbar">
           <BottomNavbar />
-        </div>
-        <div id="footer">
-         <Footer />
         </div>
     <div className='bottom'>
        <text>University of Ghana @2023</text>

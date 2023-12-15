@@ -5,11 +5,12 @@
     justify-content: center;
     align-items: center;
     padding-bottom: 15px;
+
    }
    #link {
     text-decoration: none;
     padding: 7px;
-    color:black;
+    color:white;
     font-weight: 600;
     margin-bottom: 46px;
     border-radius: 7px;
@@ -24,21 +25,25 @@
 
 @media screen and (max-width:450px) {
    #bnv {
+      justify-content: center;
+      align-items: center;
     display: flex;
     flex-direction: row;
-    gap: 10px;
+    gap: 5px;
     padding-bottom: 15px;
+    color:white;
    }
    #link {
     text-decoration: none;
-    color:black;
-    font-weight: 600;
+ 
+    font-weight: 500;
     padding: 7px;
     margin-bottom: 46px;
     border-radius: 7px;
    }
    #link:hover {
     border-style: inset inset;
+    border-color: white;
     border-radius: 20px;
     border-width: 20px;
    }

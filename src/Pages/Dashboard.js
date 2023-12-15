@@ -9,7 +9,7 @@ import "../Styling/generalStyles.css"
 
 
 
-function Dashboard() {
+function Dashboard({name}) {
 
   return (
     <div className='dMain'>
@@ -25,7 +25,7 @@ function Dashboard() {
         <div className='middleSection0'>
           <div className='m1'>
             <p id='ntop'>
-              <p>Welcome 11335755</p>
+              <p>Welcome {name}</p>
               <p></p>
               <h3>Notifications</h3>
             </p>
