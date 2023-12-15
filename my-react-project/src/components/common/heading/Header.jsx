@@ -13,8 +13,8 @@ const Header = () => {
           <ul className={click ? "mobile-nav" : "flexSB"} onClick={() => setClick(false)} >
             <li><Link to="/">Home</Link></li>
             <li><Link to="/dashboard">Dashboard</Link></li>
-            <li><Link to="/missing_grades">Missing Grades</Link></li>
-            <li><Link to="/grade_report">Grade Report</Link></li>
+            <li><Link to="/missinggrades">Missing Grades</Link></li>
+            <li><Link to="/gradereport">Grade Report</Link></li>
             <li><Link to="/contact">Instructor Contact</Link></li>
             <li><Link to="/login">Login</Link></li>
             <li><Link to="/help">Help</Link></li>

@@ -6,7 +6,11 @@ import Login from "./components/login/Login"
 import dashboard from "./components/dashboard/dashboard"
 import help from "./components/help/help"
 import Contact from "./components/common/Contact/contact"
-import missing_grades from "./components/common/Missing_grades/missing_grades"
+import Missinggrades from "./components/common/missing_grades/Missinggrades"
+
+
+
+
 
 
 function App() {
@@ -20,7 +24,7 @@ function App() {
           <Route path='/dashboard' exact component={dashboard} />
           <Route path='/contact' exact component={Contact} />
           <Route path='/help' exact component={help} />
-          <Route path='/missing_grades' exact component={missing_grades} />
+          <Route path='/missinggrades' exact component={Missinggrades} />
           
         </Switch>
 
