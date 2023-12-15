@@ -61,14 +61,6 @@
     letter-spacing: 2px;
 }
 
-.icons {
-    width: 50%;
-    min-width: 180px;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-}
-
 .card a {
     text-decoration: none;
     color: inherit;
