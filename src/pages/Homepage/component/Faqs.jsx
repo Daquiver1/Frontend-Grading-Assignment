@@ -31,7 +31,7 @@ const Faqs = () => {
           id="password"
           required
         />
-          <label htmlFor="email">Email:</label>
+          <label htmlFor="email">Emil:</label>
         <input
           type="emai"
           placeholder=""
