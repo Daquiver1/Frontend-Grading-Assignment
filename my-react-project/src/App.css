@@ -78,3 +78,9 @@ button:hover{
   margin: 20px 0;
   text-transform: capitalize;
 }
+
+p{
+  line-height: 30px;
+  font-size: 18px;
+  
+}
