@@ -1,0 +1,133 @@
+
+/* DashboardPage.css */
+
+/* Add global styles if needed */
+
+.dashboard-container {
+    padding: 20px;
+    display: flex;
+  }
+  
+  /* Header Styles */
+  .header {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .sidebar {
+    width: 200px;
+    background-color: #333;
+    padding: 20px;
+    color: white;
+}
+
+.sidebar-nav {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar-item {
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.sidebar-item.active {
+    font-weight: bold;
+}
+
+  
+  .main-heading {
+    font-size: 2.5em;
+    color: #333;
+  }
+  
+  /* Overview Section Styles */
+  .overview-section {
+    width:80%;
+    margin: 0 auto;
+  }
+  
+  /* Section Heading Styles */
+  .section-heading {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    color: #333;
+    margin-right: 20px;
+  }
+  
+  /* Grades Container Styles */
+  .grades-container {
+    margin-bottom: 30px;
+    display: flex;
+    width: 100%;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    color: #555;
+  }
+  .user-header{
+background-color: white;
+color: black;  }
+  
+  /* Alert Container Styles */
+  .alert-container {
+    background-color: #f8d7da;
+    color: #721c24;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+  
+  .alert-container h2 {
+    font-size: 1.8em;
+    color: #721c24;
+  }
+  
+  .alert-container p {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+  .alert-container ul {
+    margin-top: 10px;
+  }
+  
+  .alert-container li {
+    font-size: 1.2em;
+    color: #721c24;
+  }
+  /* DashboardPage.css */
+
+/* ... (existing styles) */
+
+/* Footer Styles */
+.footer {
+    margin-top: 100px;
+    text-align: center;
+    padding: 20px;
+    background-color: #f4f4f4;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: #555;
+    border-top: 1px solid #ddd;
+  }
+  
+  .footer p {
+    margin: 0;
+    font-size: 1.2em;
+  }
+  
+  
+  /* Responsive Design */
+  @media screen and (max-width: 768px) {
+    .overview-section {
+      padding: 0 20px;
+    }
+  }

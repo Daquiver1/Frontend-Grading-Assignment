@@ -1,0 +1,96 @@
+/* GradeReport.css */
+
+/* Add global styles if needed */
+
+.dashboard-container {
+    display: flex;
+}
+
+/* Sidebar Styles */
+.sidebar {
+    width: 200px;
+    background-color: #333;
+    padding: 20px;
+    color: white;
+}
+
+.sidebar-nav {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar-item {
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.sidebar-item.active {
+    font-weight: bold;
+}
+
+/* Main Content Styles */
+.main-content {
+    flex: 1;
+    padding: 20px;
+}
+
+/* Grades Section Styles */
+.grades-section {
+    text-align: center;
+}
+
+.main-heading {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333; /* Add color for better readability */
+}
+
+/* Filter Section Styles */
+.filter-section {
+    margin-bottom: 20px;
+}
+
+#semesterFilter {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Grades Container Styles */
+.grades-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.grade-card {
+    background-color: rgb(248, 239, 224);
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.grade-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .dashboard-container {
+        flex-direction: column;
+    }
+
+    .sidebar {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .main-content {
+        padding: 0;
+    }
+}
+

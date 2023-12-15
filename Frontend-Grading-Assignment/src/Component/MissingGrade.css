@@ -1,0 +1,103 @@
+Missing grade
+/* src/components/MissingGradeFormPage.css */
+
+.dashboard-container {
+    display: flex;
+  }
+  
+  /* Sidebar styles */
+  .sidebar {
+    width: 200px;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .sidebar-nav {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar-item {
+    margin-bottom: 15px;
+    cursor: pointer;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .sidebar-item:hover {
+    color: #ffd700; /* Highlight on hover */
+  }
+  
+  /* Main Content styles */
+  .main-content {
+    flex: 1;
+    padding: 40px;
+  }
+  
+  /* Report Section styles */
+  .report-section {
+    text-align: center;
+    padding: 40px;
+  }
+  
+  .report-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: rgb(163, 150, 150); /* White background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  input,
+  textarea,
+  select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    margin-top: 5px;
+  }
+  
+  select {
+    appearance: none;
+    background: url('arrow-down.png') no-repeat right #fff; /* Replace 'arrow-down.png' with your arrow icon */
+    background-size: 20px;
+  }
+  
+  /* Style the submit button */
+  .submit-button {
+    background-color: #ff4500;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .submit-button:hover {
+    background-color: #e63946; /* Change background color on hover */
+  }
+  
+  /* Style the confirmation message */
+  .confirmation-message {
+    color: #4CAF50;
+    font-size: 1.2rem;
+    margin-top: 20px;
+  }
+  

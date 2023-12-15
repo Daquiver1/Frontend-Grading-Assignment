@@ -1,4 +1,5 @@
-# Student Grade Reporting System Frontend
+# GRADE REPORTING SITE FOR STUDENTS
+### student id:11311652
 
 ## Project Overview
 
@@ -9,20 +10,22 @@ This project is a front-end web application for a Student Grade Reporting System
 The application consists of 7 main pages:
 
 - **Homepage:** Introduction to the system and its purpose.
-- **Login Page:** Mock login interface for student authentication.
+- **Login Page:** The Login Page requires the student or the administrator to insert the password for access to the website
 - **Dashboard:** Displays an overview of the student’s current grades and alerts for missing grades.
+- The student can access the current grades and are notified if any of the grades are unavailable
 - **Grade Report:** Shows a detailed view of the student's grades filtered by semester or academic year.
-- **Missing Grade Form:** Enables students to report missing grades.
+- **Missing Grade Form:** Enables students to report missing grades. If students are not satisfied with their grades or have not scores recorded, they can contact their instructors through the missing grade page
 - **Instructor Contact Page:** Lists instructors' contact information with a simulated email feature.
+- The instructor's page has a list of all instructors assigned to the student with their corresponding contact details.
 - **Help and Support:** Provides FAQs and a mock support contact form.
 
 ## Technical Details
-
+- The project incorporated the following rubrics
 - **Framework/Technology Used:** [React]
 - **Responsive Design:** Implemented using [CSS Flexbox/Grid, Bootstrap, Tailwind CSS].
 - **JavaScript Functionality:** Used for form validations, dynamic content rendering, and simulating interactions.
 
-## Setup and Installation
+## Before I started the project, I Setup and  did some Installation
 
 To set up the project locally, follow these steps:
 
@@ -48,4 +51,7 @@ To contribute to this project, please follow these guidelines:
 3. Commit your changes and push them to your branch.
 4. Submit a pull request for review.
 
-Please adhere to the project's coding standards and provide clear and detailed pull request descriptions.
+### LESSONS LEARNT
+I have been able to add to my web development skills.
+The project has helped me to learn how to @erform different tasks simultaneously
+Even though it was thought, the outcome is something to take home
