@@ -1,0 +1,98 @@
+<!-- grade_report_page.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Grade Report - Missing Grade Reporting System</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+
+        .grade-report-container {
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Include Navbar -->
+<!-- Replace the URL with the correct path based on your file structure -->
+<div class="include-navbar"><?php include('grade-report_page.html'); ?></div>
+
+<!-- Grade Report Container -->
+<div class="container grade-report-container">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <h2 class="text-center mb-4">Grade Report</h2>
+            
+            <!-- Filter by Semester -->
+            <div class="form-group">
+                <label for="semesterFilter">Filter by Semester:</label>
+                <select class="form-control" id="semesterFilter">
+                    <option value="all">All Semesters</option>
+                    <option value="fall">Semester1-2 2023</option>
+                    <option value="spring">Semester3-4 2023</option>
+                    <option value="summer">Semester5-6 2023</option>
+                </select>
+            </div>
+
+            <!-- Grade Breakdown -->
+            <ul class="list-group">
+                <!-- Course 1 -->
+                <li class="list-group-item">
+                    <h5>DCIT 103</h5>
+                    <p>Grade: A</p>
+                    <p>Semester: Lvl100 2023</p>
+                </li>
+
+                <!-- Course 2 -->
+                <li class="list-group-item">
+                    <h5>DCIT 101</h5>
+                    <p>Grade: B+</p>
+                    <p>Semester: Lvl100 2023</p>
+                </li>
+
+                <!-- Course 3 -->
+                <li class="list-group-item">
+                    <h5>DCIT 205</h5>
+                    <p>Grade: A-</p>
+                    <p>Semester: Lvl200 2023</p>
+                </li>
+
+                <!-- Course 4 -->
+                <li class="list-group-item">
+                    <h5>DCIT 204</h5>
+                    <p>Grade: B</p>
+                    <p>Semester: Lvl200 2023</p>
+                </li>
+
+                <!-- Course 5 -->
+                <li class="list-group-item">
+                    <h5>DCIT 201</h5>
+                    <p>Grade: A</p>
+                    <p>Semester: Lvl 200 2023</p>
+                </li>
+
+                <!-- Course 6 -->
+                <li class="list-group-item">
+                    <h5>DCIT 306</h5>
+                    <p>Grade: B+</p>
+                    <p>Semester: Lvl 300 2023</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!-- Bootstrap JS and dependencies -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+</body>
+</html>
