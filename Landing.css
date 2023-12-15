@@ -1,0 +1,11 @@
+.welcome{
+    padding: 200px;
+    margin: 0px;
+    text-align: center;
+    background:#356bb3;
+}
+.button{
+    height: 35px;
+    width: 250px;
+    border-radius: 20px;
+}
