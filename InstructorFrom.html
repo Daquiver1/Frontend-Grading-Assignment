@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" />
+  <link rel="stylesheet" href="Stylesheet/login.css">
+  <link rel="stylesheet" href="bootstrap-4.3.1-dist/css/bootstrap.css">
+  <link rel="stylesheet" href="bootstrap-4.3.1-dist/js/bootstrap.js">
+
+  <link rel="stylesheet" href="/Stylesheet/login.css">
+
+  <title>Grade Point Report</title>
+
+
+</head>
+<body>
+
+  
+
+
+
+<h2>Send An Email</h2>
+
+<form action="/action_page.php" method="post">
+ 
+
+  <div class="container">
+    <div class="form-group">
+        <label for="semester">Select Your Instructor:</label>
+        <select id="semester" name="semester" class="form-control">
+            <option value="">Select Instructor</option>
+            <!-- Add options for each semester/academic year -->
+            <option value="">John Anderson</option>
+            <option value="">Mrs Emily Carter</option>
+            <option value="">Bright Vake</option>
+        </select>
+    <label for="uname"><b>Your Name</b></label>
+    <input type="text" placeholder="Enter Full Name" name="uname" id="email" required>
+
+    <label for="email"><b>Email</b></label><br>
+    <input type="email" placeholder="Enter Email" name="email" id="email" required>
+
+    <fieldset>
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" cols="50">
+        </textarea>
+      </fieldset>
+        
+      <button type="button" class="btn btn-primary">Submit</button>
+
+    
+    <!-- <a href="/Login user.html" style="padding-left: 20%;">Login As User</a> -->
+  </div>
+
+
+</form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="JavaScript/Login.js"></script>
+</body>
+</html>
