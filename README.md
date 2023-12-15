@@ -1,4 +1,5 @@
 # Student Grade Reporting System Frontend
+#Author: Nana Mewiedela Esseney Yentumey - 11339613(Student ID)
 
 ## Project Overview
 
