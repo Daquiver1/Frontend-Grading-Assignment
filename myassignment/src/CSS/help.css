@@ -1,0 +1,13 @@
+.help >h3{
+    text-align: justify;
+    font-size: 25px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.help > p{
+    font-size: 18px;
+    text-align: justify;
+    color: black;
+
+}
