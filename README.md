@@ -1,4 +1,9 @@
+# ASSIGNMENT ONE
 # Student Grade Reporting System Frontend
+
+
+## Name: Stephen Kwaku Azongo
+## Student ID - 11027858``
 
 ## Project Overview
 
@@ -8,32 +13,32 @@ This project is a front-end web application for a Student Grade Reporting System
 
 The application consists of 7 main pages:
 
-- **Homepage:** Introduction to the system and its purpose.
-- **Login Page:** Mock login interface for student authentication.
-- **Dashboard:** Displays an overview of the student’s current grades and alerts for missing grades.
-- **Grade Report:** Shows a detailed view of the student's grades filtered by semester or academic year.
-- **Missing Grade Form:** Enables students to report missing grades.
-- **Instructor Contact Page:** Lists instructors' contact information with a simulated email feature.
-- **Help and Support:** Provides FAQs and a mock support contact form.
+- *Homepage:* Introduction to the system and its purpose.
+- *Login Page:* Mock login interface for student authentication.
+- *Dashboard:* Displays an overview of the student’s current grades and alerts for missing grades.
+- *Grade Report:* Shows a detailed view of the student's grades filtered by semester or academic year.
+- *Missing Grade Form:* Enables students to report missing grades.
+- *Instructor Contact Page:* Lists instructors' contact information with a simulated email feature.
+- *Help and Support:* Provides FAQs and a mock support contact form.
 
 ## Technical Details
 
-- **Framework/Technology Used:** [React]
-- **Responsive Design:** Implemented using [CSS Flexbox/Grid, Bootstrap, Tailwind CSS].
-- **JavaScript Functionality:** Used for form validations, dynamic content rendering, and simulating interactions.
+- *Framework/Technology Used:* [React]
+- *Responsive Design:* Implemented using [CSS Flexbox/Grid, Tailwind CSS].
+- *JavaScript Functionality:* Used for form validations, dynamic content rendering, and simulating interactions.
 
 ## Setup and Installation
 
 To set up the project locally, follow these steps:
 
-```bash
-git clone https://github.com/your-github-username/DCIT_205_ASSIGNGMENT1.git
+bash
+git clone https://github.com/your repo
 cd repo-name
 npm install
 npm start
-```
 
-This will start the application on `localhost` at the default port.
+
+This will start the application on localhost at the default port.
 
 ## Usage
 

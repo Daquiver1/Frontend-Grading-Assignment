@@ -1,0 +1,125 @@
+
+
+
+.dashboard-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f8f9fa;
+  color: #343a40; 
+}
+
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  background-color: #899baf; 
+  color: #ffffff; 
+  padding: 10px;
+}
+
+
+.profile-section {
+  display: flex;
+  align-items: center;
+}
+
+.profile-section img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.profile-section h1 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.dashboard-header button {
+  padding: 10px;
+  background-color: rgb(17, 35, 168)0c; 
+  color: #000000; 
+  border: none;
+  cursor: pointer;
+}
+
+
+.alerts-section {
+  margin-bottom: 20px;
+  padding: 15px;
+  border: 1px solid #dee2e6; 
+  background-color: #f8d7da; 
+}
+
+.graphical-overview {
+  margin-bottom: 20px;
+  padding: 15px;
+  border: 1px solid #dee2e6; 
+  background-color: #d6d8db; 
+}
+
+.missing-grades-section {
+  margin-bottom: 30px;
+}
+
+.missing-grades-section table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.missing-grades-section th, .missing-grades-section td {
+  border: 1px solid #dee2e6; 
+  padding: 8px;
+  text-align: left;
+}
+
+.missing-grades-section th {
+  background-color: #f2f2f2;
+}
+
+.missing-grades-section button {
+  margin-right: 5px;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.recent-courses-section {
+  margin-bottom: 20px;
+}
+
+.recent-courses-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.recent-courses-section li {
+  margin-bottom: 10px;
+}
+
+.semester-selector {
+  margin-bottom: 30px;
+}
+
+.search-section {
+  margin-bottom: 30px;
+}
+
+.search-section label {
+  margin-right: 10px;
+}
+
+.search-section input {
+  padding: 10px;
+}
+
+@media (max-width: 768px) {
+  .dashboard-container {
+    padding: 10px;
+  }
+
+  .missing-grades-section table {
+    font-size: 14px;
+  }
+}
