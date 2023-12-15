@@ -1,4 +1,4 @@
-**Student ID:** 11298181
+**Student ID:** 11298181 <br>
 **Name:** Gabriel Kwame Addo Quainoo
 
 # Student Grade Reporting System Frontend
