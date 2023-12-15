@@ -1,0 +1,92 @@
+
+/* Intro text  */
+.intro-hm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(img/dcs-banner.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment:scroll;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+  
+.intro-hm::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6); /* Adjust the opacity as needed */
+    z-index: 1; /* Ensure the overlay is above the background image */
+}
+
+.intro-hm {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.intro-txt h1 {
+    opacity: 0;
+    animation: fadeInAnimation 2s ease forwards;
+}
+
+@keyframes fadeInAnimation {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+.intro-hm .intro-txt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+  
+.intro-hm h1 {
+    color: rgb(233, 231, 231);
+    font-size: 4em;
+    width: 60%;
+    z-index: 2;
+}
+  
+
+#contact-hm{
+    background-image: url(/11357610_DCIT205_Assignment1/11357610/react-app/src/components/img/about-banner.jpg);
+}
+
+
+#contact-h1{
+    margin-top: 90px;
+}
+#contact-form{
+    margin-bottom: 10em;
+}
+
+.learn-more {
+    margin-top: 2em;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #bd9c6c;
+    color: white;
+    text-decoration: none;
+    border-radius: 7px;
+    transition: transform 0.3s ease-in-out;
+    z-index: 3;
+}
+
+.learn-more:hover {
+    transform: scale(1.1);
+}

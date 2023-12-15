@@ -2,13 +2,20 @@
 
 import React from "react";
 import ReactDOM from "react-dom";
-import LoginPage from "./components/LoginPage";
+import HeaderComponent from "./components/Header";
+import IntroSectionComponent from "./components/IntroSection";
 
 const App: React.FC = () => {
   return (
-    <div>
-      <LoginPage />
-    </div>
+    <>
+      <title>Landing Page</title>
+      {/* You can add links to external stylesheets here if needed */}
+      <body>
+        <HeaderComponent />
+        <IntroSectionComponent />
+        {/* Any other components or content can be added here */}
+      </body>
+    </>
   );
 };
 

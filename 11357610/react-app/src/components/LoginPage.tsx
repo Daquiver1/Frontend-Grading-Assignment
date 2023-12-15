@@ -1,7 +1,6 @@
 // LoginPage.tsx
 
 import React, { useState } from "react";
-import "./LoginPage.css";
 
 const LoginPage: React.FC = () => {
   const [username, setUsername] = useState("");
