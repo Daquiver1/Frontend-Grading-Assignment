@@ -11,29 +11,7 @@ const Login = () => {
                         and also allows the student to be able to fill a complaint form when the
                         students grade(s) is(are) missing. </p>
             </div>
-            {/* <div className="container1"
-                style={{display: "block"}}>
-                <h1 className="required"> Login Required</h1>
-                    <div className="stu-id">
-                        Student ID <br />
-                        <input className="box" type="text" required />
-                    </div>
-            </div>
-            <div className="stu-pa">
-                Student Password <br />
-                <input className="box" type="text" required />
-            </div>
-   
-            <div className="container2"
-            style={{display: "flex"}}>
-                <button className="reg-but">
-                    <h className="reg"> Log In</h>
-                </button>
-                <p className="required1">forgot password?</p>
-            </div> */}
-
-            
-            <div className="container border" style={{width: "50%", marginTop: "4rem"}}>
+            <div className="container border" style={{width: "70%", marginTop: "4rem"}}>
                 <div className="container1 mt-5 text-center"
                     style={{display: "block"}}>
                     <h1 className="required"> Login Required</h1>

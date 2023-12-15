@@ -32,166 +32,177 @@ const InstructorPage = () => {
            Instructors and their details
         </h1>
      </div>  
-     <div>
-        <div style={{display: "flex"}} >
+     <div style={{marginBottom: "100px"}}>
+        <div style={{display: "flex", marginTop: "50px", border: "2px solid black",}} >
         <div className="pic12">
-                <img src={lec} style={{width: "220px", }}/>
+                <img src={lec} style={{width: "220px", marginRight:"20px", borderRadius:"30px"}}/>
          </div>
             <div style={{display: "inline-block;"}}>
                   <h4 className="text1"><strong>Name :</strong> 
-                   <p4 className="text2">Morris-Jones Mensah</p4> </h4>
+                   <p4 className="text2"> Morris-Jones Mensah</p4> </h4>
                   <h4 className="text1"><strong>Contact :</strong> 
-                  <p4 className="text2">0246637237</p4>  </h4>
+                  <p4 className="text2"> 0246637237</p4>  </h4>
                   <h4 className="text1"><strong>Email :</strong> 
-                  <p4 className="text2">morrisjay12@gmail.com</p4>  </h4> 
+                  <p4 className="text2"> morrisjay12@gmail.com</p4>  </h4> 
                   <h4 className="text1"><strong>Office :</strong>  
-                  <p4 className="text2">RIPPS Room 13</p4> </h4> 
+                  <p4 className="text2"> RIPPS Room 13</p4> </h4> 
                   <h4 className="text1"><strong>Course :</strong>  
-                  <p4 className="text2">UGRC 223</p4> </h4>
+                  <p4 className="text2"> UGRC 223</p4> </h4>
          </div>
      </div>
-      <div style={{display: "flex"}} >
+      <div style={{display: "flex", marginTop: "50px", border: "2px solid black"}} >
         <div className="pic12">
-                <img src={lec31} style={{width: "220px", }}/>
+                <img src={lec31} style={{width: "220px", marginRight:"20px", borderRadius:"30px" }}/>
          </div>
             <div style={{display: "inline-block;"}}>
-                  <h3 className="text1"><strong>Name :</strong></h3>
-                  <h3 className="text1"><strong>Contact :</strong></h3>
-                  <h3 className="text1"><strong>Email :</strong></h3> 
-                  <h3 className="text1"><strong>Office :</strong></h3> 
-                  <h3 className="text1"><strong>Course :</strong></h3> 
+                  <h3 className="text1"><strong>Name :</strong>
+                  <p4 className="text2"> Albert Larweh Mawu</p4></h3>
+                  <h3 className="text1"><strong>Contact :</strong>
+                  <p4 className="text2"> 0548412950</p4></h3>
+                  <h3 className="text1"><strong>Email :</strong>
+                  <p4 className="text2"> mawulabert32@gmail.com</p4></h3> 
+                  <h3 className="text1"><strong>Office :</strong>
+                  <p4 className="text2"> Math Room 16</p4></h3> 
+                  <h3 className="text1"><strong>Course :</strong>
+                  <p4 className="text2"> MATH 223</p4></h3> 
          </div>
-        {/* <div className="text121"
-        style="display: inline-block;">
-            <h4 className="text2">Albert Larweh Mawu</h4> 
-            <h4 className="text2">0548412950</h4> 
-            <h4 className="text2">mawulabert32@gmail.com</h4> 
-            <h4 className="text2">Math Room 16</h4> 
-            <h4 className="text2">MATH 223</h4> 
-        </div> */}
      </div>
-      <div style={{display: "flex"}} >
+      <div style={{display: "flex", marginTop: "50px", border: "2px solid black"}} >
         <div className="pic12">
-                <img src={lec4} style={{width: "220px", }}/>
+                <img src={lec4} style={{width: "220px", marginRight:"20px", borderRadius:"30px" }}/>
          </div>
             <div style={{display: "inline-block;"}}>
-                  <h3 className="text1"><strong>Name :</strong></h3>
-                  <h3 className="text1"><strong>Contact :</strong></h3>
-                  <h3 className="text1"><strong>Email :</strong></h3> 
-                  <h3 className="text1"><strong>Office :</strong></h3> 
-                  <h3 className="text1"><strong>Course :</strong></h3> 
+                  <h3 className="text1"><strong>Name :</strong>
+                  <p4 className="text2"> Denis Arku</p4> </h3>
+                  <h3 className="text1"><strong>Contact :</strong>
+                  <p4 className="text2"> 0206482471</p4> </h3>
+                  <h3 className="text1"><strong>Email :</strong>
+                  <p4 className="text2"> ardenis2@gmail.com</p4></h3> 
+                  <h3 className="text1"><strong>Office :</strong>
+                  <p4 className="text2"> Stat Room 30</p4> </h3> 
+                  <h3 className="text1"><strong>Course :</strong>
+                  <p4 className="text2"> STAT 223</p4> </h3> 
          </div>
-        {/* <div className="text121"
-        style="display: inline-block;">
-            <h4 className="text2">Denis Arku</h4> 
-            <h4 className="text2">0206482471</h4> 
-            <h4 className="text2">ardenis2@gmail.com</h4> 
-            <h4 className="text2">Stat Room 30</h4> 
-            <h4 className="text2">STAT 223</h4> 
-        </div> */}
      </div>
-     <div style={{display: "flex"}} >
+     <div style={{display: "flex", marginTop: "50px", border: "2px solid black"}} >
             <div className="pic12">
-                <img src={lec3} style={{width: "220px", }}/>
+                <img src={lec3} style={{width: "220px",height:"210px", marginRight:"20px", borderRadius:"30px" }}/>
             </div>
                 <div style={{display: "inline-block;"}}> 
-                  <h3 className="text1"><strong>Name :</strong></h3>
-                  <h3 className="text1"><strong>Contact :</strong></h3>
-                  <h3 className="text1"><strong>Email :</strong></h3> 
-                  <h3 className="text1"><strong>Office :</strong></h3> 
-                  <h3 className="text1"><strong>Course :</strong></h3> 
+                  <h3 className="text1"><strong>Name :</strong>
+                  <p4 className="text2"> Esther Osei Mensah</p4> </h3>
+                  <h3 className="text1"><strong>Contact :</strong>
+                  <p4 className="text2"> 0502567421</p4> </h3>
+                  <h3 className="text1"><strong>Email :</strong>
+                  <p4 className="text2"> eoseimensah2@gmail.com</p4> </h3> 
+                  <h3 className="text1"><strong>Office :</strong>
+                  <p4 className="text2"> Stat 18</p4> </h3> 
+                  <h3 className="text1"><strong>Course :</strong>
+                  <p4 className="text2"> STAT 230</p4></h3> 
                 </div> 
             </div>
-        {/* <div className="text121"
-        style="display: inline-block;">
-            <h4 className="text2">Esther Osei Mensah</h4> 
-            <h4 className="text2">0502567421</h4> 
-            <h4 className="text2">eoseimensah2@gmail.com</h4> 
-            <h4 className="text2">Stat 18</h4> 
-            <h4 className="text2">STAT 230</h4> 
-        </div> */}
      </div>
-        <div style={{display: "flex"}} >
+        <div style={{display: "flex", marginTop: "50px", border: "2px solid black"}} >
         <div className="pic12">
-                <img src={lec9} style={{width: "220px", }}/>
+                <img src={lec9} style={{width: "220px", marginRight:"20px", borderRadius:"30px" }}/>
          </div>
             <div style={{display: "inline-block;"}}>
-                  <h3 className="text1"><strong>Name :</strong></h3>
-                  <h3 className="text1"><strong>Contact :</strong></h3>
-                  <h3 className="text1"><strong>Email :</strong></h3> 
-                  <h3 className="text1"><strong>Office :</strong></h3> 
-                  <h3 className="text1"><strong>Course :</strong></h3> 
+                  <h3 className="text1"><strong>Name :</strong>
+                  <p4 className="text2"> Michael Agbo Sorli Tetteh</p4> </h3>
+                  <h3 className="text1"><strong>Contact :</strong>
+                  <p4 className="text2"> 0548932750</p4></h3>
+                  <h3 className="text1"><strong>Email :</strong>
+                  <p4 className="text2"> agbotetteh52@gmail.com</p4> </h3> 
+                  <h3 className="text1"><strong>Office :</strong>
+                  <p4 className="text2"> Computer Science Department Room 6</p4></h3> 
+                  <h3 className="text1"><strong>Course :</strong>
+                  <p4 className="text2"> DCIT 205</p4></h3> 
          </div>
-        {/* <div className="text121"
-        style="display: inline-block;">
-            <h4 className="text2">Michael Agbo Sorli Tetteh</h4> 
-            <h4 className="text2">0548932750</h4> 
-            <h4 className="text2">agbotetteh52@gmail.com</h4> 
-            <h4 className="text2">Computer Science Department Room 6</h4> 
-            <h4 className="text2">DCIT 205</h4> 
-        </div> */}
      </div>
-        <div style={{display: "flex"}} >
+        <div style={{display: "flex", marginTop: "50px", border: "2px solid black"}} >
         <div className="pic12">
-                <img src={lec7} style={{width: "220px", }}/>
+                <img src={lec7} style={{width: "220px", marginRight:"20px", borderRadius:"30px" }}/>
          </div>
             <div style={{display: "inline-block;"}}>
-                  <h3 className="text1"><strong>Name :</strong></h3>
-                  <h3 className="text1"><strong>Contact :</strong></h3>
-                  <h3 className="text1"><strong>Email :</strong></h3> 
-                  <h3 className="text1"><strong>Office :</strong></h3> 
-                  <h3 className="text1"><strong>Course :</strong></h3> 
+                  <h3 className="text1"><strong>Name :</strong>
+                  <p4 className="text2"> Abdulaih Dwumfour Aziz</p4> </h3>
+                  <h3 className="text1"><strong>Contact :</strong>
+                  <p4 className="text2"> 0598328439</p4> </h3>
+                  <h3 className="text1"><strong>Email :</strong>
+                  <p4 className="text2"> abduaziz32@gmail.com</p4> </h3> 
+                  <h3 className="text1"><strong>Office :</strong>
+                  <p4 className="text2"> Computer Science Department Room 9</p4></h3> 
+                  <h3 className="text1"><strong>Course :</strong>
+                  <p4 className="text2"> DCIT 203</p4> </h3> 
          </div>
-        {/* <div className="text121"
-        style="display: inline-block;">
-            <h4 className="text2">Abdulaih Dwumfour Aziz</h4> 
-            <h4 className="text2">0598328439</h4> 
-            <h4 className="text2">abduaziz32@gmail.com</h4> 
-            <h4 className="text2">Computer Science Department Room 9</h4> 
-            <h4 className="text2">DCIT 203</h4> 
-        </div> */}
      </div>
-          <div style={{display: "flex"}} >
+          <div style={{display: "flex", marginTop: "50px", border: "2px solid black"}} >
         <div className="pic12">
-                <img src={lec10} style={{width: "220px", }}/>
+                <img src={lec10} style={{width: "220px", marginRight:"20px", borderRadius:"30px" }}/>
          </div>
             <div style={{display: "inline-block;"}}>
-                  <h3 className="text1"><strong>Name :</strong></h3>
-                  <h3 className="text1"><strong>Contact :</strong></h3>
-                  <h3 className="text1"><strong>Email :</strong></h3> 
-                  <h3 className="text1"><strong>Office :</strong></h3> 
-                  <h3 className="text1"><strong>Course :</strong></h3> 
+                  <h3 className="text1"><strong>Name :</strong>
+                  <p4 className="text2"> Asare Tuah</p4></h3>
+                  <h3 className="text1"><strong>Contact :</strong>
+                  <p4 className="text2"> 0254726321</p4> </h3>
+                  <h3 className="text1"><strong>Email :</strong>
+                  <p4 className="text2"> asare34tuah@gmail.com</p4> </h3> 
+                  <h3 className="text1"><strong>Office :</strong>
+                  <p4 className="text2"> Math 07</p4> </h3> 
+                  <h3 className="text1"><strong>Course :</strong>
+                  <p4 className="text2"> MATH 121</p4> </h3> 
          </div>
-        {/* <div className="text121"
-        style="display: inline-block;">
-            <h4 className="text2">Asare Tuah</h4> 
-            <h4 className="text2">0254726321</h4> 
-            <h4 className="text2">asare34tuah@gmail.com</h4> 
-            <h4 className="text2">Math 07</h4> 
-            <h4 className="text2">MATH 121</h4> 
-        </div> */}
      </div>
-      <div style={{display: "flex"}} >
+      <div style={{display: "flex", marginTop: "50px", border: "2px solid black"}} >
         <div className="pic12">
-                <img src={lec6} style={{width: "220px", }}/>
+                <img src={lec6} style={{width: "220px", marginRight:"20px", borderRadius:"30px" }}/>
          </div>
             <div style={{display: "inline-block;"}}>
-                  <h3 className="text1"><strong>Name :</strong></h3>
-                  <h3 className="text1"><strong>Contact :</strong></h3>
-                  <h3 className="text1"><strong>Email :</strong></h3> 
-                  <h3 className="text1"><strong>Office :</strong></h3> 
-                  <h3 className="text1"><strong>Course :</strong></h3> 
+                  <h3 className="text1"><strong>Name :</strong>
+                  <p4 className="text2"> Mark Atta Mensah</p4> </h3>
+                  <h3 className="text1"><strong>Contact :</strong>
+                  <p4 className="text2"> 0542843790</p4> </h3>
+                  <h3 className="text1"><strong>Email :</strong>
+                  <p4 className="text2"> markmensahattah82@gmail.com</p4> </h3> 
+                  <h3 className="text1"><strong>Office :</strong>
+                  <p4 className="text2"> Computer Science Department Room 4</p4></h3> 
+                  <h3 className="text1"><strong>Course :</strong>
+                  <p4 className="text2"> DCIT 103</p4> </h3> 
          </div>
-            {/* <div className="text121"
-            style="display: inline-block;">
-                  <h4 className="text2">Mark Atta Mensah</h4> 
-                  <h4 className="text2">0542843790</h4> 
-                  <h4 className="text2">markmensahattah82@gmail.com</h4> 
-                  <h4 className="text2">Computer Science Department Room 4</h4> 
-                  <h4 className="text2">DCIT 103</h4> 
-            </div> */}
         </div> 
         </div>
+        <div style={{marginTop: "70px", border: "2px solid blue", width:"80%", margin:"auto"}}>
+                <div className="container mt-3">
+                    <form action="#" method="post">
+                        <select name="instructor" className="form-control">
+                            <option value=""> Select instructor</option>
+                            <option value=""> Asare Tuah</option>
+                            <option value=""> Mark Atta Mensah</option>
+                            <option value=""> Abdulaih Dwumfour Aziz</option>
+                            <option value=""> Michael Agbo Sorli Tetteh</option>
+                            <option value=""> Esther Osei Mensah</option>
+                            <option value=""> Denis Arku</option>
+                            <option value=""> Morris-Jones Mensah</option>
+                            <option value=""> Albert Larweh Mawu</option>
+                        </select>
+                <div className="container">
+                    <label className='my-3 ps-2' htmlFor="subject">Course Name</label>
+                    <input type="text" className="form-control py-2" name="Course Name" id="">
+                    </input>
+                </div>
+                <div className="container">
+                <label htmlFor="subject">Message :</label>
+                <textarea name="message" id="message" className="form-control py-2" rows="4" required></textarea>
+                </div>
+                <div className="container">
+                    <button type="button"
+                    className="form-control btn btn-md btn-primary py-2 my-3">
+                        Send Email
+                    </button>
+                </div>
+                </form>
+                </div>
+            </div>
             <div>
                 <Footer />
             </div>

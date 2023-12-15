@@ -38,7 +38,7 @@ const GradeForm = () => {
         </p>
      </div>
      <div>
-     <div className="container w-50" style={{border: "solid"}}>
+     <div className="container w-70" style={{border: "solid"}}>
      <div className="top1">
         <h1 className="too" style={{textAlign: "center"}}>
            Complaint Form

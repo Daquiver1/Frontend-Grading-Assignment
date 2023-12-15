@@ -1,4 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom"
+import "./App.css"
 import LandingPage from "./routes/LandingPage.jsx"
 import Login from "./routes/Login.jsx"
 import Dashboard from "./routes/Dashboard.jsx"
