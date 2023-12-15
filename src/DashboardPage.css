@@ -1,0 +1,21 @@
+.dashboard-page {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    margin: 2rem auto;
+    max-width: 800px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dashboard-page .grades-list {
+    margin-bottom: 2rem;
+  }
+  
+  .dashboard-page .grade-item {
+    margin-bottom: 0.5rem;
+  }
+  
+  .dashboard-page .missing-grades-alert {
+    color: #dc3545;
+    margin-top: 2rem;
+  }

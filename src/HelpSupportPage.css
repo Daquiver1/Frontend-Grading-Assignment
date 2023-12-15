@@ -1,0 +1,47 @@
+.help-support-page {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    margin: 2rem auto;
+    max-width: 800px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .help-support-page .faq-section,
+  .help-support-page .support-form-section {
+    margin-bottom: 2rem;
+  }
+  
+  .help-support-page .faq-item {
+    margin-bottom: 1rem;
+  }
+  
+  .help-support-page .support-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .help-support-page .support-form .form-group {
+    margin-bottom: 1rem;
+  }
+  
+  .help-support-page .support-form label {
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+  }
+  
+  .help-support-page .support-form input,
+  .help-support-page .support-form textarea {
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .help-support-page .support-form button.submit-btn {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .help-support-page .support-form button.submit-btn:hover {
+    background-color: #218838;
+  }

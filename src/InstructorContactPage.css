@@ -1,0 +1,23 @@
+.instructor-contact-page {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  margin: 2rem auto;
+  max-width: 800px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.instructor-contact-page .instructor-list {
+  list-style: none;
+  padding: 0;
+}
+
+.instructor-contact-page .instructor-item {
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #eee;
+}
+
+.instructor-contact-page .instructor-item:last-child {
+  border-bottom: none;
+}
