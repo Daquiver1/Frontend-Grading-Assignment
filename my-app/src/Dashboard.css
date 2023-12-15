@@ -1,0 +1,35 @@
+/* Dashboard.css */
+.dashboard-header {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+.dashboard-content {
+  padding: 20px;
+}
+
+.dashboard-animation {
+  /* Add your animation styles here */
+  animation: slide-in 1s ease-in-out;
+}
+
+.dashboard-footer {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Define the animation keyframes */
+@keyframes slide-in {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
