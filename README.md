@@ -98,7 +98,7 @@ Images 0f the website are displayed below :
 
 ### Grade Report
 
-![Grade Report](react_screenshots/gradeReport.pngpng)
+![Grade Report](react_screenshots/gradeReport.png)
 
 ### Missing Grade Form
 
