@@ -1,0 +1,63 @@
+.root {
+
+    footer {
+        background-color: #1f2225;
+        color: #fff;
+        padding: 20px;
+        font-size: 18px;
+        font-family: arial;
+        text-align: center;
+        border-top: 2px solid #C6C4C4;
+
+    }
+
+    .sec {
+        display: flex;
+
+    }
+
+
+    .social {
+        display: flex;
+        margin-left: 1000px;
+    }
+
+    .soc-item {
+        background-color: white;
+        height: 50px;
+        width: 50px;
+        border-radius: 50px;
+        margin-left: 20px;
+        margin-bottom: 20px;
+
+
+    }
+
+
+}
+
+.socImg {
+    background-color: white;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+}
+
+.soc-link {
+    margin-right: 20px;
+}
+
+.p {
+    text-align: center;
+}
+
+.soc-links {
+    text-align: end;
+}
+
+.h {
+    text-align: end;
+    margin-right: 0px;
+    padding-right: 80px;
+    font-size: 20px;
+}

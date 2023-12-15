@@ -1,0 +1,80 @@
+.root {}
+
+.DB {
+    height: 98.5vh;
+    margin-left: 0px;
+    padding-left: 60px;
+    background-repeat: no-repeat;
+    background-image: url('https://cdn.dribbble.com/users/32512/screenshots/4888827/circle_story_by_gleb.gif');
+    background-position: 50%;
+    background-size: cover;
+    background-attachment: scroll;
+    background-origin: padding-box;
+    background-clip: border-box;
+    background-color: transparent;
+    width: auto;
+}
+
+.db {}
+
+.h2 {
+    font-size: 35px;
+    padding-top: 20px;
+    color: #FFE600;
+    margin: 0px 0px 0px 50px;
+}
+
+.h3 {
+    font-size: 35px;
+    padding-top: 20px;
+    color: #FFFFFF;
+    padding-left: 10px;
+}
+
+.current-grades {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    border: 2px solid #8E8E8E;
+    border-radius: 7px;
+    border-left: 0px solid #8E8E8E;
+    border-right: 0px solid #8E8E8E;
+    margin-left: 50px;
+}
+
+.ul {
+    flex-direction: column;
+    text-align: start;
+    width: 700px;
+    font-size: 25px;
+    color: #EDEDED;
+    padding-left: 10px;
+    font-weight: 400;
+}
+
+.h3 {
+    font-size: 30px;
+    margin-left: 50px;
+    width: 900px;
+    border-radius: 2px 2px 0px 0px;
+    padding-left: 10px;
+    border: 0px solid #C6C4C4;
+    border-top: 1px solid #C6C4C4;
+}
+
+.li {
+    margin: 0px 0px 10px;
+    font-size: 20px;
+    font-weight: 500;
+    align-self: start;
+    align-items: start;
+}
+
+.MC {
+    color: #F60000;
+}
+
+.missing-grade-allert {
+    height: 200px;
+    margin-top: 120px;
+}

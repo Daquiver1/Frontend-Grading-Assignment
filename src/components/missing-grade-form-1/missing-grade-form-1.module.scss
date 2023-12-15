@@ -1,0 +1,72 @@
+.root {
+
+.MGF {
+    height: 98.5vh;
+    width: auto;
+    margin-left: 0px;
+    background-repeat: no-repeat;
+    background-image: url('https://wallpapers.com/images/hd/design-black-background-lh6hd1i0ecusnwzg.jpg');
+    background-position: 50%;
+    background-size: cover;
+    background-attachment: scroll;
+    background-origin: padding-box;
+    background-clip: border-box;
+    background-color: transparent;
+}
+
+
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    padding-left: 90px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.h2 {
+    font-size: 35px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 30px;
+}
+
+.label {
+    font-size: 20px;
+    color: #EFEFEF;
+    text-align: start;
+    align-self: start;
+    font-family: Times New Roman, serif;
+    font-style: italic;
+}
+
+.input {
+    height: 30px;
+}
+
+.btn {
+    padding: 0px;
+    margin-top: 20px;
+    height: 40px;
+    width: 100px;
+    text-align: center;
+    font-size: 18px;
+    background-image: linear-gradient(358deg, #006579 35%, #f6f6f6 100%);
+    background-color: transparent;
+    background-position: 50% 50%;
+    background-size: 100% 100%;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-origin: padding-box;
+    background-clip: border-box;
+    border-radius: 12px;
+    color: #FFFFFF;
+}
+
+.MGF .p {
+    color: rgb(17, 240, 9);
+    margin-top: 10px;
+    
+}
+}
