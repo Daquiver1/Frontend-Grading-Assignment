@@ -1,0 +1,33 @@
+.instructor-contact-container {
+  background-image: url();
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.instructor-contact-title {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.instructor-list {
+  display: grid;
+  grid-gap: 10px;
+}
+
+.instructor-item {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.instructor-name {
+  font-weight: bold;
+}
+
+.instructor-email {
+  color: #3498db;
+}

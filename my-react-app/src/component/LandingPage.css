@@ -1,5 +1,5 @@
 .landing-page-container {
-  background-image: url(C:\Users\USER\Desktop\11210904_DCIT205_Assignment1\my-react-app\src\component\bck.jpg);
+  background-image: url(C:\Users\USER\Desktop\11210904_DCIT205_Assignment1\my-react-app\src\component\bckg.jpg);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -17,9 +17,10 @@
 
 .landing-page-content {
   text-align: center;
-  color: #fff;
+  color: #000000;
   padding: 2rem;
   flex: 1;
+  font-size: larger;
 }
 
 .landing-page-footer {
@@ -38,12 +39,13 @@
   border: none;
   border-radius: 4px;
   cursor: pointer;
-  transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease, transform 0.2s ease-in-out;
 }
 
 .landing-page-button:hover {
   background-color: #6c5ce7;
   color: #fff;
+  transform: scale(1.05);
 }
 
 @media screen and (max-width: 768px) {
