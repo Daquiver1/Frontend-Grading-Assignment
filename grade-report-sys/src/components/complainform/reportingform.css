@@ -1,0 +1,80 @@
+:root{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color: rgb(192, 192, 192);
+  background-image: url(/src/components/african-american-man-sitting-desk-smiles.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #f0f0f0;
+  
+}
+
+
+.loginsect{
+  margin-top: 120px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+
+input[type=text], input[type=password] {
+width: 100%;
+padding: 12px 20px;
+margin: 8px 0;
+display: inline-block;
+border: 1px solid #ccc;
+box-sizing: border-box;
+border-radius: 8px;
+}
+
+button {
+background-color: #232D3F;
+color: white;
+padding: 14px 20px;
+margin: 8px 0;
+border: none;
+cursor: pointer;
+width: 100%;
+border-radius: 8px;
+}
+
+button:hover {
+opacity: 0.8;
+}
+
+
+
+.container {
+padding: 16px;
+}
+
+span.psw {
+float: right;
+padding-top: 16px;
+}
+
+
+.lowerContainer{
+  padding: 16px;
+  display: flex;
+  flex-direction: row;
+}
+
+
+
+.loginsect,label{
+  color: rgb(77, 77, 77);
+  font-size: small
+}
+
+.textarea{
+width: 100%;
+padding: 32px 20px;
+margin: 8px 0;
+display: inline-block;
+border: 1px solid #232D3F;
+box-sizing: border-box;
+border-radius: 8px;
+}
+
