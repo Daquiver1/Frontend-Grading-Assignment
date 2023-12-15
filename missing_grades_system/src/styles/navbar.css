@@ -1,0 +1,49 @@
+/* src/components/Navbar.css */
+.navbar {
+  background-color: #007bff;
+  padding: 30px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+li {
+  margin-right: 15px;
+  text-align: right;
+
+}
+
+.login_nav,
+.home_nav,
+.dashboard_nav,
+.instructorContact_nav,
+.gradereport_nav,
+.helpandsupport_nav,
+.missing_grade_nav{
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+
+.login_nav:hover,
+.home_nav:hover,
+.dashboard_nav:hover,
+.gradereport_nav:hover,
+.instructorContact_nav:hover,
+.helpandsupport_nav:hover,
+.missing_grade_nav:hover {
+  text-decoration: none;
+  color: #ffcc00; 
+}

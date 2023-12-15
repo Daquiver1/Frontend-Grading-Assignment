@@ -1,0 +1,27 @@
+
+.Home-Page {
+    color: #555;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  header h1 {
+    color: #333;
+    background-image: url(../Images/home-background.jpg);
+    padding: 100px ;
+  }
+  
+  section {
+    margin-bottom: 30px;
+  }
+  
+  h2 {
+    color: #555;
+    text-align: center;
+  }
+  
