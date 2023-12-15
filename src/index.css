@@ -39,12 +39,17 @@
   display: inline-flex;
   padding: 7px 10px;
 }
+.Header .Navigation ul li a:hover{
+  color:#fff;
+
+}
 
 .Header .Navigation ul li a {
   text-decoration: none;
   color: rgb(188, 124, 35);
   font-size: 15px;
   font-weight: 500;
+  transition: color 0.15s;
 }
 .Header .btn {
   padding: 6px 10px;
