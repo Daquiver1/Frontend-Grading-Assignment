@@ -1,6 +1,6 @@
-// LoginPage.js
+
 import React, { useState } from 'react';
-import './LoginPage.css'; // Import the CSS file
+import './LoginPage.css'; 
 
 const LoginPage = () => {
   const [studentId, setStudentId] = useState('');
@@ -8,7 +8,7 @@ const LoginPage = () => {
   const [errorMessage, setErrorMessage] = useState('');
 
   const handleLogin = () => {
-    // Simulated authentication (Replace with actual authentication logic)
+    
     const mockStudentId = '12345';
     const mockPin = '6789';
 
@@ -47,4 +47,3 @@ const LoginPage = () => {
 };
 
 export default LoginPage;
-
