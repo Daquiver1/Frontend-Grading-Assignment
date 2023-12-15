@@ -1,0 +1,40 @@
+body {
+  background: black;
+}
+
+.grade-section-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.grade-background-image-container {
+  position: absolute;
+  left: -10%;
+  z-index: -2;
+  width: 120%;
+}
+.grade-section-image-container {
+  flex: 0.9;
+  margin-right: 1rem;
+  margin-top: 15rem;
+}
+.grade-section-text-container {
+  flex: 1;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  font-weight: 700;
+}
+.btn {
+  margin-bottom: 10px;
+}
+
+.table-responsive {
+  margin-top: 5rem;
+  align-content: last baseline;
+}
+
+.fa-fa-file-o {
+  margin-top: 5rem;
+}

@@ -1,0 +1,163 @@
+.icon {
+  vertical-align: middle;
+  line-height: 1px;
+  font-size: 20px;
+}
+.icon_header {
+  vertical-align: middle;
+  line-height: 1px;
+  font-size: 26px;
+}
+.icon, .icon_header {
+  margin-right: 5px;
+}
+
+.close_icon {
+  color: red;
+  margin-left: 30px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 260px 1fr 1fr 1fr;
+  grid-template-rows: 0.2fr 3fr;
+  grid-template-areas:
+    'sidebar header header header'
+    'sidebar main main main';
+  height: 100vh;
+}
+
+
+.menu-icon {
+  display: none;
+}
+
+
+.alert {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px;
+  background-color: #f44336; 
+  color: white;
+  text-align: center;
+  z-index: 999; 
+}
+
+.alert.top {
+  animation: slideDown 0.5s ease-in-out;
+}
+
+@keyframes slideDown {
+  from {
+    transform: translateY(-100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+
+.student-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.student-table th, .student-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.student-table th {
+  background-color: black;
+}
+
+.student-table tbody tr:nth-child(even) {
+  background-color: black;
+}
+
+.student-table tbody tr:hover {
+  background-color: black;
+}
+
+
+ 
+.main-container {
+  grid-area: main;
+  overflow-y: auto;
+  padding: 20px 20px;
+  color: rgba(255, 255, 255, 0.95);
+}
+
+.main-title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-cards {
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 20px;
+  margin: 15px 0;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 8px 15px;
+  border-radius: 5px;
+}
+
+.card:first-child {
+  background-color: #fe9e0d;
+}
+
+
+
+.card-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card-inner > .card_icon {
+  font-size: 25px;
+}
+
+.charts {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  margin-top: 60px;
+  height: 300px;
+}
+
+
+
+  
+@media screen and (max-width: 768px) {
+  .main-cards {
+    grid-template-columns: 1fr;
+    gap: 10px;
+    margin-bottom: 0;
+  }
+
+  .charts {
+    grid-template-columns: 1fr;
+    margin-top: 30px;
+  }
+}
+
+/* Extra Small <= 576px */
+
+@media screen and (max-width: 576px) {
+  .hedaer-left {
+    display: none;
+  }
+}

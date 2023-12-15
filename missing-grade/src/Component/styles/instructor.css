@@ -1,0 +1,19 @@
+/* styles/InstructorList.css */
+
+.instructors-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+ }
+ 
+ .instructor {
+  background-color:#fe9e0d;;
+  padding: 1rem;
+  border-radius: 5px;
+  width: 300px;
+ }
+ 
+ .instructor h2 {
+  margin-top: 0;
+ }
+  
