@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Navbar from '../Components/Navbar';
+import Footer from '../Components/Footer';
 
 const LandingPage = () => {
   return (
@@ -61,6 +62,7 @@ const LandingPage = () => {
         </Link>
         </section>
       </div>
+      <Footer/>
     </div>
   );
 };

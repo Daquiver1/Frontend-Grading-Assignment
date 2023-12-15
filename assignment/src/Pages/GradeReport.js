@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import Navbar from '../Components/Navbar';
+import Footer from '../Components/Footer';
 
 const GradeReportPage = () => {
   const [filter, setFilter] = useState('All'); // Default filter value is 'All'
@@ -73,7 +74,7 @@ const GradeReportPage = () => {
         </section>
         </section>
       </div>
-      
+      <Footer/>
     </div>
     
   );

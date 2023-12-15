@@ -12,7 +12,7 @@ import Footer from "./Components/Footer";
 function App() {
   return (
         <React.Fragment>
-        <Footer/>
+        <LandingPage/>
         </React.Fragment>
   );
 }

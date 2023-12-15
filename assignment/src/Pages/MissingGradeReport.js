@@ -1,6 +1,7 @@
 // src/pages/MissingGradeFormPage.js
 import React, { useState } from 'react';
 import Navbar from '../Components/Navbar';
+import Footer from '../Components/Footer';
 
 const MissingGradeFormPage = () => {
   const [formData, setFormData] = useState({
@@ -90,6 +91,7 @@ const MissingGradeFormPage = () => {
           </div>
         )}
       </div>
+      <Footer/>
     </div>
   );
 };

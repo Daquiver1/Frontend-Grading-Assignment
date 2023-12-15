@@ -2,6 +2,7 @@
 
 import React, { useState } from 'react';
 import Navbar from '../Components/Navbar';
+import Footer from '../Components/Footer';
 
 const InstructorContactPage = () => {
   const [selectedInstructor, setSelectedInstructor] = useState(null);
@@ -74,6 +75,7 @@ const InstructorContactPage = () => {
           <div className="mt-8 p-4 bg-green-100 text-green-700 rounded-md">{confirmationMessage}</div>
         )}
       </div>
+      <Footer/>
     </div>
   );
 };

@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Navbar from '../Components/Navbar';
+import Footer from '../Components/Footer';
 
 const HelpSupportPage = () => {
   const [name, setName] = useState('');
@@ -72,7 +73,6 @@ const HelpSupportPage = () => {
               />
             </div>
 
-            {/* Message */}
             <div className="mb-4">
               <label htmlFor="message" className="block text-sm font-medium text-gray-600">
                 Your Message
@@ -92,6 +92,7 @@ const HelpSupportPage = () => {
           </form>
         </div>
       </div>
+      <Footer/>
     </div>
     </>
   );
