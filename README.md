@@ -1,4 +1,5 @@
-#STUDENT ID:11352618
+# STUDENT ID:11352618
+## Name: Samuel Kwesi Nyarko
 
 # Student Grade Reporting System Frontend
 
