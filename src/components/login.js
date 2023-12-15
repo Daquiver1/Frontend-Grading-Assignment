@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useNavigate,useLocation } from 'react-router-dom';
-import logo from '../../src/components/ffffff.png';
+import logo from '../../src/components/login.jpg';
 
 
 export default function Login() {
