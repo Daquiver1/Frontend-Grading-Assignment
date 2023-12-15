@@ -51,15 +51,19 @@ function Footer() {
           <h4>Social Media</h4>
           <div className="social-media">
             <img src={process.env.PUBLIC_URL + "./images/facebook.png"} />
-            <a>Facebook</a>
+            <a href="https://www.facebook.com/University-of-GhanaDepartment-of-Computer-Science-116786389698948/?ref=search&__tn__=%2Cd%2CP-R&eid=ARBBAU8wKSNVs2fNZimGERUZJeac3TbmQsaZDsz4ZoEqZ95bzGZf3siMET6V1B1NuOzqLZwhXCqqrtIt">
+              Facebook
+            </a>
           </div>
           <div className="social-media">
             <img src={process.env.PUBLIC_URL + "./images/twitter.png"} />
-            <a>Twitter</a>
+            <a href="https://twitter.com/univofghana">Twitter</a>
           </div>
           <div className="social-media">
             <img src={process.env.PUBLIC_URL + "./images/instagram.png"} />
-            <a>Instagram</a>
+            <a href="https://www.instagram.com/explore/locations/468119891/university-of-ghana/">
+              Instagram
+            </a>
           </div>
         </div>
       </div>
