@@ -1,80 +1,75 @@
-.login-page{
-    width: 100%;
-    /*background-image: url('Images/student-image.jpg');*/
-    background-attachment: local;
-    background-size: cover;
-}
 
-.login-tab{
-    height: 130vh;
-    width: 600px;
-    float: right;
-    background-color: rgb(133, 94, 107);
-}
 
-.title{
-    margin-top: 100px;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: white;
-    text-align: center;
-}
-
-.sub-text{
-    font-family: cursive;
-    color: white;
-    text-align: center;
-}
-
-.form{
-    height: 350px;
-    width: 350px;
-    margin: 50px auto;
+.login-page {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    min-height: 100vh;
     display: flex;
-    flex-direction: column;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+  }
+  
+  .login-tab {
+    width: 100%;
+    max-width: 400px;
+    margin: 20px;
     padding: 20px;
-    border-radius: 15px;
-    background-color: rgb(160, 115, 130);
-}
-
-.input{
-    height: 45px;
-    width: 80%;
-    margin: 10px auto;
-    padding-left: 10px;
-    padding-right: 10px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .title {
+    text-align: center;
+    color: #072a5a;
+  }
+  
+  .sub-text {
+    text-align: center;
+    color: #555;
+  }
+  
+  .form {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .submit {
+    background-color: #072a5a;
+    color: #fff;
+    padding: 12px 20px;
     border: none;
-    border-radius: 10px;
-    background-color: rgb(94, 112, 133);
-    color: white;
-}
-
-.input::placeholder{
-    color: white;
-    font-family: cursive;
-
-}
-
-.submit{
-    height: 45px;
-    width: 70%;
-    margin: 40px auto;
-    border: none;
-    border-radius: 10px;
-    background-color: white;
-    color: rgb(94, 112, 133);
-
-}
-
-.submit:hover{
-    width: 75%;
+    border-radius: 4px;
     cursor: pointer;
-    transition: .7s;
-    text-decoration: underline;
-}
-
-.forgot{
-    color: white;
-    font-family: cursive;
-}
+    font-size: 16px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .submit:hover {
+    background-color: #0056b3;
+  }
+  
+  .forgot {
+    margin-top: 10px;
+    color: #555;
+    cursor: pointer;
+  }
+  
+  /* Responsive styling */
+  @media (max-width: 600px) {
+    .login-tab {
+      width: 90%;
+    }
+  }
+  

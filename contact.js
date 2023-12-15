@@ -1,11 +1,18 @@
-import "./ContactUs.css";
-import Navbar from "./component/Navbar";
-
+import "./dashboard.css";
+import { Link } from "react-router-dom";
 
 function Contact () {
     return(
         <div className="dashboard">
-            <Navbar />
+            <div className="tab-1">
+                <h1 className="logo">UG</h1>
+                <div className="nav-buttons">
+                    <Link to="/dashboard"><button className="nav-button">Dashboard</button></Link>
+                    <Link to="/grades"><button className="nav-button">Grades</button></Link>
+                    <button className="nav-button">Contact</button>
+                    <Link to="/help"><button className="nav-button">Help</button></Link>
+                </div>
+            </div>
             <div className="tab-2 contact-tab">
                 <h1>Find below a contact list for all the course instructors for the courses you have taken</h1>
                 <table>
@@ -19,8 +26,8 @@ function Contact () {
                     <tbody>
                     <tr>
                         <td className="courses">Critical Thinking and Practical Reasoning</td>
-                        <td className="exams-score">Dr. Nancy Miles</td>
-                        <td className="grades">nmiles@gmail.com</td>
+                        <td className="exams-score">Professor Kim</td>
+                        <td className="grades">example@gmail.com</td>
                     </tr>
                     <tr>
                         <td className="courses">Academic Writing</td>
@@ -70,7 +77,6 @@ function Contact () {
                     </tbody>
                 </table>
             </div>
-           
         </div>
     );
 
@@ -78,3 +84,4 @@ function Contact () {
 }
 
 export default Contact;
+
