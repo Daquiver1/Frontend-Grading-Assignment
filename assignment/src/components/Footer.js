@@ -67,7 +67,7 @@ const AppFooter = () => {
        
         <div className="text-center p-3 border-top border-white">
           © 2020 Copyright:
-          <a className="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+          <a className="text-white" href="https://myaccount.google.com/?utm_source=chrome-profile-chooser&pli=1">sophieyawson12@gmail.com</a>
         </div>
         
       </footer>
