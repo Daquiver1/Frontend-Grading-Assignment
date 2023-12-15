@@ -1,0 +1,38 @@
+.content{
+    margin: 50px;
+}
+.Grade-pic{
+    width: 1263px;
+    height: 500px;
+    object-fit: cover;
+    
+}
+.student-details{
+    display: flex;
+    flex-direction: row;
+    font-weight: bold;
+    justify-content: space-between;
+    padding: 50px;
+    
+}
+.button{
+    width: 250px;
+}
+.level-100-200{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.level-300-400{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.level{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex: 1;
+    align-content: space-between;
+}

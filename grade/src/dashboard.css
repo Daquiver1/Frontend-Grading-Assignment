@@ -1,0 +1,32 @@
+.dashboard-pic{
+    width: 1263px;
+    height: 400px;
+    object-fit: cover;
+}
+.body{
+    padding: 65px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+table{
+    font-family: Arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+tr:nth-child(even){
+    background-color: #dddddd;
+}
+.missing{
+    background-color: rgb(255, 226, 154);
+    padding: 6px;
+}
+.dcit414{
+    font-weight: bold;
+    font-family:  Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+}
