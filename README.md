@@ -18,8 +18,8 @@ The application consists of 7 main pages:
 
 ## Technical Details
 
-- **Framework/Technology Used:** [React]
-- **Responsive Design:** Implemented using [CSS Flexbox/Grid, Bootstrap, Tailwind CSS].
+- **Framework/Technology Used:** React
+- **Responsive Design:** Implemented using Tailwind CSS
 - **JavaScript Functionality:** Used for form validations, dynamic content rendering, and simulating interactions.
 
 ## Setup and Installation
@@ -27,8 +27,8 @@ The application consists of 7 main pages:
 To set up the project locally, follow these steps:
 
 ```bash
-git clone https://github.com/your-github-username/DCIT_205_ASSIGNGMENT1.git
-cd repo-name
+git clone https://github.com/Nana-king-netizen/DCIT_205_ASSIGNGMENT1.git
+cd Missing_Grade_Report
 npm install
 npm start
 ```
@@ -36,8 +36,14 @@ npm start
 This will start the application on `localhost` at the default port.
 
 ## Usage
+* There is a Navigation bar that allows for easy traversal between various pages of the system.
 
-Describe how to use the application, highlighting key functionalities such as logging in, viewing grades, reporting missing grades, and contacting instructors.
+* The System enables users to perform specific tasks such as reporting a missing grade, contacting an instructor, and viewing grades among other functionalities.
+* To log in, visit the Login Page and fill in the required fields for Student ID and Password.
+* The Grade Report Page provides an overview of grades and can be filtered through by selecting the academic year or semester which shows above the table for displaying the grades.
+* To report a missing grade, visit the missing grade report page, fill out the form and submit it.
+* Instructors can be contacted via the Instructor Contact Page. There are various communication means to reach the instructor on this page. 
+
 
 ## Contribution
 
