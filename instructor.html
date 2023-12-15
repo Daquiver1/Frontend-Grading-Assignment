@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Instructor Contact - Missing Grade Reporting System</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    .footer {
+      background-color: #6dc8fd;
+      color: #ffffff;
+    }
+    </style>
+</head>
+
+<body>
+  <nav class="Four ">
+    <a class="navbar-brand" href="#">Missing Grade Reporting System</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="Three" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <a class="nav-link" href="dashboard.html">Dashboard</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="grade_report.html">grade report</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="missing_grade_form.html">missing grade</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="help_and_support.html">help_and_support</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="One">
+    <div class="row">
+      <div class="col-md-8 offset-md-2">
+        <h2 class="text-center mb-4">Instructor Contact</h2>
+        <form>
+          <div class="Two">
+            <label for="instructor-name">Instructor Name:</label>
+            <input type="text" class="form-control" id="instructor-name">
+          </div>
+          <div class="Two">
+            <label for="course">Course:</label>
+            <select class="form-control" id="course">
+              <option value="DCIT 201">DCIT 201</option>
+              <option value="DCIT 205">DCIT 205</option>
+              <option value="DCIT 203">DCIT 203</option>
+              <!-- Add more options for other courses -->
+            </select>
+          </div>
+          <div class="Two">
+            <label for="message">Message:</label>
+            <textarea class="form-control" id="message" rows="5"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  
+
+  <footer class="bg-dar text-white text-center py-3 mt-5 footer">
+    <p>
+      © 2023 Missing Grade Report System. <br>All rights reserved. | Report system.
+    </p>
+  </footer>
+
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script>
+    // JavaScript code to handle the navigation bar toggle behavior
+    document.addEventListener('DOMContentLoaded', function () {
+      var navbarToggler = document.querySelector('.navbar-toggler');
+      var navbarCollapse = document.querySelector('.navbar-collapse');
+
+      navbarToggler.addEventListener('click', function () {
+        navbarCollapse.classList.toggle('show');
+      });
+    });
+  </script>
+</body>
+
+</html>

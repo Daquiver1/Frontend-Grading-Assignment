@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    line-height: 1.7;
+}
+
+
+
+
+
+/* Nav bars */
+.navbar.navbar {
+    background-color: rgb(18,60,107) !important;
+  }
+
+  .navbar .navbar-nav {
+    align-items: center;
+    justify-content: center; /* Center align the links */
+  }
+  
+  .navbar .navbar-nav .nav-link {
+    transition: all 0.3s ease; /* Smooth transition for the links */
+    color: yellow;
+  }
+  
+  .navbar {
+    transition: all 2s ease; /* Smooth transition for the dropdown */
+  }
+  
+  /* Footer */
+  #my-footer {
+    background-color: rgb(18,60,107) !important;
+  }
+
+  
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;}

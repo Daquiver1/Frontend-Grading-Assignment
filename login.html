@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login - Missing Grade Reporting System</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <style>
+      body {
+        background-color: #faeeee;
+      }
+
+      .login-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+
+      .login-form {
+        flex-basis: 50%;
+        margin-right: 50px;
+      }
+
+      .login-image {
+        flex-basis: 40%;
+        max-width: 400px;
+      }
+
+      .btn-peach {
+        background-color: #fbc290;
+        border-color: #f9b87f;
+      }
+
+      .footer {
+        background-color: #6dc8fd;
+        color: #ffffff;
+      }
+    </style>
+  </head>
+
+  
+
+    <body>
+        <nav class="Four ">
+          <a class="navbar-brand" href="#">Missing Grade Reporting System</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="Three" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <a class="nav-link" href="dashboard.html">Dashboard</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="missing_grade.html">Report Missing Grade</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="instructor.html">Instructor Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="help_and_support.html">Help & Support</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      
+
+    <div class="One">
+      <div class="row justify-content-center">
+        <div class="col-md-12 login-container">
+          <div class="login-form">
+            <h2 class="text-center mb-4">Student Login</h2>
+            <form>
+              <div class="Two">
+                <label for="studentId">Student ID</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="studentId"
+                  placeholder="Enter your Student ID"
+                />
+              </div>
+              <div class="Two">
+                <label for="pin">PIN</label>
+                <input
+                  type="password"
+                  class="form-control"
+                  id="pin"
+                  placeholder="Enter your PIN"
+                />
+              </div>
+              <button type="submit" class="btn btn-primary btn-block btn-peach">
+                <a
+                  href="dashboard.html"
+                  style="text-decoration: none; color: #fff"
+                  >Login</a
+                >
+              </button>
+            </form>
+          </div>
+          <div class="login-image">
+            <img src="good.webp" alt="Login Image" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="bg-dar text-white text-center py-3 mt-5 footer">
+        <p>
+          © 2023 Missing Grade Report System. <br>All rights reserved. | Report system.
+        </p>
+      </footer>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
