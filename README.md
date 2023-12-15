@@ -1,51 +1,44 @@
 # Student Grade Reporting System Frontend
 
-## Project Overview
-
-This project is a front-end web application for a Student Grade Reporting System. It simulates a real-world application where students can view, report, and manage their academic grades. This system addresses the issue of missing or unrecorded grades in a student's profile.
+## Overview
+This project is a web application designed for students to manage their academic grades, specifically focusing on tracking and reporting unrecorded or missing grades. It offers an interactive platform with a user-friendly interface, enabling students to efficiently handle their academic records.
 
 ## Application Structure
+- **Homepage:** Introduction and general information about the system.
+- **Login Page:** Secure access for students using their ID and PIN.
+- **Dashboard:** Overview of current grades with alerts for missing grades.
+- **Grade Report Page:** Detailed view of grades, filterable by semester/year.
+- **Missing Grade Form:** Submission form for reporting missing grades.
+- **Instructor Contact Page:** Contact information for instructors, with a mock email feature.
+- **Help and Support Page:** FAQs and a contact form for technical support.
 
-The application consists of 7 main pages:
-
-- **Homepage:** Introduction to the system and its purpose.
-- **Login Page:** Mock login interface for student authentication.
-- **Dashboard:** Displays an overview of the student’s current grades and alerts for missing grades.
-- **Grade Report:** Shows a detailed view of the student's grades filtered by semester or academic year.
-- **Missing Grade Form:** Enables students to report missing grades.
-- **Instructor Contact Page:** Lists instructors' contact information with a simulated email feature.
-- **Help and Support:** Provides FAQs and a mock support contact form.
-
-## Technical Details
-
-- **Framework/Technology Used:** [React]
-- **Responsive Design:** Implemented using [CSS Flexbox/Grid, Bootstrap, Tailwind CSS].
-- **JavaScript Functionality:** Used for form validations, dynamic content rendering, and simulating interactions.
+## Technologies Used
+- **React:** For building the user interface.
+- **CSS/Bootstrap/Tailwind:** For styling and responsive design.
+- **Vite (Optional):** Enhanced development experience.
 
 ## Setup and Installation
-
-To set up the project locally, follow these steps:
-
-```bash
-git clone https://github.com/your-github-username/DCIT_205_ASSIGNGMENT1.git
-cd repo-name
-npm install
-npm start
-```
-
-This will start the application on `localhost` at the default port.
+To set up this project locally:
+1. Clone the GitHub repository: `git clone [repository URL]`.
+2. Navigate to the project directory: `cd [project name]`.
+3. Install dependencies: `npm install`.
 
 ## Usage
+Detailed instructions on how to navigate and use the application's features.
 
-Describe how to use the application, highlighting key functionalities such as logging in, viewing grades, reporting missing grades, and contacting instructors.
-
-## Contribution
-
-To contribute to this project, please follow these guidelines:
-
+## Contributing
+Contributions are welcome! Please follow these steps:
 1. Fork the repository.
-2. Create a new branch for your feature.
-3. Commit your changes and push them to your branch.
-4. Submit a pull request for review.
+2. Create a new branch: `git checkout -b new-feature`.
+3. Commit your changes: `git commit -am 'Add some feature'`.
+4. Push to the branch: `git push origin new-feature`.
+5. Submit a pull request.
 
-Please adhere to the project's coding standards and provide clear and detailed pull request descriptions.
+## Contact
+For queries or feedback, please contact [Your Email].
+
+## Acknowledgments
+Special thanks to all contributors and users of this application.
+
+## License
+This project is licensed under [License Name].
