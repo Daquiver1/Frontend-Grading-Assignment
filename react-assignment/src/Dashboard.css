@@ -1,0 +1,32 @@
+.dashboard-container {
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+.table-container {
+  margin-top: 20px;
+}
+
+h1 {
+  color: #007bff;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bolder;
+}
+
+
+.table {
+  width: 60%;
+  margin: auto;
+}
+
+.imgg{
+  width: 50%;
+  height: 35%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-left: 300px;
+  margin-top: 20px;
+}
+
+
+
+
