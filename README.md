@@ -1,8 +1,19 @@
 # Student Grade Reporting System Frontend
-
+# 11024515
 ## Project Overview
 
 This project is a front-end web application for a Student Grade Reporting System. It simulates a real-world application where students can view, report, and manage their academic grades. This system addresses the issue of missing or unrecorded grades in a student's profile.
+
+
+![Alt text](images/image.png)
+![Alt text](images/image-1.png)
+![Alt text](images/image-2.png)
+![Alt text](images/image-3.png)
+![Alt text](images/image-4.png)
+![Alt text](images/image-5.png)
+![Alt text](images/image-6.png)
+![Alt text](images/image-7.png)
+![Alt text](images/image-8.png)
 
 ## Application Structure
 
@@ -38,6 +49,8 @@ This will start the application on `localhost` at the default port.
 ## Usage
 
 Describe how to use the application, highlighting key functionalities such as logging in, viewing grades, reporting missing grades, and contacting instructors.
+
+To use the apllication you can sign in by clicking the sign button from the homepage which will lead you to a login page where you can login, which will lead you to the dashboard page where you can view your current grades and any notifications for missing grades. You will aslo be able to access the grade reports page which gives a detailed report of your grades after you have logged in. You can also report missing grades and contact instructors from the sidebar on the dashboard page.
 
 ## Contribution
 
