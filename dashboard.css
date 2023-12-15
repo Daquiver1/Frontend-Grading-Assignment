@@ -1,0 +1,23 @@
+.dashboard{
+    text-align: center;
+    background-color: gold;
+    height: 100vh;
+}
+
+.overview{
+    margin-top: 10px;
+}
+
+.overview > p{
+    font-size: 20px;
+
+}
+
+.missingGrades > p{
+    font-size: 20px ;
+}
+
+.missingGrades > h1 {
+    color: red;
+    margin-top: 25px;
+}
