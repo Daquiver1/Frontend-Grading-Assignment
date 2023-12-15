@@ -1,0 +1,18 @@
+.navbar{
+    height: 80px;
+    border-bottom: 0.5 solid #fff;
+    align-items: center;
+    font-size: 14px;
+    color: #3e3e3e;
+
+}
+
+.wrapper {
+    width: 50%;
+    height: auto;
+    display: flex;
+  }
+
+.items{
+    display: flex;
+}
