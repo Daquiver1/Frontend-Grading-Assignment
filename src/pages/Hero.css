@@ -1,0 +1,46 @@
+.hero{
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url("u6.jpeg");
+    min-height: 80vh;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    
+  }
+
+.hero-content{
+  width: 90%;
+  color: rgb(255, 255, 255);
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+}
+
+.hero-content h1{
+  font-size: 48px;
+}
+
+.hero-content p{
+  margin: 10px 0 10px;
+    font-size: 17px;
+    color: antiquewhite;
+}
+
+.hero-btn{
+  display: inline-block;
+    text-decoration: none;
+    color: white;
+    background: transparent;
+    font-size: 13px;
+    position: relative;
+    padding: 12px 34px;
+    border: 1px solid #fff;
+    cursor: pointer;
+}
+
+.hero-btn:hover{
+  border: 1px solid  rgb(32, 71, 178);
+  background-color:  rgb(5, 54, 188);
+  transition: 0.5s;
+}

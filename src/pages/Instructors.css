@@ -1,0 +1,19 @@
+.tablerow{
+  width: 75%;
+  margin: 1%;
+  position: relative;
+  font-size: small;
+  padding-bottom: 50px;
+}
+
+.tablerow-1 , .tablerow{
+  padding: 12px 3px;
+  
+}
+
+th,td{
+padding: 10px;
+width: 10%;
+text-align: left;
+border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
