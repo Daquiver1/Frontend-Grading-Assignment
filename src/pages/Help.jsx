@@ -3,54 +3,54 @@ import { Disclosure } from "@headlessui/react";
 
 const faqs = [
   {
-    question: "What's the best thing about Switzerland?",
+    question: " What should I do if I haven't received my grade report?",
     answer:
-      "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+      "If you haven't received your grade report within the expected timeframe, first check your email or student portal for any notifications regarding delays. If there's no update, contact your instructor or the academic department responsible for grades to inquire about the status.",
   },
   {
-    question: "What's the best thing about Switzerland?",
+    question: "How long does it usually take to receive grade reports?",
     answer:
-      "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+      "Grade report delivery times can vary. Generally, they are available shortly after the grading period ends. However, factors such as the institution's grading process or technical issues might cause delays.",
   },
   {
-    question: "What's the best thing about Switzerland?",
+    question: "Can I access my grade report online?",
     answer:
-      "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+      "Yes, the University of Ghana provides access to grade reports through online portals. Check your student account on the institution's website or the designated student platform for your grades.",
   },
   {
-    question: "What's the best thing about Switzerland?",
+    question: " Whom should I contact if my grade report is missing?",
     answer:
-      "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+      "If your grade report hasn’t been received or is delayed, contact your course instructor or the academic office. They can assist in providing information or tracking down the issue.",
   },
   {
-    question: "What's the best thing about Switzerland?",
+    question: "Is there a specific timeframe for grade report issuance?",
     answer:
-      "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+      "While there's usually an expected timeframe for grade reporting, it's essential to understand that variations may occur due to administrative processes or unexpected circumstances. Check the academic calendar or inquire with the academic department for specific timelines.",
   },
   {
-    question: "What's the best thing about Switzerland?",
+    question: "What if there's an error on my grade report?",
     answer:
-      "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+      " If you notice an error on your grade report, promptly notify your instructor or academic advisor. They can guide you on the process for rectifying any inaccuracies.",
   },
   {
-    question: "What's the best thing about Switzerland?",
+    question: "Can grades be reissued if lost or not received?",
     answer:
-      "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+      " In cases of lost or undelivered grade reports, institutions often have procedures for reissuing them upon request. Contact the registrar's office or the academic administration to request a reissue..",
   },
   {
-    question: "What's the best thing about Switzerland?",
+    question: " Is there a deadline to report missing grade reports?",
     answer:
-      "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+      "The university generally sets deadlines for reporting missing grade reports. To ensure timely resolution, it's advisable to report missing grades promptly to the relevant department.",
   },
   {
-    question: "What's the best thing about Switzerland?",
+    question: "What happens if I need my grades urgently for academic purposes?",
     answer:
-      "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+      "If you require your grades urgently for academic purposes, communicate the urgency to the academic office or registrar. They might be able to expedite the process or provide temporary documentation.",
   },
   {
-    question: "What's the best thing about Switzerland?",
+    question: "Are there any common reasons for delayed grade reports?",
     answer:
-      "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+      "Several factors can contribute to delayed grade reports, such as grading complexity, technical issues with the grading system, or unforeseen administrative delays. These reasons can impact the timely release of grades.",
   },
   // More questions...
 ];
