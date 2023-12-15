@@ -1,0 +1,33 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 5px;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 0;
+  /*  height: 75px;*/
+}
+
+.box {
+    flex-grow: 1;
+}
+
+.footer ul {
+    list-style: none;
+    display: flex;
+}
+
+.footer li {
+    margin-right: 20px;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+.copyright {
+    font-size: 16px;
+    align-items: end;
+    
+}

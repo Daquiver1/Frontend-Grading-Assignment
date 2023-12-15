@@ -1,0 +1,59 @@
+.header {
+  margin: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 5px;
+    font-size: 25px;
+    width: 100%;
+  }
+
+  .logo {
+    display: flex;
+  }
+
+  .Login-Form {
+    display: flex;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  .navbar li {
+    margin-right: 10px;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .input {
+    height: 33px;
+    border-radius: 5px;
+  }
+
+  .login {
+    height: 30px;
+    border-radius: 5px;
+    background-color: #B6975D;
+    border-color: white;
+    border-width: 2px;
+    border-style: solid;
+    cursor: pointer;
+  }
+
+  .login:hover {
+    opacity: 0.75;
+  }
+
+  
+
+  
