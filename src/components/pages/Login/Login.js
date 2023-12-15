@@ -10,10 +10,8 @@ const Login = () => {
     const username = event.target.elements.username.value;
     const password = event.target.elements.password.value;
 
-    // Add your authentication logic here
     console.log("Form submitted with:", { username, password });
-
-    // Optionally, you can clear the form fields after submission
+    
     event.target.reset();
   };
 

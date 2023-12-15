@@ -1,0 +1,104 @@
+.dashboard {
+    background: #ccc;
+    height: 100vh;
+    width: 100%;
+}
+
+.dashboard-container {
+    display: grid;
+    grid-template-columns: 15rem 1fr
+}
+
+
+.dashboard-container .side-bar {
+    background: var(--black);
+    display: flex;
+    justify-content: center;
+    position: relative;
+    height: 100vh;
+    padding: 0 2rem;
+    position: sticky;
+    
+
+}
+
+.dashboard-container .side-bar .h1 {
+    font-family: 'Manrope', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--blue); 
+    padding: 1rem 0;
+    border-bottom: solid 1px var(--main-color);
+    border-radius: 0;
+}
+
+/* Reset some default styles */
+.dashboard-container .side-bar ul,
+.dashboard-container .side-bar li,
+.dashboard-container .side-bar a,
+.dashboard-container .side-bar h1 {
+    font-family: var(--font-family);
+    margin: 0;
+    padding: .5rem .3rem;
+    list-style: none;
+    text-decoration: none;
+    color: inherit;
+    border-radius: 5px;
+    font-weight: bolder;
+  }
+  
+  /* Style the list */
+  .dashboard-container .side-bar ul {
+    justify-content: space-around;
+    padding: 10px;
+  }
+  
+  /* Style each list item */
+  .dashboard-container .side-bar li {
+    flex: 1;
+    text-align: center;
+  }
+  
+  /* Style the links */
+  .dashboard-container .side-bar a {
+    display: block;
+    padding: 10px;
+    color: #bd9c6c;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  /* Add some hover effect to the links */
+  .dashboard-container .side-bar a:hover {
+    background-color: #222;
+  }
+  
+  /* Style the h1 elements inside the links */
+  .dashboard-container .side-bar h1 {
+    font-size:1rem;
+
+    margin: 0;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.dashboard-container .dashboard-content {
+    position: relative;
+    height: 100px;
+    background: var(--black-light);
+    height: 100vh;
+
+}
