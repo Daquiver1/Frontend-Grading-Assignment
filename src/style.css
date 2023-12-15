@@ -459,8 +459,12 @@ margin-right: 10px;
 font-size: 20px;
 }
 
-.quick-links{
-text-align: center;
+.social{margin-left:200px ;
+    margin: auto;
+    margin-bottom:400px;
+}
+
+.address{ margin: auto;
 }
 
 .info-text1{
