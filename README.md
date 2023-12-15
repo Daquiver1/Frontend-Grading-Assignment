@@ -1,51 +1,35 @@
-# Student Grade Reporting System Frontend
+# My Project
 
-## Project Overview
+This is a brief description of my project.
 
-This project is a front-end web application for a Student Grade Reporting System. It simulates a real-world application where students can view, report, and manage their academic grades. This system addresses the issue of missing or unrecorded grades in a student's profile.
+## Missing Grade Reporting System
+This project is a 7-page website that serves as the front end for a "Missing Grade Reporting System." <br>The purpose is to provide students with an interactive and user-friendly interface to view their grades, report missing grades, and communicate with instructors or academic administration.
 
-## Application Structure
+## Features
+Responsive design for seamless navigation across devices.
+Secure login system with a simulation of authentication (no real backend, just a mock-up).<br>
+Dashboard displaying an overview of the student's current grades and alerts for missing grades.<br>
+Grade Report page for a detailed view of all courses and grades, with the option to filter by semester/academic year.<br>
+Missing Grade Form page to report missing grades, including fields for course name, instructor name, expected grade, and an explanation.<br>
+Instructor Contact page listing instructors with contact details and the ability to send simulated emails to instructors.<br>
+Help and Support page featuring a FAQ section for grade reporting and a contact form for technical support (mock-up).
 
-The application consists of 7 main pages:
+## Technologies Used
+-React<br>
+-Tailwind CSS<br>
+-Javascript
 
-- **Homepage:** Introduction to the system and its purpose.
-- **Login Page:** Mock login interface for student authentication.
-- **Dashboard:** Displays an overview of the student’s current grades and alerts for missing grades.
-- **Grade Report:** Shows a detailed view of the student's grades filtered by semester or academic year.
-- **Missing Grade Form:** Enables students to report missing grades.
-- **Instructor Contact Page:** Lists instructors' contact information with a simulated email feature.
-- **Help and Support:** Provides FAQs and a mock support contact form.
+## Project Insights
 
-## Technical Details
+### Challenges
+Overcame challenges related to react, html and javascript integration.<br>
+Successfully resolved issues with data synchronization.
+### Learnings
+Gained a deeper understanding of state management in React.<br>
+Explored new testing techniques and tools.<br>
+Gained a deeper understanding of Javascript.<br>
+Gained a meaningful connection with Tailwind CSS.<br>
 
-- **Framework/Technology Used:** [React]
-- **Responsive Design:** Implemented using [CSS Flexbox/Grid, Bootstrap, Tailwind CSS].
-- **JavaScript Functionality:** Used for form validations, dynamic content rendering, and simulating interactions.
-
-## Setup and Installation
-
-To set up the project locally, follow these steps:
-
-```bash
-git clone https://github.com/your-github-username/DCIT_205_ASSIGNGMENT1.git
-cd repo-name
-npm install
-npm start
-```
-
-This will start the application on `localhost` at the default port.
-
-## Usage
-
-Describe how to use the application, highlighting key functionalities such as logging in, viewing grades, reporting missing grades, and contacting instructors.
-
-## Contribution
-
-To contribute to this project, please follow these guidelines:
-
-1. Fork the repository.
-2. Create a new branch for your feature.
-3. Commit your changes and push them to your branch.
-4. Submit a pull request for review.
-
-Please adhere to the project's coding standards and provide clear and detailed pull request descriptions.
+## My Details
+Student ID: 11307343<br>
+Name: Addo Naa Shidaa Adjorkor
