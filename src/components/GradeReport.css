@@ -1,0 +1,64 @@
+.grade-report-page {
+    font-family: 'Arial', sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+  }
+  
+  h2 {
+    color: #009688; /* Dark green color */
+    text-align: center;
+  }
+  
+  .filter-options {
+    display: flex;
+    justify-content: space-between; /* Add space between filters */
+    margin-bottom: 20px; /* Add margin for better spacing */
+  }
+  
+  label {
+    font-weight: bold;
+    color: #009688; /* Dark green color */
+  }
+  
+  select {
+    padding: 8px;
+    font-size: 16px;
+    margin-left: 10px; /* Add margin for better spacing */
+    border: 1px solid #009688; /* Dark green color */
+    border-radius: 5px;
+    background-color: #fff;
+    color: #333;
+  }
+  
+  .course-list {
+    display: grid;
+    grid-gap: 10px;
+  }
+  
+  .course-item {
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 8px;
+  }
+  
+  .print-button {
+    background-color: #009688; /* Dark green color */
+    color: #fff;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px; /* Add margin for better spacing */
+  }
+  
+  .print-button:hover {
+    background-color: #45a049;
+  }
+  
+  

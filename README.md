@@ -1,51 +1,86 @@
-# Student Grade Reporting System Frontend
+# DCIT 205 Assignment 1 - Missing Grade Reporting System
 
-## Project Overview
+## Overview
 
-This project is a front-end web application for a Student Grade Reporting System. It simulates a real-world application where students can view, report, and manage their academic grades. This system addresses the issue of missing or unrecorded grades in a student's profile.
+This project is a front-end implementation of a "Missing Grade Reporting System" for students. The goal is to provide an interactive and user-friendly interface allowing students to view their grades, report missing grades, and communicate with instructors or academic administration.
 
-## Application Structure
+## Features
 
-The application consists of 7 main pages:
+- **Responsive Design:** The website is designed to be responsive across different devices.
+  
+- **Landing Page:**
+  - Provides an overview of the system.
+  - Navigation links to other pages.
 
-- **Homepage:** Introduction to the system and its purpose.
-- **Login Page:** Mock login interface for student authentication.
-- **Dashboard:** Displays an overview of the student’s current grades and alerts for missing grades.
-- **Grade Report:** Shows a detailed view of the student's grades filtered by semester or academic year.
-- **Missing Grade Form:** Enables students to report missing grades.
-- **Instructor Contact Page:** Lists instructors' contact information with a simulated email feature.
-- **Help and Support:** Provides FAQs and a mock support contact form.
+- **Login Page:**
+  - Secure login form for students (Student ID and PIN).
+  - Authentication simulation (mock-up).
 
-## Technical Details
+- **Dashboard Page:**
+  - Displays the student's current grades.
+  - Alerts for any missing grades.
 
-- **Framework/Technology Used:** [React]
-- **Responsive Design:** Implemented using [CSS Flexbox/Grid, Bootstrap, Tailwind CSS].
-- **JavaScript Functionality:** Used for form validations, dynamic content rendering, and simulating interactions.
+- **Grade Report Page:**
+  - Detailed view of all courses and respective grades.
+  - Option to filter by semester/academic year.
 
-## Setup and Installation
+- **Missing Grade Form Page:**
+  - Form to report a missing grade.
+  - Fields: Course name, Instructor name, Expected grade, Explanation field.
+  - Submit button to report (confirmation message only).
 
-To set up the project locally, follow these steps:
+- **Instructor Contact Page:**
+  - List of instructors with contact details.
+  - Option to send a simulated email to the instructor (mock-up).
 
-```bash
-git clone https://github.com/your-github-username/DCIT_205_ASSIGNGMENT1.git
-cd repo-name
-npm install
-npm start
-```
+- **Help and Support Page:**
+  - FAQ section regarding grade reporting.
+  - Contact form for technical support (mock-up).
 
-This will start the application on `localhost` at the default port.
+- **Navigation:**
+  - Navbar/sidebar for easy navigation.
+  - Footer for additional information.
 
-## Usage
+## Technologies Used
 
-Describe how to use the application, highlighting key functionalities such as logging in, viewing grades, reporting missing grades, and contacting instructors.
+- React
+- CSS/Bootstrap/Tailwind
+- Vite (Optional)
+
+## Project Duration
+
+- Start Date: Thursday 30th November 2023
+- End Date: Friday 15th December 2023 11:55 PM
+
+## How to Run
+
+1. Clone the repository.
+2. Navigate to the project directory.
+3. Run `npm install` to install dependencies.
+4. Run `npm start` to start the development server.
+
+## Login Page
+
+The login page requires a valid Student ID and PIN for authentication. While the backend is simulated for this assignment, it demonstrates the user authentication process.
 
 ## Contribution
 
-To contribute to this project, please follow these guidelines:
-
 1. Fork the repository.
-2. Create a new branch for your feature.
-3. Commit your changes and push them to your branch.
-4. Submit a pull request for review.
+2. Create a new branch for your changes.
+3. Commit your changes regularly.
+4. Raise a Pull Request (PR) to the main branch of the original repository.
 
-Please adhere to the project's coding standards and provide clear and detailed pull request descriptions.
+## Project Structure
+
+- `src`: Contains the source code.
+- `public`: Public assets and index.html.
+- `tests`: Test files.
+
+## Author
+
+- **Author:** Harriet Esinam Kale
+- **GitHub:** harrietkale
+
+---
+
+*Happy Hacking!*
