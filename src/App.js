@@ -8,6 +8,7 @@ import MissingGradeForm from './pages/MissingGradePage';
 
 
 
+
 function App() {
    return (
       <>
@@ -21,6 +22,7 @@ function App() {
             
          </Routes>
       </>
+      
 
    )
 }

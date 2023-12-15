@@ -26,3 +26,33 @@
 		@apply text-sky-500 hover:underline;
 	}
 }
+
+:root {
+  --primary-blue: #00d8ff;
+  --primary-purple: #6a00ff;
+}
+
+.blue {
+  color: var(--primary-blue)
+}
+
+.outline {
+  background-color: transparent!important;
+}
+
+@layer base {
+  * {
+    @apply font-[Kanit]
+  }
+  h1 {
+    @apply text-4xl font-bold
+  }
+
+  li {
+    @apply p-4
+  }
+
+  button {
+    @apply bg-gradient-to-r from-[var(--primary-purple)] to-[var(--primary-blue)] py-3 px-7 rounded-3xl
+  }
+}
