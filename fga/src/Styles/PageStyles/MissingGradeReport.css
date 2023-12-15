@@ -1,0 +1,40 @@
+.form {
+    max-width: fit-content;
+    margin: 0 auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 8px;
+}
+
+input,
+textarea {
+    margin-bottom: 16px;
+    padding: 8px;
+}
+
+input[type="submit"] {
+    background-color: #1976D2;
+    color: #FFFFFF;
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+}
+
+input[type="submit"]:hover {
+    background-color: #085ab8;
+}
+
+.confirmation-message {
+    margin-top: 16px;
+    padding: 12px;
+    background-color: #4CAF50;
+    color: #FFFFFF;
+    border-radius: 4px;
+}

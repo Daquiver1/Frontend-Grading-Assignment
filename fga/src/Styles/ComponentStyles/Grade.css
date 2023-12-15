@@ -1,0 +1,38 @@
+.grade-table {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: right;
+    width: 60%;
+    margin-left: 330px;
+}
+
+th,td {
+    width: 500px;
+    height: 80px;
+
+}
+
+.Content {
+    margin-left: 500px;
+    padding-top: 200px;
+}
+
+
+@media screen and (max-width:992px) {
+    .grade-table{
+        margin: auto;
+        float: none;
+        width: 90%;
+        margin-top:50px
+    }
+
+    .Content{
+        margin-left:70px ;
+        padding-top: 60px;
+    }
+
+    .footer {
+        top:950px
+    }
+}

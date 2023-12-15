@@ -1,0 +1,24 @@
+  .footer  {
+    position: absolute;
+    top: 1050px;
+    left: 0px;
+    background-color: #439df8c7;
+    width: 100%;
+    height: 400px;
+  }
+
+  .footer li {
+    margin-left: auto;
+    display: inline-block;
+    flex-direction: row;
+    width: 33%;    
+  }
+
+
+ @media only screen and (max-width:992px) {
+    .footer li {
+      margin: auto;
+      display: block;
+      width: 90%;
+    }
+ }

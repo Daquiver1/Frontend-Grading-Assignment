@@ -1,0 +1,86 @@
+.grade-section {
+    float: right;
+    width: 65%;
+    margin-top: 60px;
+    right: 0px;  
+}
+
+.grade-card {
+    background-color: #FFFFFF; /* White background */
+    border-radius: 8px;
+    box-shadow: 5px 5px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    
+
+}
+
+.notifications {
+    background-color: #edecec;
+    border-radius: 8px;
+    width: 60%;
+    text-align: center;
+    color: #070505;
+}
+
+.notifications h4{
+    color: #f93d20;
+    font-weight: 800;
+}
+
+.grade-section h2 {
+    font-size: xx-large;
+}
+
+.grade-section .right {
+    float: right;
+}
+
+.grade-section .left {
+    float: left;
+}
+
+.grade-card h3 {
+    color: #333333; /* Dark Gray text color */
+}
+
+.grade-card p {
+    color: #4CAF50; /* Green for grade color */
+    font-weight: bold;
+    margin-top: 10px;
+}
+ 
+
+
+
+@media screen and (max-width: 992px) {
+    .grade-section{
+        margin: auto;
+        width: 90%;
+    }
+
+    .grade-card {
+        width: 270px;
+        margin: auto;
+    }
+
+    .grade-section .left{
+        float: none;
+    }
+
+    .grade-section .right{
+        float: none;
+    }
+    .notifications {
+        width: 80%;
+        margin: 20px;
+        padding: 10px;
+    }
+
+    .footer{
+        top: 2000px;
+    }
+
+    
+}

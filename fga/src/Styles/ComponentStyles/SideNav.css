@@ -1,0 +1,49 @@
+.side-nav{
+    position: absolute;
+    top: 160px;
+    left: 0px;
+    background-color: #479aec;
+    width: max-content;
+    float: left;
+    border-left: solid;
+    border-color: rgb(0, 112, 203);
+    border-width: 20px;  
+    height: 600px;
+    z-index: 0;
+
+  }
+  
+  .navlinks {
+    margin-right: 10px;
+    color: floralwhite;
+
+  }
+
+
+
+  .navlistul{
+    list-style: none;
+    font-size: larger;
+  }
+
+  .navlistul li{
+    height: 35px;
+  }
+
+  .navlistul a {
+    text-decoration: none;
+  }
+
+  @media only screen and (max-width:1024px)  {
+   .side-nav{
+    width: 300px;
+   }       
+  }
+
+  @media only screen and (max-width:992px) {
+    .side-nav{  
+      display: none;
+    }  
+  }
+
+ 
