@@ -42,37 +42,37 @@ Upon entering the application, you'll be greeted by the homepage. Here, you'll f
 
 Screenshot:
 
-![Screenshot of Homepage](screenshots/home.jpg)
+![Screenshot of Homepage](/grade-report-sys/screenshots/home.jpg)
 
 2. Login Page:
 To access personalized information, you must log in using your student credentials. Navigate to the Login Page and enter your username and password. The system ensures secure authentication to safeguard your academic data.
 
-![Screenshot of login page](screenshots/login.jpg)
+![Screenshot of login page](/grade-report-sys/screenshots/login.jpg)
 
 3. Dashboard:
 After a successful login, you'll land on the Dashboard. This page provides a quick snapshot of your current grades, highlighting any missing grades that require attention. Utilize the intuitive interface to navigate through semesters and academic years.
 
-![Screenshot of dashboard page](screenshots/dashboard.jpg)
+![Screenshot of dashboard page](/grade-report-sys/screenshots/dashboard.jpg)
 
 4. Grade Report:
 For a more detailed analysis of your academic performance, head to the Grade Report page. Here, you can view a comprehensive breakdown of your grades, filterable by semester or academic year. The visual representation aids in quickly identifying areas that may need improvement.
 
-![Screenshot of grade-report page](screenshots/grade-report.jpg)
+![Screenshot of grade-report page](/grade-report-sys/screenshots/grade-report.jpg)
 
 5. Missing Grade Form:
 If you come across any missing grades in your report, use the Missing Grade Form to promptly report the discrepancy. Fill out the required information, and the system will notify the relevant instructors. This feature streamlines the process of ensuring all your grades are accurately recorded.
 
-![Screenshot of complaint page](screenshots/complain.jpg)
+![Screenshot of complaint page](/grade-report-sys/screenshots/complain.jpg)
 
 6. Instructor Contact Page:
 Communication is key in academic success. On the Instructor Contact Page, you'll find a list of your instructors along with their contact information. To facilitate easy communication, the page also includes a simulated email feature. Reach out to your instructors directly with any queries or concerns.
 
-![Screenshot of contact page](screenshots/contact.jpg)
+![Screenshot of contact page](/grade-report-sys/screenshots/contact.jpg)
 
 7. Help and Support:
 For additional assistance, visit the Help and Support page. Here, you'll find frequently asked questions (FAQs) addressing common queries. If your issue persists, use the mock support contact form to submit a request. Our team is dedicated to ensuring a seamless experience for all users.
 
-![Screenshot of help and support](screenshots/helpnsupport.jpg)
+![Screenshot of help and support](/grade-report-sys/screenshots/helpnsupport.jpg)
 
 Additional Tips:
 The application is designed with a responsive layout, ensuring a smooth experience across various devices.
