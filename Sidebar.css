@@ -1,0 +1,35 @@
+.sidebar {
+  width: 500px; /* Hardcoded width for testing */
+  height: 100vh;
+  background-color: #f0f0f0;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.sidebar ul li {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.sidebar img {
+  max-width: 24px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: #333;
+}
+
+.sidebar a:hover {
+  color: #007bff;
+}
