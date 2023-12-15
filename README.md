@@ -27,9 +27,9 @@ The application consists of 7 main pages:
 To set up the project locally, follow these steps:
 
 ```bash
-git clone https://github.com/your-github-username/DCIT_205_ASSIGNGMENT1.git
-cd repo-name
-npm install
+git clone https://github.com/UserStine/Frontend-Grading-Assignment.git
+cd missing-grade
+npm install 
 npm start
 ```
 
@@ -37,7 +37,11 @@ This will start the application on `localhost` at the default port.
 
 ## Usage
 
-Describe how to use the application, highlighting key functionalities such as logging in, viewing grades, reporting missing grades, and contacting instructors.
+- Log in: Enter your unique ID and password to gain access to your personalized account.
+- View Grades: After logging in, you can view your current grades for all subjects. The application presents your grade for each subject in an easy-to-read table.
+- Report Missing Grades:
+- You can easily report any missing grades to make sure that your grades are accurately reflected and that you don't miss any important updates.
+- Contact Instructors: You can communicate with instructors directly through the application. Simply go to the 'Instructors' section, select the appropriate instructor from the list, and send a personalized message containing any questions or concerns you may have to their respective emails.
 
 ## Contribution
 
