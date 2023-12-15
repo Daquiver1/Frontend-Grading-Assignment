@@ -1,39 +1,30 @@
 import React from 'react'
 import './Footer.css'
+import { Link } from 'react-router-dom'
 
 
 export default function Footer(){
     return(
         <>
-        <div className='footer_container'>
-        <div className='footer_section'>
-           
-            <div className='first_section_item_1'>CompanyLogo</div>
-            <br />
-            <br />
+          <div>
+            <div className="footer_container">
+            <div className="footer_item">
+                   <h3>Follow us</h3>
+                   <hr/>
+                   
+                   <br/>
+                <div>
+                    <img src="/instagram_logo.jpeg" class="follow_us_logo" id='footer_logo'/>
+                    <img src="/twitter_logo.png" class="follow_us_logo" id='footer_logo'/>
+                    <img src="/facebook)logo.jpeg" class="follow_us_logo" id='footer_logo'/>
+                </div>
+                 </div>
 
-            <div className='first_section_item_2'>Menu</div>
-            <br />
-            <br />
-
-            <div className='first_section_item_3'>Company @ 2015</div>
-            <br />
-            <br />
-
-            <div className='first_section_item_4'>Icons</div>
-        </div>
-        <div className='footer_section'>
-            <br />
-            <br />
-        
-
-            <label htmlFor="">Contact us</label>
-            <input type="email" placeholder='Email' className='email'/>
-            <br />
-            <br />
-
-            <input type="text" placeholder='Enter messeage' className='textbox'/>
-        </div>
+                <div className="footer_item">
+                <Link to='/login'><h4 className="footer_menu">Logout</h4></Link>
+                     </div>
+                
+            </div>
         </div>
     
         

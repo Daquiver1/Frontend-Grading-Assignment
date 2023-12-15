@@ -7,8 +7,11 @@ import { Link } from 'react-router-dom'
 export default function LoginPage(){
     return(
         <>
+        
         <div >
+
             <img src="/loginback.jpeg" alt=""  className='form_background'/>
+            <Link to='/'> <button className='back'>BACK</button></Link>
            <div className='form_container'>
                 <form action="/">
                     <div className='input-group'>

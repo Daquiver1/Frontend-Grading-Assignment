@@ -15,9 +15,17 @@
 }
 
 .logo{
-    width: 20%;
+    width: 40%;
     padding: 15px;
     
+}
+
+.logo_img:hover{
+    cursor: pointer;
+}
+
+.logo_img{
+    width: 100%;
 }
 
 .menu{

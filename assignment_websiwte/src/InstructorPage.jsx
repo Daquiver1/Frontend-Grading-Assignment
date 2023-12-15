@@ -65,7 +65,7 @@ export default function IntructorPage(){
 
         <div className="instructor_container">
             <div className="instructor">
-                <img src="/prof_1.jpeg" alt="prof1" id="profs"/>
+                <img src="/lect10.jpg" alt="prof1" id="profs"/>
                 <div className="prof_info">
                     <h4 id="h4">Evelyn Cobbinah</h4>
                     <h6>Professor, Computer Science Department</h6>
@@ -78,7 +78,7 @@ export default function IntructorPage(){
                 </div>
             </div>
             <div className="instructor">
-                <img src="prof_5.jpg" alt="prof2" id="profs"/>
+                <img src="lect11.jpeg" alt="prof2" id="profs"/>
                 <div className="prof_info">
                     <h4 id="h4">Vasco Nomenyor</h4>
                     <h6>Professor, Mathematics Department</h6>
@@ -90,7 +90,7 @@ export default function IntructorPage(){
                 </div>
             </div>
             <div className="instructor">
-                <img src="prof_3.jpeg" alt="prof3" id="profs"  className="prof3"/>
+                <img src="lect11.webp" alt="prof3" id="profs"  className="prof3"/>
                 <div className="prof_info">
                     <h4 id="h4">Valentina Starks</h4>
                     <h6>Professor, Statistics Department</h6>

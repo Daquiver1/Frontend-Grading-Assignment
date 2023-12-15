@@ -100,6 +100,31 @@ export default function HelpSupport(){
         </div>
         </div>
 
+        <div className="contact_form">
+           <div className="csLogo_img"><img src="comScience_logo.png" alt="" className="log" /></div>
+           <div class="container_form">
+    <h2>Contact Technical Support</h2>
+    <form>
+      <label for="name" className="label">Full Name:</label>
+      <input type="text" id="name" required />
+        <br />
+        <br />
+      <label for="email" className="label">Email:</label>
+      <input type="email" id="email" required />
+            <br />
+      <label for="message" className="label">Message:</label>
+    
+      <textarea id="message" required></textarea>
+        <br />
+        <br />
+      <button type="submit" id="submit">Contact us</button>
+      
+    </form>
+
+        </div>
+        </div>
+        <img src="/help.jfif" alt="help" id="help"/>
+
         <Footer/>
         </>
     )
