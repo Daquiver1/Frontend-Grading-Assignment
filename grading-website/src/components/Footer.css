@@ -109,3 +109,20 @@ top:10px;
   color:rgb(202, 158, 77) !important;
   cursor:pointer;
 }
+.copyright-container{
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  left:1000px;
+  top:300px;
+  justify-content: center;
+  align-items: center;
+}
+.copyright-container p{
+  color:white;
+  font-size: 18px;
+}
+.copyright-container img{
+  width: 20px;
+  height: 20px;
+}
