@@ -20,6 +20,7 @@ p{
   padding-top: 2rem;
   font-size: 20px;
   font-weight: bolder;
+  padding: 2rem;
 }
  
 button{
@@ -32,7 +33,7 @@ button{
   border: none;
   cursor: pointer;
   font-weight: bolder;
- 
+  margin-left: 350px;
   
 }
  button:hover{

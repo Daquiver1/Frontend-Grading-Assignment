@@ -7,22 +7,29 @@ import DashboardPage from './DashboardPage';
 function App() {
   let component
   switch(window.location.pathname){
-    case "/":
+    case "/LandingPage":
       component = <LandingPage/>
       break
-    case "./DashboardPage":
+    case "/DashboardPage":
       component = <DashboardPage/>
       break
+    case "/LoginPage":
+      break
+    case "/Gradereport":
+      component = <GradereportPage/>
+       break   
       default:
   }
- console.log(window.location)
+ 
    return(
-  
-  <React.Fragment>
+
+  <>
     <Navbar />
     {component}
-  </React.Fragment>
+  </>
  )
 }
+
+
 
 export default App;
