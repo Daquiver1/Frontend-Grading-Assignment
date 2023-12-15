@@ -1,63 +1,75 @@
-import React from 'react';
-import { Container, Table, Carousel, Form } from 'react-bootstrap';
+import React, { useState } from 'react';
+import { Container, Table, Dropdown } from 'react-bootstrap';
 
-const AppGradeReport = () => {
+const AppGradereport = () => {
+  const [selectedFilter, setSelectedFilter] = useState('All');  
+
   const gradeData = [
-    { course: 'Mathematics', grade: 'A' },
-    { course: 'English', grade: 'B' },
-    { course: 'Science', grade: 'A-' },
-    // Add more courses and grades as needed
+    { course: 'DCIT203', grade: 'A', semester: '1st Semester', year: 2022 },
+    { course: 'CBAS201', grade: 'B', semester: '2nd Semester', year: 2022 },
+    { course: 'Math223', grade: 'A-', semester: '2nd Semester', year: 2021 },
+    { course: 'DCIT207', grade: 'C', semester: '1st Semester', year: 2021 },
+    { course: 'DCIT205', grade: 'B', semester: '1st Semester', year: 2022 },
+    { course: 'DCIT201', grade: 'C', semester: '2nd Semester', year: 2021 },
   ];
+
+  const filterOptions = ['All', '1st Semester', '2nd Semester'];
+
+  const filteredGradeData = selectedFilter === 'All'
+    ? gradeData
+    : gradeData.filter(data => {
+        if (selectedFilter.includes('Semester')) {
+          return data.semester === selectedFilter.split(' ')[0] && data.year.toString() === selectedFilter.split(' ')[1];
+        } else {
+          return `${data.semester} ${data.year}` === selectedFilter;
+        }
+      });
 
   return (
     <Container className="my-5">
       <h1 className="text-center mb-4">Grade Report</h1>
-      
-      {/* Carousel */}
-      <Carousel>
-        {/* Add Carousel Items here */}
-        <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src="https://via.placeholder.com/800x300"
-            alt="First slide"
-          />
-          <Carousel.Caption>
-            <h3>Slide 1</h3>
-            <p>Some content for the first slide.</p>
-          </Carousel.Caption>
-        </Carousel.Item>
-        {/* Add more Carousel Items as needed */}
-      </Carousel>
-      
-      {/* Grade Table */}
-      <Table striped bordered hover className="mt-4">
+
+      {/* Filter Dropdown */}
+      <Dropdown className="mb-3">
+        <Dropdown.Toggle variant="primary" id="dropdown-basic">
+          Filter by Semester/Academic Year
+        </Dropdown.Toggle>
+
+        <Dropdown.Menu>
+          {filterOptions.map(option => (
+            <Dropdown.Item
+              key={option}
+              active={selectedFilter === option}
+              onClick={() => setSelectedFilter(option)}
+            >
+              {option}
+            </Dropdown.Item>
+          ))}
+        </Dropdown.Menu>
+      </Dropdown>
+
+      <Table responsive striped bordered hover>
         <thead>
           <tr>
             <th>Course</th>
             <th>Grade</th>
+            <th>Semester</th>
+            <th>Year</th>
           </tr>
         </thead>
         <tbody>
-          {gradeData.map((data, index) => (
+          {filteredGradeData.map((data, index) => (
             <tr key={index}>
               <td>{data.course}</td>
               <td>{data.grade}</td>
+              <td>{data.semester}</td>
+              <td>{data.year}</td>
             </tr>
           ))}
         </tbody>
       </Table>
-      
-      {/* Form with Floating Labels */}
-      <Form className="mt-4">
-        <Form.Floating className="mb-3">
-          <Form.Control id="floatingInput" type="text" placeholder="name@example.com" />
-          <label htmlFor="floatingInput">Email address</label>
-        </Form.Floating>
-        {/* Add more form fields as needed */}
-      </Form>
     </Container>
   );
 };
 
-export default AppGradeReport;
+export default AppGradereport;

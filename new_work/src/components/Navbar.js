@@ -26,8 +26,8 @@ function AppNavbar() {
               <Nav.Link as={Link} to="Login">Login</Nav.Link>
               <Nav.Link as={Link} to="/dashboard">Dashboard</Nav.Link>
               <Nav.Link as={Link} to="/grade report">Grade Report</Nav.Link>
-              <Nav.Link as={Link} to="/missing grade form">Missing Grade Form</Nav.Link>
-              <Nav.Link as={Link} to="/instructor">Contact</Nav.Link>
+              <Nav.Link as={Link} to="/missinggrade">Missing Grade Form</Nav.Link>
+              <Nav.Link as={Link} to="/Contact">Contact</Nav.Link>
               <Nav.Link as={Link} to="/help and support">FAQs</Nav.Link>
             </Nav>
           </div>
