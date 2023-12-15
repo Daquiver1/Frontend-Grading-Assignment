@@ -1,0 +1,75 @@
+.b {
+  background-color: #f9f9f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.form {
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+.missing-grade {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+hr {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.stu-details {
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+.box,
+.box-name,
+.text-aarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.text-aarea {
+  height: 80px;
+}
+
+.Submit {
+  background-color: #819fbe ;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 100%;
+}
+
+.Submit:hover {
+  background-color:#cdcdcd;
+}
+
+.required {
+  color: rgb(117, 97, 97);
+  margin-left: 4px;
+}
+
+@media only screen and (max-width: 600px) {
+  .form {
+    max-width: 100%;
+  }
+}

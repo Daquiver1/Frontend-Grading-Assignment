@@ -1,0 +1,30 @@
+.card {
+  width: 70%;
+  margin: auto;
+}
+
+.card-text {
+  font-size: 16px;
+}
+
+.container {
+  padding: 20px;
+}
+
+.search-box {
+  position:relative;
+  display: flex;
+  margin-left: 950px;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  padding: 5px;
+  margin-right: 5px;
+}
+
+button {
+  padding: 5px 10px;
+  cursor: pointer;
+}
