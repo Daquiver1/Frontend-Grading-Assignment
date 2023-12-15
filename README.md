@@ -27,8 +27,8 @@ The application consists of 7 main pages:
 To set up the project locally, follow these steps:
 
 ```bash
-git clone https://github.com/your-github-username/DCIT_205_ASSIGNGMENT1.git
-cd repo-name
+git clone https://github.com/Araba02/11348914_DCIT205_Assignment1.git
+cd 11348914_DCIT205_Assignment1
 npm install
 npm start
 ```
@@ -37,7 +37,7 @@ This will start the application on `localhost` at the default port.
 
 ## Usage
 
-Describe how to use the application, highlighting key functionalities such as logging in, viewing grades, reporting missing grades, and contacting instructors.
+Open and read the landing page, which gives you an introduction to the app. Look for the login button or form and enter your username and password to log in. This will give you access to your personalized features and information. Go to the Grades section to see a list of your courses and their grades. Click on a specific course to view detailed information about your grades. If you notice any missing grades or discrepancies, go to the Reporting or Support section and look for an option to report missing grades and provide clear details in the reporting form. To contact your instructors, go to the Contacts Instructors section. You'll find their contact information. Choose your preferred method of communication and reach out to them for any questions or concerns.
 
 ## Contribution
 
@@ -48,4 +48,7 @@ To contribute to this project, please follow these guidelines:
 3. Commit your changes and push them to your branch.
 4. Submit a pull request for review.
 
-Please adhere to the project's coding standards and provide clear and detailed pull request descriptions.
+## Author
+
+Christabel Araba Edumadze  
+Student ID: 11348914
