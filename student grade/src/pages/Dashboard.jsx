@@ -1,7 +1,9 @@
 import React from "react";
-import Layout from "../layouts/index";
 import logo from '../assets/images/logo.png'
 import account from '../assets/images/account.png'
+import Footer from "../components/footer";
+import Grades from "./Grades1";
+import { NavLink } from "react-router-dom";
 
 const DashboardPage = () => {
     return(
@@ -15,14 +17,15 @@ const DashboardPage = () => {
                   <img class="h-8 w-8" src={logo} alt="Your Company"/>
                 </div>
                 <div class="hidden md:block">
-                  <div class="ml-10 flex items-baseline space-x-4">
+                <div class="ml-10 flex items-baseline space-x-4">
+                  <NavLink to="/dashboard" className="bg-gray-900 text-white rounded-md px-3 py-2 text-sm font-medium" activeClassName="text-white">Dashboard</NavLink>
+                  <NavLink to="/home" className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium" activeClassName="text-white">Home</NavLink>
+                  <NavLink to="/missing-grade" className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium" activeClassName="text-white">Missing Grade</NavLink>
+                  <NavLink to="/grade-report" className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium" activeClassName="text-white">Grade Report</NavLink>
+                  <NavLink to="/help" className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium" activeClassName="text-white">Help&Support</NavLink>
+                  <NavLink to="/instructor" className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium" activeClassName="text-white">Instructors</NavLink>
+                </div>
 
-                    <a href="#" class="bg-gray-900 text-white rounded-md px-3 py-2 text-sm font-medium" aria-current="page">Dashboard</a>
-                    <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Team</a>
-                    <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Projects</a>
-                    <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Calendar</a>
-                    <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Reports</a>
-                  </div>
                 </div>
               </div>
               <div class="hidden md:block">
@@ -44,11 +47,12 @@ const DashboardPage = () => {
                     </div>
       
                     
-                    <div class="absolute right-0 z-10 mt-2 w-48 origin-top-right rounded-md bg-white py-1 shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none" role="menu" aria-orientation="vertical" aria-labelledby="user-menu-button" tabindex="-1">
-                      <a href="#" class="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabindex="-1" id="user-menu-item-0">Your Profile</a>
-                      <a href="#" class="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabindex="-1" id="user-menu-item-1">Settings</a>
-                      <a href="#" class="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabindex="-1" id="user-menu-item-2">Sign out</a>
-                    </div>
+                <div class="absolute right-0 z-10 mt-2 w-48 origin-top-right rounded-md bg-white py-2 text-left shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none" role="menu" aria-orientation="vertical" aria-labelledby="user-menu-button" tabindex="-1">
+                  <NavLink to="/dashboard" class="block px-4 py-2 text-sm text-gray-700 text-center" role="menuitem" tabindex="-1" id="user-menu-item-0">Your Profile</NavLink><br/>
+                  <NavLink to="/missing-grade" class="block px-4 py-2 text-sm text-gray-700 text-center" role="menuitem" tabindex="-1" id="user-menu-item-1">Missing Grade</NavLink><br />
+                  <NavLink to="./home" class="block px-4 py-2 text-sm text-gray-700 text-center" role="menuitem" tabindex="-1" id="user-menu-item-2">Sign out</NavLink>
+                </div>
+
                   </div>
                 </div>
               </div>
@@ -69,10 +73,10 @@ const DashboardPage = () => {
           <div class="md:hidden" id="mobile-menu">
             <div class="space-y-1 px-2 pb-3 pt-2 sm:px-3">
               <a href="#" class="bg-gray-900 text-white block rounded-md px-3 py-2 text-base font-medium" aria-current="page">Dashboard</a>
-              <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Team</a>
-              <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Projects</a>
-              <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Calendar</a>
-              <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Reports</a>
+              <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Home</a>
+              <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Missing Grade</a>
+              <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Grade Report</a>
+              <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Help</a>
             </div>
             <div class="border-t border-gray-700 pb-3 pt-4">
               <div class="flex items-center px-5">
@@ -80,8 +84,8 @@ const DashboardPage = () => {
                   <img class="h-10 w-10 rounded-full" src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt=""/>
                 </div>
                 <div class="ml-3">
-                  <div class="text-base font-medium leading-none text-white">Tom Cook</div>
-                  <div class="text-sm font-medium leading-none text-gray-400">tom@example.com</div>
+                  <div class="text-base font-medium leading-none text-white">11299893</div>
+                  <div class="text-sm font-medium leading-none text-gray-400">122334@example.com</div>
                 </div>
                 <button type="button" class="relative ml-auto flex-shrink-0 rounded-full bg-gray-800 p-1 text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800">
                   <span class="absolute -inset-1.5"></span>
@@ -93,7 +97,7 @@ const DashboardPage = () => {
               </div>
               <div class="mt-3 space-y-1 px-2">
                 <a href="#" class="block rounded-md px-3 py-2 text-base font-medium text-gray-400 hover:bg-gray-700 hover:text-white">Your Profile</a>
-                <a href="#" class="block rounded-md px-3 py-2 text-base font-medium text-gray-400 hover:bg-gray-700 hover:text-white">Settings</a>
+                <a href="#" class="block rounded-md px-3 py-2 text-base font-medium text-gray-400 hover:bg-gray-700 hover:text-white">Missing Grade</a>
                 <a href="#" class="block rounded-md px-3 py-2 text-base font-medium text-gray-400 hover:bg-gray-700 hover:text-white">Sign out</a>
               </div>
             </div>
@@ -106,11 +110,61 @@ const DashboardPage = () => {
           </div>
         </header>
         <main>
-          <div class="mx-auto max-w-7xl py-6 sm:px-6 lg:px-8">
+        <section>
+          <div class="mx-auto max-w-7xl py-6 sm:px-6 lg:px-8 flex items-center space-x-4">
             
+            <div class="bg-white rounded-md p-6 shadow-md max-w-md">
+              <h4 class="text-2xl font-semibold text-gray-800">Grade Point Average:</h4>
+              <p class="text-4xl font-bold text-blue-500 mt-2">3.14</p>
+              <div class="flex items-center mt-4">
+                <svg class="w-6 h-6 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                </svg>
+                <p class="text-green-500 ml-2">5.2%</p>
+              </div>
+            </div>
+
+            <div class="bg-white rounded-md p-6 shadow-md max-w-md">
+              <h4 class="text-2xl font-semibold text-gray-800">Missing Grades</h4>
+              <p class="text-4xl font-bold text-blue-500 mt-2">1</p>
+              <div class="flex items-center mt-4">
+                <svg class="w-6 h-6 text-red-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 13l-4 4m0 0l-4-4m4 4V6"></path>
+                </svg>
+                <p class="text-red-500 ml-2">-2.5%</p>
+              </div>
+            </div>
+
+            <div class="bg-white rounded-md p-6 shadow-md max-w-md">
+              <h3 class="text-2xl font-semibold text-gray-800">Courses Passed</h3>
+              <p class="text-4xl font-bold text-blue-500 mt-2">8</p>
+              <div class="flex items-center mt-4">
+                <svg class="w-6 h-6 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                </svg>
+                <p class="text-green-500 ml-2">8.9%</p>
+              </div>
+            </div>
+
+            <div class="bg-white rounded-md p-6 shadow-md max-w-md" style={{ maxWidth: '24rem' }}>
+              <h3 class="text-2xl font-semibold text-gray-800">Attendance Rates:</h3>
+              <p class="text-4xl font-bold text-blue-500 mt-2">30</p>
+              <div class="flex items-center mt-4">
+                <svg class="w-6 h-6 text-red-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 13l-4 4m0 0l-4-4m4 4V6"></path>
+                </svg>
+                <p class="text-red-500 ml-2">-2.5%</p>
+              </div>
+            </div>
           </div>
+        </section>
+        
+          <section>
+            <Grades />
+          </section>
         </main>
       </div>
+      <Footer />
       </div>
       
     )
