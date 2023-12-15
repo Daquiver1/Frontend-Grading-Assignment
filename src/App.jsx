@@ -2,6 +2,7 @@
 // import LandingPage from './components/LandingPage'
 import Index from './components/Index';
 import LogIn from './components/LogIn';
+import HelpAndSupport from './components/HelpAndSupport';
 
 function App() {
 
@@ -9,8 +10,9 @@ function App() {
     <div>
       {/* <Navbar />
       <LandingPage /> */}
-      {/* <Index /> */}
-      <LogIn />
+      <Index />
+      {/* <LogIn /> */}
+      
     </div>
   )
 }
