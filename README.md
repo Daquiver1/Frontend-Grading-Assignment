@@ -20,9 +20,6 @@ The application consists of 7 main pages:
 - **Help and Support:** Provides FAQs and a mock support contact form.
 
 ## Technical Details
-React & Vite: Fast & efficient development.
-Responsive Design: Flexbox & Grid for any screen.
-TypeScript: Secure forms, dynamic content, and smooth interactions.
 - **Framework/Technology Used:** [React],[Vite]
 - **Responsive Design:** Implemented using [CSS Flexbox/Grid]
 - **TypeScript Functionality:** Used for secure forms, dynamic content, and smooth interactions.
@@ -79,6 +76,17 @@ Our application puts your grades at your fingertips, with a user-friendly design
 
 ## With this guide and our user-friendly design, managing your grades and academic life becomes effortless. Dive in and experience the difference!
 
+## Project Insights: A Developer's Journey
+# Challenges & Learnings:
+Routing & Dependencies: Navigating the intricate dance of routing and interdependent components was a major learning curve. Fixing routing issues sometimes triggered cascading styling changes, requiring meticulous debugging.
+
+Styling Tweaks & Tricky Interactions: Achieving pixel-perfect UI and smooth user interactions involved constant iteration and experimentation. Mastering CSS flexbox and grid layout was key to this success.
+
+TypeScript Magic: Leveraging TypeScript for secure forms, dynamic content, and smooth interactions proved invaluable. It added a layer of confidence and robustness to the application.
+
+Overall, this project was a rewarding exercise in front-end development. It pushed me to explore new technologies, refine my problem-solving skills, and appreciate the power of clean code. I'm excited to see this project evolve and continue to learn as I build more complex web applications.
+
+Feel free to explore the code and contribute to the project!
 
 ## Contribution
 
