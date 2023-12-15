@@ -1,14 +1,22 @@
-// App.js
+
 
 import React from 'react';
-import HomePage from './components/HomePage/HomePage'; // Adjust the path based on your project structure
+
 import { BrowserRouter } from 'react-router-dom';
-const App = () => {
+import Dashboard from './components/HomePage/Dashboard';
+import InstructorContact from './components/HomePage/InstructorContact';
+import MissingGrade from './components/HomePage/MissingGrade';
+import HelpAndSupport from './components/HomePage/HelpAndSupport';
+import GradeReport from './components/HomePage/GradeReport';
+import LoginPage from './components/HomePage/LoginPage'
+import HomePage from './components/HomePage/HomePage';
+function App() {
   return (
     <BrowserRouter>
-      <HomePage />
+
+      <Dashboard />
     </BrowserRouter>
   );
-};
-
+}
+<MissingGrade/>
 export default App;

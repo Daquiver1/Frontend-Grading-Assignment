@@ -1,0 +1,42 @@
+MissingGradeDashboard.css */
+
+.dashboard-container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #f0e1e1; 
+    padding: 20px;
+    border-radius: 8px;
+     flex-direction: column;
+     top: 50px;
+     padding-left: 250px;
+   
+    
+  }
+  .lb{
+    color: #0d0f0f;
+  }
+  
+  .semester-container {
+    text-align: center;
+   
+}
+
+.course-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+.course {
+  background-color: #166faa; 
+  color: #fff; /* Text color */
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+.gpa {
+  margin-top: 15px;
+  font-weight: bold;
+}

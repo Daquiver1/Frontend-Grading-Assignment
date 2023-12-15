@@ -23,7 +23,7 @@
   }
   
   .overlay {
-    background-color: rgba(0, 0, 0, 0.5); /* Dark overlay */
+    background-color: rgba(0, 0, 0, 0.5); 
     color: white;
     text-align: center;
     position: absolute;
@@ -34,18 +34,19 @@
   }
   
   .overlay a {
-    color: #ffd700; /* Link color */
+    color: #ffd700; 
   }
   
   .red {
-    background-color: #843527; /* Tomato red */
+    background-color: #843527; 
   }
   
   .green {
-    background-color: #10ef99; /* Medium spring green */
+    background-color: #10ef99; 
   }
   
   .blue {
-    background-color: #136d91; /* Sky blue */
+    background-color: #136d91; 
   }
+  
   

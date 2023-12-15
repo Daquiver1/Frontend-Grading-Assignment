@@ -2,7 +2,7 @@
 
 import React from 'react';
 import './HomePage.css';
-import backgroundImage from '../Images/landing.png'; // Adjust the path based on your project structure
+import backgroundImage from '../Images/landing.png'; 
 import Navbar from '../navigation';
 const HomePage = () => {
   return (
