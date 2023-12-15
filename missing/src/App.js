@@ -1,12 +1,13 @@
 import "./App.css";
-import LoginPage from "./components/LoginPage/LoginPage/LoginPage.jsx";
-import Dashboard from "./components/Dashboard/Dashboard.jsx";
-import GradeReport from "./components/GradeReport/GradeReport.jsx";
+import LoginPage from "./components/LoginPage/LoginPage/LoginPage.js";
+import Dashboard from "./components/Dashboard/Dashboard.js";
+import GradeReport from "./components/GradeReport/GradeReport.js";
+import MissingGradeForm from "./components/MissingGradeForm/MissingGradeForm.js";
 
 function App() {
   return (
     <div>
-      <GradeReport />
+      <MissingGradeForm />
     </div>
   );
 }
