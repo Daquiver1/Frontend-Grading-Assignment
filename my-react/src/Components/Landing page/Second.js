@@ -2,16 +2,16 @@ import image2 from '../images/screen.jpg';
 
 const Second = () => {
     return ( 
-        <div className="w-full flex ">
-            <div className="w-2/4 flex justify-center items-center ">
-                <div className="d">
-                    <img className='w-[16rem]' src={image2} alt="" />
+        <div className="w-full flex md:flex-row flex-col mt-12 md:mt-0 ">
+            <div className="md:w-2/4 flex md:flex-row flex-col  md:justify-center md:items-center ">
+                <div className="d flex justify-center md:justify-none">
+                    <img className='md:w-[16rem] w-4/5' src={image2} alt="" />
                 </div>
             </div>
 
-            <div className="w-2/4">
+            <div className="md:w-2/4">
 
-                <div className="text w-[70%] p-12 space-y-4 mt-8 ml-8">
+                <div className="text md:w-[70%] p-12 space-y-4 md:mt-8 md:ml-8">
                     <p> <span className="font-semibold">Effortless Tracking:</span> Easily input your course details and let our system do the rest.We'll keep a watchful eye on your grades, so you don't have to.</p>
 
                     <p>
