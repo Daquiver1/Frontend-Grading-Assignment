@@ -1,0 +1,119 @@
+.instructorHeader{
+    display: flex;
+    flex-direction: column;
+    padding: 4rem 4rem;
+    margin: auto;
+    max-width: 15000px;
+    position: relative;
+    
+    top: 100%;
+    left: 0%;
+    text-align: center;
+    color: #fff;
+    font-size: 2rem;
+    margin-top: 100px;
+}
+.nice{
+    margin-top: 50px;
+}
+.someinfo{
+    background-color: red;
+    margin-bottom:50px;
+}
+.instructorContactInfo{
+    border: 1px solid #fff;
+    border-radius: 5px;
+    padding: 1rem;
+    height: 350px;
+    width: 300px;
+    
+}
+.P-2{
+   color: #fff;
+   text-align: start;
+}
+.instructorContactInfo span{
+   max-width: 30px;
+    height: 4px;
+    color: blue;
+}
+.box{
+    margin-top: 10px;
+}
+.pics{
+    width: 100px;
+    border-radius: 100%;
+}
+.tip-box{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: rgb(15, 15, 48);
+    color: #fff;
+    gap: 40px;
+    font-family:serif;
+}
+
+@media screen and (max-width: 760px){
+    .tip-box{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        padding-top: 500px;
+    }
+    .instructorContact{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    }
+.tips h5{
+    font-size: 1.2rem;
+
+}
+.tips p{
+    margin-left: 24px;
+    margin-bottom: 10px;
+}
+.tips h4{
+    margin-top: 10px;
+}
+.forms{
+    color: #fff;
+
+
+}
+.forms input{
+    border: 1px solid #fff;
+    width: 600px;
+    height: 30px;
+    margin-left: 10px;
+
+}
+.forms label{
+    display: flex;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+.forms textarea{
+    width: 600px;
+    height: 150px;
+    margin-left: 10px;
+}
+
+.hero-image{
+    background-color: rgb(15, 15, 48);
+}
+
+
+
+
+.instructorHeader{
+    margin-bottom:50px;
+}
+
+.nice{
+    background: linear-gradient(to bottom, #232F3E 40%, #F0F0F0 100%);  
+      font-family:sans-serif;
+    padding-top:5px;
+    padding-bottom:5px;
+    margin-top: 100%;
+    
+}
