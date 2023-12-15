@@ -22,7 +22,7 @@ const LoginPage: React.FC = () => {
       <h2>Login</h2>
       <form onSubmit={handleLogin}>
         <div>
-          <label htmlFor="username">Username:</label>
+          <label htmlFor="username">Student ID</label>
           <input
             type="text"
             id="username"
@@ -32,7 +32,7 @@ const LoginPage: React.FC = () => {
           />
         </div>
         <div>
-          <label htmlFor="password">Password:</label>
+          <label htmlFor="password">Pin:</label>
           <input
             type="password"
             id="password"
