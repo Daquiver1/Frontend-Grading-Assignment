@@ -1,51 +1,58 @@
-# Student Grade Reporting System Frontend
+# Missing Grade Reporting System
 
-## Project Overview
+## Overview
 
-This project is a front-end web application for a Student Grade Reporting System. It simulates a real-world application where students can view, report, and manage their academic grades. This system addresses the issue of missing or unrecorded grades in a student's profile.
+The Missing Grade Reporting System is a web application designed to assist students in tracking and reporting missing grades not recorded in their academic profiles. This system provides an interactive and user-friendly interface for viewing grades, reporting missing grades, and communicating with instructors or academic administration.
 
-## Application Structure
+## Features
 
-The application consists of 7 main pages:
+- Responsive design for seamless usage on various devices.
+- User authentication with a secure login form.
+- Dashboard displaying an overview of the student's current grades and alerts for missing grades.
+- Grade Report page for a detailed view of all courses and grades, with the option to filter by semester/academic year.
+- Missing Grade Form page for reporting missing grades, including course name, instructor name, expected grade, and explanation.
+- Instructor Contact page listing instructors with contact details and the ability to send a simulated email.
+- Help and Support page featuring a FAQ section and a contact form for technical support.
 
-- **Homepage:** Introduction to the system and its purpose.
-- **Login Page:** Mock login interface for student authentication.
-- **Dashboard:** Displays an overview of the student’s current grades and alerts for missing grades.
-- **Grade Report:** Shows a detailed view of the student's grades filtered by semester or academic year.
-- **Missing Grade Form:** Enables students to report missing grades.
-- **Instructor Contact Page:** Lists instructors' contact information with a simulated email feature.
-- **Help and Support:** Provides FAQs and a mock support contact form.
+## Technologies Used
 
-## Technical Details
+- React for building the front-end components.
+- React Router for navigation between pages.
+- CSS for styling and responsiveness.
 
-- **Framework/Technology Used:** [React]
-- **Responsive Design:** Implemented using [CSS Flexbox/Grid, Bootstrap, Tailwind CSS].
-- **JavaScript Functionality:** Used for form validations, dynamic content rendering, and simulating interactions.
+## Project Structure
+/your-project-directory
+|-- src
+| |-- components
+| |-- LandingPage.js
+| |-- LoginPage.js
+| |-- DashboardPage.js
+| |-- GradeReportPage.js
+| |-- MissingGradeFormPage.js
+| |-- InstructorContactPage.js
+| |-- HelpSupportPage.js
+| |-- Navbar.js
+| |-- Footer.js
+|-- App.js
+|-- App.css
+|-- index.js
+|-- README.md
 
-## Setup and Installation
+## Setup Instructions
 
-To set up the project locally, follow these steps:
+1. Clone the repository to your local machine.
+2. Navigate to the project directory in the terminal.
+3. Run `npm install` to install the project dependencies.
+4. Run `npm start` to start the development server.
+5. Open the application in your web browser at `http://localhost:3000`.
 
-```bash
-git clone https://github.com/your-github-username/DCIT_205_ASSIGNGMENT1.git
-cd repo-name
-npm install
-npm start
-```
+## Styling
 
-This will start the application on `localhost` at the default port.
+The styling is implemented using a clean and modern design approach. The styles are organized in the `App.css` file, with specific styling for each page in the respective components.
 
-## Usage
+## Notes
 
-Describe how to use the application, highlighting key functionalities such as logging in, viewing grades, reporting missing grades, and contacting instructors.
+- This is a front-end only implementation, and no real backend or server is integrated.
+- For simulation purposes, some features like authentication and email sending are mocked.
 
-## Contribution
-
-To contribute to this project, please follow these guidelines:
-
-1. Fork the repository.
-2. Create a new branch for your feature.
-3. Commit your changes and push them to your branch.
-4. Submit a pull request for review.
-
-Please adhere to the project's coding standards and provide clear and detailed pull request descriptions.
+Feel free to customize, extend, and improve upon this implementation based on your project requirements.
