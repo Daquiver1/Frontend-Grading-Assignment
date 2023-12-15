@@ -8,6 +8,7 @@ import Dashboard from "./pages/Dashboard";
 import MissingGrade from "./pages/MissingGrade";
 import HelpSupport from "./pages/HelpSupport";
 
+
 const App = () => {
   return (
     <Router>
@@ -20,6 +21,7 @@ const App = () => {
           <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/missing-grade" element={<MissingGrade />} />
           <Route path="/help" element={<HelpSupport />} />
+          
         </Route>
       </Routes>
     </Router>

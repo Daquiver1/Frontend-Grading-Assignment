@@ -53,7 +53,7 @@ const Login = () => {
             </div>
 
             <div>
-            <NavLink to="/home" className="flex w-full justify-center rounded-md bg-ugBlue p-3 text-white">
+            <NavLink to="/home" type="submit" className="flex w-full justify-center rounded-md bg-ugBlue p-3 text-white">
                 Sign in 
                 </NavLink>
             </div>

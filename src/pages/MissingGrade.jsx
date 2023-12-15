@@ -66,7 +66,7 @@ const MissingGrade = () => {
               </div>
             </div>
 
-            <div>
+            <div onSubmit={handleSubmit}>
               <div className="flex items-center justify-between">
                 <label
                   htmlFor="password" 
@@ -76,7 +76,7 @@ const MissingGrade = () => {
                 </label>
                 
               </div>
-              <div className="mt-2" >
+              <div className="mt-2"  >
                 <textarea
                   maxLength={100}
                   rows={6}

@@ -5,7 +5,10 @@ import { ArrowUpCircleIcon } from "@heroicons/react/20/solid";
 
 const days = [
   {
-    date: "First Semester",
+    
+
+  
+    date: "First Semester - 2023-03-22",
     dateTime: "2023-03-22",
     transactions: [
       {
@@ -13,7 +16,7 @@ const days = [
         courseName: " Programming Fundamentals",
         courseCode: "DCIT 104 ",
         icon: ArrowUpCircleIcon,
-        grade: "D",
+        grade: "A",
       },
       {
         id: 3,
@@ -27,21 +30,21 @@ const days = [
         courseName: "Web Design Development",
         courseCode: "DCIT 205",
         icon: ArrowUpCircleIcon,
-        grade: "C",
+        grade: "A+",
       },
       {
         id: 5,
         courseName: " Academic Writing II",
         courseCode: "CBAS 210",
         icon: ArrowUpCircleIcon,
-        grade: "D+",
+        grade: "A+",
       },
       {
         id: 6,
         courseName: "Digital and logic system designs",
         courseCode: "DCIT 203",
         icon: ArrowUpCircleIcon,
-        grade: "B+",
+        grade: "A+",
       },
       {
         id: 7,
@@ -55,7 +58,7 @@ const days = [
         courseName: " Programming 1",
         courseCode: "DCIT 201",
         icon: ArrowUpCircleIcon,
-        grade: "C+",
+        grade: "A",
       },
       
     ],
@@ -66,13 +69,20 @@ const days = [
 
 
 
+
 export default function GradeReport() {
   return (
     <div>
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 mt-3">
-        <h2 className="mx-auto max-w-2xl text-xl font-bold leading-6 mt-4 text-gray-900 lg:mx-0 lg:max-w-none">
+        <h2  style={{display: 'inline-block'}} className="mx-auto max-w-2xl text-xl font-bold leading-6 mt-4 text-gray-900 lg:mx-0 lg:max-w-none">
           Student Academic Record
         </h2>
+        <button type="button" className="btn-btn" style={{paddingTop: 10, paddingLeft:'50px', paddingRight:'50px', display:'inline-block', marginLeft:'600px'}}>Print
+        <svg style={{display:"flex"}} xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-printer" viewBox="0 0 16 16">
+  <path d="M2.5 8a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1"/>
+  <path d="M5 1a2 2 0 0 0-2 2v2H2a2 2 0 0 0-2 2v3a2 2 0 0 0 2 2h1v1a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2v-1h1a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-1V3a2 2 0 0 0-2-2zM4 3a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v2H4zm1 5a2 2 0 0 0-2 2v1H2a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1h-1v-1a2 2 0 0 0-2-2zm7 2v3a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-3a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1"/>
+</svg>
+        </button>
       </div>
       <div className="mt-6 overflow-hidden border-t border-gray-100">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -140,5 +150,7 @@ export default function GradeReport() {
         </div>
       </div>
     </div>
+
+    
   );
 }
