@@ -2,7 +2,7 @@ import React from 'react'
 
 function Help() {
   return (
-    <div class="flex min-h-screen items-center justify-center bg-blue-200">
+    <div class="flex min-h-screen items-center justify-center bg-pink-200">
       <section class="px-40">
         <div class="mb-24 text-center">
           <h3 class="block antialiased font-sans font-semibold relative mb-5 mt-10 text-center text-2xl leading-tight tracking-normal text-black">
