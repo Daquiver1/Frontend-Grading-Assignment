@@ -1,19 +1,24 @@
-
-import Layout from './BasicStructure/Layout';
-import Landing from './LandingPage';
-
-
-
+/* eslint-disable no-unused-vars */
+import Layout from './BasicStructure/Layout'
+import Home from './Pages/HomePage'
+import FaqH from './Pages/FaqHelp'
+import LoginP from './Pages/LoginPage'
+import Contact from './Pages/Contact'
+import Landing from './Pages/LandingPage'
+import PreLog from './Pages/preLog'
 import './index.css';
-function App() {
-  
 
+
+function App() {
   return (
-    <Layout>
-  
-<Landing />
+    <> 
     
-    </Layout>
+  <Layout>
+    <Home/>
+  </Layout>
+  
+  </>
+    
   )
 }
 

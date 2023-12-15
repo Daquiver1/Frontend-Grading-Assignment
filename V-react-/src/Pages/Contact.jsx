@@ -1,5 +1,3 @@
-
-
 // eslint-disable-next-line no-unused-vars
 import { DocumentTextIcon, PhotographIcon } from '@heroicons/react/outline';
 
@@ -22,6 +20,7 @@ const Contact = () => {
   };
 
   return (
+    <div className="bg-transparent-900 min-h-screen flex justify-center items-center p-4">
     <form onSubmit={handleSubmit} className="space-y-12">
       <div className="border-b border-gray-900/10 pb-12">
         <h2 className="text-base font-semibold leading-7 text-gray-900">Report Submission</h2>
@@ -101,6 +100,8 @@ const Contact = () => {
         </button>
       </div>
     </form>
+    </div>
+    
   );
 };
 

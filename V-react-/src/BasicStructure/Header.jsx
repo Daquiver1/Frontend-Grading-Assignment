@@ -1,37 +1,47 @@
-import { NavLink } from 'react-router-dom';
+/* eslint-disable no-unused-vars */
+// NavBar.jsx
+import { Fragment } from 'react';
+import { Disclosure, Menu, Transition } from '@headlessui/react';
+import { BellIcon, XIcon as XMarkIcon } from '@heroicons/react/outline';
+import { MenuIcon as Bars3Icon } from '@heroicons/react/outline';
+import { Link } from 'react-router-dom';
 
-const Header = () => {
+const navigation = [
+  { name: 'Home', href: '/home', current: false },
+  { name: 'Contact', href: '/contact', current: false },
+  { name: 'Projects', href: '/projects', current: false },
+  { name: 'Calendar', href: '/calendar', current: false },
+];
+
+function classNames(...classes) {
+  return classes.filter(Boolean).join(' ');
+}
+
+export default function Header() {
   return (
-    <div className="flex justify-between items-center h-16 bg-gray-200 px-4">
-      <nav className="space-x-4">
-        <NavLink to="/home" activeClassName="text-yellow-600">
-          Home
-        </NavLink>
-        <NavLink to="/dashboard" activeClassName="text-yellow-600">
-          Dashboard
-        </NavLink>
-        <NavLink to="/grade-report" activeClassName="text-yellow-600">
-          Grade Report
-        </NavLink>
-        <NavLink to="/missing-grade" activeClassName="text-yellow-600">
-          Missing Grade
-        </NavLink>
-        <NavLink to="/instructors" activeClassName="text-yellow-600">
-          Instructors
-        </NavLink>
-        <NavLink to="/help" activeClassName="text-yellow-600">
-          Help
-        </NavLink>
-      </nav>
-      <div>
-        <NavLink to="/login">
-          <button className="btn bg-blue-500 text-white px-4 py-2 rounded">
-            LOGOUT
-          </button>
-        </NavLink>
-      </div>
-    </div>
+    <Disclosure as="nav" className="bg-gray-800">
+      {({ open }) => (
+        <>
+          {/* Rest of your code remains unchanged */}
+          <div className="hidden sm:ml-6 sm:block">
+            <div className="flex space-x-4">
+              {navigation.map((item) => (
+                <Link
+                  key={item.name}
+                  to={item.href}
+                  className={classNames(
+                    item.current ? 'bg-transparent-900 text-black hover:underline hover:text-white' : 'text-black-300 hover:underline hover:text-white',
+                    'rounded-md px-3 py-2 text-sm font-medium'
+                  )}
+                >
+                  {item.name}
+                </Link>
+              ))}
+            </div>
+          </div>
+          {/* Rest of your code remains unchanged */}
+        </>
+      )}
+    </Disclosure>
   );
-};
-
-export default Header;
+}
