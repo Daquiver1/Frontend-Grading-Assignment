@@ -6,10 +6,10 @@ import Footer from "../Components/Footer";
 const AcademicReport = () => {
   return (
     <>
-      {/* <NavBar /> */}
+      <NavBar />
       <div className="row">
         <div className="col-md-12 col-lg-4">
-          {/* <Sidebar /> */}
+          <Sidebar />
         </div>
         <div className="col-md-12 col-lg-8">
           <div className="container">
@@ -133,7 +133,7 @@ const AcademicReport = () => {
         </div>
       </div>
 
-      {/* <Footer/> */}
+      <Footer/>
     </>
   );
 };
