@@ -1,5 +1,5 @@
-# OPEN DEX LIBRARY
-The name of my project was chosen on "Open Dex" on  
+# STUDENT LIB
+The name of my project was chosen on "Student Lib" on  
 the idea of a site holding a collection of information of students and  
 their course instructors.
 
