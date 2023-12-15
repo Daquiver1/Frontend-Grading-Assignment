@@ -3,6 +3,7 @@ import "./Dashboard.css"
 import Navbar from '../../components/Navbar/Navbar'
 import { Link } from 'react-router-dom'
 import { TfiDashboard } from "react-icons/tfi";
+import Footer from '../../components/Footer/Footer';
 
 
 const Dashboard = () => {
@@ -52,6 +53,7 @@ const Dashboard = () => {
         <div className='dashboard-content'></div>
       </div>
     </div>
+   
   </>
   )
 }
