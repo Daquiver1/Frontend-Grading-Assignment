@@ -1,0 +1,29 @@
+.sidenav {
+  width: 240px;
+  background-color: rgb(113, 154, 237);
+  padding: 10px;
+  position: fixed;
+  
+  height: 100vh;
+  text-align: left;
+  color: white;
+  top: 0;
+  
+}
+
+
+
+.sidenav a {
+  display: block;
+  padding: 10px;
+  margin-bottom: 10px;
+  text-decoration: none;
+  color: white;
+}
+
+.sidenav a:hover {
+  background-color: #ddd;
+}
+.ip{
+  margin-bottom: 20px;
+}
