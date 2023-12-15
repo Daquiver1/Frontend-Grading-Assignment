@@ -41,33 +41,25 @@ function Navbar() {
                 Home
               </Link>
             </li>
-            <li className='nav-item'>
-              <Link to='/Login' className='nav-links' onClick={closeMobileMenu}>
-                Login
-              </Link>
-            </li>
+            
             <li className='nav-item'>
               <Link to='/dashboard' className='nav-links' onClick={closeMobileMenu}>
                 Dashboard
               </Link>
             </li>
             <li className='nav-item'>
-              <Link to='/grade-report' className='nav-links' onClick={closeMobileMenu}>
+              <Link to='/gradereport' className='nav-links' onClick={closeMobileMenu}>
                 Grade Report
               </Link>
             </li>
+            
             <li className='nav-item'>
-              <Link to='/missing-grade' className='nav-links' onClick={closeMobileMenu}>
-                Missing Grade?
+              <Link to='/instructorcontact' className='nav-links' onClick={closeMobileMenu}>
+                Contact Us
               </Link>
             </li>
             <li className='nav-item'>
-              <Link to='/instructor-contact' className='nav-links' onClick={closeMobileMenu}>
-                Instructor Contact
-              </Link>
-            </li>
-            <li className='nav-item'>
-              <Link to='/help-support' className='nav-links' onClick={closeMobileMenu}>
+              <Link to='/helpsupport' className='nav-links' onClick={closeMobileMenu}>
                 Help and Support
               </Link>
             </li>

@@ -1,3 +1,5 @@
+11013649_DCIT205 Lawrence Adjei
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
