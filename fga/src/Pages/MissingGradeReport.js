@@ -12,7 +12,7 @@ const Content = () => {
 
     return (
         <>
-            <div>
+            <div className="content">
                 <p>Use the form below to report any missing grade</p>
                 <p>You can also reach your instructors by clicking this link 
                 <Link to = "/Pages/InstructorContactPage" > here</Link>
@@ -42,6 +42,11 @@ const GradeReportForm = () => {
         setSubmitted(true);
          
     };
+
+
+    const handleClick = () =>{
+       alert("Form successfully submitted")
+    }
 
     
 
@@ -94,17 +99,9 @@ const GradeReportForm = () => {
                     required
                 ></textarea>
 
-                <input type="submit" value="Submit" />
+                <input type="submit" value="Submit" onClick={handleClick} />
             </form>
 
-            if (submitted) {
-            <div className="confirmation-message">
-                    <p>Grade reported successfully!</p>
-                </div>
-            }
-
-
-            
         </div>
         <Footer />
         </>

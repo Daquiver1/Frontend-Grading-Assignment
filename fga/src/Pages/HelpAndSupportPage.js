@@ -14,9 +14,13 @@ const faqsData = [
     {
         id: 2,
         question: 'How can I contact support?',
-        answer: 'You can contact support by filling out the contact form on this page or by sending an email to support@example.com.',
+        answer: 'You can contact support by filling out the contact form on this page or by sending an email to supportmsgr@ug.edu.gh',
     },
-    // Add more FAQs as needed
+    {
+        id:3,
+        question: 'How do I contact my Instructors',
+        answer: 'You can contact your Instructors by visiting the Instructors\' Contact Page',
+    }
 ];
 
 const HelpAndSupportPage = () => {
@@ -33,8 +37,7 @@ const HelpAndSupportPage = () => {
 
     const handleFormSubmit = (e) => {
         e.preventDefault();
-        // Simulated support form submission (console log for demonstration purposes)
-        console.log('Support Form Submitted:', formData);
+        alert('Support Form Submitted:', formData);
     };
 
     return (
@@ -45,7 +48,7 @@ const HelpAndSupportPage = () => {
             <h2>Help and Support</h2>
 
             <section className="faqs-section">
-                <h3>Frequently Asked Questions</h3>
+                <h3>Frequently Asked Questions (FAQs)</h3>
                 <ul className="faqs-list">
                     {faqsData.map((faq) => (
                         <li key={faq.id}>

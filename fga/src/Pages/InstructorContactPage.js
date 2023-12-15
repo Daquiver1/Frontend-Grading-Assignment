@@ -8,23 +8,29 @@ import Footer from "../Components/Footer";
 const instructorsData = [
     {
         id: 1,
-        name: 'John Doe',
-        email: 'john.doe@example.com',
-        phone: '123-456-7890',
+        name: 'Mark Attah Mensah',
+        email: 'mrmark@st.ug.edu.gh',
+        phone: '0247890288',
     },
     {
         id: 2,
-        name: 'Jane Smith',
-        email: 'jane.smith@example.com',
-        phone: '987-654-3210',
+        name: 'Micheal Agbo Tetteh Soli',
+        email: 'mast@st.ug.edu.gh',
+        phone: '0348473939',
     },
-    // Add more instructors as needed
+    {
+        id: 3,
+        name: 'Aziz Abdullah Dwumfour',
+        email: 'ada@st.ug.edu.gh',
+        phone: '0475399949'
+    },
+    
 ];
 
 const InstructorContactPage = () => {
     const sendEmail = (email) => {
         // Simulated email feature (console log for demonstration purposes)
-        console.log(`Sending email to ${email}`);
+        alert(`Sending email to ${email}`);
     };
 
     return (

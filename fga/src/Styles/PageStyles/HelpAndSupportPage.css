@@ -1,6 +1,11 @@
+
 .container {
-    max-width: 800px;
-    margin: 0 auto;
+    width: 65%;
+    margin: auto;
+}
+
+.content {
+    margin-top: 50px;
 }
 
 .faqs-section,
@@ -41,3 +46,21 @@ input[type="submit"] {
 input[type="submit"]:hover {
     background-color: #1565C0;
 }
+
+
+
+    
+
+
+@media only screen  and (max-width:992px){    
+.container{
+    width: 85%;
+    margin: auto;
+}
+
+.content{
+    margin-top: 20px;
+}
+}
+
+

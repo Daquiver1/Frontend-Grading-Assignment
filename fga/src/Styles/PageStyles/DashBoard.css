@@ -1,7 +1,7 @@
 .grade-section {
     float: right;
     width: 65%;
-    margin-top: 100px;  
+    margin-top: 60px;
     right: 0px;  
 }
 
@@ -12,13 +12,14 @@
     padding: 20px;
     width: 200px;
     text-align: center;
+    
 
 }
 
 .notifications {
     background-color: #edecec;
     border-radius: 8px;
-    width: 600px;
+    width: 60%;
     text-align: center;
     color: #070505;
 }
@@ -51,6 +52,35 @@
 }
  
 
-.below {
-    font-size: large;
+
+
+@media screen and (max-width: 992px) {
+    .grade-section{
+        margin: auto;
+        width: 90%;
+    }
+
+    .grade-card {
+        width: 270px;
+        margin: auto;
+    }
+
+    .grade-section .left{
+        float: none;
+    }
+
+    .grade-section .right{
+        float: none;
+    }
+    .notifications {
+        width: 80%;
+        margin: 20px;
+        padding: 10px;
+    }
+
+    .footer{
+        top: 2000px;
+    }
+
+    
 }

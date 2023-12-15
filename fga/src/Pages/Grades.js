@@ -5,7 +5,8 @@ import Header from "../Components/Header";
 import SideNav from "../Components/SideNav";
 import Footer from "../Components/Footer";
 import Grade from "../Components/Grade";
-import "../Styles/ComponentStyles/Grade";
+import "../Styles/ComponentStyles/Grade.css";
+import "../Styles/PageStyles/Grades.css";
 
 const Grades = () => {
     
@@ -15,13 +16,6 @@ const Grades = () => {
             <Header />
             <SideNav />
             <Grade />
-            {/*<p>
-                Click 
-                    <Link to="/Pages/MissingGradeReport">
-                        HERE
-                    </Link>
-                to report your missing grade
-            </p>*/}
             <Footer  />
         </>
     )

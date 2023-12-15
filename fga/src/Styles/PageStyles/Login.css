@@ -11,8 +11,9 @@
     border-radius: 10px;
     border-color: #479AEC;
     background-color: #AFD7F4;
-    width: 500px;
-    height: 550px;
+    margin-top: 170px;
+    width: 300px;
+    height: 400px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -20,6 +21,15 @@
     border-style: inset ridge outset ridge;
     
 
+}
+
+button {
+    color: #2576c7;
+    background-color: #7ab4ee;
+}
+
+button :hover{
+    color: #0a4682;
 }
 
 .form {

@@ -1,34 +1,36 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import "../Styles/PageStyles/Login.css";
 import Dashboard from "./DashBoard";
 
 const Login = () => {
 
 
-
-    var [pin, setPin] = useState();
-    var [iD, setID]   = useState("")
-    var [authState, setAuthState] = useState("N/A")
-
-
-    
-    const SignIn= () =>{
-        if (pin===undefined || iD===undefined){
-            setAuthState("False")
-        }
-        else {
-            setAuthState("True")
-        }
-    }
+    const [ID, setID] = useState('');
+    const [pin, setPin] = useState('');
+    const navigate = useNavigate();
+  
+    // Dummy data for authentication (replace with your actual authentication logic)
+    const validCredentials = {
+      validID: 'user123',
+      validPin: '1234',
+    };
+  
+    const handleSignIn = () => {
+      // Check if entered credentials match the valid credentials
+      if (ID === validCredentials.validID && pin === validCredentials.validPin) {
+        // Navigate to the Dashboard page
+        navigate('/Pages/DashBoard');
+      } else {
+        // Handle unsuccessful login (optional)
+        console.log('Login failed. Please check your credentials.');
+      }
+    };
 
 
     return (
         <div className="main">
-        <div className="login-box">
-        {(authState==="True")?(
-            <Dashboard />
-        ):(
+            <div className="login-box">
             <form>
                 <h3>Log In</h3>
                 <label for="ID">ID :</label>
@@ -36,18 +38,14 @@ const Login = () => {
                 <br />
                 <br />
                 <label for="psw">PIN</label>
-                <input type="password" id="psw" name="psw" onChange={(text)=>{setPin(text.target.value)}}/>
+                <input type="password" id="psw" name="psw" onChange={(event)=>{setPin(event.target.value)}}/>
                 <br />
                 <button>
-                    <Link to="/Pages/DashBoard" onClick={()=>SignIn()}> ENTER</Link>
+                    <Link to="/Pages/DashBoard" onClick={()=>handleSignIn()}> ENTER</Link>
                 </button>
-                {(authState==="False")?(
-                    <p>Incomplete or Incorrect ID or PIN</p>
-                ):(
-                    <p></p>
-                )}
+                
             </form>
-        )}
+        
             </div>
         </div>
 );

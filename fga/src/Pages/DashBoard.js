@@ -6,7 +6,7 @@ import SideNav from "../Components/SideNav";
 import Footer from "../Components/Footer";
 
 
-function Gradecard({coursename, grade})  {
+const Gradecard= ({coursename, grade}) => {
 
     return(
         <div>
@@ -20,6 +20,20 @@ function Gradecard({coursename, grade})  {
     )
 }
 
+const Content = () =>{
+    return (
+        <div className="below">
+            <p>A detailed statement of your academic record is available 
+            <Link to = "/Pages/Grades"> here. </Link>
+            </p>
+            <p>Feel free to report any missing grades to us for an updated version of your academic record. Report any missing grades
+                <Link to = "/Pages/MissingGradeReport"> here</Link>
+            </p>
+            </div>
+    )
+}
+
+
 
 const DASHBOARD = () => {
     return (
@@ -27,7 +41,7 @@ const DASHBOARD = () => {
             <div className="gradebody">
             <div className="grade-section">
             <h2>Welcome, Student</h2>
-
+            <Content />
 
                 <div className="notifications">
                     <h4>NOTIFICATIONS</h4>
@@ -46,14 +60,7 @@ const DASHBOARD = () => {
                 </div>
                 </div>
 
-            <div className="below">
-            <p>A detailed statement of your academic record is available 
-            <Link to = "/Pages/Grades"> here. </Link>
-            </p>
-            <p>Feel free to report any missing grades to us for an updated version of your academic record. Report any msing grades
-                <Link to = "/Pages/MissingGradeReport">here</Link>
-            </p>
-            </div>
+            
             </div>
         </>
     )
