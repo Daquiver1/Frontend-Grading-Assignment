@@ -1,0 +1,37 @@
+/* src/components/Navbar.css */
+nav {
+    background-color: #333;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Add a media query for responsive styling */
+@media (max-width: 600px) {
+    li {
+        float: none;
+        width: 100%;
+    }
+
+    li a {
+        text-align: center;
+        width: 100%;
+        display: block;
+    }
+}

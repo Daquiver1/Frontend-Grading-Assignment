@@ -1,4 +1,8 @@
 # Student Grade Reporting System Frontend
+# DETAILS:
+ DZIFA ESI DOTSE 
+ ID: 11253112
+ COURSE: DCIT 205 (Assignment)
 
 ## Project Overview
 
@@ -27,7 +31,7 @@ The application consists of 7 main pages:
 To set up the project locally, follow these steps:
 
 ```bash
-git clone https://github.com/your-github-username/DCIT_205_ASSIGNGMENT1.git
+git clone https://github.com/your-github-username/11253112_DCIT_205_ASSIGNGMENT1.git
 cd repo-name
 npm install
 npm start
@@ -36,8 +40,13 @@ npm start
 This will start the application on `localhost` at the default port.
 
 ## Usage
-
-Describe how to use the application, highlighting key functionalities such as logging in, viewing grades, reporting missing grades, and contacting instructors.
+Report all missing grades and other issues here.
+This website allows students to adresss all issues pertaining their academic grades.
+To log in, use ID "12345678"; with PIN "1234". This will grant the user access to his/her grades.
+Once you're in, scan through your grades to locate any discrepancies that might have occured in the performance assessment process.
+Some feautures of this website include a report form. To navigate this, simply type your area of concern in the address box and send. Your complaint will be sent to school authorities to further investigate and work it out.
+Incase of any other concern, there is a contact page with addresses to various instructors to manage personal issues.
+If there are no issues, simply log out of the website.
 
 ## Contribution
 
