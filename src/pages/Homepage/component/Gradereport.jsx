@@ -161,7 +161,7 @@ const Gradereport = () => {
                       <td>
                         ECONS102
                       </td>
-                      <td>Tanoe Mickey</td>
+                      <td>Tanoe Mickey/</td>
                       <td>Introduction to Economics</td>
                       <td>Thursday</td>
                       <td>7:30am</td>
