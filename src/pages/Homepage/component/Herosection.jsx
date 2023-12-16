@@ -14,7 +14,7 @@ const Herosection = () =>{
        
       </div>
         <div className="cont-img">
-        <img src="src/images/new.jpg" alt=""/>
+        <img src="src/images/system4.jpg" alt=""/>
 
                    {/* <Routes>
                       <Route index element={<Homepage/>}/>

@@ -25,7 +25,7 @@
   width: 100%;
   height: 60px;
   display: block;
-  background-color: black;
+  background-color:#846ff7;
 }
 
 
@@ -101,7 +101,7 @@
 }
 .buttt{
     border: none;
-    background-color:black;
+    background-color:#846ff7;
     color: white;
     margin: 5px;
    width: 100px;
@@ -209,7 +209,7 @@
 
 
   .missing{
-    background-color: black;
+    background-color: #846ff7;
   }
 /*Frequently Asked Questions*/
 .contain{
@@ -265,7 +265,7 @@ margin-top:10% ;
 }
 
 .loginn-form button {
-  background-color: black;
+  background-color: #846ff7;
   color: #ffffff;
   padding: 10px;
   border: none;
@@ -282,7 +282,7 @@ textarea {
 .page-footer{
   color: white;
   width: 100%;
-  background-color: black;
+  background-color: #846ff7;
   /* height: 20vh; */
 
   padding: 20px 20px 10px;
@@ -323,7 +323,7 @@ display: flex;
 }
 .socials a:hover{
   color:white ;
-  background-color: black;
+  background-color: #846ff7;
   transition: 0.5s;
 
 }

@@ -10,7 +10,7 @@ const Faqs = () => {
   
     <div className="log">
      <div className="password-pic">
-    <img src="src/images/newww.jpg" alt=""/>
+    <img src="src/images/system1.jpg" alt=""/>
     </div> 
     <div className="login-container">
       <form className="loginn-form" >

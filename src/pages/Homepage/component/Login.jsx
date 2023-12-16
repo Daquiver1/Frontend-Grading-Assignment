@@ -14,7 +14,7 @@ import "../css/index.css";
    return (
     <div className="log">
      <div className="password-pic">
-    <img src="src/images/neww.jpg" alt=""/>
+    <img src="src/images/system2.jpg" alt=""/>
     </div> 
     <div className="login-container">
       <form className="login-form" >

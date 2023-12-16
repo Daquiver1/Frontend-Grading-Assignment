@@ -81,6 +81,8 @@ const Dashboard = () => {
         <div className="main--content">
           <div className="header--wrapper">
             <div className="hearder--title">
+              
+              <h2>BSc.Information Technology</h2>
              
             </div>
 

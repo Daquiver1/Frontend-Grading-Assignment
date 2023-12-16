@@ -21,7 +21,7 @@
     color: white;
     overflow: hidden;
     transition: all 0.5s linear;
-    background-color:black;
+    background-color:#846ff7;
 }
 .sidebar:hover{
     width: 235px;
@@ -101,10 +101,10 @@ color:white;
     padding: 10px 2rem;
 }
 .hearder--title{
-    color:  black;
+    color: #846ff7;
 }
 .hearder--title span{
-    color: black;
+    color:#846ff7;
     font-size: 1.4rem;
 }
 .user--info{
@@ -152,7 +152,7 @@ color:white;
 
 }
 .main--title{
-    color: black;
+    color: #846ff7;
     padding-bottom:10px;
     font-size: 15px;
 
@@ -265,7 +265,7 @@ table{
     border-collapse:collapse  ;
 }
 thead{
-    background: black;
+    background: #846ff7;
     color:white
 }
 th{
