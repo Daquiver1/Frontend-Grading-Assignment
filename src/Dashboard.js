@@ -3,8 +3,11 @@ import React, { useState } from 'react';
 import Header from './Header';
 import Footer from './PageFooter';
 import { Outlet, Link } from 'react-router-dom';
+import { FaSignOutAlt } from 'react-icons/fa';
+import { useNavigate } from 'react-router-dom';
 
 const Dashboard = () => {
+  const navigate = useNavigate();
   const [grades, setGrades] = useState([
     { courseCode: 'MATH101', courseName: 'Mathematics', grade: 'A', gradePoint: 4.0 },
     { courseCode: 'ENG102', courseName: 'English Literature', grade: 'N/A', gradePoint: 'N/A' },
@@ -14,9 +17,23 @@ const Dashboard = () => {
 
   ]);
 
+  const [showLogoutConfirmation, setShowLogoutConfirmation] = useState(false);
+
   const [missingGrades, setMissingGrades] = useState([
             { courseCode: 'HIS104', courseName: 'History', alert: <Link className='button-report' to="/MissingGradeForm">'Missing grade - Click to report' </Link>},
   ]);
+
+  const handleLogoutClick = () => {
+    setShowLogoutConfirmation(true);
+  };
+
+  const handleLogoutConfirmation = (confirmed) => {
+    setShowLogoutConfirmation(false);
+    if (confirmed) {
+      // Redirect to the LoginPage
+      navigate('/'); // Update the path based on your route configuration
+    }
+  };
 
   return (
     <div>
@@ -98,6 +115,19 @@ const Dashboard = () => {
         ))}
       </div>      
     </div>
+
+        {/* Logout Icon */}
+        <div className="logout-icon" onClick={handleLogoutClick}>
+          <FaSignOutAlt size={30} />
+        </div>
+
+        {showLogoutConfirmation && (
+          <div className="logout-confirmation-msg">
+            <p>Are you sure you want to log out?</p>
+            <button onClick={() => handleLogoutConfirmation(true)}>Yes</button>
+            <button onClick={() => handleLogoutConfirmation(false)}>No</button>
+          </div>
+        )}
     <Footer />
     </div>
   );

@@ -2,8 +2,12 @@ import React, { useState } from 'react';
 import { Outlet, Link } from 'react-router-dom';
 import Header from './Header';
 import Footer from './PageFooter';
+import { FaSignOutAlt } from 'react-icons/fa';
+import { useNavigate } from 'react-router-dom';
 
 const ContactPage = () => {
+  const navigate = useNavigate();
+
   // Sample data for instructors
   const instructorsData = [
     { id: 1, name: 'Adu Gyamfi ', email: 'adgyamfi@gmail.com' },
@@ -15,11 +19,25 @@ const ContactPage = () => {
     { id: 3, name: 'George Antwi', email: 'antwigeorge@gamil.com' },
   ];
 
+  const [showLogoutConfirmation, setShowLogoutConfirmation] = useState(false);
+
   const [selectedInstructor, setSelectedInstructor] = useState(null);
 
   const handleEmailClick = (instructor) => {
     // Simulate sending an email (you can implement the actual logic here)
     alert(`Simulating sending email to ${instructor.name} (${instructor.email})`);
+  };
+
+  const handleLogoutClick = () => {
+    setShowLogoutConfirmation(true);
+  };
+
+  const handleLogoutConfirmation = (confirmed) => {
+    setShowLogoutConfirmation(false);
+    if (confirmed) {
+      // Redirect to the LoginPage
+      navigate('/'); // Update the path based on your route configuration
+    }
   };
 
   return (
@@ -45,7 +63,7 @@ const ContactPage = () => {
            <textarea id="message" name="message" placeholder="Type your message here..." required></textarea>
            <button type="submit">Send Message</button>
         </form>
-  </div>      
+  </div>    
   </div>
   <Footer />
   </div>

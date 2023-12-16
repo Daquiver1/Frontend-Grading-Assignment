@@ -633,6 +633,40 @@ button:hover {
   color: #3d3d3d;
 }
 
+.logout-icon{
+  color: red;
+  position: fixed;
+  top: 60px;
+  z-index: 500;
+  margin-left: 10px;
+  cursor: pointer;
+}
 
+.logout-confirmation-msg{
+  width: 300px;
+  position: fixed;
+  top: 100px;
+  background-color: rgba(0, 0, 0, 0.4);
+  height: 90px;
+  padding-bottom: 5px;
+  margin-left: 20px;
+  padding-left: 10px;
+}
 
+.logout-confirmation-msg p{
+  color: white;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.logout-confirmation-msg button{
+  margin-right: 20px;
+  background-color: rgb(197, 3, 3);
+}
+.logout-confirmation-msg button:hover{
+  background-color: white;
+  border: 1px solid rgb(197, 3, 3);
+  color: rgb(197, 3, 3);
+  font-weight: bold;
+}
 

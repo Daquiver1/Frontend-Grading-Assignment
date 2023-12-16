@@ -1,14 +1,19 @@
 import React, { useState } from 'react';
 import Header from './Header';
 import Footer from './PageFooter';
+import { FaSignOutAlt } from 'react-icons/fa';
+import { useNavigate } from 'react-router-dom';
 
 const MissingGradeForm = () => {
+  const navigate = useNavigate();
   const [formData, setFormData] = useState({
     courseName: '',
     instructorName: '',
     expectedGrade: '',
     explanation: '',
   });
+
+  const [showLogoutConfirmation, setShowLogoutConfirmation] = useState(false);
 
   const [isSubmitted, setIsSubmitted] = useState(false);
 
@@ -21,6 +26,18 @@ const MissingGradeForm = () => {
     e.preventDefault();
     // Implement logic to handle form submission (e.g., API call or data processing)
     setIsSubmitted(true);
+  };
+
+  const handleLogoutClick = () => {
+    setShowLogoutConfirmation(true);
+  };
+
+  const handleLogoutConfirmation = (confirmed) => {
+    setShowLogoutConfirmation(false);
+    if (confirmed) {
+      // Redirect to the LoginPage
+      navigate('/'); // Update the path based on your route configuration
+    }
   };
 
   return (
@@ -93,6 +110,18 @@ const MissingGradeForm = () => {
         </form>
       )}
     </div>
+        {/* Logout Icon */}
+        <div className="logout-icon" onClick={handleLogoutClick}>
+          <FaSignOutAlt size={30} />
+        </div>
+
+        {showLogoutConfirmation && (
+          <div className="logout-confirmation-msg">
+            <p>Are you sure you want to log out?</p>
+            <button onClick={() => handleLogoutConfirmation(true)}>Yes</button>
+            <button onClick={() => handleLogoutConfirmation(false)}>No</button>
+          </div>
+        )}
     <Footer />
     </div>
   );

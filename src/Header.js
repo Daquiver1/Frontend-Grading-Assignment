@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { IoNotificationsCircleOutline } from "react-icons/io5";
 import { Outlet, Link } from "react-router-dom";
-import { MdLogout } from "react-icons/md";
 
 const Header = () => {
   const [showLogoutConfirmation, setShowLogoutConfirmation] = useState(false);
@@ -71,38 +70,16 @@ const Header = () => {
             </div>
             </div>
         </header>
-      <div className="profile-icon">
-        <div className="notification" onClick={handleNotificationClick}>
-          <IoNotificationsCircleOutline />
-          <div className="notification-mess">
-            <p>4</p>
+        <Link to="/Dashboard">
+          <div className="profile-icon">
+          <div className="notification" onClick={handleNotificationClick}>
+            <IoNotificationsCircleOutline />
+            <div className="notification-mess">
+              <p>4</p>
+            </div>
           </div>
         </div>
-        <div className="contact-ic" onClick={handleLogoutClick}>
-          <MdLogout />
-        </div>
-      </div>
-
-      {/* Logout Confirmation Modal */}
-      {showLogoutConfirmation && (
-        <div className="logout-confirmation">
-          <p>Do you want to logout?</p>
-          <button onClick={handleLogoutConfirmation}>Logout</button>
-          <button onClick={handleCancelLogout}>Cancel</button>
-        </div>
-      )}
-
-      {/* Notification Messages Modal */}
-      {showNotificationMessages && (
-        <div className="notification-messages">
-          {/* Display your notification messages here */}
-          <ul>
-            <li>Notification 1</li>
-            <li>Notification 2</li>
-          </ul>
-          <button onClick={handleHideNotificationMessages}>Close</button>
-        </div>
-      )}
+        </Link>
     </div>
   );
 };
