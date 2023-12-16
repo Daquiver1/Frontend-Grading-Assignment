@@ -25,7 +25,7 @@
   width: 100%;
   height: 60px;
   display: block;
-  background-color: #846ff7;
+  background-color: black;
 }
 
 
@@ -101,7 +101,7 @@
 }
 .buttt{
     border: none;
-    background-color:#846ff7;
+    background-color:black;
     color: white;
     margin: 5px;
    width: 100px;
@@ -112,8 +112,8 @@
 
 
 .cont-img{
-    max-width: 650px;
-    height: 500px;
+    max-width: 550px;
+    height: 400px;
 }
 .cont-img img{
    max-width: 100%;
@@ -184,11 +184,11 @@
     padding: 8px;
     margin-bottom: 12px;
     box-sizing: border-box;
-    border-color: #846ff7;
+    border-color: black;
   }
   
   .login-form button {
-    background-color: #846ff7;
+    background-color: black;
     color: #ffffff;
     padding: 10px;
     border: none;
@@ -209,7 +209,7 @@
 
 
   .missing{
-    background-color: #846ff7;
+    background-color: black;
   }
 /*Frequently Asked Questions*/
 .contain{
@@ -265,7 +265,7 @@ margin-top:10% ;
 }
 
 .loginn-form button {
-  background-color: #846ff7;
+  background-color: black;
   color: #ffffff;
   padding: 10px;
   border: none;
@@ -323,7 +323,7 @@ display: flex;
 }
 .socials a:hover{
   color:white ;
-  background-color: #846ff7;
+  background-color: black;
   transition: 0.5s;
 
 }
