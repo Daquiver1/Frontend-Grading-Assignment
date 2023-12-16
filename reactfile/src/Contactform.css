@@ -1,0 +1,37 @@
+.contact-form2-container {
+  background-color:rgb(199, 209, 218);
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 450px;
+  margin: auto;
+}
+
+.form2-container label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form2-container input,
+.form2-container textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border-radius: 15px;
+  border: dashed 3px cadetblue;
+  box-sizing: border-box;
+}
+
+.form2-container button {
+  background-color: cadetblue;
+  color: white;
+  padding: 10px;
+  border-radius: 15px;
+  border: dashed 3px cadetblue;
+  cursor: pointer;
+  transition: 1.5s;
+}
+
+.form2-container button:hover {
+  background-color: rgb(114, 111, 111)
+}

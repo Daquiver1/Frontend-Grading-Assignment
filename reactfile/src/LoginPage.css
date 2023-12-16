@@ -1,0 +1,60 @@
+
+.login-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  
+
+  
+}
+
+.image-container {
+  flex: 1;
+  padding: 20px;
+}
+
+.image-container img {
+  max-width: 100%;
+  height: 500px;
+  border-radius: 20px;
+}
+
+.form-container {
+  flex: 1;
+  padding: 20px;
+ 
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.PASS{
+  border-radius: 17px;
+  border: 2px dashed cadetblue;
+
+}
+
+label {
+  margin-bottom: 8px;
+  
+}
+
+input {
+  padding: 8px;
+  margin-bottom: 16px;
+}
+
+button {
+  padding: 10px;
+  background-color: rgb(74, 118, 121);
+  color: #fff;
+  cursor: pointer;
+  border: none;
+}
+.stulog{
+  font-size: 30px;
+}

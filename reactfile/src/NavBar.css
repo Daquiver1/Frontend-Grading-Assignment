@@ -1,0 +1,59 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.logo{
+  width: 70%;
+  margin-right: 220px;
+  height: 38px;
+  
+}
+
+.Container{
+  display: flex;
+  margin-top: 4px;
+  margin-bottom: 1px;
+  background-color: aliceblue;
+  height: 30px;
+  padding-top: 8px;
+  padding-bottom: 5px;
+  text-align: center;
+
+  
+}
+
+
+.Nav-links{
+  display: grid;
+  grid-template-columns: 80px 80px 150px 150px 150px 150px  100px;
+  cursor: pointer;
+  justify-content: space-between;
+  color: cornflowerblue;
+  
+  
+  
+
+}
+
+.nav-item{
+  border-radius: 20px;
+  height: 27px;
+  margin-top: 5px;
+
+
+
+}
+
+
+  .nav-item:hover {
+    background-color:cadetblue;
+    color:beige;
+    transition: 1.3s;
+    
+  }
+  
+  
+  
+
+
