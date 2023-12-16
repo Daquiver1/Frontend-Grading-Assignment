@@ -1,0 +1,119 @@
+.HelpAndSupportPage {
+  background: url("../assets/help.jpg");
+  padding: 0;
+  margin: 0;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  min-height: 100vh;
+  background-position: center;
+}
+
+/* FAQ Item Container */
+.FAQItem {
+  border: 2px solid #ddd;
+  backdrop-filter: blur(30px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+  justify-content: center;
+  border-radius: 10px;
+  margin: 10px 0;
+  padding: 20px;
+}
+
+/* FAQ Item Heading */
+.FAQItem h3 {
+  color: #007bff;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* FAQ Item Paragraph */
+.FAQItem p {
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+@keyframes glow {
+  0% {
+    box-shadow: 0 0 5px #000;
+  }
+  50% {
+    box-shadow: 0 0 10px #ff0;
+  }
+  100% {
+    box-shadow: 0 0 5px #000;
+  }
+}
+
+.ContactForm button[type="submit"] {
+  animation: glow 2s infinite alternate;
+}
+
+.ContactForm button[type="submit"] {
+  animation: glow 2s infinite alternate;
+  border: none;
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;
+  padding: 10px 20px;
+  font-size: 18px;
+  transition: 0.3s;
+}
+
+.ContactForm button[type="submit"]:hover {
+  background-color: #ff0;
+  color: #000;
+}
+
+/* Style for the form container */
+.ContactForm {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+/* Style for the form headings */
+.ContactForm h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Style for form labels */
+.ContactForm label {
+  display: flex;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+/* Style for form inputs */
+.ContactForm input[type="text"],
+.ContactForm input[type="email"],
+.ContactForm textarea {
+  width: calc(100% - 20px);
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.ContactForm textarea {
+  height: 100px;
+}
+
+/* Style for the submit button */
+.ContactForm button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}

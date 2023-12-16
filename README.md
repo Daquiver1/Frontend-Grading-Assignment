@@ -27,8 +27,8 @@ The application consists of 7 main pages:
 To set up the project locally, follow these steps:
 
 ```bash
-git clone https://github.com/your-github-username/DCIT_205_ASSIGNGMENT1.git
-cd repo-name
+git clone https://github.com/Stan1-0/Frontend-Grading-Assignment.git
+cd react-frontend
 npm install
 npm start
 ```
@@ -37,7 +37,12 @@ This will start the application on `localhost` at the default port.
 
 ## Usage
 
-Describe how to use the application, highlighting key functionalities such as logging in, viewing grades, reporting missing grades, and contacting instructors.
+- Students are gievn a brief decription to the website whenhey they gain access to the landing page. Students are given the privellege to login.
+- Upon verification, students are directed to their dashboard where they can access their current grades and details.
+- The Grade report page allows students to filter thier results based on semesters and academic years.
+- The help and support page allows students to gain access to gain access to frequently accessed questions and seek help from personnels.
+- The missing grade report page allows students to contact lecturers and seek help for their grades that might have been wrongfully assigned or are yet to reflect on their dashboard.
+- A contact us page has been provided for students to access to have easy access to personnel.
 
 ## Contribution
 
