@@ -1,25 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import './App.css'
+import Navbar from "./components/Navbar";
+import HelpAndSupport from './components/HelpAndSupport';
+import MissingGradeForm from './components/MissingGradeForm';
+import Dashboard from './components/Dashboard';
+import LandingPage from './components/LandingPage';
+import { Route, Routes } from 'react-router-dom';
+import InstructorContactPage from './components/InstructorContactPage';
+import LoginPage from './components/LoginPage';
 
-function App() {
+
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Navbar />
+      <div className='container'>
+        <Routes>
+          <Route path="/" element={<LandingPage/>} />
+          <Route path="/contact" element={<InstructorContactPage/>} />
+          <Route path="/missing-grades" element={<MissingGradeForm/>} />
+          <Route path="/help" element={<HelpAndSupport/>} />
+          <Route path="/login" element={<LoginPage/>} />
+          <Route path="/dashboard" element={<Dashboard/>} />
+          <Route path="/help" element={<HelpAndSupport/>} />
+        </Routes>
+      </div>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
