@@ -1,0 +1,39 @@
+/* GradesReport.css */
+
+.grades-report-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .grades-container {
+    max-width: 800px;
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f4f4f4;
+  }
+  
+  .grades-container h2 {
+    color: #333;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
