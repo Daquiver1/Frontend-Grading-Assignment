@@ -1,0 +1,40 @@
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  .footerdiv {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .contact-info,
+  .quick-links,
+  .follow-us {
+    flex: 1;
+  }
+  
+  h3 {
+    color: #ffd700; /* Gold color for headings */
+  }
+  
+  p {
+    margin: 5px 0;
+  }
+  
+  a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  .social-link {
+    display: inline-block;
+    margin-right: 10px;
+  }

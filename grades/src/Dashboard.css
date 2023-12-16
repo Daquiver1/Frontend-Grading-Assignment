@@ -1,0 +1,16 @@
+.Academicrecordstructute{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.options{
+    display:grid;
+    grid-template-columns: 1fr 500px 1fr 1fr 1fr;
+
+
+}
+.optionssub{
+    display:grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+
+}
