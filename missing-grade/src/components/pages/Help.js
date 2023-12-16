@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-function Help ()  {
+function Help()  {
    const faqs = [
     {
         id: 1,
@@ -87,37 +87,47 @@ function Help ()  {
           ))}
         </ul>
       </div>
-      
-    <div className="card">
-        <div className="card-body">
-          <h2 style={{ textAlign:'center' }}r>Contact Support</h2>
+      <div className="container mt-5">
+         <div className="row justify-content-center">
+        <div className="col-md-6">
+      <div className='card'>
+      <div className="card-body d-flex flex-column align-items-center justify-content-center" style={{ height: '50%' }}>
+        <h2 style={{ textAlign:'center' }}r>Contact Support</h2>
           {submitted ? (
             <p style={{ color: 'green' }}>Thank you for your message! We'll get back to you soon.</p>
           ) : (
-            <form onSubmit={handleFormSubmit}>
+            <form onSubmit={handleFormSubmit}  className='text-center w-75'>
               <div className="mb-3">
                 <label htmlFor="nameInput" className="form-label">Name:</label>
-                <input type="text" className="form-control" id="nameInput" value={name} onChange={(e) => setName(e.target.value)}/>
+                <input type="text" className="form-control form-group w-50%" id="nameInput" value={name} onChange={(e) => setName(e.target.value)}/>
                 {errors.name && <p className="error" style={{ color: 'red' }}>{errors.name}</p>}
               </div>
               <div className="mb-3">
                 <label htmlFor="emailInput" className="form-label">Email:</label>
-                <input type="text" className="form-control" id="emailInput" value={email} onChange={(e) => setEmail(e.target.value)}/>
+                <input type="text" className="form-control form-group w-50%" id="emailInput" value={email} onChange={(e) => setEmail(e.target.value)}/>
                 {errors.email && <p className="error" style={{ color: 'red' }}>{errors.email}</p>}
               </div>
               <div className="mb-3">
                 <label htmlFor="messageInput" className="form-label">Message:</label>
                 <textarea
-                  className="form-control" id="messageInput" value={message} onChange={(e) => setMessage(e.target.value)}></textarea>
+                  className="form-control form-group w-50%" id="messageInput" value={message} onChange={(e) => setMessage(e.target.value)}></textarea>
                  {errors.message && <p className="error" style={{ color: 'red' }}>{errors.message}</p>}
               </div>
-              <button type="submit" className="btn btn-primary">Submit</button>
+             <div className="text-center mt-4">
+              <button type="submit" className="btn btn-primary"style={{ width: '50%' }}>
+              Submit
+                  </button>
+                </div>
             </form>
           )}
         </div>
       </div>
     </div>
     </div>
+    </div>
+    </div>
+    </div>
+    
   );
 };
 

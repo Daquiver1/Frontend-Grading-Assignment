@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 
-
 function Login ()  {
   const [id, setId] = useState('');
   const [pin, setPin] = useState('');
@@ -8,6 +7,8 @@ function Login ()  {
   const [pinError, setPinError] = useState('');
   const [idSuccess, setIdSuccess] = useState('');
   const [pinSuccess, setPinSuccess] = useState('');
+  const [loginSuccess, setLoginSuccess] = useState(false);
+  
  
 
   const handleLogin = () => {
@@ -28,15 +29,19 @@ function Login ()  {
     }
 
     if (id === '123456' && pin === '7890') {
-        setTimeout(() => {
-          alert('Login successful!');
-        }, 500); 
-      } else {
-        setTimeout(() => {
-          alert('Invalid credentials. Please try again.');
-        }, 500); 
-      }
-    };
+      setLoginSuccess(true);
+      setId('');
+      setPin('');
+      setIdSuccess(false);
+      setPinSuccess(false);
+      setTimeout(() => {
+        setLoginSuccess(false);
+        
+      }, 3000);
+    } else {
+      alert('Please enter a valid ID and PIN first');
+    }
+  };
 
 
 
@@ -47,6 +52,7 @@ function Login ()  {
           <div className="card">
             <div className="card-body d-flex flex-column align-items-center justify-content-center" style={{ height: '50%' }}>
               <h2 className="text-center mb-6 text-primary">LOGIN</h2>
+              {loginSuccess && <div className="alert alert-success">Login Successful</div>}
               <form className="text-center w-75"> 
                 <div className="form-group mt-3">
                     {idError && <div className="alert alert-danger">{idError}</div>}
