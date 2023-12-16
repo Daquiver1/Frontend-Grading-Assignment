@@ -17,7 +17,7 @@ const Login = () => {
             return;
         }
 
-        // Simulate login logic (replace with actual authentication)
+        
         if (studentId && password) {
             window.location.href = "/dashboard";
             setError('');
@@ -53,7 +53,7 @@ const Login = () => {
                                     onChange={(e) => {
                                         const parsedInt = parseInt(e.target.value, 10);
                                         if (isNaN(parsedInt)) {
-                                            // Not a valid integer sequence, revert to previous valid state
+                                            // Not a valid integer sequence, revert to previous valid states
                                             setStudentId(prevStudentID => prevStudentID);
                                         } else {
                                             // Valid integer sequence, update the state
