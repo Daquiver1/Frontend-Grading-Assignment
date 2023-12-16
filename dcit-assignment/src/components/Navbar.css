@@ -1,0 +1,65 @@
+header {
+    background-color:white;
+    color:rgb(42, 63, 88);
+    font-weight: bold;
+    padding:28px;
+    display:flex;
+    flex-direction: row;
+    position:fixed;
+    top:0;
+    right:0;
+    left:0;
+    z-index:1;
+    opacity: 0.96; 
+}
+
+.logo-section{
+  flex:100px;
+  margin-left: 10px;
+  margin-top: -5px;
+}
+
+.header-text{
+  margin-top: 10px;
+  flex:100px;
+}
+
+nav{
+    align-items: stretch;
+}
+
+nav ul {
+  display: flex;
+  padding: 0;
+  list-style: none;
+  text-align: right;
+}
+
+nav li {
+  flex:1;
+  color:rgb(42, 63, 88);
+  transition: 0.3s;
+}
+
+nav button{
+  font-family:"Poppins";
+  background-color:white;
+  color:rgb(42, 63, 88);
+  font-weight: 400;
+  font-size: 15px;
+  margin-top: -15px;
+  margin-right:2px;
+  height:22px;
+  border:none;
+  margin-right:6px;
+  cursor: pointer;
+  vertical-align: top;
+  transition: 0.3s;
+}
+
+nav button:hover{
+  color: rgb(218, 171, 53);
+  text-decoration: none;
+  transform: translateY(-5px);
+  background-color: white;
+}

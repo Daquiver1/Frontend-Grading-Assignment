@@ -1,0 +1,150 @@
+
+.dashboard {
+    display: flex;
+    justify-content: space-between;
+    background-color: #ecf0f1;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+.page-body-dashboard{
+  animation-name: fade-in;
+  animation-duration: 1s;
+}
+
+.welcome{
+  text-align: center;
+  font-size: 50px;
+  font-weight:700 ;
+  color: white;
+}
+
+.overview {
+  flex: 1;
+  margin-right: 20px;
+}
+
+  .alerts {
+    flex: 1;
+  }
+  
+  .grades {
+    margin-top: 20px;
+  }
+  
+  h2 {
+    color: #3498db;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  .subject {
+    font-weight: bold;
+    color: #3498db;
+  }
+  
+  /* Styling for Alerts */
+  .alerts p {
+    font-style: italic;
+    color: #27ae60;
+  }
+  
+  .alerts ul {
+    padding-left: 20px;
+  }
+  
+  /* Styling for Grades */
+  .grades ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    grid-gap: 10px;
+  }
+  
+  .grades li {
+    background-color: #ecf0f1;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Responsive Styling */
+  @media (max-width: 768px) {
+    .dashboard {
+      flex-direction: column;
+    }
+  
+    .overview,
+    .alerts {
+      margin-right: 0;
+    }
+  }
+
+  .extra-components {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+  }
+  
+  .recent-assignments,
+  .progress-chart {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .recent-assignments ul {
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  .recent-assignments li {
+    margin-bottom: 10px;
+  }
+  
+  .progress-chart .chart {
+    /* Add styling for your progress chart visualization */
+    background-color: #ecf0f1;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height: 200px; /* Adjust the height based on your design */
+  }
+
+  /* Styling for Extra Components */
+.extra-components {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.recent-assignments,
+.progress-chart {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.recent-assignments ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+.recent-assignments li {
+  margin-bottom: 10px;
+}
+
+.progress-chart .chart {
+  /* Add styling for your progress chart visualization */
+  background-color: #ecf0f1;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  height: 200px; /* Adjust the height based on your design */
+}
