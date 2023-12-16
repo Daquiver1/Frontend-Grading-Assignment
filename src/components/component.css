@@ -1,0 +1,45 @@
+.items_container{
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 700px;
+}
+.logo{
+    height: 100px;
+}
+.profile{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+}
+.nav_grid{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    column-gap: 10px;
+    background-color: bisque;
+    row-gap: 10px;
+    padding: 50px;
+    font-size: 20px;
+    
+}
+.body{
+    background-color: rgb(245, 220, 244);
+}
+.form{
+    padding-left : 400px;
+   
+}
+p{
+    font-size: 18px;
+}
+.record_grid{
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 500px;
+}
+
+.record{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    column-gap: 10px;
+   
+}
