@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Missing Grade Reporting System</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+
+<body>
+  <nav class="B">
+    <a class="navbar-brand" href="#">Missing Grade Reporting System</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+      aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle B">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav ml-auto">
+          <li class="D">
+            <a class="H" href="login.html">Login</a>
+          </li>
+          <li class="D">
+            <a class="H" href="help_and_support.html">Help & Support</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="C">
+        <div class="G">
+          <div class="col-md-6">
+            <h1>Welcome to the Student Missing Grade Reporting System</h1>
+            <div class="col-md-6">
+                <img src="2.jpg" alt="1" class="img-fluid">
+                <a href="login.html" class="btn btn-primary mt-3">LOGIN</a>
+</div>
+<p>
+    The Missing Grade Reporting System is a comprehensive tool designed to empower students in managing and tracking their academic progress. With this system, students can easily report any missing grades that have not been recorded in their academic profiles, ensuring accurate and up-to-date records.
+  </p>
+  <p>
+    Our user-friendly interface allows students to conveniently view their current grades, track their overall performance, and identify any missing assignments or exams. By reporting missing grades through the system, students can initiate a streamlined process of communication with their instructors or academic administration to resolve any discrepancies or oversights.
+  </p>
+  <p>
+    Additionally, the Missing Grade Reporting System offers advanced features such as automated notifications for grade updates, personalized academic insights, and access to historical grade records. These features empower students to take control of their education and make informed decisions to enhance their learning experience.
+  </p>
+          </div>
+        </div>
+    </div>
+    <footer class="bg-dark text-white text-center py-5 mt-5" id="my-footer">
+        <div class="E">
+          <div class="row">
+            <div class="col-md-6">
+              <h3>About the Missing Grade Reporting System</h3>
+              <p>
+                The Missing Grade Reporting System is a cutting-edge platform that revolutionizes how students manage and report missing grades. It offers a seamless and efficient solution to ensure accurate academic records and foster transparent communication between students and educational institutions.
+              </p>
+            </div>
+            <div class="col-md-6">
+              <h3>Contact Information</h3>
+              <p>
+                For any inquiries or support, please reach out to our team:
+              </p>
+              <ul class="list-unstyled">
+                <li>Email: studmis@gmail.com</li>
+                <li>Phone: +1-123-456-7890</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+    
+      </footer>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+      <script>
+        // JavaScript code to handle the B bar toggle behavior
+        document.addEventListener('DOMContentLoaded', function () {
+          var navbarToggler = document.querySelector('.navbar-toggler');
+          var navbarCollapse = document.querySelector('.navbar-collapse');
+    
+          navbarToggler.addEventListener('click', function () {
+            navbarCollapse.classList.toggle('show');
+          });
+        });
+    
+    
+        document.addEventListener('DOMContentLoaded', function() {
+      var navbarToggler = document.querySelector('.navbar-toggler');
+      var navbarCollapse = document.querySelector('.navbar-collapse');
+    
+      navbarToggler.addEventListener('click', function() {
+        if (navbarCollapse.classList.contains('show')) {
+          navbarCollapse.style.maxHeight = null;
+        } else {
+          navbarCollapse.style.maxHeight = navbarCollapse.scrollHeight + 'px';
+        }
+      });
+    });
+      </script>
+    </body>
+    
+    </html>
