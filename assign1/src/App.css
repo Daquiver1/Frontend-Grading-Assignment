@@ -1,0 +1,403 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  background-color: #fff;
+  color: #070707;
+  width: 100% !important;
+  position: absolute;
+  z-index: 997;
+}
+h1{
+  text-align: center;
+  font-size: 35px;
+  margin: auto;
+  line-height: 48px;
+  letter-spacing: -.6px;
+  font-weight: bold;
+}
+
+.logo-container {
+  display: flex;
+  margin-left: 10%;
+}
+
+.logo {
+  width: 90px;
+  height: 50px; 
+  margin-right: 10px;
+}
+
+.department-name {
+  font-size: 15px;
+  font-weight: bold;
+  color: #090909;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #060606;
+  font-weight: bold;
+  font-size: 18px;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px; 
+}
+
+nav ul li a:hover {
+  color:blue; 
+}
+
+.landing-container {
+  display: flex;
+}
+
+.landing-content img {
+  max-width: 100%; 
+}
+
+.landing-content h2 {
+  color: #333; 
+}
+
+.landing-content p {
+  color: #555; 
+}
+
+.login-container {
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.login-btn {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.login-btn:hover {
+  background-color: #45a049;
+}
+
+.signup-link {
+  margin-top: 15px;
+  text-align: center;
+}
+.pagetitle {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.pagetitle div {
+  display: inline-block;
+  margin: 10px;
+}
+
+.pagetitle h1 {
+  font-size: 36px;
+}
+
+.pagetitle h5, .abouttitle p {
+  font-size: 16px;
+  margin: 5px 0;
+}
+
+.page {
+  margin: 20px 0;
+}
+
+.page h1 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.page p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.sidetext1, .sidetext2, .sidetext3, .sidetext4 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.image1, .image2, .image3 {
+  max-width: 30%;
+  height: auto;
+  margin-right: 20px;
+  transition: transform 0.3s ease-in-out;
+  align-content: flex-start;
+}
+
+.image1:hover, .image2:hover, .image3:hover {
+  transform: scale(1.1);
+}
+
+.video {
+  max-width: 30%;
+  height: auto;
+  margin-top: 20px;
+}
+.fade-in {
+  opacity: 0;
+  animation: fadeIn ease-in 1;
+  animation-fill-mode: forwards;
+  animation-duration: 1s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+#cover {
+  width: 90%;
+  height: 300px;
+}
+.body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-image: url(../src/images/im3.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.section1 {
+  position: relative;
+  max-width: 400px;
+  background-color: transparent;
+  border: 2px solid rgba(225, 225, 225, 0.5);
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 3rem;
+}
+.inputbox{
+  position: relative;
+  margin: 30px 0;
+  max-width: 310px;
+  border-bottom: 2px solid #fff;
+}
+.inputbox ion-icon {
+  position: absolute;
+  right: 8px;
+  color: #fff;
+  font-size: 1.2rem;
+  top: 20px;
+}
+.inputbox label {
+  position: absolute;
+  top: 50px;
+  left: 5px;
+  transform: translateY(-50%);
+  color: #fff;
+  font-size: 1rem;
+  pointer-events: none;
+  transition: all 0.5s ease-in-out;
+}
+input:focus ~ label,
+input:valid ~ label {
+  top: -5px;
+}
+.inputbox input {
+  width: 100%;
+  height: 60px;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  padding: 0 35px 0 5px;
+  color: #fff;
+}
+.forget {
+  margin: 35px 0;
+  font-size: 0.85rem;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+.forget label {
+  display: flex;
+  align-items: center;
+}
+.forget label input {
+  margin-right: 3px;
+}
+.forget a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+}
+.forget a:hover {
+  text-decoration: underline;
+}
+.head{
+  font-size: 2rem;
+  color: #fff;
+  text-align: center;
+}
+button {
+  width: 100%;
+  height: 40px;
+  border-radius: 40px;
+  background-color: rgb(225, 225, 225, 1);
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 600;
+  transition: all 0.4s ease;
+}
+button:hover {
+  background-color: rgb(225, 225, 225, 1);
+}
+.register {
+  font-size: 0.9rem;
+  color: #fff;
+  text-align: center;
+  margin: 25px 0 10px;
+}
+.register p a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+}
+.register p a:hover {
+  text-decoration: underline;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+  margin-top: 0;
+  padding: 0;
+}
+
+h1, h2 {
+  color: #007bff;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+strong {
+  color: #333;
+}
+
+form {
+  max-width: 400px;
+  margin: auto;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: #007bff;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 15px;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 8px 12px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
