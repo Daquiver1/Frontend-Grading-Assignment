@@ -48,4 +48,10 @@ To contribute to this project, please follow these guidelines:
 3. Commit your changes and push them to your branch.
 4. Submit a pull request for review.
 
+
+## Name
+Akrong Adjei Naa Adjorkor
+## ID
+11333063
+
 Please adhere to the project's coding standards and provide clear and detailed pull request descriptions.
