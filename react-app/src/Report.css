@@ -1,0 +1,15 @@
+.kf-bold {
+text-align: center;
+font-style: italic;
+background-color: bisque;
+color: rgb(245, 146, 245)
+
+}
+.level {
+    font-style: italic;
+    color: rgb(241, 131, 131);
+}
+.kf-primary {
+font-style: italic;
+color:rgb(245, 146, 245)
+}

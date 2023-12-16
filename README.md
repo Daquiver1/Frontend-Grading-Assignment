@@ -27,7 +27,7 @@ The application consists of 7 main pages:
 To set up the project locally, follow these steps:
 
 ```bash
-git clone https://github.com/your-github-username/DCIT_205_ASSIGNGMENT1.git
+git clone https://github.com/kathyfrema/11263775_DCIT205_Assignment1.git
 cd repo-name
 npm install
 npm start
@@ -37,7 +37,33 @@ This will start the application on `localhost` at the default port.
 
 ## Usage
 
-Describe how to use the application, highlighting key functionalities such as logging in, viewing grades, reporting missing grades, and contacting instructors.
+.Begin by logging into the missing grade report system with your Student ID and password
+
+.Do so by clicking on Login situated on the navbar.
+
+.After filling in your details, Submit.
+
+.The Grade Report screen appears.
+
+.Check for missing grade.
+
+.Report your missing grade.
+
+.This can also be done by clicking on Form also situated on the navbar.
+
+.By doing this you will  be able to access a page and you would have to fill the form.
+
+.After filling the form, Click on Submit.
+
+.You can verify if your report has been submitted by clicking on Dashboard.
+
+.There you will see your name and recently missing grades.
+
+.If extra assitance is needed fillll in a form at the Help and Support page, where we will be glad to assist you.
+
+.In case of anything else or further enquiries you can contact some of our instructors.
+
+Contact information is available on the 'Contact us' page.
 
 ## Contribution
 

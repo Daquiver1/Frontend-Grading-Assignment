@@ -1,0 +1,38 @@
+.stuff {
+    display: inline-block;
+    vertical-align: auto;
+    justify-content: center;
+    align-items: center ;
+    width: 250px;
+    margin-bottom: 40px;
+    font-style: italic;
+    margin-left: 150px;
+    margin-top: 10px;
+    
+    
+}
+.butt {
+    margin-left: 200px;
+    border-radius: 4px;
+    color: white;
+    background-color: rgb(29, 29, 136);
+    transition: background-color 0.3s ease, opacity 0.3s ease;
+}
+.butt:hover {
+    background-color: goldenrod;
+    opacity: 0.8;
+}
+.g{
+    border-radius: 4px;
+}
+.divi { 
+background-color:rgb(143, 160, 196) ;
+}
+.drone-ug {
+    width: 1370px;
+    height: 150px;
+    margin-left: -150px;
+    border-radius: 5px;
+    filter: blur(3px);
+}
+

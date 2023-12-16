@@ -1,0 +1,23 @@
+.icontact {
+    text-align: center;
+    font-style: italic;
+    background-color:rgb(42, 5, 77);
+    font-size: x-large;
+    color:white;
+}
+
+.contact {
+    display: inline-block;
+    padding: 50px 50px 50px 50px;
+}
+
+.contactpic{
+    width: 500px;
+}
+.info {
+    width: 250px;
+    padding: 20px 20px 20px 20px;
+    display: inline-block;
+    vertical-align: top;
+    
+}

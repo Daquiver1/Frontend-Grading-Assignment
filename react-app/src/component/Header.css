@@ -1,0 +1,14 @@
+.navbar {
+    background-color: darkblue;
+    
+}
+
+.navbar a {
+    color: goldenrod;
+  text-decoration: none;
+  font-style: italic;
+}
+
+.ug{
+    width: 250px;
+}
