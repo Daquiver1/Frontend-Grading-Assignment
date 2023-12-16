@@ -1,13 +1,12 @@
 ### DCIT_205_IA
 
+<a name="readme-top"></a>
 
-# <div align="center">UNIVERSITY OF GHANA, LEGON.</div>
+# UNIVERSITY OF GHANA, LEGON.
 ## <div align="center"><p>GRADE REPORT SYSTEM.</p></div>
-
 
 ### Description
 The Student Academic Portal is a user-friendly platform designed to empower students with easy access to their academic grades, provide insights into missing grades, and offer a streamlined process to address any errors or discrepancies in the grading system.
-
 
 ## Key Features
 ### 1. Grade Overview.
@@ -40,23 +39,21 @@ The Student Academic Portal is a user-friendly platform designed to empower stud
 - Empowers students to take control of their academic progress.
 - Facilitates quick identification and resolution of missing or incorrect grades.
 - Enhances communication between students and academic administrators.
-  
 
 ## Target Audience:
 - College and university students seeking a transparent and efficient way to manage their academic grades.
-
 
 ## Future Enhancements:
 - Integration with academic advisors for personalized guidance.
 - Gamification elements to motivate students towards academic goals.
 - Compatibility with additional grading systems and educational institutions.
 
-
+<br>
 
 The Student Academic Portal aims to foster a proactive and collaborative environment where students can actively engage with their academic progress, ensuring accurate and up-to-date information.
 
-
 ## Missing Grade Report - Walkthrough
+
 This walkthrough video will guide you through the key features and functionalities of the portal.
 
 ### 1. Landing Page
@@ -90,33 +87,32 @@ https://github.com/Daquiver1/Frontend-Grading-Assignment/assets/151379914/3457c6
 ## Set Up
 Clone this repository to your desired folder
  ```sh
-   cd 11012578-DCIT205 https://github.com/0verdoz/11012578-DCIT205.git
+   cd Assignment https://github.com/Overdoz/DCIT_205_IA
 
   ```
   ## Install
   Install this project with:
   ```
-    run a new terminal
-    git clone https://github.com/0verdoz/11012578-DCIT205.git
-    cd 11012578-DCIT205
-    npm install
+    cd Assignment
+    git install
 
   ```
   ## Usage
-  Execute the command below to run this project.
+  Execute the command below to rn this project.
   ```
   npm start
   ```
-  <b><u>NPM</u></b> is simply <b>Node Package Manager</b> for <b>Node JS.</b>
-  It helps in installing and uninstalling packages, check npm versions, run package scripts and 
-  so much more.
+  or
+  ```
+  yarn start
+  ```
+  But I built this project using <b><u>npm.</u></b>
 
 
-# Insights.
+# What I learnt.
 ### 1. Enhanced Development Speed with React:
 Engaging with React significantly boosted my project's pace by eliminating redundant coding tasks. The framework's component-based structure allowed for streamlined development, reducing the need to repeat code blocks. This not only enhanced efficiency but also contributed to a more maintainable and scalable codebase. The modular nature of React components facilitated code reuse, creating a smoother development experience.
 
 
 ### 2. Improved Bug Identification Across Platforms:
 Beyond the confines of the Visual Studio Code platform, React proved invaluable in honing my bug identification skills. While VS Code offers real-time alerts for potential issues, working with React expanded my ability to identify and troubleshoot bugs in diverse environments. This broader perspective on debugging has not only increased the robustness of my projects but has also strengthened my overall proficiency as a developer.
-
