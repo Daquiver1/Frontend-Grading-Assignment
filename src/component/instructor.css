@@ -1,0 +1,93 @@
+/* InstructorContact.css */
+
+/* Main container styles */
+.instructor-contact {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  /* Contact form styles */
+  .contact-form {
+    margin-bottom: 20px;
+  }
+  
+  .contact-form h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .contact-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact-form label {
+    margin-bottom: 5px;
+    color: #555;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .contact-form textarea {
+    resize: vertical;
+  }
+  
+  .contact-form button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .contact-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Calendar integration styles */
+  .calendar-integration {
+    padding-top: 20px;
+  }
+  
+  .calendar-integration h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  /* Placeholder styles for calendar integration */
+  .calendar-integration p {
+    color: #555;
+  }
+  
+  /* Additional styles for better responsiveness */
+  @media screen and (max-width: 768px) {
+    .instructor-contact {
+      margin: 10px;
+      padding: 15px;
+    }
+  
+    .contact-form input,
+    .contact-form textarea {
+      padding: 6px;
+      margin-bottom: 8px;
+    }
+  
+    .contact-form button {
+      padding: 8px 16px;
+    }
+  }
+  
