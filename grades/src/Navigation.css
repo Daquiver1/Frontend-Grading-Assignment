@@ -1,0 +1,10 @@
+.Navtab{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.linktopages{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    
+    
+}
