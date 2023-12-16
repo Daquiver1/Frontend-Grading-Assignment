@@ -1,0 +1,65 @@
+.landing-page {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 24px;
+    text-align: center;
+  }
+  
+  p {
+    font-size: 16px;
+    text-align: center;
+  }
+  
+  .btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  .hero {
+    background-image: url('Backy.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .hero h2 {
+    font-size: 32px;
+    margin-top: 100px;
+  }
+  
+  .hero p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .features {
+    padding: 20px;
+  }
+  
+  .features ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .features li {
+    margin-bottom: 10px;
+  }
+  
