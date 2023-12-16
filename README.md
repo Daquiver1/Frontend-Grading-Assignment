@@ -2,20 +2,19 @@
 
 ## Project Overview
 
-This project is a front-end web application for a Student Grade Reporting System. It simulates a real-world application where students can view, report, and manage their academic grades. This system addresses the issue of missing or unrecorded grades in a student's profile.
+Overall, the student grade reporting system plays a crucial role in promoting accountability, academic transparency, and effective communication within educational institutions, ultimately contributing to a positive learning environment for all stakeholders involved.
 
 ## Application Structure
 
 The application consists of 7 main pages:
 
-- **Homepage:** Introduction to the system and its purpose.
-- **Login Page:** Mock login interface for student authentication.
-- **Dashboard:** Displays an overview of the student’s current grades and alerts for missing grades.
-- **Grade Report:** Shows a detailed view of the student's grades filtered by semester or academic year.
-- **Missing Grade Form:** Enables students to report missing grades.
-- **Instructor Contact Page:** Lists instructors' contact information with a simulated email feature.
-- **Help and Support:** Provides FAQs and a mock support contact form.
-
+- **Homepage:** Introducing the system and its intended function.
+- **Login Page:** The functions of the login page encompass providing secure access to authorized users, typically through credentials such as usernames and passwords. This page serves as the initial point of entry into the system.
+- **Dashboard:** Shows a summary of the student's present grades and notifications for any absent grades.
+- **Grade Report:** Presents an in-depth examination of the student's grades sorted by semester or academic year.
+- **Missing Grade Form:** Allows students to notify about any missing grades.
+- **Instructor Contact Page:** Displays contact details for instructors, including a simulated email function.
+- **Help and Support:** Offers frequently asked questions (FAQs) along with a simulated support contact form.
 ## Technical Details
 
 - **Framework/Technology Used:** [React]
@@ -37,7 +36,13 @@ This will start the application on `localhost` at the default port.
 
 ## Usage
 
-Describe how to use the application, highlighting key functionalities such as logging in, viewing grades, reporting missing grades, and contacting instructors.
+- **Logging In:** Access the system by logging in with your credentials, typically a username and password.
+
+- **Viewing Grades:** Once logged in, navigate to the section that displays your grades. This might be labeled as "Gradebook" or a similar term.
+
+- **Reporting Missing Grades:**If you notice any missing grades, locate the designated option for reporting such issues. This could be a button or link labeled "Report Missing Grades" or something similar.
+
+- **Contacting Instructors::**In case you need further clarification or assistance, there should be a feature allowing you to contact your instructors. This might involve a messaging system within the platform or information on how to reach them outside the system.
 
 ## Contribution
 
