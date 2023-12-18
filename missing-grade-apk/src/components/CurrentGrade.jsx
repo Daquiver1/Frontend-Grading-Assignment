@@ -18,6 +18,12 @@ class CurrentGrade extends React.Component {
     };
  }
 
+ componentDidMount() {
+ if (this.state.missingGrades.length > 0) {
+    window.alert("You might be missing a grade or 2.");
+ }
+}
+
  render() {
     return (
         <div>
@@ -50,6 +56,7 @@ class CurrentGrade extends React.Component {
           ))}
         </ul>
       </div>
+      <Footer />
     </div>
     );
  }
