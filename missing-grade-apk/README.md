@@ -1,4 +1,7 @@
 # Getting Started with Create React App
+# 11136773
+# Henaku-Budu Jedidiah Kwame
+# Trtrex_Hax
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
