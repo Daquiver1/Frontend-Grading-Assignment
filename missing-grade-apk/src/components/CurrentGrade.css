@@ -1,0 +1,27 @@
+.currentGrade {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+   }
+   
+   table {
+    width: 100%;
+    border-collapse: collapse;
+   }
+   
+   th,
+   td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+   }
+   
+   th {
+    background-color: #f2f2f2;
+   }
+   
+   li {
+    margin-bottom: 5px;
+    color: red;
+   }
