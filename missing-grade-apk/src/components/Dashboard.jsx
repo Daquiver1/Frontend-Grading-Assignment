@@ -1,4 +1,6 @@
 import React from 'react'
+import './Dashboard.css'
+
 
 const subjects = [
  'Subject 1',
@@ -8,6 +10,15 @@ const subjects = [
  'Subject 5',
  'Subject 6',
 ]
+
+const creditHours = [
+  4,
+  4,
+  4,
+  4,
+  4,
+  4,
+ ]
 
 const generateMockGrades = () => {
  const grades = []
@@ -45,7 +56,7 @@ const Dashboard = () => {
  return (
     <div>
       <h1>Dashboard</h1>
-      <table>
+      <table className= "dashboard-table">
         <thead>
           <tr>
             <th>Semester</th>

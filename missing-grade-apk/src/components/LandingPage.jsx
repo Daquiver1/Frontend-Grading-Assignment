@@ -6,7 +6,8 @@ const LandingPage = () => {
     <div className="landing-page">
       <section>
         <h1>Welcome to Our Web Application!</h1>
-        <p className="paragraph">Our web application is designed to provide you with an efficient way to deal with all your grading issues.</p>
+        <p className="paragraph">Our web application is designed to provide you with an efficient way to deal with all your grading issues.
+        Login in right now and begin to access our wonderful site!</p>
       <button> <a>Login</a> </button>
       </section>
      
