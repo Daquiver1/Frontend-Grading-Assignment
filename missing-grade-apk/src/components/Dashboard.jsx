@@ -1,5 +1,7 @@
 import React from 'react'
 import './Dashboard.css'
+import Navbar from './Navbar'
+import Footer from './footer'
 
 
 const subjects = [
@@ -12,8 +14,8 @@ const subjects = [
 ]
 
 const creditHours = [
-  4,
-  4,
+  3,
+  5,
   4,
   4,
   4,
@@ -55,7 +57,8 @@ const Dashboard = () => {
 
  return (
     <div>
-      <h1>Dashboard</h1>
+      <Navbar/>
+      <h1>Cummulative Grade Report</h1>
       <table className= "dashboard-table">
         <thead>
           <tr>
@@ -68,6 +71,7 @@ const Dashboard = () => {
         </thead>
         <tbody>{renderTableData()}</tbody>
       </table>
+      <Footer/>
     </div>
  )
 }

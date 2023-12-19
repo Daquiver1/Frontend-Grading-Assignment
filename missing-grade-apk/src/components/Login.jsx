@@ -2,6 +2,8 @@ import React, { useState } from 'react'
 import Navbar from './Navbar'
 import Footer from './footer'
 import './Login.css'
+
+
 const Login = () => {
  const [isLogin, setIsLogin] = useState(true)
 
@@ -9,10 +11,11 @@ const Login = () => {
     setIsLogin(!isLogin)
  }
 
-//  <Navbar />
+
 
 return (
     <div>
+        <header><Navbar /></header>
       <div className="body">
         <div className={isLogin ? 'login-container' : 'login-container hide'}>
           <h2>Login</h2>
@@ -53,8 +56,9 @@ return (
           </button>
         </p>
       </div>
+      <Footer/>
     </div>
  )
 }
-{/* <Footer/> */}
+{/*  */}
 export default Login

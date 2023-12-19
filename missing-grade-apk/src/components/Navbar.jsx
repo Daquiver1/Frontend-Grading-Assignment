@@ -14,8 +14,7 @@ const Navbar = () => {
           <li><a href="/CurrentGrade">Dashboard</a></li>
           <li><a href="/Dashboard">Report</a></li>
           <li><a href="/Report">Missing Grades</a></li>
-          <li><a href="/Contacts">Contacts</a></li>
-          
+          <li><a href="/InstructorContactPage">Contacts</a></li>
           <li><a href="/FAQ">FAQs</a></li>
         </ul>
       </div>

@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import './Report.css';
+import Navbar from './Navbar'
+import Footer from './footer'
 
 class Report extends Component {
  constructor(props) {
@@ -25,8 +27,9 @@ class Report extends Component {
  render() {
     return (
       <div>
-        <h1>Report Wrong Grade</h1>
-        <form onSubmit={this.handleSubmit}>
+        <Navbar/>
+        <h1 className="h1-center">Missing Grade Report Card</h1>
+        <form className="box" onSubmit={this.handleSubmit}>
           <label>
             Name:
             <input type="text" name="name" onChange={this.handleChange} />
@@ -54,6 +57,7 @@ class Report extends Component {
           <br />
           <button className= "reportButton"type="submit">Submit</button>
         </form>
+        <Footer/>
       </div>
     );
  }

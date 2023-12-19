@@ -1,4 +1,6 @@
 import React from 'react';
+import Navbar from './Navbar'
+import Footer from './footer'
 import './CurrentGrade.css';
 
 class CurrentGrade extends React.Component {
@@ -18,6 +20,10 @@ class CurrentGrade extends React.Component {
 
  render() {
     return (
+        <div>
+            <header>
+                <Navbar/>
+            </header>
       <div className="currentGrade">
         <h1>Dashboard</h1>
         <h2>Overview of current grades</h2>
@@ -44,6 +50,7 @@ class CurrentGrade extends React.Component {
           ))}
         </ul>
       </div>
+    </div>
     );
  }
 }

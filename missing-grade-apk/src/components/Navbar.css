@@ -5,7 +5,10 @@
     background-color: #333;
     padding: 14px 20px;
     width: 100%;
-   }
+    margin-bottom: 20px; 
+       
+}
+   
    
    .navbar .nav-left h2 {
     color: #fff;
