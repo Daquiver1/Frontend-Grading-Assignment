@@ -24,14 +24,14 @@ function LogIn() {
   }
 
   return (
-    <div className='w-full h-screen flex'>
-      <div className='grid grid-cols-1 md:grid-cols-2 m-auto h-[550px] shadow-lg shadow-gray-600 sm:max-w-[900px] rounded-lg'>
-        <div className='hidden md:block w-full  h-[550px] '>
-          <img className='w-full h-full rounded-lg' src={img1} alt="" />
+    <div className='w-full h-screen flex bg-dark-purple'>
+      <div className='grid grid-cols-1 md:grid-cols-2 m-auto h-[550px] shadow-lg shadow-gray-600 sm:max-w-[900px] rounded-lg border'>
+        <div className='hidden md:block w-full  h-[549px] border-r'>
+          <img className='w-full h-[99.7%] rounded-lg ' src={img1} alt="" />
         </div>
 
-        <div className='p-4 flex flex-col justify-around'>
-          <form action="" onSubmit={handleSubmit}>
+        <div className='p-4 flex flex-col justify-around px-[40px] '>
+          <form action="" onSubmit={handleSubmit} > 
             <h1 className='text-4xl whitespace-nowrap text-[#00df94] font-bold text-center mb-8 flex'>
               <MdCastForEducation className='mr-[3px] flex self-center' />Grade Report Form
             </h1>
@@ -65,7 +65,7 @@ function LogIn() {
               </a>
               
 
-              <a href='#' className='self-center hover:scale-[1.1] ease-in-out duration-500 hover:text-cyan-400 '>Forgot StudentID or Password</a>
+              <a href='#' className='self-center hover:scale-[1.1] ease-in-out duration-500 hover:text-cyan-400 text-white'>Forgot StudentID or Password</a>
             </div>
           </form>
         </div>

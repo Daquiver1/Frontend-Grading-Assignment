@@ -1,13 +1,17 @@
 import Navbar from './components/Navbar'
 import LandingPage from './components/LandingPage'
 import SideBar from './components/Sidebar';
+import LogIn from './components/LogIn';
 
 
 function App() {
 
   return (
     <>
-      <SideBar />
+      {/* <LandingPage /> */}
+      {/* <SideBar /> */}
+      <LogIn />
+      
     </>
   )
 }
