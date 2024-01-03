@@ -9,8 +9,8 @@ function App() {
   return (
     <>
       {/* <LandingPage /> */}
-      {/* <SideBar /> */}
-      <LogIn />
+      <SideBar />
+      {/* <LogIn /> */}
       
     </>
   )
