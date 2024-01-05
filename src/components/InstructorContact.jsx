@@ -183,7 +183,7 @@ function InstructorContact() {
       <DataTable
         columns={columns}
         data={records}
-        fixedHeader
+        // fixedHeader
         pagination
       ></DataTable>
     </div>

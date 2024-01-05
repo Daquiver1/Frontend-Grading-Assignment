@@ -24,12 +24,12 @@ function HelpAndSupport() {
   }
 
   return (
-    <section className="max-w-xl mx-auto py-4 px-4">
+    <section className="mx-auto py-4 px-10  md:h-[730px] md:overflow-y-scroll ">
         <h1 className="text-center uppercase tracking-widest font-bold mb-8">
            Faqs
         </h1>
 
-        <section className="grid grid-cols-1 gap-8">
+        <section className="grid grid-cols-1 gap-8 ">
           {questionAndAnswers.map((faq, index) => (
             <HandleAnFaq {...faq} key={index} />
           ))}

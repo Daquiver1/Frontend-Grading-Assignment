@@ -60,7 +60,7 @@ function MissingGradeForm() {
 
 
     return (
-      <div className='grid gap-x-[30px] p-10 grid-cols-2 grid-rows-2 h-[580px]  border-b border-dark-purple text-purple-800'>
+      <div className='grid gap-x-[30px] p-10 grid-cols-2 grid-rows-2 text-purple-800 '>
         <div className="relative  ">
           <img
             className="w-full h-[500px] object-cover rounded-xl opacity-[0.8] relative rotate-[360deg] duration-500"
@@ -68,7 +68,7 @@ function MissingGradeForm() {
             alt={`img ${currentIndex + 1}`}
           />
           <Typed
-            className='text-3xl font-bold md:pl-4 pl-2 absolute top-1/2 '
+            className='text-3xl font-bold md:pl-4 pl-2 absolute top-1/4 '
             strings={['If a student believes there is an error in the grading of a specific assignment or exam.', 'If an exam was taken, but the grade has not been recorded., a student may submit a missing grade report to seek information on when the grades will be available.', 'Enter Expected Grade', 'Sometimes, an instructor might not have submitted grades for a specific assignment or exam., leading to an incomplete grade for the course.', 'The missing grade report serves as a formalized communication channel between students and instructors.',]}
             typeSpeed={80} backSpeed={20}
             loop
@@ -156,7 +156,7 @@ function MissingGradeForm() {
     }
 
     return (
-      <div className='p-10  h-[580px]  border-b border-dark-purple '>
+      <div className='p-10  h-[580px]'>
         <div className='mr-3 text-white'>
           <form action="" className='grid' onSubmit={handleSubmit}>
             <input

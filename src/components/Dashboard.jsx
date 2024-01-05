@@ -13,7 +13,7 @@ function Dashboard() {
         <button className="bg-dark-purple p-10 rounded-[100%]  w-[140px]">First Class</button>
       </div>
 
-      <GradeReport />
+      
     </div>
   )
 }

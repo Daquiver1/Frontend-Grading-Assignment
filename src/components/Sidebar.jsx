@@ -10,6 +10,7 @@ import { NavLink } from "react-router-dom";
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Dashboard from "./Dashboard";
 import LandingPage from "./LandingPage";
+import Footer from "./Footer";
 
 function SideBar() {
   const [open, setOpen] = useState(true);
@@ -32,6 +33,7 @@ function SideBar() {
   }, [])
   
   return (
+    <div>
     <div className={window.innerWidth > 750 && `flex`}>
       <BrowserRouter>
       {window.innerWidth < 750 ? <div> <Navbar/></div> : 
@@ -43,58 +45,63 @@ function SideBar() {
 
 
 
-      {window.innerWidth > 997 && <div
-        className={` ${
-          open ? "w-72" : "w-20 "
-        } bg-dark-purple h-[600px] p-5  pt-8 relative duration-300 mt-[40px] `}
-      >
-        <img
-          src="./src/assets/control.png"
-          className={`absolute cursor-pointer -right-3 top-9 w-7 border-dark-purple
-           border-2 rounded-full  ${!open && "rotate-180"}`}
-          onClick={() => setOpen(!open)}
-        />
-        <div className="flex gap-x-4 items-center">
+      {window.innerWidth > 800 && 
+      <div> 
+        <div
+          className={` ${
+            open ? "w-72" : "w-20 "
+          } bg-dark-purple h-[750px] p-5  pt-8 relative duration-300 mt-[40px] `}
+        >
           <img
-            src="./src/assets/logo.png"
-            className={`cursor-pointer duration-500 ${
-              open && "rotate-[360deg]"
-            }`}
+            src="./src/assets/control.png"
+            className={`absolute cursor-pointer -right-3 top-9 w-7 border-dark-purple
+            border-2 rounded-full  ${!open && "rotate-180"}`}
+            onClick={() => setOpen(!open)}
           />
-          <h1
-            className={`text-white origin-left font-medium text-xl duration-200 ${
-              !open && "scale-0"
-            }`}
-          >
-            Grade Form
-          </h1>
-        </div>
-        <ul className="pt-6">
-          {Menus.map((Menu, index) => (
-            <NavLink
-              key={index}
-              to={Menu.href}
-              className={({isActive}) => {
-                return `flex   p-2 cursor-pointer hover:bg-light-white text-gray-300 text-sm items-center gap-x-4 
-                ${Menu.gap ? "mt-9" : "mt-2"} ${
-                  index === 0 && "bg-light-white"
-                }`  +
-                (!isActive ? 'text-gray-300 hover:bg-gray-700 hover:text-white rounded-md ' : 'bg-gray-900 text-white bg-light-white rounded-md');
-              }}
+          <div className="flex gap-x-4 items-center">
+            <img
+              src="./src/assets/logo.png"
+              className={`cursor-pointer duration-500 ${
+                open && "rotate-[360deg]"
+              }`}
+            />
+            <h1
+              className={`text-white origin-left font-medium text-xl duration-200 ${
+                !open && "scale-0"
+              }`}
             >
-              <img src={`./src/assets/${Menu.src}.png`} />
-              <span className={`${!open && "hidden"} origin-left duration-200`}>
-                {Menu.title}
-              </span>
-            </NavLink>
-          ))}
-        </ul>
+              Grade Form
+            </h1>
+          </div>
+          <ul className="pt-6">
+            {Menus.map((Menu, index) => (
+              <NavLink
+                key={index}
+                to={Menu.href}
+                className={({isActive}) => {
+                  return `flex   p-2 cursor-pointer hover:bg-light-white text-gray-300 text-sm items-center gap-x-4 
+                  ${Menu.gap ? "mt-9" : "mt-2"} ${
+                    index === 0 && "bg-light-white"
+                  }`  +
+                  (!isActive ? 'text-gray-300 hover:bg-gray-700 hover:text-white rounded-md ' : 'bg-gray-900 text-white bg-light-white rounded-md');
+                }}
+              >
+                <img src={`./src/assets/${Menu.src}.png`} />
+                <span className={`${!open && "hidden"} origin-left duration-200`}>
+                  {Menu.title}
+                </span>
+              </NavLink>
+            ))}
+          </ul>
+        </div>
+        
       </div>}
+      
 
 
 
       
-      <div className="h-screen flex-1  mt-[60px]">
+      <div className="md:h-[730px] self-center md:mt-[60px] w-full m-auto">
         <Routes>
           <Route path='/helpAndSupport' element={<HelpAndSupport />}></Route>
           <Route path='/logIn' element={<LogIn />}></Route>
@@ -109,6 +116,11 @@ function SideBar() {
       
       </div>
       </BrowserRouter>
+      
+
+    </div>
+
+    {/* <Footer /> */}
     </div>
   );
 };
