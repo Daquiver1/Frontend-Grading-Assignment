@@ -1,7 +1,6 @@
 /* eslint-disable no-unused-vars */
 import React from 'react'
 import Typed from 'react-typed'
-import LogIn from './LogIn'
 import {NavLink} from "react-router-dom"
 
 
