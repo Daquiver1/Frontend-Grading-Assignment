@@ -12,7 +12,7 @@ import Dashboard from "./Dashboard";
 import LandingPage from "./LandingPage";
 import Footer from "./Footer";
 
-function SideBar() {
+function SideBar({render}) {
   const [open, setOpen] = useState(true);
   const [width, setWidth] = useState(window.innerWidth)
   const Menus = [
@@ -102,8 +102,7 @@ function SideBar() {
 
       
       <div className="md:h-[730px] self-center md:mt-[60px] w-full m-auto">
-        
-      
+        {render}
       </div>
 
       

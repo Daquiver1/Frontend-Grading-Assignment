@@ -1,6 +1,6 @@
 import SideBar from "./Sidebar"
 
-function init(){
+function Init(){
   return (
     <div>
       <h1 className="text-center font-bold text-[32px] text-dark-purple">
@@ -19,7 +19,7 @@ function init(){
 function Dashboard() {
   return (
     <div>
-      <SideBar />
+      <SideBar render={<Init />}/>
     </div>
   )
 }
