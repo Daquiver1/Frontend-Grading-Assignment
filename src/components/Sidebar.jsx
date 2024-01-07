@@ -7,7 +7,7 @@ import InstructorContact from "./InstructorContact";
 import MissingGradeForm from "./MissingGradeForm";
 import GradeReport from "./GradeReport";
 import { NavLink } from "react-router-dom";
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Dashboard from "./Dashboard";
 import LandingPage from "./LandingPage";
 import Footer from "./Footer";
@@ -19,7 +19,7 @@ function SideBar() {
     { title: "Dashboard", href: "/Dashboard" , src: "Chart_fill"},
     { title: "Grade Report Form", href: "/GradeReport", src: "form" , gap: true},
     { title: "Missing Grade Form ", href: "/MissingGradeForm", src: "form2" },
-    { title: "Instructor Contact ", href: "InstructorContact", src: "contact" },
+    { title: "Instructor Contact ", href: "/InstructorContact", src: "contact" },
     { title: "Help and Support ", href: "/HelpAndSupport" ,src: "faq", gap: true },
   ];
 
@@ -35,7 +35,7 @@ function SideBar() {
   return (
     <div>
     <div className={window.innerWidth > 750 && `flex`}>
-      <BrowserRouter>
+
       {window.innerWidth < 750 ? <div> <Navbar/></div> : 
       <nav className='w-full items-center flex text-3xl font-bold text-[#00df94]  top-0 h-[60px] fixed left-0 right-0  z-20 justify-end pr-[5%] py-[20px] bg-dark-purple '>
         <h1 className='flex'>
@@ -102,18 +102,10 @@ function SideBar() {
 
       
       <div className="md:h-[730px] self-center md:mt-[60px] w-full m-auto">
-        <Routes>
-          <Route path='/helpAndSupport' element={<HelpAndSupport />}></Route>
-          <Route path='/HelpAndSupport' element={<HelpAndSupport />}></Route>
-          <Route path='/MissingGradeForm' element={<MissingGradeForm />}></Route>
-          <Route path='/GradeReport' element={<GradeReport />}></Route>
-          <Route path='/InstructorContact' element={<InstructorContact />}></Route>
-          <Route path='/Dashboard' element={<Dashboard />}></Route>
-          <Route path='/LandingPage' element={<LandingPage />}></Route>
-        </Routes>
+        
       
       </div>
-      </BrowserRouter>
+
       
 
     </div>
