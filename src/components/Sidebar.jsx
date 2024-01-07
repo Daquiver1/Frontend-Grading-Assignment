@@ -1,16 +1,8 @@
 import { useState, useEffect } from "react";
 import { MdCastForEducation } from "react-icons/md";
-import LogIn from './LogIn';
 import Navbar from './Navbar';
-import HelpAndSupport from './HelpAndSupport'
-import InstructorContact from "./InstructorContact";
-import MissingGradeForm from "./MissingGradeForm";
-import GradeReport from "./GradeReport";
 import { NavLink } from "react-router-dom";
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Dashboard from "./Dashboard";
-import LandingPage from "./LandingPage";
-import Footer from "./Footer";
+
 
 function SideBar({render}) {
   const [open, setOpen] = useState(true);
@@ -19,7 +11,7 @@ function SideBar({render}) {
     { title: "Dashboard", href: "/Dashboard" , src: "Chart_fill"},
     { title: "Grade Report Form", href: "/GradeReport", src: "form" , gap: true},
     { title: "Missing Grade Form ", href: "/MissingGradeForm", src: "form2" },
-    { title: "Instructor Contact ", href: "/Sidebar/InstructorContact", src: "contact" },
+    { title: "Instructor Contact ", href: "/InstructorContact", src: "contact" },
     { title: "Help and Support ", href: "/HelpAndSupport" ,src: "faq", gap: true },
   ];
 

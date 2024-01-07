@@ -24,7 +24,7 @@ function App() {
           <Route path='/HelpAndSupport' element={<HelpAndSupport />}></Route>
           <Route path='/MissingGradeForm' element={<MissingGradeForm />}></Route>
           <Route path='/GradeReport' element={<GradeReport />}></Route>
-          <Route path='/Sidebar/InstructorContact' element={<InstructorContact />}></Route>
+          <Route path='/InstructorContact' element={<InstructorContact />}></Route>
           <Route path='/Dashboard' element={<Dashboard />}></Route>
           <Route path='/LandingPage' element={<LandingPage />}></Route>
         </Routes>

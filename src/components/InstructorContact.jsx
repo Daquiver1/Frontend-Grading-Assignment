@@ -1,7 +1,8 @@
 import DataTable from "react-data-table-component"
 import { useState } from "react"
+import SideBar from "./Sidebar";
 
-function InstructorContact() {
+function Init() {
 // Instructor Contact Page
 // List of instructors with contact details.
 // Option to send a simulated email to the instructor (no real email, just a mock-up).
@@ -186,6 +187,14 @@ function InstructorContact() {
         // fixedHeader
         pagination
       ></DataTable>
+    </div>
+  )
+}
+
+function InstructorContact(){
+  return (
+    <div>
+      <SideBar render={<Init />} />
     </div>
   )
 }

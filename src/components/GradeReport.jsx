@@ -1,7 +1,8 @@
 import DataTable from "react-data-table-component"
 import { useState } from "react"
+import SideBar from "./Sidebar"
 
-function InstructorContact() {
+function Lin() {
 
 // Grade Report Page
 // Detailed view of all courses and respective grades.
@@ -142,4 +143,13 @@ function InstructorContact() {
   )
 }
 
-export default InstructorContact
+function GradeReport(){
+  return (
+    <div>
+      <SideBar render={<Lin />} />
+    </div>
+  )
+}
+
+export default GradeReport
+

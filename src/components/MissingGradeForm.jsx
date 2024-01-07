@@ -3,9 +3,10 @@ import img1 from '../assets/img1.jpg'
 import img2 from '../assets/img2.jpg'
 import img3 from '../assets/img3.jpg'
 import Typed from 'react-typed'
+import SideBar from './Sidebar'
 
 
-function MissingGradeForm() {
+function Init() {
 
   
   const [width, setWidth] = useState(window.innerWidth)
@@ -219,6 +220,12 @@ function MissingGradeForm() {
     <>
       {window.innerWidth > 1000 ? <Above1000 /> : <Below1000 />}
     </>
+  )
+}
+
+function MissingGradeForm(){
+  return (
+    <SideBar render={<Init />}/>
   )
 }
 

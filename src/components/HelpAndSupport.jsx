@@ -1,8 +1,10 @@
 import {useState} from 'react';
 import { faqs } from "./FAQsData";
 import HandleAnFaq from './HandleAnFaq';
+import SideBar from './Sidebar';
 
-function HelpAndSupport() {
+
+function Init() {
   const [formData, setFormData] = useState({
     email: '',
     descriptionOfIssue: ''
@@ -61,6 +63,14 @@ function HelpAndSupport() {
           >Submit</button>
         </form>
       </section>
+  )
+}
+
+function HelpAndSupport(){
+  return (
+    <div>
+      <SideBar render={<Init />}/>
+    </div>
   )
 }
 
