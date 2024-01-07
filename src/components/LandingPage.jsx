@@ -2,18 +2,19 @@
 import React from 'react'
 import Typed from 'react-typed'
 import LogIn from './LogIn'
+import {NavLink} from "react-router-dom"
 
 
 export default function LandingPage() {
-  function Homepage(){
+
     return (
-      <div className='max-w-[800px] w-full h-screen mx-auto text-center flex flex-col justify-center '>
+      <div className=' w-full h-screen mx-auto text-center flex flex-col justify-center bg-dark-purple '>
         <p className='text-[#00df94] font-bold p-2'>Missing Grade Reporting System</p>
-        <h1 className='md:text-5xl sm:text-4xl text-3xl font-bold md:py-6 whitespace-nowrap'>Address Grade Discrepancies</h1>
+        <h1 className='md:text-5xl sm:text-4xl text-3xl font-bold md:py-6 whitespace-nowrap text-white'>Address Grade Discrepancies</h1>
         <div className='flex justify-center items-center'>
-          <p className='md:text-4xl sm:text-3xl text-xl font-bold py-4'>Check</p>
+          <p className='md:text-4xl sm:text-3xl text-xl font-bold py-4 text-white'>Check</p>
           <Typed 
-            className='md:text-4xl sm:text-3xl text-xl font-bold md:pl-4 pl-2' 
+            className='md:text-4xl sm:text-3xl text-xl font-bold md:pl-4 pl-2 text-white' 
             strings={['DCIT 201', 'UGRC 223', 'DCIT 205', 'MATH 223', 'DCIT 205',]} 
             typeSpeed={120} backSpeed={140} 
             loop
@@ -24,21 +25,15 @@ export default function LandingPage() {
         </p>
         
         
-        <a href="/LogIn">
+        <NavLink to="/LogIn">
         <button className='bg-[#00df94] w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-black'>
           Log In
         </button>
-        </a>
+        </NavLink>
         
         
       </div>
     )
-  }
-
-  return (
-    <div className='h-[100%] absolute w-full  text-white my-auto bg-dark-purple  '>
-      <Homepage />
-    </div>
-  )
+  
 }
 

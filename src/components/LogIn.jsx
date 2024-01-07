@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import img1 from '../assets/img1.jpg'
 import { MdCastForEducation } from "react-icons/md";
-import {Link} from "react-router-dom"
+import {NavLink} from "react-router-dom"
 
 function LogIn() {
   const [studentData, setStudentData] = useState({
@@ -25,7 +25,7 @@ function LogIn() {
   }
 
   return (
-    <div className='w-full h-screen flex bg-dark-purple'>
+    <div className='w-full h-[] flex bg-dark-purple py-10 px-5'>
       <div className='grid grid-cols-1 md:grid-cols-2 m-auto h-[550px] shadow-lg shadow-gray-600 sm:max-w-[900px] rounded-lg border'>
         <div className='hidden md:block w-full  h-[549px] border-r'>
           <img className='w-full h-[99.7%] rounded-lg ' src={img1} alt="" />
@@ -59,11 +59,11 @@ function LogIn() {
                 minLength={5}
               />
 
-              <Link to="/Dashboard">
+              <NavLink to="/Dashboard">
                 <button 
                   className='px-5 rounded-lg py-2 my-4 bg-indigo-500 hover:bg-violet-950 hover:text-white ease-in-out duration-500'
                 >Sign In</button>
-              </Link>
+              </NavLink>
               
 
               <a href='#' className='self-center hover:scale-[1.1] ease-in-out duration-500 hover:text-cyan-400 text-white'>Forgot StudentID or Password</a>
