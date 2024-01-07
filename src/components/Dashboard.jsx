@@ -1,17 +1,39 @@
 import SideBar from "./Sidebar"
+import Chart from './Chart'
+import { useState, useEffect } from "react"
 
 function Init(){
-  return (
-    <div>
-      <h1 className="text-center font-bold text-[32px] text-dark-purple">
-          Performance Overview
-      </h1>
+  const [width, setWidth] = useState(window.innerWidth)
+  useEffect(() => {
+    function watchWidth() {
+      setWidth(window.innerWidth)
+      console.log(width)
+    }
+    
+    window.addEventListener("resize", watchWidth)
+  }, [])
 
-      <div className="flex justify-center py-20 text-white">
-        <button className="bg-dark-purple p-10 w-[140px]  mr-10 rounded-[100%]">GPA 3.85</button>
-        <button className="bg-dark-purple p-10 rounded-[100%] w-[140px] mr-10">24 Credits Hours</button>
-        <button className="bg-dark-purple p-10 rounded-[100%]  w-[140px]">First Class</button>
-      </div>
+  return (
+    <div className={' relative mx-4 mt-4 justify-center ' + (width > 1170 ? " flex space-x-3": "") }>
+      <div className={"border p-3" + (width < 1170 ? "flex justify-center" : "")}>
+        {width}
+        <Chart 
+          sem={"First Semester"}
+          subjects= {['MATH 123', 'DCIT103', 'DCIT102', 'MATH122', 'UGRC150']}
+          marks={[ 100, 90, 87, 75, 90, 89]}
+          borderCol={'rgb(53, 162, 235)'}
+          backgroundCol={'rgba(53, 162, 235, 0.5)'}
+        /> 
+      </div>  
+      <div className={"border p-3" + (width < 1170 ? "flex justify-center" : "")}>
+        <Chart 
+          sem={"Second Semester"}
+          subjects= {['MATH126', 'MATH122', 'DCIT104', 'DCIT102', 'UGRC150']}
+          marks={[ 100, 90, 87, 75, 90, 89]}
+          borderCol={'rgb(255, 99, 132)'}
+          backgroundCol={'rgba(255, 99, 132, 0.5)'}
+        />  
+      </div>   
     </div>
   )
 }
