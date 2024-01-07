@@ -19,7 +19,7 @@ function SideBar() {
     { title: "Dashboard", href: "/Dashboard" , src: "Chart_fill"},
     { title: "Grade Report Form", href: "/GradeReport", src: "form" , gap: true},
     { title: "Missing Grade Form ", href: "/MissingGradeForm", src: "form2" },
-    { title: "Instructor Contact ", href: "/InstructorContact", src: "contact" },
+    { title: "Instructor Contact ", href: "/Sidebar/InstructorContact", src: "contact" },
     { title: "Help and Support ", href: "/HelpAndSupport" ,src: "faq", gap: true },
   ];
 
