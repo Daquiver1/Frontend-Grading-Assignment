@@ -59,7 +59,7 @@ function LogIn() {
                 minLength={5}
               />
 
-              <Link to="/SideBar">
+              <Link to="/Dashboard">
                 <button 
                   className='px-5 rounded-lg py-2 my-4 bg-indigo-500 hover:bg-violet-950 hover:text-white ease-in-out duration-500'
                 >Sign In</button>
