@@ -5,18 +5,20 @@ import LogIn from './components/LogIn';
 import Footer from './components/Footer';
 
 
+import {BrowserRouter as Router, Routes, Route} from "react-router-dom"
+
+
 function App() {
 
   return (
     <div className='relative'>
-      {/* <LandingPage /> */}
-      <div>
-        <SideBar />
-      </div>
-      
-      <Footer />
-      {/* <LogIn /> */}
-      
+      <Router>
+        <Routes>
+          <Route path='/' element={<LandingPage />} />
+          <Route path='/LogIn' element={<LogIn />} />
+          <Route path='/SideBar' element={<SideBar />} />
+        </Routes>
+      </Router>
     </div>
   )
 }

@@ -1,6 +1,5 @@
 /* eslint-disable no-unused-vars */
 import React from 'react'
-import { NavLink, Link, Route, Routes, BrowserRouter } from 'react-router-dom'
 import Typed from 'react-typed'
 import LogIn from './LogIn'
 
@@ -38,14 +37,7 @@ export default function LandingPage() {
 
   return (
     <div className='h-[100%] absolute w-full  text-white my-auto bg-dark-purple  '>
-      <BrowserRouter>
-      
-
-        <Homepage />
-      <Routes>
-        <Route path='/LogIn' element={<LogIn />}></Route>
-      </Routes>
-    </BrowserRouter>
+      <Homepage />
     </div>
   )
 }

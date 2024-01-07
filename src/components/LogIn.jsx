@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import img1 from '../assets/img1.jpg'
 import { MdCastForEducation } from "react-icons/md";
+import {Link} from "react-router-dom"
 
 function LogIn() {
   const [studentData, setStudentData] = useState({
@@ -58,11 +59,11 @@ function LogIn() {
                 minLength={5}
               />
 
-              <a href="">
+              <Link to="/SideBar">
                 <button 
                   className='px-5 rounded-lg py-2 my-4 bg-indigo-500 hover:bg-violet-950 hover:text-white ease-in-out duration-500'
                 >Sign In</button>
-              </a>
+              </Link>
               
 
               <a href='#' className='self-center hover:scale-[1.1] ease-in-out duration-500 hover:text-cyan-400 text-white'>Forgot StudentID or Password</a>

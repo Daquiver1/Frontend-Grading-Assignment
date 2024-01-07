@@ -104,8 +104,6 @@ function SideBar() {
       <div className="md:h-[730px] self-center md:mt-[60px] w-full m-auto">
         <Routes>
           <Route path='/helpAndSupport' element={<HelpAndSupport />}></Route>
-          <Route path='/logIn' element={<LogIn />}></Route>
-          <Route path='/Navbar' element={<Navbar />}></Route>
           <Route path='/HelpAndSupport' element={<HelpAndSupport />}></Route>
           <Route path='/MissingGradeForm' element={<MissingGradeForm />}></Route>
           <Route path='/GradeReport' element={<GradeReport />}></Route>
@@ -119,8 +117,6 @@ function SideBar() {
       
 
     </div>
-
-    {/* <Footer /> */}
     </div>
   );
 };
