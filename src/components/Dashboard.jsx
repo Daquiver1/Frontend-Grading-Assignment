@@ -1,6 +1,6 @@
-import GradeReport from './GradeReport'
+import SideBar from "./Sidebar"
 
-function Dashboard() {
+function init(){
   return (
     <div>
       <h1 className="text-center font-bold text-[32px] text-dark-purple">
@@ -12,8 +12,14 @@ function Dashboard() {
         <button className="bg-dark-purple p-10 rounded-[100%] w-[140px] mr-10">24 Credits Hours</button>
         <button className="bg-dark-purple p-10 rounded-[100%]  w-[140px]">First Class</button>
       </div>
+    </div>
+  )
+}
 
-      
+function Dashboard() {
+  return (
+    <div>
+      <SideBar />
     </div>
   )
 }

@@ -20,7 +20,6 @@ function App() {
         <Routes>
           <Route path='/' element={<LandingPage />} />
           <Route path='/LogIn' element={<LogIn />} />
-          <Route path='/SideBar' element={<SideBar />} />
           <Route path='/helpAndSupport' element={<HelpAndSupport />}></Route>
           <Route path='/HelpAndSupport' element={<HelpAndSupport />}></Route>
           <Route path='/MissingGradeForm' element={<MissingGradeForm />}></Route>
