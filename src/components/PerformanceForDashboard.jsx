@@ -19,7 +19,7 @@ export function PerformanceForDashboard(){
           <Chart 
             sem={"First Semester"}
             subjects= {["" ,'MATH 123', 'DCIT103', 'DCIT102', 'MATH122', 'UGRC150',]}
-            marks={[ 80, 90, 87, 75, 90, 100]}
+            marks={[ 0, 90, 87, 75, 90, 100]}
             borderCol={'rgb(53, 162, 235)'}
             backgroundCol={'rgba(53, 162, 235, 0.5)'}
           /> 
@@ -29,7 +29,7 @@ export function PerformanceForDashboard(){
           <Chart 
             sem={"Second Semester"}
             subjects= {["",'MATH126', 'MATH122', 'DCIT104', 'DCIT102', 'UGRC150']}
-            marks={[ 70, 70, 97, 75, 80, 75]}
+            marks={[ 0, 70, 97, 75, 80, 75]}
             borderCol={'rgb(255, 99, 132)'}
             backgroundCol={'rgba(255, 99, 132, 0.5)'}
           />  
