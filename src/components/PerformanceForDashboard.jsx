@@ -1,9 +1,8 @@
-import SideBar from "./Sidebar"
 import Chart from './Chart'
+import React from 'react';
 import { useState, useEffect } from "react"
-import Gpa from "./GpaForDashboard"
 
-function Init(){
+export function PerformanceForDashboard(){
   const [width, setWidth] = useState(window.innerWidth)
   useEffect(() => {
     function watchWidth() {
@@ -15,8 +14,7 @@ function Init(){
   }, [])
 
   return (
-    <div>
-      <div className={' relative  mt-4 justify-center ' + (width > 1199 ? " flex space-x-3 mx-4": "space-y-4 mx-4") }>
+  <div className={' relative  mt-4 justify-center ' + (width > 1199 ? " flex space-x-3 mx-4": "space-y-4 mx-4") }>
         <div className={"border p-3 " + (width < 1199 ? "flex justify-center" : "")}>
           {width}
           <Chart 
@@ -37,21 +35,5 @@ function Init(){
             backgroundCol={'rgba(255, 99, 132, 0.5)'}
           />  
         </div>   
-      </div>
-
-      <div className={"border p-3 " + (width < 1199 ? "flex justify-center" : "")}>
-        lin
-      </div> 
-    </div>
-  )
-}
-
-function Dashboard() {
-  return (
-    <div>
-      <SideBar render={<Init />}/>
-    </div>
-  )
-}
-
-export default Dashboard
+  </div>
+)}
