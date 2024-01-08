@@ -43,7 +43,7 @@ export default function App() {
   };
 
   return (
-    <div className='w-[150px]'>
+    <div className='w-[100px]'>
       <Pie data={data} options={options}/>
     </div>
   )
