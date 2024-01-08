@@ -3,6 +3,7 @@ import Chart from './Chart'
 import { useState, useEffect } from "react"
 import Gpa from "./GpaForDashboard"
 import { PerformanceForDashboard } from "./PerformanceForDashboard"
+import { ThreeDots } from 'react-loader-spinner'
 
 
 function Init(){
@@ -62,7 +63,22 @@ function Init(){
         </div> 
 
         <div className="border flex-1 justify-center flex items-center flex-col">
-          <h1 className="font-bold text-xl text-center">Pending Reviews</h1>
+          
+          <div className="flex items-center">
+            <h1 className="font-bold text-xl text-center mr-2">Pending Reviews </h1>
+            <div className="pt-[6px]">
+              <ThreeDots
+                  visible={true}
+                  height="10"
+                  width="30"
+                  color="#081A51"
+                  radius="9"
+                  ariaLabel="three-dots-loading"
+                  wrapperStyle={{}}
+                  wrapperClass=""
+                />
+            </div>
+          </div>
           <h1>None</h1>
         </div>
       </div>
