@@ -15,6 +15,8 @@ import { Line } from 'react-chartjs-2';
 
 
 export default function App({subjects, marks, sem, borderCol, backgroundCol}) {
+  
+
   ChartJS.register(
     CategoryScale,
     LinearScale,
@@ -31,6 +33,9 @@ export default function App({subjects, marks, sem, borderCol, backgroundCol}) {
     plugins: {
       legend: {
         position: 'top',
+      },
+      tooltip: {
+        enabled: true
       },
       title: {
         display: false,

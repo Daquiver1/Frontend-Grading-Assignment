@@ -15,6 +15,8 @@ function Init(){
     window.addEventListener("resize", watchWidth)
   }, [])
 
+  
+
   return (
     <div>
       <PerformanceForDashboard />
