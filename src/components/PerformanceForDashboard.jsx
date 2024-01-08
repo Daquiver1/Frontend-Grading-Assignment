@@ -16,7 +16,6 @@ export function PerformanceForDashboard(){
   return (
   <div className={' relative  mt-4 justify-center ' + (width > 1199 ? " flex space-x-3 mx-4": "space-y-4 mx-4") }>
         <div className={"border p-3 " + (width < 1199 ? "flex justify-center" : "")}>
-          {width}
           <Chart 
             sem={"First Semester"}
             subjects= {["" ,'MATH 123', 'DCIT103', 'DCIT102', 'MATH122', 'UGRC150',]}

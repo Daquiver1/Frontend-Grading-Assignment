@@ -46,7 +46,7 @@ function Init(){
 
   return (
     <div className={width <770 ? "mb-20": ""}>
-      <h1 className="font-bold text-3xl mx-5 text-center p-3">Performance Overview {width}</h1>
+      <h1 className="font-bold text-3xl mx-5 text-center p-3">Performance Overview</h1>
       <div className="border mx-5 p-2 pb-6">
         <PerformanceForDashboard />
       </div>
