@@ -9,7 +9,7 @@ import { ThreeDots } from 'react-loader-spinner'
 function Init(){
   let gpa = 3.8
   let classType = "Unknown"
-  handleClass()
+  handleClass();
 
 
   function handleClass() {
