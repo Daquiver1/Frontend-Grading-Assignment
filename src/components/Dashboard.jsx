@@ -62,7 +62,7 @@ function Init(){
           </div>
         </div> 
 
-        <div className="border flex-1 justify-center flex items-center flex-col">
+        <div className="border flex-1 justify-center flex items-center flex-col pr-2">
           
           <div className="flex items-center">
             <h1 className="font-bold text-xl text-center mr-2">Pending Reviews </h1>
