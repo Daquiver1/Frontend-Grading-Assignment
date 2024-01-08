@@ -40,7 +40,7 @@ function Init(){
       </div>
 
       <div className={"border p-3 " + (width < 1199 ? "flex justify-center" : "")}>
-        lin
+        <Gpa />
       </div> 
     </div>
   )
