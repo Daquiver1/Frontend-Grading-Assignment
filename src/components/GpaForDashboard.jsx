@@ -3,7 +3,7 @@ import { Chart as ChartJS, ArcElement, Tooltip, Legend } from 'chart.js';
 import { Pie } from 'react-chartjs-2';
 
 
-export default function App() {
+export default function App({gpa}) {
 
   ChartJS.register(ArcElement, Tooltip, Legend);
 
@@ -11,7 +11,7 @@ export default function App() {
     responsive: true,
     plugins: {
       tooltip: {
-        enabled: true
+        enabled: false
       },
       legend: {
         position: "none"
@@ -23,19 +23,22 @@ export default function App() {
     }
   }
 
+  let gpaV = gpa
+  let gpaCalc = 4 - gpaV
+
   const data = {
-    labels: ['Blue', ""],
+    labels: ["", ""],
     datasets: [
       {
         label: 'GPA',
-        data: [3.9, 0.1],
+        data: [gpaV, gpaCalc],
         backgroundColor: [
           'rgba(153, 102, 255, 0.2)',
           'gray',
         ],
         borderColor: [
-          'red',
-          'gray',
+          '#081A51',
+          '#081A51',
         ],
         borderWidth: 4,
       },
