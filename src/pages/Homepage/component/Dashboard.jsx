@@ -15,9 +15,14 @@ import { FaPeopleGroup } from "react-icons/fa6";
 import { MdStarRate } from "react-icons/md";
 import { FaRProject } from "react-icons/fa";
 
+import  { useAuth0 } from '@auth0/auth0-react';
+
 import Footer from "./Footer";
 
 const Dashboard = () => {
+
+  const {loginWithRedirect ,isAuthenticated} = useAuth0();
+
   return (
     <div>
       {/* <Hearder  /> */}
@@ -67,10 +72,17 @@ const Dashboard = () => {
             </li>
             <li className="logout">
               <a href="/">
+              isAuthenticated && (
                 <i>
                   <FiLogOut />
                 </i>
-                <span>Logout</span>
+                <span> 
+                  <button type="submit" onClick={() => loginWithRedirect()}> 
+                    Logout</button>
+                 
+                  
+                  </span>
+              )
               </a>
             </li>
           </ul>

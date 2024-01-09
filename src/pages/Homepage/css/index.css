@@ -184,11 +184,11 @@
     padding: 8px;
     margin-bottom: 12px;
     box-sizing: border-box;
-    border-color: black;
+    border-color:#846ff7;
   }
   
   .login-form button {
-    background-color: black;
+    background-color: #846ff7;
     color: #ffffff;
     padding: 10px;
     border: none;

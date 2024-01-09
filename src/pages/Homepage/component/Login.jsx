@@ -1,16 +1,11 @@
 
 import "../css/index.css";
-// import  { useState } from 'react';
+ import  { useAuth0 } from '@auth0/auth0-react';
 
 
  const login = () => {
-//     const [username, setUserId] = useState('');
-//     const [password, setPassword] = useState('');
-  
-//     const handleLogin = (e) => {
-//       e.preventDefault();
-     
-//     };
+  const {loginWithRedirect ,isAutheticated} = useAuth0();
+ 
    return (
     <div className="log">
      <div className="password-pic">
@@ -34,12 +29,19 @@ import "../css/index.css";
           type="password"
           placeholder="Enter your password"
           id="password"
-          // value={password}
-          // onChange={(e) => setPassword(e.target.value)}
+         
           required
         />
 
-       <a href="/Dashboard"><button type="submit">Login</button></a>
+        isAuthenticated &&(
+
+          <button type="submit" onClick={() => loginWithRedirect()}>
+            
+            Login</button>
+
+
+        )
+
         <p>Don&apos;t have an account? <a href="/Signup">Sign up</a></p>
       </form>
     </div>
